@@ -1,0 +1,4 @@
+{
+  "*.{js,jsx,ts,tsx,css,d.ts,json,md}": ["prettier --write", "git add"],
+  "*.{mdx}": ["prettier --parser mdx --write", "git add"]
+}
