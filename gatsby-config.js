@@ -1,10 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: 'Stefan Imhoff - Developer/Designer from Hamburg, Germany',
-    description: 'Front-End Web Developer / Designer / Minimalist / Introvert / Japanophile',
+    description:
+      'Front-End Web Developer / Designer / Minimalist / Introvert / Japanophile',
     author: 'Stefan Imhoff',
   },
   plugins: [
+    'gatsby-plugin-typescript',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
@@ -28,4 +30,4 @@ module.exports = {
       },
     },
   ],
-}
+};
