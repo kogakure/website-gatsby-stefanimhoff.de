@@ -10,7 +10,10 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "esModuleInterop": true,
-    "noUnusedLocals": false
+    "noUnusedLocals": false,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "removeComments": true
   },
   "exclude": ["node_modules", "public", ".cache"]
 }
