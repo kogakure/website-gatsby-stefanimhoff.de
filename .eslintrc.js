@@ -3,13 +3,22 @@ module.exports = {
   extends: [
     'airbnb',
     'plugin:@typescript-eslint/recommended',
+    'plugin:jsx-a11y/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
     'plugin:prettier/recommended',
     'prettier/@typescript-eslint',
   ],
-  plugins: ['@typescript-eslint', 'import', 'react-hooks', 'prettier'],
+  plugins: [
+    '@typescript-eslint',
+    'jest',
+    'jsx-a11y',
+    'markdown',
+    'import',
+    'react-hooks',
+    'prettier',
+  ],
   parserOptions: {
     ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
@@ -21,9 +30,14 @@ module.exports = {
   env: {
     browser: true,
     jest: true,
+    'jest/globals': true,
     node: true,
   },
+  globals: {
+    __PATH_PREFIX__: true,
+  },
   rules: {
+    // TypeScript
     '@typescript-eslint/no-unused-vars': [
       1,
       {
@@ -50,7 +64,7 @@ module.exports = {
     '@typescript-eslint/no-var-requires': 2,
     '@typescript-eslint/no-explicit-any': 2,
     '@typescript-eslint/no-non-null-assertion': 2,
-    'no-console': 2,
+    // Import
     'import/default': 2,
     'import/export': 2,
     'import/named': 2,
@@ -70,8 +84,7 @@ module.exports = {
       },
     ],
     'import/order': [2, { 'newlines-between': 'always' }],
-    'func-names': 2,
-    'space-before-function-paren': 0,
+    // React
     'react/jsx-one-expression-per-line': 0,
     'react/no-danger': 0,
     'react/display-name': 1,
@@ -86,9 +99,10 @@ module.exports = {
         extensions: ['.js', '.jsx', '.tsx'],
       },
     ],
+    // React Hooks
     'react-hooks/rules-of-hooks': 2,
     'react-hooks/exhaustive-deps': 1,
-    indent: [2, 2, { SwitchCase: 1 }],
+    // A11Y
     'jsx-a11y/href-no-hash': 0,
     'jsx-a11y/anchor-is-valid': [
       1,
@@ -96,8 +110,14 @@ module.exports = {
         aspects: ['invalidHref'],
       },
     ],
-    'prettier/prettier': 2,
+    // Jest
+    'jest/no-disabled-tests': 1,
+    'jest/no-focused-tests': 2,
+    'jest/no-identical-title': 2,
+    'jest/prefer-to-have-length': 1,
+    'jest/valid-expect': 2,
     // These rules are never needed when using Prettier
+    'prettier/prettier': 2,
     'array-bracket-newline': 0,
     'array-bracket-spacing': 0,
     'array-element-newline': 0,
@@ -116,6 +136,11 @@ module.exports = {
     'generator-star': 0,
     'generator-star-spacing': 0,
     'implicit-arrow-linebreak': 0,
+    // Misc
+    indent: [2, 2, { SwitchCase: 1 }],
+    'no-console': 2,
+    'func-names': 2,
+    'space-before-function-paren': 0,
   },
   settings: {
     react: {
