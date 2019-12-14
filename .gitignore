@@ -22,3 +22,5 @@ yarn-error.log
 .pnp.js
 .yarn-integrity
 
+# Dotenv
+.env.*
