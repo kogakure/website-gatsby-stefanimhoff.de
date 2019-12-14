@@ -1,24 +1,15 @@
-import React from 'react';
+import * as React from 'react';
 import { Link } from 'gatsby';
+
+import { Styled } from './Header.styles';
 
 interface HeaderProps {
   siteTitle?: string;
 }
 
 const Header: React.FC<HeaderProps> = ({ siteTitle = '' }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
+  <Styled.HeaderWrapper>
+    <Styled.HeaderContainer>
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
@@ -30,8 +21,8 @@ const Header: React.FC<HeaderProps> = ({ siteTitle = '' }) => (
           {siteTitle}
         </Link>
       </h1>
-    </div>
-  </header>
+    </Styled.HeaderContainer>
+  </Styled.HeaderWrapper>
 );
 
-export default Header;
+export { Header };
