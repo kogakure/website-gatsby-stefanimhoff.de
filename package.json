@@ -13,14 +13,17 @@
     "clean": "gatsby clean",
     "commit": "git-cz",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "format:check": "yarn run prettier --list-different",
+    "format": "yarn run prettier --write",
     "lint:js:fix": "yarn lint:js --fix",
-    "lint:js": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx --ext md",
+    "lint:js": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext md",
     "lint:ts": "tsc",
-    "lint": "yarn lint:ts && yarn lint:js",
+    "lint": "npm-run-all --parallel lint:*",
+    "prettier": "prettier --ignore-path .gitignore '**/*.{js,json,,ts,tsx,md}'",
     "serve": "gatsby serve",
     "start": "npm run develop",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "validate": "npm-run-all --parallel lint:* format:check build"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
@@ -67,6 +70,7 @@
     "jest-styled-components": "^6.3.4",
     "lint-staged": "^9.4.3",
     "prettier": "^1.19.1",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.2",
+    "yarn-run-all": "^3.1.1"
   }
 }
