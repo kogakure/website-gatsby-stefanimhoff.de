@@ -16,5 +16,6 @@
     "strict": true,
     "target": "esnext"
   },
-  "exclude": ["node_modules", "public", ".cache"]
+  "exclude": ["node_modules", "public", ".cache"],
+  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/d.ts"]
 }

@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import Layout from '../components/Layout';
+import { Layout } from '../global/Layout';
 import { Image } from '../components/Image';
+import { Headline, P } from '../components/Typography';
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <Headline as="h1">Hello World!</Headline>
+    <P>Welcome to your new Gatsby site.</P>
+    <P>Now go build something great.</P>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
