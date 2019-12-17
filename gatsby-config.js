@@ -17,7 +17,14 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/assets/images`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'src',
+        path: `${__dirname}/src/`,
       },
     },
     'gatsby-transformer-sharp',
@@ -25,13 +32,13 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'Stefan Imhoff',
+        short_name: 'Stefan Imhoff',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
-        display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png',
+        display: 'standalone',
+        icon: 'src/assets/images/gatsby-icon.png',
       },
     },
     {
