@@ -5,10 +5,10 @@ export interface ThemeProps {
   };
   textStyles: {
     [key: string]: {
-      fontSize: string | string[];
-      color: string;
-      fontWeight: string | number;
-      lineHeight: string;
+      fontSize?: string | string[];
+      color?: string;
+      fontWeight?: string | number;
+      lineHeight?: string;
     };
   };
 }
