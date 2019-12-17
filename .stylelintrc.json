@@ -1,8 +1,26 @@
 {
-  "processors": ["stylelint-processor-styled-components"],
+  "plugins": [
+    "stylelint-order",
+    "stylelint-config-rational-order/plugin",
+    "stylelint-prettier"
+  ],
   "extends": [
     "stylelint-config-recommended",
-    "stylelint-config-styled-components"
+    "stylelint-config-styled-components",
+    "stylelint-prettier/recommended"
   ],
-  "syntax": "scss"
+  "syntax": "scss",
+  "rules": {
+    "order/order": ["custom-properties", "declarations"],
+    "order/properties-order": [],
+    "plugin/rational-order": [
+      true,
+      {
+        "border-in-box-model": false,
+        "empty-line-between-groups": true
+      }
+    ],
+    "string-quotes": "double",
+    "prettier/prettier": true
+  }
 }
