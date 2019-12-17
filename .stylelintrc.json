@@ -2,10 +2,14 @@
   "plugins": [
     "stylelint-order",
     "stylelint-config-rational-order/plugin",
+    "stylelint-a11y",
+    "stylelint-no-indistinguishable-colors",
+    "stylelint-high-performance-animation",
     "stylelint-prettier"
   ],
   "extends": [
     "stylelint-config-recommended",
+    "stylelint-a11y/recommended",
     "stylelint-config-styled-components",
     "stylelint-prettier/recommended"
   ],
@@ -20,6 +24,8 @@
         "empty-line-between-groups": true
       }
     ],
+    "plugin/stylelint-no-indistinguishable-colors": true,
+    "plugin/no-low-performance-animation-properties": true,
     "string-quotes": "double",
     "prettier/prettier": true
   }
