@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-import globalCSS from './global.css';
+import globalCSS from './styles/global.css';
 
 const GlobalStyles = createGlobalStyle`
   ${globalCSS}
