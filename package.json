@@ -16,7 +16,7 @@
     "format:check": "yarn run prettier --list-different",
     "format": "yarn run prettier --write",
     "lint:css:fix": "yarn lint:css --fix",
-    "lint:css": "stylelint 'src/**/*.{ts,tsx,js}'",
+    "lint:css": "stylelint 'src/**/*.{ts,tsx,js,css}'",
     "lint:js:fix": "yarn lint:js --fix",
     "lint:js": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext md",
     "lint:ts": "tsc",
