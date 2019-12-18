@@ -28,7 +28,7 @@
     "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --watch",
     "test:watch": "jest --watch",
     "test": "is-ci 'test:coverage' 'test:watch'",
-    "validate": "npm-run-all --parallel lint:* test format:check build"
+    "validate": "npm-run-all --parallel lint:* test:coverage format:check build"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
