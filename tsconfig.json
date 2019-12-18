@@ -17,5 +17,5 @@
     "target": "esnext"
   },
   "exclude": ["node_modules", "public", ".cache"],
-  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/d.ts"]
+  "include": ["*.ts", "**/*.ts", "**/*.tsx", "**/*.js", "**/d.ts"]
 }

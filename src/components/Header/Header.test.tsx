@@ -14,10 +14,10 @@ describe('Header', () => {
   });
 
   it('renders correctly with prop siteTitle', () => {
-    const { container } = render(
-      <Header siteTitle="I am the title of the site" />
-    );
+    const siteTitle = 'I am the title of the site';
+    const { container } = render(<Header siteTitle={siteTitle} />);
 
     expect(container.firstChild).toMatchSnapshot();
+    expect(container).toHaveTextContent(siteTitle);
   });
 });

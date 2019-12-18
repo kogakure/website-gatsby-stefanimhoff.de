@@ -27,8 +27,6 @@ exports[`Header renders correctly 1`] = `
       style="margin: 0px;"
     >
       <a
-        aria-current="page"
-        class=""
         href="/"
         style="color: white; text-decoration: none;"
       />
@@ -64,8 +62,6 @@ exports[`Header renders correctly with prop siteTitle 1`] = `
       style="margin: 0px;"
     >
       <a
-        aria-current="page"
-        class=""
         href="/"
         style="color: white; text-decoration: none;"
       >
