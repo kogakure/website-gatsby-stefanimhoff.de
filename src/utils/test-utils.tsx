@@ -4,14 +4,14 @@ import { ThemeProvider } from 'styled-components';
 
 import { light } from '../theme';
 
-const AllTheProviders: React.FC = ({ children }) => (
+const AllProviders: React.FC = ({ children }) => (
   <ThemeProvider theme={light}>{children}</ThemeProvider>
 );
 
 const customRender = (
   ui: React.ReactElement,
   options?: RenderOptions
-): RenderResult => render(ui, { wrapper: AllTheProviders, ...options });
+): RenderResult => render(ui, { wrapper: AllProviders, ...options });
 
 // re-export everything
 export * from '@testing-library/react';
