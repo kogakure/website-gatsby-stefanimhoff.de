@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 import { StyledDynamicComponent } from '../../global/DynamicComponent';
-import { theme } from '../../theme';
+import { light } from '../../theme';
+import { TextStyleProps } from '../../theme/theme.d';
 
-const { headline, paragraph } = theme.textStyles;
+const { headline, paragraph } = light.textStyles;
 
-// TODO: Better type for props
-const createTypoComponent = (props: object) => {
+const createTypoComponent = (props: TextStyleProps) => {
   const TypoComponent = styled(StyledDynamicComponent)``;
 
   TypoComponent.defaultProps = {

@@ -5,7 +5,7 @@ import { Normalize } from 'styled-normalize';
 
 import { useLayoutQuery } from '../../hooks/useLayoutQuery';
 import { Header } from '../../components/Header';
-import { theme } from '../../theme';
+import { light } from '../../theme';
 import { GlobalStyles } from '../Styles';
 
 import { Styled } from './Layout.styles';
@@ -17,7 +17,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   const { title } = site.siteMetadata;
 
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={light}>
       <Normalize />
       <GlobalStyles />
       <Header siteTitle={title} />

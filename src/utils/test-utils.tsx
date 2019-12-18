@@ -2,10 +2,10 @@ import React from 'react';
 import { render, RenderOptions, RenderResult } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 
-import { theme } from '../theme';
+import { light } from '../theme';
 
 const AllTheProviders: React.FC = ({ children }) => (
-  <ThemeProvider theme={theme}>{children}</ThemeProvider>
+  <ThemeProvider theme={light}>{children}</ThemeProvider>
 );
 
 const customRender = (
