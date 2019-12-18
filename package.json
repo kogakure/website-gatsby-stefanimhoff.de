@@ -60,6 +60,7 @@
     "@types/react-helmet": "^5.0.14",
     "@types/styled-components": "^4.4.1",
     "@types/styled-system": "^5.1.4",
+    "@types/testing-library__react": "^9.1.2",
     "@typescript-eslint/eslint-plugin": "^2.10.0",
     "@typescript-eslint/parser": "^2.10.0",
     "babel-jest": "^24.9.0",
