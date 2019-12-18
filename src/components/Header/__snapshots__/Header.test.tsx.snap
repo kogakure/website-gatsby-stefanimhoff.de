@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+.c0 {
+  background: black;
+}
+
+.c1 {
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@media (min-width:1050px) {
+  .c0 {
+    background: #663399;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h1
+      style="margin: 0px;"
+    >
+      <a
+        aria-current="page"
+        class=""
+        href="/"
+        style="color: white; text-decoration: none;"
+      />
+    </h1>
+  </div>
+</div>
+`;
