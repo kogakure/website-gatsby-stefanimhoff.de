@@ -1,6 +1,6 @@
-import { light } from '../theme';
+import { common } from '../theme';
 
-const [phone, tablet, desktop] = light.breakpoints;
+const [phone, tablet, desktop] = common.breakpoints;
 
 const media = {
   phone: `min-width: ${phone}`,

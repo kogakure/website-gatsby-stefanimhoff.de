@@ -10,6 +10,8 @@ import { GlobalStyles } from '../Styles';
 
 import { Styled } from './Layout.styles';
 
+export const currentTheme = light;
+
 type LayoutProps = React.ReactNode & RouterProps;
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
@@ -17,7 +19,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   const { title } = site.siteMetadata;
 
   return (
-    <ThemeProvider theme={light}>
+    <ThemeProvider theme={currentTheme}>
       <Normalize />
       <GlobalStyles />
       <Header siteTitle={title} />

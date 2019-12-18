@@ -1,3 +1,3 @@
-import { light } from './light';
+import { light, dark, common } from './theme';
 
-export { light };
+export { light, dark, common };

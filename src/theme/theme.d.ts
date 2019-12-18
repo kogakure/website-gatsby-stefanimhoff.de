@@ -1,3 +1,11 @@
+export interface BreakPointProps {
+  breakpoints: string[];
+}
+
+export interface ColorProps {
+  primary: string;
+}
+
 export interface TextStyleProps {
   fontSize?: string | string[];
   color?: string;
@@ -5,13 +13,8 @@ export interface TextStyleProps {
   lineHeight?: string;
 }
 
-export interface ColorProps {
-  primary: string;
-}
-
 export interface ThemeProps {
-  breakpoints: string[];
-  colors: ColorProps;
+  colors?: ColorProps;
   textStyles: {
     [key: string]: TextStyleProps;
   };
