@@ -1,14 +1,18 @@
+export interface TextStyleProps {
+  fontSize?: string | string[];
+  color?: string;
+  fontWeight?: string | number;
+  lineHeight?: string;
+}
+
+export interface ColorProps {
+  primary: string;
+}
+
 export interface ThemeProps {
   breakpoints: string[];
-  colors: {
-    primary: string;
-  };
+  colors: ColorProps;
   textStyles: {
-    [key: string]: {
-      fontSize?: string | string[];
-      color?: string;
-      fontWeight?: string | number;
-      lineHeight?: string;
-    };
+    [key: string]: TextStyleProps;
   };
 }
