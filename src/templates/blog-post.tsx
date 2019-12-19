@@ -1,9 +1,18 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import { MDXProvider } from '@mdx-js/react';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 import { Layout } from '../global/Layout';
 import { PostQueryData } from '../typings/PostQuery';
+import { Demo } from '../components/Demo';
+
+const Acronym: React.FC = props => <abbr {...props} />;
+
+const shortcodes = {
+  acronym: Acronym,
+  Demo,
+};
 
 const BlogPostTemplate = ({ data }: PostQueryData) => {
   const {
@@ -24,7 +33,9 @@ const BlogPostTemplate = ({ data }: PostQueryData) => {
             {words} words, {text}
           </small>
         </header>
-        <MDXRenderer>{body}</MDXRenderer>
+        <MDXProvider components={shortcodes}>
+          <MDXRenderer>{body}</MDXRenderer>
+        </MDXProvider>
         <hr />
       </article>
     </Layout>

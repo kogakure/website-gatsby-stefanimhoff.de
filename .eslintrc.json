@@ -67,6 +67,7 @@
       }
     ],
     "react/jsx-one-expression-per-line": "off",
+    "react/jsx-props-no-spreading": "off",
     "react/jsx-uses-react": "warn",
     "react/no-danger": "off",
     "react/no-unescaped-entities": "off",

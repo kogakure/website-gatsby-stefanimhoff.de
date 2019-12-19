@@ -7,10 +7,10 @@ module.exports = {
   collectCoverageFrom: ['**/src/**/*.{js,ts,tsx}'],
   coverageThreshold: {
     global: {
-      statements: 30,
-      branches: 30,
-      function: 30,
-      lines: 30,
+      statements: 25,
+      branches: 25,
+      function: 25,
+      lines: 25,
     },
   },
   watchPlugins: [
