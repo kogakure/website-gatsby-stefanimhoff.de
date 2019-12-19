@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { media } from '../../global/MediaQueries';
 
 const HeaderWrapper = styled.div`
-  background: black;
+  background: ${props => props.theme.colors.background};
 
   @media (${media.tablet}) {
     background: ${props => props.theme.colors.primary};
