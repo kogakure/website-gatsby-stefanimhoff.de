@@ -6,6 +6,13 @@ export interface PostQueryData {
         description: string;
         date: string;
       };
+      fields: {
+        slug: string;
+        readingTime: {
+          text: string;
+          words: string;
+        };
+      };
       body: string;
       id: string;
     };
