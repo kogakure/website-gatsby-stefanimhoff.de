@@ -44,6 +44,7 @@ module.exports = {
               maxWidth: 1000,
             },
           },
+          'gatsby-remark-responsive-iframe',
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
         ],
