@@ -5,7 +5,7 @@ import { Normalize } from 'styled-normalize';
 
 import { useLayoutQuery } from '../../hooks/useLayoutQuery';
 import { Header } from '../../components/Header';
-import { light } from '../../theme';
+import { light } from '../../theme/Theme';
 import { GlobalStyles } from '../Styles';
 
 import { Styled } from './Layout.styles';

@@ -48,8 +48,15 @@
       }
     ],
     "@typescript-eslint/no-use-before-define": "error",
-    "@typescript-eslint/no-var-requires": "error",
+    "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/prefer-interface": "off",
+    "@typescript-eslint/indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
     // React
     "react/display-name": "warn",
     "react/forbid-prop-types": "off",
@@ -107,13 +114,6 @@
     // Misc
     "arrow-body-style": ["error", "as-needed"],
     "func-names": "error",
-    "indent": [
-      "error",
-      2,
-      {
-        "SwitchCase": 1
-      }
-    ],
     "no-console": "error",
     "no-param-reassign": [
       "error",
@@ -134,21 +134,5 @@
     "react": {
       "version": "detect"
     }
-  },
-  "overrides": [
-    {
-      "files": ["**/*.js"],
-      "rules": {
-        "@typescript-eslint/ban-ts-ignore": "off",
-        "@typescript-eslint/camelcase": "off",
-        "@typescript-eslint/explicit-function-return-type": "off",
-        "@typescript-eslint/no-explicit-any": "off",
-        "@typescript-eslint/no-non-null-assertion": "off",
-        "@typescript-eslint/no-unused-vars": "off",
-        "@typescript-eslint/no-use-before-define": "off",
-        "@typescript-eslint/no-var-requires": "off",
-        "@typescript-eslint/prefer-interface": "off"
-      }
-    }
-  ]
+  }
 }
