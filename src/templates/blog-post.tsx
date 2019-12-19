@@ -9,6 +9,9 @@ const BlogPostTemplate = ({ data }: PostQueryData) => {
   const {
     body,
     frontmatter: { title, date },
+    fields: {
+      readingTime: { text, words },
+    },
   } = data.mdx;
 
   return (
@@ -17,6 +20,9 @@ const BlogPostTemplate = ({ data }: PostQueryData) => {
         <header>
           <h1>{title}</h1>
           <p>{date}</p>
+          <small>
+            {words} words, {text}
+          </small>
         </header>
         <MDXRenderer>{body}</MDXRenderer>
         <hr />
@@ -36,6 +42,14 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+      }
+      fields {
+        slug
+        slug
+        readingTime {
+          text
+          words
+        }
       }
     }
   }
