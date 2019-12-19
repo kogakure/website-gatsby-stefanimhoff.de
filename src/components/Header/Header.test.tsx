@@ -1,10 +1,8 @@
 import React from 'react';
 
-import { render, cleanup } from '../../utils/test-utils';
+import { render } from '../../utils/test-utils';
 
 import { Header } from './Header';
-
-afterEach(cleanup);
 
 describe('Header', () => {
   it('renders correctly', () => {

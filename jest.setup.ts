@@ -1,7 +1,6 @@
-import 'jest-styled-components';
 import '@testing-library/jest-dom/extend-expect';
+import 'jest-styled-components';
 
-// @ts-ignore: https://github.com/testing-library/jest-dom/issues/123
-import * as jestDOM from '@testing-library/jest-dom';
+import { cleanup } from './src/utils/test-utils';
 
-expect.extend(jestDOM);
+afterEach(cleanup);
