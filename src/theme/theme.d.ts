@@ -3,6 +3,7 @@ export interface BreakPointProps {
 }
 
 export interface ColorProps {
+  background: string;
   primary: string;
 }
 

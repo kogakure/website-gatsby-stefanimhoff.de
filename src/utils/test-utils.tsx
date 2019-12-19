@@ -2,16 +2,33 @@ import React from 'react';
 import { render, RenderOptions, RenderResult } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 
+import { ThemeProps } from '../theme/theme.d';
 import { light } from '../theme';
 
-const AllProviders: React.FC = ({ children }) => (
-  <ThemeProvider theme={light}>{children}</ThemeProvider>
-);
+interface CustomTheme {
+  theme: ThemeProps;
+}
+
+type RenderOptionsWithTheme = RenderOptions & CustomTheme;
 
 const customRender = (
-  ui: React.ReactElement,
-  options?: RenderOptions
-): RenderResult => render(ui, { wrapper: AllProviders, ...options });
+  node: React.ReactElement,
+  options: RenderOptionsWithTheme = { theme: light }
+): RenderResult => {
+  const { theme } = options;
+  const rendered = render(
+    <ThemeProvider theme={theme}>{node}</ThemeProvider>,
+    options
+  );
+
+  return {
+    ...rendered,
+    rerender: (
+      ui: React.ReactElement,
+      rerenderOptions?: RenderOptionsWithTheme
+    ) => customRender(ui, { container: rendered.container, ...options }),
+  };
+};
 
 // re-export everything
 export * from '@testing-library/react';

@@ -2,6 +2,7 @@ import React from 'react';
 import { axe } from 'jest-axe';
 
 import { render } from '../../utils/test-utils';
+import { dark } from '../../theme';
 
 import { Header } from './Header';
 
@@ -18,6 +19,14 @@ describe('Header', () => {
 
     expect(container.firstChild).toMatchSnapshot();
     expect(container).toHaveTextContent(siteTitle);
+  });
+
+  test('renders correctly with dark theme', () => {
+    const { container } = render(<Header siteTitle="Dark Theme" />, {
+      theme: dark,
+    });
+
+    expect(container.firstChild).toMatchSnapshot();
   });
 
   test('is accessible', async () => {
