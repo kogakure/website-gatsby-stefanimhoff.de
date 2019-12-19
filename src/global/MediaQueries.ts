@@ -1,4 +1,4 @@
-import { common } from '../theme';
+import { common } from '../theme/Theme';
 
 const [phone, tablet, desktop] = common.breakpoints;
 

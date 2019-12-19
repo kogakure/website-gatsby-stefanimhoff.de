@@ -1,4 +1,4 @@
-import { ThemeProps, BreakPointProps } from './theme.d';
+import { ThemeProps, BreakPointProps } from '../typings/Theme';
 
 const common: BreakPointProps = {
   breakpoints: ['768px', '1050px', '1440px'],
