@@ -44,6 +44,14 @@ module.exports = {
               maxWidth: 1000,
             },
           },
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              classPrefix: 'language-',
+              aliases: { sh: 'bash' },
+              showLineNumbers: false,
+            },
+          },
           'gatsby-remark-responsive-iframe',
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
