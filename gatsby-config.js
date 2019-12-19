@@ -62,6 +62,7 @@ module.exports = {
               rel: 'nofollow noopener noreferrer external',
             },
           },
+          'gatsby-remark-numbered-footnotes',
           'gatsby-remark-autolink-headers',
           'gatsby-remark-responsive-iframe',
           'gatsby-remark-copy-linked-files',
