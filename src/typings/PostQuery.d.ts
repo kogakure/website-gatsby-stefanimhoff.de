@@ -1,12 +1,12 @@
 export interface PostQueryData {
   data: {
-    markdownRemark: {
+    mdx: {
       frontmatter: {
         title: string;
         description: string;
         date: string;
       };
-      html: string;
+      body: string;
       id: string;
     };
   };

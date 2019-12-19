@@ -7,7 +7,7 @@ import { Image } from '../components/Image';
 import { Headline, P } from '../components/Typography';
 
 const IndexPage = ({ data }: PostsQueryData) => {
-  const posts = data.allMarkdownRemark.edges;
+  const posts = data.allMdx.edges;
 
   return (
     <Layout>
@@ -47,7 +47,7 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           excerpt

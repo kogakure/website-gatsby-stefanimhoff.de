@@ -7,7 +7,7 @@ interface Post {
 
 export interface PostsQueryData {
   data: {
-    allMarkdownRemark: {
+    allMdx: {
       edges: [EdgeNode];
     };
   };
