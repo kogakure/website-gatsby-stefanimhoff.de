@@ -2,6 +2,8 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
+const acronyms = require('./acronmys');
+
 module.exports = {
   siteMetadata: {
     title: 'Stefan Imhoff - Developer/Designer from Hamburg, Germany',
@@ -60,6 +62,12 @@ module.exports = {
             options: {
               target: null,
               rel: 'nofollow noopener noreferrer external',
+            },
+          },
+          {
+            resolve: 'gatsby-remark-acronyms',
+            options: {
+              acronyms,
             },
           },
           'gatsby-remark-numbered-footnotes',
