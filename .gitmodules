@@ -1,0 +1,6 @@
+[submodule "extensions/zhuangtongfa.Material-theme/extension"]
+	path = extensions/zhuangtongfa.Material-theme/extension
+	url = https://github.com/Binaryify/OneDark-Pro.git
+[submodule "extensions/mrmlnc.vscode-apache/extension"]
+	path = extensions/mrmlnc.vscode-apache/extension
+	url = https://github.com/mrmlnc/vscode-apache.git
