@@ -11,6 +11,7 @@ yarn-error.log*
 # Gatsby files
 .cache/
 public
+extensions
 
 # Mac files
 .DS_Store
