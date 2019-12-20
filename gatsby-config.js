@@ -126,11 +126,11 @@ module.exports = {
         icon: 'src/assets/images/gatsby-icon.png',
       },
     },
-    {
-      resolve: 'gatsby-plugin-react-axe',
-      options: {
-        showInProduction: false,
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-react-axe',
+    //   options: {
+    //     showInProduction: false,
+    //   },
+    // },
   ],
 };

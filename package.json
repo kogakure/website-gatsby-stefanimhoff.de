@@ -67,7 +67,8 @@
     "react-helmet": "^5.2.1",
     "styled-components": "^4.4.1",
     "styled-normalize": "^8.0.6",
-    "styled-system": "^5.1.4"
+    "styled-system": "^5.1.4",
+    "use-persisted-state": "^0.3.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -81,6 +82,7 @@
     "@types/styled-components": "^4.4.1",
     "@types/styled-system": "^5.1.4",
     "@types/testing-library__react": "^9.1.2",
+    "@types/use-persisted-state": "^0.3.0",
     "@typescript-eslint/eslint-plugin": "^2.10.0",
     "@typescript-eslint/parser": "^2.10.0",
     "babel-jest": "^24.9.0",

@@ -7,18 +7,18 @@ const common: BreakPointProps = {
 const light: ThemeProps = {
   colors: {
     background: 'lightgrey',
-    primary: 'darkgrey',
+    primary: 'black',
   },
   textStyles: {
     headline: {
       fontSize: ['20px', '50px', '100px'],
-      color: 'darkgrey',
+      color: 'black',
       fontWeight: 900,
       lineHeight: '1.0',
     },
     paragraph: {
       fontSize: '20px',
-      color: 'darkgrey',
+      color: 'black',
       fontWeight: 300,
       lineHeight: '1.6',
     },
@@ -27,8 +27,8 @@ const light: ThemeProps = {
 
 const dark: ThemeProps = {
   colors: {
-    background: 'darkgrey',
-    primary: 'lightgrey',
+    background: 'black',
+    primary: 'white',
   },
   textStyles: {
     headline: {

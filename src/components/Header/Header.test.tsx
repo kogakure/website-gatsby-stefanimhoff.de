@@ -2,7 +2,7 @@ import React from 'react';
 import { axe } from 'jest-axe';
 
 import { render } from '../../utils/test-utils';
-import { dark } from '../../theme/Theme';
+import { dark } from '../../theme';
 
 import { Header } from './Header';
 

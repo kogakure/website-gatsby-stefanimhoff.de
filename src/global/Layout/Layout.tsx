@@ -1,30 +1,46 @@
+/* eslint-disable import/no-duplicates */
 import * as React from 'react';
+import { useState } from 'react';
+import createPersistedState from 'use-persisted-state';
 import { RouterProps } from '@reach/router';
 import { ThemeProvider } from 'styled-components';
 import { Normalize } from 'styled-normalize';
 
-import { useLayoutQuery } from '../../hooks/useLayoutQuery';
+import { useLayoutQuery } from '../../hooks';
 import { Header } from '../../components/Header';
-import { light } from '../../theme/Theme';
+import { light, dark } from '../../theme';
 import { GlobalStyles } from '../Styles';
 
 import { Styled } from './Layout.styles';
 
-export const currentTheme = light;
+const useThemeState = createPersistedState('darkMode');
 
 type LayoutProps = React.ReactNode & RouterProps;
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
+  const [darkMode, setDarkMode] = useThemeState(false);
+  const [theme, setTheme] = useState(darkMode ? dark : light);
+
   const { site } = useLayoutQuery();
   const { title } = site.siteMetadata;
 
+  const changeTheme = () => {
+    setTheme(darkMode ? light : dark);
+    setDarkMode(!darkMode);
+  };
+
   return (
-    <ThemeProvider theme={currentTheme}>
+    <ThemeProvider theme={theme}>
       <Normalize />
       <GlobalStyles />
       <Header siteTitle={title} />
       <Styled.MainLayout className="main">
-        <div>{children}</div>
+        <div>
+          <button onClick={changeTheme} type="button">
+            Toggle Theme
+          </button>
+          {children}
+        </div>
       </Styled.MainLayout>
     </ThemeProvider>
   );

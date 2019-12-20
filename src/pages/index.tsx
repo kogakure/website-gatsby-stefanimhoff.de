@@ -24,9 +24,9 @@ const IndexPage = ({ data }: PostsQueryData) => {
         return (
           <article key={slug}>
             <header>
-              <h3>
+              <h2>
                 <Link to={slug}>{title}</Link>
-              </h3>
+              </h2>
               <small>{date}</small>
             </header>
             <section>
