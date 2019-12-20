@@ -2,7 +2,7 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const acronyms = require('./acronmys');
+const acronyms = require('./acronyms.json');
 
 module.exports = {
   siteMetadata: {
@@ -12,14 +12,26 @@ module.exports = {
     author: 'Stefan Imhoff',
   },
   plugins: [
-    'gatsby-plugin-typescript',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sharp',
     'gatsby-plugin-styled-components',
+    'gatsby-plugin-typescript',
+    'gatsby-remark-reading-time',
+    'gatsby-transformer-json',
+    'gatsby-transformer-sharp',
+    'gatsby-transformer-yaml',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'posts',
         path: `${__dirname}/src/posts`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'data',
+        path: `${__dirname}/src/data`,
       },
     },
     {
@@ -78,9 +90,6 @@ module.exports = {
         ],
       },
     },
-    'gatsby-remark-reading-time',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
