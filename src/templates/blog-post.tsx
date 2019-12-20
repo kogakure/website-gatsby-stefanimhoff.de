@@ -7,10 +7,7 @@ import { Layout } from '../global/Layout';
 import { PostQueryData } from '../typings/PostQuery';
 import { Demo } from '../components/Demo';
 
-const Acronym: React.FC = props => <abbr {...props} />;
-
 const shortcodes = {
-  acronym: Acronym,
   Demo,
 };
 
