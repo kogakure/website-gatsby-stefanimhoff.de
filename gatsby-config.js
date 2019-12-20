@@ -53,6 +53,12 @@ module.exports = {
       options: {
         extensions: ['.mdx', '.md'],
         gatsbyRemarkPlugins: [
+          'gatsby-remark-autolink-headers',
+          'gatsby-remark-copy-linked-files',
+          'gatsby-remark-numbered-footnotes',
+          'gatsby-remark-responsive-iframe',
+          'gatsby-remark-smartypants',
+          'gatsby-remark-unwrap-images',
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -82,11 +88,6 @@ module.exports = {
               acronyms,
             },
           },
-          'gatsby-remark-numbered-footnotes',
-          'gatsby-remark-autolink-headers',
-          'gatsby-remark-responsive-iframe',
-          'gatsby-remark-copy-linked-files',
-          'gatsby-remark-smartypants',
         ],
       },
     },
