@@ -2,6 +2,8 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
+const path = require('path');
+
 const acronyms = require('./acronyms.json');
 
 module.exports = {
@@ -60,19 +62,40 @@ module.exports = {
           'gatsby-remark-smartypants',
           'gatsby-remark-unwrap-images',
           {
+            resolve: `gatsby-remark-vscode`,
+            // All options are optional. Defaults shown here.
+            options: {
+              colorTheme: 'One Dark Pro',
+              wrapperClassName: 'code-block',
+              injectStyles: true,
+              extensions: [
+                {
+                  identifier: 'zhuangtongfa.Material-theme',
+                  version: '3.2.1',
+                },
+                {
+                  identifier: 'mrmlnc.vscode-apache',
+                  version: '1.2.0',
+                },
+              ],
+              extensionDataDirectory: path.resolve('extensions'),
+              languageAliases: {},
+              replaceColor: x => x,
+              getLineClassName: ({
+                content,
+                index,
+                language,
+                codeFenceOptions,
+              }) => '',
+              logLevel: 'error',
+            },
+          },
+          {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 1000,
               withWebP: true,
               loading: 'lazy',
-            },
-          },
-          {
-            resolve: 'gatsby-remark-prismjs',
-            options: {
-              classPrefix: 'language-',
-              aliases: { sh: 'bash' },
-              showLineNumbers: false,
             },
           },
           {
