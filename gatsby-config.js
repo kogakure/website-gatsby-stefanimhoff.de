@@ -62,7 +62,7 @@ module.exports = {
           'gatsby-remark-smartypants',
           'gatsby-remark-unwrap-images',
           {
-            resolve: `gatsby-remark-vscode`,
+            resolve: 'gatsby-remark-vscode',
             // All options are optional. Defaults shown here.
             options: {
               colorTheme: 'One Dark Pro',
