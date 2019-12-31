@@ -1,11 +1,9 @@
-import { common } from '../theme';
-
-const [phone, tablet, desktop] = common.breakpoints;
+import { breakpoints } from '../theme/tokens';
 
 const media = {
-  phone: `min-width: ${phone}`,
-  tablet: `min-width: ${tablet}`,
-  desktop: `min-width: ${desktop}`,
+  phone: `min-width: ${breakpoints[0]}`,
+  tablet: `min-width: ${breakpoints[1]}`,
+  desktop: `min-width: ${breakpoints[2]}`,
 };
 
 export { media };

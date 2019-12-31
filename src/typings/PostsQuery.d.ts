@@ -7,7 +7,7 @@ interface Post {
 
 export interface PostsQueryData {
   data: {
-    allMdx: {
+    allBlogPosts: {
       edges: [EdgeNode];
     };
   };

@@ -2,13 +2,32 @@ const path = require('path');
 
 const { createFilePath } = require('gatsby-source-filesystem');
 
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions;
+
+  if (node.internal.type === 'Mdx') {
+    const filePath = createFilePath({ node, getNode });
+    const value = filePath.replace(/\/\d{4}/, '');
+
+    createNodeField({
+      name: 'slug',
+      node,
+      value,
+    });
+  }
+};
+
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  const blogPost = path.resolve('./src/templates/blog-post.tsx');
+  const blogPostTemplate = path.resolve('./src/templates/blog-post.tsx');
   const result = await graphql(`
     {
-      allMdx(sort: { fields: [frontmatter___date], order: DESC }, limit: 1000) {
+      allMdx(
+        filter: { fileAbsolutePath: { regex: "/src/posts/" } }
+        sort: { fields: [frontmatter___date], order: DESC }
+        limit: 1000
+      ) {
         edges {
           node {
             fields {
@@ -33,24 +52,10 @@ exports.createPages = async ({ graphql, actions }) => {
   posts.forEach((post, index) => {
     createPage({
       path: post.node.fields.slug,
-      component: blogPost,
+      component: blogPostTemplate,
       context: {
         slug: post.node.fields.slug,
       },
     });
   });
-};
-
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions;
-
-  if (node.internal.type === 'Mdx') {
-    const value = createFilePath({ node, getNode });
-
-    createNodeField({
-      name: 'slug',
-      node,
-      value,
-    });
-  }
 };

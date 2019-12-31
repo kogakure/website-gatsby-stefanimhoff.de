@@ -4,16 +4,24 @@ import { Link, graphql } from 'gatsby';
 import { PostsQueryData } from '../typings/PostsQuery';
 import { Layout } from '../global/Layout';
 import { Image } from '../components/Image';
-import { Headline, P } from '../components/Typography';
+import { Headline, SubHeadline } from '../components/Typography';
 
 const IndexPage = ({ data }: PostsQueryData) => {
-  const posts = data.allMdx.edges;
+  const posts = data.allBlogPosts.edges;
 
   return (
     <Layout>
-      <Headline as="h1">Hello World!</Headline>
-      <P>Welcome to your new Gatsby site.</P>
-      <P>Now go build something great.</P>
+      <Headline>Dynamic Headline</Headline>
+      <SubHeadline>Dynamic Subheadline</SubHeadline>
+      <Headline
+        as="h2"
+        fontSize="head"
+        color="background"
+        bg="primary"
+        padding="xl"
+      >
+        Dynamic Headline with custom props
+      </Headline>
       {posts.map(({ node }) => {
         const {
           excerpt,
@@ -30,7 +38,7 @@ const IndexPage = ({ data }: PostsQueryData) => {
               <small>{date}</small>
             </header>
             <section>
-              <p dangerouslySetInnerHTML={{ __html: description || excerpt }} />
+              <p>{description || excerpt}</p>
             </section>
           </article>
         );
@@ -47,15 +55,19 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query {
-    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+    allBlogPosts: allMdx(
+      filter: { fileAbsolutePath: { regex: "/src/posts/" } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
+          fileAbsolutePath
           excerpt
           fields {
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD.MM.YYYY")
             title
             description
           }

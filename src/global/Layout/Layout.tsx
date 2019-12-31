@@ -8,8 +8,8 @@ import { Normalize } from 'styled-normalize';
 
 import { useLayoutQuery } from '../../hooks';
 import { Header } from '../../components/Header';
-import { light, dark } from '../../theme';
 import { GlobalStyles } from '../Styles';
+import { light, dark } from '../../theme';
 
 import { Styled } from './Layout.styles';
 
