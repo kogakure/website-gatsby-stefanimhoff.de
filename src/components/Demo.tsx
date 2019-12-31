@@ -1,9 +1,16 @@
 import * as React from 'react';
 
-const Demo = () => (
-  <div style={{ background: 'red', padding: '15px', marginBottom: '15px' }}>
-    I can be used without importing me
-  </div>
+const Demo: React.FC = ({ children }) => (
+  <h2
+    style={{
+      background: 'blue',
+      padding: '15px',
+      marginBottom: '15px',
+      color: 'white',
+    }}
+  >
+    {children}
+  </h2>
 );
 
 export { Demo };

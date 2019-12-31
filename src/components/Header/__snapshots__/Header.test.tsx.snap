@@ -2,7 +2,7 @@
 
 exports[`Header renders correctly 1`] = `
 .c0 {
-  background: lightgrey;
+  background: white;
 }
 
 .c1 {
@@ -11,9 +11,9 @@ exports[`Header renders correctly 1`] = `
   padding: 1rem;
 }
 
-@media (min-width:1050px) {
+@media (min-width:768px) {
   .c0 {
-    background: darkgrey;
+    background: white;
   }
 }
 
@@ -28,7 +28,7 @@ exports[`Header renders correctly 1`] = `
     >
       <a
         href="/"
-        style="color: white; text-decoration: none;"
+        style="color: grey; text-decoration: none;"
       />
     </h1>
   </div>
@@ -46,44 +46,7 @@ exports[`Header renders correctly with dark theme 1`] = `
   padding: 1rem;
 }
 
-@media (min-width:1050px) {
-  .c0 {
-    background: lightgrey;
-  }
-}
-
-<div
-  class="c0"
->
-  <div
-    class="c1"
-  >
-    <h1
-      style="margin: 0px;"
-    >
-      <a
-        href="/"
-        style="color: white; text-decoration: none;"
-      >
-        Dark Theme
-      </a>
-    </h1>
-  </div>
-</div>
-`;
-
-exports[`Header renders correctly with prop siteTitle 1`] = `
-.c0 {
-  background: lightgrey;
-}
-
-.c1 {
-  max-width: 96rem;
-  margin: 0 auto;
-  padding: 1rem;
-}
-
-@media (min-width:1050px) {
+@media (min-width:768px) {
   .c0 {
     background: darkgrey;
   }
@@ -100,7 +63,44 @@ exports[`Header renders correctly with prop siteTitle 1`] = `
     >
       <a
         href="/"
-        style="color: white; text-decoration: none;"
+        style="color: grey; text-decoration: none;"
+      >
+        Dark Theme
+      </a>
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`Header renders correctly with prop siteTitle 1`] = `
+.c0 {
+  background: white;
+}
+
+.c1 {
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    background: white;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h1
+      style="margin: 0px;"
+    >
+      <a
+        href="/"
+        style="color: grey; text-decoration: none;"
       >
         I am the title of the site
       </a>

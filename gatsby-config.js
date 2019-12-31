@@ -25,6 +25,13 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'pages',
+        path: `${__dirname}/src/pages`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'posts',
         path: `${__dirname}/src/posts`,
       },
@@ -44,16 +51,12 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'src',
-        path: `${__dirname}/src/`,
-      },
-    },
-    {
       resolve: 'gatsby-plugin-mdx',
       options: {
         extensions: ['.mdx', '.md'],
+        defaultLayouts: {
+          default: require.resolve('./src/templates/default.tsx'),
+        },
         gatsbyRemarkPlugins: [
           'gatsby-remark-autolink-headers',
           'gatsby-remark-copy-linked-files',
@@ -63,7 +66,6 @@ module.exports = {
           'gatsby-remark-unwrap-images',
           {
             resolve: 'gatsby-remark-vscode',
-            // All options are optional. Defaults shown here.
             options: {
               colorTheme: 'One Dark Pro',
               wrapperClassName: 'code-block',

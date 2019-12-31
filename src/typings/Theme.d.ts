@@ -1,3 +1,5 @@
+import { light, dark } from '../theme';
+
 export interface BreakPointProps {
   breakpoints: string[];
 }
@@ -15,8 +17,11 @@ export interface TextStyleProps {
 }
 
 export interface ThemeProps {
-  colors?: ColorProps;
+  space?: number[];
+  colors: ColorProps;
   textStyles: {
     [key: string]: TextStyleProps;
   };
 }
+
+export type ThemeType = typeof light | typeof dark;

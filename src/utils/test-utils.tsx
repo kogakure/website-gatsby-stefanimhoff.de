@@ -2,11 +2,11 @@ import React from 'react';
 import { render, RenderOptions, RenderResult } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 
-import { ThemeProps } from '../typings/Theme';
-import { light } from '../theme/Theme';
+import { ThemeType } from '../typings/Theme';
+import { light } from '../theme';
 
 interface CustomTheme {
-  theme: ThemeProps;
+  theme: ThemeType;
 }
 
 type RenderOptionsWithTheme = RenderOptions & CustomTheme;

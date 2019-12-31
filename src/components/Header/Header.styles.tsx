@@ -6,7 +6,7 @@ const HeaderWrapper = styled.div`
   background: ${props => props.theme.colors.background};
 
   @media (${media.tablet}) {
-    background: ${props => props.theme.colors.primary};
+    background: ${props => props.theme.colors.background};
   }
 `;
 

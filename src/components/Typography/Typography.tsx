@@ -1,21 +1,29 @@
-import styled from 'styled-components';
+import * as React from 'react';
 
-import { StyledDynamicComponent } from '../../global/DynamicComponent';
-import { TextStyleProps } from '../../typings/Theme';
-// TODO: Read this from state
-import { currentTheme } from '../../global/Layout/Layout';
+import { StyledSystemProps } from '../../typings/StyleSystem';
 
-const { headline, paragraph } = currentTheme.textStyles;
+import DynamicComponent from './DynamicComponent';
 
-const createTypoComponent = (props: TextStyleProps) => {
-  const TypoComponent = styled(StyledDynamicComponent)``;
+const Headline: React.FC<StyledSystemProps> = ({ children, ...props }) => (
+  <DynamicComponent {...props}>{children}</DynamicComponent>
+);
 
-  TypoComponent.defaultProps = {
-    ...props,
-  };
+const SubHeadline: React.FC<StyledSystemProps> = ({ children, ...props }) => (
+  <DynamicComponent {...props}>{children}</DynamicComponent>
+);
 
-  return TypoComponent;
+Headline.defaultProps = {
+  as: 'h1',
+  fontSize: 'xxl',
+  color: 'primary',
+  bg: 'background',
 };
 
-export const Headline = createTypoComponent(headline);
-export const P = createTypoComponent(paragraph);
+SubHeadline.defaultProps = {
+  as: 'h2',
+  fontSize: 'xl',
+  color: 'primary',
+  bg: 'background',
+};
+
+export { Headline, SubHeadline };

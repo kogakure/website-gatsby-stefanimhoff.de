@@ -14,8 +14,8 @@ const Header: React.FC<HeaderProps> = ({ siteTitle = '' }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
-            textDecoration: `none`,
+            color: 'grey',
+            textDecoration: 'none',
           }}
         >
           {siteTitle}

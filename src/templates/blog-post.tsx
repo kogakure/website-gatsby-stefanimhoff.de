@@ -9,6 +9,7 @@ import { Demo } from '../components/Demo';
 
 const shortcodes = {
   Demo,
+  h2: Demo,
 };
 
 const BlogPostTemplate = ({ data }: PostQueryData) => {
@@ -33,7 +34,6 @@ const BlogPostTemplate = ({ data }: PostQueryData) => {
         <MDXProvider components={shortcodes}>
           <MDXRenderer>{body}</MDXRenderer>
         </MDXProvider>
-        <hr />
       </article>
     </Layout>
   );
@@ -52,7 +52,6 @@ export const pageQuery = graphql`
         description
       }
       fields {
-        slug
         slug
         readingTime {
           text
