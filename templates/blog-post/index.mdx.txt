@@ -1,0 +1,34 @@
+---
+published: true
+title: {{titleCase title}}
+deck: Subtitle (optional)
+date: {{date}}
+author: Stefan Imhoff
+excerpt: Excerpt (optional)
+description: Meta Description (optional)
+robots: 'noindex,follow'
+cover: ./cover.jpg
+credit:
+  name: Photographer Name
+  link: ''
+categories:
+  - book
+  - code
+  - design
+  - download
+  - film
+  - health
+  - minimalism
+  - monthly
+  - personal
+  - productivity
+  - publication
+  - quote
+  - self-improvement
+  - software
+  - tip
+  - typography
+series: ''
+---
+
+Hello World!

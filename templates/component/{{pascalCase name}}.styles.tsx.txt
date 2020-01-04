@@ -1,0 +1,17 @@
+import styled from 'styled-components';
+
+import { mediaQueries } from '../../theme/tokens';
+
+const {{pascalCase name}}Container = styled.div`
+  background: green;
+  color: black;
+
+  @media (${mediaQueries.tablet}) {
+    background: yellow;
+    color: darkgrey;
+  }
+`;
+
+export const Styled = {
+  {{pascalCase name}}Container,
+};

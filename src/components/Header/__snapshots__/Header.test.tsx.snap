@@ -6,8 +6,8 @@ exports[`Header renders correctly 1`] = `
 }
 
 .c1 {
-  max-width: 96rem;
   margin: 0 auto;
+  max-width: 96rem;
   padding: 1rem;
 }
 
@@ -41,8 +41,8 @@ exports[`Header renders correctly with dark theme 1`] = `
 }
 
 .c1 {
-  max-width: 96rem;
   margin: 0 auto;
+  max-width: 96rem;
   padding: 1rem;
 }
 
@@ -78,8 +78,8 @@ exports[`Header renders correctly with prop siteTitle 1`] = `
 }
 
 .c1 {
-  max-width: 96rem;
   margin: 0 auto;
+  max-width: 96rem;
   padding: 1rem;
 }
 
