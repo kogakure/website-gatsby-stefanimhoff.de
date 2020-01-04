@@ -56,7 +56,10 @@ export default IndexPage;
 export const pageQuery = graphql`
   query {
     allBlogPosts: allMdx(
-      filter: { fileAbsolutePath: { regex: "/src/posts/" } }
+      filter: {
+        fileAbsolutePath: { regex: "/src/posts/" }
+        frontmatter: { published: { eq: true } }
+      }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

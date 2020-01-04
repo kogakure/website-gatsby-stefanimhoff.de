@@ -24,7 +24,10 @@ exports.createPages = async ({ graphql, actions }) => {
   const result = await graphql(`
     {
       allMdx(
-        filter: { fileAbsolutePath: { regex: "/src/posts/" } }
+        filter: {
+          fileAbsolutePath: { regex: "/src/posts/" }
+          frontmatter: { published: { eq: true } }
+        }
         sort: { fields: [frontmatter___date], order: DESC }
         limit: 1000
       ) {
@@ -50,11 +53,16 @@ exports.createPages = async ({ graphql, actions }) => {
   const posts = result.data.allMdx.edges;
 
   posts.forEach((post, index) => {
+    const previous = index === posts.length - 1 ? null : posts[index + 1];
+    const next = index === 0 ? null : posts[index - 1];
+
     createPage({
       path: post.node.fields.slug,
       component: blogPostTemplate,
       context: {
         slug: post.node.fields.slug,
+        previous,
+        next,
       },
     });
   });
