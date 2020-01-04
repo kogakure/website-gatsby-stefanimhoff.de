@@ -7,10 +7,10 @@ import { ThemeProvider } from 'styled-components';
 import { Normalize } from 'styled-normalize';
 
 import { useLayoutQuery } from '../../hooks';
-import { Header } from '../../components/Header';
-import { GlobalStyles } from '../Styles';
 import { light, dark } from '../../theme';
+import { Header } from '../Header';
 
+import { GlobalStyles } from './GlobalStyles';
 import { Styled } from './Layout.styles';
 
 const useThemeState = createPersistedState('darkMode');

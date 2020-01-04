@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 
 import { PostsQueryData } from '../typings/PostsQuery';
-import { Layout } from '../global/Layout';
+import { Layout } from '../components/Layout';
 import { Image } from '../components/Image';
 import { Headline, SubHeadline } from '../components/Typography';
 

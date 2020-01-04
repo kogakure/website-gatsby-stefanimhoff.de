@@ -13,7 +13,7 @@ exports[`Header renders correctly 1`] = `
 
 @media (min-width:768px) {
   .c0 {
-    background: white;
+    background: lightgrey;
   }
 }
 
@@ -48,7 +48,7 @@ exports[`Header renders correctly with dark theme 1`] = `
 
 @media (min-width:768px) {
   .c0 {
-    background: darkgrey;
+    background: black;
   }
 }
 
@@ -85,7 +85,7 @@ exports[`Header renders correctly with prop siteTitle 1`] = `
 
 @media (min-width:768px) {
   .c0 {
-    background: white;
+    background: lightgrey;
   }
 }
 

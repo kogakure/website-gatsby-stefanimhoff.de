@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDXProvider } from '@mdx-js/react';
 
-import { Layout } from '../global/Layout';
+import { Layout } from '../components/Layout';
 import { Demo } from '../components/Demo';
 
 const shortcodes = {
