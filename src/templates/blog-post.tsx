@@ -1,17 +1,11 @@
 import React from 'react';
 import { graphql, Link } from 'gatsby';
-import { MDXProvider } from '@mdx-js/react';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
-import { Layout } from '../components/Layout';
 import { PostQueryData } from '../typings/PostQuery';
 import { PostPageContextData } from '../typings/PostPageContext';
-import { Demo } from '../components/Demo';
-
-const shortcodes = {
-  Demo,
-  h2: Demo,
-};
+import { Layout } from '../components/Layout';
+import { MDXProviderContainer } from '../components/MDXProviderContainer';
 
 interface BlogPostTemplateProps {
   readonly data: PostQueryData;
@@ -38,9 +32,9 @@ const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
             {words} words, {text}
           </small>
         </header>
-        <MDXProvider components={shortcodes}>
+        <MDXProviderContainer>
           <MDXRenderer>{body}</MDXRenderer>
-        </MDXProvider>
+        </MDXProviderContainer>
         {previous === false ? null : (
           <>
             {previous && (

@@ -3,7 +3,7 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../utils/test-utils';
 
-import { {{pascalCase name}} } from './{{pascalCase name}}';
+import { {{pascalCase name}} } from './';
 
 describe('{{pascalCase name}}', () => {
   test('renders correctly', () => {
