@@ -16,14 +16,7 @@
   "syntax": "scss",
   "rules": {
     "order/order": ["custom-properties", "declarations"],
-    "order/properties-order": [],
-    "plugin/rational-order": [
-      true,
-      {
-        "border-in-box-model": false,
-        "empty-line-between-groups": true
-      }
-    ],
+    "order/properties-alphabetical-order": true,
     "plugin/stylelint-no-indistinguishable-colors": true,
     "plugin/no-low-performance-animation-properties": true,
     "string-quotes": "double",

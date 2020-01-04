@@ -1,0 +1,13 @@
+import * as React from 'react';
+
+import { Styled } from './{{pascalCase name}}.styles';
+
+interface {{pascalCase name}}Props {}
+
+const {{pascalCase name}}: React.FC<{{pascalCase name}}Props> = () => (
+  <Styled.{{pascalCase name}}Container>
+    Hello {{pascalCase name}}!
+  </Styled.{{pascalCase name}}Container>
+);
+
+export { {{pascalCase name}} };
