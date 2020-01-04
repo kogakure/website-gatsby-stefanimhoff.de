@@ -1,6 +1,7 @@
 ---
-title: Post 1
+title: Post 1 (Image Example)
 date: '2018-12-19T18:00:00'
+published: true
 ---
 
 ## Headline Level 2

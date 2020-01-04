@@ -1,7 +1,8 @@
 ---
-title: Post 2
+title: Post 2 (Code Example)
 date: '2019-12-19T18:10:00'
 description: 'This is another description'
+published: true
 ---
 
 Another **Blog post**!!!

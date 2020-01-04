@@ -1,10 +1,11 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import { MDXProvider } from '@mdx-js/react';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 import { Layout } from '../global/Layout';
 import { PostQueryData } from '../typings/PostQuery';
+import { PostPageContextData } from '../typings/PostPageContext';
 import { Demo } from '../components/Demo';
 
 const shortcodes = {
@@ -12,7 +13,12 @@ const shortcodes = {
   h2: Demo,
 };
 
-const BlogPostTemplate = ({ data }: PostQueryData) => {
+interface BlogPostTemplateProps {
+  readonly data: PostQueryData;
+  readonly pageContext: PostPageContextData;
+}
+
+const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
   const {
     body,
     frontmatter: { title, date },
@@ -20,6 +26,7 @@ const BlogPostTemplate = ({ data }: PostQueryData) => {
       readingTime: { text, words },
     },
   } = data.mdx;
+  const { previous, next } = pageContext;
 
   return (
     <Layout>
@@ -34,6 +41,25 @@ const BlogPostTemplate = ({ data }: PostQueryData) => {
         <MDXProvider components={shortcodes}>
           <MDXRenderer>{body}</MDXRenderer>
         </MDXProvider>
+        {previous === false ? null : (
+          <>
+            {previous && (
+              <Link to={previous.node.fields.slug}>
+                <p>Previous: {previous.node.frontmatter.title}</p>
+              </Link>
+            )}
+          </>
+        )}
+
+        {next === false ? null : (
+          <>
+            {next && (
+              <Link to={next.node.fields.slug}>
+                <p>Next: {next.node.frontmatter.title}</p>
+              </Link>
+            )}
+          </>
+        )}
       </article>
     </Layout>
   );
