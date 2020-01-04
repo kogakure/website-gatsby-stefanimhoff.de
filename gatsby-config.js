@@ -33,21 +33,21 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'posts',
-        path: `${__dirname}/src/posts`,
+        path: `${__dirname}/content/posts`,
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'data',
-        path: `${__dirname}/src/data`,
+        path: `${__dirname}/content/data`,
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
-        path: `${__dirname}/src/assets/images`,
+        path: `${__dirname}/content/assets/images`,
       },
     },
     {
@@ -125,7 +125,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'standalone',
-        icon: 'src/assets/images/gatsby-icon.png',
+        icon: 'content/assets/images/gatsby-icon.png',
       },
     },
     {

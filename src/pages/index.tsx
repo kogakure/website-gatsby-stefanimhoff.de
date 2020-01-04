@@ -57,7 +57,7 @@ export const pageQuery = graphql`
   query {
     allBlogPosts: allMdx(
       filter: {
-        fileAbsolutePath: { regex: "/src/posts/" }
+        fileAbsolutePath: { regex: "/content/posts/" }
         frontmatter: { published: { eq: true } }
       }
       sort: { fields: [frontmatter___date], order: DESC }
