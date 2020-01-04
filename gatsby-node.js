@@ -7,12 +7,25 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === 'Mdx') {
     const filePath = createFilePath({ node, getNode });
-    const value = filePath.replace(/\/\d{4}/, '');
+    const cleanFilePath = filePath.replace(/\/\d{4}/, '');
+    const { language, robots } = node.frontmatter;
 
     createNodeField({
       name: 'slug',
       node,
-      value,
+      value: cleanFilePath,
+    });
+
+    createNodeField({
+      name: 'language',
+      node,
+      value: language || 'en',
+    });
+
+    createNodeField({
+      name: 'robots',
+      node,
+      value: robots || 'all',
     });
   }
 };
@@ -35,6 +48,8 @@ exports.createPages = async ({ graphql, actions }) => {
           node {
             fields {
               slug
+              language
+              robots
             }
             frontmatter {
               title

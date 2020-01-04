@@ -1,3 +1,3 @@
-import { useLayoutQuery } from './useLayoutQuery';
+import { useSiteMetadataQuery } from './useSiteMetadataQuery';
 
-export { useLayoutQuery };
+export { useSiteMetadataQuery };
