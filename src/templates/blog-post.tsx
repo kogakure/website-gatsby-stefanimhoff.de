@@ -5,6 +5,7 @@ import { MDXRenderer } from 'gatsby-plugin-mdx';
 import { PostQueryData } from '../typings/PostQuery';
 import { PostPageContextData } from '../typings/PostPageContext';
 import { Layout } from '../components/Layout';
+import { SEO } from '../components/SEO';
 import { MDXProviderContainer } from '../components/MDXProviderContainer';
 
 interface BlogPostTemplateProps {
@@ -15,15 +16,28 @@ interface BlogPostTemplateProps {
 const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
   const {
     body,
-    frontmatter: { title, date },
+    frontmatter: { title, date, description, cover },
     fields: {
       readingTime: { text, words },
+      language,
+      robots,
+      slug,
     },
   } = data.mdx;
   const { previous, next } = pageContext;
+  const imageURL = cover ? cover.publicURL : undefined;
 
   return (
     <Layout>
+      <SEO
+        article
+        description={description}
+        image={imageURL}
+        language={language}
+        pathname={slug}
+        robots={robots}
+        title={title}
+      />
       <article>
         <header>
           <h1>{title}</h1>
@@ -70,9 +84,14 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        cover {
+          publicURL
+        }
       }
       fields {
         slug
+        language
+        robots
         readingTime {
           text
           words

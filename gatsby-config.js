@@ -6,13 +6,21 @@ const path = require('path');
 
 const acronyms = require('./acronyms.json');
 
+const siteMetadata = {
+  title: 'Stefan Imhoff - Developer/Designer from Hamburg, Germany',
+  titleTemplate: '%s · Stefan Imhoff',
+  description:
+    'Front-End Web Developer / Designer / Minimalist / Introvert / Japanophile',
+  image: '/banner.png',
+  twitterUsername: '@kogakure',
+  author: 'Stefan Imhoff',
+  language: 'en',
+  siteUrl: 'https://www.stefanimhoff.de',
+  feedUrl: 'https://feeds.feedburner.com/stefanimhoff',
+};
+
 module.exports = {
-  siteMetadata: {
-    title: 'Stefan Imhoff - Developer/Designer from Hamburg, Germany',
-    description:
-      'Front-End Web Developer / Designer / Minimalist / Introvert / Japanophile',
-    author: 'Stefan Imhoff',
-  },
+  siteMetadata,
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',

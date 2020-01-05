@@ -4,9 +4,15 @@ export interface PostQueryData {
       title: string;
       description?: string;
       date: string;
+      language?: string;
+      cover?: {
+        publicURL: string;
+      };
     };
     fields: {
       slug: string;
+      language: string;
+      robots: string;
       readingTime: {
         text: string;
         words: string;

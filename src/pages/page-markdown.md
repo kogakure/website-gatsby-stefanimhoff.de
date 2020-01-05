@@ -1,11 +1,9 @@
----
-title: Page with Markdown
-date: '2019-12-19T18:00:00'
-description: 'This is a description'
----
+<SEO title="Custom Page Title" pathname="/page-markdown/" description="A custom page description" />
 
-## Headline
+# Markdown Page
 
 I’m just a **static** [page](https://google.de)
 
 <Demo>I am a demo</Demo>
+
+<Link to="/">Go back to the homepage</Link>

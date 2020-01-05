@@ -9,8 +9,8 @@ const GlobalStyles = createGlobalStyle<{ theme: ThemeType & ThemeProps }>`
   ${globalCSS}
   ${highlightCodeLine}
 
-  body {
-    background: ${({ theme }) => theme.colors.background} !important;
+  body.theme {
+    background: ${({ theme }) => theme.colors.background};
   }
 `;
 
