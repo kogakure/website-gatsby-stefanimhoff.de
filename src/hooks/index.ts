@@ -1,3 +1,4 @@
+import { useLocalStorage } from './useLocalStorage';
 import { useSiteMetadataQuery } from './useSiteMetadataQuery';
 
-export { useSiteMetadataQuery };
+export { useLocalStorage, useSiteMetadataQuery };

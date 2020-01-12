@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { mediaQueries } from '../../theme/tokens';
+import { mediaQueries } from '../../themes/tokens';
 
 const {{pascalCase name}}Container = styled.div`
   background: green;

@@ -3,7 +3,7 @@ import { render, RenderOptions, RenderResult } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 
 import { ThemeType } from '../typings/Theme';
-import { light } from '../theme';
+import { lightTheme } from '../themes';
 
 interface CustomTheme {
   theme: ThemeType;
@@ -13,7 +13,7 @@ type RenderOptionsWithTheme = RenderOptions & CustomTheme;
 
 const customRender = (
   node: React.ReactElement,
-  options: RenderOptionsWithTheme = { theme: light }
+  options: RenderOptionsWithTheme = { theme: lightTheme }
 ): RenderResult => {
   const { theme } = options;
   const rendered = render(
