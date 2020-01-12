@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const MainLayout = styled.main`
-  background: ${props => props.theme.colors.background};
+  background: var(--colorBackground);
   display: grid;
   grid-gap: 4rem;
   grid-template-columns: 3fr 1fr;

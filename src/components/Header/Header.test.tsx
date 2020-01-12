@@ -2,7 +2,7 @@ import React from 'react';
 import { axe } from 'jest-axe';
 
 import { render } from '../../utils/test-utils';
-import { dark } from '../../theme';
+import { darkTheme } from '../../themes';
 
 import { Header } from './Header';
 
@@ -23,7 +23,7 @@ describe('Header', () => {
 
   test('renders correctly with dark theme', () => {
     const { container } = render(<Header siteTitle="Dark Theme" />, {
-      theme: dark,
+      theme: darkTheme,
     });
 
     expect(container.firstChild).toMatchSnapshot();

@@ -5,23 +5,16 @@ import { PostsQueryData } from '../typings/PostsQuery';
 import { Layout } from '../components/Layout';
 import { Image } from '../components/Image';
 import { Headline, SubHeadline } from '../components/Typography';
+import { SEO } from '../components/SEO';
 
 const IndexPage = ({ data }: PostsQueryData) => {
   const posts = data.allBlogPosts.edges;
 
   return (
     <Layout>
+      <SEO homepage />
       <Headline>Dynamic Headline</Headline>
       <SubHeadline>Dynamic Subheadline</SubHeadline>
-      <Headline
-        as="h2"
-        fontSize="head"
-        color="background"
-        bg="primary"
-        padding="xl"
-      >
-        Dynamic Headline with custom props
-      </Headline>
       {posts.map(({ node }) => {
         const {
           excerpt,

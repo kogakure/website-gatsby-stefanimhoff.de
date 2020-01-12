@@ -8,6 +8,7 @@ interface SEOProps {
   article?: boolean;
   bodyClass?: string;
   description?: string;
+  homepage?: boolean;
   image?: string;
   language?: string;
   pathname?: string;
@@ -19,6 +20,7 @@ const SEO = ({
   article = false,
   bodyClass,
   description,
+  homepage = false,
   image,
   language,
   pathname,
@@ -45,12 +47,13 @@ const SEO = ({
     image: `${siteUrl}${image || defaultImage}`,
     language: language || defaultLanguage,
     title: title || defaultTitle,
+    titleTemplate: homepage ? '' : titleTemplate,
     url: `${siteUrl}${pathname || '/'}`,
   };
 
   return (
     <>
-      <Helmet title={seo.title} titleTemplate={titleTemplate}>
+      <Helmet title={seo.title} titleTemplate={seo.titleTemplate}>
         <html lang={seo.language} />
         {bodyClass && <body className={bodyClass} />}
         // Author

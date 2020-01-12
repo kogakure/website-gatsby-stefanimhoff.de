@@ -3,17 +3,17 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../utils/test-utils';
 
-import { {{pascalCase name}} } from '.';
+import { ThemeToggle } from '.';
 
-describe('{{pascalCase name}}', () => {
+describe('ThemeToggle', () => {
   test('renders correctly', () => {
-    const { container } = render(<{{pascalCase name}} />);
+    const { container } = render(<ThemeToggle />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('is accessible', async () => {
-    const { container } = render(<{{pascalCase name}} />);
+    const { container } = render(<ThemeToggle />);
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();

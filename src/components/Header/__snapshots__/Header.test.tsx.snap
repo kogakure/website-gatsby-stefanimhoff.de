@@ -2,7 +2,7 @@
 
 exports[`Header renders correctly 1`] = `
 .c0 {
-  background: white;
+  background: var(--colorBackground);
 }
 
 .c1 {
@@ -13,7 +13,7 @@ exports[`Header renders correctly 1`] = `
 
 @media (min-width:768px) {
   .c0 {
-    background: lightgrey;
+    background: var(--colorPrimary);
   }
 }
 
@@ -37,7 +37,7 @@ exports[`Header renders correctly 1`] = `
 
 exports[`Header renders correctly with dark theme 1`] = `
 .c0 {
-  background: darkgrey;
+  background: var(--colorBackground);
 }
 
 .c1 {
@@ -48,7 +48,7 @@ exports[`Header renders correctly with dark theme 1`] = `
 
 @media (min-width:768px) {
   .c0 {
-    background: black;
+    background: var(--colorPrimary);
   }
 }
 
@@ -74,7 +74,7 @@ exports[`Header renders correctly with dark theme 1`] = `
 
 exports[`Header renders correctly with prop siteTitle 1`] = `
 .c0 {
-  background: white;
+  background: var(--colorBackground);
 }
 
 .c1 {
@@ -85,7 +85,7 @@ exports[`Header renders correctly with prop siteTitle 1`] = `
 
 @media (min-width:768px) {
   .c0 {
-    background: lightgrey;
+    background: var(--colorPrimary);
   }
 }
 

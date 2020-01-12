@@ -1,4 +1,4 @@
-import { light, dark } from '../theme';
+import { lightTheme, darkTheme } from '../themes';
 
 export interface BreakPointProps {
   breakpoints: string[];
@@ -24,4 +24,4 @@ export interface ThemeProps {
   };
 }
 
-export type ThemeType = typeof light | typeof dark;
+export type ThemeType = typeof lightTheme | typeof darkTheme;
