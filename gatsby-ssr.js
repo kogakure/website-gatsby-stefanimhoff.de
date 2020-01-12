@@ -15,8 +15,8 @@ export const wrapRootElement = ({ element }) => (
   </ThemeProvider>
 );
 
-export const onRenderBody = ({ setBodyAttributes }) => {
-  setBodyAttributes({
+export const onRenderBody = ({ setHtmlAttributes }) => {
+  setHtmlAttributes({
     className: 'light no-js',
   });
 };

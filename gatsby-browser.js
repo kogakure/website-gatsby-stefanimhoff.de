@@ -17,6 +17,7 @@ export const wrapRootElement = ({ element }) => (
 
 export const onClientEntry = () => {
   window.addEventListener('load', () => {
-    document.body.classList.remove('no-js');
+    const root = document.getElementsByTagName('html')[0];
+    root.classList.remove('no-js');
   });
 };

@@ -10,14 +10,24 @@ const GlobalStyles = createGlobalStyle<{ theme: ThemeType & ThemeProps }>`
   ${globalCSS}
   ${highlightCodeLine}
 
-  body.light {
+  .light {
     --colorPrimary: ${lightColors.primary};
     --colorBackground: ${lightColors.background}
   }
 
-  body.dark {
+  .light .green {
+    --colorPrimary: black;
+    --colorBackground: lightgreen;
+  }
+
+  .dark {
     --colorPrimary: ${darkColors.primary};
     --colorBackground: ${darkColors.background}
+  }
+
+  .dark .green {
+    --colorPrimary: black;
+    --colorBackground: darkgreen;
   }
 `;
 
