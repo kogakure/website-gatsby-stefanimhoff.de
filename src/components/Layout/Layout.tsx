@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { RouterProps } from '@reach/router';
+import { Helmet } from 'react-helmet';
 
 import { useSiteMetadataQuery } from '../../hooks';
 import { SiteMetadataQueryData } from '../../typings/SiteMetadataQueryData';
@@ -9,15 +9,18 @@ import { ThemeToggle } from '../../components/ThemeToggle';
 
 import { Styled } from './Layout.styles';
 
-type LayoutProps = React.ReactNode & RouterProps;
+interface LayoutProps {
+  variant?: 'green';
+}
 
-const Layout: React.FC<LayoutProps> = ({ children }) => {
+const Layout: React.FC<LayoutProps> = ({ children, variant }) => {
   const { site }: SiteMetadataQueryData = useSiteMetadataQuery();
   const { title } = site.siteMetadata;
 
   return (
     <>
       <SEO />
+      {variant && <Helmet bodyAttributes={{ class: variant }} />}
       <Header siteTitle={title} />
       <Styled.MainLayout className="main">
         <div>
