@@ -4,11 +4,13 @@ import { Link } from 'gatsby';
 
 import { SEO } from '../SEO';
 import { Demo } from '../Demo';
+import { Emojify } from '../Emojify';
 
 const shortcodes = {
+  Demo,
+  Emojify,
   Link,
   SEO,
-  Demo,
   h2: Demo,
 };
 
