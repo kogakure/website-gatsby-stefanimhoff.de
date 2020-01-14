@@ -6,6 +6,7 @@ import { Layout } from '../components/Layout';
 import { Image } from '../components/Image';
 import { Headline, SubHeadline } from '../components/Typography';
 import { SEO } from '../components/SEO';
+import { Emojify } from '../components/Emojify';
 
 const IndexPage = ({ data }: PostsQueryData) => {
   const posts = data.allBlogPosts.edges;
@@ -13,7 +14,9 @@ const IndexPage = ({ data }: PostsQueryData) => {
   return (
     <Layout>
       <SEO homepage />
-      <Headline>Dynamic Headline</Headline>
+      <Headline>
+        Dynamic Headline <Emojify emoji="😎" />
+      </Headline>
       <SubHeadline>Dynamic Subheadline</SubHeadline>
       {posts.map(({ node }) => {
         const {

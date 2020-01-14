@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Emojify renders correctly 1`] = `
+<span
+  aria-label="zany"
+  role="img"
+>
+  🤪
+</span>
+`;

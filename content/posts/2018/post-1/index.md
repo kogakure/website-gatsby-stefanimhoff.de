@@ -9,6 +9,10 @@ cover: ./gatsby-astronaut.png
 
 This is my first post on my new fake blog! How exciting!
 
+<Emojify emoji="😁" />
+
+And an Emoji inline <Emojify emoji="😬" /> inside a text.
+
 I'm sure I'll write a lot more interesting things in the future.
 
 My site uses HTML and CSS!
