@@ -2,6 +2,7 @@ import React from 'react';
 import { render, RenderOptions, RenderResult } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 
+import { EmojifyProvider } from '../contexts';
 import { ThemeType } from '../typings/Theme';
 import { lightTheme } from '../themes';
 
@@ -17,7 +18,9 @@ const customRender = (
 ): RenderResult => {
   const { theme } = options;
   const rendered = render(
-    <ThemeProvider theme={theme}>{node}</ThemeProvider>,
+    <ThemeProvider theme={theme}>
+      <EmojifyProvider>{node}</EmojifyProvider>
+    </ThemeProvider>,
     options
   );
 
