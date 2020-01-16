@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { EmojifyProvider } from '../../contexts';
 import { useSiteMetadataQuery } from '../../hooks';
 import { SiteMetadataQueryData } from '../../typings/SiteMetadataQueryData';
 import { SEO } from '../../components/SEO';
@@ -21,18 +20,16 @@ const Layout: React.FC<LayoutProps> = ({ children, variant }) => {
 
   return (
     <>
-      <EmojifyProvider>
-        <SEO />
-        {variant && <Helmet bodyAttributes={{ class: variant }} />}
-        <Header siteTitle={title} />
-        <Styled.MainLayout className="main">
-          <div>
-            <ThemeToggle />
-            <EmojifyToggle />
-            {children}
-          </div>
-        </Styled.MainLayout>
-      </EmojifyProvider>
+      <SEO />
+      {variant && <Helmet bodyAttributes={{ class: variant }} />}
+      <Header siteTitle={title} />
+      <Styled.MainLayout className="main">
+        <div>
+          <ThemeToggle />
+          <EmojifyToggle />
+          {children}
+        </div>
+      </Styled.MainLayout>
     </>
   );
 };
