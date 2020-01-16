@@ -7,6 +7,7 @@ import { SiteMetadataQueryData } from '../../typings/SiteMetadataQueryData';
 import { SEO } from '../../components/SEO';
 import { Header } from '../../components/Header';
 import { ThemeToggle } from '../../components/ThemeToggle';
+import { EmojifyToggle } from '../../components/EmojifyToggle';
 
 import { Styled } from './Layout.styles';
 
@@ -27,6 +28,7 @@ const Layout: React.FC<LayoutProps> = ({ children, variant }) => {
         <Styled.MainLayout className="main">
           <div>
             <ThemeToggle />
+            <EmojifyToggle />
             {children}
           </div>
         </Styled.MainLayout>
