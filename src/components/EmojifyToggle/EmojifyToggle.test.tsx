@@ -14,7 +14,7 @@ describe('EmojifyToggle', () => {
   });
 
   test('changes the button text on click', async () => {
-    const { container, findByText, debug } = render(<EmojifyToggle />);
+    const { container, findByText } = render(<EmojifyToggle />);
     user.click(await findByText(/🐵/i));
     expect(container.firstChild).toMatchSnapshot();
 

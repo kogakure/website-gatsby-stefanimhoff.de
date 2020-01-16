@@ -1,30 +1,21 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
-import React, { useState } from 'react';
+import React from 'react';
+import createPersistedState from 'use-persisted-state';
 
-import { useLocalStorage } from '../hooks/useLocalStorage';
+const useEmojifyState = createPersistedState('emojify');
 
 const initialState = {
   emojified: false,
-  toggleEmojifyValue: () => {},
   setEmojified: (emojified: boolean) => {},
 };
 
 const EmojifyContext = React.createContext(initialState);
 
 const EmojifyProvider: React.FC = ({ children }) => {
-  const [value, setValue] = useLocalStorage('emojify', '🚫');
-  const initialValue = value !== '🚫';
-  const [emojified, setEmojified] = useState(initialValue);
-
-  const toggleEmojifyValue = () => {
-    setEmojified(!emojified);
-    setValue(emojified ? '🚫' : '✅');
-  };
+  const [emojified, setEmojified] = useEmojifyState(false);
 
   return (
-    <EmojifyContext.Provider
-      value={{ emojified, setEmojified, toggleEmojifyValue }}
-    >
+    <EmojifyContext.Provider value={{ emojified, setEmojified }}>
       {children}
     </EmojifyContext.Provider>
   );
