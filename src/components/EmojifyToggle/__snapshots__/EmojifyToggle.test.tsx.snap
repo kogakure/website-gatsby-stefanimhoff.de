@@ -1,31 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`EmojifyToggle changes the button text on click 1`] = `
-<button
-  type="button"
->
-  <span
-    aria-label="Hide Emoji"
-    role="img"
-  >
-    🙈
-  </span>
-</button>
-`;
-
-exports[`EmojifyToggle changes the button text on click 2`] = `
-<button
-  type="button"
->
-  <span
-    aria-label="Show Emoji"
-    role="img"
-  >
-    🐵
-  </span>
-</button>
-`;
-
 exports[`EmojifyToggle renders correctly 1`] = `
 <button
   type="button"

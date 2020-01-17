@@ -16,10 +16,10 @@ describe('EmojifyToggle', () => {
   test('changes the button text on click', async () => {
     const { container, findByText } = render(<EmojifyToggle />);
     user.click(await findByText(/🐵/i));
-    expect(container.firstChild).toMatchSnapshot();
+    expect(container.firstChild).toHaveTextContent('🙈');
 
     user.click(await findByText(/🙈/i));
-    expect(container.firstChild).toMatchSnapshot();
+    expect(container.firstChild).toHaveTextContent('🐵');
   });
 
   test('is accessible', async () => {
