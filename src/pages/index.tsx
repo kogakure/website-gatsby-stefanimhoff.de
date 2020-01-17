@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby';
 
 import { PostsQueryData } from '../typings/PostsQuery';
 import { Layout } from '../components/Layout';
+import { LocalizedDate } from '../components/LocalizedDate';
 import { Image } from '../components/Image';
 import { Headline, SubHeadline } from '../components/Typography';
 import { SEO } from '../components/SEO';
@@ -22,7 +23,7 @@ const IndexPage = ({ data }: PostsQueryData) => {
         const {
           excerpt,
           fields: { slug },
-          frontmatter: { title, description, date },
+          frontmatter: { title, description, date, dateEn, dateDe },
         } = node;
 
         return (
@@ -31,7 +32,7 @@ const IndexPage = ({ data }: PostsQueryData) => {
               <h2>
                 <Link to={slug}>{title}</Link>
               </h2>
-              <small>{date}</small>
+              <LocalizedDate dates={[date, dateEn, dateDe]} />
             </header>
             <section>
               <p>{description || excerpt}</p>
@@ -67,7 +68,9 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "DD.MM.YYYY")
+            date
+            dateEn: date(formatString: "MMMM Do, YYYY")
+            dateDe: date(formatString: "DD.MM.YYYY")
             title
             description
           }

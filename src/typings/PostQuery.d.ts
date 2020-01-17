@@ -4,6 +4,8 @@ export interface PostQueryData {
       title: string;
       description?: string;
       date: string;
+      dateEn: string;
+      dateDe: string;
       language?: string;
       cover?: {
         publicURL: string;

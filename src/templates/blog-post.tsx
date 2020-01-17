@@ -6,6 +6,7 @@ import { PostQueryData } from '../typings/PostQuery';
 import { PostPageContextData } from '../typings/PostPageContext';
 import { Layout } from '../components/Layout';
 import { SEO } from '../components/SEO';
+import { LocalizedDate } from '../components/LocalizedDate';
 import { MDXProviderContainer } from '../components/MDXProviderContainer';
 
 interface BlogPostTemplateProps {
@@ -16,7 +17,7 @@ interface BlogPostTemplateProps {
 const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
   const {
     body,
-    frontmatter: { title, date, description, cover },
+    frontmatter: { title, date, dateEn, dateDe, description, cover },
     fields: {
       readingTime: { text, words },
       language,
@@ -41,10 +42,10 @@ const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
       <article>
         <header>
           <h1>{title}</h1>
-          <p>{date}</p>
-          <small>
+          <LocalizedDate dates={[date, dateEn, dateDe]} />
+          <div>
             {words} words, {text}
-          </small>
+          </div>
         </header>
         <MDXProviderContainer>
           <MDXRenderer>{body}</MDXRenderer>
@@ -82,7 +83,9 @@ export const pageQuery = graphql`
       body
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date
+        dateEn: date(formatString: "MMMM Do, YYYY")
+        dateDe: date(formatString: "DD.MM.YYYY")
         description
         cover {
           publicURL
