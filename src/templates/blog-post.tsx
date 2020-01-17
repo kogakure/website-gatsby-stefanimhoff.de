@@ -17,7 +17,7 @@ interface BlogPostTemplateProps {
 const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
   const {
     body,
-    frontmatter: { title, date, dateEn, dateDe, description, cover },
+    frontmatter: { title, date, description, cover },
     fields: {
       readingTime: { text, words },
       language,
@@ -42,7 +42,7 @@ const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
       <article>
         <header>
           <h1>{title}</h1>
-          <LocalizedDate dates={[date, dateEn, dateDe]} />
+          <LocalizedDate date={date} />
           <div>
             {words} words, {text}
           </div>
@@ -84,8 +84,6 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date
-        dateEn: date(formatString: "MMMM Do, YYYY")
-        dateDe: date(formatString: "DD.MM.YYYY")
         description
         cover {
           publicURL

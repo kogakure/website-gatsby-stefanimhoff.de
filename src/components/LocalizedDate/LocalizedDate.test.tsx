@@ -6,17 +6,17 @@ import { render } from '../../utils/test-utils';
 
 import { LocalizedDate } from '.';
 
-const dates = ['2020-01-17T20:30:00', 'January 17th, 2020', '17.01.2020'];
+const date = '2020-01-17T18:00:00';
 
 describe('LocalizedDate', () => {
   test('renders correctly', () => {
-    const { container } = render(<LocalizedDate dates={dates} />);
+    const { container } = render(<LocalizedDate date={date} />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('changes the date text on click', async () => {
-    const { container, findByText } = render(<LocalizedDate dates={dates} />);
+    const { container, findByText } = render(<LocalizedDate date={date} />);
     user.click(await findByText(/January/i));
     expect(container.firstChild).toHaveTextContent('17.01.2020');
 
@@ -25,7 +25,7 @@ describe('LocalizedDate', () => {
   });
 
   test('is accessible', async () => {
-    const { container } = render(<LocalizedDate dates={dates} />);
+    const { container } = render(<LocalizedDate date={date} />);
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();

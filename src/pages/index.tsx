@@ -23,7 +23,7 @@ const IndexPage = ({ data }: PostsQueryData) => {
         const {
           excerpt,
           fields: { slug },
-          frontmatter: { title, description, date, dateEn, dateDe },
+          frontmatter: { title, description, date },
         } = node;
 
         return (
@@ -32,7 +32,7 @@ const IndexPage = ({ data }: PostsQueryData) => {
               <h2>
                 <Link to={slug}>{title}</Link>
               </h2>
-              <LocalizedDate dates={[date, dateEn, dateDe]} />
+              <LocalizedDate date={date} />
             </header>
             <section>
               <p>{description || excerpt}</p>
@@ -69,8 +69,6 @@ export const pageQuery = graphql`
           }
           frontmatter {
             date
-            dateEn: date(formatString: "MMMM Do, YYYY")
-            dateDe: date(formatString: "DD.MM.YYYY")
             title
             description
           }

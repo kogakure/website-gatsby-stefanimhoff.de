@@ -7,7 +7,7 @@ exports[`LocalizedDate renders correctly 1`] = `
 
 <time
   class="c0"
-  datetime="2020-01-17T20:30:00"
+  datetime="2020-01-17T18:00:00"
 >
   January 17th, 2020
 </time>
