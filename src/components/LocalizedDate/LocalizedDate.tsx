@@ -1,15 +1,17 @@
 import * as React from 'react';
+import moment from 'moment';
 
 import { LocalizedDateContext } from '../../contexts';
 
 import { Styled } from './LocalizedDate.styles';
 
 interface LocalizedDateProps {
-  dates: string[];
+  date: string;
 }
 
-const LocalizedDate: React.FC<LocalizedDateProps> = dateArray => {
-  const [isoString, en, de] = dateArray.dates;
+const LocalizedDate: React.FC<LocalizedDateProps> = ({ date }) => {
+  const en = moment(date).format('MMMM Do, YYYY');
+  const de = moment(date).format('DD.MM.YYYY');
   const [day, month, year] = de.split('.');
   const { localizedDate, setLocalizedDate } = React.useContext(
     LocalizedDateContext
@@ -47,10 +49,7 @@ const LocalizedDate: React.FC<LocalizedDateProps> = dateArray => {
   }
 
   return (
-    <Styled.LocalizedDateContainer
-      dateTime={isoString}
-      onClick={toggleLanguage}
-    >
+    <Styled.LocalizedDateContainer dateTime={date} onClick={toggleLanguage}>
       {string}
     </Styled.LocalizedDateContainer>
   );
