@@ -1,7 +1,7 @@
 ---
 published: true
 title: Post 1 (Image Example)
-date: '2018-12-19T18:00:00'
+date: '2018-11-03T18:00:00'
 cover: ./gatsby-astronaut.png
 ---
 

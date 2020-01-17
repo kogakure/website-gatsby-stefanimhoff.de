@@ -1,6 +1,6 @@
 ---
 title: Post 2 (Code Example)
-date: '2019-12-19T18:10:00'
+date: '2019-06-10T18:10:00'
 description: 'This is another description'
 published: true
 ---
