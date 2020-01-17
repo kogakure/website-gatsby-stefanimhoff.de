@@ -2,7 +2,7 @@ import React from 'react';
 import { render, RenderOptions, RenderResult } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 
-import { EmojifyProvider } from '../contexts';
+import { EmojifyProvider, LocalizedDateProvider } from '../contexts';
 import { ThemeType } from '../typings/Theme';
 import { lightTheme } from '../themes';
 
@@ -19,7 +19,9 @@ const customRender = (
   const { theme } = options;
   const rendered = render(
     <ThemeProvider theme={theme}>
-      <EmojifyProvider>{node}</EmojifyProvider>
+      <EmojifyProvider>
+        <LocalizedDateProvider>{node}</LocalizedDateProvider>
+      </EmojifyProvider>
     </ThemeProvider>,
     options
   );
