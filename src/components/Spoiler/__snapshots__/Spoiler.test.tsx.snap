@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spoiler renders correctly 1`] = `
+.c0 {
+  background: var(--colorPrimary);
+  color: var(--colorPrimary);
+  cursor: help;
+  display: inline;
+  padding: 0.1rem;
+}
+
+.c0 > :first-child {
+  margin-top: 0;
+}
+
+.c0 > :last-child {
+  margin-bottom: 0;
+}
+
+<span
+  aria-label="Spoiler"
+  role="button"
+  tabindex="0"
+>
+  <span
+    aria-hidden="true"
+    class="c0"
+  >
+    I am visually hidden text.
+  </span>
+</span>
+`;
+
+exports[`Spoiler with layout "block" renders correctly 1`] = `
+.c0 {
+  background: var(--colorPrimary);
+  color: var(--colorPrimary);
+  cursor: help;
+  display: block;
+  padding: 0.1rem;
+}
+
+.c0 > :first-child {
+  margin-top: 0;
+}
+
+.c0 > :last-child {
+  margin-bottom: 0;
+}
+
+<span
+  aria-label="Spoiler"
+  role="button"
+  tabindex="0"
+>
+  <span
+    aria-hidden="true"
+    class="c0"
+  >
+    I am visually hidden text displayed as a text block.
+  </span>
+</span>
+`;
