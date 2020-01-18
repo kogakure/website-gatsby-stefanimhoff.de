@@ -8,6 +8,7 @@ import { Image } from '../components/Image';
 import { Headline, SubHeadline } from '../components/Typography';
 import { SEO } from '../components/SEO';
 import { Emojify } from '../components/Emojify';
+import { ArrowUp } from '../components/Icons';
 
 const IndexPage = ({ data }: PostsQueryData) => {
   const posts = data.allBlogPosts.edges;
@@ -19,6 +20,7 @@ const IndexPage = ({ data }: PostsQueryData) => {
         Dynamic Headline <Emojify emoji="😎" />
       </Headline>
       <SubHeadline>Dynamic Subheadline</SubHeadline>
+      <ArrowUp />
       {posts.map(({ node }) => {
         const {
           excerpt,
