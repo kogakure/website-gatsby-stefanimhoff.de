@@ -5,10 +5,12 @@ import { Link } from 'gatsby';
 import { SEO } from '../SEO';
 import { Demo } from '../Demo';
 import { Emojify } from '../Emojify';
+import { Spoiler } from '../Spoiler';
 
 const shortcodes = {
   Demo,
   Emojify,
+  Spoiler,
   Link,
   SEO,
   h2: Demo,
