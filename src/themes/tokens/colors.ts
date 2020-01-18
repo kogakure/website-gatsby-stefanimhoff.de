@@ -6,11 +6,11 @@ export interface ThemeColors {
 }
 
 export const lightColors: ThemeColors = {
-  primary: 'lightgrey',
+  primary: 'black',
   background: 'white',
 };
 
 export const darkColors: ThemeColors = {
-  primary: 'black',
-  background: 'darkgrey',
+  primary: 'white',
+  background: 'black',
 };
