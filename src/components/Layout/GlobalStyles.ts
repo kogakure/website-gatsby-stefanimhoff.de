@@ -12,22 +12,30 @@ const GlobalStyles = createGlobalStyle<{ theme: ThemeType & ThemeProps }>`
 
   .light {
     --colorPrimary: ${lightColors.primary};
-    --colorBackground: ${lightColors.background}
+    --colorBackground: ${lightColors.background};
+    --opacityLight: 0;
+    --opacityDark: 1;
   }
 
   .light .green {
     --colorPrimary: black;
     --colorBackground: lightgreen;
+    --opacityLight: 0;
+    --opacityDark: 1;
   }
 
   .dark {
     --colorPrimary: ${darkColors.primary};
-    --colorBackground: ${darkColors.background}
+    --colorBackground: ${darkColors.background};
+    --opacityLight: 1;
+    --opacityDark: 0;
   }
 
   .dark .green {
     --colorPrimary: black;
     --colorBackground: darkgreen;
+    --opacityLight: 1;
+    --opacityDark: 0;
   }
 `;
 
