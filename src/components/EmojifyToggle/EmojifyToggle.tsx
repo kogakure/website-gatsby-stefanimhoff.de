@@ -2,17 +2,24 @@ import * as React from 'react';
 
 import { EmojifyContext } from '../../contexts';
 
+import { Styled } from './EmojifyToggle.styles';
+
 const EmojifyToggle: React.FC = () => {
   const { emojified, setEmojified } = React.useContext(EmojifyContext);
-  const buttonImage = emojified ? '🙈' : '🐵';
   const buttonText = emojified ? 'Hide Emoji' : 'Show Emoji';
+  const emoji = emojified ? '🙈' : '🐵';
+  const emojiText = emojified ? 'See-No-Evil Monkey' : 'Monkey Face';
 
   return (
-    <button type="button" onClick={() => setEmojified(!emojified)}>
-      <span role="img" aria-label={buttonText}>
-        {buttonImage}
-      </span>
-    </button>
+    <Styled.Button
+      type="button"
+      aria-label={buttonText}
+      onClick={() => setEmojified(!emojified)}
+    >
+      <Styled.Emoji role="img" aria-label={emojiText}>
+        {emoji}
+      </Styled.Emoji>
+    </Styled.Button>
   );
 };
 
