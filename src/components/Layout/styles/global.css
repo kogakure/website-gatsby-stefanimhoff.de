@@ -9,6 +9,6 @@ html {
 }
 
 body {
-  color: var(--colorPrimary);
   background-color: var(--colorBackground);
+  color: var(--colorPrimary);
 }
