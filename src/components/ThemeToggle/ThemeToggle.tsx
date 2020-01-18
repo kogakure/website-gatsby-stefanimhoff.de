@@ -33,8 +33,8 @@ const ThemeToggle: React.FC = () => {
       type="button"
       onClick={setPreferredTheme}
     >
-      <Styled.SunIcon theme={theme} role="img" aria-label="Sun" />
-      <Styled.MoonIcon theme={theme} role="img" aria-label="Moon" />
+      <Styled.SunIcon role="img" aria-label="Sun" />
+      <Styled.MoonIcon role="img" aria-label="Moon" />
     </Styled.Button>
   );
 };

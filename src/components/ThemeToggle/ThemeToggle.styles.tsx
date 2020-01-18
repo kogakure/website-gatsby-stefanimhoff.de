@@ -7,17 +7,26 @@ const Button = styled.button`
   border: 0;
   cursor: pointer;
   height: 40px;
+  position: relative;
   width: 40px;
 `;
 
 export const SunIcon = styled(Sun)`
-  display: ${({ theme }) => (theme === 'light' ? 'none' : 'block')};
+  background-color: var(--colorBackground);
   font-size: 1.5rem;
+  left: 7px;
+  opacity: var(--opacityLight);
+  position: absolute;
+  top: 7px;
 `;
 
 export const MoonIcon = styled(Moon)`
-  display: ${({ theme }) => (theme === 'dark' ? 'none' : 'block')};
+  background-color: var(--colorBackground);
   font-size: 1.5rem;
+  left: 7px;
+  opacity: var(--opacityDark);
+  position: absolute;
+  top: 7px;
 `;
 
 export const Styled = {
