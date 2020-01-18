@@ -11,11 +11,11 @@ const Spoiler: React.FC<SpoilerProps> = ({ children, layout }) => {
 
   return (
     <span
-      role="button"
       aria-label="Spoiler"
-      tabIndex={0}
       onClick={() => setSpoiler(false)}
       onKeyUp={e => e.key === 'Enter' && setSpoiler(false)}
+      role="button"
+      tabIndex={spoiler ? 0 : undefined}
     >
       <Styled.Spoiler layout={layout} spoiler={spoiler} aria-hidden={spoiler}>
         {children}
