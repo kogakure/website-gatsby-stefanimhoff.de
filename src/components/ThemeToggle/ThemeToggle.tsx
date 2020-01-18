@@ -2,6 +2,8 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
 
+import { Styled } from './ThemeToggle.styles';
+
 /* eslint-disable no-underscore-dangle */
 interface ThemedWindow extends Window {
   __theme: string;
@@ -17,6 +19,8 @@ const ThemeToggle: React.FC = () => {
   const setPreferredTheme = () => {
     window.__setPreferredTheme(oppositeTheme);
   };
+  const buttonText =
+    theme === 'light' ? 'Switch to dark theme' : 'Swith to light theme';
 
   useEffect(() => {
     setTheme(window.__theme);
@@ -24,9 +28,14 @@ const ThemeToggle: React.FC = () => {
   }, []);
 
   return (
-    <button type="button" onClick={setPreferredTheme}>
-      Toggle Theme
-    </button>
+    <Styled.Button
+      aria-label={buttonText}
+      type="button"
+      onClick={setPreferredTheme}
+    >
+      <Styled.SunIcon theme={theme} role="img" aria-label="Sun" />
+      <Styled.MoonIcon theme={theme} role="img" aria-label="Moon" />
+    </Styled.Button>
   );
 };
 
