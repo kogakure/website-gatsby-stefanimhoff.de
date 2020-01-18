@@ -19,7 +19,7 @@
     "order/properties-alphabetical-order": true,
     "plugin/stylelint-no-indistinguishable-colors": true,
     "plugin/no-low-performance-animation-properties": true,
-    "string-quotes": "double",
+    "string-quotes": "single",
     "prettier/prettier": true
   }
 }

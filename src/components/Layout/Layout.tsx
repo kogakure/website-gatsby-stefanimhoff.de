@@ -25,8 +25,10 @@ const Layout: React.FC<LayoutProps> = ({ children, variant }) => {
       <Header siteTitle={title} />
       <Styled.MainLayout className="main">
         <div>
-          <ThemeToggle />
-          <EmojifyToggle />
+          <div style={{ display: 'flex' }}>
+            <ThemeToggle />
+            <EmojifyToggle />
+          </div>
           {children}
         </div>
       </Styled.MainLayout>
