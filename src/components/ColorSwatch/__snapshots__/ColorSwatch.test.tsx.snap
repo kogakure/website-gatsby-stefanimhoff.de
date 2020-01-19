@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorSwatch renders correctly 1`] = `
+.c0 {
+  border: 1px solid var(--colorBorder);
+  border-radius: 5px;
+  box-shadow: 0 5px 50px rgba(0,0,0,0.1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 0.7rem;
+  max-width: 12rem;
+}
+
+.c1 {
+  background: lightgrey;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 6rem;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+}
+
+.c4 {
+  font-size: 1rem;
+}
+
+.c2 {
+  background: var(--colorBackgroundFull);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: var(--colorTextFull);
+  min-height: 6rem;
+  padding: 0.8rem 0.6rem;
+  position: relative;
+}
+
+.c5 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1;
+  padding-bottom: 0.3rem;
+  padding-right: 20px;
+}
+
+.c6 {
+  margin-bottom: 0.5rem;
+  padding-right: 20px;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+    style="background-color: rgb(0, 92, 175);"
+  />
+  <div
+    class="c2"
+  >
+    <div
+      aria-label="Information"
+      class="c3"
+      role="button"
+      tabindex="0"
+    >
+      <svg
+        aria-label="Information Icon"
+        class="c4"
+        height="1em"
+        role="img"
+        viewBox="0 0 24 24"
+        width="1em"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 100-16 8 8 0 000 16zM11 7h2v2h-2V7zm0 4h2v6h-2v-6z"
+        />
+      </svg>
+    </div>
+    <div
+      class="c5"
+    >
+      Lapis Lazuli
+    </div>
+    <div
+      class="c6"
+    >
+      The soft, slightly purplish blue associated with the semi-precious stone.
+    </div>
+  </div>
+</div>
+`;
