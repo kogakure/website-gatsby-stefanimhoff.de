@@ -9,6 +9,7 @@ import { Headline, SubHeadline } from '../components/Typography';
 import { SEO } from '../components/SEO';
 import { Emojify } from '../components/Emojify';
 import { ArrowUp } from '../components/Icons';
+import { ColorSwatch } from '../components/ColorSwatch';
 
 const IndexPage = ({ data }: PostsQueryData) => {
   const posts = data.allBlogPosts.edges;
@@ -20,6 +21,11 @@ const IndexPage = ({ data }: PostsQueryData) => {
         Dynamic Headline <Emojify emoji="😎" />
       </Headline>
       <SubHeadline>Dynamic Subheadline</SubHeadline>
+      <ColorSwatch
+        color="#005CAF"
+        name="Lapis Lazuli"
+        description="The soft, slightly purplish blue associated with the semi-precious stone."
+      />
       <ArrowUp />
       {posts.map(({ node }) => {
         const {
