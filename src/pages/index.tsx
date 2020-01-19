@@ -18,9 +18,10 @@ const IndexPage = ({ data }: PostsQueryData) => {
     <Layout>
       <SEO homepage />
       <Headline>
-        Dynamic Headline <Emojify emoji="😎" />
+        Headline <Emojify emoji="😎" />
       </Headline>
-      <SubHeadline>Dynamic Subheadline</SubHeadline>
+      <SubHeadline>Subheadline</SubHeadline>
+      <p>This is a text</p>
       <ColorSwatch
         color="#005CAF"
         name="Lapis Lazuli"
