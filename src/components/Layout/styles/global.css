@@ -11,4 +11,31 @@ html {
 body {
   background-color: var(--colorBackground);
   color: var(--colorPrimary);
+  font-family: 'Playfair Display', 'Georgia', serif;
+}
+
+.wf-active body {
+  letter-spacing: normal;
+}
+
+/* TODO: Adjust later to fit the real sizes */
+.wf-loading h1 {
+  font-weight: normal;
+  letter-spacing: -0.07rem;
+}
+
+/* TODO: Adjust later to fit the real sizes */
+.wf-loading h2 {
+  font-weight: normal;
+  letter-spacing: -0.02rem;
+}
+
+.wf-active h1,
+.wf-active h2,
+.wf-active h3,
+.wf-active h4,
+.wf-active h5,
+.wf-active h6 {
+  font-weight: 900;
+  letter-spacing: normal;
 }
