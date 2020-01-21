@@ -1,7 +1,7 @@
 ---
-title: Post 3 (Folder with Date)
+title: Post 3
 date: '2019-11-22T18:00:00'
 published: true
 ---
 
-Hello
+Hello World!
