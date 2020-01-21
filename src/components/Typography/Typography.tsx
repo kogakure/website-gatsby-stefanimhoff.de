@@ -4,22 +4,48 @@ import { StyledSystemProps } from '../../typings/StyleSystem';
 
 import DynamicComponent from './DynamicComponent';
 
+const Title: React.FC<StyledSystemProps> = ({ children, ...props }) => (
+  <DynamicComponent {...props}>{children}</DynamicComponent>
+);
+
 const Headline: React.FC<StyledSystemProps> = ({ children, ...props }) => (
   <DynamicComponent {...props}>{children}</DynamicComponent>
 );
 
-const SubHeadline: React.FC<StyledSystemProps> = ({ children, ...props }) => (
+const Subline: React.FC<StyledSystemProps> = ({ children, ...props }) => (
   <DynamicComponent {...props}>{children}</DynamicComponent>
 );
 
-Headline.defaultProps = {
+const Paragraph: React.FC<StyledSystemProps> = ({ children, ...props }) => (
+  <DynamicComponent {...props}>{children}</DynamicComponent>
+);
+
+Title.defaultProps = {
   as: 'h1',
-  fontSize: 'xxl',
+  fontSize: 5,
+  fontWeight: 900,
+  letterSpacing: 'normal',
 };
 
-SubHeadline.defaultProps = {
+Headline.defaultProps = {
   as: 'h2',
-  fontSize: 'xl',
+  fontSize: 4,
+  fontWeight: 900,
+  letterSpacing: 'normal',
 };
 
-export { Headline, SubHeadline };
+Subline.defaultProps = {
+  as: 'h3',
+  fontSize: 3,
+  fontWeight: 900,
+  letterSpacing: 'normal',
+};
+
+Paragraph.defaultProps = {
+  as: 'p',
+  fontSize: 2,
+  fontWeight: 400,
+  letterSpacing: 'normal',
+};
+
+export { Title, Headline, Subline, Paragraph };
