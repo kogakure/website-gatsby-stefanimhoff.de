@@ -6,6 +6,7 @@ import { SEO } from '../SEO';
 import { Emojify } from '../Emojify';
 import { Spoiler } from '../Spoiler';
 import { ColorSwatch } from '../ColorSwatch';
+import { Headline, SubHeadline } from '../Typography';
 
 const shortcodes = {
   ColorSwatch,
@@ -13,6 +14,8 @@ const shortcodes = {
   Link,
   SEO,
   Spoiler,
+  h1: Headline,
+  h2: SubHeadline,
 };
 
 const MDXProviderContainer: React.FC = ({ children }) => (
