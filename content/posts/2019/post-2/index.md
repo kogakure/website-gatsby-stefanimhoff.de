@@ -5,8 +5,6 @@ description: 'This is another description'
 published: true
 ---
 
-Another **Blog post**!!!
-
 ```sh
 npm install --save-dev gulp-webp@2.1.1
 echo "Hello World"
