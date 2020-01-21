@@ -41,14 +41,26 @@ const ColorSwatch: React.FC<ColorSwatchProps> = ({
         {toggle ? (
           <Styled.ColorInformation>
             <Styled.ColorValue>
-              <strong>R</strong>&nbsp;{r}&nbsp;
-              <strong>G</strong>&nbsp;{g}&nbsp;
-              <strong>B</strong>&nbsp;{b}&nbsp;
+              <strong>R</strong>
+              {' '}
+              {r}&nbsp;
+              <strong>G</strong>
+              {' '}
+              {g}&nbsp;
+              <strong>B</strong>
+              {' '}
+              {b}&nbsp;
             </Styled.ColorValue>
             <Styled.ColorValue>
-              <strong>H</strong>&nbsp;{Number(h).toFixed(0)}&nbsp;
-              <strong>S</strong>&nbsp;{Number(s).toFixed(0)}&nbsp;
-              <strong>L</strong>&nbsp;{Number(l).toFixed(0)}&nbsp;
+              <strong>H</strong>
+              {' '}
+              {Number(h).toFixed(0)}&nbsp;
+              <strong>S</strong>
+              {' '}
+              {Number(s).toFixed(0)}&nbsp;
+              <strong>L</strong>
+              {' '}
+              {Number(l).toFixed(0)}&nbsp;
             </Styled.ColorValue>
             <Styled.ColorValue>
               <strong>{hex}</strong>
