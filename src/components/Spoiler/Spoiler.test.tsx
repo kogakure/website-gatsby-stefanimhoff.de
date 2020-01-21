@@ -15,7 +15,7 @@ describe('Spoiler', () => {
 
   test('with layout "block" renders correctly', () => {
     const { container } = render(
-      <Spoiler layout="block">
+      <Spoiler block>
         I am visually hidden text displayed as a text block.
       </Spoiler>
     );

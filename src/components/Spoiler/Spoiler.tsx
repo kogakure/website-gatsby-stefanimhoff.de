@@ -3,10 +3,10 @@ import * as React from 'react';
 import { Styled } from './Spoiler.styles';
 
 interface SpoilerProps {
-  layout?: 'block';
+  block?: boolean;
 }
 
-const Spoiler: React.FC<SpoilerProps> = ({ children, layout }) => {
+const Spoiler: React.FC<SpoilerProps> = ({ children, block }) => {
   const [spoiler, setSpoiler] = React.useState(true);
 
   return (
@@ -17,7 +17,7 @@ const Spoiler: React.FC<SpoilerProps> = ({ children, layout }) => {
       role="button"
       tabIndex={spoiler ? 0 : undefined}
     >
-      <Styled.Spoiler layout={layout} spoiler={spoiler} aria-hidden={spoiler}>
+      <Styled.Spoiler block={block} spoiler={spoiler} aria-hidden={spoiler}>
         {children}
       </Styled.Spoiler>
     </span>

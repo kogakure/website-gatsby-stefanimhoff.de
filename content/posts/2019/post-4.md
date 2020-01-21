@@ -6,7 +6,7 @@ published: true
 
 Hello. <Spoiler>This is a secret, if you **want** to see it you have to click it.</Spoiler> This is some more text, which is not a spoiler.
 
-<Spoiler layout="block">
+<Spoiler block>
 
 This is some **text**, which is _hidden_.
 
