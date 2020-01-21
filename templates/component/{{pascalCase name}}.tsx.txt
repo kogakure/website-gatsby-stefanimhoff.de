@@ -4,8 +4,8 @@ import { Styled } from './{{pascalCase name}}.styles';
 
 interface {{pascalCase name}}Props {}
 
-const {{pascalCase name}}: React.FC<{{pascalCase name}}Props> = () => (
-  <Styled.{{pascalCase name}}Container>
+const {{pascalCase name}}: React.FC<{{pascalCase name}}Props> = ({ ...props }) => (
+  <Styled.{{pascalCase name}}Container {...props}>
     Hello {{pascalCase name}}!
   </Styled.{{pascalCase name}}Container>
 );

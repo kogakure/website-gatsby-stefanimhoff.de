@@ -12,8 +12,9 @@ interface ColorSwatchProps {
 
 const ColorSwatch: React.FC<ColorSwatchProps> = ({
   color,
-  name,
   description,
+  name,
+  ...props
 }) => {
   const showToggle = name || description;
   const [toggle, setToggle] = React.useState(!showToggle);
@@ -23,7 +24,7 @@ const ColorSwatch: React.FC<ColorSwatchProps> = ({
   const { h, s, l } = colorObj.hsl().object();
 
   return (
-    <Styled.ColorSwatchContainer>
+    <Styled.ColorSwatchContainer {...props}>
       <Styled.Color style={{ backgroundColor: hex }} />
       <Styled.Information>
         {showToggle && (
