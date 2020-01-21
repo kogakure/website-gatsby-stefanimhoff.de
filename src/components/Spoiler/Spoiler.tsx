@@ -6,7 +6,7 @@ interface SpoilerProps {
   block?: boolean;
 }
 
-const Spoiler: React.FC<SpoilerProps> = ({ children, block }) => {
+const Spoiler: React.FC<SpoilerProps> = ({ children, block, ...props }) => {
   const [spoiler, setSpoiler] = React.useState(true);
 
   return (
@@ -17,7 +17,12 @@ const Spoiler: React.FC<SpoilerProps> = ({ children, block }) => {
       role="button"
       tabIndex={spoiler ? 0 : undefined}
     >
-      <Styled.Spoiler block={block} spoiler={spoiler} aria-hidden={spoiler}>
+      <Styled.Spoiler
+        aria-hidden={spoiler}
+        block={block}
+        spoiler={spoiler}
+        {...props}
+      >
         {children}
       </Styled.Spoiler>
     </span>

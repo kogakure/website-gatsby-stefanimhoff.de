@@ -7,11 +7,11 @@ interface EmojifyProps {
   emoji: string;
 }
 
-const Emojify: React.FC<EmojifyProps> = ({ emoji }) => {
+const Emojify: React.FC<EmojifyProps> = ({ emoji, ...props }) => {
   const { emojified } = React.useContext(EmojifyContext);
 
   return emojified ? (
-    <span role="img" aria-label={unicode.get(emoji) || 'emoji'}>
+    <span role="img" aria-label={unicode.get(emoji) || 'emoji'} {...props}>
       {emoji}
     </span>
   ) : null;

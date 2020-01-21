@@ -9,7 +9,7 @@ interface LocalizedDateProps {
   date: string;
 }
 
-const LocalizedDate: React.FC<LocalizedDateProps> = ({ date }) => {
+const LocalizedDate: React.FC<LocalizedDateProps> = ({ date, ...props }) => {
   const en = moment(date).format('MMMM Do, YYYY');
   const de = moment(date).format('DD.MM.YYYY');
   const [day, month, year] = de.split('.');
@@ -49,7 +49,11 @@ const LocalizedDate: React.FC<LocalizedDateProps> = ({ date }) => {
   }
 
   return (
-    <Styled.LocalizedDateContainer dateTime={date} onClick={toggleLanguage}>
+    <Styled.LocalizedDateContainer
+      dateTime={date}
+      onClick={toggleLanguage}
+      {...props}
+    >
       {string}
     </Styled.LocalizedDateContainer>
   );
