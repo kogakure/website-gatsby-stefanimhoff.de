@@ -3,17 +3,16 @@ import { MDXProvider } from '@mdx-js/react';
 import { Link } from 'gatsby';
 
 import { SEO } from '../SEO';
-import { Demo } from '../Demo';
 import { Emojify } from '../Emojify';
 import { Spoiler } from '../Spoiler';
+import { ColorSwatch } from '../ColorSwatch';
 
 const shortcodes = {
-  Demo,
+  ColorSwatch,
   Emojify,
-  Spoiler,
   Link,
   SEO,
-  h2: Demo,
+  Spoiler,
 };
 
 const MDXProviderContainer: React.FC = ({ children }) => (
