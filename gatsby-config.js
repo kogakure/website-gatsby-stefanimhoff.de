@@ -62,7 +62,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         custom: {
-          families: ['Playfair Display', 'Playfair Display SC'],
+          families: ['Playfair Display Webfont', 'Playfair Display SC Webfont'],
           urls: ['/fonts/fonts.css'],
         },
       },
@@ -75,12 +75,12 @@ module.exports = {
           default: require.resolve('./src/templates/default.tsx'),
         },
         gatsbyRemarkPlugins: [
-          'gatsby-remark-autolink-headers',
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-numbered-footnotes',
           'gatsby-remark-responsive-iframe',
           'gatsby-remark-smartypants',
           'gatsby-remark-unwrap-images',
+          'gatsby-remark-autolink-headers',
           {
             resolve: 'gatsby-remark-vscode',
             options: {

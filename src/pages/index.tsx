@@ -5,11 +5,9 @@ import { PostsQueryData } from '../typings/PostsQuery';
 import { Layout } from '../components/Layout';
 import { LocalizedDate } from '../components/LocalizedDate';
 import { Image } from '../components/Image';
-import { Headline, SubHeadline } from '../components/Typography';
+import { Title, Headline, Subline, Paragraph } from '../components/Typography';
 import { SEO } from '../components/SEO';
-import { Emojify } from '../components/Emojify';
 import { ArrowUp } from '../components/Icons';
-import { ColorSwatch } from '../components/ColorSwatch';
 
 const IndexPage = ({ data }: PostsQueryData) => {
   const posts = data.allBlogPosts.edges;
@@ -17,16 +15,10 @@ const IndexPage = ({ data }: PostsQueryData) => {
   return (
     <Layout>
       <SEO homepage />
-      <Headline>
-        Headline <Emojify emoji="😎" />
-      </Headline>
-      <SubHeadline>Subheadline</SubHeadline>
-      <p>This is a text</p>
-      <ColorSwatch
-        color="#005CAF"
-        name="Lapis Lazuli"
-        description="The soft, slightly purplish blue associated with the semi-precious stone."
-      />
+      <Title>Title</Title>
+      <Headline>Headline</Headline>
+      <Subline>Subline</Subline>
+      <Paragraph>This is Paragraph text. With a lot of words.</Paragraph>
       <ArrowUp />
       {posts.map(({ node }) => {
         const {

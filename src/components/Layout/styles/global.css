@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-size: 100%;
 }
 
 *,
@@ -11,31 +12,25 @@ html {
 body {
   background-color: var(--colorBackground);
   color: var(--colorPrimary);
-  font-family: 'Playfair Display', 'Georgia', serif;
+  font-family: 'Playfair Display Webfont', 'Georgia', serif;
+  line-height: 1.6;
 }
 
-.wf-active body {
-  letter-spacing: normal;
+abbr {
+  font-family: 'Playfair Display SC Webfont', 'Georgia', serif;
+  font-variant: small-caps;
 }
 
-/* TODO: Adjust later to fit the real sizes */
-.wf-loading h1 {
-  font-weight: normal;
-  letter-spacing: -0.07rem;
-}
-
-/* TODO: Adjust later to fit the real sizes */
-.wf-loading h2 {
-  font-weight: normal;
-  letter-spacing: -0.02rem;
-}
-
-.wf-active h1,
-.wf-active h2,
-.wf-active h3,
-.wf-active h4,
-.wf-active h5,
-.wf-active h6 {
-  font-weight: 900;
-  letter-spacing: normal;
+/* ===================================
+ * Georgia is the fallback font during
+ * loading. As it is wider it needs to
+ * be set in font-weight 400.
+   ==================================*/
+.wf-loading h1,
+.wf-loading h2,
+.wf-loading h3,
+.wf-loading h4,
+.wf-loading h5,
+.wf-loading h6 {
+  font-weight: 400;
 }
