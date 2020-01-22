@@ -2,7 +2,7 @@ import React from 'react';
 import { axe } from 'jest-axe';
 import user from '@testing-library/user-event';
 
-import { render } from '../../utils/test-utils';
+import { render, fireEvent } from '../../utils/test-utils';
 
 import { ColorSwatch } from '.';
 
@@ -57,6 +57,34 @@ describe('ColorSwatch', () => {
     expect(container.firstChild).toHaveTextContent(/#005CA/i);
 
     user.click(await findByLabelText('Information'));
+    expect(container.firstChild).toHaveTextContent(/lapis lazuli/i);
+  });
+
+  test('should cycle through information icon', async () => {
+    const { findByLabelText } = render(
+      <ColorSwatch color={color} name={name} description={description} />
+    );
+
+    expect(document.body).toHaveFocus();
+    user.tab();
+    expect(await findByLabelText('Information')).toHaveFocus();
+  });
+
+  test('show color information on Enter keyUp', async () => {
+    const { container, findByLabelText, debug } = render(
+      <ColorSwatch color={color} name={name} description={description} />
+    );
+
+    fireEvent.keyUp(await findByLabelText('Information'), {
+      key: 'Enter',
+      code: 13,
+    });
+    expect(container.firstChild).toHaveTextContent(/#005CA/i);
+
+    fireEvent.keyUp(await findByLabelText('Information'), {
+      key: 'Enter',
+      code: 13,
+    });
     expect(container.firstChild).toHaveTextContent(/lapis lazuli/i);
   });
 
