@@ -6,6 +6,7 @@ exports[`Spoiler renders correctly 1`] = `
   color: var(--colorPrimary);
   cursor: help;
   display: inline;
+  margin-bottom: 2.488rem;
   padding: 0.1rem;
 }
 
@@ -37,6 +38,7 @@ exports[`Spoiler with layout "block" renders correctly 1`] = `
   color: var(--colorPrimary);
   cursor: help;
   display: block;
+  margin-bottom: 2.488rem;
   padding: 0.1rem;
 }
 

@@ -13,7 +13,7 @@ export const Emoji = styled.span`
   font-size: 1.5rem;
   left: 6px;
   position: absolute;
-  top: 9px;
+  top: 6px;
 `;
 
 export const Styled = {
