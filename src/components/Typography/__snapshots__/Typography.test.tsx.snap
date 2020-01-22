@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography Headline renders correctly 1`] = `
+.c0 {
+  font-size: 3.272rem;
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+<h2
+  class="c0"
+  font-size="4"
+  font-weight="900"
+  letter-spacing="normal"
+>
+  Headline
+</h2>
+`;
+
+exports[`Typography Paragraph renders correctly 1`] = `
+.c0 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+<p
+  class="c0"
+  font-size="2"
+  font-weight="400"
+  letter-spacing="normal"
+>
+  Paragraph
+</p>
+`;
+
+exports[`Typography Subline renders correctly 1`] = `
+.c0 {
+  font-size: 2.023rem;
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+<h3
+  class="c0"
+  font-size="3"
+  font-weight="900"
+  letter-spacing="normal"
+>
+  Subline
+</h3>
+`;
+
+exports[`Typography Title renders correctly 1`] = `
+.c0 {
+  font-size: 5.295rem;
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+}
+
+<h1
+  class="c0"
+  font-size="5"
+  font-weight="900"
+  letter-spacing="normal"
+>
+  Title
+</h1>
+`;
