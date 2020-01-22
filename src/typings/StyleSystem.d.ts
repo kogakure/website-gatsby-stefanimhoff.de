@@ -1,7 +1,11 @@
 /* eslint-disable @typescript-eslint/indent */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import {
+  BorderColorProps,
   BorderRadiusProps,
+  BorderStyleProps,
+  BorderWidthProps,
+  BordersProps,
   ColorProps,
   FontFamilyProps,
   FontSizeProps,
@@ -17,7 +21,11 @@ import {
 } from 'styled-system';
 
 export type StyledSystemProps =
+  | BorderColorProps
   | BorderRadiusProps
+  | BorderStyleProps
+  | BorderWidthProps
+  | BordersProps
   | ColorProps
   | FontFamilyProps
   | FontSizeProps

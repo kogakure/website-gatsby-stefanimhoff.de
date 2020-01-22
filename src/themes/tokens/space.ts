@@ -1,19 +1,48 @@
 export interface Space {
-  none: number;
-  xs: number;
-  s: number;
-  m: number;
-  l: number;
-  xl: number;
-  xxl: number;
+  0: string;
+  1: string;
+  2: string;
+  3: string;
+  4: string;
+  5: string;
+  6: string;
+  7: string;
+  8: string;
+  9: string;
+  10: string;
+  11: string;
+  12: string;
+  13: string;
+  14: string;
+  15: string;
+  16: string;
+  17: string;
+  18: string;
+  19: string;
+  20: string;
 }
 
+// www.modularscale.com/?1&rem&1.2
 export const space: Space = {
-  none: 0,
-  xs: 2,
-  s: 4,
-  m: 8,
-  l: 16,
-  xl: 32,
-  xxl: 64,
+  0: '0',
+  1: '0.335rem',
+  2: '0.402rem',
+  3: '0.482rem',
+  4: '0.579rem',
+  5: '0.694rem',
+  6: '0.833rem',
+  7: '1rem',
+  8: '1.2rem',
+  9: '1.44rem',
+  10: '1.728rem',
+  11: '2.074rem',
+  12: '2.488rem',
+  13: '2.986rem',
+  14: '3.583rem',
+  15: '4.3rem',
+  16: '5.16rem',
+  17: '6.192rem',
+  18: '7.43rem',
+  19: '8.916rem',
+  20: '10.699rem',
 };

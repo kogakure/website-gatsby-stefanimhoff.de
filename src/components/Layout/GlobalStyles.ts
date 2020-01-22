@@ -8,8 +8,6 @@ import highlightCodeLine from './styles/highlight-code-line.css';
 
 const GlobalStyles = createGlobalStyle<{ theme: ThemeType & ThemeProps }>`
   /* stylelint-disable plugin/stylelint-no-indistinguishable-colors */
-  ${globalCSS}
-  ${highlightCodeLine}
 
   .light {
     --colorPrimary: ${lightColors.primary};
@@ -50,6 +48,9 @@ const GlobalStyles = createGlobalStyle<{ theme: ThemeType & ThemeProps }>`
     --opacityLight: 1;
     --opacityDark: 0;
   }
+
+  ${globalCSS}
+  ${highlightCodeLine}
 `;
 
 export { GlobalStyles };

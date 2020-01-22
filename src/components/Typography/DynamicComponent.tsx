@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 import {
+  border,
+  borderColor,
   borderRadius,
+  borderStyle,
+  borderWidth,
   color,
   fontFamily,
   fontSize,
@@ -15,7 +19,11 @@ import {
 } from 'styled-system';
 
 export default styled.div`
+  ${borderColor}
   ${borderRadius}
+  ${borderStyle}
+  ${borderWidth}
+  ${border}
   ${color}
   ${fontFamily}
   ${fontSize}

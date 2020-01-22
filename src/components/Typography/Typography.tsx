@@ -13,6 +13,9 @@ Title.defaultProps = {
   fontSize: 5,
   fontWeight: 900,
   letterSpacing: 'normal',
+  marginTop: 5,
+  marginBottom: 13,
+  lineHeight: 1,
 };
 
 const Headline: React.FC<StyledSystemProps> = ({ children, ...props }) => (
@@ -24,6 +27,9 @@ Headline.defaultProps = {
   fontSize: 4,
   fontWeight: 900,
   letterSpacing: 'normal',
+  marginTop: 0,
+  marginBottom: 11,
+  lineHeight: 1,
 };
 
 const Subline: React.FC<StyledSystemProps> = ({ children, ...props }) => (
@@ -35,6 +41,9 @@ Subline.defaultProps = {
   fontSize: 3,
   fontWeight: 900,
   letterSpacing: 'normal',
+  marginTop: 0,
+  marginBottom: 10,
+  lineHeight: 1,
 };
 
 const Paragraph: React.FC<StyledSystemProps> = ({ children, ...props }) => (
@@ -46,6 +55,9 @@ Paragraph.defaultProps = {
   fontSize: 2,
   fontWeight: 400,
   letterSpacing: 'normal',
+  marginTop: 0,
+  marginBottom: 12,
+  lineHeight: 2,
 };
 
 export { Title, Headline, Subline, Paragraph };
