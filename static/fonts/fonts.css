@@ -4,8 +4,7 @@
   font-weight: 400;
   font-style: normal;
   src: url('playfairdisplay-regular-webfont.woff2') format('woff2'),
-    url('playfairdisplay-regular-webfont.woff') format('woff'),
-    url('playfairdisplay-regular-webfont.ttf') format('truetype');
+    url('playfairdisplay-regular-webfont.woff') format('woff');
 }
 
 @font-face {
@@ -14,8 +13,7 @@
   font-weight: 400;
   font-style: italic;
   src: url('playfairdisplay-italic-webfont.woff2') format('woff2'),
-    url('playfairdisplay-italic-webfont.woff') format('woff'),
-    url('playfairdisplay-italic-webfont.ttf') format('truetype');
+    url('playfairdisplay-italic-webfont.woff') format('woff');
 }
 
 @font-face {
@@ -24,8 +22,7 @@
   font-weight: 700;
   font-style: normal;
   src: url('playfairdisplay-bold-webfont.woff2') format('woff2'),
-    url('playfairdisplay-bold-webfont.woff') format('woff'),
-    url('playfairdisplay-bold-webfont.ttf') format('truetype');
+    url('playfairdisplay-bold-webfont.woff') format('woff');
 }
 
 @font-face {
@@ -44,6 +41,14 @@
   font-weight: 400;
   font-style: normal;
   src: url('playfairdisplaysc-regular-webfont.woff2') format('woff2'),
-    url('playfairdisplaysc-regular-webfont.woff') format('woff'),
-    url('playfairdisplaysc-regular-webfont.ttf') format('truetype');
+    url('playfairdisplaysc-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Fira Code Retina Webfont';
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url('firacode-retina-webfont.woff2') format('woff2'),
+    url('firacode-retina-webfont.woff') format('woff');
 }
