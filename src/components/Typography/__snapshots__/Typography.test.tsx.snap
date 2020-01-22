@@ -8,6 +8,9 @@ exports[`Typography Headline renders correctly 1`] = `
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
+  line-height: 1.0;
+  margin-top: 0;
+  margin-bottom: 2.074rem;
 }
 
 <h2
@@ -28,6 +31,9 @@ exports[`Typography Paragraph renders correctly 1`] = `
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 2.488rem;
 }
 
 <p
@@ -48,6 +54,9 @@ exports[`Typography Subline renders correctly 1`] = `
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
+  line-height: 1.0;
+  margin-top: 0;
+  margin-bottom: 1.728rem;
 }
 
 <h3
@@ -68,6 +77,9 @@ exports[`Typography Title renders correctly 1`] = `
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
+  line-height: 1.0;
+  margin-top: 0.694rem;
+  margin-bottom: 2.986rem;
 }
 
 <h1

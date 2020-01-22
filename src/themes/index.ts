@@ -1,10 +1,11 @@
 import { Theme } from 'styled-system';
 
 import {
-  lightColors,
-  darkColors,
-  space,
   breakpoints,
+  darkColors,
+  lightColors,
+  lineHeights,
+  space,
   typographicScale,
 } from './tokens';
 
@@ -15,6 +16,9 @@ const defaultTheme: Theme = {
   },
   space: {
     ...space,
+  },
+  lineHeights: {
+    ...lineHeights,
   },
 };
 
@@ -32,6 +36,9 @@ const darkTheme: Theme = {
   },
   colors: {
     ...darkColors,
+  },
+  lineHeights: {
+    ...lineHeights,
   },
 };
 
