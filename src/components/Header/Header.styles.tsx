@@ -1,13 +1,7 @@
 import styled from 'styled-components';
 
-import { mediaQueries } from '../../themes/tokens';
-
 const HeaderWrapper = styled.header`
   background: var(--colorBackground);
-
-  @media (${mediaQueries.tablet}) {
-    background: var(--colorPrimary);
-  }
 `;
 
 const HeaderContainer = styled.div`

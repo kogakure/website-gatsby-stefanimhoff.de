@@ -11,7 +11,7 @@ html {
 
 body {
   background-color: var(--colorBackground);
-  color: var(--colorPrimary);
+  color: var(--colorText);
   font-family: 'Playfair Display Webfont', 'Georgia', serif;
   line-height: 1.6;
 }

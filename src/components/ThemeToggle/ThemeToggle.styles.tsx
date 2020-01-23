@@ -13,7 +13,7 @@ const Button = styled.button`
 
 export const SunIcon = styled(Sun)`
   background-color: var(--colorBackground);
-  fill: var(--colorPrimary);
+  fill: var(--colorText);
   font-size: 1.5rem;
   left: 7px;
   opacity: var(--opacityLight);
@@ -23,7 +23,7 @@ export const SunIcon = styled(Sun)`
 
 export const MoonIcon = styled(Moon)`
   background-color: var(--colorBackground);
-  fill: var(--colorPrimary);
+  fill: var(--colorText);
   font-size: 1.5rem;
   left: 7px;
   opacity: var(--opacityDark);

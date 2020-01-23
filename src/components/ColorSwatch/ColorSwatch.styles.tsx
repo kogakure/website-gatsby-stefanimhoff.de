@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Information as InformationIcon } from '../Icons';
 
 const ColorSwatchContainer = styled.div`
-  border: 1px solid var(--colorBorder);
+  border: 1px solid var(--colorBorderSoft);
   border-radius: 5px;
   box-shadow: 0 5px 50px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -33,15 +33,16 @@ const Toggle = styled.div`
 `;
 
 const Icon = styled(InformationIcon)`
+  fill: var(--colorTextFullContrast);
   font-size: 1rem;
 `;
 
 const Information = styled.div`
-  background: var(--colorBackgroundFull);
+  background: var(--colorBackgroundFullContrast);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  color: var(--colorTextFull);
-  min-height: 6rem;
+  color: var(--colorTextFullContrast);
+  min-height: 7rem;
   padding: 0.8rem 0.6rem;
   position: relative;
 `;

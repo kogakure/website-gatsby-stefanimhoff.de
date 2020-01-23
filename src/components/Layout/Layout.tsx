@@ -11,7 +11,7 @@ import { EmojifyToggle } from '../../components/EmojifyToggle';
 import { Styled } from './Layout.styles';
 
 interface LayoutProps {
-  variant?: 'green';
+  variant?: 'green' | 'blue' | 'brown';
 }
 
 const Layout: React.FC<LayoutProps> = ({ children, variant }) => {
