@@ -8,7 +8,7 @@ const Spoiler = styled.span<{ block?: boolean; spoiler: boolean }>`
   color: var(--colorPrimary);
   cursor: ${({ spoiler }) => (spoiler ? 'help' : 'default')};
   display: ${({ block }) => (block ? 'block' : 'inline')};
-  margin-bottom: ${space[12]};
+  margin-bottom: ${({ block }) => (block ? space[12] : null)};
   padding: 0.1rem;
 
   & > :first-child {
