@@ -2,8 +2,8 @@
 
 exports[`Spoiler renders correctly 1`] = `
 .c0 {
-  background: var(--colorPrimary);
-  color: var(--colorPrimary);
+  background: var(--colorText);
+  color: var(--colorText);
   cursor: help;
   display: inline;
   padding: 0.1rem;
@@ -33,8 +33,8 @@ exports[`Spoiler renders correctly 1`] = `
 
 exports[`Spoiler with layout "block" renders correctly 1`] = `
 .c0 {
-  background: var(--colorPrimary);
-  color: var(--colorPrimary);
+  background: var(--colorText);
+  color: var(--colorText);
   cursor: help;
   display: block;
   margin-bottom: 2.488rem;

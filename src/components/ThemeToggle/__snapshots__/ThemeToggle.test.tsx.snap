@@ -12,7 +12,7 @@ exports[`ThemeToggle renders correctly 1`] = `
 
 .c1 {
   background-color: var(--colorBackground);
-  fill: var(--colorPrimary);
+  fill: var(--colorText);
   font-size: 1.5rem;
   left: 7px;
   opacity: var(--opacityLight);
@@ -22,7 +22,7 @@ exports[`ThemeToggle renders correctly 1`] = `
 
 .c2 {
   background-color: var(--colorBackground);
-  fill: var(--colorPrimary);
+  fill: var(--colorText);
   font-size: 1.5rem;
   left: 7px;
   opacity: var(--opacityDark);

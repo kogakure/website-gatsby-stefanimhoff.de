@@ -11,12 +11,6 @@ exports[`Header renders correctly 1`] = `
   padding: 1rem;
 }
 
-@media (min-width:768px) {
-  .c0 {
-    background: var(--colorPrimary);
-  }
-}
-
 <header
   class="c0"
 >
@@ -44,12 +38,6 @@ exports[`Header renders correctly with dark theme 1`] = `
   margin: 0 auto;
   max-width: 96rem;
   padding: 1rem;
-}
-
-@media (min-width:768px) {
-  .c0 {
-    background: var(--colorPrimary);
-  }
 }
 
 <header
@@ -81,12 +69,6 @@ exports[`Header renders correctly with prop siteTitle 1`] = `
   margin: 0 auto;
   max-width: 96rem;
   padding: 1rem;
-}
-
-@media (min-width:768px) {
-  .c0 {
-    background: var(--colorPrimary);
-  }
 }
 
 <header

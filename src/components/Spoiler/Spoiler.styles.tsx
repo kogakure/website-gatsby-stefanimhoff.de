@@ -4,8 +4,8 @@ import { space } from '../../themes/tokens';
 
 const Spoiler = styled.span<{ block?: boolean; spoiler: boolean }>`
   background: ${({ spoiler }) =>
-    spoiler ? 'var(--colorPrimary)' : 'var(--colorBackground)'};
-  color: var(--colorPrimary);
+    spoiler ? 'var(--colorText)' : 'var(--colorBackground)'};
+  color: var(--colorText);
   cursor: ${({ spoiler }) => (spoiler ? 'help' : 'default')};
   display: ${({ block }) => (block ? 'block' : 'inline')};
   margin-bottom: ${({ block }) => (block ? space[12] : null)};
