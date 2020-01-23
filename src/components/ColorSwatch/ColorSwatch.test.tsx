@@ -71,7 +71,7 @@ describe('ColorSwatch', () => {
   });
 
   test('show color information on Enter keyUp', async () => {
-    const { container, findByLabelText, debug } = render(
+    const { container, findByLabelText } = render(
       <ColorSwatch color={color} name={name} description={description} />
     );
 

@@ -6,7 +6,7 @@ import { SEO } from '../SEO';
 import { Emojify } from '../Emojify';
 import { Spoiler } from '../Spoiler';
 import { ColorSwatch } from '../ColorSwatch';
-import { Title, Headline, Subline, Paragraph } from '../Typography';
+import { Title, Headline, Subline, Paragraph, InlineCode } from '../Typography';
 
 const shortcodes = {
   ColorSwatch,
@@ -25,6 +25,7 @@ const shortcodes = {
   h5: Subline,
   h6: Subline,
   p: Paragraph,
+  inlineCode: InlineCode,
 };
 
 const MDXProviderContainer: React.FC = ({ children }) => (

@@ -60,4 +60,12 @@ Paragraph.defaultProps = {
   lineHeight: 2,
 };
 
-export { Title, Headline, Subline, Paragraph };
+const InlineCode: React.FC<StyledSystemProps> = ({ children, ...props }) => (
+  <DynamicComponent {...props}>{children}</DynamicComponent>
+);
+
+InlineCode.defaultProps = {
+  as: 'code',
+};
+
+export { Title, Headline, Subline, Paragraph, InlineCode };
