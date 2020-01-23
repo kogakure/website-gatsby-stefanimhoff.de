@@ -21,6 +21,12 @@ abbr {
   font-variant: small-caps;
 }
 
+body code,
+body kbd,
+body samp {
+  font-family: 'Fira Code', 'Operator', 'Hasklig', 'Monoid', monospace;
+}
+
 /* ===================================
  * Georgia is the fallback font during
  * loading. As it is wider it needs to

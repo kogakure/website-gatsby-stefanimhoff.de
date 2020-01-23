@@ -1,5 +1,4 @@
 import React from 'react';
-import { axe } from 'jest-axe';
 
 import { render } from '../../utils/test-utils';
 
