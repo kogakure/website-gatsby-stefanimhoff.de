@@ -1,6 +1,5 @@
 export interface LineHeights {
-  1: string;
-  2: string;
+  [key: number]: string;
 }
 
 // www.modularscale.com/?1&rem&1.2

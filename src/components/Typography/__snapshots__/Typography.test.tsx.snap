@@ -15,7 +15,7 @@ exports[`Typography Headline renders correctly 1`] = `
 
 <h2
   class="c0"
-  font-size="4"
+  font-size="5"
   font-weight="900"
   letter-spacing="normal"
 >
@@ -38,7 +38,7 @@ exports[`Typography Paragraph renders correctly 1`] = `
 
 <p
   class="c0"
-  font-size="2"
+  font-size="3"
   font-weight="400"
   letter-spacing="normal"
 >
@@ -61,7 +61,7 @@ exports[`Typography Subline renders correctly 1`] = `
 
 <h3
   class="c0"
-  font-size="3"
+  font-size="4"
   font-weight="900"
   letter-spacing="normal"
 >
@@ -84,7 +84,7 @@ exports[`Typography Title renders correctly 1`] = `
 
 <h1
   class="c0"
-  font-size="5"
+  font-size="6"
   font-weight="900"
   letter-spacing="normal"
 >

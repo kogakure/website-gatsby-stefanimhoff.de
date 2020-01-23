@@ -10,7 +10,7 @@ const Title: React.FC<StyledSystemProps> = ({ children, ...props }) => (
 
 Title.defaultProps = {
   as: 'h1',
-  fontSize: 5,
+  fontSize: 6,
   fontWeight: 900,
   letterSpacing: 'normal',
   marginTop: 5,
@@ -24,7 +24,7 @@ const Headline: React.FC<StyledSystemProps> = ({ children, ...props }) => (
 
 Headline.defaultProps = {
   as: 'h2',
-  fontSize: 4,
+  fontSize: 5,
   fontWeight: 900,
   letterSpacing: 'normal',
   marginTop: 0,
@@ -38,7 +38,7 @@ const Subline: React.FC<StyledSystemProps> = ({ children, ...props }) => (
 
 Subline.defaultProps = {
   as: 'h3',
-  fontSize: 3,
+  fontSize: 4,
   fontWeight: 900,
   letterSpacing: 'normal',
   marginTop: 0,
@@ -52,7 +52,7 @@ const Paragraph: React.FC<StyledSystemProps> = ({ children, ...props }) => (
 
 Paragraph.defaultProps = {
   as: 'p',
-  fontSize: 2,
+  fontSize: 3,
   fontWeight: 400,
   letterSpacing: 'normal',
   marginTop: 0,
