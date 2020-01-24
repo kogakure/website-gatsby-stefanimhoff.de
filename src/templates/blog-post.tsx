@@ -8,6 +8,7 @@ import { Layout } from '../components/Layout';
 import { SEO } from '../components/SEO';
 import { LocalizedDate } from '../components/LocalizedDate';
 import { MDXProviderContainer } from '../components/MDXProviderContainer';
+import { Title } from '../components/Typography';
 
 interface BlogPostTemplateProps {
   readonly data: PostQueryData;
@@ -41,7 +42,7 @@ const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
       />
       <article>
         <header>
-          <h1>{title}</h1>
+          <Title>{title}</Title>
           <LocalizedDate date={date} />
           <div>
             {words} words, {text}
