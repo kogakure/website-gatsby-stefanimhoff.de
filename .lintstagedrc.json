@@ -1,9 +1,8 @@
 {
-  "*.{js,jsx,ts,tsx}": ["eslint --fix", "stylelint --fix", "git add"],
+  "*.{js,jsx,ts,tsx}": ["eslint --fix", "stylelint --fix"],
   "*.{js,jsx,ts,tsx,css,d.ts,json}": [
     "prettier --write",
-    "jest --findRelatedTests",
-    "git add"
+    "jest --findRelatedTests"
   ],
-  "*.{mdx,md}": ["prettier --parser markdown --write", "git add"]
+  "*.{mdx,md}": ["prettier --parser markdown --write"]
 }
