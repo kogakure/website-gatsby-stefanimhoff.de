@@ -1,8 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Emojify renders correctly 1`] = `
+div > .c0 {
+  font-size: 4em;
+}
+
+p .c0 {
+  font-size: 1.5em;
+  line-height: 0.8;
+  position: relative;
+  top: 0.1em;
+}
+
 <span
   aria-label="zany"
+  class="c0"
   role="img"
 >
   🤪
