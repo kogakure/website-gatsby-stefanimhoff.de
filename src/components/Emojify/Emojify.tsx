@@ -3,6 +3,8 @@ import unicode from 'emoji-unicode-map';
 
 import { EmojifyContext } from '../../contexts';
 
+import { Styled } from './Emojify.styles';
+
 interface EmojifyProps {
   emoji: string;
 }
@@ -11,9 +13,13 @@ const Emojify: React.FC<EmojifyProps> = ({ emoji, ...props }) => {
   const { emojified } = React.useContext(EmojifyContext);
 
   return emojified ? (
-    <span role="img" aria-label={unicode.get(emoji) || 'emoji'} {...props}>
+    <Styled.Emoji
+      role="img"
+      aria-label={unicode.get(emoji) || 'emoji'}
+      {...props}
+    >
       {emoji}
-    </span>
+    </Styled.Emoji>
   ) : null;
 };
 
