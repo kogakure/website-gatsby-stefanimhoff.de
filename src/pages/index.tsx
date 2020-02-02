@@ -9,7 +9,7 @@ import { Typography } from '../components/Typography';
 import { SEO } from '../components/SEO';
 import { ArrowUp } from '../components/Icons';
 
-const { Title, Headline, Subline, Paragraph } = Typography;
+const { Title, Headline, Subline, Paragraph, TextLink } = Typography;
 
 const IndexPage = ({ data }: PostsQueryData) => {
   const posts = data.allBlogPosts.edges;
@@ -21,6 +21,14 @@ const IndexPage = ({ data }: PostsQueryData) => {
       <Headline>Headline</Headline>
       <Subline>Subline</Subline>
       <Paragraph>This is Paragraph text. With a lot of words.</Paragraph>
+      <TextLink href="https://www.google.de">Link to Google</TextLink>
+      <br />
+      <TextLink to="/post-1/">Gatsby Link</TextLink>
+      <br />
+      <TextLink to="/post-2/" onClick={() => console.log('Click')}>
+        Gatsby Link and onClick
+      </TextLink>
+      <br />
       <ArrowUp />
       {posts.map(({ node }) => {
         const {
@@ -46,9 +54,14 @@ const IndexPage = ({ data }: PostsQueryData) => {
       <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
         <Image />
       </div>
-      <Link to="/styleguide/">Styleguide</Link>&nbsp;
-      <Link to="/page-2/">Go to page 2</Link>&nbsp;
+      <Link to="/styleguide/">Styleguide</Link>
+      <br />
+      <Link to="/page-2/">Go to page 2</Link>
+      <br />
       <Link to="/page-markdown/">Go to Markdown Page</Link>
+      <br />
+      <Link to="https://google.com">Go to Google</Link>
+      <br />
     </Layout>
   );
 };
