@@ -7,6 +7,7 @@ import { Emojify } from '../Emojify';
 import { Spoiler } from '../Spoiler';
 import { ColorSwatch } from '../ColorSwatch';
 import { Typography } from '../Typography';
+import { TextLink, BlockLink } from '../TextLink';
 
 const { Title, Headline, Subline, Paragraph, InlineCode } = Typography;
 
@@ -20,6 +21,8 @@ const shortcodes = {
   Headline,
   Subline,
   Paragraph,
+  TextLink,
+  BlockLink,
   h1: Title,
   h2: Headline,
   h3: Subline,
@@ -28,6 +31,7 @@ const shortcodes = {
   h6: Subline,
   p: Paragraph,
   inlineCode: InlineCode,
+  a: TextLink,
 };
 
 const MDXProviderContainer: React.FC = ({ children }) => (
