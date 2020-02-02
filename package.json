@@ -24,7 +24,7 @@
     "plop": "plop",
     "prettier": "prettier --ignore-path .gitignore '**/*.{js,json,ts,tsx,md}'",
     "serve": "gatsby serve",
-    "start": "npm run develop",
+    "start": "yarn run develop",
     "svg": "svgr --icon --ext tsx -d src/components/Icons src/components/Icons/svg",
     "test": "is-ci 'test:coverage' 'test:watch'",
     "test:coverage": "jest --coverage",
