@@ -5,3 +5,5 @@ published: true
 ---
 
 Hello World!
+
+[Markdown Link](http://google.de)

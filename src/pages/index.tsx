@@ -8,8 +8,9 @@ import { Image } from '../components/Image';
 import { Typography } from '../components/Typography';
 import { SEO } from '../components/SEO';
 import { ArrowUp } from '../components/Icons';
+import { BlockLink } from '../components/TextLink';
 
-const { Title, Headline, Subline, Paragraph, TextLink } = Typography;
+const { Title, Headline, Subline, Paragraph } = Typography;
 
 const IndexPage = ({ data }: PostsQueryData) => {
   const posts = data.allBlogPosts.edges;
@@ -21,14 +22,11 @@ const IndexPage = ({ data }: PostsQueryData) => {
       <Headline>Headline</Headline>
       <Subline>Subline</Subline>
       <Paragraph>This is Paragraph text. With a lot of words.</Paragraph>
-      <TextLink href="https://www.google.de">Link to Google</TextLink>
-      <br />
-      <TextLink to="/post-1/">Gatsby Link</TextLink>
-      <br />
-      <TextLink to="/post-2/" onClick={() => console.log('Click')}>
+      <BlockLink href="https://www.google.de">Link to Google</BlockLink>
+      <BlockLink to="/post-1/">Gatsby Link</BlockLink>
+      <BlockLink to="/post-2/" onClick={() => console.log('Click')}>
         Gatsby Link and onClick
-      </TextLink>
-      <br />
+      </BlockLink>
       <ArrowUp />
       {posts.map(({ node }) => {
         const {
