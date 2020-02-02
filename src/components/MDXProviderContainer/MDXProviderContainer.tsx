@@ -6,7 +6,9 @@ import { SEO } from '../SEO';
 import { Emojify } from '../Emojify';
 import { Spoiler } from '../Spoiler';
 import { ColorSwatch } from '../ColorSwatch';
-import { Title, Headline, Subline, Paragraph, InlineCode } from '../Typography';
+import { Typography } from '../Typography';
+
+const { Title, Headline, Subline, Paragraph, InlineCode } = Typography;
 
 const shortcodes = {
   ColorSwatch,

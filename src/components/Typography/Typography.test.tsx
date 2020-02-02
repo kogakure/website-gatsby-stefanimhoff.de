@@ -2,7 +2,9 @@ import React from 'react';
 
 import { render } from '../../utils/test-utils';
 
-import { Title, Headline, Subline, Paragraph } from '.';
+import { Typography } from '.';
+
+const { Title, Headline, Subline, Paragraph } = Typography;
 
 describe('Typography', () => {
   describe('Title', () => {
