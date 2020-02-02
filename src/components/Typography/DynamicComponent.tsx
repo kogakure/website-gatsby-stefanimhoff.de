@@ -6,6 +6,7 @@ import {
   borderStyle,
   borderWidth,
   color,
+  display,
   fontFamily,
   fontSize,
   fontStyle,
@@ -25,6 +26,7 @@ export default styled.div`
   ${borderWidth}
   ${border}
   ${color}
+  ${display}
   ${fontFamily}
   ${fontSize}
   ${fontStyle}

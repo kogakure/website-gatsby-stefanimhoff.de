@@ -31,12 +31,51 @@ body samp {
  * Georgia is the fallback font during
  * loading. As it is wider it needs to
  * be set in font-weight 400.
-   ==================================*/
+ * ==================================*/
 .wf-loading h1,
 .wf-loading h2,
-.wf-loading h3,
-.wf-loading h4,
-.wf-loading h5,
-.wf-loading h6 {
+.wf-loading h3 {
   font-weight: 400;
+}
+
+/* ===================================
+ * Headline Autolink
+ * ==================================*/
+h1 .autolink,
+h2 .autolink,
+h3 .autolink {
+  background: transparent;
+  fill: var(--colorText);
+  margin-left: 0.5rem;
+  opacity: 0;
+  position: relative;
+}
+
+h1 .autolink {
+  bottom: 1rem;
+}
+
+h2 .autolink {
+  bottom: 0.4rem;
+}
+
+h3 .autolink {
+  bottom: 0.1rem;
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  h1 .autolink,
+  h2 .autolink,
+  h3 .autolink {
+    transition: opacity 0.3s ease-in-out;
+  }
+}
+
+h1:hover .autolink,
+h1:focus .autolink,
+h2:hover .autolink,
+h2:focus .autolink,
+h3:hover .autolink,
+h3:focus .autolink {
+  opacity: 0.5;
 }

@@ -9,8 +9,8 @@ exports[`Typography Headline renders correctly 1`] = `
   -ms-letter-spacing: normal;
   letter-spacing: normal;
   line-height: 1.0;
-  margin-top: 0;
   margin-bottom: 2.074rem;
+  margin-top: 0;
 }
 
 <h2
@@ -55,8 +55,8 @@ exports[`Typography Subline renders correctly 1`] = `
   -ms-letter-spacing: normal;
   letter-spacing: normal;
   line-height: 1.0;
-  margin-top: 0;
   margin-bottom: 1.728rem;
+  margin-top: 0;
 }
 
 <h3
@@ -78,8 +78,8 @@ exports[`Typography Title renders correctly 1`] = `
   -ms-letter-spacing: normal;
   letter-spacing: normal;
   line-height: 1.0;
-  margin-top: 0.694rem;
   margin-bottom: 2.986rem;
+  margin-top: 0.694rem;
 }
 
 <h1
