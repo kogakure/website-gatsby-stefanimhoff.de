@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/indent */
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import * as React from 'react';
 
 import { StyledSystemProps } from '../../typings/StyleSystem';
