@@ -5,9 +5,11 @@ import { PostsQueryData } from '../typings/PostsQuery';
 import { Layout } from '../components/Layout';
 import { LocalizedDate } from '../components/LocalizedDate';
 import { Image } from '../components/Image';
-import { Title, Headline, Subline, Paragraph } from '../components/Typography';
+import { Typography } from '../components/Typography';
 import { SEO } from '../components/SEO';
 import { ArrowUp } from '../components/Icons';
+
+const { Title, Headline, Subline, Paragraph } = Typography;
 
 const IndexPage = ({ data }: PostsQueryData) => {
   const posts = data.allBlogPosts.edges;
