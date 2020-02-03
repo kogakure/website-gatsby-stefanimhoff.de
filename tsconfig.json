@@ -14,7 +14,18 @@
     "removeComments": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "esnext"
+    "target": "esnext",
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin",
+        "lint": {
+          "validProperties": [
+            "text-decoration-thickness",
+            "text-underline-offset"
+          ]
+        }
+      }
+    ]
   },
   "exclude": ["node_modules", "public", ".cache", "extensions", "coverage"],
   "include": ["*.ts", "**/*.ts", "**/*.tsx", "**/*.js", "**/d.ts"]
