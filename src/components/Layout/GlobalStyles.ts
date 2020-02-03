@@ -10,61 +10,63 @@ const GlobalStyles = createGlobalStyle<{ theme: ThemeType & ThemeProps }>`
   /* stylelint-disable plugin/stylelint-no-indistinguishable-colors */
 
   .light {
-    --colorText: ${lightColors.text};
     --colorBackground: ${lightColors.background};
-    --colorLogo: ${lightColors.logo};
-    --colorTextFullContrast: ${lightColors.textFullContrast};
     --colorBackgroundFullContrast: ${lightColors.backgroundFullContrast};
     --colorBorderSoft: ${lightColors.borderSoft};
-    --opacityLight: 0;
+    --colorLink: ${lightColors.accent};
+    --colorLogo: ${lightColors.logo};
+    --colorText: ${lightColors.text};
+    --colorTextFullContrast: ${lightColors.textFullContrast};
     --opacityDark: 1;
+    --opacityLight: 0;
   }
 
   .dark {
-    --colorText: ${darkColors.text};
     --colorBackground: ${darkColors.background};
-    --colorLogo: ${darkColors.logo};
-    --colorTextFullContrast: ${darkColors.textFullContrast};
     --colorBackgroundFullContrast: ${darkColors.backgroundFullContrast};
     --colorBorderSoft: ${darkColors.borderSoft};
-    --opacityLight: 1;
+    --colorLink: ${darkColors.accent};
+    --colorLogo: ${darkColors.logo};
+    --colorText: ${darkColors.text};
+    --colorTextFullContrast: ${darkColors.textFullContrast};
     --opacityDark: 0;
+    --opacityLight: 1;
   }
 
   .light .green {
-    --colorText: ${lightColors.textGreen};
     --colorBackground: ${lightColors.backgroundGreen};
     --colorLogo: ${lightColors.logoGreen};
+    --colorText: ${lightColors.textGreen};
   }
 
   .dark .green {
-    --colorText: ${darkColors.textGreen};
     --colorBackground: ${darkColors.backgroundGreen};
     --colorLogo: ${darkColors.logoGreen};
+    --colorText: ${darkColors.textGreen};
   }
 
   .light .blue {
-    --colorText: ${lightColors.textBlue};
     --colorBackground: ${lightColors.backgroundBlue};
     --colorLogo: ${lightColors.logoBlue};
+    --colorText: ${lightColors.textBlue};
   }
 
   .dark .blue {
-    --colorText: ${darkColors.textBlue};
     --colorBackground: ${darkColors.backgroundBlue};
     --colorLogo: ${darkColors.logoBlue};
+    --colorText: ${darkColors.textBlue};
   }
 
   .light .brown {
-    --colorText: ${lightColors.textBrown};
     --colorBackground: ${lightColors.backgroundBrown};
     --colorLogo: ${lightColors.logoBrown};
+    --colorText: ${lightColors.textBrown};
   }
 
   .dark .brown {
-    --colorText: ${darkColors.textBrown};
     --colorBackground: ${darkColors.backgroundBrown};
     --colorLogo: ${darkColors.logoBrown};
+    --colorText: ${darkColors.textBrown};
   }
 
   ${globalCSS}

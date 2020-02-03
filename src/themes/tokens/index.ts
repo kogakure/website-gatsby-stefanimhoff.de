@@ -1,15 +1,6 @@
-import { breakpoints, mediaQueries } from './breakpoints';
-import { lightColors, darkColors } from './colors';
-import { lineHeights } from './lineHeights';
-import { space } from './space';
-import { typographicScale } from './typographicScale';
-
-export {
-  breakpoints,
-  darkColors,
-  lightColors,
-  lineHeights,
-  mediaQueries,
-  space,
-  typographicScale,
-};
+export { breakpoints, mediaQueries } from './breakpoints';
+export { fontWeights } from './fontWeights';
+export { lightColors, darkColors } from './colors';
+export { lineHeights } from './lineHeights';
+export { space } from './space';
+export { typographicScale } from './typographicScale';

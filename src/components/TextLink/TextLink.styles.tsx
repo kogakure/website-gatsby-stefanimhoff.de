@@ -5,15 +5,26 @@ import { fontWeight, fontSize } from 'styled-system';
 const TextLinkHref = styled.a`
   ${fontSize};
   ${fontWeight};
-  background: red;
-  color: black;
+  color: var(--colorText);
+
+  text-decoration-color: var(--textColor);
+  text-decoration-thickness: 0.15em;
+  text-underline-offset: 0.15em;
+
+  &:hover,
+  &:focus {
+    text-decoration-color: var(--colorLink);
+
+    @supports (not (text-decoration-color: red)) {
+      color: var(--colorLink);
+    }
+  }
 `;
 
 const TextLinkRouter = styled(Link)`
   ${fontSize};
   ${fontWeight};
-  background: green;
-  color: black;
+  color: var(--colorText);
 `;
 
 export const Styled = {

@@ -3,6 +3,7 @@ import { Theme } from 'styled-system';
 import {
   breakpoints,
   darkColors,
+  fontWeights,
   lightColors,
   lineHeights,
   space,
@@ -14,6 +15,7 @@ const defaultTheme: Theme = {
   fontSizes: {
     ...typographicScale,
   },
+  fontWeights,
   space: {
     ...space,
   },
@@ -31,14 +33,8 @@ const lightTheme: Theme = {
 
 const darkTheme: Theme = {
   ...defaultTheme,
-  fontSizes: {
-    ...typographicScale,
-  },
   colors: {
     ...darkColors,
-  },
-  lineHeights: {
-    ...lineHeights,
   },
 };
 
