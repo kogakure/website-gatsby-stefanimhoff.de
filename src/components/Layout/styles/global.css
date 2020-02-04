@@ -27,6 +27,10 @@ body samp {
   font-family: 'Fira Code', 'Operator', 'Hasklig', 'Monoid', monospace;
 }
 
+.code-block {
+  margin-bottom: 2.488rem;
+}
+
 /* ===================================
  * Georgia is the fallback font during
  * loading. As it is wider it needs to
