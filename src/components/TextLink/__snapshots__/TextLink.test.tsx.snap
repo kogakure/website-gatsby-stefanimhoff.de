@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextLink with href renders correctly 1`] = `
+.c0 {
+  font-size: 1.25rem;
+  color: var(--colorText);
+  -webkit-text-decoration-color: var(--textColor);
+  text-decoration-color: var(--textColor);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration-color: var(--colorLink);
+  text-decoration-color: var(--colorLink);
+}
+
+@supports (not (text-decoration-color:red)) {
+  .c0:hover,
+  .c0:focus {
+    color: var(--colorLink);
+  }
+}
+
+<a
+  class="c0"
+  font-size="3"
+  href="https://www.stefanimhoff.de/"
+>
+  Link
+</a>
+`;
+
+exports[`TextLink with to property renders correctly 1`] = `
+.c0 {
+  font-size: 1.25rem;
+  color: var(--colorText);
+  -webkit-text-decoration-color: var(--textColor);
+  text-decoration-color: var(--textColor);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration-color: var(--colorLink);
+  text-decoration-color: var(--colorLink);
+}
+
+@supports (not (text-decoration-color:red)) {
+  .c0:hover,
+  .c0:focus {
+    color: var(--colorLink);
+  }
+}
+
+<a
+  class="c0"
+  font-size="3"
+  href="/styleguide"
+>
+  Link
+</a>
+`;
