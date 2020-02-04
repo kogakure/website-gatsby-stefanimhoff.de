@@ -25,7 +25,7 @@ export const TypographyStyles: TypographyStyles = {
     letterSpacing: 'normal',
     lineHeight: 1,
     marginBottom: 11,
-    marginTop: 0,
+    marginTop: 15,
   },
   Subline: {
     as: 'h3',
@@ -34,7 +34,7 @@ export const TypographyStyles: TypographyStyles = {
     letterSpacing: 'normal',
     lineHeight: 1,
     marginBottom: 10,
-    marginTop: 0,
+    marginTop: 15,
   },
   Paragraph: {
     as: 'p',
