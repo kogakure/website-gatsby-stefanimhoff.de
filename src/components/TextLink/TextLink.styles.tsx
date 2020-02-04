@@ -1,15 +1,13 @@
-import { Link } from 'gatsby';
-import styled from 'styled-components';
-import { fontWeight, fontSize } from 'styled-system';
+import { Link as GatsbyLink } from 'gatsby';
+import styled, { css } from 'styled-components';
+import { fontSize } from 'styled-system';
 
-const TextLinkHref = styled.a`
+const linkStyles = css`
   ${fontSize};
-  ${fontWeight};
   color: var(--colorText);
-
   text-decoration-color: var(--textColor);
-  text-decoration-thickness: 0.15em;
-  text-underline-offset: 0.15em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
 
   &:hover,
   &:focus {
@@ -21,10 +19,12 @@ const TextLinkHref = styled.a`
   }
 `;
 
-const TextLinkRouter = styled(Link)`
-  ${fontSize};
-  ${fontWeight};
-  color: var(--colorText);
+const TextLinkRouter = styled(GatsbyLink)`
+  ${linkStyles};
+`;
+
+const TextLinkHref = styled.a`
+  ${linkStyles}
 `;
 
 export const Styled = {

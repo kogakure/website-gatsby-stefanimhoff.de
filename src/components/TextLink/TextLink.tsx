@@ -52,7 +52,7 @@ const BlockLink = ({ ...props }) => (
 );
 
 TextLink.defaultProps = {
-  fontWeight: 2,
+  fontSize: 3,
 };
 
 export { TextLink, BlockLink };
