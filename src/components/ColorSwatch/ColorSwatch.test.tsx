@@ -23,41 +23,41 @@ describe('ColorSwatch', () => {
   });
 
   test('renders correctly with name', () => {
-    const { container } = render(<ColorSwatch color={color} name={name} />);
+    const { getByText } = render(<ColorSwatch color={color} name={name} />);
 
-    expect(container.firstChild).toHaveTextContent(/lapis lazuli/i);
+    expect(getByText(/lapis lazuli/i)).toBeInTheDocument();
   });
 
   test('renders correctly with description', () => {
-    const { container } = render(
+    const { getByText } = render(
       <ColorSwatch color={color} description={description} />
     );
 
-    expect(container.firstChild).toHaveTextContent(/purplish blue/i);
+    expect(getByText(/purplish blue/i)).toBeInTheDocument();
   });
 
   test('renders correctly with RGB value', () => {
-    const { container } = render(<ColorSwatch color={rgbColor} />);
+    const { getByText } = render(<ColorSwatch color={rgbColor} />);
 
-    expect(container.firstChild).toHaveTextContent(/#005CA/);
+    expect(getByText(/#005CA/)).toBeInTheDocument();
   });
 
   test('renders correctly with HSL value', () => {
-    const { container } = render(<ColorSwatch color={hslColor} />);
+    const { getByText } = render(<ColorSwatch color={hslColor} />);
 
-    expect(container.firstChild).toHaveTextContent(/#005CA/);
+    expect(getByText(/#005CA/)).toBeInTheDocument();
   });
 
   test('show color information on click', async () => {
-    const { container, findByLabelText } = render(
+    const { getByText, findByLabelText } = render(
       <ColorSwatch color={color} name={name} description={description} />
     );
 
     user.click(await findByLabelText('Information'));
-    expect(container.firstChild).toHaveTextContent(/#005CA/i);
+    expect(getByText(/#005CA/i)).toBeInTheDocument();
 
     user.click(await findByLabelText('Information'));
-    expect(container.firstChild).toHaveTextContent(/lapis lazuli/i);
+    expect(getByText(/lapis lazuli/i)).toBeInTheDocument();
   });
 
   test('should cycle through information icon', async () => {
@@ -71,7 +71,7 @@ describe('ColorSwatch', () => {
   });
 
   test('show color information on Enter keyUp', async () => {
-    const { container, findByLabelText } = render(
+    const { getByText, findByLabelText } = render(
       <ColorSwatch color={color} name={name} description={description} />
     );
 
@@ -79,13 +79,13 @@ describe('ColorSwatch', () => {
       key: 'Enter',
       code: 13,
     });
-    expect(container.firstChild).toHaveTextContent(/#005CA/i);
+    expect(getByText(/#005CA/i)).toBeInTheDocument();
 
     fireEvent.keyUp(await findByLabelText('Information'), {
       key: 'Enter',
       code: 13,
     });
-    expect(container.firstChild).toHaveTextContent(/lapis lazuli/i);
+    expect(getByText(/lapis lazuli/i)).toBeInTheDocument();
   });
 
   test('is accessible', async () => {
