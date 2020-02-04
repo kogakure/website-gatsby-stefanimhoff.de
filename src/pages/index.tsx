@@ -24,9 +24,6 @@ const IndexPage = ({ data }: PostsQueryData) => {
       <Paragraph>This is Paragraph text. With a lot of words.</Paragraph>
       <BlockLink href="https://www.google.de">Link to Google</BlockLink>
       <BlockLink to="/post-1/">Gatsby Link</BlockLink>
-      <BlockLink to="/post-2/" onClick={() => console.log('Click')}>
-        Gatsby Link and onClick
-      </BlockLink>
       <ArrowUp />
       {posts.map(({ node }) => {
         const {
