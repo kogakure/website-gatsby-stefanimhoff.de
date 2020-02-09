@@ -45,6 +45,12 @@
   - Plum
   - Cherry
 
+```md
+- Item
+- Item
+- Item
+```
+
 ### Ordered Lists
 
 1. **Early Stoics**
@@ -61,6 +67,12 @@
    3. Epictetus
    4. Marcus Aurelius
 
+```md
+1. Item 1
+2. Item 2
+3. Item 3
+```
+
 ### Checklists
 
 - [x] Make breakfeast
@@ -71,7 +83,10 @@
   - [ ] Bread
 - [ ] Read book
 
-## Links
+```md
+- [ ] Unchecked item
+- [x] Checked item
+```
 
 There are regular [Markdown](https://www.markdownguide.org/) links, which will be mapped to the `TextLink` component.
 
@@ -130,10 +145,6 @@ gulp.task('webp', function() {
     .pipe(webp(config.options))
     .pipe(gulp.dest(config.dest));
 });
-```
-
-```js
-this.willBe(highlighted);
 ```
 
 ```apache
