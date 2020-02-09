@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Information as InformationIcon } from '../Icons';
 
 const ColorSwatchContainer = styled.div`
-  border: 1px solid var(--colorBorderSoft);
+  border: 1px solid var(--colorTextSoft);
   border-radius: 5px;
   box-shadow: 0 5px 50px rgba(0, 0, 0, 0.1);
   display: flex;

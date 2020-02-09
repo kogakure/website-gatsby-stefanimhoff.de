@@ -7,7 +7,7 @@ export interface ThemeColors {
   backgroundBrown: CSS.ColorProperty;
   backgroundFullContrast: CSS.ColorProperty;
   backgroundGreen: CSS.ColorProperty;
-  borderSoft: CSS.ColorProperty;
+  borderSoftInverse: CSS.ColorProperty;
   logo: CSS.ColorProperty;
   logoBlue: CSS.ColorProperty;
   logoBrown: CSS.ColorProperty;
@@ -17,6 +17,9 @@ export interface ThemeColors {
   textBrown: CSS.ColorProperty;
   textFullContrast: CSS.ColorProperty;
   textGreen: CSS.ColorProperty;
+  textSoft: CSS.ColorProperty;
+  textStrong: CSS.ColorProperty;
+  textStrongInverse: CSS.ColorProperty;
 }
 
 export const lightColors: ThemeColors = {
@@ -26,7 +29,7 @@ export const lightColors: ThemeColors = {
   backgroundBrown: 'hsl(38, 10%, 55%)',
   backgroundFullContrast: '#FFFFFF',
   backgroundGreen: 'hsl(65, 5%, 50%)',
-  borderSoft: 'rgba(255, 255, 255, 0.2)',
+  borderSoftInverse: 'rgba(0, 0, 0, 0.2)',
   logo: 'hsl(357, 96%, 46%)',
   logoBlue: 'hsl(220, 6%, 30%)',
   logoBrown: 'hsl(38, 10%, 30%)',
@@ -36,6 +39,9 @@ export const lightColors: ThemeColors = {
   textBrown: 'hsl(38, 10%, 5%)',
   textFullContrast: '#000000',
   textGreen: 'hsl(65, 5%, 5%)',
+  textSoft: 'rgba(255, 255, 255, 0.2)',
+  textStrong: 'rgba(255, 255, 255, 0.8)',
+  textStrongInverse: 'rgba(0, 0, 0, 0.8)',
 };
 
 export const darkColors: ThemeColors = {
@@ -45,7 +51,7 @@ export const darkColors: ThemeColors = {
   backgroundBrown: 'hsl(38, 10%, 20%)',
   backgroundFullContrast: '#000000',
   backgroundGreen: 'hsl(65, 5%, 20%)',
-  borderSoft: 'rgba(0, 0, 0, 0.2)',
+  borderSoftInverse: 'rgba(255, 255, 255, 0.2)',
   logo: 'hsl(357, 96%, 46%)',
   logoBlue: 'hsl(220, 6%, 40%)',
   logoBrown: 'hsl(38, 10%, 40%)',
@@ -55,4 +61,7 @@ export const darkColors: ThemeColors = {
   textBrown: 'hsl(38, 10%, 90%)',
   textFullContrast: '#FFFFFF',
   textGreen: 'hsl(65, 5%, 90%)',
+  textSoft: 'rgba(0, 0, 0, 0.2)',
+  textStrong: 'rgba(0, 0, 0, 0.8)',
+  textStrongInverse: 'rgba(255, 255, 255, 0.8)',
 };
