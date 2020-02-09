@@ -15,6 +15,12 @@
   ],
   "syntax": "scss",
   "rules": {
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreProperties": ["suffix", "symbols", "system"]
+      }
+    ],
     "order/order": ["custom-properties", "declarations"],
     "order/properties-alphabetical-order": true,
     "plugin/stylelint-no-indistinguishable-colors": true,
