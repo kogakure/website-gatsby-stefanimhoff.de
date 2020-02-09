@@ -7,6 +7,8 @@ import { SEO } from '../SEO';
 import { Spoiler } from '../Spoiler';
 import { TextLink, BlockLink } from '../TextLink';
 import { Typography } from '../Typography';
+import { UnorderedList } from '../UnorderedList';
+import { OrderedList } from '../OrderedList';
 
 const { Title, Headline, Subline, Paragraph, InlineCode } = Typography;
 
@@ -30,6 +32,8 @@ const shortcodes = {
   h6: Subline,
   inlineCode: InlineCode,
   p: Paragraph,
+  ul: UnorderedList,
+  ol: OrderedList,
 };
 
 const MDXProviderContainer: React.FC = ({ children }) => (
