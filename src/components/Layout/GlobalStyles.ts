@@ -10,25 +10,33 @@ const GlobalStyles = createGlobalStyle<{ theme: ThemeType & ThemeProps }>`
   /* stylelint-disable plugin/stylelint-no-indistinguishable-colors */
 
   .light {
+    --colorAccent: ${lightColors.accent};
     --colorBackground: ${lightColors.background};
     --colorBackgroundFullContrast: ${lightColors.backgroundFullContrast};
-    --colorBorderSoft: ${lightColors.borderSoft};
     --colorLink: ${lightColors.accent};
     --colorLogo: ${lightColors.logo};
     --colorText: ${lightColors.text};
     --colorTextFullContrast: ${lightColors.textFullContrast};
+    --colorTextSoft: ${lightColors.textSoft};
+    --colorTextSoftInverse: ${lightColors.borderSoftInverse};
+    --colorTextStrong: ${lightColors.textStrong};
+    --colorTextStrongInverse: ${lightColors.textStrongInverse};
     --opacityDark: 1;
     --opacityLight: 0;
   }
 
   .dark {
+    --colorAccent: ${darkColors.accent};
     --colorBackground: ${darkColors.background};
     --colorBackgroundFullContrast: ${darkColors.backgroundFullContrast};
-    --colorBorderSoft: ${darkColors.borderSoft};
     --colorLink: ${darkColors.accent};
     --colorLogo: ${darkColors.logo};
     --colorText: ${darkColors.text};
     --colorTextFullContrast: ${darkColors.textFullContrast};
+    --colorTextSoft: ${darkColors.textSoft};
+    --colorTextSoftInverse: ${darkColors.borderSoftInverse};
+    --colorTextStrong: ${darkColors.textStrong};
+    --colorTextStrongInverse: ${darkColors.textStrongInverse};
     --opacityDark: 0;
     --opacityLight: 1;
   }
