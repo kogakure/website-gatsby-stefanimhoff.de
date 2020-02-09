@@ -6,6 +6,7 @@ import {
   fontWeights,
   lightColors,
   lineHeights,
+  radii,
   space,
   typographicScale,
 } from './tokens';
@@ -16,6 +17,9 @@ const defaultTheme: Theme = {
     ...typographicScale,
   },
   fontWeights,
+  radii: {
+    ...radii,
+  },
   space: {
     ...space,
   },
