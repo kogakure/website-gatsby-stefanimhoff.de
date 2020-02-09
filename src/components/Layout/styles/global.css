@@ -83,3 +83,12 @@ h3:hover .autolink,
 h3:focus .autolink {
   opacity: 0.5;
 }
+
+/* ===================================
+ * Custom style for unordered lists
+ * ==================================*/
+@counter-style heavy-asterisk {
+  suffix: ' ';
+  symbols: '✱';
+  system: cyclic;
+}
