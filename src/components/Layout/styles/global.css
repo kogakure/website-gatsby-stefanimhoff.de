@@ -29,6 +29,8 @@ body samp {
 
 .code-block {
   margin-bottom: 2.488rem;
+  max-width: 90vw;
+  overflow-y: auto;
 }
 
 /* ===================================
