@@ -10,7 +10,6 @@ interface TypographyComponentProps {
   Headline: React.FC<StyledSystemProps>;
   Subline: React.FC<StyledSystemProps>;
   Paragraph: React.FC<StyledSystemProps>;
-  InlineCode: React.FC<StyledSystemProps>;
 }
 
 const createComponent: (
@@ -33,5 +32,4 @@ export const Typography: TypographyComponentProps = {
   Headline: createComponent(TypographyStyles.Headline, 'Headline'),
   Subline: createComponent(TypographyStyles.Subline, 'Subline'),
   Paragraph: createComponent(TypographyStyles.Paragraph, 'Paragraph'),
-  InlineCode: createComponent(TypographyStyles.InlineCode, 'InlineCode'),
 };

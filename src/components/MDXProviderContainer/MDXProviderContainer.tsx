@@ -9,20 +9,27 @@ import { TextLink, BlockLink } from '../TextLink';
 import { Typography } from '../Typography';
 import { UnorderedList } from '../UnorderedList';
 import { OrderedList } from '../OrderedList';
+import { InlineCode } from '../InlineCode';
+import { KeyboardShortcut } from '../KeyboardShortcut';
+import { Sample } from '../Sample';
+import { Variable } from '../Variable';
 
-const { Title, Headline, Subline, Paragraph, InlineCode } = Typography;
+const { Title, Headline, Subline, Paragraph } = Typography;
 
 const shortcodes = {
   BlockLink,
   ColorSwatch,
   Emojify,
   Headline,
+  KeyboardShortcut,
   Paragraph,
   SEO,
+  Sample,
   Spoiler,
   Subline,
   TextLink,
   Title,
+  Variable,
   a: TextLink,
   h1: Title,
   h2: Headline,
