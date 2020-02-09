@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sample renders correctly 1`] = `
+.c0 {
+  font-size: 0.773rem;
+  border-radius: 8px;
+  padding-left: 0.482rem;
+  padding-right: 0.482rem;
+  padding-top: 0.335rem;
+  padding-bottom: 0.335rem;
+}
+
+.c0.one-dark-pro {
+  color: #fff;
+}
+
+<samp
+  class="c0 one-dark-pro"
+  font-size="2"
+/>
+`;
