@@ -13,6 +13,7 @@ import { InlineCode } from '../InlineCode';
 import { KeyboardShortcut } from '../KeyboardShortcut';
 import { Sample } from '../Sample';
 import { Variable } from '../Variable';
+import { RubyAnnotation } from '../RubyAnnotation';
 
 const { Title, Headline, Subline, Paragraph } = Typography;
 
@@ -23,6 +24,7 @@ const shortcodes = {
   Headline,
   KeyboardShortcut,
   Paragraph,
+  RubyAnnotation,
   SEO,
   Sample,
   Spoiler,
