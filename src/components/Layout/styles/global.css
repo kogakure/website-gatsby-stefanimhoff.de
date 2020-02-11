@@ -122,3 +122,11 @@ mark {
   padding-left: 0.2em;
   padding-right: 0.2em;
 }
+
+/* ===================================
+ * Abbrevations & Definitions
+ * ==================================*/
+abbr,
+dfn {
+  cursor: help;
+}
