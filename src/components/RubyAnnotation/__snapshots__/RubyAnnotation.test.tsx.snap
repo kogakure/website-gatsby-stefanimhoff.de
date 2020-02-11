@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RubyAnnotation renders correctly 1`] = `
+.c0 {
+  font-size: 1.25rem;
+}
+
+<ruby
+  class="c0"
+  font-size="3"
+>
+  日
+  <rp
+    class=""
+  >
+    （
+  </rp>
+  <rt
+    class=""
+  >
+    に
+  </rt>
+  <rp
+    class=""
+  >
+    ）
+  </rp>
+</ruby>
+`;
