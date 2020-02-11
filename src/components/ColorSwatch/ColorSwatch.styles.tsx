@@ -10,7 +10,6 @@ const ColorSwatchContainer = styled.div`
   flex-direction: column;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.7rem;
-  width: 12rem;
 `;
 
 const Color = styled.div`
