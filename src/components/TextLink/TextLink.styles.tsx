@@ -5,13 +5,13 @@ import { fontSize } from 'styled-system';
 const linkStyles = css`
   ${fontSize};
   color: var(--colorText);
-  text-decoration-color: var(--textColor);
+  text-decoration-color: var(--colorLink);
   text-decoration-thickness: 0.1em;
   text-underline-offset: 0.1em;
 
   &:hover,
   &:focus {
-    text-decoration-color: var(--colorLink);
+    text-decoration-color: var(--colorLinkActive);
 
     @supports (not (text-decoration-color: red)) {
       color: var(--colorLink);

@@ -4,8 +4,8 @@ exports[`TextLink with href renders correctly 1`] = `
 .c0 {
   font-size: 1.25rem;
   color: var(--colorText);
-  -webkit-text-decoration-color: var(--textColor);
-  text-decoration-color: var(--textColor);
+  -webkit-text-decoration-color: var(--colorLink);
+  text-decoration-color: var(--colorLink);
   -webkit-text-decoration-thickness: 0.1em;
   text-decoration-thickness: 0.1em;
   text-underline-offset: 0.1em;
@@ -13,8 +13,8 @@ exports[`TextLink with href renders correctly 1`] = `
 
 .c0:hover,
 .c0:focus {
-  -webkit-text-decoration-color: var(--colorLink);
-  text-decoration-color: var(--colorLink);
+  -webkit-text-decoration-color: var(--colorLinkActive);
+  text-decoration-color: var(--colorLinkActive);
 }
 
 @supports (not (text-decoration-color:red)) {
@@ -37,8 +37,8 @@ exports[`TextLink with to property renders correctly 1`] = `
 .c0 {
   font-size: 1.25rem;
   color: var(--colorText);
-  -webkit-text-decoration-color: var(--textColor);
-  text-decoration-color: var(--textColor);
+  -webkit-text-decoration-color: var(--colorLink);
+  text-decoration-color: var(--colorLink);
   -webkit-text-decoration-thickness: 0.1em;
   text-decoration-thickness: 0.1em;
   text-underline-offset: 0.1em;
@@ -46,8 +46,8 @@ exports[`TextLink with to property renders correctly 1`] = `
 
 .c0:hover,
 .c0:focus {
-  -webkit-text-decoration-color: var(--colorLink);
-  text-decoration-color: var(--colorLink);
+  -webkit-text-decoration-color: var(--colorLinkActive);
+  text-decoration-color: var(--colorLinkActive);
 }
 
 @supports (not (text-decoration-color:red)) {

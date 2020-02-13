@@ -13,7 +13,8 @@ const GlobalStyles = createGlobalStyle<{ theme: ThemeType & ThemeProps }>`
     --colorAccent: ${lightColors.accent};
     --colorBackground: ${lightColors.background};
     --colorBackgroundFullContrast: ${lightColors.backgroundFullContrast};
-    --colorLink: ${lightColors.accent};
+    --colorLink: ${lightColors.linkUnderline};
+    --colorLinkActive: ${lightColors.linkUnderlineActive};
     --colorLogo: ${lightColors.logo};
     --colorText: ${lightColors.text};
     --colorTextFullContrast: ${lightColors.textFullContrast};
@@ -29,7 +30,8 @@ const GlobalStyles = createGlobalStyle<{ theme: ThemeType & ThemeProps }>`
     --colorAccent: ${darkColors.accent};
     --colorBackground: ${darkColors.background};
     --colorBackgroundFullContrast: ${darkColors.backgroundFullContrast};
-    --colorLink: ${darkColors.accent};
+    --colorLink: ${darkColors.linkUnderline};
+    --colorLinkActive: ${darkColors.linkUnderlineActive};
     --colorLogo: ${darkColors.logo};
     --colorText: ${darkColors.text};
     --colorTextFullContrast: ${darkColors.textFullContrast};

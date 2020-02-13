@@ -8,6 +8,8 @@ export interface ThemeColors {
   backgroundFullContrast: CSS.ColorProperty;
   backgroundGreen: CSS.ColorProperty;
   borderSoftInverse: CSS.ColorProperty;
+  linkUnderline: CSS.ColorProperty;
+  linkUnderlineActive: CSS.ColorProperty;
   logo: CSS.ColorProperty;
   logoBlue: CSS.ColorProperty;
   logoBrown: CSS.ColorProperty;
@@ -30,6 +32,8 @@ export const lightColors: ThemeColors = {
   backgroundFullContrast: '#FFFFFF',
   backgroundGreen: 'hsl(65, 5%, 50%)',
   borderSoftInverse: 'rgba(0, 0, 0, 0.2)',
+  linkUnderline: 'hsla(40, 7%, 5%, 0.2)',
+  linkUnderlineActive: 'hsl(357, 96%, 46%)',
   logo: 'hsl(357, 96%, 46%)',
   logoBlue: 'hsl(220, 6%, 30%)',
   logoBrown: 'hsl(38, 10%, 30%)',
@@ -52,6 +56,8 @@ export const darkColors: ThemeColors = {
   backgroundFullContrast: '#000000',
   backgroundGreen: 'hsl(65, 5%, 20%)',
   borderSoftInverse: 'rgba(255, 255, 255, 0.2)',
+  linkUnderline: 'hsla(40, 7%, 90%, 0.2)',
+  linkUnderlineActive: 'hsl(357, 96%, 46%)',
   logo: 'hsl(357, 96%, 46%)',
   logoBlue: 'hsl(220, 6%, 40%)',
   logoBrown: 'hsl(38, 10%, 40%)',
