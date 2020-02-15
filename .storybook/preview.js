@@ -17,10 +17,21 @@ import '../src/utils/theme';
 const Grid = styled.div`
   align-items: center;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-areas:
+    'navigation navigation navigation'
+    '. main .';
+  grid-template-columns: 50px 1fr 50px;
   grid-template-rows: 50px 1fr;
   height: 100vh;
   justify-items: center;
+`;
+
+const Navigation = styled.nav`
+  grid-area: navigation;
+`;
+
+const Main = styled.main`
+  grid-area: main;
 `;
 
 const Decorator = storyFn => (
@@ -30,11 +41,11 @@ const Decorator = storyFn => (
         <Normalize />
         <GlobalStyles />
         <Grid>
-          <nav>
+          <Navigation>
             <ThemeToggle />
             <EmojifyToggle />
-          </nav>
-          <section>{storyFn()}</section>
+          </Navigation>
+          <Main>{storyFn()}</Main>
         </Grid>
       </LocalizedDateProvider>
     </EmojifyProvider>
