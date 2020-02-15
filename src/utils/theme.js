@@ -1,3 +1,4 @@
+/* eslint-disable */
 (function() {
   const root = document.getElementsByTagName('html')[0];
   window.__onThemeChange = function() {};
