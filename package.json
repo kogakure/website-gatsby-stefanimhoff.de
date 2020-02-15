@@ -4,12 +4,21 @@
   "description": "",
   "version": "0.1.0",
   "author": "Stefan Imhoff <stefan@imhoff.name>",
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kogakure/website-gatsby-stefanimhoff.de"
+  },
+  "keywords": [
+    "gatsby",
+    "typescript",
+    "styled-components",
+    "styled-system",
+    "eslint"
+  ],
   "scripts": {
     "build": "gatsby build",
+    "build:storybook": "build-storybook -c .storybook -o storybook",
     "clean": "gatsby clean",
     "commit": "git-cz",
     "develop": "gatsby develop",
@@ -24,7 +33,9 @@
     "plop": "plop",
     "prettier": "prettier --ignore-path .gitignore '**/*.{js,json,ts,tsx,md}'",
     "serve": "gatsby serve",
-    "start": "yarn run develop",
+    "start": "run-p start:**",
+    "start:gatsby": "gatsby develop -H 0.0.0.0 -o",
+    "start:storybook": "start-storybook -p 9000 -c .storybook",
     "svg": "svgr --icon --ext tsx -d src/components/Icons src/components/Icons/svg",
     "test": "is-ci 'test:coverage' 'test:watch'",
     "test:coverage": "jest --coverage",
