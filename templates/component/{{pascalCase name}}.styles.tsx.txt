@@ -1,15 +1,31 @@
 import styled from 'styled-components';
 
-import { mediaQueries } from '../../themes/tokens';
-
 const {{pascalCase name}} = styled.div`
-  background: green;
-  color: black;
-
-  @media (${mediaQueries.tablet}) {
-    background: yellow;
-    color: darkgrey;
-  }
+  background: linear-gradient(
+    130deg,
+    rgba(254, 226, 39, 1) 0%,
+    rgba(254, 226, 39, 1) 10%,
+    rgba(0, 0, 0, 1) 10%,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(254, 226, 39, 1) 20%,
+    rgba(254, 226, 39, 1) 30%,
+    rgba(0, 0, 0, 1) 30%,
+    rgba(0, 0, 0, 1) 40%,
+    rgba(254, 226, 39, 1) 40%,
+    rgba(254, 226, 39, 1) 50%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 1) 60%,
+    rgba(254, 226, 39, 1) 60%,
+    rgba(254, 226, 39, 1) 70%,
+    rgba(0, 0, 0, 1) 70%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(254, 226, 39, 1) 80%,
+    rgba(254, 226, 39, 1) 90%,
+    rgba(0, 0, 0, 1) 90%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: red;
+  padding: 5px 10px;
 `;
 
 export const Styled = {

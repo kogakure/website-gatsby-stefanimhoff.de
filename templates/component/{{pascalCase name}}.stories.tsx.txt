@@ -1,0 +1,10 @@
+import React from 'react';
+
+import { {{pascalCase name}} } from '.';
+
+export default {
+  component: {{pascalCase name}},
+  title: '{{pascalCase name}}',
+};
+
+export const Default = () => <{{pascalCase name}} />;
