@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Typography } from '.';
+import { Typography } from '..';
 
 const { Subline } = Typography;
 
