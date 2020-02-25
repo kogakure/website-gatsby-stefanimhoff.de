@@ -14,6 +14,7 @@ import { KeyboardShortcut } from '../KeyboardShortcut';
 import { Sample } from '../Sample';
 import { Variable } from '../Variable';
 import { RubyAnnotation } from '../RubyAnnotation';
+import { Table } from '../Table';
 
 const { Title, Headline, Subline, Paragraph } = Typography;
 
@@ -43,6 +44,7 @@ const shortcodes = {
   p: Paragraph,
   ul: UnorderedList,
   ol: OrderedList,
+  table: Table,
 };
 
 const MDXProviderContainer: React.FC = ({ children }) => (
