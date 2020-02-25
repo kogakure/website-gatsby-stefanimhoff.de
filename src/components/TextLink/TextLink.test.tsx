@@ -3,22 +3,18 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../utils/test-utils';
 
-import { TextLink } from '.';
+import { HTMLLink, RouterLink } from './TextLink.stories';
 
 describe('TextLink', () => {
   describe('with href', () => {
     test('renders correctly', () => {
-      const { container } = render(
-        <TextLink href="https://www.stefanimhoff.de/">Link</TextLink>
-      );
+      const { container } = render(<HTMLLink />);
 
       expect(container.firstChild).toMatchSnapshot();
     });
 
     test('is accessible', async () => {
-      const { container } = render(
-        <TextLink href="https://www.stefanimhoff.de/">Link</TextLink>
-      );
+      const { container } = render(<HTMLLink />);
       const results = await axe(container);
 
       expect(results).toHaveNoViolations();
@@ -27,13 +23,13 @@ describe('TextLink', () => {
 
   describe('with to property', () => {
     test('renders correctly', () => {
-      const { container } = render(<TextLink to="/styleguide">Link</TextLink>);
+      const { container } = render(<RouterLink />);
 
       expect(container.firstChild).toMatchSnapshot();
     });
 
     test('is accessible', async () => {
-      const { container } = render(<TextLink to="/styleguide">Link</TextLink>);
+      const { container } = render(<RouterLink />);
       const results = await axe(container);
 
       expect(results).toHaveNoViolations();

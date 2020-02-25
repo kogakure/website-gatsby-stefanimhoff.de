@@ -3,17 +3,17 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../utils/test-utils';
 
-import { RubyAnnotation } from '.';
+import { Default } from './RubyAnnotation.stories';
 
 describe('RubyAnnotation', () => {
   test('renders correctly', () => {
-    const { container } = render(<RubyAnnotation base="日" text="に" />);
+    const { container } = render(<Default />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('is accessible', async () => {
-    const { container } = render(<RubyAnnotation base="日" text="に" />);
+    const { container } = render(<Default />);
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();

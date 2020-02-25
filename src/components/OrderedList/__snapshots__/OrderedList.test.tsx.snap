@@ -13,5 +13,23 @@ li .c0 {
 <ol
   class="c0"
   font-size="3"
-/>
+>
+  <li>
+    Early Stoics
+    <ol
+      class="c0"
+      font-size="3"
+    >
+      <li>
+        Zeno of Citium
+      </li>
+      <li>
+        Chrysippus
+      </li>
+      <li>
+        Chrysippus
+      </li>
+    </ol>
+  </li>
+</ol>
 `;

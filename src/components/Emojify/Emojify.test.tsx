@@ -4,7 +4,7 @@ import { axe } from 'jest-axe';
 import { render } from '../../utils/test-utils';
 import { EmojifyContext } from '../../contexts';
 
-import { Emojify } from '.';
+import { Default, UnknownEmoji } from './Emojify.stories';
 
 const App: React.FC = ({ children }) => {
   const { setEmojified } = React.useContext(EmojifyContext);
@@ -17,7 +17,7 @@ describe('Emojify', () => {
   test('renders correctly', () => {
     const { container } = render(
       <App>
-        <Emojify emoji="🤪" />
+        <Default />
       </App>
     );
 
@@ -27,7 +27,7 @@ describe('Emojify', () => {
   test('is accessible', async () => {
     const { container } = render(
       <App>
-        <Emojify emoji="😬" />
+        <Default />
       </App>
     );
     const results = await axe(container);
@@ -38,7 +38,7 @@ describe('Emojify', () => {
   test('is accessible when no text is returned', async () => {
     const { container } = render(
       <App>
-        <Emojify emoji="👩🏻‍🦽" />
+        <UnknownEmoji />
       </App>
     );
     const results = await axe(container);

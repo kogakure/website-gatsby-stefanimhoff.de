@@ -43,13 +43,13 @@ const ColorSwatch: React.FC<ColorSwatchProps> = ({
             <Styled.ColorValue>
               <strong>R</strong>
               {' '}
-              {r}&nbsp;
+              {Number(r).toFixed(0)}&nbsp;
               <strong>G</strong>
               {' '}
-              {g}&nbsp;
+              {Number(g).toFixed(0)}&nbsp;
               <strong>B</strong>
               {' '}
-              {b}&nbsp;
+              {Number(b).toFixed(0)}&nbsp;
             </Styled.ColorValue>
             <Styled.ColorValue>
               <strong>H</strong>

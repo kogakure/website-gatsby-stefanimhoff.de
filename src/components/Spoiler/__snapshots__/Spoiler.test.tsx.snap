@@ -26,7 +26,7 @@ exports[`Spoiler renders correctly 1`] = `
     aria-hidden="true"
     class="c0"
   >
-    I am visually hidden text.
+    Hidden text
   </span>
 </span>
 `;
@@ -58,7 +58,20 @@ exports[`Spoiler with layout "block" renders correctly 1`] = `
     aria-hidden="true"
     class="c0"
   >
-    I am visually hidden text displayed as a text block.
+    <p>
+      This is some 
+      <strong>
+        text
+      </strong>
+      , which is 
+      <em>
+        hidden
+      </em>
+      .
+    </p>
+    <p>
+       And some more text
+    </p>
   </span>
 </span>
 `;

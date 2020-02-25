@@ -17,5 +17,7 @@ exports[`Variable renders correctly 1`] = `
 <var
   class="c0 one-dark-pro"
   font-size="2"
-/>
+>
+  myVariable
+</var>
 `;

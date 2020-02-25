@@ -2,14 +2,15 @@ import React from 'react';
 
 import { render } from '../../utils/test-utils';
 
-import { Typography } from '.';
-
-const { Title, Headline, Subline, Paragraph } = Typography;
+import { Default as Title } from './stories/Title.stories';
+import { Default as Headline } from './stories/Headline.stories';
+import { Default as Subline } from './stories/Subline.stories';
+import { Default as Paragraph } from './stories/Paragraph.stories';
 
 describe('Typography', () => {
   describe('Title', () => {
     test('renders correctly', () => {
-      const { container } = render(<Title>Title</Title>);
+      const { container } = render(<Title />);
 
       expect(container.firstChild).toMatchSnapshot();
     });
@@ -17,7 +18,7 @@ describe('Typography', () => {
 
   describe('Headline', () => {
     test('renders correctly', () => {
-      const { container } = render(<Headline>Headline</Headline>);
+      const { container } = render(<Headline />);
 
       expect(container.firstChild).toMatchSnapshot();
     });
@@ -25,7 +26,7 @@ describe('Typography', () => {
 
   describe('Subline', () => {
     test('renders correctly', () => {
-      const { container } = render(<Subline>Subline</Subline>);
+      const { container } = render(<Subline />);
 
       expect(container.firstChild).toMatchSnapshot();
     });
@@ -33,7 +34,7 @@ describe('Typography', () => {
 
   describe('Paragraph', () => {
     test('renders correctly', () => {
-      const { container } = render(<Paragraph>Paragraph</Paragraph>);
+      const { container } = render(<Paragraph />);
 
       expect(container.firstChild).toMatchSnapshot();
     });

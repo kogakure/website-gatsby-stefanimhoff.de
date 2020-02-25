@@ -21,3 +21,24 @@ export const Default = () => (
     />
   </Grid>
 );
+
+export const WithDescription = () => (
+  <Grid>
+    <ColorSwatch
+      color="#005CAF"
+      description="The soft, slightly purplish blue associated with the semi-precious stone."
+    />
+  </Grid>
+);
+
+export const RGBValue = () => (
+  <Grid>
+    <ColorSwatch color="#005CAF" />
+  </Grid>
+);
+
+export const HSLValue = () => (
+  <Grid>
+    <ColorSwatch color="hsl(208, 100%, 34%)" />
+  </Grid>
+);

@@ -1,22 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Emojify renders correctly 1`] = `
-div > .c0 {
+.c0 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 2.488rem;
+}
+
+div > .c1 {
   font-size: 4em;
 }
 
-p .c0 {
+p .c1 {
   font-size: 1.5em;
   line-height: 0.8;
   position: relative;
   top: 0.1em;
 }
 
-<span
-  aria-label="zany"
+<p
   class="c0"
-  role="img"
+  font-size="3"
+  font-weight="400"
+  letter-spacing="normal"
 >
-  🤪
-</span>
+  <span
+    aria-label="star_struck"
+    class="c1"
+    role="img"
+  >
+    🤩
+  </span>
+</p>
 `;

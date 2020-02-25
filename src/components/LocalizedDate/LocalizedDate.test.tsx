@@ -4,19 +4,17 @@ import user from '@testing-library/user-event';
 
 import { render } from '../../utils/test-utils';
 
-import { LocalizedDate } from '.';
-
-const date = '2020-01-17T18:00:00';
+import { Default } from './LocalizedDate.stories';
 
 describe('LocalizedDate', () => {
   test('renders correctly', () => {
-    const { container } = render(<LocalizedDate date={date} />);
+    const { container } = render(<Default />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('changes the date text on click', async () => {
-    const { container, findByText } = render(<LocalizedDate date={date} />);
+    const { container, findByText } = render(<Default />);
     user.click(await findByText(/January/i));
     expect(container.firstChild).toHaveTextContent('17.01.2020');
 
@@ -25,7 +23,7 @@ describe('LocalizedDate', () => {
   });
 
   test('is accessible', async () => {
-    const { container } = render(<LocalizedDate date={date} />);
+    const { container } = render(<Default />);
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();

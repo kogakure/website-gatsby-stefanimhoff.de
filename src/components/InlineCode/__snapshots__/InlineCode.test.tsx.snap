@@ -18,6 +18,6 @@ exports[`InlineCode renders correctly 1`] = `
   class="c0 one-dark-pro"
   font-size="2"
 >
-  Code
+  const myVar = "Hello World";
 </code>
 `;
