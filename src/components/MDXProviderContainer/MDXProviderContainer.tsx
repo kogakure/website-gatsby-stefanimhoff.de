@@ -15,6 +15,7 @@ import { Sample } from '../Sample';
 import { Variable } from '../Variable';
 import { RubyAnnotation } from '../RubyAnnotation';
 import { Table } from '../Table';
+import { HorizontalRule } from '../HorizontalRule';
 
 const { Title, Headline, Subline, Paragraph } = Typography;
 
@@ -40,11 +41,12 @@ const shortcodes = {
   h4: Subline,
   h5: Subline,
   h6: Subline,
+  hr: HorizontalRule,
   inlineCode: InlineCode,
-  p: Paragraph,
-  ul: UnorderedList,
   ol: OrderedList,
+  p: Paragraph,
   table: Table,
+  ul: UnorderedList,
 };
 
 const MDXProviderContainer: React.FC = ({ children }) => (
