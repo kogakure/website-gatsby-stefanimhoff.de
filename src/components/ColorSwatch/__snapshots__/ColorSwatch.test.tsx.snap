@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ColorSwatch renders correctly 1`] = `
-.c0 {
+.c1 {
   border: 1px solid var(--colorTextSoft);
   border-radius: 5px;
   box-shadow: 0 5px 50px rgba(0,0,0,0.1);
@@ -16,14 +16,14 @@ exports[`ColorSwatch renders correctly 1`] = `
   font-size: 0.7rem;
 }
 
-.c1 {
+.c2 {
   background: lightgrey;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   height: 6rem;
 }
 
-.c3 {
+.c4 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -44,12 +44,12 @@ exports[`ColorSwatch renders correctly 1`] = `
   width: 30px;
 }
 
-.c4 {
+.c5 {
   fill: var(--colorTextFullContrast);
   font-size: 1rem;
 }
 
-.c2 {
+.c3 {
   background: var(--colorBackgroundFullContrast);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -59,7 +59,7 @@ exports[`ColorSwatch renders correctly 1`] = `
   position: relative;
 }
 
-.c5 {
+.c6 {
   font-size: 0.8rem;
   font-weight: bold;
   line-height: 1;
@@ -67,9 +67,13 @@ exports[`ColorSwatch renders correctly 1`] = `
   padding-right: 20px;
 }
 
-.c6 {
+.c7 {
   margin-bottom: 0.5rem;
   padding-right: 20px;
+}
+
+.c0 {
+  width: 200px;
 }
 
 <div
@@ -77,43 +81,47 @@ exports[`ColorSwatch renders correctly 1`] = `
 >
   <div
     class="c1"
-    style="background-color: rgb(0, 92, 175);"
-  />
-  <div
-    class="c2"
   >
     <div
-      aria-label="Information"
+      class="c2"
+      style="background-color: rgb(0, 92, 175);"
+    />
+    <div
       class="c3"
-      role="button"
-      tabindex="0"
     >
-      <svg
-        aria-label="Information Icon"
+      <div
+        aria-label="Information"
         class="c4"
-        height="1em"
-        role="img"
-        viewBox="0 0 24 24"
-        width="1em"
+        role="button"
+        tabindex="0"
       >
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 100-16 8 8 0 000 16zM11 7h2v2h-2V7zm0 4h2v6h-2v-6z"
-        />
-      </svg>
-    </div>
-    <div
-      class="c5"
-    >
-      Lapis Lazuli
-    </div>
-    <div
-      class="c6"
-    >
-      The soft, slightly purplish blue associated with the semi-precious stone.
+        <svg
+          aria-label="Information Icon"
+          class="c5"
+          height="1em"
+          role="img"
+          viewBox="0 0 24 24"
+          width="1em"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 100-16 8 8 0 000 16zM11 7h2v2h-2V7zm0 4h2v6h-2v-6z"
+          />
+        </svg>
+      </div>
+      <div
+        class="c6"
+      >
+        Lapis Lazuli
+      </div>
+      <div
+        class="c7"
+      >
+        The soft, slightly purplish blue associated with the semi-precious stone.
+      </div>
     </div>
   </div>
 </div>

@@ -29,9 +29,9 @@ exports[`TextLink with href renders correctly 1`] = `
   class="c0"
   font-size="3"
   font-weight="1"
-  href="https://www.stefanimhoff.de/"
+  href="https://www.stefanimhoff.de"
 >
-  Link
+  External Link
 </a>
 `;
 
@@ -64,8 +64,8 @@ exports[`TextLink with to property renders correctly 1`] = `
   class="c0"
   font-size="3"
   font-weight="1"
-  href="/styleguide"
+  href="/"
 >
-  Link
+  Router Link
 </a>
 `;

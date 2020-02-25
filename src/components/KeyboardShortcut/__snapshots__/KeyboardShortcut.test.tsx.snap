@@ -20,5 +20,7 @@ exports[`KeyboardShortcut renders correctly 1`] = `
 <kbd
   class="c0"
   font-size="2"
-/>
+>
+  ⌘
+</kbd>
 `;

@@ -3,17 +3,17 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../utils/test-utils';
 
-import { OrderedList } from '.';
+import { Default } from './OrderedList.stories';
 
 describe('OrderedList', () => {
   test('renders correctly', () => {
-    const { container } = render(<OrderedList />);
+    const { container } = render(<Default />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('is accessible', async () => {
-    const { container } = render(<OrderedList />);
+    const { container } = render(<Default />);
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();

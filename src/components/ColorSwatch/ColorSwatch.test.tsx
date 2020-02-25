@@ -4,54 +4,46 @@ import user from '@testing-library/user-event';
 
 import { render, fireEvent } from '../../utils/test-utils';
 
-import { ColorSwatch } from '.';
+import {
+  Default,
+  WithDescription,
+  RGBValue,
+  HSLValue,
+} from './ColorSwatch.stories';
 
 describe('ColorSwatch', () => {
-  const color = '#005CAF';
-  const rgbColor = 'rgb(0, 92, 175)';
-  const hslColor = 'hsl(208, 100%, 34%)';
-  const name = 'Lapis Lazuli';
-  const description =
-    'The soft, slightly purplish blue associated with the semi-precious stone.';
-
   test('renders correctly', () => {
-    const { container } = render(
-      <ColorSwatch color={color} name={name} description={description} />
-    );
+    const { container } = render(<Default />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('renders correctly with name', () => {
-    const { getByText } = render(<ColorSwatch color={color} name={name} />);
+    const { getByText } = render(<Default />);
 
     expect(getByText(/lapis lazuli/i)).toBeInTheDocument();
   });
 
   test('renders correctly with description', () => {
-    const { getByText } = render(
-      <ColorSwatch color={color} description={description} />
-    );
+    const { getByText } = render(<WithDescription />);
 
     expect(getByText(/purplish blue/i)).toBeInTheDocument();
   });
 
   test('renders correctly with RGB value', () => {
-    const { getByText } = render(<ColorSwatch color={rgbColor} />);
+    const { getByText } = render(<RGBValue />);
 
     expect(getByText(/#005CA/)).toBeInTheDocument();
   });
 
   test('renders correctly with HSL value', () => {
-    const { getByText } = render(<ColorSwatch color={hslColor} />);
+    const { getByText } = render(<HSLValue />);
 
     expect(getByText(/#005CA/)).toBeInTheDocument();
   });
 
   test('show color information on click', async () => {
-    const { getByText, findByLabelText } = render(
-      <ColorSwatch color={color} name={name} description={description} />
-    );
+    const { getByText, findByLabelText } = render(<Default />);
 
     user.click(await findByLabelText('Information'));
     expect(getByText(/#005CA/i)).toBeInTheDocument();
@@ -61,9 +53,7 @@ describe('ColorSwatch', () => {
   });
 
   test('should cycle through information icon', async () => {
-    const { findByLabelText } = render(
-      <ColorSwatch color={color} name={name} description={description} />
-    );
+    const { findByLabelText } = render(<Default />);
 
     expect(document.body).toHaveFocus();
     user.tab();
@@ -71,9 +61,7 @@ describe('ColorSwatch', () => {
   });
 
   test('show color information on Enter keyUp', async () => {
-    const { getByText, findByLabelText } = render(
-      <ColorSwatch color={color} name={name} description={description} />
-    );
+    const { getByText, findByLabelText } = render(<Default />);
 
     fireEvent.keyUp(await findByLabelText('Information'), {
       key: 'Enter',
@@ -89,9 +77,7 @@ describe('ColorSwatch', () => {
   });
 
   test('is accessible', async () => {
-    const { container } = render(
-      <ColorSwatch color={color} name={name} description={description} />
-    );
+    const { container } = render(<Default />);
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();

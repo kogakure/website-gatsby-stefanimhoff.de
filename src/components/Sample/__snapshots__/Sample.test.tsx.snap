@@ -17,5 +17,7 @@ exports[`Sample renders correctly 1`] = `
 <samp
   class="c0 one-dark-pro"
   font-size="2"
-/>
+>
+  Error -1
+</samp>
 `;

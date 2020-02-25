@@ -16,3 +16,9 @@ export const Default = () => (
     <Emojify emoji="🤩" />
   </Paragraph>
 );
+
+export const UnknownEmoji = () => (
+  <Paragraph>
+    <Emojify emoji="👩🏻‍🦽" />
+  </Paragraph>
+);

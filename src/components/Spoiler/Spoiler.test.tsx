@@ -4,29 +4,23 @@ import user from '@testing-library/user-event';
 
 import { render } from '../../utils/test-utils';
 
-import { Spoiler } from '.';
+import { Default, Block } from './Spoiler.stories';
 
 describe('Spoiler', () => {
   test('renders correctly', () => {
-    const { container } = render(<Spoiler>I am visually hidden text.</Spoiler>);
+    const { container } = render(<Default />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('with layout "block" renders correctly', () => {
-    const { container } = render(
-      <Spoiler block>
-        I am visually hidden text displayed as a text block.
-      </Spoiler>
-    );
+    const { container } = render(<Block />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('shows the text on click', async () => {
-    const { container, findByLabelText } = render(
-      <Spoiler>I am visually hidden text.</Spoiler>
-    );
+    const { container, findByLabelText } = render(<Default />);
     const spoiler = container.getElementsByTagName('span')[1];
 
     expect(spoiler).toHaveAttribute('aria-hidden', 'true');
@@ -37,7 +31,7 @@ describe('Spoiler', () => {
   });
 
   test('is accessible', async () => {
-    const { container } = render(<Spoiler />);
+    const { container } = render(<Default />);
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();

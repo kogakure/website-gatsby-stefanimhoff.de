@@ -8,7 +8,7 @@ export default {
 };
 
 export const Default = () => (
-  <>
+  <p>
     <RubyAnnotation base="日" text="に" />
     <RubyAnnotation base="本" text="ほん" />
     <RubyAnnotation base="語" text="ご" />で
@@ -17,5 +17,5 @@ export const Default = () => (
     <RubyAnnotation base="作" text="さく" />
     <RubyAnnotation base="文" text="ぶん" />
     です。
-  </>
+  </p>
 );
