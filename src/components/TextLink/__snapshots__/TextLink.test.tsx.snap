@@ -2,7 +2,6 @@
 
 exports[`TextLink with href renders correctly 1`] = `
 .c0 {
-  font-size: 1.25rem;
   font-weight: 600;
   color: var(--colorText);
   -webkit-text-decoration-color: var(--colorLink);
@@ -27,7 +26,6 @@ exports[`TextLink with href renders correctly 1`] = `
 
 <a
   class="c0"
-  font-size="3"
   font-weight="1"
   href="https://www.stefanimhoff.de"
 >
@@ -37,7 +35,6 @@ exports[`TextLink with href renders correctly 1`] = `
 
 exports[`TextLink with to property renders correctly 1`] = `
 .c0 {
-  font-size: 1.25rem;
   font-weight: 600;
   color: var(--colorText);
   -webkit-text-decoration-color: var(--colorLink);
@@ -62,7 +59,6 @@ exports[`TextLink with to property renders correctly 1`] = `
 
 <a
   class="c0"
-  font-size="3"
   font-weight="1"
   href="/"
 >
