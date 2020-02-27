@@ -16,11 +16,13 @@ import { Variable } from '../Variable';
 import { RubyAnnotation } from '../RubyAnnotation';
 import { Table } from '../Table';
 import { HorizontalRule } from '../HorizontalRule';
+import { Blockquote } from '../Blockquote';
 
 const { Title, Headline, Subline, Paragraph } = Typography;
 
 const shortcodes = {
   BlockLink,
+  Blockquote,
   ColorSwatch,
   Emojify,
   Headline,
@@ -35,6 +37,7 @@ const shortcodes = {
   Title,
   Variable,
   a: TextLink,
+  blockquote: Blockquote,
   h1: Title,
   h2: Headline,
   h3: Subline,
