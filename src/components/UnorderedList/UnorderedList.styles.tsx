@@ -3,12 +3,8 @@ import { fontSize } from 'styled-system';
 
 const UnorderedListContainer = styled.ul`
   ${fontSize};
-  list-style-type: heavy-asterisk;
+  list-style-type: circle;
   padding-left: 0;
-
-  & li::marker {
-    color: var(--colorAccent);
-  }
 
   li & {
     padding-left: 2rem;

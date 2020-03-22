@@ -3,12 +3,8 @@
 exports[`UnorderedList renders correctly 1`] = `
 .c0 {
   font-size: 1.25rem;
-  list-style-type: heavy-asterisk;
+  list-style-type: circle;
   padding-left: 0;
-}
-
-.c0 li::marker {
-  color: var(--colorAccent);
 }
 
 li .c0 {

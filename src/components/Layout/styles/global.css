@@ -88,15 +88,6 @@ h3:focus .autolink {
 }
 
 /* ===================================
- * Custom style for unordered lists
- * ==================================*/
-@counter-style heavy-asterisk {
-  suffix: ' ';
-  symbols: '✱';
-  system: cyclic;
-}
-
-/* ===================================
  * Corrections
  * ==================================*/
 del {
