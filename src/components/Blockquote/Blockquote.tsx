@@ -1,38 +1,48 @@
 import * as React from 'react';
 
+import { StyledSystemProps } from '../../typings/StyleSystem';
 import { TextLink } from '../TextLink';
 
 import { Styled } from './Blockquote.styles';
 
 interface BlockquoteProps {
   author?: string;
+  lang?: string;
   source?: string;
   sourceUrl?: string;
 }
 
-const Blockquote: React.FC<BlockquoteProps> = ({
+type StyledBlockquoteProps = BlockquoteProps & StyledSystemProps;
+
+const Blockquote: React.FC<StyledBlockquoteProps> = ({
   author,
+  children,
+  lang = 'en',
   source,
   sourceUrl,
-  children,
   ...props
 }) => (
-  <Styled.Blockquote {...props}>
+  <Styled.Blockquote lang={lang} {...props}>
     {children}
-    <footer>
-      {(author || source) && '— '}
-      {author && <strong>{author}</strong>}
+    <Styled.Footer>
+      {(author || source) && '—'}
+      {author && <Styled.Author>{author}</Styled.Author>}
       {author && source && ', '}
       {source &&
         (sourceUrl ? (
-          <cite>
+          <Styled.Source>
             <TextLink href={sourceUrl}>{source}</TextLink>
-          </cite>
+          </Styled.Source>
         ) : (
-          <cite>{source}</cite>
+          <Styled.Source>{source}</Styled.Source>
         ))}
-    </footer>
+    </Styled.Footer>
   </Styled.Blockquote>
 );
+
+Blockquote.defaultProps = {
+  mx: 0,
+  my: 12,
+};
 
 export { Blockquote };

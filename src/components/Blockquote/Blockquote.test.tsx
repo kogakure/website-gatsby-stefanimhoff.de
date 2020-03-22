@@ -4,13 +4,15 @@ import { axe } from 'jest-axe';
 import { render } from '../../utils/test-utils';
 
 import {
-  Default,
-  MultipleParagraphs,
   Author,
+  AuthorSource,
+  AuthorSourceUrl,
+  Default,
+  German,
+  Japanese,
+  MultipleParagraphs,
   Source,
   SourceUrl,
-  AuthorSourceUrl,
-  AuthorSource,
 } from './Blockquote.stories';
 
 describe('Blockquote', () => {
@@ -25,6 +27,36 @@ describe('Blockquote', () => {
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();
+  });
+
+  describe('with German language', () => {
+    test('renders correctly', () => {
+      const { container } = render(<German />);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('is accessible', async () => {
+      const { container } = render(<German />);
+      const results = await axe(container);
+
+      expect(results).toHaveNoViolations();
+    });
+  });
+
+  describe('with Japanese language', () => {
+    test('renders correctly', () => {
+      const { container } = render(<Japanese />);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('is accessible', async () => {
+      const { container } = render(<Japanese />);
+      const results = await axe(container);
+
+      expect(results).toHaveNoViolations();
+    });
   });
 
   describe('with multiple paragraphs', () => {
