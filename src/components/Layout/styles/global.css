@@ -130,3 +130,22 @@ abbr,
 dfn {
   cursor: help;
 }
+
+/* ===================================
+ * Quotations
+ * ==================================*/
+[lang|='en'] blockquote,
+blockquote[lang|='en'] {
+  /* quotes: '“' '”' '‘' '’'; */
+  quotes: '“' '”' '‘' '’';
+}
+
+[lang|='de'] blockquote,
+blockquote[lang|='de'] {
+  quotes: '»' '«' '›' '‹';
+}
+
+[lang|='ja'] blockquote,
+blockquote[lang|='ja'] {
+  quotes: '「' '」' '『' '』';
+}

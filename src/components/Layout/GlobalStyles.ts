@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 import { ThemeType, ThemeProps } from '../../typings/Theme';
+import { typographicScale } from '../../themes/tokens';
 import { lightColors, darkColors } from '../../themes/tokens/colors';
 
 import globalCSS from './styles/global.css';
@@ -77,6 +78,10 @@ const GlobalStyles = createGlobalStyle<{ theme: ThemeType & ThemeProps }>`
     --colorBackground: ${darkColors.backgroundBrown};
     --colorLogo: ${darkColors.logoBrown};
     --colorText: ${darkColors.textBrown};
+  }
+
+  p {
+    font-size: ${typographicScale[3]}
   }
 
   ${globalCSS}

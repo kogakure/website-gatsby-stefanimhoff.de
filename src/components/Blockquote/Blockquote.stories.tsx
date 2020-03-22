@@ -1,6 +1,10 @@
 import React from 'react';
 
+import { Typography } from '../Typography';
+
 import { Blockquote } from '.';
+
+const { Paragraph } = Typography;
 
 export default {
   component: Blockquote,
@@ -10,6 +14,18 @@ export default {
 export const Default = () => (
   <Blockquote>
     <p>Flying is learning how to throw yourself at the ground and miss.</p>
+  </Blockquote>
+);
+
+export const German = () => (
+  <Blockquote lang="de">
+    <p>Keine Zeit für Pessimismus.</p>
+  </Blockquote>
+);
+
+export const Japanese = () => (
+  <Blockquote lang="ja">
+    <p>悲観の時間がない。</p>
   </Blockquote>
 );
 
@@ -28,6 +44,44 @@ export const MultipleParagraphs = () => (
       hate them. For we are made for cooperation.
     </p>
   </Blockquote>
+);
+
+export const MultipleParagraphsBetweenParagraphs = () => (
+  <>
+    <Paragraph>
+      Lorem ipsum dolor amet shoreditch tbh butcher 90's portland, keytar street
+      art. Pork belly you probably haven't heard of them ethical post-ironic
+      hella, cray kale chips fashion axe chillwave shabby chic man bun slow-carb
+      unicorn. Live-edge intelligentsia tumblr quinoa man braid. Hexagon disrupt
+      echo park brunch direct trade four dollar toast chartreuse, drinking
+      vinegar wolf bushwick pork belly. Vexillologist sartorial literally venmo
+      blog. Tumblr you probably haven't heard of them bitters swag waistcoat af.
+      Deep v helvetica blog, paleo cardigan seitan kombucha normcore.
+    </Paragraph>
+
+    <Blockquote author="Marcus Aurelius" source="Meditations, 2.1">
+      <p>When you first rise in the morning tell yourself:</p>
+      <p>
+        I will encounter busybodies, ingrates, egomaniacs, liars, the jealous
+        and cranks. They are all stricken with these afflictions because they
+        don’t know the difference between good and evil.
+      </p>
+      <p>
+        Because I have understood the beauty of good and the ugliness of evil, I
+        know that these wrong-doers are still akin to me … and that none can to
+        me harm, or implicate me in ugliness—nor can I be angry at my relatives
+        or hate them. For we are made for cooperation.
+      </p>
+    </Blockquote>
+    <Paragraph>
+      Raclette butcher gastropub, pok pok squid freegan kitsch lyft lumbersexual
+      quinoa seitan vaporware hammock organic. Woke synth bitters chia lyft vice
+      forage blog hell of. Semiotics mlkshk next level brooklyn heirloom
+      flannel. Jean shorts fam tumblr, direct trade franzen +1 flexitarian.
+      Umami XOXO whatever lyft slow-carb kickstarter, health goth listicle
+      glossier microdosing affogato meggings tote bag wolf williamsburg.
+    </Paragraph>
+  </>
 );
 
 export const Author = () => (
