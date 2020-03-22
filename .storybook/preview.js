@@ -32,6 +32,7 @@ const Navigation = styled.nav`
 
 const Main = styled.main`
   grid-area: main;
+  width: 100%;
 `;
 
 const Decorator = storyFn => (
