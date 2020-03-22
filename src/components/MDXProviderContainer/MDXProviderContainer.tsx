@@ -1,22 +1,23 @@
 import * as React from 'react';
 import { MDXProvider } from '@mdx-js/react';
 
+import { Blockquote } from '../Blockquote';
 import { ColorSwatch } from '../ColorSwatch';
 import { Emojify } from '../Emojify';
+import { HorizontalRule } from '../HorizontalRule';
+import { InlineCode } from '../InlineCode';
+import { InlineQuote } from '../InlineQuote';
+import { KeyboardShortcut } from '../KeyboardShortcut';
+import { OrderedList } from '../OrderedList';
+import { RubyAnnotation } from '../RubyAnnotation';
 import { SEO } from '../SEO';
+import { Sample } from '../Sample';
 import { Spoiler } from '../Spoiler';
+import { Table } from '../Table';
 import { TextLink, BlockLink } from '../TextLink';
 import { Typography } from '../Typography';
 import { UnorderedList } from '../UnorderedList';
-import { OrderedList } from '../OrderedList';
-import { InlineCode } from '../InlineCode';
-import { KeyboardShortcut } from '../KeyboardShortcut';
-import { Sample } from '../Sample';
 import { Variable } from '../Variable';
-import { RubyAnnotation } from '../RubyAnnotation';
-import { Table } from '../Table';
-import { HorizontalRule } from '../HorizontalRule';
-import { Blockquote } from '../Blockquote';
 
 const { Title, Headline, Subline, Paragraph } = Typography;
 
@@ -26,6 +27,7 @@ const shortcodes = {
   ColorSwatch,
   Emojify,
   Headline,
+  InlineQuote,
   KeyboardShortcut,
   Paragraph,
   RubyAnnotation,
@@ -48,6 +50,7 @@ const shortcodes = {
   inlineCode: InlineCode,
   ol: OrderedList,
   p: Paragraph,
+  q: InlineQuote,
   table: Table,
   ul: UnorderedList,
 };
