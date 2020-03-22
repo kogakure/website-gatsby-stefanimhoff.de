@@ -126,17 +126,22 @@ dfn {
  * Quotations
  * ==================================*/
 [lang|='en'] blockquote,
-blockquote[lang|='en'] {
-  /* quotes: '“' '”' '‘' '’'; */
+blockquote[lang|='en'],
+[lang|='en'] q,
+q[lang|='en'] {
   quotes: '“' '”' '‘' '’';
 }
 
 [lang|='de'] blockquote,
-blockquote[lang|='de'] {
+blockquote[lang|='de'],
+[lang|='de'] q,
+q[lang|='de'] {
   quotes: '»' '«' '›' '‹';
 }
 
 [lang|='ja'] blockquote,
-blockquote[lang|='ja'] {
+blockquote[lang|='ja'],
+[lang|='ja'] q,
+q[lang|='ja'] {
   quotes: '「' '」' '『' '』';
 }
