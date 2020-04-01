@@ -9,6 +9,7 @@ import { InlineCode } from '../InlineCode';
 import { InlineQuote } from '../InlineQuote';
 import { KeyboardShortcut } from '../KeyboardShortcut';
 import { OrderedList } from '../OrderedList';
+import { Pullquote } from '../Pullquote';
 import { RubyAnnotation } from '../RubyAnnotation';
 import { SEO } from '../SEO';
 import { Sample } from '../Sample';
@@ -30,6 +31,7 @@ const shortcodes = {
   InlineQuote,
   KeyboardShortcut,
   Paragraph,
+  Pullquote,
   RubyAnnotation,
   SEO,
   Sample,
