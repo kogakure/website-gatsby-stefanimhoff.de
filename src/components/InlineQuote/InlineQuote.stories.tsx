@@ -4,7 +4,7 @@ import { InlineQuote } from '.';
 
 export default {
   component: InlineQuote,
-  title: 'InlineQuote',
+  title: 'Quotations/InlineQuote',
 };
 
 export const Default = () => (
