@@ -31,7 +31,7 @@ const ColorSwatch: React.FC<ColorSwatchProps> = ({
           <Styled.Toggle
             aria-label="Information"
             onClick={() => setToggle(!toggle)}
-            onKeyUp={e => e.key === 'Enter' && setToggle(!toggle)}
+            onKeyUp={(e) => e.key === 'Enter' && setToggle(!toggle)}
             role="button"
             tabIndex={0}
           >

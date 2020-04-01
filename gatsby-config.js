@@ -108,7 +108,7 @@ module.exports = {
               ],
               extensionDataDirectory: path.resolve('extensions'),
               languageAliases: {},
-              replaceColor: x => x,
+              replaceColor: (x) => x,
               getLineClassName: ({
                 content,
                 index,

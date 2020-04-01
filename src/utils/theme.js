@@ -1,7 +1,7 @@
 /* eslint-disable */
-(function() {
+(function () {
   const root = document.getElementsByTagName('html')[0];
-  window.__onThemeChange = function() {};
+  window.__onThemeChange = function () {};
 
   function setTheme(newTheme) {
     window.__theme = newTheme;
@@ -18,7 +18,7 @@
     preferredTheme = localStorage.getItem('theme');
   } catch (err) {}
 
-  window.__setPreferredTheme = function(newTheme) {
+  window.__setPreferredTheme = function (newTheme) {
     setTheme(newTheme);
     try {
       localStorage.setItem('theme', newTheme);
@@ -27,7 +27,7 @@
 
   const darkQuery = window.matchMedia('(prefers-color-scheme: dark)');
 
-  darkQuery.addListener(function(e) {
+  darkQuery.addListener(function (e) {
     window.__setPreferredTheme(e.matches ? 'dark' : 'light');
   });
 
