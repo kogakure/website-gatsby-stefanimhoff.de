@@ -2,7 +2,7 @@
 const currentDir = process.cwd();
 const currentDate = new Date();
 
-module.exports = function(plop) {
+module.exports = function (plop) {
   plop.setGenerator('component', {
     description: 'Create a new functional component',
     prompts: [

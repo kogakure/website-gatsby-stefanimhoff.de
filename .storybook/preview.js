@@ -35,7 +35,7 @@ const Main = styled.main`
   width: 100%;
 `;
 
-const Decorator = storyFn => (
+const Decorator = (storyFn) => (
   <ThemeProvider theme={lightTheme}>
     <EmojifyProvider>
       <LocalizedDateProvider>
@@ -61,7 +61,7 @@ global.___loader = {
 };
 
 global.__PATH_PREFIX__ = '';
-window.___navigate = pathname => {
+window.___navigate = (pathname) => {
   action('NavigateTo:')(pathname);
 };
 

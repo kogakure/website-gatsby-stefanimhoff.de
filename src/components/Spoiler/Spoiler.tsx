@@ -13,7 +13,7 @@ const Spoiler: React.FC<SpoilerProps> = ({ children, block, ...props }) => {
     <span
       aria-label="Spoiler"
       onClick={() => setSpoiler(false)}
-      onKeyUp={e => e.key === 'Enter' && setSpoiler(false)}
+      onKeyUp={(e) => e.key === 'Enter' && setSpoiler(false)}
       role="button"
       tabIndex={spoiler ? 0 : undefined}
     >
