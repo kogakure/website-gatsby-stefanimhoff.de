@@ -8,7 +8,7 @@ const { Paragraph } = Typography;
 
 export default {
   component: Blockquote,
-  title: 'Blockquote',
+  title: 'Quotations/Blockquote',
 };
 
 export const Default = () => (
