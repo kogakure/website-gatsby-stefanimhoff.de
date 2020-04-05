@@ -39,7 +39,7 @@ export const MultipleParagraphs = () => (
     </p>
     <p>
       Because I have understood the beauty of good and the ugliness of evil, I
-      know that these wrong-doers are still akin to me … and that none can to me
+      know that these wrong-doers are still akin to me … and that none can do me
       harm, or implicate me in ugliness—nor can I be angry at my relatives or
       hate them. For we are made for cooperation.
     </p>
@@ -68,7 +68,7 @@ export const MultipleParagraphsBetweenParagraphs = () => (
       </p>
       <p>
         Because I have understood the beauty of good and the ugliness of evil, I
-        know that these wrong-doers are still akin to me … and that none can to
+        know that these wrong-doers are still akin to me … and that none can do
         me harm, or implicate me in ugliness—nor can I be angry at my relatives
         or hate them. For we are made for cooperation.
       </p>
