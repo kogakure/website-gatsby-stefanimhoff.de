@@ -20,6 +20,7 @@ import { TextLink, BlockLink } from '../TextLink';
 import { Typography } from '../Typography';
 import { UnorderedList } from '../UnorderedList';
 import { Variable } from '../Variable';
+import { Verse } from '../Verse';
 
 const { Title, Headline, Subline, Paragraph } = Typography;
 
@@ -42,6 +43,7 @@ const shortcodes = {
   TextLink,
   Title,
   Variable,
+  Verse,
   a: TextLink,
   blockquote: Blockquote,
   h1: Title,
