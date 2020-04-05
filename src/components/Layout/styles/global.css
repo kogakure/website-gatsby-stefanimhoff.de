@@ -145,3 +145,21 @@ blockquote[lang|='ja'],
 q[lang|='ja'] {
   quotes: '「' '」' '『' '』';
 }
+
+/* ===================================
+ * Footnotes
+ * ==================================*/
+a.footnote-ref {
+  cursor: help;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a.footnote-backref {
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.footnotes ol li {
+  font-size: 14px;
+}
