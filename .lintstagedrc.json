@@ -4,5 +4,5 @@
     "prettier --write",
     "jest --findRelatedTests"
   ],
-  "*.{mdx,md}": ["prettier --parser markdown --write"]
+  "*.{mdx,md}": ["prettier --parser mdx --write"]
 }
