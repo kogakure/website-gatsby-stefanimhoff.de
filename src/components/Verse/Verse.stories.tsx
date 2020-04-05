@@ -4,7 +4,7 @@ import { Verse } from '.';
 
 export default {
   component: Verse,
-  title: 'Verse',
+  title: 'Quotations/Verse',
 };
 
 export const Default = () => (
