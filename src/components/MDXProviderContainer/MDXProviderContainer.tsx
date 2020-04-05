@@ -13,6 +13,7 @@ import { Pullquote } from '../Pullquote';
 import { RubyAnnotation } from '../RubyAnnotation';
 import { SEO } from '../SEO';
 import { Sample } from '../Sample';
+import { Spacer } from '../Spacer';
 import { Spoiler } from '../Spoiler';
 import { Table } from '../Table';
 import { TextLink, BlockLink } from '../TextLink';
@@ -35,6 +36,7 @@ const shortcodes = {
   RubyAnnotation,
   SEO,
   Sample,
+  Spacer,
   Spoiler,
   Subline,
   TextLink,
