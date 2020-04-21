@@ -24,6 +24,7 @@
     "develop": "gatsby develop",
     "format": "yarn run prettier --write",
     "format:check": "yarn run prettier --list-different",
+    "image:optimize": "node scripts/optimize.js",
     "lint": "npm-run-all --parallel lint:*",
     "lint:css": "stylelint 'src/**/*.{ts,tsx,js,css}'",
     "lint:css:fix": "yarn lint:css --fix",
