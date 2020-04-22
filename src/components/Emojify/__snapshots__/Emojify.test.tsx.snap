@@ -2,40 +2,32 @@
 
 exports[`Emojify renders correctly 1`] = `
 .c0 {
-  font-size: 1.25rem;
-  font-weight: 400;
-  -webkit-letter-spacing: normal;
-  -moz-letter-spacing: normal;
-  -ms-letter-spacing: normal;
-  letter-spacing: normal;
-  line-height: 1.6;
-  margin-top: 0;
-  margin-bottom: 2.488rem;
-}
-
-div > .c1 {
-  font-size: 4em;
-}
-
-p .c1 {
-  font-size: 1.5em;
-  line-height: 0.8;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  height: 40px;
   position: relative;
-  top: 0.1em;
+  width: 40px;
 }
 
-<p
+.c1 {
+  font-size: 1.5rem;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+}
+
+<button
+  aria-label="Hide Emoji"
   class="c0"
-  font-size="3"
-  font-weight="400"
-  letter-spacing="normal"
+  type="button"
 >
   <span
-    aria-label="star_struck"
+    aria-label="See-No-Evil Monkey"
     class="c1"
     role="img"
   >
-    🤩
+    🙈
   </span>
-</p>
+</button>
 `;
