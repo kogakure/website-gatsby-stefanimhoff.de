@@ -7,4 +7,4 @@ cover: ./gatsby-astronaut.png
 
 Hello World!
 
-![Astronaut](./gatsby-astronaut.png 'Image of an _Astronaut_.')
+![Astronaut](./gatsby-astronaut.png 'Image of an Astronaut.')

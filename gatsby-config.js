@@ -111,7 +111,6 @@ module.exports = {
             options: {
               linkImagesToOriginal: false,
               loading: 'lazy',
-              markdownCaptions: true,
               maxWidth: 1200,
               showCaptions: ['title'],
               tracedSVG: {
