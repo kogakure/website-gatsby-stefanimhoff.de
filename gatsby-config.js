@@ -109,9 +109,17 @@ module.exports = {
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 1000,
-              withWebP: true,
+              linkImagesToOriginal: false,
               loading: 'lazy',
+              markdownCaptions: true,
+              maxWidth: 1200,
+              showCaptions: ['title'],
+              tracedSVG: {
+                color: 'lightgray',
+                turnPolicy: 'TURNPOLICY_MAJORITY',
+              },
+              withWebP: true,
+              wrapperStyle: 'margin-bottom: 10px',
             },
           },
           {
