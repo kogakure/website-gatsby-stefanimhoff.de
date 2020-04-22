@@ -154,11 +154,5 @@ module.exports = {
         icon: 'content/assets/images/gatsby-icon.png',
       },
     },
-    {
-      resolve: 'gatsby-plugin-react-axe',
-      options: {
-        showInProduction: false,
-      },
-    },
   ],
 };
