@@ -2,8 +2,6 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const path = require('path');
-
 const acronyms = require('./acronyms.json');
 
 const siteMetadata = {
@@ -93,20 +91,10 @@ module.exports = {
           {
             resolve: 'gatsby-remark-vscode',
             options: {
-              colorTheme: 'One Dark Pro',
+              theme: 'One Dark Pro',
               wrapperClassName: 'code-block',
               injectStyles: true,
-              extensions: [
-                {
-                  identifier: 'zhuangtongfa.Material-theme',
-                  version: '3.2.1',
-                },
-                {
-                  identifier: 'mrmlnc.vscode-apache',
-                  version: '1.2.0',
-                },
-              ],
-              extensionDataDirectory: path.resolve('extensions'),
+              extensions: ['material-theme', 'vscode-apache'],
               languageAliases: {},
               replaceColor: (x) => x,
               getLineClassName: ({

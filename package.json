@@ -71,11 +71,12 @@
     "gatsby-remark-responsive-iframe": "^2.3.3",
     "gatsby-remark-smartypants": "^2.2.3",
     "gatsby-remark-unwrap-images": "^1.0.2",
-    "gatsby-remark-vscode": "^1.4.0",
+    "gatsby-remark-vscode": "^2.0.3",
     "gatsby-source-filesystem": "^2.2.4",
     "gatsby-transformer-json": "^2.3.3",
     "gatsby-transformer-sharp": "^2.4.6",
     "gatsby-transformer-yaml": "^2.3.3",
+    "material-theme": "https://github.com/Binaryify/OneDark-Pro.git#master",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
@@ -84,7 +85,8 @@
     "styled-components": "^5.1.0",
     "styled-normalize": "^8.0.7",
     "styled-system": "^5.1.5",
-    "use-persisted-state": "^0.3.0"
+    "use-persisted-state": "^0.3.0",
+    "vscode-apache": "https://github.com/mrmlnc/vscode-apache.git#1.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
