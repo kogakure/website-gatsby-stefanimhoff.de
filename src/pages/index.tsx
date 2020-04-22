@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 
 import { PostsQueryData } from '../typings/PostsQuery';
 import { Layout } from '../components/Layout';
@@ -8,7 +8,7 @@ import { Image } from '../components/Image';
 import { Typography } from '../components/Typography';
 import { SEO } from '../components/SEO';
 import { ArrowUp } from '../components/Icons';
-import { BlockLink } from '../components/TextLink';
+import { BlockLink, TextLink } from '../components/TextLink';
 
 const { Title, Headline, Subline, Paragraph } = Typography;
 
@@ -36,7 +36,7 @@ const IndexPage = ({ data }: PostsQueryData) => {
           <article key={slug}>
             <header>
               <h2>
-                <Link to={slug}>{title}</Link>
+                <TextLink to={slug}>{title}</TextLink>
               </h2>
               <LocalizedDate date={date} />
             </header>
@@ -47,13 +47,13 @@ const IndexPage = ({ data }: PostsQueryData) => {
         );
       })}
       <Image />
-      <Link to="/styleguide/">Styleguide</Link>
+      <TextLink to="/styleguide/">Styleguide</TextLink>
       <br />
-      <Link to="/page-2/">Go to page 2</Link>
+      <TextLink to="/page-2/">Go to page 2</TextLink>
       <br />
-      <Link to="/page-markdown/">Go to Markdown Page</Link>
+      <TextLink to="/page-markdown/">Go to Markdown Page</TextLink>
       <br />
-      <Link to="https://google.com">Go to Google</Link>
+      <TextLink href="https://www.google.com">Go to Google</TextLink>
       <br />
     </Layout>
   );

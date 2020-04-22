@@ -9,6 +9,7 @@ import { SEO } from '../components/SEO';
 import { LocalizedDate } from '../components/LocalizedDate';
 import { MDXProviderContainer } from '../components/MDXProviderContainer';
 import { Typography } from '../components/Typography';
+import { Attribution } from '../components/Attribution';
 
 const { Title } = Typography;
 
@@ -20,7 +21,7 @@ interface BlogPostTemplateProps {
 const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
   const {
     body,
-    frontmatter: { title, date, description, cover },
+    frontmatter: { title, date, description, cover, attribution },
     fields: {
       readingTime: { text, words },
       language,
@@ -53,6 +54,7 @@ const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
         <MDXProviderContainer>
           <MDXRenderer>{body}</MDXRenderer>
         </MDXProviderContainer>
+        {attribution && <Attribution data={attribution} />}
         {previous === false ? null : (
           <>
             {previous && (
@@ -88,6 +90,11 @@ export const pageQuery = graphql`
         title
         date
         description
+        attribution {
+          title
+          author
+          url
+        }
         cover {
           publicURL
         }

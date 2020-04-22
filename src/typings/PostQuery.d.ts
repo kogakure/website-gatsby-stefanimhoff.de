@@ -1,3 +1,5 @@
+import { AttributionData } from '../components/Attribution';
+
 export interface PostQueryData {
   mdx: {
     frontmatter: {
@@ -10,6 +12,7 @@ export interface PostQueryData {
       cover?: {
         publicURL: string;
       };
+      attribution: AttributionData[] | null;
     };
     fields: {
       slug: string;
