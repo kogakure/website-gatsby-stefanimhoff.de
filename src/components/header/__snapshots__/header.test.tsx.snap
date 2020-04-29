@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+.c0 {
+  background: var(--colorBackground);
+}
+
+.c1 {
+  margin: 0 auto;
+  max-width: 96rem;
+  padding: 1rem;
+}
+
+<header
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h1
+      style="margin: 0px;"
+    >
+      <a
+        href="/"
+        style="color: grey; text-decoration: none;"
+      />
+    </h1>
+  </div>
+</header>
+`;
+
+exports[`Header renders correctly with dark theme 1`] = `
+.c0 {
+  background: var(--colorBackground);
+}
+
+.c1 {
+  margin: 0 auto;
+  max-width: 96rem;
+  padding: 1rem;
+}
+
+<header
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h1
+      style="margin: 0px;"
+    >
+      <a
+        href="/"
+        style="color: grey; text-decoration: none;"
+      >
+        Dark Theme
+      </a>
+    </h1>
+  </div>
+</header>
+`;
+
+exports[`Header renders correctly with prop siteTitle 1`] = `
+.c0 {
+  background: var(--colorBackground);
+}
+
+.c1 {
+  margin: 0 auto;
+  max-width: 96rem;
+  padding: 1rem;
+}
+
+<header
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h1
+      style="margin: 0px;"
+    >
+      <a
+        href="/"
+        style="color: grey; text-decoration: none;"
+      >
+        I am the title of the site
+      </a>
+    </h1>
+  </div>
+</header>
+`;

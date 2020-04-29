@@ -8,9 +8,9 @@ import { withOptions } from '@storybook/addon-options';
 
 import { EmojifyProvider, LocalizedDateProvider } from '../src/contexts';
 import { lightTheme } from '../src/themes';
-import { GlobalStyles } from '../src/components/Layout/GlobalStyles';
-import { ThemeToggle } from '../src/components/ThemeToggle';
-import { EmojifyToggle } from '../src/components/EmojifyToggle';
+import { GlobalStyles } from '../src/components/layout/global-styles';
+import { ThemeToggle } from '../src/components/theme-toggle';
+import { EmojifyToggle } from '../src/components/emojify-toggle';
 
 import '../src/utils/theme';
 
