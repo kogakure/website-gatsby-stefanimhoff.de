@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { Styled } from './{{pascalCase name}}.styles';
 
-interface {{pascalCase name}}Props {}
+type {{pascalCase name}}Props = {}
 
 const {{pascalCase name}}: React.FC<{{pascalCase name}}Props> = ({ ...props }) => (
   <Styled.{{pascalCase name}} {...props}>{{pascalCase name}}</Styled.{{pascalCase name}}>

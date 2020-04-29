@@ -4,9 +4,9 @@ import { StyledSystemProps } from '../../typings/StyleSystem';
 
 import { Styled } from './InlineQuote.styles';
 
-interface InlineQuoteProps {
+type InlineQuoteProps = {
   lang?: string;
-}
+};
 
 type StyledInlineQuoteProps = InlineQuoteProps & StyledSystemProps;
 

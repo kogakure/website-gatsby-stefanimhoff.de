@@ -5,12 +5,12 @@ import { StyledSystemProps } from '../../typings/StyleSystem';
 import DynamicComponent from './DynamicComponent';
 import { TypographyStyles } from './TypographyStyles';
 
-interface TypographyComponentProps {
+type TypographyComponentProps = {
   Title: React.FC<StyledSystemProps>;
   Headline: React.FC<StyledSystemProps>;
   Subline: React.FC<StyledSystemProps>;
   Paragraph: React.FC<StyledSystemProps>;
-}
+};
 
 const createComponent: (
   textStyle: StyledSystemProps,

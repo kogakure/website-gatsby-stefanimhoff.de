@@ -5,12 +5,12 @@ import { TextLink } from '../TextLink';
 
 import { Styled } from './Pullquote.styles';
 
-interface PullquoteProps {
+type PullquoteProps = {
   author?: string;
   lang?: string;
   source?: string;
   sourceUrl?: string;
-}
+};
 
 type StyledPullquoteProps = PullquoteProps & StyledSystemProps;
 

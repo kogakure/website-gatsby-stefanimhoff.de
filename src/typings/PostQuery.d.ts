@@ -1,6 +1,6 @@
 import { AttributionData } from '../components/Attribution';
 
-export interface PostQueryData {
+export type PostQueryData = {
   mdx: {
     frontmatter: {
       title: string;
@@ -26,4 +26,4 @@ export interface PostQueryData {
     body: string;
     id: string;
   };
-}
+};

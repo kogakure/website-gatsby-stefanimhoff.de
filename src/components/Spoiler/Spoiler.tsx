@@ -2,9 +2,9 @@ import * as React from 'react';
 
 import { Styled } from './Spoiler.styles';
 
-interface SpoilerProps {
+type SpoilerProps = {
   block?: boolean;
-}
+};
 
 const Spoiler: React.FC<SpoilerProps> = ({ children, block, ...props }) => {
   const [spoiler, setSpoiler] = React.useState(true);

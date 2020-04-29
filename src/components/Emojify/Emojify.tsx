@@ -5,9 +5,9 @@ import { EmojifyContext } from '../../contexts';
 
 import { Styled } from './Emojify.styles';
 
-interface EmojifyProps {
+type EmojifyProps = {
   emoji: string;
-}
+};
 
 const Emojify: React.FC<EmojifyProps> = ({ emoji, ...props }) => {
   const { emojified } = React.useContext(EmojifyContext);

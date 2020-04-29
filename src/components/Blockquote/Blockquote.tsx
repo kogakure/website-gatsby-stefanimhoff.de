@@ -5,12 +5,12 @@ import { TextLink } from '../TextLink';
 
 import { Styled } from './Blockquote.styles';
 
-interface BlockquoteProps {
+type BlockquoteProps = {
   author?: string;
   lang?: string;
   source?: string;
   sourceUrl?: string;
-}
+};
 
 type StyledBlockquoteProps = BlockquoteProps & StyledSystemProps;
 

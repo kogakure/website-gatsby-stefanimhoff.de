@@ -6,15 +6,15 @@ import { HorizontalRule } from '../HorizontalRule';
 
 import { Styled } from './Attribution.styles';
 
-export interface AttributionData {
+export type AttributionData = {
   author: string;
   title?: string;
   url?: string;
-}
+};
 
-interface AttributionProps {
+type AttributionProps = {
   data: AttributionData[];
-}
+};
 
 const Attribution: React.FC<AttributionProps> = ({ data, ...props }) => (
   <>

@@ -5,10 +5,10 @@ import { StyledSystemProps } from '../../typings/StyleSystem';
 
 import { Styled } from './TextLink.styles';
 
-interface TextLinkProps {
+type TextLinkProps = {
   href?: string;
   to?: string;
-}
+};
 
 /* eslint-disable @typescript-eslint/indent, @typescript-eslint/no-explicit-any */
 export type TextLinkAnchorProps = TextLinkProps &

@@ -4,11 +4,11 @@ import Color from 'color';
 
 import { Styled } from './ColorSwatch.styles';
 
-interface ColorSwatchProps {
+type ColorSwatchProps = {
   color: CSS.ColorProperty;
   description?: string;
   name?: string;
-}
+};
 
 const ColorSwatch: React.FC<ColorSwatchProps> = ({
   color,

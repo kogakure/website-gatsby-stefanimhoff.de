@@ -1,8 +1,4 @@
-export interface Radii {
-  [key: number]: string;
-}
-
-export const radii: Radii = {
+export const radii = {
   0: '0',
   1: '2px',
   2: '4px',
