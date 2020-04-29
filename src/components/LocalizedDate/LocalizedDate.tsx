@@ -5,9 +5,9 @@ import { LocalizedDateContext } from '../../contexts';
 
 import { Styled } from './LocalizedDate.styles';
 
-interface LocalizedDateProps {
+type LocalizedDateProps = {
   date: string;
-}
+};
 
 const LocalizedDate: React.FC<LocalizedDateProps> = ({ date, ...props }) => {
   const en = moment(date).format('MMMM Do, YYYY');

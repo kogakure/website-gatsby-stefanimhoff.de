@@ -1,1 +1,1 @@
-export const fontWeights: number[] = [400, 600, 900];
+export const fontWeights = [400, 600, 900];

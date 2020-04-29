@@ -10,9 +10,9 @@ import { EmojifyToggle } from '../../components/EmojifyToggle';
 
 import { Styled } from './Layout.styles';
 
-interface LayoutProps {
+type LayoutProps = {
   variant?: 'green' | 'blue' | 'brown';
-}
+};
 
 const Layout: React.FC<LayoutProps> = ({ children, variant }) => {
   const { site }: SiteMetadataQueryData = useSiteMetadataQuery();

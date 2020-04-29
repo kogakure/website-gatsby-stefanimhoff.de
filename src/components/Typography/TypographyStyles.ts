@@ -1,12 +1,12 @@
 import { StyledSystemProps } from '../../typings/StyleSystem';
 
-interface TypographyStyles {
+type TypographyStyles = {
   Title: StyledSystemProps;
   Headline: StyledSystemProps;
   Subline: StyledSystemProps;
   Paragraph: StyledSystemProps;
   InlineCode: StyledSystemProps;
-}
+};
 
 export const TypographyStyles: TypographyStyles = {
   Title: {

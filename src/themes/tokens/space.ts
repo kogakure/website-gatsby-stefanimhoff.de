@@ -1,9 +1,5 @@
-export interface Space {
-  [key: number]: string;
-}
-
 // www.modularscale.com/?1&rem&1.2
-export const space: Space = {
+export const space = {
   0: '0',
   1: '0.335rem',
   2: '0.402rem',

@@ -1,14 +1,14 @@
 import { EdgeNode } from './EdgeNode';
 
-interface Post {
+type Post = {
   title: string;
   date: string;
-}
+};
 
-export interface PostsQueryData {
+export type PostsQueryData = {
   data: {
     allBlogPosts: {
       edges: [EdgeNode];
     };
   };
-}
+};

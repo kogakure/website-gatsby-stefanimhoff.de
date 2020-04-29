@@ -1,9 +1,5 @@
-export interface TypographicScale {
-  [key: number]: string;
-}
-
 // https://www.modularscale.com/?20&px&1.618
-export const typographicScale: TypographicScale = {
+export const typographicScale = {
   1: '0.477rem',
   2: '0.773rem',
   3: '1.25rem',

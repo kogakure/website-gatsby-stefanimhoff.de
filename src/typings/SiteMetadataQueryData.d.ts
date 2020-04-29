@@ -1,4 +1,4 @@
-interface Site {
+type Site = {
   siteMetadata: {
     author: string;
     description: string;
@@ -12,8 +12,8 @@ interface Site {
     titleTemplate: string;
     twitterUsername: string;
   };
-}
+};
 
-export interface SiteMetadataQueryData {
+export type SiteMetadataQueryData = {
   site: Site;
-}
+};

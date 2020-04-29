@@ -1,4 +1,4 @@
-export const breakpoints: string[] = ['320px', '768px', '1024px'];
+export const breakpoints = ['320px', '768px', '1024px'];
 
 export const mediaQueries = {
   phone: `min-width: ${breakpoints[0]}`,

@@ -1,30 +1,4 @@
-import * as CSS from 'csstype';
-
-export interface ThemeColors {
-  accent: CSS.ColorProperty;
-  background: CSS.ColorProperty;
-  backgroundBlue: CSS.ColorProperty;
-  backgroundBrown: CSS.ColorProperty;
-  backgroundFullContrast: CSS.ColorProperty;
-  backgroundGreen: CSS.ColorProperty;
-  borderSoftInverse: CSS.ColorProperty;
-  linkUnderline: CSS.ColorProperty;
-  linkUnderlineActive: CSS.ColorProperty;
-  logo: CSS.ColorProperty;
-  logoBlue: CSS.ColorProperty;
-  logoBrown: CSS.ColorProperty;
-  logoGreen: CSS.ColorProperty;
-  text: CSS.ColorProperty;
-  textBlue: CSS.ColorProperty;
-  textBrown: CSS.ColorProperty;
-  textFullContrast: CSS.ColorProperty;
-  textGreen: CSS.ColorProperty;
-  textSoft: CSS.ColorProperty;
-  textStrong: CSS.ColorProperty;
-  textStrongInverse: CSS.ColorProperty;
-}
-
-export const lightColors: ThemeColors = {
+export const lightColors = {
   accent: 'hsl(357, 96%, 46%)',
   background: 'hsl(40, 7%, 90%)',
   backgroundBlue: 'hsl(220, 6%, 50%)',
@@ -48,7 +22,7 @@ export const lightColors: ThemeColors = {
   textStrongInverse: 'rgba(0, 0, 0, 0.8)',
 };
 
-export const darkColors: ThemeColors = {
+export const darkColors = {
   accent: 'hsl(357, 96%, 46%)',
   background: 'hsl(40, 7%, 10%)',
   backgroundBlue: 'hsl(220, 6%, 20%)',

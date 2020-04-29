@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 import { useSiteMetadataQuery } from '../../hooks';
 import { SiteMetadataQueryData } from '../../typings/SiteMetadataQueryData';
 
-interface SEOProps {
+type SEOProps = {
   article?: boolean;
   bodyClass?: string;
   description?: string;
@@ -14,7 +14,7 @@ interface SEOProps {
   pathname?: string;
   robots?: string;
   title?: string;
-}
+};
 
 const SEO = ({
   article = false,

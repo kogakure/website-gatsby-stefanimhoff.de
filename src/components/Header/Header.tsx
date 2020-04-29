@@ -3,9 +3,9 @@ import { Link } from 'gatsby';
 
 import { Styled } from './Header.styles';
 
-interface HeaderProps {
+type HeaderProps = {
   siteTitle?: string;
-}
+};
 
 const Header: React.FC<HeaderProps> = ({ siteTitle = '' }) => (
   <Styled.HeaderWrapper>

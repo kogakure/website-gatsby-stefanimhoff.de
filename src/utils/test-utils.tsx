@@ -6,9 +6,9 @@ import { EmojifyProvider, LocalizedDateProvider } from '../contexts';
 import { ThemeType } from '../typings/Theme';
 import { lightTheme } from '../themes';
 
-interface CustomTheme {
+type CustomTheme = {
   theme: ThemeType;
-}
+};
 
 type RenderOptionsWithTheme = RenderOptions & CustomTheme;
 

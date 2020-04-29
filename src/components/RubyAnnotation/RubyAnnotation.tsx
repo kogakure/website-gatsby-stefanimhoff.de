@@ -4,10 +4,10 @@ import { StyledSystemProps } from '../../typings/StyleSystem';
 
 import { Styled } from './RubyAnnotation.styles';
 
-interface RubyAnnotationProps {
+type RubyAnnotationProps = {
   base: string;
   text: string;
-}
+};
 
 type StyledRubyAnnotationProps = RubyAnnotationProps & StyledSystemProps;
 
