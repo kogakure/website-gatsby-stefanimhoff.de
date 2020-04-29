@@ -24,7 +24,7 @@ module.exports = function (plop) {
       return [
         {
           type: 'addMany',
-          destination: `${currentDir}/src/components/{{pascalCase name}}`,
+          destination: `${currentDir}/src/components/{{dashCase name}}`,
           base: 'templates/component',
           templateFiles: '**/*.txt',
           stripExtensions: ['txt'],

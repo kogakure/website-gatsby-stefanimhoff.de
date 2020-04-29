@@ -2,14 +2,14 @@ import React from 'react';
 import { graphql, Link } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
-import { PostQueryData } from '../typings/PostQuery';
-import { PostPageContextData } from '../typings/PostPageContext';
-import { Layout } from '../components/Layout';
-import { SEO } from '../components/SEO';
-import { LocalizedDate } from '../components/LocalizedDate';
-import { MDXProviderContainer } from '../components/MDXProviderContainer';
-import { Typography } from '../components/Typography';
-import { Attribution } from '../components/Attribution';
+import { PostQueryData } from '../typings/post-query';
+import { PostPageContextData } from '../typings/post-page-context';
+import { Layout } from '../components/layout';
+import { SEO } from '../components/seo';
+import { LocalizedDate } from '../components/localized-date';
+import { MDXProviderContainer } from '../components/mdx-provider-container';
+import { Typography } from '../components/typography';
+import { Attribution } from '../components/attribution';
 
 const { Title } = Typography;
 

@@ -3,7 +3,7 @@ import { render, RenderOptions, RenderResult } from '@testing-library/react';
 import { ThemeProvider } from 'styled-components';
 
 import { EmojifyProvider, LocalizedDateProvider } from '../contexts';
-import { ThemeType } from '../typings/Theme';
+import { ThemeType } from '../typings/theme';
 import { lightTheme } from '../themes';
 
 type CustomTheme = {

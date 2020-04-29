@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocalizedDate renders correctly 1`] = `
+.c0 {
+  cursor: pointer;
+}
+
+<time
+  class="c0"
+  datetime="2020-01-17T18:00:00"
+>
+  January 17th, 2020
+</time>
+`;

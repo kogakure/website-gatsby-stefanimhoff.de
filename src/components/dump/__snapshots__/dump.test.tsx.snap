@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dump renders correctly 1`] = `
+<div>
+  <pre>
+    <strong
+      style="color: white; background: red;"
+    >
+      data
+       
+      <span
+        aria-label="Dump"
+        role="img"
+      >
+        💩
+      </span>
+    </strong>
+    {
+  "foo": "bar",
+  "someArr": [
+    1,
+    2,
+    3
+  ],
+  "someObj": {
+    "hello": "Hello World"
+  }
+}
+  </pre>
+</div>
+`;

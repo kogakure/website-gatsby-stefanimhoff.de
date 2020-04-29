@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderedList renders correctly 1`] = `
+.c0 {
+  font-size: 1.25rem;
+  padding-left: 0;
+}
+
+li .c0 {
+  padding-left: 2rem;
+}
+
+<ol
+  class="c0"
+  font-size="3"
+>
+  <li>
+    Early Stoics
+    <ol
+      class="c0"
+      font-size="3"
+    >
+      <li>
+        Zeno of Citium
+      </li>
+      <li>
+        Chrysippus
+      </li>
+      <li>
+        Chrysippus
+      </li>
+    </ol>
+  </li>
+</ol>
+`;

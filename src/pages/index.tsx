@@ -1,14 +1,14 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
-import { PostsQueryData } from '../typings/PostsQuery';
-import { Layout } from '../components/Layout';
-import { LocalizedDate } from '../components/LocalizedDate';
-import { Image } from '../components/Image';
-import { Typography } from '../components/Typography';
-import { SEO } from '../components/SEO';
-import { ArrowUp } from '../components/Icons';
-import { BlockLink, TextLink } from '../components/TextLink';
+import { PostsQueryData } from '../typings/posts-query';
+import { Layout } from '../components/layout';
+import { LocalizedDate } from '../components/localized-date';
+import { Image } from '../components/image';
+import { Typography } from '../components/typography';
+import { SEO } from '../components/seo';
+import { ArrowUp } from '../components/icons';
+import { BlockLink, TextLink } from '../components/text-link';
 
 const { Title, Headline, Subline, Paragraph } = Typography;
 

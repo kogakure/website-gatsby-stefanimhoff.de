@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Styled } from './{{pascalCase name}}.styles';
+import { Styled } from './{{dashCase name}}.styles';
 
 type {{pascalCase name}}Props = {}
 

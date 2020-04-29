@@ -3,9 +3,9 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../utils/test-utils';
 
-import { Default } from './{{pascalCase name}}.stories';
+import { Default } from './theme-toggle.stories';
 
-describe('{{pascalCase name}}', () => {
+describe('ThemeToggle', () => {
   test('renders correctly', () => {
     const { container } = render(<Default />);
 
