@@ -5,16 +5,16 @@ import { TextLink } from '../text-link';
 
 import { Styled } from './pullquote.styles';
 
-type PullquoteProps = {
+export type PullquoteProps = {
   author?: string;
   lang?: string;
   source?: string;
   sourceUrl?: string;
 };
 
-type StyledPullquoteProps = PullquoteProps & StyledSystemProps;
+export type StyledPullquoteProps = PullquoteProps & StyledSystemProps;
 
-const Pullquote: React.FC<StyledPullquoteProps> = ({
+export const Pullquote: React.FC<StyledPullquoteProps> = ({
   author,
   children,
   lang = 'en',
@@ -38,5 +38,3 @@ const Pullquote: React.FC<StyledPullquoteProps> = ({
     </Styled.Footer>
   </Styled.Pullquote>
 );
-
-export { Pullquote };

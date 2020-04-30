@@ -1,6 +1,6 @@
 import { EdgeNode } from './edge-node';
 
-type Post = {
+export type Post = {
   title: string;
   date: string;
 };

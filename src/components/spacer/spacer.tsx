@@ -10,7 +10,7 @@ import {
 
 import { Styled } from './spacer.styles';
 
-type SpacerProps =
+export type SpacerProps =
   | BorderProps
   | PaddingBottomProps
   | PaddingLeftProps
@@ -18,8 +18,6 @@ type SpacerProps =
   | PaddingRightProps
   | PaddingTopProps;
 
-const Spacer: React.FC<SpacerProps> = ({ children, ...props }) => (
+export const Spacer: React.FC<SpacerProps> = ({ children, ...props }) => (
   <Styled.Spacer {...props}>{children}</Styled.Spacer>
 );
-
-export { Spacer };

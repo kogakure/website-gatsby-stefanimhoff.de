@@ -5,11 +5,11 @@ import { EmojifyContext } from '../../contexts';
 
 import { Styled } from './emojify.styles';
 
-type EmojifyProps = {
+export type EmojifyProps = {
   emoji: string;
 };
 
-const Emojify: React.FC<EmojifyProps> = ({ emoji, ...props }) => {
+export const Emojify: React.FC<EmojifyProps> = ({ emoji, ...props }) => {
   const { emojified } = React.useContext(EmojifyContext);
 
   return emojified ? (
@@ -22,5 +22,3 @@ const Emojify: React.FC<EmojifyProps> = ({ emoji, ...props }) => {
     </Styled.Emoji>
   ) : null;
 };
-
-export { Emojify };

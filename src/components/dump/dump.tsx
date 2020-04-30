@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import React from 'react';
 
-const Dump = (props: any) => (
+export const Dump = (props: any) => (
   <div>
     {Object.entries(props).map(([key, val]) => (
       <pre key={key}>
@@ -17,5 +17,3 @@ const Dump = (props: any) => (
     ))}
   </div>
 );
-
-export { Dump };

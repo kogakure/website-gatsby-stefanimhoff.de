@@ -13,7 +13,7 @@ import { Attribution } from '../components/attribution';
 
 const { Title } = Typography;
 
-type BlogPostTemplateProps = {
+export type BlogPostTemplateProps = {
   readonly data: PostQueryData;
   readonly pageContext: PostPageContextData;
 };

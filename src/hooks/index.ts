@@ -1,3 +1,1 @@
-import { useSiteMetadataQuery } from './use-site-metadata-query';
-
-export { useSiteMetadataQuery };
+export * from './use-site-metadata-query';

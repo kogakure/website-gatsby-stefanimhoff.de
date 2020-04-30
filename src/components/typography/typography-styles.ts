@@ -1,6 +1,6 @@
 import { StyledSystemProps } from '../../typings/styled-system';
 
-type TypographyStyles = {
+export type TypographyStyles = {
   Title: StyledSystemProps;
   Headline: StyledSystemProps;
   Subline: StyledSystemProps;

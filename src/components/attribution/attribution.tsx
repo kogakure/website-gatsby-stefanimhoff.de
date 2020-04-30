@@ -12,11 +12,11 @@ export type AttributionData = {
   url?: string;
 };
 
-type AttributionProps = {
+export type AttributionProps = {
   data: AttributionData[];
 };
 
-const Attribution: React.FC<AttributionProps> = ({ data, ...props }) => (
+export const Attribution: React.FC<AttributionProps> = ({ data, ...props }) => (
   <>
     <HorizontalRule />
     <Styled.Attribution {...props}>
@@ -38,5 +38,3 @@ const Attribution: React.FC<AttributionProps> = ({ data, ...props }) => (
     </Styled.Attribution>
   </>
 );
-
-export { Attribution };

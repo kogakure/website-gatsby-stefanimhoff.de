@@ -6,11 +6,11 @@ import { EmojifyProvider, LocalizedDateProvider } from '../contexts';
 import { ThemeType } from '../typings/theme';
 import { lightTheme } from '../themes';
 
-type CustomTheme = {
+export type CustomTheme = {
   theme: ThemeType;
 };
 
-type RenderOptionsWithTheme = RenderOptions & CustomTheme;
+export type RenderOptionsWithTheme = RenderOptions & CustomTheme;
 
 const customRender = (
   node: React.ReactElement,

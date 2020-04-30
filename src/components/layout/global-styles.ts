@@ -7,7 +7,9 @@ import { lightColors, darkColors } from '../../themes/tokens/colors';
 import globalCSS from './styles/global.css';
 import highlightCodeLine from './styles/highlight-code-line.css';
 
-const GlobalStyles = createGlobalStyle<{ theme: ThemeType & ThemeProps }>`
+export const GlobalStyles = createGlobalStyle<{
+  theme: ThemeType & ThemeProps;
+}>`
   /* stylelint-disable plugin/stylelint-no-indistinguishable-colors */
 
   .light {
@@ -87,5 +89,3 @@ const GlobalStyles = createGlobalStyle<{ theme: ThemeType & ThemeProps }>`
   ${globalCSS}
   ${highlightCodeLine}
 `;
-
-export { GlobalStyles };

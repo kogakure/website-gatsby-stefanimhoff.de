@@ -10,11 +10,11 @@ import { EmojifyToggle } from '../../components/emojify-toggle';
 
 import { Styled } from './layout.styles';
 
-type LayoutProps = {
+export type LayoutProps = {
   variant?: 'green' | 'blue' | 'brown';
 };
 
-const Layout: React.FC<LayoutProps> = ({ children, variant }) => {
+export const Layout: React.FC<LayoutProps> = ({ children, variant }) => {
   const { site }: SiteMetadataQueryData = useSiteMetadataQuery();
   const { title } = site.siteMetadata;
 
@@ -35,5 +35,3 @@ const Layout: React.FC<LayoutProps> = ({ children, variant }) => {
     </>
   );
 };
-
-export { Layout };

@@ -3,11 +3,11 @@ import { Link } from 'gatsby';
 
 import { Styled } from './header.styles';
 
-type HeaderProps = {
+export type HeaderProps = {
   siteTitle?: string;
 };
 
-const Header: React.FC<HeaderProps> = ({ siteTitle = '' }) => (
+export const Header: React.FC<HeaderProps> = ({ siteTitle = '' }) => (
   <Styled.HeaderWrapper>
     <Styled.HeaderContainer>
       <h1 style={{ margin: 0 }}>
@@ -24,5 +24,3 @@ const Header: React.FC<HeaderProps> = ({ siteTitle = '' }) => (
     </Styled.HeaderContainer>
   </Styled.HeaderWrapper>
 );
-
-export { Header };

@@ -5,7 +5,7 @@ import { StyledSystemProps } from '../../typings/styled-system';
 
 import { Styled } from './text-link.styles';
 
-type TextLinkProps = {
+export type TextLinkProps = {
   href?: string;
   to?: string;
 };
@@ -16,7 +16,7 @@ export type TextLinkAnchorProps = TextLinkProps &
   Omit<GatsbyLinkProps<any>, 'to'>;
 /* eslint-enable */
 
-const TextLink: React.FC<TextLinkAnchorProps> = ({
+export const TextLink: React.FC<TextLinkAnchorProps> = ({
   activeClassName,
   children,
   href,
@@ -45,7 +45,7 @@ const TextLink: React.FC<TextLinkAnchorProps> = ({
     </Styled.TextLinkHref>
   );
 
-const BlockLink = ({ ...props }) => (
+export const BlockLink = ({ ...props }) => (
   <p>
     <TextLink {...props} />
   </p>
@@ -54,5 +54,3 @@ const BlockLink = ({ ...props }) => (
 TextLink.defaultProps = {
   fontWeight: 1,
 };
-
-export { TextLink, BlockLink };

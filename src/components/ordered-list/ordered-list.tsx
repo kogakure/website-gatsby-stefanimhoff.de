@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { Styled } from './ordered-list.styles';
 
-const OrderedList: React.FC = ({ children, ...props }) => (
+export const OrderedList: React.FC = ({ children, ...props }) => (
   <Styled.OrderedListContainer {...props}>
     {children}
   </Styled.OrderedListContainer>
@@ -11,5 +11,3 @@ const OrderedList: React.FC = ({ children, ...props }) => (
 OrderedList.defaultProps = {
   fontSize: 3,
 };
-
-export { OrderedList };

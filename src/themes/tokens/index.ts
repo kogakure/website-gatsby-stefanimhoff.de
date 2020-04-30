@@ -1,7 +1,7 @@
-export { breakpoints, mediaQueries } from './breakpoints';
-export { fontWeights } from './font-weights';
-export { lightColors, darkColors } from './colors';
-export { lineHeights } from './line-heights';
-export { radii } from './radii';
-export { space } from './space';
-export { typographicScale } from './typographic-scale';
+export * from './breakpoints';
+export * from './colors';
+export * from './font-weights';
+export * from './line-heights';
+export * from './radii';
+export * from './space';
+export * from './typographic-scale';

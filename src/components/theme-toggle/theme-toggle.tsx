@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import { Styled } from './theme-toggle.styles';
 
 /* eslint-disable no-underscore-dangle */
-interface ThemedWindow extends Window {
+export interface ThemedWindow extends Window {
   __theme: string;
   __onThemeChange: () => void;
   __setPreferredTheme: (theme: string) => void;
@@ -13,7 +13,7 @@ interface ThemedWindow extends Window {
 
 declare const window: ThemedWindow;
 
-const ThemeToggle: React.FC = () => {
+export const ThemeToggle: React.FC = () => {
   const [theme, setTheme] = useState('');
   const oppositeTheme = theme === 'light' ? 'dark' : 'light';
   const setPreferredTheme = () => {
@@ -38,5 +38,3 @@ const ThemeToggle: React.FC = () => {
     </Styled.Button>
   );
 };
-
-export { ThemeToggle };

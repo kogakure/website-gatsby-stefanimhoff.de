@@ -1,4 +1,4 @@
-type Site = {
+export type Site = {
   siteMetadata: {
     author: string;
     description: string;

@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { Styled } from './variable.styles';
 
-const Variable: React.FC = ({ children, ...props }) => (
+export const Variable: React.FC = ({ children, ...props }) => (
   <Styled.Variable className="one-dark-pro" {...props}>
     {children}
   </Styled.Variable>
@@ -14,5 +14,3 @@ Variable.defaultProps = {
   paddingX: 3,
   paddingY: 1,
 };
-
-export { Variable };

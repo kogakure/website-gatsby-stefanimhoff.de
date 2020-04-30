@@ -8,7 +8,7 @@ import { withOptions } from '@storybook/addon-options';
 
 import { EmojifyProvider, LocalizedDateProvider } from '../src/contexts';
 import { lightTheme } from '../src/themes';
-import { GlobalStyles } from '../src/components/layout/global-styles';
+import { GlobalStyles } from '../src/components/layout';
 import { ThemeToggle } from '../src/components/theme-toggle';
 import { EmojifyToggle } from '../src/components/emojify-toggle';
 

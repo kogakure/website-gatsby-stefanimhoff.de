@@ -4,13 +4,13 @@ import { StyledSystemProps } from '../../typings/styled-system';
 
 import { Styled } from './inline-quote.styles';
 
-type InlineQuoteProps = {
+export type InlineQuoteProps = {
   lang?: string;
 };
 
-type StyledInlineQuoteProps = InlineQuoteProps & StyledSystemProps;
+export type StyledInlineQuoteProps = InlineQuoteProps & StyledSystemProps;
 
-const InlineQuote: React.FC<StyledInlineQuoteProps> = ({
+export const InlineQuote: React.FC<StyledInlineQuoteProps> = ({
   children,
   lang = 'en',
   ...props
@@ -19,5 +19,3 @@ const InlineQuote: React.FC<StyledInlineQuoteProps> = ({
     {children}
   </Styled.InlineQuote>
 );
-
-export { InlineQuote };
