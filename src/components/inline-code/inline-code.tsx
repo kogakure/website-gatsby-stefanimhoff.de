@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { Styled } from './inline-code.styles';
 
-const InlineCode: React.FC = ({ children, ...props }) => (
+export const InlineCode: React.FC = ({ children, ...props }) => (
   <Styled.InlineCode className="one-dark-pro" {...props}>
     {children}
   </Styled.InlineCode>
@@ -14,5 +14,3 @@ InlineCode.defaultProps = {
   paddingX: 3,
   paddingY: 1,
 };
-
-export { InlineCode };

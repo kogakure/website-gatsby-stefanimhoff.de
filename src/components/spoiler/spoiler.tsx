@@ -2,11 +2,15 @@ import * as React from 'react';
 
 import { Styled } from './spoiler.styles';
 
-type SpoilerProps = {
+export type SpoilerProps = {
   block?: boolean;
 };
 
-const Spoiler: React.FC<SpoilerProps> = ({ children, block, ...props }) => {
+export const Spoiler: React.FC<SpoilerProps> = ({
+  children,
+  block,
+  ...props
+}) => {
   const [spoiler, setSpoiler] = React.useState(true);
 
   return (
@@ -28,5 +32,3 @@ const Spoiler: React.FC<SpoilerProps> = ({ children, block, ...props }) => {
     </span>
   );
 };
-
-export { Spoiler };

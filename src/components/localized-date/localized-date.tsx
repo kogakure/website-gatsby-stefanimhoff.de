@@ -5,11 +5,14 @@ import { LocalizedDateContext } from '../../contexts';
 
 import { Styled } from './localized-date.styles';
 
-type LocalizedDateProps = {
+export type LocalizedDateProps = {
   date: string;
 };
 
-const LocalizedDate: React.FC<LocalizedDateProps> = ({ date, ...props }) => {
+export const LocalizedDate: React.FC<LocalizedDateProps> = ({
+  date,
+  ...props
+}) => {
   const en = moment(date).format('MMMM Do, YYYY');
   const de = moment(date).format('DD.MM.YYYY');
   const [day, month, year] = de.split('.');
@@ -58,5 +61,3 @@ const LocalizedDate: React.FC<LocalizedDateProps> = ({ date, ...props }) => {
     </Styled.LocalizedDateContainer>
   );
 };
-
-export { LocalizedDate };

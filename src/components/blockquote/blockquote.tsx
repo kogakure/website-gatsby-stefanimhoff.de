@@ -5,16 +5,16 @@ import { TextLink } from '../text-link';
 
 import { Styled } from './blockquote.styles';
 
-type BlockquoteProps = {
+export type BlockquoteProps = {
   author?: string;
   lang?: string;
   source?: string;
   sourceUrl?: string;
 };
 
-type StyledBlockquoteProps = BlockquoteProps & StyledSystemProps;
+export type StyledBlockquoteProps = BlockquoteProps & StyledSystemProps;
 
-const Blockquote: React.FC<StyledBlockquoteProps> = ({
+export const Blockquote: React.FC<StyledBlockquoteProps> = ({
   author,
   children,
   lang = 'en',
@@ -44,5 +44,3 @@ Blockquote.defaultProps = {
   mx: 0,
   my: 12,
 };
-
-export { Blockquote };

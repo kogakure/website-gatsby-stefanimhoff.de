@@ -9,9 +9,9 @@ const initialState = {
   setEmojified: (emojified: boolean) => {},
 };
 
-const EmojifyContext = React.createContext(initialState);
+export const EmojifyContext = React.createContext(initialState);
 
-const EmojifyProvider: React.FC = ({ children }) => {
+export const EmojifyProvider: React.FC = ({ children }) => {
   const [emojified, setEmojified] = useEmojifyState(false);
 
   return (
@@ -20,5 +20,3 @@ const EmojifyProvider: React.FC = ({ children }) => {
     </EmojifyContext.Provider>
   );
 };
-
-export { EmojifyContext, EmojifyProvider };

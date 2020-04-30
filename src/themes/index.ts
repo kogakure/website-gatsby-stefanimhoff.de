@@ -11,7 +11,7 @@ import {
   typographicScale,
 } from './tokens';
 
-const defaultTheme: Theme = {
+export const defaultTheme: Theme = {
   ...breakpoints,
   fontSizes: {
     ...typographicScale,
@@ -28,18 +28,16 @@ const defaultTheme: Theme = {
   },
 };
 
-const lightTheme: Theme = {
+export const lightTheme: Theme = {
   ...defaultTheme,
   colors: {
     ...lightColors,
   },
 };
 
-const darkTheme: Theme = {
+export const darkTheme: Theme = {
   ...defaultTheme,
   colors: {
     ...darkColors,
   },
 };
-
-export { darkTheme, lightTheme };

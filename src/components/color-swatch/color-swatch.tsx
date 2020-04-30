@@ -4,13 +4,13 @@ import Color from 'color';
 
 import { Styled } from './color-swatch.styles';
 
-type ColorSwatchProps = {
+export type ColorSwatchProps = {
   color: CSS.ColorProperty;
   description?: string;
   name?: string;
 };
 
-const ColorSwatch: React.FC<ColorSwatchProps> = ({
+export const ColorSwatch: React.FC<ColorSwatchProps> = ({
   color,
   description,
   name,
@@ -76,5 +76,3 @@ const ColorSwatch: React.FC<ColorSwatchProps> = ({
     </Styled.ColorSwatchContainer>
   );
 };
-
-export { ColorSwatch };

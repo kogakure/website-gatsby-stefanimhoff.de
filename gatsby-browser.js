@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import { Normalize } from 'styled-normalize';
 
 import { EmojifyProvider, LocalizedDateProvider } from './src/contexts';
-import { GlobalStyles } from './src/components/Layout/global-styles';
+import { GlobalStyles } from './src/components/layout';
 import { lightTheme } from './src/themes';
 
 export const wrapRootElement = ({ element }) => (

@@ -9,9 +9,9 @@ const initialState = {
   setLocalizedDate: (localizedDate: string) => {},
 };
 
-const LocalizedDateContext = React.createContext(initialState);
+export const LocalizedDateContext = React.createContext(initialState);
 
-const LocalizedDateProvider: React.FC = ({ children }) => {
+export const LocalizedDateProvider: React.FC = ({ children }) => {
   const [localizedDate, setLocalizedDate] = useLocalizedDateState('en');
 
   return (
@@ -20,5 +20,3 @@ const LocalizedDateProvider: React.FC = ({ children }) => {
     </LocalizedDateContext.Provider>
   );
 };
-
-export { LocalizedDateContext, LocalizedDateProvider };

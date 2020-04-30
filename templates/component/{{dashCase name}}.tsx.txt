@@ -2,10 +2,8 @@ import * as React from 'react';
 
 import { Styled } from './{{dashCase name}}.styles';
 
-type {{pascalCase name}}Props = {}
+export type {{pascalCase name}}Props = {}
 
-const {{pascalCase name}}: React.FC<{{pascalCase name}}Props> = ({ ...props }) => (
+export const {{pascalCase name}}: React.FC<{{pascalCase name}}Props> = ({ ...props }) => (
   <Styled.{{pascalCase name}} {...props}>{{pascalCase name}}</Styled.{{pascalCase name}}>
 );
-
-export { {{pascalCase name}} };

@@ -4,14 +4,14 @@ import { StyledSystemProps } from '../../typings/styled-system';
 
 import { Styled } from './ruby-annotation.styles';
 
-type RubyAnnotationProps = {
+export type RubyAnnotationProps = {
   base: string;
   text: string;
 };
 
-type StyledRubyAnnotationProps = RubyAnnotationProps & StyledSystemProps;
+export type StyledRubyAnnotationProps = RubyAnnotationProps & StyledSystemProps;
 
-const RubyAnnotation: React.FC<StyledRubyAnnotationProps> = ({
+export const RubyAnnotation: React.FC<StyledRubyAnnotationProps> = ({
   base,
   text,
   ...props
@@ -27,5 +27,3 @@ const RubyAnnotation: React.FC<StyledRubyAnnotationProps> = ({
 RubyAnnotation.defaultProps = {
   fontSize: 3,
 };
-
-export { RubyAnnotation };
