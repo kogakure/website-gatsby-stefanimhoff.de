@@ -33,8 +33,7 @@ export const ThemeToggle: React.FC = () => {
       type="button"
       onClick={setPreferredTheme}
     >
-      <Styled.SunIcon role="img" aria-label="Sun" />
-      <Styled.MoonIcon role="img" aria-label="Moon" />
+      <Styled.CircleIcon role="img" aria-label="Circle" />
     </Styled.Button>
   );
 };
