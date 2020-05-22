@@ -1,10 +1,21 @@
 import React from 'react';
 import { axe } from 'jest-axe';
+import * as Gatsby from 'gatsby';
 
 import { render } from '../../services/test-utils';
-import { darkTheme } from '..';
 
 import { Header } from './header';
+
+const useStaticQuery = jest.spyOn(Gatsby, 'useStaticQuery');
+
+useStaticQuery.mockImplementation(() => ({
+  navigationYaml: {
+    navigation: [
+      { text: 'About', url: '/about/' },
+      { text: 'Projects', url: '/projects/' },
+    ],
+  },
+}));
 
 describe('Header', () => {
   test('renders correctly', () => {
@@ -13,25 +24,8 @@ describe('Header', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('renders correctly with prop siteTitle', () => {
-    const siteTitle = 'I am the title of the site';
-    const { container } = render(<Header siteTitle={siteTitle} />);
-
-    expect(container.firstChild).toMatchSnapshot();
-    expect(container).toHaveTextContent(siteTitle);
-  });
-
-  test('renders correctly with dark theme', () => {
-    const { container } = render(<Header siteTitle="Dark Theme" />, {
-      theme: darkTheme,
-    });
-
-    expect(container.firstChild).toMatchSnapshot();
-  });
-
   test('is accessible', async () => {
-    const siteTitle = 'I am an accessible Title';
-    const { container } = render(<Header siteTitle={siteTitle} />);
+    const { container } = render(<Header />);
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();
