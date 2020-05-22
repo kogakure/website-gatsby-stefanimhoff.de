@@ -17,6 +17,18 @@ body {
   line-height: 1.6;
 }
 
+#gatsby-focus-wrapper,
+body {
+  min-height: 100vh;
+  /* stylelint-disable-next-line value-no-vendor-prefix */
+  min-height: -webkit-fill-available; /* mobile viewport bug fix */
+}
+
+#gatsby-focus-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 abbr {
   font-family: 'Playfair Display SC Webfont', 'Georgia', serif;
   font-variant: small-caps;

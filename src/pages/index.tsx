@@ -4,12 +4,7 @@ import { graphql } from 'gatsby';
 import { PostsQueryData } from '../typings/posts-query';
 import { Layout, SEO } from '../layout';
 import { LocalizedDate } from '../components/localized-date';
-import { Image } from '../components/image';
-import { Typography } from '../components/typography';
-import { ArrowUp } from '../components/icons';
-import { BlockLink, TextLink } from '../components/text-link';
-
-const { Title, Headline, Subline, Paragraph } = Typography;
+import { TextLink } from '../components/text-link';
 
 const IndexPage = ({ data }: PostsQueryData) => {
   const posts = data.allBlogPosts.edges;
@@ -17,13 +12,6 @@ const IndexPage = ({ data }: PostsQueryData) => {
   return (
     <Layout>
       <SEO homepage />
-      <Title>Title</Title>
-      <Headline>Headline</Headline>
-      <Subline>Subline</Subline>
-      <Paragraph>This is Paragraph text. With a lot of words.</Paragraph>
-      <BlockLink href="https://www.google.de">Link to Google</BlockLink>
-      <BlockLink to="/post-1/">Gatsby Link</BlockLink>
-      <ArrowUp />
       {posts.map(({ node }) => {
         const {
           excerpt,
@@ -45,15 +33,6 @@ const IndexPage = ({ data }: PostsQueryData) => {
           </article>
         );
       })}
-      <Image />
-      <TextLink to="/styleguide/">Styleguide</TextLink>
-      <br />
-      <TextLink to="/page-2/">Go to page 2</TextLink>
-      <br />
-      <TextLink to="/page-markdown/">Go to Markdown Page</TextLink>
-      <br />
-      <TextLink href="https://www.google.com">Go to Google</TextLink>
-      <br />
     </Layout>
   );
 };

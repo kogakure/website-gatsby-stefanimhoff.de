@@ -1,92 +1,215 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header renders correctly 1`] = `
+.c4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+}
+
 .c0 {
-  background: var(--colorBackground);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 11vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  padding-top: 2.5vw;
 }
 
 .c1 {
-  margin: 0 auto;
-  max-width: 96rem;
-  padding: 1rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c6 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.c7 {
+  margin-right: 20px;
+}
+
+.c8 {
+  color: var(--colorText);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-text-decoration-color: var(--colorLink);
+  text-decoration-color: var(--colorLink);
+}
+
+.c8:hover,
+.c8:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--colorLinkActive) !important;
+  text-decoration-color: var(--colorLinkActive) !important;
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c5 {
+  fill: var(--colorText);
+  font-size: 1.2rem;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9 {
+  background-color: var(--colorBackground);
+  fill: var(--colorText);
+  font-size: 1rem;
+}
+
+@supports (not (text-decoration-color:red)) {
+  .c8:hover,
+  .c8:focus {
+    color: var(--colorLink);
+  }
 }
 
 <header
-  class="c0"
+  class="c0 page-header"
 >
-  <div
-    class="c1"
+  <nav
+    class="c1 nav"
   >
-    <h1
-      style="margin: 0px;"
+    <div
+      class="c2"
     >
       <a
+        class="c3"
         href="/"
-        style="color: grey; text-decoration: none;"
+      >
+        <button
+          aria-label="Back to Homepage"
+          class="c4"
+          type="button"
+        >
+          <svg
+            class="c5"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
+            />
+          </svg>
+        </button>
+      </a>
+    </div>
+    <ul
+      class="c6"
+    >
+      <li
+        class="c7"
+      >
+        <a
+          class="c8"
+          href="/about/"
+        >
+          About
+        </a>
+      </li>
+      <li
+        class="c7"
+      >
+        <a
+          class="c8"
+          href="/projects/"
+        >
+          Projects
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <button
+    aria-label="Swith to light theme"
+    class="c4"
+    type="button"
+  >
+    <svg
+      aria-label="Circle"
+      class="c9"
+      clip-rule="evenodd"
+      fill-rule="evenodd"
+      height="1em"
+      role="img"
+      stroke-linejoin="round"
+      stroke-miterlimit="2"
+      viewBox="0 0 24 24"
+      width="1em"
+    >
+      <circle
+        cx="12"
+        cy="12"
+        r="9.967"
       />
-    </h1>
-  </div>
-</header>
-`;
-
-exports[`Header renders correctly with dark theme 1`] = `
-.c0 {
-  background: var(--colorBackground);
-}
-
-.c1 {
-  margin: 0 auto;
-  max-width: 96rem;
-  padding: 1rem;
-}
-
-<header
-  class="c0"
->
-  <div
-    class="c1"
-  >
-    <h1
-      style="margin: 0px;"
-    >
-      <a
-        href="/"
-        style="color: grey; text-decoration: none;"
-      >
-        Dark Theme
-      </a>
-    </h1>
-  </div>
-</header>
-`;
-
-exports[`Header renders correctly with prop siteTitle 1`] = `
-.c0 {
-  background: var(--colorBackground);
-}
-
-.c1 {
-  margin: 0 auto;
-  max-width: 96rem;
-  padding: 1rem;
-}
-
-<header
-  class="c0"
->
-  <div
-    class="c1"
-  >
-    <h1
-      style="margin: 0px;"
-    >
-      <a
-        href="/"
-        style="color: grey; text-decoration: none;"
-      >
-        I am the title of the site
-      </a>
-    </h1>
-  </div>
+    </svg>
+  </button>
 </header>
 `;
