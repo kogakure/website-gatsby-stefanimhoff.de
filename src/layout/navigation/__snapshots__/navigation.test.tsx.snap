@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation renders correctly 1`] = `
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.c6 {
+  margin-right: 20px;
+}
+
+.c7 {
+  color: var(--colorText);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-text-decoration-color: var(--colorLink);
+  text-decoration-color: var(--colorLink);
+}
+
+.c7:hover,
+.c7:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--colorLinkActive) !important;
+  text-decoration-color: var(--colorLinkActive) !important;
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c4 {
+  fill: var(--colorText);
+  font-size: 1.2rem;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@supports (not (text-decoration-color:red)) {
+  .c7:hover,
+  .c7:focus {
+    color: var(--colorLink);
+  }
+}
+
+<nav
+  class="c0 nav"
+>
+  <div
+    class="c1"
+  >
+    <a
+      class="c2"
+      href="/"
+    >
+      <button
+        aria-label="Back to Homepage"
+        class="c3"
+        type="button"
+      >
+        <svg
+          class="c4"
+          height="1em"
+          viewBox="0 0 24 24"
+          width="1em"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
+          />
+        </svg>
+      </button>
+    </a>
+  </div>
+  <ul
+    class="c5"
+  >
+    <li
+      class="c6"
+    >
+      <a
+        class="c7"
+        href="/about/"
+      >
+        About
+      </a>
+    </li>
+    <li
+      class="c6"
+    >
+      <a
+        class="c7"
+        href="/projects/"
+      >
+        Projects
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
