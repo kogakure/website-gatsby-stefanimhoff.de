@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
 
-import { useSiteMetadataQuery } from '../../hooks';
-import { SiteMetadataQueryData } from '../../typings/site-metadata-query-data';
-import { SEO } from '../../components/seo';
-import { Header } from '../../components/header';
-import { ThemeToggle } from '../../components/theme-toggle';
-import { EmojifyToggle } from '../../components/emojify-toggle';
+import { useSiteMetadataQuery } from '../hooks';
+import { SiteMetadataQueryData } from '../typings/site-metadata-query-data';
 
+import { EmojifyToggle } from './emojify-toggle';
+import { ThemeToggle } from './theme-toggle';
+import { Header } from './header';
+import { SEO } from './seo';
 import { Styled } from './layout.styles';
 
 export type LayoutProps = {

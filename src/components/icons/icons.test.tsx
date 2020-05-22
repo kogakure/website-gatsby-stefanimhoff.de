@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { render } from '../../utils/test-utils';
+import { render } from '../../services/test-utils';
 
 import { Icon as ArrowUp } from './arrow-up.stories';
 import { Icon as ArrowLeft } from './arrow-left.stories';

@@ -5,7 +5,7 @@ import {
   lineHeights,
   typographicScale,
   space,
-} from '../../themes/tokens';
+} from '../../layout/tokens';
 
 const Pullquote = styled.blockquote`
   padding: ${space[9]};

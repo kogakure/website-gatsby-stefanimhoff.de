@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { margin } from 'styled-system';
 
-import { typographicScale, space } from '../../themes/tokens';
+import { typographicScale, space } from '../../layout/tokens';
 
 const Blockquote = styled.blockquote`
   ${margin};

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { Circle } from '../icons';
+import { Circle } from '../../components/icons';
 
 const Button = styled.button`
   background: transparent;

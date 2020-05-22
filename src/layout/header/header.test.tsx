@@ -1,8 +1,8 @@
 import React from 'react';
 import { axe } from 'jest-axe';
 
-import { render } from '../../utils/test-utils';
-import { darkTheme } from '../../themes';
+import { render } from '../../services/test-utils';
+import { darkTheme } from '..';
 
 import { Header } from './header';
 

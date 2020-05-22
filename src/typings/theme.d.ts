@@ -1,4 +1,4 @@
-import { lightTheme, darkTheme } from '../themes';
+import { lightTheme, darkTheme } from '../layout';
 
 export type BreakPointProps = {
   breakpoints: string[];

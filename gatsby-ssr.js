@@ -3,8 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import { Normalize } from 'styled-normalize';
 
 import { EmojifyProvider, LocalizedDateProvider } from './src/contexts';
-import { GlobalStyles } from './src/components/layout';
-import { lightTheme } from './src/themes';
+import { GlobalStyles, lightTheme } from './src/layout';
 
 export const wrapRootElement = ({ element }) => (
   <ThemeProvider theme={lightTheme}>

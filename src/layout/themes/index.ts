@@ -9,7 +9,7 @@ import {
   radii,
   space,
   typographicScale,
-} from './tokens';
+} from '../tokens';
 
 export const defaultTheme: Theme = {
   ...breakpoints,

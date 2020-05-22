@@ -2,7 +2,7 @@ import React from 'react';
 import { axe } from 'jest-axe';
 import user from '@testing-library/user-event';
 
-import { render, fireEvent } from '../../utils/test-utils';
+import { render, fireEvent } from '../../services/test-utils';
 
 import {
   Default,

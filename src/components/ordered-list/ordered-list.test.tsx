@@ -1,7 +1,7 @@
 import React from 'react';
 import { axe } from 'jest-axe';
 
-import { render } from '../../utils/test-utils';
+import { render } from '../../services/test-utils';
 
 import { Default } from './ordered-list.stories';
 

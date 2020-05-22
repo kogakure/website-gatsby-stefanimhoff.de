@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { space } from '../../themes/tokens';
+import { space } from '../../layout/tokens';
 
 const Spoiler = styled.span<{ block?: boolean; spoiler: boolean }>`
   background: ${({ spoiler }) =>
