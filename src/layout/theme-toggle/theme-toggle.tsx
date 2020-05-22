@@ -2,6 +2,8 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
 
+import { Clickable } from '../../components/clickable';
+
 import { Styled } from './theme-toggle.styles';
 
 /* eslint-disable no-underscore-dangle */
@@ -28,12 +30,8 @@ export const ThemeToggle: React.FC = () => {
   }, []);
 
   return (
-    <Styled.Button
-      aria-label={buttonText}
-      type="button"
-      onClick={setPreferredTheme}
-    >
+    <Clickable text={buttonText} onClick={setPreferredTheme}>
       <Styled.CircleIcon role="img" aria-label="Circle" />
-    </Styled.Button>
+    </Clickable>
   );
 };

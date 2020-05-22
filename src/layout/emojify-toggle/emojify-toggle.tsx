@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import { EmojifyContext } from '../../contexts';
+import { Clickable } from '../../components/clickable';
 
 import { Styled } from './emojify-toggle.styles';
 
@@ -11,14 +12,10 @@ export const EmojifyToggle: React.FC = () => {
   const emojiText = emojified ? 'See-No-Evil Monkey' : 'Monkey Face';
 
   return (
-    <Styled.Button
-      type="button"
-      aria-label={buttonText}
-      onClick={() => setEmojified(!emojified)}
-    >
+    <Clickable text={buttonText} onClick={() => setEmojified(!emojified)}>
       <Styled.Emoji role="img" aria-label={emojiText}>
         {emoji}
       </Styled.Emoji>
-    </Styled.Button>
+    </Clickable>
   );
 };
