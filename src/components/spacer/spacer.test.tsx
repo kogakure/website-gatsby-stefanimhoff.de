@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { render } from '../../utils/test-utils';
+import { render } from '../../services/test-utils';
 
 import {
   Bottom,

@@ -1,7 +1,7 @@
 import React from 'react';
 import { axe } from 'jest-axe';
 
-import { render } from '../../utils/test-utils';
+import { render } from '../../services/test-utils';
 
 import {
   Default,
@@ -11,7 +11,7 @@ import {
   AuthorLink,
 } from './attribution.stories';
 
-jest.mock('../../utils/generate-key.ts');
+jest.mock('../../services/generate-key.ts');
 
 describe('Attribution', () => {
   test('renders correctly', () => {

@@ -2,7 +2,7 @@
 import React from 'react';
 
 // eslint-disable-next-line import/no-webpack-loader-syntax
-import theme from '!raw-loader!./utils/theme.js';
+import theme from '!raw-loader!./services/theme.js';
 
 export default class HTML extends React.Component {
   render() {

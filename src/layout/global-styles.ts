@@ -1,9 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 
-import { ThemeType, ThemeProps } from '../../typings/theme';
-import { typographicScale } from '../../themes/tokens';
-import { lightColors, darkColors } from '../../themes/tokens/colors';
+import { ThemeType, ThemeProps } from '../typings/theme';
 
+import { typographicScale, lightColors, darkColors } from './tokens';
 import globalCSS from './styles/global.css';
 import highlightCodeLine from './styles/highlight-code-line.css';
 

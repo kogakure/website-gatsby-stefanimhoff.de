@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { render } from '../../utils/test-utils';
+import { render } from '../../services/test-utils';
 
 import { Default as Title } from './stories/title.stories';
 import { Default as Headline } from './stories/headline.stories';

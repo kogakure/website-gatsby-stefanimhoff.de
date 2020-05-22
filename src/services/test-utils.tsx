@@ -4,7 +4,7 @@ import { ThemeProvider } from 'styled-components';
 
 import { EmojifyProvider, LocalizedDateProvider } from '../contexts';
 import { ThemeType } from '../typings/theme';
-import { lightTheme } from '../themes';
+import { lightTheme } from '../layout';
 
 export type CustomTheme = {
   theme: ThemeType;

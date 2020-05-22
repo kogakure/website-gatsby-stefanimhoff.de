@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { generateKey } from '../../utils/generate-key';
+import { generateKey } from '../../services/generate-key';
 import { TextLink } from '../text-link';
 import { HorizontalRule } from '../horizontal-rule';
 

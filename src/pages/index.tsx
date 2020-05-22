@@ -2,11 +2,10 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import { PostsQueryData } from '../typings/posts-query';
-import { Layout } from '../components/layout';
+import { Layout, SEO } from '../layout';
 import { LocalizedDate } from '../components/localized-date';
 import { Image } from '../components/image';
 import { Typography } from '../components/typography';
-import { SEO } from '../components/seo';
 import { ArrowUp } from '../components/icons';
 import { BlockLink, TextLink } from '../components/text-link';
 

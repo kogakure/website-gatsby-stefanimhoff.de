@@ -7,12 +7,14 @@ import { action } from '@storybook/addon-actions';
 import { withOptions } from '@storybook/addon-options';
 
 import { EmojifyProvider, LocalizedDateProvider } from '../src/contexts';
-import { lightTheme } from '../src/themes';
-import { GlobalStyles } from '../src/components/layout';
-import { ThemeToggle } from '../src/components/theme-toggle';
-import { EmojifyToggle } from '../src/components/emojify-toggle';
+import {
+  EmojifyToggle,
+  GlobalStyles,
+  ThemeToggle,
+  lightTheme,
+} from '../src/layout';
 
-import '../src/utils/theme';
+import '../src/services/theme';
 
 const Grid = styled.div`
   align-items: center;

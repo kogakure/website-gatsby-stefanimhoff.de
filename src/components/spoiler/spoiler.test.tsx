@@ -2,7 +2,7 @@ import React from 'react';
 import { axe } from 'jest-axe';
 import user from '@testing-library/user-event';
 
-import { render } from '../../utils/test-utils';
+import { render } from '../../services/test-utils';
 
 import { Default, Block } from './spoiler.stories';
 
