@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { TextLink } from '.';
+import { TextLink, BlockLink } from '.';
 
 export default {
   component: TextLink,
@@ -12,3 +12,13 @@ export const HTMLLink = () => (
 );
 
 export const RouterLink = () => <TextLink to="/">Router Link</TextLink>;
+
+export const BlockLinkHTMLLink = () => (
+  <BlockLink href="https://www.stefanimhoff.de">
+    BlockLink as External Link
+  </BlockLink>
+);
+
+export const BlockLinkRouterLink = () => (
+  <BlockLink to="/">BlockLink as Router Link</BlockLink>
+);

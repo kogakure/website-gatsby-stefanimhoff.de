@@ -20,7 +20,7 @@ const Grid = styled.div`
   align-items: center;
   display: grid;
   grid-template-areas:
-    'navigation navigation navigation'
+    '. navigation .'
     '. main .';
   grid-template-columns: 50px 1fr 50px;
   grid-template-rows: 50px 1fr;
@@ -29,6 +29,7 @@ const Grid = styled.div`
 `;
 
 const Navigation = styled.nav`
+  display: flex;
   grid-area: navigation;
 `;
 
