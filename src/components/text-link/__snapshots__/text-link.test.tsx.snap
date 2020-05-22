@@ -1,5 +1,75 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`BlockLink with href renders correctly 1`] = `
+.c0 {
+  font-weight: 600;
+  color: var(--colorText);
+  -webkit-text-decoration-color: var(--colorLink);
+  text-decoration-color: var(--colorLink);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration-color: var(--colorLinkActive);
+  text-decoration-color: var(--colorLinkActive);
+}
+
+@supports (not (text-decoration-color:red)) {
+  .c0:hover,
+  .c0:focus {
+    color: var(--colorLink);
+  }
+}
+
+<p>
+  <a
+    class="c0"
+    font-weight="1"
+    href="https://www.stefanimhoff.de"
+  >
+    BlockLink as External Link
+  </a>
+</p>
+`;
+
+exports[`BlockLink with to property renders correctly 1`] = `
+.c0 {
+  font-weight: 600;
+  color: var(--colorText);
+  -webkit-text-decoration-color: var(--colorLink);
+  text-decoration-color: var(--colorLink);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration-color: var(--colorLinkActive);
+  text-decoration-color: var(--colorLinkActive);
+}
+
+@supports (not (text-decoration-color:red)) {
+  .c0:hover,
+  .c0:focus {
+    color: var(--colorLink);
+  }
+}
+
+<p>
+  <a
+    class="c0"
+    font-weight="1"
+    href="/"
+  >
+    BlockLink as Router Link
+  </a>
+</p>
+`;
+
 exports[`TextLink with href renders correctly 1`] = `
 .c0 {
   font-weight: 600;

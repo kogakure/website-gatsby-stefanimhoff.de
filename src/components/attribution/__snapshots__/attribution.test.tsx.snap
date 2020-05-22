@@ -13,10 +13,6 @@ exports[`Attribution renders correctly 1`] = `
   width: 60%;
 }
 
-@supports (not (text-decoration-color:red)) {
-
-}
-
 <hr
   class="c0"
 />
@@ -33,10 +29,6 @@ exports[`Attribution with author and link renders correctly 1`] = `
   border-style: solid;
   border-top-width: 0;
   width: 60%;
-}
-
-@supports (not (text-decoration-color:red)) {
-
 }
 
 <hr
@@ -73,10 +65,6 @@ exports[`Attribution with multiple attributions renders correctly 1`] = `
   border-style: solid;
   border-top-width: 0;
   width: 60%;
-}
-
-@supports (not (text-decoration-color:red)) {
-
 }
 
 <hr
