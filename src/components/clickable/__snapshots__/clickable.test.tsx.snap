@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Emojify renders correctly 1`] = `
+exports[`ThemeToggle renders correctly 1`] = `
 .c0 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -21,21 +21,9 @@ exports[`Emojify renders correctly 1`] = `
   width: 40px;
 }
 
-.c1 {
-  font-size: 1.5rem;
-}
-
 <button
-  aria-label="Hide Emoji"
+  aria-label="Click Me"
   class="c0"
   type="button"
->
-  <span
-    aria-label="See-No-Evil Monkey"
-    class="c1"
-    role="img"
-  >
-    🙈
-  </span>
-</button>
+/>
 `;

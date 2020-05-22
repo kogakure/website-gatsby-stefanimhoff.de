@@ -2,11 +2,22 @@
 
 exports[`ThemeToggle renders correctly 1`] = `
 .c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: transparent;
   border: 0;
   cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   height: 40px;
-  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 40px;
 }
 
@@ -14,9 +25,6 @@ exports[`ThemeToggle renders correctly 1`] = `
   background-color: var(--colorBackground);
   fill: var(--colorText);
   font-size: 1rem;
-  left: 12px;
-  position: absolute;
-  top: 12px;
 }
 
 <button
