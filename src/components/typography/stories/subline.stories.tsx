@@ -1,8 +1,6 @@
 import React from 'react';
 
-import { Typography } from '..';
-
-const { Subline } = Typography;
+import { Subline } from '..';
 
 export default {
   title: 'Typography/Subline',

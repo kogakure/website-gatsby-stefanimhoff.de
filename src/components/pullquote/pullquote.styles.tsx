@@ -1,11 +1,6 @@
 import styled from 'styled-components';
 
-import {
-  fontWeights,
-  lineHeights,
-  typographicScale,
-  space,
-} from '../../layout/tokens';
+import { fontWeight, lineHeight, fontSize, space } from '../../layout/tokens';
 
 const Pullquote = styled.blockquote`
   padding: ${space[9]};
@@ -16,9 +11,9 @@ const Pullquote = styled.blockquote`
   }
 
   & p {
-    font-size: ${typographicScale[4]};
-    font-weight: ${fontWeights[2]};
-    line-height: ${lineHeights[1]};
+    font-size: ${fontSize[4]};
+    font-weight: ${fontWeight.black};
+    line-height: ${lineHeight[1]};
     margin: ${space[0]};
   }
 
@@ -46,7 +41,7 @@ const Pullquote = styled.blockquote`
 `;
 
 const Footer = styled.footer`
-  font-size: ${typographicScale[2]};
+  font-size: ${fontSize[2]};
   font-weight: normal;
   margin-top: ${space[6]};
 `;

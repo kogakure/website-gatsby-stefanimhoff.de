@@ -8,18 +8,20 @@ import { OrderedList } from '../../components/ordered-list';
 import { Pullquote } from '../../components/pullquote';
 import { RubyAnnotation } from '../../components/ruby-annotation';
 import { Sample } from '../../components/sample';
-import { Spacer } from '../../components/spacer';
 import { Spoiler } from '../../components/spoiler';
 import { Table } from '../../components/table';
 import { TextLink, BlockLink } from '../../components/text-link';
-import { Typography } from '../../components/typography';
 import { UnorderedList } from '../../components/unordered-list';
 import { Variable } from '../../components/variable';
 import { Verse } from '../../components/verse';
-import { Emojify } from '../emojify';
 import { SEO } from '../seo';
-
-const { Title, Headline, Subline, Paragraph } = Typography;
+import { Emojify } from '../emojify';
+import {
+  Headline,
+  Paragraph,
+  Subline,
+  Title,
+} from '../../components/typography';
 
 export const shortcodes = {
   BlockLink,
@@ -34,7 +36,6 @@ export const shortcodes = {
   RubyAnnotation,
   SEO,
   Sample,
-  Spacer,
   Spoiler,
   Subline,
   TextLink,

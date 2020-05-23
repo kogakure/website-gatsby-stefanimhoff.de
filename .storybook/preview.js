@@ -1,5 +1,5 @@
 import React from 'react';
-import styled, { ThemeProvider } from 'styled-components';
+import styled from 'styled-components';
 import { Normalize } from 'styled-normalize';
 
 import { configure, addDecorator } from '@storybook/react';
@@ -7,12 +7,7 @@ import { action } from '@storybook/addon-actions';
 import { withOptions } from '@storybook/addon-options';
 
 import { EmojifyProvider, LocalizedDateProvider } from '../src/contexts';
-import {
-  EmojifyToggle,
-  GlobalStyles,
-  ThemeToggle,
-  lightTheme,
-} from '../src/layout';
+import { EmojifyToggle, GlobalStyles, ThemeToggle } from '../src/layout';
 
 import '../src/services/theme';
 
@@ -39,21 +34,19 @@ const Main = styled.main`
 `;
 
 const Decorator = (storyFn) => (
-  <ThemeProvider theme={lightTheme}>
-    <EmojifyProvider>
-      <LocalizedDateProvider>
-        <Normalize />
-        <GlobalStyles />
-        <Grid>
-          <Navigation>
-            <ThemeToggle />
-            <EmojifyToggle />
-          </Navigation>
-          <Main>{storyFn()}</Main>
-        </Grid>
-      </LocalizedDateProvider>
-    </EmojifyProvider>
-  </ThemeProvider>
+  <EmojifyProvider>
+    <LocalizedDateProvider>
+      <Normalize />
+      <GlobalStyles />
+      <Grid>
+        <Navigation>
+          <ThemeToggle />
+          <EmojifyToggle />
+        </Navigation>
+        <Main>{storyFn()}</Main>
+      </Grid>
+    </LocalizedDateProvider>
+  </EmojifyProvider>
 );
 
 addDecorator(Decorator);

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { GatsbyLinkProps } from 'gatsby';
 
-import { StyledSystemProps } from '../../typings/styled-system';
+import { StyledComponentProps } from '../../typings/styled-components';
 
 import { Styled } from './text-link.styles';
 
@@ -10,9 +10,9 @@ export type TextLinkProps = {
   to?: string;
 };
 
-/* eslint-disable @typescript-eslint/indent, @typescript-eslint/no-explicit-any */
+/* eslint-disable */
 export type TextLinkAnchorProps = TextLinkProps &
-  StyledSystemProps &
+  StyledComponentProps &
   Omit<GatsbyLinkProps<any>, 'to'>;
 /* eslint-enable */
 
@@ -50,7 +50,3 @@ export const BlockLink = ({ ...props }) => (
     <TextLink {...props} />
   </p>
 );
-
-TextLink.defaultProps = {
-  fontWeight: 1,
-};

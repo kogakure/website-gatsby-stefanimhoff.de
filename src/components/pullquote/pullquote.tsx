@@ -1,6 +1,5 @@
 import * as React from 'react';
 
-import { StyledSystemProps } from '../../typings/styled-system';
 import { TextLink } from '../text-link';
 
 import { Styled } from './pullquote.styles';
@@ -12,9 +11,7 @@ export type PullquoteProps = {
   sourceUrl?: string;
 };
 
-export type StyledPullquoteProps = PullquoteProps & StyledSystemProps;
-
-export const Pullquote: React.FC<StyledPullquoteProps> = ({
+export const Pullquote: React.FC<PullquoteProps> = ({
   author,
   children,
   lang = 'en',

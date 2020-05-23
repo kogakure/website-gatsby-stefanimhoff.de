@@ -7,7 +7,3 @@ export const UnorderedList: React.FC = ({ children, ...props }) => (
     {children}
   </Styled.UnorderedListContainer>
 );
-
-UnorderedList.defaultProps = {
-  fontSize: 3,
-};

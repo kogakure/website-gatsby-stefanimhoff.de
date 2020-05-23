@@ -1,10 +1,8 @@
 import React from 'react';
 
-import { Typography } from '../typography';
+import { Paragraph } from '../typography';
 
 import { Blockquote } from '.';
-
-const { Paragraph } = Typography;
 
 export default {
   component: Blockquote,

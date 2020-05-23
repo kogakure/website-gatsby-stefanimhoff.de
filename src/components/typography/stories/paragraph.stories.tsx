@@ -1,8 +1,6 @@
 import React from 'react';
 
-import { Typography } from '..';
-
-const { Paragraph } = Typography;
+import { Paragraph } from '..';
 
 export default {
   title: 'Typography/Paragraph',

@@ -2,11 +2,11 @@
 
 exports[`Blockquote renders correctly 1`] = `
 .c0 {
+  font-style: italic;
+  margin-bottom: 2.488rem;
   margin-left: 0;
   margin-right: 0;
   margin-top: 2.488rem;
-  margin-bottom: 2.488rem;
-  font-style: italic;
 }
 
 .c0[lang|='ja'] {
@@ -58,11 +58,11 @@ exports[`Blockquote renders correctly 1`] = `
 
 exports[`Blockquote with German language renders correctly 1`] = `
 .c0 {
+  font-style: italic;
+  margin-bottom: 2.488rem;
   margin-left: 0;
   margin-right: 0;
   margin-top: 2.488rem;
-  margin-bottom: 2.488rem;
-  font-style: italic;
 }
 
 .c0[lang|='ja'] {
@@ -114,11 +114,11 @@ exports[`Blockquote with German language renders correctly 1`] = `
 
 exports[`Blockquote with Japanese language renders correctly 1`] = `
 .c0 {
+  font-style: italic;
+  margin-bottom: 2.488rem;
   margin-left: 0;
   margin-right: 0;
   margin-top: 2.488rem;
-  margin-bottom: 2.488rem;
-  font-style: italic;
 }
 
 .c0[lang|='ja'] {
@@ -170,11 +170,11 @@ exports[`Blockquote with Japanese language renders correctly 1`] = `
 
 exports[`Blockquote with author and source renders correctly 1`] = `
 .c0 {
+  font-style: italic;
+  margin-bottom: 2.488rem;
   margin-left: 0;
   margin-right: 0;
   margin-top: 2.488rem;
-  margin-bottom: 2.488rem;
-  font-style: italic;
 }
 
 .c0[lang|='ja'] {
@@ -243,11 +243,11 @@ exports[`Blockquote with author and source renders correctly 1`] = `
 
 exports[`Blockquote with author renders correctly 1`] = `
 .c0 {
+  font-style: italic;
+  margin-bottom: 2.488rem;
   margin-left: 0;
   margin-right: 0;
   margin-top: 2.488rem;
-  margin-bottom: 2.488rem;
-  font-style: italic;
 }
 
 .c0[lang|='ja'] {
@@ -310,8 +310,8 @@ exports[`Blockquote with author renders correctly 1`] = `
 
 exports[`Blockquote with author, source and URL renders correctly 1`] = `
 .c3 {
-  font-weight: 600;
   color: var(--colorText);
+  font-weight: 600;
   -webkit-text-decoration-color: var(--colorLink);
   text-decoration-color: var(--colorLink);
   -webkit-text-decoration-thickness: 0.1em;
@@ -326,11 +326,11 @@ exports[`Blockquote with author, source and URL renders correctly 1`] = `
 }
 
 .c0 {
+  font-style: italic;
+  margin-bottom: 2.488rem;
   margin-left: 0;
   margin-right: 0;
   margin-top: 2.488rem;
-  margin-bottom: 2.488rem;
-  font-style: italic;
 }
 
 .c0[lang|='ja'] {
@@ -400,7 +400,6 @@ exports[`Blockquote with author, source and URL renders correctly 1`] = `
     >
       <a
         class="c3"
-        font-weight="1"
         href="https://api.parliament.uk/historic-hansard/commons/1947/nov/11/parliament-bill"
       >
         Speech to the House of Commons
@@ -412,11 +411,11 @@ exports[`Blockquote with author, source and URL renders correctly 1`] = `
 
 exports[`Blockquote with multiple paragraphs renders correctly 1`] = `
 .c0 {
+  font-style: italic;
+  margin-bottom: 2.488rem;
   margin-left: 0;
   margin-right: 0;
   margin-top: 2.488rem;
-  margin-bottom: 2.488rem;
-  font-style: italic;
 }
 
 .c0[lang|='ja'] {
@@ -491,8 +490,8 @@ exports[`Blockquote with multiple paragraphs renders correctly 1`] = `
 
 exports[`Blockquote with source and URL renders correctly 1`] = `
 .c2 {
-  font-weight: 600;
   color: var(--colorText);
+  font-weight: 600;
   -webkit-text-decoration-color: var(--colorLink);
   text-decoration-color: var(--colorLink);
   -webkit-text-decoration-thickness: 0.1em;
@@ -507,11 +506,11 @@ exports[`Blockquote with source and URL renders correctly 1`] = `
 }
 
 .c0 {
+  font-style: italic;
+  margin-bottom: 2.488rem;
   margin-left: 0;
   margin-right: 0;
   margin-top: 2.488rem;
-  margin-bottom: 2.488rem;
-  font-style: italic;
 }
 
 .c0[lang|='ja'] {
@@ -571,7 +570,6 @@ exports[`Blockquote with source and URL renders correctly 1`] = `
     >
       <a
         class="c2"
-        font-weight="1"
         href="https://api.parliament.uk/historic-hansard/commons/1947/nov/11/parliament-bill"
       >
         Speech to the House of Commons
@@ -583,11 +581,11 @@ exports[`Blockquote with source and URL renders correctly 1`] = `
 
 exports[`Blockquote with source renders correctly 1`] = `
 .c0 {
+  font-style: italic;
+  margin-bottom: 2.488rem;
   margin-left: 0;
   margin-right: 0;
   margin-top: 2.488rem;
-  margin-bottom: 2.488rem;
-  font-style: italic;
 }
 
 .c0[lang|='ja'] {

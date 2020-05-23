@@ -1,16 +1,9 @@
 import * as React from 'react';
-import { MarginProps } from 'styled-system';
 
 import { Styled } from './verse.styles';
 
-export type VerseProps = MarginProps;
-
-export const Verse: React.FC<VerseProps> = ({ children, ...props }) => (
+export const Verse: React.FC = ({ children, ...props }) => (
   <Styled.Verse {...props}>
     <Styled.Preformatted>{children}</Styled.Preformatted>
   </Styled.Verse>
 );
-
-Verse.defaultProps = {
-  my: 12,
-};

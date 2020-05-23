@@ -2,8 +2,8 @@
 
 exports[`BlockLink with href renders correctly 1`] = `
 .c0 {
-  font-weight: 600;
   color: var(--colorText);
+  font-weight: 600;
   -webkit-text-decoration-color: var(--colorLink);
   text-decoration-color: var(--colorLink);
   -webkit-text-decoration-thickness: 0.1em;
@@ -27,7 +27,6 @@ exports[`BlockLink with href renders correctly 1`] = `
 <p>
   <a
     class="c0"
-    font-weight="1"
     href="https://www.stefanimhoff.de"
   >
     BlockLink as External Link
@@ -37,8 +36,8 @@ exports[`BlockLink with href renders correctly 1`] = `
 
 exports[`BlockLink with to property renders correctly 1`] = `
 .c0 {
-  font-weight: 600;
   color: var(--colorText);
+  font-weight: 600;
   -webkit-text-decoration-color: var(--colorLink);
   text-decoration-color: var(--colorLink);
   -webkit-text-decoration-thickness: 0.1em;
@@ -62,7 +61,6 @@ exports[`BlockLink with to property renders correctly 1`] = `
 <p>
   <a
     class="c0"
-    font-weight="1"
     href="/"
   >
     BlockLink as Router Link
@@ -72,8 +70,8 @@ exports[`BlockLink with to property renders correctly 1`] = `
 
 exports[`TextLink with href renders correctly 1`] = `
 .c0 {
-  font-weight: 600;
   color: var(--colorText);
+  font-weight: 600;
   -webkit-text-decoration-color: var(--colorLink);
   text-decoration-color: var(--colorLink);
   -webkit-text-decoration-thickness: 0.1em;
@@ -96,7 +94,6 @@ exports[`TextLink with href renders correctly 1`] = `
 
 <a
   class="c0"
-  font-weight="1"
   href="https://www.stefanimhoff.de"
 >
   External Link
@@ -105,8 +102,8 @@ exports[`TextLink with href renders correctly 1`] = `
 
 exports[`TextLink with to property renders correctly 1`] = `
 .c0 {
-  font-weight: 600;
   color: var(--colorText);
+  font-weight: 600;
   -webkit-text-decoration-color: var(--colorLink);
   text-decoration-color: var(--colorLink);
   -webkit-text-decoration-thickness: 0.1em;
@@ -129,7 +126,6 @@ exports[`TextLink with to property renders correctly 1`] = `
 
 <a
   class="c0"
-  font-weight="1"
   href="/"
 >
   Router Link

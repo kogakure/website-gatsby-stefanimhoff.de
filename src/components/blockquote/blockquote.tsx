@@ -1,6 +1,5 @@
 import * as React from 'react';
 
-import { StyledSystemProps } from '../../typings/styled-system';
 import { TextLink } from '../text-link';
 
 import { Styled } from './blockquote.styles';
@@ -12,9 +11,7 @@ export type BlockquoteProps = {
   sourceUrl?: string;
 };
 
-export type StyledBlockquoteProps = BlockquoteProps & StyledSystemProps;
-
-export const Blockquote: React.FC<StyledBlockquoteProps> = ({
+export const Blockquote: React.FC<BlockquoteProps> = ({
   author,
   children,
   lang = 'en',
@@ -39,8 +36,3 @@ export const Blockquote: React.FC<StyledBlockquoteProps> = ({
     </Styled.Footer>
   </Styled.Blockquote>
 );
-
-Blockquote.defaultProps = {
-  mx: 0,
-  my: 12,
-};

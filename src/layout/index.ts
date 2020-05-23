@@ -9,4 +9,3 @@ export * from './mdx-provider-container';
 export * from './navigation';
 export * from './seo';
 export * from './theme-toggle';
-export * from './themes';

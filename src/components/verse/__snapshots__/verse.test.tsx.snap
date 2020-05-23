@@ -2,13 +2,12 @@
 
 exports[`Verse renders correctly 1`] = `
 .c0 {
-  margin-top: 2.488rem;
-  margin-bottom: 2.488rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   font-style: italic;
+  margin: 1.728rem;
 }
 
 .c0 p {

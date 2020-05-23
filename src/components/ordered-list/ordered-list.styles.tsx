@@ -1,8 +1,9 @@
 import styled from 'styled-components';
-import { fontSize } from 'styled-system';
+
+import { fontSize } from '../../layout/tokens';
 
 const OrderedListContainer = styled.ol`
-  ${fontSize};
+  font-size: ${fontSize[3]};
   padding-left: 0;
 
   li & {

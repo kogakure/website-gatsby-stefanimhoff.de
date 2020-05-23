@@ -318,8 +318,8 @@ exports[`Pullquote with author renders correctly 1`] = `
 
 exports[`Pullquote with author, source and URL renders correctly 1`] = `
 .c3 {
-  font-weight: 600;
   color: var(--colorText);
+  font-weight: 600;
   -webkit-text-decoration-color: var(--colorLink);
   text-decoration-color: var(--colorLink);
   -webkit-text-decoration-thickness: 0.1em;
@@ -409,7 +409,6 @@ exports[`Pullquote with author, source and URL renders correctly 1`] = `
     >
       <a
         class="c3"
-        font-weight="1"
         href="https://www.goodreads.com/book/show/12530.The_Writing_Life"
       >
         The Writing Life
@@ -421,8 +420,8 @@ exports[`Pullquote with author, source and URL renders correctly 1`] = `
 
 exports[`Pullquote with source and URL renders correctly 1`] = `
 .c2 {
-  font-weight: 600;
   color: var(--colorText);
+  font-weight: 600;
   -webkit-text-decoration-color: var(--colorLink);
   text-decoration-color: var(--colorLink);
   -webkit-text-decoration-thickness: 0.1em;
@@ -502,7 +501,6 @@ exports[`Pullquote with source and URL renders correctly 1`] = `
     >
       <a
         class="c2"
-        font-weight="1"
         href="https://www.goodreads.com/book/show/12530.The_Writing_Life"
       >
         The Writing Life

@@ -1,7 +1,5 @@
 import * as React from 'react';
 
-import { StyledSystemProps } from '../../typings/styled-system';
-
 import { Styled } from './ruby-annotation.styles';
 
 export type RubyAnnotationProps = {
@@ -9,21 +7,15 @@ export type RubyAnnotationProps = {
   text: string;
 };
 
-export type StyledRubyAnnotationProps = RubyAnnotationProps & StyledSystemProps;
-
-export const RubyAnnotation: React.FC<StyledRubyAnnotationProps> = ({
+export const RubyAnnotation: React.FC<RubyAnnotationProps> = ({
   base,
   text,
   ...props
 }) => (
   <Styled.Ruby {...props}>
     {base}
-    <Styled.Parenthesis>（</Styled.Parenthesis>
-    <Styled.Text>{text}</Styled.Text>
-    <Styled.Parenthesis>）</Styled.Parenthesis>
+    <rp>（</rp>
+    <rt>{text}</rt>
+    <rp>）</rp>
   </Styled.Ruby>
 );
-
-RubyAnnotation.defaultProps = {
-  fontSize: 3,
-};

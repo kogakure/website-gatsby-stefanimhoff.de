@@ -1,10 +1,8 @@
 import React from 'react';
 
-import { Typography } from '../../components/typography';
+import { Paragraph } from '../../components/typography';
 
 import { Emojify } from '.';
-
-const { Paragraph } = Typography;
 
 export default {
   component: Emojify,

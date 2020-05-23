@@ -1,8 +1,6 @@
 import React from 'react';
 
-import { Typography } from '..';
-
-const { Title } = Typography;
+import { Title } from '..';
 
 export default {
   title: 'Typography/Title',

@@ -1,8 +1,6 @@
 import React from 'react';
 
-import { Typography } from '..';
-
-const { Headline } = Typography;
+import { Headline } from '..';
 
 export default {
   title: 'Typography/Headline',

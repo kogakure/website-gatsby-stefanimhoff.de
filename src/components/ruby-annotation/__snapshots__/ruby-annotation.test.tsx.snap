@@ -8,129 +8,87 @@ exports[`RubyAnnotation renders correctly 1`] = `
 <p>
   <ruby
     class="c0"
-    font-size="3"
   >
     日
-    <rp
-      class=""
-    >
+    <rp>
       （
     </rp>
-    <rt
-      class=""
-    >
+    <rt>
       に
     </rt>
-    <rp
-      class=""
-    >
+    <rp>
       ）
     </rp>
   </ruby>
   <ruby
     class="c0"
-    font-size="3"
   >
     本
-    <rp
-      class=""
-    >
+    <rp>
       （
     </rp>
-    <rt
-      class=""
-    >
+    <rt>
       ほん
     </rt>
-    <rp
-      class=""
-    >
+    <rp>
       ）
     </rp>
   </ruby>
   <ruby
     class="c0"
-    font-size="3"
   >
     語
-    <rp
-      class=""
-    >
+    <rp>
       （
     </rp>
-    <rt
-      class=""
-    >
+    <rt>
       ご
     </rt>
-    <rp
-      class=""
-    >
+    <rp>
       ）
     </rp>
   </ruby>
   で
   <ruby
     class="c0"
-    font-size="3"
   >
     書
-    <rp
-      class=""
-    >
+    <rp>
       （
     </rp>
-    <rt
-      class=""
-    >
+    <rt>
       か
     </rt>
-    <rp
-      class=""
-    >
+    <rp>
       ）
     </rp>
   </ruby>
   いた
   <ruby
     class="c0"
-    font-size="3"
   >
     作
-    <rp
-      class=""
-    >
+    <rp>
       （
     </rp>
-    <rt
-      class=""
-    >
+    <rt>
       さく
     </rt>
-    <rp
-      class=""
-    >
+    <rp>
       ）
     </rp>
   </ruby>
   <ruby
     class="c0"
-    font-size="3"
   >
     文
-    <rp
-      class=""
-    >
+    <rp>
       （
     </rp>
-    <rt
-      class=""
-    >
+    <rt>
       ぶん
     </rt>
-    <rp
-      class=""
-    >
+    <rp>
       ）
     </rp>
   </ruby>

@@ -1,8 +1,9 @@
 import styled from 'styled-components';
-import { fontSize } from 'styled-system';
+
+import { fontSize } from '../../layout/tokens';
 
 const UnorderedListContainer = styled.ul`
-  ${fontSize};
+  font-size: ${fontSize[3]};
   list-style-type: circle;
   padding-left: 0;
 
