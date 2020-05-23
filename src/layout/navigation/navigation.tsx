@@ -1,12 +1,11 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import { Clickable } from '../../components/clickable';
 import { NavigationQueryData } from '../../typings/navigation-query-data';
 
 import { Styled } from './navigation.styles';
 
-export const Navigation: React.FC = () => {
+export const Navigation: React.FC = ({ ...props }) => {
   const data: NavigationQueryData = useStaticQuery(graphql`
     query NavigationQuery {
       navigationYaml {
@@ -21,14 +20,7 @@ export const Navigation: React.FC = () => {
   const { navigation } = data.navigationYaml;
 
   return (
-    <Styled.Navigation className="nav">
-      <Styled.BackLink>
-        <Styled.ArrowLink to="/" activeStyle={{ visibility: 'hidden' }}>
-          <Clickable text="Back to Homepage">
-            <Styled.Arrow />
-          </Clickable>
-        </Styled.ArrowLink>
-      </Styled.BackLink>
+    <nav className="nav" role="navigation" {...props}>
       <Styled.List>
         {navigation.map((item) => (
           <Styled.Item key={item.text}>
@@ -46,6 +38,6 @@ export const Navigation: React.FC = () => {
           </Styled.Item>
         ))}
       </Styled.List>
-    </Styled.Navigation>
+    </nav>
   );
 };

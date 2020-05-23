@@ -1,15 +1,28 @@
 import styled from 'styled-components';
 
-const Header = styled.header`
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 11vw;
-  padding-left: 2.5vw;
-  padding-right: 2.5vw;
-  padding-top: 2.5vw;
+import { ThemeToggle } from '../theme-toggle';
+import { HomeLink } from '../home-link';
+import { Navigation } from '../navigation';
+
+const GridHomeLink = styled(HomeLink)`
+  align-self: center;
+  grid-column: 1;
+  justify-self: center;
+`;
+
+const GridNavigation = styled(Navigation)`
+  align-self: center;
+  grid-column: 3 / -3;
+`;
+
+const GridThemeToggle = styled(ThemeToggle)`
+  align-self: center;
+  grid-column: -2;
+  justify-self: center;
 `;
 
 export const Styled = {
-  Header,
+  GridHomeLink,
+  GridNavigation,
+  GridThemeToggle,
 };
