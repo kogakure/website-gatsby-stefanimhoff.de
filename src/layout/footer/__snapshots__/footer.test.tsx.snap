@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+.c3 {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
+.c4 {
+  fill: var(--colorText);
+  font-size: 1.2rem;
+}
+
+.c1 {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c1:hover,
+.c1:focus {
+  -webkit-transform: translate3D(0,-0.25rem,0);
+  -ms-transform: translate3D(0,-0.25rem,0);
+  transform: translate3D(0,-0.25rem,0);
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: clamp(15px,2.4vw,50px);
+}
+
+.c7 {
+  font-size: 14px;
+  position: relative;
+  top: 1px;
+}
+
+.c8 {
+  font-size: 12px;
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.c9 {
+  color: var(--colorText);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-text-decoration-color: var(--colorLink);
+  text-decoration-color: var(--colorLink);
+}
+
+.c9:hover,
+.c9:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--colorLinkActive) !important;
+  text-decoration-color: var(--colorLinkActive) !important;
+  -webkit-text-decoration-thickness: 0.15em;
+  text-decoration-thickness: 0.15em;
+  text-underline-offset: 0.15em;
+}
+
+.c10 {
+  font-size: 12px;
+}
+
+.c11 {
+  font-size: 14px;
+}
+
+.c0 {
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-template-rows: clamp(50px,5.55vw,150px);
+  margin-top: 16.5vw;
+}
+
+.c6 {
+  grid-column: 1 / -3;
+  grid-row: 1;
+}
+
+.c2 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  grid-column: -2;
+  grid-row: 1;
+  justify-self: center;
+}
+
+@supports (not (text-decoration-color:red)) {
+  .c9:hover,
+  .c9:focus {
+    color: var(--colorLink);
+  }
+}
+
+<footer
+  class="c0"
+  role="contentinfo"
+>
+  <a
+    class="c1 c2"
+    href="#top"
+  >
+    <button
+      aria-label="Back to top"
+      class="c3"
+      type="button"
+    >
+      <svg
+        class="c4"
+        height="1em"
+        viewBox="0 0 24 24"
+        width="1em"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"
+        />
+      </svg>
+    </button>
+  </a>
+  <div
+    class="c5 c6"
+  >
+    <div>
+      <span
+        class="c7"
+      >
+        © 
+      </span>
+      <strong
+        class="c8"
+      >
+        <a
+          class="c9"
+          href="/imprint/"
+        >
+          Stefan Imhoff
+        </a>
+      </strong>
+      <span
+        class="c10"
+      >
+         • 
+      </span>
+      <span
+        class="c11"
+      >
+        <time
+          datetime="2020"
+        >
+          2020
+        </time>
+      </span>
+    </div>
+  </div>
+</footer>
+`;

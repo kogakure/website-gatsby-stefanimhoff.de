@@ -4,6 +4,13 @@ import { ThemeToggle } from '../theme-toggle';
 import { HomeLink } from '../home-link';
 import { Navigation } from '../navigation';
 
+const Header = styled.header`
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: clamp(50px, 5.55vw, 150px);
+  margin-bottom: 11vw;
+`;
+
 const GridHomeLink = styled(HomeLink)`
   align-self: center;
   grid-column: 1;
@@ -25,4 +32,5 @@ export const Styled = {
   GridHomeLink,
   GridNavigation,
   GridThemeToggle,
+  Header,
 };

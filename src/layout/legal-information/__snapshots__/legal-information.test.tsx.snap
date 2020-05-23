@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LegalInformation renders correctly 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: clamp(15px,2.4vw,50px);
+}
+
+.c1 {
+  font-size: 14px;
+  position: relative;
+  top: 1px;
+}
+
+.c2 {
+  font-size: 12px;
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.c3 {
+  color: var(--colorText);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-text-decoration-color: var(--colorLink);
+  text-decoration-color: var(--colorLink);
+}
+
+.c3:hover,
+.c3:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--colorLinkActive) !important;
+  text-decoration-color: var(--colorLinkActive) !important;
+  -webkit-text-decoration-thickness: 0.15em;
+  text-decoration-thickness: 0.15em;
+  text-underline-offset: 0.15em;
+}
+
+.c4 {
+  font-size: 12px;
+}
+
+.c5 {
+  font-size: 14px;
+}
+
+@supports (not (text-decoration-color:red)) {
+  .c3:hover,
+  .c3:focus {
+    color: var(--colorLink);
+  }
+}
+
+<div
+  class="c0"
+>
+  <div>
+    <span
+      class="c1"
+    >
+      © 
+    </span>
+    <strong
+      class="c2"
+    >
+      <a
+        class="c3"
+        href="/imprint/"
+      >
+        Stefan Imhoff
+      </a>
+    </strong>
+    <span
+      class="c4"
+    >
+       • 
+    </span>
+    <span
+      class="c5"
+    >
+      <time
+        datetime="2020"
+      >
+        2020
+      </time>
+    </span>
+  </div>
+</div>
+`;

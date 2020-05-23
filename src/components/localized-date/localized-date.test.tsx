@@ -20,6 +20,9 @@ describe('LocalizedDate', () => {
 
     user.click(await findByText(/17.01.2020/i));
     expect(container.firstChild).toHaveTextContent('2020年01月17日');
+
+    user.click(await findByText(/年/i));
+    expect(container.firstChild).toHaveTextContent('January 17th, 2020');
   });
 
   test('is accessible', async () => {

@@ -26,7 +26,7 @@ export default class HTML extends React.Component {
           />
           {headComponents}
         </head>
-        <body {...bodyAttributes}>
+        <body {...bodyAttributes} id="top">
           <script
             dangerouslySetInnerHTML={{
               __html: `${theme}`,

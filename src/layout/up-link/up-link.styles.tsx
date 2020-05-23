@@ -1,7 +1,6 @@
 import styled from 'styled-components';
-import { Link } from 'gatsby';
 
-import { ArrowLeft } from '../../components/icons';
+import { ArrowUp } from '../../components/icons';
 
 const Button = styled.button`
   background: transparent;
@@ -11,19 +10,19 @@ const Button = styled.button`
   width: 40px;
 `;
 
-const Arrow = styled(ArrowLeft)`
+const Arrow = styled(ArrowUp)`
   fill: var(--colorText);
   font-size: 1.2rem;
 `;
 
-const ArrowLink = styled(Link)`
+const ArrowLink = styled.a`
   transition-duration: 500ms;
   transition-property: transform;
   transition-timing-function: ease-in-out;
 
   &:hover,
   &:focus {
-    transform: translate3D(-0.25rem, 0, 0);
+    transform: translate3D(0, -0.25rem, 0);
   }
 `;
 

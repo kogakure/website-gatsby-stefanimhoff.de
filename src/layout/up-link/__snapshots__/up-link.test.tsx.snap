@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HomeLink renders correctly 1`] = `
+exports[`UpLink renders correctly 1`] = `
 .c1 {
   background: transparent;
   border: 0;
@@ -26,17 +26,17 @@ exports[`HomeLink renders correctly 1`] = `
 
 .c0:hover,
 .c0:focus {
-  -webkit-transform: translate3D(-0.25rem,0,0);
-  -ms-transform: translate3D(-0.25rem,0,0);
-  transform: translate3D(-0.25rem,0,0);
+  -webkit-transform: translate3D(0,-0.25rem,0);
+  -ms-transform: translate3D(0,-0.25rem,0);
+  transform: translate3D(0,-0.25rem,0);
 }
 
 <a
   class="c0"
-  href="/"
+  href="#top"
 >
   <button
-    aria-label="Back to Homepage"
+    aria-label="Back to top"
     class="c1"
     type="button"
   >
@@ -51,7 +51,7 @@ exports[`HomeLink renders correctly 1`] = `
         fill="none"
       />
       <path
-        d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
+        d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"
       />
     </svg>
   </button>

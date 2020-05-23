@@ -2,8 +2,6 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
 
-import { Clickable } from '../../components/clickable';
-
 import { Styled } from './theme-toggle.styles';
 
 /* eslint-disable no-underscore-dangle */
@@ -22,7 +20,7 @@ export const ThemeToggle: React.FC = ({ ...props }) => {
     window.__setPreferredTheme(oppositeTheme);
   };
   const buttonText =
-    theme === 'light' ? 'Switch to dark theme' : 'Swith to light theme';
+    theme === 'light' ? 'Switch to dark theme' : 'Switch to light theme';
 
   useEffect(() => {
     setTheme(window.__theme);
@@ -30,8 +28,13 @@ export const ThemeToggle: React.FC = ({ ...props }) => {
   }, []);
 
   return (
-    <Clickable text={buttonText} onClick={setPreferredTheme} {...props}>
+    <Styled.Button
+      type="button"
+      aria-label={buttonText}
+      onClick={setPreferredTheme}
+      {...props}
+    >
       <Styled.CircleIcon role="img" aria-label="Circle" />
-    </Clickable>
+    </Styled.Button>
   );
 };

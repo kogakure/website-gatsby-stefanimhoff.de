@@ -1,9 +1,11 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
 
+import { Header } from './header';
+import { Footer } from './footer';
 import { Styled } from './layout.styles';
 
-import { Header, Footer, SEO } from '.';
+import { SEO } from '.';
 
 export type LayoutProps = {
   variant?: 'green' | 'blue' | 'brown';
