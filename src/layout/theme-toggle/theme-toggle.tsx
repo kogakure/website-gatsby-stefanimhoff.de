@@ -15,7 +15,7 @@ export interface ThemedWindow extends Window {
 
 declare const window: ThemedWindow;
 
-export const ThemeToggle: React.FC = () => {
+export const ThemeToggle: React.FC = ({ ...props }) => {
   const [theme, setTheme] = useState('');
   const oppositeTheme = theme === 'light' ? 'dark' : 'light';
   const setPreferredTheme = () => {
@@ -30,7 +30,7 @@ export const ThemeToggle: React.FC = () => {
   }, []);
 
   return (
-    <Clickable text={buttonText} onClick={setPreferredTheme}>
+    <Clickable text={buttonText} onClick={setPreferredTheme} {...props}>
       <Styled.CircleIcon role="img" aria-label="Circle" />
     </Clickable>
   );

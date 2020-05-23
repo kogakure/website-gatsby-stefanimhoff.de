@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header renders correctly 1`] = `
-.c4 {
+.c3 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -21,39 +21,42 @@ exports[`Header renders correctly 1`] = `
   width: 40px;
 }
 
-.c1 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+.c4 {
+  fill: var(--colorText);
+  font-size: 1.2rem;
 }
 
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+.c1 {
+  -webkit-transition: -webkit-transform 500ms ease-in-out 0ms;
+  -webkit-transition: transform 500ms ease-in-out 0ms;
+  transition: transform 500ms ease-in-out 0ms;
+}
+
+.c1:hover,
+.c1:focus {
+  -webkit-transform: translate3D(-0.25rem,0,0);
+  -ms-transform: translate3D(-0.25rem,0,0);
+  transform: translate3D(-0.25rem,0,0);
+}
+
+.c0 {
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-template-rows: clamp(50px,5.55vw,150px);
+  margin-bottom: 11vw;
 }
 
 .c6 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
 .c7 {
@@ -79,44 +82,32 @@ exports[`Header renders correctly 1`] = `
   text-underline-offset: 0.1em;
 }
 
-.c5 {
-  fill: var(--colorText);
-  font-size: 1.2rem;
-}
-
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.c9 {
+.c10 {
   fill: var(--colorText);
   font-size: 1rem;
 }
 
-.c0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding-bottom: 11vw;
-  padding-left: 2.5vw;
-  padding-right: 2.5vw;
-  padding-top: 2.5vw;
+.c2 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  grid-column: 1;
+  justify-self: center;
+}
+
+.c5 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  grid-column: 3 / -3;
+}
+
+.c9 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  grid-column: -2;
+  justify-self: center;
 }
 
 @supports (not (text-decoration-color:red)) {
@@ -127,40 +118,38 @@ exports[`Header renders correctly 1`] = `
 }
 
 <header
-  class="c0 page-header"
+  class="c0"
+  role="banner"
 >
-  <nav
-    class="c1 nav"
+  <a
+    class="c1 c2"
+    href="/"
   >
-    <div
-      class="c2"
+    <button
+      aria-label="Back to Homepage"
+      class="c3"
+      type="button"
     >
-      <a
-        class="c3"
-        href="/"
+      <svg
+        class="c4"
+        height="1em"
+        viewBox="0 0 24 24"
+        width="1em"
       >
-        <button
-          aria-label="Back to Homepage"
-          class="c4"
-          type="button"
-        >
-          <svg
-            class="c5"
-            height="1em"
-            viewBox="0 0 24 24"
-            width="1em"
-          >
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
-            />
-          </svg>
-        </button>
-      </a>
-    </div>
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
+        />
+      </svg>
+    </button>
+  </a>
+  <nav
+    class="c5"
+    role="navigation"
+  >
     <ul
       class="c6"
     >
@@ -188,12 +177,12 @@ exports[`Header renders correctly 1`] = `
   </nav>
   <button
     aria-label="Swith to light theme"
-    class="c4"
+    class="c3 c9"
     type="button"
   >
     <svg
       aria-label="Circle"
-      class="c9"
+      class="c10"
       clip-rule="evenodd"
       fill-rule="evenodd"
       height="1em"

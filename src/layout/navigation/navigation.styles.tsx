@@ -1,23 +1,12 @@
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 
-import { ArrowLeft } from '../../components/icons';
-
-const Navigation = styled.nav`
-  align-items: center;
-  display: flex;
-`;
-
-const BackLink = styled.div`
-  align-items: center;
-  display: flex;
-`;
-
 const List = styled.ul`
-  align-items: center;
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
+  padding: 0;
 `;
 
 const Item = styled.li`
@@ -42,22 +31,8 @@ const ItemLink = styled(Link)`
   }
 `;
 
-const Arrow = styled(ArrowLeft)`
-  fill: var(--colorText);
-  font-size: 1.2rem;
-`;
-
-const ArrowLink = styled(Link)`
-  align-items: center;
-  display: flex;
-`;
-
 export const Styled = {
-  Arrow,
-  ArrowLink,
-  BackLink,
   List,
   Item,
   ItemLink,
-  Navigation,
 };

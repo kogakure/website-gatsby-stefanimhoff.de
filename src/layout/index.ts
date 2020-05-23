@@ -1,3 +1,4 @@
+export * from './home-link';
 export * from './emojify';
 export * from './emojify-toggle';
 export * from './footer';
