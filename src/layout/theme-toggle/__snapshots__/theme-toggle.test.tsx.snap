@@ -22,7 +22,6 @@ exports[`ThemeToggle renders correctly 1`] = `
 }
 
 .c1 {
-  background-color: var(--colorBackground);
   fill: var(--colorText);
   font-size: 1rem;
 }
