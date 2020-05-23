@@ -1,23 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header renders correctly 1`] = `
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+.c9 {
   background: transparent;
   border: 0;
   cursor: pointer;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   height: 40px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  width: 40px;
+}
+
+.c11 {
+  fill: var(--colorText);
+  font-size: 1rem;
+}
+
+.c3 {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  height: 40px;
   width: 40px;
 }
 
@@ -27,9 +28,13 @@ exports[`Header renders correctly 1`] = `
 }
 
 .c1 {
-  -webkit-transition: -webkit-transform 500ms ease-in-out 0ms;
-  -webkit-transition: transform 500ms ease-in-out 0ms;
-  transition: transform 500ms ease-in-out 0ms;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
 }
 
 .c1:hover,
@@ -37,13 +42,6 @@ exports[`Header renders correctly 1`] = `
   -webkit-transform: translate3D(-0.25rem,0,0);
   -ms-transform: translate3D(-0.25rem,0,0);
   transform: translate3D(-0.25rem,0,0);
-}
-
-.c0 {
-  display: grid;
-  grid-template-columns: repeat(18,1fr);
-  grid-template-rows: clamp(50px,5.55vw,150px);
-  margin-bottom: 11vw;
 }
 
 .c6 {
@@ -82,9 +80,11 @@ exports[`Header renders correctly 1`] = `
   text-underline-offset: 0.1em;
 }
 
-.c10 {
-  fill: var(--colorText);
-  font-size: 1rem;
+.c0 {
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-template-rows: clamp(50px,5.55vw,150px);
+  margin-bottom: 11vw;
 }
 
 .c2 {
@@ -102,7 +102,7 @@ exports[`Header renders correctly 1`] = `
   grid-column: 3 / -3;
 }
 
-.c9 {
+.c10 {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
@@ -176,13 +176,13 @@ exports[`Header renders correctly 1`] = `
     </ul>
   </nav>
   <button
-    aria-label="Swith to light theme"
-    class="c3 c9"
+    aria-label="Switch to light theme"
+    class="c9 c10"
     type="button"
   >
     <svg
       aria-label="Circle"
-      class="c10"
+      class="c11"
       clip-rule="evenodd"
       fill-rule="evenodd"
       height="1em"
