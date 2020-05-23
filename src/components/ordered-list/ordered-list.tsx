@@ -7,7 +7,3 @@ export const OrderedList: React.FC = ({ children, ...props }) => (
     {children}
   </Styled.OrderedListContainer>
 );
-
-OrderedList.defaultProps = {
-  fontSize: 3,
-};

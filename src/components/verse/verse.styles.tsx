@@ -1,10 +1,11 @@
 import styled from 'styled-components';
-import { margin } from 'styled-system';
+
+import { space } from '../../layout/tokens';
 
 const Verse = styled.blockquote`
-  ${margin};
   display: flex;
   font-style: italic;
+  margin: ${space[10]};
 
   p {
     margin: 0;

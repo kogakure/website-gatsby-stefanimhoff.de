@@ -1,14 +1,10 @@
 import { createGlobalStyle } from 'styled-components';
 
-import { ThemeType, ThemeProps } from '../typings/theme';
-
-import { typographicScale, lightColors, darkColors } from './tokens';
+import { fontSize, lightColors, darkColors } from './tokens';
 import globalCSS from './styles/global.css';
 import highlightCodeLine from './styles/highlight-code-line.css';
 
-export const GlobalStyles = createGlobalStyle<{
-  theme: ThemeType & ThemeProps;
-}>`
+export const GlobalStyles = createGlobalStyle`
   /* stylelint-disable plugin/stylelint-no-indistinguishable-colors */
 
   .light {
@@ -26,6 +22,8 @@ export const GlobalStyles = createGlobalStyle<{
     --colorTextStrongInverse: ${lightColors.textStrongInverse};
     --opacityDark: 1;
     --opacityLight: 0;
+    --colorCodeText: #abb2bf;
+    --colorCodeBackground: #282c34;
   }
 
   .dark {
@@ -43,6 +41,8 @@ export const GlobalStyles = createGlobalStyle<{
     --colorTextStrongInverse: ${darkColors.textStrongInverse};
     --opacityDark: 0;
     --opacityLight: 1;
+    --colorCodeText: #abb2bf;
+    --colorCodeBackground: #282c34;
   }
 
   .light .green {
@@ -82,7 +82,7 @@ export const GlobalStyles = createGlobalStyle<{
   }
 
   p {
-    font-size: ${typographicScale[3]}
+    font-size: ${fontSize[3]}
   }
 
   ${globalCSS}

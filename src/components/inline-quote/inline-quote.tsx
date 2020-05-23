@@ -1,16 +1,12 @@
 import * as React from 'react';
 
-import { StyledSystemProps } from '../../typings/styled-system';
-
 import { Styled } from './inline-quote.styles';
 
 export type InlineQuoteProps = {
   lang?: string;
 };
 
-export type StyledInlineQuoteProps = InlineQuoteProps & StyledSystemProps;
-
-export const InlineQuote: React.FC<StyledInlineQuoteProps> = ({
+export const InlineQuote: React.FC<InlineQuoteProps> = ({
   children,
   lang = 'en',
   ...props

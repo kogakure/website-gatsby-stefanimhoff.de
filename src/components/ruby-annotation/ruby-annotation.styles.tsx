@@ -1,16 +1,11 @@
 import styled from 'styled-components';
-import { fontSize } from 'styled-system';
+
+import { fontSize } from '../../layout/tokens';
 
 const Ruby = styled.ruby`
-  ${fontSize}
+  font-size: ${fontSize[3]};
 `;
-
-const Parenthesis = styled.rp``;
-
-const Text = styled.rt``;
 
 export const Styled = {
   Ruby,
-  Parenthesis,
-  Text,
 };

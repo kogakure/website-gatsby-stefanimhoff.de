@@ -1,1 +1,5 @@
-export const fontWeights = [400, 600, 900];
+export const fontWeight = {
+  normal: 400,
+  bold: 600,
+  black: 900,
+};

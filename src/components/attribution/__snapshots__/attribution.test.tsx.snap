@@ -2,14 +2,14 @@
 
 exports[`Attribution renders correctly 1`] = `
 .c0 {
-  margin-top: 3.583rem;
-  margin-bottom: 3.583rem;
   border-bottom-width: 1px;
   border-color: var(--colorTextSoftInverse);
   border-left-width: 0;
   border-right-width: 0;
   border-style: solid;
   border-top-width: 0;
+  margin-bottom: 3.583rem;
+  margin-top: 3.583rem;
   width: 60%;
 }
 
@@ -20,14 +20,14 @@ exports[`Attribution renders correctly 1`] = `
 
 exports[`Attribution with author and link renders correctly 1`] = `
 .c0 {
-  margin-top: 3.583rem;
-  margin-bottom: 3.583rem;
   border-bottom-width: 1px;
   border-color: var(--colorTextSoftInverse);
   border-left-width: 0;
   border-right-width: 0;
   border-style: solid;
   border-top-width: 0;
+  margin-bottom: 3.583rem;
+  margin-top: 3.583rem;
   width: 60%;
 }
 
@@ -38,14 +38,14 @@ exports[`Attribution with author and link renders correctly 1`] = `
 
 exports[`Attribution with author renders correctly 1`] = `
 .c0 {
-  margin-top: 3.583rem;
-  margin-bottom: 3.583rem;
   border-bottom-width: 1px;
   border-color: var(--colorTextSoftInverse);
   border-left-width: 0;
   border-right-width: 0;
   border-style: solid;
   border-top-width: 0;
+  margin-bottom: 3.583rem;
+  margin-top: 3.583rem;
   width: 60%;
 }
 
@@ -56,14 +56,14 @@ exports[`Attribution with author renders correctly 1`] = `
 
 exports[`Attribution with multiple attributions renders correctly 1`] = `
 .c0 {
-  margin-top: 3.583rem;
-  margin-bottom: 3.583rem;
   border-bottom-width: 1px;
   border-color: var(--colorTextSoftInverse);
   border-left-width: 0;
   border-right-width: 0;
   border-style: solid;
   border-top-width: 0;
+  margin-bottom: 3.583rem;
+  margin-top: 3.583rem;
   width: 60%;
 }
 
@@ -74,14 +74,14 @@ exports[`Attribution with multiple attributions renders correctly 1`] = `
 
 exports[`Attribution with title and author renders correctly 1`] = `
 .c0 {
-  margin-top: 3.583rem;
-  margin-bottom: 3.583rem;
   border-bottom-width: 1px;
   border-color: var(--colorTextSoftInverse);
   border-left-width: 0;
   border-right-width: 0;
   border-style: solid;
   border-top-width: 0;
+  margin-bottom: 3.583rem;
+  margin-top: 3.583rem;
   width: 60%;
 }
 

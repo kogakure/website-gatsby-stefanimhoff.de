@@ -70,13 +70,11 @@ li .c0 {
 
 <ul
   class="c0"
-  font-size="3"
 >
   <li>
     Vegetables
     <ul
       class="c0"
-      font-size="3"
     >
       <li>
         Tomatoe

@@ -3,14 +3,5 @@ import * as React from 'react';
 import { Styled } from './inline-code.styles';
 
 export const InlineCode: React.FC = ({ children, ...props }) => (
-  <Styled.InlineCode className="one-dark-pro" {...props}>
-    {children}
-  </Styled.InlineCode>
+  <Styled.InlineCode {...props}>{children}</Styled.InlineCode>
 );
-
-InlineCode.defaultProps = {
-  borderRadius: 3,
-  fontSize: 2,
-  paddingX: 3,
-  paddingY: 1,
-};

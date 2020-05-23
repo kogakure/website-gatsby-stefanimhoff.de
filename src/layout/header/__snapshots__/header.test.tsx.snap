@@ -21,25 +21,6 @@ exports[`Header renders correctly 1`] = `
   width: 40px;
 }
 
-.c0 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding-bottom: 11vw;
-  padding-left: 2.5vw;
-  padding-right: 2.5vw;
-  padding-top: 2.5vw;
-}
-
 .c1 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -117,6 +98,25 @@ exports[`Header renders correctly 1`] = `
 .c9 {
   fill: var(--colorText);
   font-size: 1rem;
+}
+
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-bottom: 11vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  padding-top: 2.5vw;
 }
 
 @supports (not (text-decoration-color:red)) {

@@ -1,37 +1,23 @@
 import React from 'react';
 import { render, RenderOptions, RenderResult } from '@testing-library/react';
-import { ThemeProvider } from 'styled-components';
 
 import { EmojifyProvider, LocalizedDateProvider } from '../contexts';
-import { ThemeType } from '../typings/theme';
-import { lightTheme } from '../layout';
-
-export type CustomTheme = {
-  theme: ThemeType;
-};
-
-export type RenderOptionsWithTheme = RenderOptions & CustomTheme;
 
 const customRender = (
   node: React.ReactElement,
-  options: RenderOptionsWithTheme = { theme: lightTheme }
+  options?: RenderOptions
 ): RenderResult => {
-  const { theme } = options;
   const rendered = render(
-    <ThemeProvider theme={theme}>
-      <EmojifyProvider>
-        <LocalizedDateProvider>{node}</LocalizedDateProvider>
-      </EmojifyProvider>
-    </ThemeProvider>,
+    <EmojifyProvider>
+      <LocalizedDateProvider>{node}</LocalizedDateProvider>
+    </EmojifyProvider>,
     options
   );
 
   return {
     ...rendered,
-    rerender: (
-      ui: React.ReactElement,
-      rerenderOptions?: RenderOptionsWithTheme
-    ) => customRender(ui, { container: rendered.container, ...options }),
+    rerender: (ui: React.ReactElement, rerenderOptions?: RenderOptions) =>
+      customRender(ui, { container: rendered.container, ...options }),
   };
 };
 

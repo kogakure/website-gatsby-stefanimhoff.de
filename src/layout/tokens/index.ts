@@ -4,4 +4,4 @@ export * from './font-weights';
 export * from './line-heights';
 export * from './radii';
 export * from './space';
-export * from './typographic-scale';
+export * from './font-sizes';

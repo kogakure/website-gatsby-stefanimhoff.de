@@ -1,11 +1,13 @@
 import styled from 'styled-components';
-import { margin } from 'styled-system';
 
-import { typographicScale, space } from '../../layout/tokens';
+import { fontSize, space } from '../../layout/tokens';
 
 const Blockquote = styled.blockquote`
-  ${margin};
   font-style: italic;
+  margin-bottom: ${space[12]};
+  margin-left: ${space[0]};
+  margin-right: ${space[0]};
+  margin-top: ${space[12]};
 
   &[lang|='ja'] {
     font-style: normal;
@@ -39,7 +41,7 @@ const Blockquote = styled.blockquote`
 `;
 
 const Footer = styled.footer`
-  font-size: ${typographicScale[3]};
+  font-size: ${fontSize[3]};
 `;
 
 const Author = styled.b`

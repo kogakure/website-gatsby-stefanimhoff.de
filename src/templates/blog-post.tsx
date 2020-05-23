@@ -8,9 +8,7 @@ import { Layout, SEO } from '../layout';
 import { MDXProviderContainer } from '../layout/mdx-provider-container';
 import { Attribution } from '../components/attribution';
 import { LocalizedDate } from '../components/localized-date';
-import { Typography } from '../components/typography';
-
-const { Title } = Typography;
+import { Title } from '../components/typography';
 
 export type BlogPostTemplateProps = {
   readonly data: PostQueryData;

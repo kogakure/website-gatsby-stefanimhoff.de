@@ -5,6 +5,7 @@ import { PostsQueryData } from '../typings/posts-query';
 import { Layout, SEO } from '../layout';
 import { LocalizedDate } from '../components/localized-date';
 import { TextLink } from '../components/text-link';
+import { Subline } from '../components/typography';
 
 const IndexPage = ({ data }: PostsQueryData) => {
   const posts = data.allBlogPosts.edges;
@@ -22,9 +23,9 @@ const IndexPage = ({ data }: PostsQueryData) => {
         return (
           <article key={slug}>
             <header>
-              <h2>
+              <Subline>
                 <TextLink to={slug}>{title}</TextLink>
-              </h2>
+              </Subline>
               <LocalizedDate date={date} />
             </header>
             <section>
