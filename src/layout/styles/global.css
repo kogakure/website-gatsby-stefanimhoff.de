@@ -111,8 +111,18 @@ a.footnote-ref {
 }
 
 a.footnote-backref {
-  margin-left: 5px;
+  display: inline-block;
+  line-height: 1;
+  margin-left: 8px;
   text-decoration: none;
+  transition-duration: 500ms;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
+
+a.footnote-backref:hover,
+a.footnote-backref:focus {
+  transform: translate3D(-0.25rem, 0, 0);
 }
 
 .footnotes ol li {

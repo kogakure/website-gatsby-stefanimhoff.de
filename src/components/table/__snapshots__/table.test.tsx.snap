@@ -3,6 +3,8 @@
 exports[`Table renders correctly 1`] = `
 .c0 {
   border-collapse: collapse;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
+  margin-top: clamp(2.074rem,4.44vw,2.488rem);
   width: 100%;
 }
 

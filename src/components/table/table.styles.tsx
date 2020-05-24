@@ -4,6 +4,8 @@ import { borderStyle, borderWidth, space } from '../../layout/tokens';
 
 const Table = styled.table`
   border-collapse: collapse;
+  margin-bottom: ${space[12]};
+  margin-top: ${space[12]};
   width: 100%;
 
   td {
