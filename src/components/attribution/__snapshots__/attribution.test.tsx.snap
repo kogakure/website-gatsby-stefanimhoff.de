@@ -1,91 +1,194 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Attribution renders correctly 1`] = `
-.c0 {
-  border-bottom-width: 1px;
-  border-color: var(--colorTextSoftInverse);
-  border-left-width: 0;
-  border-right-width: 0;
-  border-style: solid;
-  border-top-width: 0;
-  margin-bottom: clamp(2.986rem,6.39vw,3.583rem);
-  margin-top: clamp(2.986rem,6.39vw,3.583rem);
-  width: 60%;
+.c1 {
+  color: var(--colorText);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorLink);
+  text-decoration-color: var(--colorLink);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
 }
 
-<hr
+.c1:hover,
+.c1:focus {
+  -webkit-text-decoration-color: var(--colorLinkActive);
+  text-decoration-color: var(--colorLinkActive);
+}
+
+.c0 {
+  list-style: none;
+  padding: 0;
+}
+
+@supports (not (text-decoration-color:red)) {
+  .c1:hover,
+  .c1:focus {
+    color: var(--colorLink);
+  }
+}
+
+<ul
   class="c0"
-/>
+>
+  <li>
+    <cite>
+      Sunflowers
+      . 
+    </cite>
+    Photography by
+     
+    <a
+      class="c1"
+      href="https://www.stefanimhoff.de"
+    >
+      Stefan Imhoff
+    </a>
+  </li>
+</ul>
 `;
 
 exports[`Attribution with author and link renders correctly 1`] = `
-.c0 {
-  border-bottom-width: 1px;
-  border-color: var(--colorTextSoftInverse);
-  border-left-width: 0;
-  border-right-width: 0;
-  border-style: solid;
-  border-top-width: 0;
-  margin-bottom: clamp(2.986rem,6.39vw,3.583rem);
-  margin-top: clamp(2.986rem,6.39vw,3.583rem);
-  width: 60%;
+.c1 {
+  color: var(--colorText);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorLink);
+  text-decoration-color: var(--colorLink);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
 }
 
-<hr
+.c1:hover,
+.c1:focus {
+  -webkit-text-decoration-color: var(--colorLinkActive);
+  text-decoration-color: var(--colorLinkActive);
+}
+
+.c0 {
+  list-style: none;
+  padding: 0;
+}
+
+@supports (not (text-decoration-color:red)) {
+  .c1:hover,
+  .c1:focus {
+    color: var(--colorLink);
+  }
+}
+
+<ul
   class="c0"
-/>
+>
+  <li>
+    Photography by
+     
+    <a
+      class="c1"
+      href="https://www.stefanimhoff.de"
+    >
+      Stefan Imhoff
+    </a>
+  </li>
+</ul>
 `;
 
 exports[`Attribution with author renders correctly 1`] = `
 .c0 {
-  border-bottom-width: 1px;
-  border-color: var(--colorTextSoftInverse);
-  border-left-width: 0;
-  border-right-width: 0;
-  border-style: solid;
-  border-top-width: 0;
-  margin-bottom: clamp(2.986rem,6.39vw,3.583rem);
-  margin-top: clamp(2.986rem,6.39vw,3.583rem);
-  width: 60%;
+  list-style: none;
+  padding: 0;
 }
 
-<hr
+<ul
   class="c0"
-/>
+>
+  <li>
+    Photography by 
+    <b>
+      Stefan Imhoff
+    </b>
+  </li>
+</ul>
 `;
 
 exports[`Attribution with multiple attributions renders correctly 1`] = `
-.c0 {
-  border-bottom-width: 1px;
-  border-color: var(--colorTextSoftInverse);
-  border-left-width: 0;
-  border-right-width: 0;
-  border-style: solid;
-  border-top-width: 0;
-  margin-bottom: clamp(2.986rem,6.39vw,3.583rem);
-  margin-top: clamp(2.986rem,6.39vw,3.583rem);
-  width: 60%;
+.c1 {
+  color: var(--colorText);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorLink);
+  text-decoration-color: var(--colorLink);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
 }
 
-<hr
+.c1:hover,
+.c1:focus {
+  -webkit-text-decoration-color: var(--colorLinkActive);
+  text-decoration-color: var(--colorLinkActive);
+}
+
+.c0 {
+  list-style: none;
+  padding: 0;
+}
+
+@supports (not (text-decoration-color:red)) {
+  .c1:hover,
+  .c1:focus {
+    color: var(--colorLink);
+  }
+}
+
+<ul
   class="c0"
-/>
+>
+  <li>
+    <cite>
+      Sunflowers
+      . 
+    </cite>
+    Photography by
+     
+    <a
+      class="c1"
+      href="https://www.stefanimhoff.de"
+    >
+      Stefan Imhoff
+    </a>
+  </li>
+  <li>
+    <cite>
+      Boat on a River
+      . 
+    </cite>
+    Photography by 
+    <b>
+      Stefan Imhoff
+    </b>
+  </li>
+</ul>
 `;
 
 exports[`Attribution with title and author renders correctly 1`] = `
 .c0 {
-  border-bottom-width: 1px;
-  border-color: var(--colorTextSoftInverse);
-  border-left-width: 0;
-  border-right-width: 0;
-  border-style: solid;
-  border-top-width: 0;
-  margin-bottom: clamp(2.986rem,6.39vw,3.583rem);
-  margin-top: clamp(2.986rem,6.39vw,3.583rem);
-  width: 60%;
+  list-style: none;
+  padding: 0;
 }
 
-<hr
+<ul
   class="c0"
-/>
+>
+  <li>
+    <cite>
+      Sunflowers
+      . 
+    </cite>
+    Photography by 
+    <b>
+      Stefan Imhoff
+    </b>
+  </li>
+</ul>
 `;

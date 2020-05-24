@@ -2,7 +2,6 @@ import * as React from 'react';
 
 import { generateKey } from '../../services/generate-key';
 import { TextLink } from '../text-link';
-import { HorizontalRule } from '../horizontal-rule';
 
 import { Styled } from './attribution.styles';
 
@@ -18,7 +17,6 @@ export type AttributionProps = {
 
 export const Attribution: React.FC<AttributionProps> = ({ data, ...props }) => (
   <>
-    <HorizontalRule />
     <Styled.Attribution {...props}>
       {data.map((attribution) => (
         <li key={generateKey(attribution.author)}>
