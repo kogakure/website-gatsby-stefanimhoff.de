@@ -2,8 +2,10 @@
 
 exports[`ColorSwatch renders correctly 1`] = `
 .c1 {
-  border: 1px solid var(--colorTextSoft);
+  border-color: var(--colorTextSoft);
   border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
   box-shadow: 0 5px 50px rgba(0,0,0,0.1);
   display: -webkit-box;
   display: -webkit-flex;
@@ -13,7 +15,7 @@ exports[`ColorSwatch renders correctly 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   font-family: Helvetica,Arial,sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .c2 {

@@ -5,8 +5,8 @@ import { fontSize, space } from '../../layout/tokens';
 const Blockquote = styled.blockquote`
   font-style: italic;
   margin-bottom: ${space[12]};
-  margin-left: ${space[0]};
-  margin-right: ${space[0]};
+  margin-left: 0;
+  margin-right: 0;
   margin-top: ${space[12]};
 
   &[lang|='ja'] {

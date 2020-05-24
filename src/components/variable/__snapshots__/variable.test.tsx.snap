@@ -5,8 +5,8 @@ exports[`Variable renders correctly 1`] = `
   background-color: var(--colorCodeBackground);
   border-radius: 8px;
   color: var(--colorCodeText);
-  font-size: 0.773rem;
-  padding: 0.335rem 0.482rem;
+  font-size: clamp(0.65rem,0.8vw,0.75rem);
+  padding: 0.335rem clamp( 0.402rem,0.86vw,0.482rem);
 }
 
 <var

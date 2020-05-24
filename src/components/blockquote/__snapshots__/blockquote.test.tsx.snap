@@ -3,10 +3,10 @@
 exports[`Blockquote renders correctly 1`] = `
 .c0 {
   font-style: italic;
-  margin-bottom: 2.488rem;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: 2.488rem;
+  margin-top: clamp(2.074rem,4.44vw,2.488rem);
 }
 
 .c0[lang|='ja'] {
@@ -14,7 +14,7 @@ exports[`Blockquote renders correctly 1`] = `
 }
 
 .c0 p {
-  margin-bottom: 1rem;
+  margin-bottom: clamp( 0.833rem,1.78vw,1.0rem);
 }
 
 .c0 p:first-child::before {
@@ -40,7 +40,7 @@ exports[`Blockquote renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 1.25rem;
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
 }
 
 <blockquote
@@ -59,10 +59,10 @@ exports[`Blockquote renders correctly 1`] = `
 exports[`Blockquote with German language renders correctly 1`] = `
 .c0 {
   font-style: italic;
-  margin-bottom: 2.488rem;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: 2.488rem;
+  margin-top: clamp(2.074rem,4.44vw,2.488rem);
 }
 
 .c0[lang|='ja'] {
@@ -70,7 +70,7 @@ exports[`Blockquote with German language renders correctly 1`] = `
 }
 
 .c0 p {
-  margin-bottom: 1rem;
+  margin-bottom: clamp( 0.833rem,1.78vw,1.0rem);
 }
 
 .c0 p:first-child::before {
@@ -96,7 +96,7 @@ exports[`Blockquote with German language renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 1.25rem;
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
 }
 
 <blockquote
@@ -115,10 +115,10 @@ exports[`Blockquote with German language renders correctly 1`] = `
 exports[`Blockquote with Japanese language renders correctly 1`] = `
 .c0 {
   font-style: italic;
-  margin-bottom: 2.488rem;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: 2.488rem;
+  margin-top: clamp(2.074rem,4.44vw,2.488rem);
 }
 
 .c0[lang|='ja'] {
@@ -126,7 +126,7 @@ exports[`Blockquote with Japanese language renders correctly 1`] = `
 }
 
 .c0 p {
-  margin-bottom: 1rem;
+  margin-bottom: clamp( 0.833rem,1.78vw,1.0rem);
 }
 
 .c0 p:first-child::before {
@@ -152,7 +152,7 @@ exports[`Blockquote with Japanese language renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 1.25rem;
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
 }
 
 <blockquote
@@ -171,10 +171,10 @@ exports[`Blockquote with Japanese language renders correctly 1`] = `
 exports[`Blockquote with author and source renders correctly 1`] = `
 .c0 {
   font-style: italic;
-  margin-bottom: 2.488rem;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: 2.488rem;
+  margin-top: clamp(2.074rem,4.44vw,2.488rem);
 }
 
 .c0[lang|='ja'] {
@@ -182,7 +182,7 @@ exports[`Blockquote with author and source renders correctly 1`] = `
 }
 
 .c0 p {
-  margin-bottom: 1rem;
+  margin-bottom: clamp( 0.833rem,1.78vw,1.0rem);
 }
 
 .c0 p:first-child::before {
@@ -208,7 +208,7 @@ exports[`Blockquote with author and source renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 1.25rem;
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
 }
 
 .c2 {
@@ -244,10 +244,10 @@ exports[`Blockquote with author and source renders correctly 1`] = `
 exports[`Blockquote with author renders correctly 1`] = `
 .c0 {
   font-style: italic;
-  margin-bottom: 2.488rem;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: 2.488rem;
+  margin-top: clamp(2.074rem,4.44vw,2.488rem);
 }
 
 .c0[lang|='ja'] {
@@ -255,7 +255,7 @@ exports[`Blockquote with author renders correctly 1`] = `
 }
 
 .c0 p {
-  margin-bottom: 1rem;
+  margin-bottom: clamp( 0.833rem,1.78vw,1.0rem);
 }
 
 .c0 p:first-child::before {
@@ -281,7 +281,7 @@ exports[`Blockquote with author renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 1.25rem;
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
 }
 
 .c2 {
@@ -327,10 +327,10 @@ exports[`Blockquote with author, source and URL renders correctly 1`] = `
 
 .c0 {
   font-style: italic;
-  margin-bottom: 2.488rem;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: 2.488rem;
+  margin-top: clamp(2.074rem,4.44vw,2.488rem);
 }
 
 .c0[lang|='ja'] {
@@ -338,7 +338,7 @@ exports[`Blockquote with author, source and URL renders correctly 1`] = `
 }
 
 .c0 p {
-  margin-bottom: 1rem;
+  margin-bottom: clamp( 0.833rem,1.78vw,1.0rem);
 }
 
 .c0 p:first-child::before {
@@ -364,7 +364,7 @@ exports[`Blockquote with author, source and URL renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 1.25rem;
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
 }
 
 .c2 {
@@ -411,14 +411,14 @@ exports[`Blockquote with author, source and URL renders correctly 1`] = `
 
 exports[`Blockquote with multiple paragraphs between paragraphs renders correctly 1`] = `
 .c0 {
-  font-size: 1.25rem;
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
   line-height: 1.6;
-  margin-bottom: 2.488rem;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-top: 0;
 }
 
@@ -432,10 +432,10 @@ exports[`Blockquote with multiple paragraphs between paragraphs renders correctl
 exports[`Blockquote with multiple paragraphs renders correctly 1`] = `
 .c0 {
   font-style: italic;
-  margin-bottom: 2.488rem;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: 2.488rem;
+  margin-top: clamp(2.074rem,4.44vw,2.488rem);
 }
 
 .c0[lang|='ja'] {
@@ -443,7 +443,7 @@ exports[`Blockquote with multiple paragraphs renders correctly 1`] = `
 }
 
 .c0 p {
-  margin-bottom: 1rem;
+  margin-bottom: clamp( 0.833rem,1.78vw,1.0rem);
 }
 
 .c0 p:first-child::before {
@@ -469,7 +469,7 @@ exports[`Blockquote with multiple paragraphs renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 1.25rem;
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
 }
 
 .c2 {
@@ -527,10 +527,10 @@ exports[`Blockquote with source and URL renders correctly 1`] = `
 
 .c0 {
   font-style: italic;
-  margin-bottom: 2.488rem;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: 2.488rem;
+  margin-top: clamp(2.074rem,4.44vw,2.488rem);
 }
 
 .c0[lang|='ja'] {
@@ -538,7 +538,7 @@ exports[`Blockquote with source and URL renders correctly 1`] = `
 }
 
 .c0 p {
-  margin-bottom: 1rem;
+  margin-bottom: clamp( 0.833rem,1.78vw,1.0rem);
 }
 
 .c0 p:first-child::before {
@@ -564,7 +564,7 @@ exports[`Blockquote with source and URL renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 1.25rem;
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
 }
 
 @supports (not (text-decoration-color:red)) {
@@ -602,10 +602,10 @@ exports[`Blockquote with source and URL renders correctly 1`] = `
 exports[`Blockquote with source renders correctly 1`] = `
 .c0 {
   font-style: italic;
-  margin-bottom: 2.488rem;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: 2.488rem;
+  margin-top: clamp(2.074rem,4.44vw,2.488rem);
 }
 
 .c0[lang|='ja'] {
@@ -613,7 +613,7 @@ exports[`Blockquote with source renders correctly 1`] = `
 }
 
 .c0 p {
-  margin-bottom: 1rem;
+  margin-bottom: clamp( 0.833rem,1.78vw,1.0rem);
 }
 
 .c0 p:first-child::before {
@@ -639,7 +639,7 @@ exports[`Blockquote with source renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 1.25rem;
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
 }
 
 <blockquote

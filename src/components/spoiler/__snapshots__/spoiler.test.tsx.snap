@@ -37,7 +37,7 @@ exports[`Spoiler with layout "block" renders correctly 1`] = `
   color: var(--colorText);
   cursor: help;
   display: block;
-  margin-bottom: 2.488rem;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   padding: 0.1rem;
 }
 

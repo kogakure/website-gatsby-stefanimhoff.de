@@ -118,7 +118,7 @@ module.exports = {
                 turnPolicy: 'TURNPOLICY_MAJORITY',
               },
               withWebP: true,
-              wrapperStyle: 'margin-bottom: 10px',
+              wrapperStyle: 'margin-bottom: clamp(2.074rem, 4.44vw, 2.488rem)',
             },
           },
           {

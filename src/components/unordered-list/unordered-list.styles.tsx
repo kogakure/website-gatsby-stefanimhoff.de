@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 
-import { fontSize } from '../../layout/tokens';
+import {
+  borderStyle,
+  borderWidth,
+  fontSize,
+  radius,
+} from '../../layout/tokens';
 
 const UnorderedListContainer = styled.ul`
   font-size: ${fontSize[3]};
@@ -20,9 +25,9 @@ const UnorderedListContainer = styled.ul`
       appearance: none;
       background: transparent;
       border-color: var(--colorTextSoftInverse);
-      border-radius: 0.25em;
-      border-style: solid;
-      border-width: 0.1em;
+      border-radius: ${radius[25]};
+      border-style: ${borderStyle.solid};
+      border-width: ${borderWidth[10]};
       cursor: pointer;
       display: inline-block;
       height: 1em;
@@ -34,12 +39,12 @@ const UnorderedListContainer = styled.ul`
       width: 1em;
 
       &:after {
-        border-bottom-width: 0.15em;
+        border-bottom-width: ${borderWidth[15]};
         border-color: var(--colorText);
         border-left-color: transparent;
         border-left-width: 0;
-        border-right-width: 0.15em;
-        border-style: solid;
+        border-right-width: ${borderWidth[15]};
+        border-style: ${borderStyle.solid};
         border-top-color: transparent;
         border-top-width: 0;
         content: '';

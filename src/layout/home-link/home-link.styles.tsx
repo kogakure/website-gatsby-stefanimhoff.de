@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 
+import { transitionDuration } from '../../layout/tokens';
 import { ArrowLeft } from '../../components/icons';
 
 const Button = styled.button`
@@ -20,7 +21,7 @@ const Arrow = styled(ArrowLeft)`
 `;
 
 const ArrowLink = styled(Link)`
-  transition-duration: 500ms;
+  transition-duration: ${transitionDuration[5]};
   transition-property: transform;
   transition-timing-function: ease-in-out;
 

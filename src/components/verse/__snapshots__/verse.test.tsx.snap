@@ -7,7 +7,7 @@ exports[`Verse renders correctly 1`] = `
   display: -ms-flexbox;
   display: flex;
   font-style: italic;
-  margin: 1.728rem;
+  margin: clamp(1.44rem,3.70vw,1.728rem);
 }
 
 .c0 p {

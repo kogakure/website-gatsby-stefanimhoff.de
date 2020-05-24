@@ -1,8 +1,12 @@
 import styled from 'styled-components';
 
 const Emoji = styled.span`
-  div > & {
-    font-size: 4em;
+  font-size: clamp(2rem, 4vw, 3rem);
+
+  h1 &,
+  h2 &,
+  h3 & {
+    font-size: 1em;
   }
 
   p & {

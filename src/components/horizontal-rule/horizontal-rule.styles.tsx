@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
-import { space } from '../../layout/tokens';
+import { space, borderStyle, borderWidth } from '../../layout/tokens';
 
 const HorizontalRule = styled.hr`
-  border-bottom-width: 1px;
+  border-bottom-width: ${borderWidth[1]};
   border-color: var(--colorTextSoftInverse);
   border-left-width: 0;
   border-right-width: 0;
-  border-style: solid;
+  border-style: ${borderStyle.solid};
   border-top-width: 0;
   margin-bottom: ${space[14]};
   margin-top: ${space[14]};

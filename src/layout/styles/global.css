@@ -38,6 +38,7 @@ body code,
 body kbd,
 body samp {
   font-family: 'Fira Code', 'Operator', 'Hasklig', 'Monoid', monospace;
+  font-size: clamp(0.8rem, 1.1vw, 1.25rem);
 }
 
 .code-block {
@@ -115,5 +116,5 @@ a.footnote-backref {
 }
 
 .footnotes ol li {
-  font-size: 14px;
+  font-size: 0.88;
 }
