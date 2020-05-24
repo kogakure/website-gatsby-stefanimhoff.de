@@ -12,7 +12,7 @@ export const LegalInformation: React.FC = ({ ...props }) => (
       <Styled.Bullet> • </Styled.Bullet>
       <Styled.Year>
         <time dateTime={String(new Date().getFullYear())}>
-          {new Date().getFullYear()}
+          2006–{new Date().getFullYear()}
         </time>
       </Styled.Year>
     </div>
