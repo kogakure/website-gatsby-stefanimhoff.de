@@ -4,15 +4,11 @@ import user from '@testing-library/user-event';
 
 import { render } from '../../services/test-utils';
 import { EmojifyProvider } from '../../contexts';
-import { EmojifyToggle } from '../emojify-toggle';
 
 import { Default, UnknownEmoji } from './emojify.stories';
 
 const App: React.FC = ({ children }) => (
-  <EmojifyProvider>
-    <EmojifyToggle />
-    {children}
-  </EmojifyProvider>
+  <EmojifyProvider>{children}</EmojifyProvider>
 );
 
 describe('Emojify', () => {

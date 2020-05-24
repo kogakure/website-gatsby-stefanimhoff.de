@@ -1,22 +1,29 @@
 import React from 'react';
 
 import { Paragraph } from '../../components/typography';
+import { EmojifyToggle } from '../emojify-toggle';
 
 import { Emojify } from '.';
 
 export default {
   component: Emojify,
-  title: 'Easter Egg/Emojify',
+  title: 'Misc/Emojify',
 };
 
 export const Default = () => (
-  <Paragraph>
+  <>
+    <Paragraph>
+      Click me ➜<EmojifyToggle />
+    </Paragraph>
     <Emojify emoji="🤩" />
-  </Paragraph>
+  </>
 );
 
 export const UnknownEmoji = () => (
-  <Paragraph>
+  <>
+    <Paragraph>
+      Click me ➜<EmojifyToggle />
+    </Paragraph>
     <Emojify emoji="👩🏻‍🦽" />
-  </Paragraph>
+  </>
 );

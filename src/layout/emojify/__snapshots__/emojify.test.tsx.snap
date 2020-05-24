@@ -2,6 +2,18 @@
 
 exports[`Emojify renders correctly 1`] = `
 .c0 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
+  margin-top: 0;
+}
+
+.c1 {
   background: transparent;
   border: 0;
   cursor: pointer;
@@ -9,21 +21,26 @@ exports[`Emojify renders correctly 1`] = `
   width: 40px;
 }
 
-.c1 {
+.c2 {
   font-size: 1.5rem;
 }
 
-<button
-  aria-label="Hide Emoji"
+<p
   class="c0"
-  type="button"
 >
-  <span
-    aria-label="See-No-Evil Monkey"
+  Click me ➜
+  <button
+    aria-label="Hide Emoji"
     class="c1"
-    role="img"
+    type="button"
   >
-    🙈
-  </span>
-</button>
+    <span
+      aria-label="See-No-Evil Monkey"
+      class="c2"
+      role="img"
+    >
+      🙈
+    </span>
+  </button>
+</p>
 `;

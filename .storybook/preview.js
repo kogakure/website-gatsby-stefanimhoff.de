@@ -14,22 +14,19 @@ import '../src/services/theme';
 const Grid = styled.div`
   align-items: center;
   display: grid;
-  grid-template-areas:
-    '. navigation .'
-    '. main .';
   grid-template-columns: 50px 1fr 50px;
-  grid-template-rows: 50px 1fr;
+  grid-template-rows: 50px 1fr 50px;
   height: 100vh;
   justify-items: center;
 `;
 
-const Navigation = styled.nav`
-  display: flex;
-  grid-area: navigation;
-`;
-
 const Main = styled.main`
-  grid-area: main;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  grid-column: 2;
+  grid-row: 2;
+  justify-content: center;
   width: 100%;
 `;
 
@@ -39,10 +36,6 @@ const Decorator = (storyFn) => (
       <Normalize />
       <GlobalStyles />
       <Grid>
-        <Navigation>
-          <ThemeToggle />
-          <EmojifyToggle />
-        </Navigation>
         <Main>{storyFn()}</Main>
       </Grid>
     </LocalizedDateProvider>
@@ -70,7 +63,4 @@ addDecorator(
   })
 );
 
-configure(
-  require.context('../src/components', true, /\.stories\.tsx$/),
-  module
-);
+configure(require.context('../src/', true, /\.stories\.tsx$/), module);
