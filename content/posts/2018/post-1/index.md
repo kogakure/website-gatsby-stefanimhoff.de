@@ -6,7 +6,7 @@ cover: ./gatsby-astronaut.png
 attribution:
   - author: Gatsby
     title: Gatsby Astronaut
-    url: https://www.gatsby.org
+    url: https://www.gatsbyjs.org
 ---
 
 Hello World!
