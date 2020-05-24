@@ -8,9 +8,10 @@ excerpt: Excerpt (optional)
 description: Meta Description (optional)
 robots: 'noindex,follow'
 cover: ./cover.jpg
-credit:
-  name: Photographer Name
-  link: ''
+attribution:
+  - author: Author
+    title: Title
+    url: # 
 categories:
   - book
   - code
