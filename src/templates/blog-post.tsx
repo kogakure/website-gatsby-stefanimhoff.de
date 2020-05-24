@@ -7,6 +7,7 @@ import { PostQueryData } from '../typings/post-query';
 import { Layout, SEO } from '../layout';
 import { MDXProviderContainer } from '../layout/mdx-provider-container';
 import { Attribution } from '../components/attribution';
+import { HorizontalRule } from '../components/horizontal-rule';
 import { LocalizedDate } from '../components/localized-date';
 import { Title } from '../components/typography';
 
@@ -51,6 +52,7 @@ const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
         <MDXProviderContainer>
           <MDXRenderer>{body}</MDXRenderer>
         </MDXProviderContainer>
+        <HorizontalRule />
         {attribution && <Attribution data={attribution} />}
         {previous === false ? null : (
           <>
