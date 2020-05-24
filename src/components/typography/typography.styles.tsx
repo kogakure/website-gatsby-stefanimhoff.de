@@ -12,7 +12,7 @@ const autoLinkBaseStyles = css`
   & .autolink {
     background: transparent;
     fill: var(--colorText);
-    margin-left: 0;
+    margin-left: ${space[2]};
     opacity: 0;
     position: relative;
 

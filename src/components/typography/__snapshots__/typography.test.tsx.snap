@@ -16,7 +16,7 @@ exports[`Typography Headline renders correctly 1`] = `
 .c0 .autolink {
   background: transparent;
   fill: var(--colorText);
-  margin-left: 0;
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
   opacity: 0;
   position: relative;
 }
@@ -84,7 +84,7 @@ exports[`Typography Subline renders correctly 1`] = `
 .c0 .autolink {
   background: transparent;
   fill: var(--colorText);
-  margin-left: 0;
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
   opacity: 0;
   position: relative;
 }
@@ -132,7 +132,7 @@ exports[`Typography Title renders correctly 1`] = `
 .c0 .autolink {
   background: transparent;
   fill: var(--colorText);
-  margin-left: 0;
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
   opacity: 0;
   position: relative;
 }
