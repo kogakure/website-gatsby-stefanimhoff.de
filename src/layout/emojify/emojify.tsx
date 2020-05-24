@@ -18,7 +18,10 @@ export const Emojify: React.FC<EmojifyProps> = ({ emoji, ...props }) => {
       aria-label={unicode.get(emoji) || 'emoji'}
       {...props}
     >
-      {emoji}
+      {' '}
+      {emoji}{' '}
     </Styled.Emoji>
-  ) : null;
+  ) : (
+    <span> </span>
+  );
 };
