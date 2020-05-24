@@ -11,6 +11,7 @@ import {
   German,
   Japanese,
   MultipleParagraphs,
+  MultipleParagraphsBetweenParagraphs,
   Source,
   SourceUrl,
 } from './blockquote.stories';
@@ -74,6 +75,20 @@ describe('Blockquote', () => {
     });
   });
 
+  describe('with multiple paragraphs between paragraphs', () => {
+    test('renders correctly', () => {
+      const { container } = render(<MultipleParagraphsBetweenParagraphs />);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('is accessible', async () => {
+      const { container } = render(<MultipleParagraphsBetweenParagraphs />);
+      const results = await axe(container);
+
+      expect(results).toHaveNoViolations();
+    });
+  });
   describe('with author', () => {
     test('renders correctly', () => {
       const { container } = render(<Author />);

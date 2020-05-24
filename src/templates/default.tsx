@@ -4,7 +4,7 @@ import { Layout } from '../layout';
 import { MDXProviderContainer } from '../layout/mdx-provider-container';
 
 const DefaultTemplate: React.FC = ({ children }) => (
-  <Layout>
+  <Layout size="regular">
     <MDXProviderContainer>{children}</MDXProviderContainer>
   </Layout>
 );

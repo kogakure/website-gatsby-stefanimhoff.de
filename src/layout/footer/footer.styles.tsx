@@ -7,7 +7,7 @@ const Footer = styled.footer`
   display: grid;
   grid-template-columns: repeat(18, 1fr);
   grid-template-rows: clamp(50px, 5.55vw, 150px);
-  margin-top: 16.5vw;
+  margin-top: 11vw;
 `;
 
 const GridLegalInformation = styled(LegalInformation)`

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header renders correctly 1`] = `
+exports[`Layout renders correctly 1`] = `
 .c9 {
   -webkit-align-items: center;
   -webkit-box-align: center;

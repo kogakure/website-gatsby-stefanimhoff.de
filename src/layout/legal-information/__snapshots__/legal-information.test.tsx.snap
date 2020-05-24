@@ -92,6 +92,7 @@ exports[`LegalInformation renders correctly 1`] = `
       <time
         datetime="2020"
       >
+        2006–
         2020
       </time>
     </span>

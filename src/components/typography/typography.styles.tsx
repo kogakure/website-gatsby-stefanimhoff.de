@@ -8,7 +8,7 @@ const Title = styled.h1`
   letter-spacing: normal;
   line-height: ${lineHeight[1]};
   margin-bottom: ${space[13]};
-  margin-top: ${space[5]};
+  margin-top: ${space[0]};
 `;
 
 const Headline = styled.h1`
@@ -17,7 +17,7 @@ const Headline = styled.h1`
   letter-spacing: normal;
   line-height: ${lineHeight[1]};
   margin-bottom: ${space[11]};
-  margin-top: ${space[15]};
+  margin-top: ${space[0]};
 `;
 
 const Subline = styled.h2`
@@ -26,7 +26,7 @@ const Subline = styled.h2`
   letter-spacing: normal;
   line-height: ${lineHeight[1]};
   margin-bottom: ${space[10]};
-  margin-top: ${space[15]};
+  margin-top: ${space[0]};
 `;
 
 const Paragraph = styled.p`

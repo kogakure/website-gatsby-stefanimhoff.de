@@ -2,10 +2,22 @@
 
 exports[`Footer renders correctly 1`] = `
 .c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: transparent;
   border: 0;
   cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 40px;
 }
 
@@ -89,7 +101,7 @@ exports[`Footer renders correctly 1`] = `
   display: grid;
   grid-template-columns: repeat(18,1fr);
   grid-template-rows: clamp(50px,5.55vw,150px);
-  margin-top: 16.5vw;
+  margin-top: 11vw;
 }
 
 .c6 {
@@ -172,6 +184,7 @@ exports[`Footer renders correctly 1`] = `
         <time
           datetime="2020"
         >
+          2006–
           2020
         </time>
       </span>
