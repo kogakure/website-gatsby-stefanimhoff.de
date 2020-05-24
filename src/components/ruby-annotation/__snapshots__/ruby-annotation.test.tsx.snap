@@ -2,7 +2,7 @@
 
 exports[`RubyAnnotation renders correctly 1`] = `
 .c0 {
-  font-size: 1.25rem;
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
 }
 
 <p>

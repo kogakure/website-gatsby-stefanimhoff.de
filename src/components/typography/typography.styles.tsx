@@ -1,6 +1,33 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
-import { fontSize, fontWeight, lineHeight, space } from '../../layout/tokens';
+import {
+  fontSize,
+  fontWeight,
+  lineHeight,
+  space,
+  transitionDuration,
+} from '../../layout/tokens';
+
+const autoLinkBaseStyles = css`
+  & .autolink {
+    background: transparent;
+    fill: var(--colorText);
+    margin-left: 0;
+    opacity: 0;
+    position: relative;
+
+    @media screen and (prefers-reduced-motion: no-preference) {
+      transition-duration: ${transitionDuration[5]};
+      transition-property: opacity;
+      transition-timing-function: ease-in-out;
+    }
+  }
+
+  &:hover .autolink,
+  &:focus .autolink {
+    opacity: 0.5;
+  }
+`;
 
 const Title = styled.h1`
   font-size: ${fontSize[6]};
@@ -8,7 +35,12 @@ const Title = styled.h1`
   letter-spacing: normal;
   line-height: ${lineHeight[1]};
   margin-bottom: ${space[13]};
-  margin-top: ${space[0]};
+  margin-top: 0;
+  ${autoLinkBaseStyles};
+
+  & .autolink {
+    bottom: 0.1em;
+  }
 `;
 
 const Headline = styled.h1`
@@ -17,7 +49,12 @@ const Headline = styled.h1`
   letter-spacing: normal;
   line-height: ${lineHeight[1]};
   margin-bottom: ${space[11]};
-  margin-top: ${space[0]};
+  margin-top: 0;
+  ${autoLinkBaseStyles};
+
+  & .autolink {
+    bottom: 0;
+  }
 `;
 
 const Subline = styled.h2`
@@ -26,7 +63,12 @@ const Subline = styled.h2`
   letter-spacing: normal;
   line-height: ${lineHeight[1]};
   margin-bottom: ${space[10]};
-  margin-top: ${space[0]};
+  margin-top: 0;
+  ${autoLinkBaseStyles};
+
+  & .autolink {
+    bottom: -0.1em;
+  }
 `;
 
 const Paragraph = styled.p`
@@ -35,7 +77,7 @@ const Paragraph = styled.p`
   letter-spacing: normal;
   line-height: ${lineHeight[2]};
   margin-bottom: ${space[12]};
-  margin-top: ${space[0]};
+  margin-top: 0;
 `;
 
 export const Styled = {

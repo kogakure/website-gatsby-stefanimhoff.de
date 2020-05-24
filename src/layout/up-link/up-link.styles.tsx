@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import { transitionDuration } from '../../layout/tokens';
 import { ArrowUp } from '../../components/icons';
 
 const Button = styled.button`
@@ -19,7 +20,7 @@ const Arrow = styled(ArrowUp)`
 `;
 
 const ArrowLink = styled.a`
-  transition-duration: 500ms;
+  transition-duration: ${transitionDuration[5]};
   transition-property: transform;
   transition-timing-function: ease-in-out;
 

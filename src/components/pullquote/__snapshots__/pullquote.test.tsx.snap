@@ -2,7 +2,7 @@
 
 exports[`Pullquote renders correctly 1`] = `
 .c0 {
-  padding: 1.44rem;
+  padding: clamp( 1.2rem,2.57vw,1.44rem);
   text-align: center;
 }
 
@@ -11,7 +11,7 @@ exports[`Pullquote renders correctly 1`] = `
 }
 
 .c0 p {
-  font-size: 2.023rem;
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
   font-weight: 900;
   line-height: 1.0;
   margin: 0;
@@ -40,9 +40,9 @@ exports[`Pullquote renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 0.773rem;
+  font-size: clamp(0.65rem,0.8vw,0.75rem);
   font-weight: normal;
-  margin-top: 0.833rem;
+  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
 }
 
 <blockquote
@@ -60,7 +60,7 @@ exports[`Pullquote renders correctly 1`] = `
 
 exports[`Pullquote with German language renders correctly 1`] = `
 .c0 {
-  padding: 1.44rem;
+  padding: clamp( 1.2rem,2.57vw,1.44rem);
   text-align: center;
 }
 
@@ -69,7 +69,7 @@ exports[`Pullquote with German language renders correctly 1`] = `
 }
 
 .c0 p {
-  font-size: 2.023rem;
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
   font-weight: 900;
   line-height: 1.0;
   margin: 0;
@@ -98,9 +98,9 @@ exports[`Pullquote with German language renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 0.773rem;
+  font-size: clamp(0.65rem,0.8vw,0.75rem);
   font-weight: normal;
-  margin-top: 0.833rem;
+  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
 }
 
 <blockquote
@@ -118,7 +118,7 @@ exports[`Pullquote with German language renders correctly 1`] = `
 
 exports[`Pullquote with Japanese language renders correctly 1`] = `
 .c0 {
-  padding: 1.44rem;
+  padding: clamp( 1.2rem,2.57vw,1.44rem);
   text-align: center;
 }
 
@@ -127,7 +127,7 @@ exports[`Pullquote with Japanese language renders correctly 1`] = `
 }
 
 .c0 p {
-  font-size: 2.023rem;
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
   font-weight: 900;
   line-height: 1.0;
   margin: 0;
@@ -156,9 +156,9 @@ exports[`Pullquote with Japanese language renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 0.773rem;
+  font-size: clamp(0.65rem,0.8vw,0.75rem);
   font-weight: normal;
-  margin-top: 0.833rem;
+  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
 }
 
 <blockquote
@@ -176,7 +176,7 @@ exports[`Pullquote with Japanese language renders correctly 1`] = `
 
 exports[`Pullquote with author and source renders correctly 1`] = `
 .c0 {
-  padding: 1.44rem;
+  padding: clamp( 1.2rem,2.57vw,1.44rem);
   text-align: center;
 }
 
@@ -185,7 +185,7 @@ exports[`Pullquote with author and source renders correctly 1`] = `
 }
 
 .c0 p {
-  font-size: 2.023rem;
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
   font-weight: 900;
   line-height: 1.0;
   margin: 0;
@@ -214,9 +214,9 @@ exports[`Pullquote with author and source renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 0.773rem;
+  font-size: clamp(0.65rem,0.8vw,0.75rem);
   font-weight: normal;
-  margin-top: 0.833rem;
+  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
 }
 
 .c2 {
@@ -250,7 +250,7 @@ exports[`Pullquote with author and source renders correctly 1`] = `
 
 exports[`Pullquote with author renders correctly 1`] = `
 .c0 {
-  padding: 1.44rem;
+  padding: clamp( 1.2rem,2.57vw,1.44rem);
   text-align: center;
 }
 
@@ -259,7 +259,7 @@ exports[`Pullquote with author renders correctly 1`] = `
 }
 
 .c0 p {
-  font-size: 2.023rem;
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
   font-weight: 900;
   line-height: 1.0;
   margin: 0;
@@ -288,9 +288,9 @@ exports[`Pullquote with author renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 0.773rem;
+  font-size: clamp(0.65rem,0.8vw,0.75rem);
   font-weight: normal;
-  margin-top: 0.833rem;
+  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
 }
 
 .c2 {
@@ -334,7 +334,7 @@ exports[`Pullquote with author, source and URL renders correctly 1`] = `
 }
 
 .c0 {
-  padding: 1.44rem;
+  padding: clamp( 1.2rem,2.57vw,1.44rem);
   text-align: center;
 }
 
@@ -343,7 +343,7 @@ exports[`Pullquote with author, source and URL renders correctly 1`] = `
 }
 
 .c0 p {
-  font-size: 2.023rem;
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
   font-weight: 900;
   line-height: 1.0;
   margin: 0;
@@ -372,9 +372,9 @@ exports[`Pullquote with author, source and URL renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 0.773rem;
+  font-size: clamp(0.65rem,0.8vw,0.75rem);
   font-weight: normal;
-  margin-top: 0.833rem;
+  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
 }
 
 .c2 {
@@ -436,7 +436,7 @@ exports[`Pullquote with source and URL renders correctly 1`] = `
 }
 
 .c0 {
-  padding: 1.44rem;
+  padding: clamp( 1.2rem,2.57vw,1.44rem);
   text-align: center;
 }
 
@@ -445,7 +445,7 @@ exports[`Pullquote with source and URL renders correctly 1`] = `
 }
 
 .c0 p {
-  font-size: 2.023rem;
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
   font-weight: 900;
   line-height: 1.0;
   margin: 0;
@@ -474,9 +474,9 @@ exports[`Pullquote with source and URL renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 0.773rem;
+  font-size: clamp(0.65rem,0.8vw,0.75rem);
   font-weight: normal;
-  margin-top: 0.833rem;
+  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
 }
 
 @supports (not (text-decoration-color:red)) {
@@ -512,7 +512,7 @@ exports[`Pullquote with source and URL renders correctly 1`] = `
 
 exports[`Pullquote with source renders correctly 1`] = `
 .c0 {
-  padding: 1.44rem;
+  padding: clamp( 1.2rem,2.57vw,1.44rem);
   text-align: center;
 }
 
@@ -521,7 +521,7 @@ exports[`Pullquote with source renders correctly 1`] = `
 }
 
 .c0 p {
-  font-size: 2.023rem;
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
   font-weight: 900;
   line-height: 1.0;
   margin: 0;
@@ -550,9 +550,9 @@ exports[`Pullquote with source renders correctly 1`] = `
 }
 
 .c1 {
-  font-size: 0.773rem;
+  font-size: clamp(0.65rem,0.8vw,0.75rem);
   font-weight: normal;
-  margin-top: 0.833rem;
+  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
 }
 
 <blockquote

@@ -14,7 +14,7 @@ const Pullquote = styled.blockquote`
     font-size: ${fontSize[4]};
     font-weight: ${fontWeight.black};
     line-height: ${lineHeight[1]};
-    margin: ${space[0]};
+    margin: 0;
   }
 
   & p:first-child::before {

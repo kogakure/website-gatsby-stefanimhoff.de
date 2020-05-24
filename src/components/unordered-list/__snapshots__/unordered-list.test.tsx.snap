@@ -2,7 +2,7 @@
 
 exports[`UnorderedList renders correctly 1`] = `
 .c0 {
-  font-size: 1.25rem;
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
   list-style-type: circle;
   padding-left: 0;
 }
@@ -22,7 +22,7 @@ li .c0 {
     appearance: none;
     background: transparent;
     border-color: var(--colorTextSoftInverse);
-    border-radius: 0.25em;
+    border-radius: 25%;
     border-style: solid;
     border-width: 0.1em;
     cursor: pointer;

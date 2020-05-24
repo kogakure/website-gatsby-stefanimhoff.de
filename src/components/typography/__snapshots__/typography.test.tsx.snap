@@ -2,15 +2,43 @@
 
 exports[`Typography Headline renders correctly 1`] = `
 .c0 {
-  font-size: 3.272rem;
+  font-size: clamp(2.00rem,2.9vw,3.25rem);
   font-weight: 900;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
   line-height: 1.0;
-  margin-bottom: 2.074rem;
+  margin-bottom: clamp(1.728rem,3.70vw,2.074rem);
   margin-top: 0;
+}
+
+.c0 .autolink {
+  background: transparent;
+  fill: var(--colorText);
+  margin-left: 0;
+  opacity: 0;
+  position: relative;
+}
+
+.c0:hover .autolink,
+.c0:focus .autolink {
+  opacity: 0.5;
+}
+
+.c0 .autolink {
+  bottom: 0;
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c0 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
 }
 
 <h1
@@ -22,14 +50,14 @@ exports[`Typography Headline renders correctly 1`] = `
 
 exports[`Typography Paragraph renders correctly 1`] = `
 .c0 {
-  font-size: 1.25rem;
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
   font-weight: 400;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
   line-height: 1.6;
-  margin-bottom: 2.488rem;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-top: 0;
 }
 
@@ -42,15 +70,43 @@ exports[`Typography Paragraph renders correctly 1`] = `
 
 exports[`Typography Subline renders correctly 1`] = `
 .c0 {
-  font-size: 2.023rem;
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
   font-weight: 900;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
   line-height: 1.0;
-  margin-bottom: 1.728rem;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
   margin-top: 0;
+}
+
+.c0 .autolink {
+  background: transparent;
+  fill: var(--colorText);
+  margin-left: 0;
+  opacity: 0;
+  position: relative;
+}
+
+.c0:hover .autolink,
+.c0:focus .autolink {
+  opacity: 0.5;
+}
+
+.c0 .autolink {
+  bottom: -0.1em;
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c0 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
 }
 
 <h2
@@ -62,15 +118,43 @@ exports[`Typography Subline renders correctly 1`] = `
 
 exports[`Typography Title renders correctly 1`] = `
 .c0 {
-  font-size: 5.295rem;
+  font-size: clamp(3.25rem,4.7vw,5.30rem);
   font-weight: 900;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
   line-height: 1.0;
-  margin-bottom: 2.986rem;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   margin-top: 0;
+}
+
+.c0 .autolink {
+  background: transparent;
+  fill: var(--colorText);
+  margin-left: 0;
+  opacity: 0;
+  position: relative;
+}
+
+.c0:hover .autolink,
+.c0:focus .autolink {
+  opacity: 0.5;
+}
+
+.c0 .autolink {
+  bottom: 0.1em;
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c0 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
 }
 
 <h1

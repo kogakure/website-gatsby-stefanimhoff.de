@@ -1,21 +1,24 @@
 import styled from 'styled-components';
 
 import { Information as InformationIcon } from '../icons';
+import { borderStyle, borderWidth, radius, shadow } from '../../layout/tokens';
 
 const ColorSwatchContainer = styled.div`
-  border: 1px solid var(--colorTextSoft);
-  border-radius: 5px;
-  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.1);
+  border-color: var(--colorTextSoft);
+  border-radius: ${radius[2]};
+  border-style: ${borderStyle.solid};
+  border-width: ${borderWidth[1]};
+  box-shadow: ${shadow.subtleShade};
   display: flex;
   flex-direction: column;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 `;
 
 const Color = styled.div`
   background: lightgrey;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: ${radius[2]};
+  border-top-right-radius: ${radius[2]};
   height: 6rem;
 `;
 
@@ -38,8 +41,8 @@ const Icon = styled(InformationIcon)`
 
 const Information = styled.div`
   background: var(--colorBackgroundFullContrast);
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: ${radius[2]};
+  border-bottom-right-radius: ${radius[2]};
   color: var(--colorTextFullContrast);
   min-height: 7rem;
   padding: 0.8rem 0.6rem;

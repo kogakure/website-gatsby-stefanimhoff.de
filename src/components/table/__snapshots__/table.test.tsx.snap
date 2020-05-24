@@ -14,7 +14,7 @@ exports[`Table renders correctly 1`] = `
 
 .c0 th,
 .c0 td {
-  padding: 8px;
+  padding: clamp( 0.402rem,0.86vw,0.482rem);
   text-align: left;
 }
 
