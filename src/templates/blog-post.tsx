@@ -9,6 +9,7 @@ import { MDXProviderContainer } from '../layout/mdx-provider-container';
 import { Attribution } from '../components/attribution';
 import { HorizontalRule } from '../components/horizontal-rule';
 import { LocalizedDate } from '../components/localized-date';
+import { TextLink } from '../components/text-link';
 import { Title } from '../components/typography';
 
 export type BlogPostTemplateProps = {
@@ -57,9 +58,9 @@ const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
         {previous === false ? null : (
           <>
             {previous && (
-              <Link to={previous.node.fields.slug}>
-                <p>Previous: {previous.node.frontmatter.title}</p>
-              </Link>
+              <TextLink to={previous.node.fields.slug}>
+                Previous: {previous.node.frontmatter.title}
+              </TextLink>
             )}
           </>
         )}
@@ -67,9 +68,9 @@ const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
         {next === false ? null : (
           <>
             {next && (
-              <Link to={next.node.fields.slug}>
-                <p>Next: {next.node.frontmatter.title}</p>
-              </Link>
+              <TextLink to={next.node.fields.slug}>
+                Next: {next.node.frontmatter.title}
+              </TextLink>
             )}
           </>
         )}
