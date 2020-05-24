@@ -11,10 +11,11 @@ import {
 const autoLinkBaseStyles = css`
   & .autolink {
     background: transparent;
+    display: inline-flex;
     fill: var(--colorText);
     margin-left: ${space[2]};
     opacity: 0;
-    position: relative;
+    vertical-align: middle;
 
     @media screen and (prefers-reduced-motion: no-preference) {
       transition-duration: ${transitionDuration[5]};
@@ -37,10 +38,6 @@ const Title = styled.h1`
   margin-bottom: ${space[13]};
   margin-top: 0;
   ${autoLinkBaseStyles};
-
-  & .autolink {
-    bottom: 0.1em;
-  }
 `;
 
 const Headline = styled.h1`
@@ -51,10 +48,6 @@ const Headline = styled.h1`
   margin-bottom: ${space[11]};
   margin-top: 0;
   ${autoLinkBaseStyles};
-
-  & .autolink {
-    bottom: 0;
-  }
 `;
 
 const Subline = styled.h2`
@@ -65,10 +58,6 @@ const Subline = styled.h2`
   margin-bottom: ${space[10]};
   margin-top: 0;
   ${autoLinkBaseStyles};
-
-  & .autolink {
-    bottom: -0.1em;
-  }
 `;
 
 const Paragraph = styled.p`
