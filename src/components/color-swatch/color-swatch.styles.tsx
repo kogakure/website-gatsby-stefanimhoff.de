@@ -44,7 +44,7 @@ const Information = styled.div`
   border-bottom-left-radius: ${radius[2]};
   border-bottom-right-radius: ${radius[2]};
   color: var(--colorTextFullContrast);
-  min-height: 7rem;
+  min-height: 8rem;
   padding: 0.8rem 0.6rem;
   position: relative;
 `;
