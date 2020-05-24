@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import { transitionDuration } from '../../layout/tokens';
 import { Circle } from '../../components/icons';
 
 const Button = styled.button`
@@ -14,8 +15,17 @@ const Button = styled.button`
 `;
 
 export const CircleIcon = styled(Circle)`
+  /* stylelint-disable plugin/no-low-performance-animation-properties */
   fill: var(--colorText);
-  font-size: 1rem;
+  font-size: 0.8rem;
+  transition-duration: ${transitionDuration[5]};
+  transition-property: font-size;
+  transition-timing-function: ease-in-out;
+
+  &:hover,
+  &:focus {
+    font-size: 1rem;
+  }
 `;
 
 export const Styled = {

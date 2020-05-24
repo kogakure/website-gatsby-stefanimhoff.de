@@ -23,6 +23,17 @@ exports[`ThemeToggle renders correctly 1`] = `
 
 .c1 {
   fill: var(--colorText);
+  font-size: 0.8rem;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: font-size;
+  transition-property: font-size;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c1:hover,
+.c1:focus {
   font-size: 1rem;
 }
 
