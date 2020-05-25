@@ -4,5 +4,6 @@ export * from './emojify-toggle';
 export * from './global-styles';
 export * from './layout';
 export * from './mdx-provider-container';
+export * from './row';
 export * from './seo';
 export * from './theme-toggle';
