@@ -1,21 +1,31 @@
 import React from 'react';
-import { axe } from 'jest-axe';
 
 import { render } from '../../services/test-utils';
 
-import { Column } from './column';
+import { Default, Fullsize, Regular, Narrow } from './column.stories';
 
 describe('Column', () => {
   test('renders correctly', () => {
-    const { container } = render(<Column />);
+    const { container } = render(<Default />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('is accessible', async () => {
-    const { container } = render(<Column />);
-    const results = await axe(container);
+  test('with "fullsize" renders correctly', () => {
+    const { container } = render(<Fullsize />);
 
-    expect(results).toHaveNoViolations();
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  test('with "regular" renders correctly', () => {
+    const { container } = render(<Regular />);
+
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  test('with "narrow" renders correctly', () => {
+    const { container } = render(<Narrow />);
+
+    expect(container.firstChild).toMatchSnapshot();
   });
 });

@@ -33,6 +33,13 @@ export const variants = {
 };
 
 const Column = styled.div<ColumnProps>`
+  ${({ debug }) =>
+    debug &&
+    css`
+      background-color: lightgrey;
+      border: 1px dotted darkgrey;
+      width: 100%;
+    `};
   ${({ variant }) => variant && variants[variant]}
   width: 100%;
 `;

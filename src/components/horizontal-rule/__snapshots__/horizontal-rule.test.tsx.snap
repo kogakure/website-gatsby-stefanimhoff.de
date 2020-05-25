@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HorizontalRule renders correctly 1`] = `
-.c1 {
+.c0 {
   border-bottom-width: 1px;
   border-color: var(--colorTextSoftInverse);
   border-left-width: 0;
@@ -13,15 +13,7 @@ exports[`HorizontalRule renders correctly 1`] = `
   width: 60%;
 }
 
-.c0 {
-  width: 300px;
-}
-
-<div
+<hr
   class="c0"
->
-  <hr
-    class="c1"
-  />
-</div>
+/>
 `;

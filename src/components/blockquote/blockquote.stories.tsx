@@ -1,8 +1,13 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import { Paragraph } from '../typography';
 
 import { Blockquote } from '.';
+
+const Container = styled.div`
+  width: 90%;
+`;
 
 export default {
   component: Blockquote,
@@ -28,24 +33,26 @@ export const Japanese = () => (
 );
 
 export const MultipleParagraphs = () => (
-  <Blockquote author="Marcus Aurelius" source="Meditations, 2.1">
-    <p>When you first rise in the morning tell yourself:</p>
-    <p>
-      I will encounter busybodies, ingrates, egomaniacs, liars, the jealous and
-      cranks. They are all stricken with these afflictions because they don’t
-      know the difference between good and evil.
-    </p>
-    <p>
-      Because I have understood the beauty of good and the ugliness of evil, I
-      know that these wrong-doers are still akin to me … and that none can do me
-      harm, or implicate me in ugliness—nor can I be angry at my relatives or
-      hate them. For we are made for cooperation.
-    </p>
-  </Blockquote>
+  <Container>
+    <Blockquote author="Marcus Aurelius" source="Meditations, 2.1">
+      <p>When you first rise in the morning tell yourself:</p>
+      <p>
+        I will encounter busybodies, ingrates, egomaniacs, liars, the jealous
+        and cranks. They are all stricken with these afflictions because they
+        don’t know the difference between good and evil.
+      </p>
+      <p>
+        Because I have understood the beauty of good and the ugliness of evil, I
+        know that these wrong-doers are still akin to me … and that none can do
+        me harm, or implicate me in ugliness—nor can I be angry at my relatives
+        or hate them. For we are made for cooperation.
+      </p>
+    </Blockquote>
+  </Container>
 );
 
 export const MultipleParagraphsBetweenParagraphs = () => (
-  <>
+  <Container>
     <Paragraph>
       Lorem ipsum dolor amet shoreditch tbh butcher 90's portland, keytar street
       art. Pork belly you probably haven't heard of them ethical post-ironic
@@ -79,7 +86,7 @@ export const MultipleParagraphsBetweenParagraphs = () => (
       Umami XOXO whatever lyft slow-carb kickstarter, health goth listicle
       glossier microdosing affogato meggings tote bag wolf williamsburg.
     </Paragraph>
-  </>
+  </Container>
 );
 
 export const Author = () => (
@@ -95,32 +102,38 @@ export const Source = () => (
 );
 
 export const SourceUrl = () => (
-  <Blockquote
-    source="Speech to the House of Commons"
-    sourceUrl="https://api.parliament.uk/historic-hansard/commons/1947/nov/11/parliament-bill"
-  >
-    <p>
-      Many forms of Government have been tried, and will be tried in this world
-      of sin and woe. No one pretends that democracy is perfect or all-wise.
-      Indeed, it has been said that democracy is the worst form of government
-      except all those other forms that have been tried from time to time.
-    </p>
-  </Blockquote>
+  <Container>
+    <Blockquote
+      source="Speech to the House of Commons"
+      sourceUrl="https://api.parliament.uk/historic-hansard/commons/1947/nov/11/parliament-bill"
+    >
+      <p>
+        Many forms of Government have been tried, and will be tried in this
+        world of sin and woe. No one pretends that democracy is perfect or
+        all-wise. Indeed, it has been said that democracy is the worst form of
+        government except all those other forms that have been tried from time
+        to time.
+      </p>
+    </Blockquote>
+  </Container>
 );
 
 export const AuthorSourceUrl = () => (
-  <Blockquote
-    author="Winston Churchill"
-    source="Speech to the House of Commons"
-    sourceUrl="https://api.parliament.uk/historic-hansard/commons/1947/nov/11/parliament-bill"
-  >
-    <p>
-      Many forms of Government have been tried, and will be tried in this world
-      of sin and woe. No one pretends that democracy is perfect or all-wise.
-      Indeed, it has been said that democracy is the worst form of government
-      except all those other forms that have been tried from time to time.
-    </p>
-  </Blockquote>
+  <Container>
+    <Blockquote
+      author="Winston Churchill"
+      source="Speech to the House of Commons"
+      sourceUrl="https://api.parliament.uk/historic-hansard/commons/1947/nov/11/parliament-bill"
+    >
+      <p>
+        Many forms of Government have been tried, and will be tried in this
+        world of sin and woe. No one pretends that democracy is perfect or
+        all-wise. Indeed, it has been said that democracy is the worst form of
+        government except all those other forms that have been tried from time
+        to time.
+      </p>
+    </Blockquote>
+  </Container>
 );
 
 export const AuthorSource = () => (
