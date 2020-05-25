@@ -3,17 +3,17 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../services/test-utils';
 
-import { Grid } from './grid';
+import { Column } from './column';
 
-describe('Grid', () => {
+describe('Column', () => {
   test('renders correctly', () => {
-    const { container } = render(<Grid />);
+    const { container } = render(<Column />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('is accessible', async () => {
-    const { container } = render(<Grid />);
+    const { container } = render(<Column />);
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();

@@ -1,11 +1,12 @@
 import React from 'react';
 
-import { Layout } from '../layout';
-import { MDXProviderContainer } from '../layout/mdx-provider-container';
+import { Column, Layout, MDXProviderContainer } from '../layout';
 
 const DefaultTemplate: React.FC = ({ children }) => (
-  <Layout size="regular">
-    <MDXProviderContainer>{children}</MDXProviderContainer>
+  <Layout>
+    <MDXProviderContainer>
+      <Column variant="regular">{children}</Column>
+    </MDXProviderContainer>
   </Layout>
 );
 

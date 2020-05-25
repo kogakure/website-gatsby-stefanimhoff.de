@@ -4,13 +4,18 @@ import {
   borderStyle,
   borderWidth,
   fontSize,
+  mediaQuery,
   radius,
 } from '../../layout/tokens';
 
 const UnorderedListContainer = styled.ul`
   font-size: ${fontSize[3]};
   list-style-type: circle;
-  padding-left: 0;
+  padding-left: 1.2em;
+
+  @media (${mediaQuery.tablet}) {
+    padding-left: 0;
+  }
 
   li & {
     padding-left: 2rem;
