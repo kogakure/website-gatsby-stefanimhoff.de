@@ -309,6 +309,311 @@ exports[`Blockquote with author renders correctly 1`] = `
 `;
 
 exports[`Blockquote with author, source and URL renders correctly 1`] = `
+.c4 {
+  color: var(--colorText);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorLink);
+  text-decoration-color: var(--colorLink);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c4:hover,
+.c4:focus {
+  -webkit-text-decoration-color: var(--colorLinkActive);
+  text-decoration-color: var(--colorLinkActive);
+}
+
+.c1 {
+  font-style: italic;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: clamp(2.074rem,4.44vw,2.488rem);
+}
+
+.c1[lang|='ja'] {
+  font-style: normal;
+}
+
+.c1 p {
+  margin-bottom: clamp( 0.833rem,1.78vw,1.0rem);
+}
+
+.c1 p:first-child::before {
+  content: open-quote;
+  font-style: normal;
+}
+
+.c1 p:nth-of-type(1):first-letter {
+  margin-left: -0.4em;
+}
+
+.c1[lang|='de'] p:nth-of-type(1):first-letter {
+  margin-left: -0.6em;
+}
+
+.c1[lang|='ja'] p:nth-of-type(1):first-letter {
+  margin-left: -1em;
+}
+
+.c1 p:nth-last-of-type(1)::after {
+  content: close-quote;
+  font-style: normal;
+}
+
+.c2 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+}
+
+.c3 {
+  font-style: normal;
+}
+
+.c0 {
+  width: 90%;
+}
+
+@supports (not (text-decoration-color:red)) {
+  .c4:hover,
+  .c4:focus {
+    color: var(--colorLink);
+  }
+}
+
+<div
+  class="c0"
+>
+  <blockquote
+    class="c1"
+    lang="en"
+  >
+    <p>
+      Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
+    </p>
+    <footer
+      class="c2"
+    >
+      —
+      <b
+        class="c3"
+      >
+        Winston Churchill
+      </b>
+      , 
+      <cite
+        class=""
+      >
+        <a
+          class="c4"
+          href="https://api.parliament.uk/historic-hansard/commons/1947/nov/11/parliament-bill"
+        >
+          Speech to the House of Commons
+        </a>
+      </cite>
+    </footer>
+  </blockquote>
+</div>
+`;
+
+exports[`Blockquote with multiple paragraphs between paragraphs renders correctly 1`] = `
+.c1 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
+  margin-top: 0;
+}
+
+.c2 {
+  font-style: italic;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: clamp(2.074rem,4.44vw,2.488rem);
+}
+
+.c2[lang|='ja'] {
+  font-style: normal;
+}
+
+.c2 p {
+  margin-bottom: clamp( 0.833rem,1.78vw,1.0rem);
+}
+
+.c2 p:first-child::before {
+  content: open-quote;
+  font-style: normal;
+}
+
+.c2 p:nth-of-type(1):first-letter {
+  margin-left: -0.4em;
+}
+
+.c2[lang|='de'] p:nth-of-type(1):first-letter {
+  margin-left: -0.6em;
+}
+
+.c2[lang|='ja'] p:nth-of-type(1):first-letter {
+  margin-left: -1em;
+}
+
+.c2 p:nth-last-of-type(1)::after {
+  content: close-quote;
+  font-style: normal;
+}
+
+.c3 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+}
+
+.c4 {
+  font-style: normal;
+}
+
+.c0 {
+  width: 90%;
+}
+
+<div
+  class="c0"
+>
+  <p
+    class="c1"
+  >
+    Lorem ipsum dolor amet shoreditch tbh butcher 90's portland, keytar street art. Pork belly you probably haven't heard of them ethical post-ironic hella, cray kale chips fashion axe chillwave shabby chic man bun slow-carb unicorn. Live-edge intelligentsia tumblr quinoa man braid. Hexagon disrupt echo park brunch direct trade four dollar toast chartreuse, drinking vinegar wolf bushwick pork belly. Vexillologist sartorial literally venmo blog. Tumblr you probably haven't heard of them bitters swag waistcoat af. Deep v helvetica blog, paleo cardigan seitan kombucha normcore.
+  </p>
+  <blockquote
+    class="c2"
+    lang="en"
+  >
+    <p>
+      When you first rise in the morning tell yourself:
+    </p>
+    <p>
+      I will encounter busybodies, ingrates, egomaniacs, liars, the jealous and cranks. They are all stricken with these afflictions because they don’t know the difference between good and evil.
+    </p>
+    <p>
+      Because I have understood the beauty of good and the ugliness of evil, I know that these wrong-doers are still akin to me … and that none can do me harm, or implicate me in ugliness—nor can I be angry at my relatives or hate them. For we are made for cooperation.
+    </p>
+    <footer
+      class="c3"
+    >
+      —
+      <b
+        class="c4"
+      >
+        Marcus Aurelius
+      </b>
+      , 
+      <cite
+        class=""
+      >
+        Meditations, 2.1
+      </cite>
+    </footer>
+  </blockquote>
+  <p
+    class="c1"
+  >
+    Raclette butcher gastropub, pok pok squid freegan kitsch lyft lumbersexual quinoa seitan vaporware hammock organic. Woke synth bitters chia lyft vice forage blog hell of. Semiotics mlkshk next level brooklyn heirloom flannel. Jean shorts fam tumblr, direct trade franzen +1 flexitarian. Umami XOXO whatever lyft slow-carb kickstarter, health goth listicle glossier microdosing affogato meggings tote bag wolf williamsburg.
+  </p>
+</div>
+`;
+
+exports[`Blockquote with multiple paragraphs renders correctly 1`] = `
+.c1 {
+  font-style: italic;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: clamp(2.074rem,4.44vw,2.488rem);
+}
+
+.c1[lang|='ja'] {
+  font-style: normal;
+}
+
+.c1 p {
+  margin-bottom: clamp( 0.833rem,1.78vw,1.0rem);
+}
+
+.c1 p:first-child::before {
+  content: open-quote;
+  font-style: normal;
+}
+
+.c1 p:nth-of-type(1):first-letter {
+  margin-left: -0.4em;
+}
+
+.c1[lang|='de'] p:nth-of-type(1):first-letter {
+  margin-left: -0.6em;
+}
+
+.c1[lang|='ja'] p:nth-of-type(1):first-letter {
+  margin-left: -1em;
+}
+
+.c1 p:nth-last-of-type(1)::after {
+  content: close-quote;
+  font-style: normal;
+}
+
+.c2 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+}
+
+.c3 {
+  font-style: normal;
+}
+
+.c0 {
+  width: 90%;
+}
+
+<div
+  class="c0"
+>
+  <blockquote
+    class="c1"
+    lang="en"
+  >
+    <p>
+      When you first rise in the morning tell yourself:
+    </p>
+    <p>
+      I will encounter busybodies, ingrates, egomaniacs, liars, the jealous and cranks. They are all stricken with these afflictions because they don’t know the difference between good and evil.
+    </p>
+    <p>
+      Because I have understood the beauty of good and the ugliness of evil, I know that these wrong-doers are still akin to me … and that none can do me harm, or implicate me in ugliness—nor can I be angry at my relatives or hate them. For we are made for cooperation.
+    </p>
+    <footer
+      class="c2"
+    >
+      —
+      <b
+        class="c3"
+      >
+        Marcus Aurelius
+      </b>
+      , 
+      <cite
+        class=""
+      >
+        Meditations, 2.1
+      </cite>
+    </footer>
+  </blockquote>
+</div>
+`;
+
+exports[`Blockquote with source and URL renders correctly 1`] = `
 .c3 {
   color: var(--colorText);
   font-weight: 600;
@@ -325,7 +630,7 @@ exports[`Blockquote with author, source and URL renders correctly 1`] = `
   text-decoration-color: var(--colorLinkActive);
 }
 
-.c0 {
+.c1 {
   font-style: italic;
   margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
@@ -333,42 +638,42 @@ exports[`Blockquote with author, source and URL renders correctly 1`] = `
   margin-top: clamp(2.074rem,4.44vw,2.488rem);
 }
 
-.c0[lang|='ja'] {
+.c1[lang|='ja'] {
   font-style: normal;
 }
 
-.c0 p {
+.c1 p {
   margin-bottom: clamp( 0.833rem,1.78vw,1.0rem);
 }
 
-.c0 p:first-child::before {
+.c1 p:first-child::before {
   content: open-quote;
   font-style: normal;
 }
 
-.c0 p:nth-of-type(1):first-letter {
+.c1 p:nth-of-type(1):first-letter {
   margin-left: -0.4em;
 }
 
-.c0[lang|='de'] p:nth-of-type(1):first-letter {
+.c1[lang|='de'] p:nth-of-type(1):first-letter {
   margin-left: -0.6em;
 }
 
-.c0[lang|='ja'] p:nth-of-type(1):first-letter {
+.c1[lang|='ja'] p:nth-of-type(1):first-letter {
   margin-left: -1em;
 }
 
-.c0 p:nth-last-of-type(1)::after {
+.c1 p:nth-last-of-type(1)::after {
   content: close-quote;
   font-style: normal;
 }
 
-.c1 {
+.c2 {
   font-size: clamp(1.00rem,1.1vw,1.25rem);
 }
 
-.c2 {
-  font-style: normal;
+.c0 {
+  width: 90%;
 }
 
 @supports (not (text-decoration-color:red)) {
@@ -378,225 +683,33 @@ exports[`Blockquote with author, source and URL renders correctly 1`] = `
   }
 }
 
-<blockquote
+<div
   class="c0"
-  lang="en"
 >
-  <p>
-    Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
-  </p>
-  <footer
+  <blockquote
     class="c1"
+    lang="en"
   >
-    —
-    <b
+    <p>
+      Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
+    </p>
+    <footer
       class="c2"
     >
-      Winston Churchill
-    </b>
-    , 
-    <cite
-      class=""
-    >
-      <a
-        class="c3"
-        href="https://api.parliament.uk/historic-hansard/commons/1947/nov/11/parliament-bill"
+      —
+      <cite
+        class=""
       >
-        Speech to the House of Commons
-      </a>
-    </cite>
-  </footer>
-</blockquote>
-`;
-
-exports[`Blockquote with multiple paragraphs between paragraphs renders correctly 1`] = `
-.c0 {
-  font-size: clamp(1.00rem,1.1vw,1.25rem);
-  font-weight: 400;
-  -webkit-letter-spacing: normal;
-  -moz-letter-spacing: normal;
-  -ms-letter-spacing: normal;
-  letter-spacing: normal;
-  line-height: 1.6;
-  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
-  margin-top: 0;
-}
-
-<p
-  class="c0"
->
-  Lorem ipsum dolor amet shoreditch tbh butcher 90's portland, keytar street art. Pork belly you probably haven't heard of them ethical post-ironic hella, cray kale chips fashion axe chillwave shabby chic man bun slow-carb unicorn. Live-edge intelligentsia tumblr quinoa man braid. Hexagon disrupt echo park brunch direct trade four dollar toast chartreuse, drinking vinegar wolf bushwick pork belly. Vexillologist sartorial literally venmo blog. Tumblr you probably haven't heard of them bitters swag waistcoat af. Deep v helvetica blog, paleo cardigan seitan kombucha normcore.
-</p>
-`;
-
-exports[`Blockquote with multiple paragraphs renders correctly 1`] = `
-.c0 {
-  font-style: italic;
-  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: clamp(2.074rem,4.44vw,2.488rem);
-}
-
-.c0[lang|='ja'] {
-  font-style: normal;
-}
-
-.c0 p {
-  margin-bottom: clamp( 0.833rem,1.78vw,1.0rem);
-}
-
-.c0 p:first-child::before {
-  content: open-quote;
-  font-style: normal;
-}
-
-.c0 p:nth-of-type(1):first-letter {
-  margin-left: -0.4em;
-}
-
-.c0[lang|='de'] p:nth-of-type(1):first-letter {
-  margin-left: -0.6em;
-}
-
-.c0[lang|='ja'] p:nth-of-type(1):first-letter {
-  margin-left: -1em;
-}
-
-.c0 p:nth-last-of-type(1)::after {
-  content: close-quote;
-  font-style: normal;
-}
-
-.c1 {
-  font-size: clamp(1.00rem,1.1vw,1.25rem);
-}
-
-.c2 {
-  font-style: normal;
-}
-
-<blockquote
-  class="c0"
-  lang="en"
->
-  <p>
-    When you first rise in the morning tell yourself:
-  </p>
-  <p>
-    I will encounter busybodies, ingrates, egomaniacs, liars, the jealous and cranks. They are all stricken with these afflictions because they don’t know the difference between good and evil.
-  </p>
-  <p>
-    Because I have understood the beauty of good and the ugliness of evil, I know that these wrong-doers are still akin to me … and that none can do me harm, or implicate me in ugliness—nor can I be angry at my relatives or hate them. For we are made for cooperation.
-  </p>
-  <footer
-    class="c1"
-  >
-    —
-    <b
-      class="c2"
-    >
-      Marcus Aurelius
-    </b>
-    , 
-    <cite
-      class=""
-    >
-      Meditations, 2.1
-    </cite>
-  </footer>
-</blockquote>
-`;
-
-exports[`Blockquote with source and URL renders correctly 1`] = `
-.c2 {
-  color: var(--colorText);
-  font-weight: 600;
-  -webkit-text-decoration-color: var(--colorLink);
-  text-decoration-color: var(--colorLink);
-  -webkit-text-decoration-thickness: 0.1em;
-  text-decoration-thickness: 0.1em;
-  text-underline-offset: 0.1em;
-}
-
-.c2:hover,
-.c2:focus {
-  -webkit-text-decoration-color: var(--colorLinkActive);
-  text-decoration-color: var(--colorLinkActive);
-}
-
-.c0 {
-  font-style: italic;
-  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: clamp(2.074rem,4.44vw,2.488rem);
-}
-
-.c0[lang|='ja'] {
-  font-style: normal;
-}
-
-.c0 p {
-  margin-bottom: clamp( 0.833rem,1.78vw,1.0rem);
-}
-
-.c0 p:first-child::before {
-  content: open-quote;
-  font-style: normal;
-}
-
-.c0 p:nth-of-type(1):first-letter {
-  margin-left: -0.4em;
-}
-
-.c0[lang|='de'] p:nth-of-type(1):first-letter {
-  margin-left: -0.6em;
-}
-
-.c0[lang|='ja'] p:nth-of-type(1):first-letter {
-  margin-left: -1em;
-}
-
-.c0 p:nth-last-of-type(1)::after {
-  content: close-quote;
-  font-style: normal;
-}
-
-.c1 {
-  font-size: clamp(1.00rem,1.1vw,1.25rem);
-}
-
-@supports (not (text-decoration-color:red)) {
-  .c2:hover,
-  .c2:focus {
-    color: var(--colorLink);
-  }
-}
-
-<blockquote
-  class="c0"
-  lang="en"
->
-  <p>
-    Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
-  </p>
-  <footer
-    class="c1"
-  >
-    —
-    <cite
-      class=""
-    >
-      <a
-        class="c2"
-        href="https://api.parliament.uk/historic-hansard/commons/1947/nov/11/parliament-bill"
-      >
-        Speech to the House of Commons
-      </a>
-    </cite>
-  </footer>
-</blockquote>
+        <a
+          class="c3"
+          href="https://api.parliament.uk/historic-hansard/commons/1947/nov/11/parliament-bill"
+        >
+          Speech to the House of Commons
+        </a>
+      </cite>
+    </footer>
+  </blockquote>
+</div>
 `;
 
 exports[`Blockquote with source renders correctly 1`] = `
