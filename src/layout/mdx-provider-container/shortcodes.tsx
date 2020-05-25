@@ -22,6 +22,7 @@ import {
   Subline,
   Title,
 } from '../../components/typography';
+import { Row } from '../row';
 import { SEO } from '../seo';
 
 export const shortcodes = {
@@ -34,6 +35,7 @@ export const shortcodes = {
   KeyboardShortcut,
   Paragraph,
   Pullquote,
+  Row,
   RubyAnnotation,
   SEO,
   Sample,

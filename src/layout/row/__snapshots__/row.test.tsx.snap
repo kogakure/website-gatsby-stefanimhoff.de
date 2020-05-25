@@ -1,0 +1,979 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Row renders correctly 1`] = `
+.c0 {
+  background-color: lightgrey;
+  border: 1px dotted darkgrey;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 2 / -2;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+  justify-items: center;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      Default
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with "bigLeft" renders correctly 1`] = `
+.c0 {
+  background-color: lightgrey;
+  border: 1px dotted darkgrey;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 2 / -2;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -6;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      bigLeft
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with "bigRight" renders correctly 1`] = `
+.c0 {
+  background-color: lightgrey;
+  border: 1px dotted darkgrey;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 2 / -2;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 6 / -1;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      bigRight
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with "center" renders correctly 1`] = `
+.c0 {
+  background-color: lightgrey;
+  border: 1px dotted darkgrey;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 2 / -2;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+  justify-items: center;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      center
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with "end" renders correctly 1`] = `
+.c0 {
+  background-color: lightgrey;
+  border: 1px dotted darkgrey;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 2 / -2;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 2 / -2;
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+  -webkit-column-gap: 5.55vw;
+  column-gap: 5.55vw;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      end
+    </div>
+    <div
+      class="c3"
+    >
+      end
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with "fullSize" renders correctly 1`] = `
+.c0 {
+  background-color: lightgrey;
+  border: 1px dotted darkgrey;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 2 / -2;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      fullsize
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with "leftDown" renders correctly 1`] = `
+.c0 {
+  background-color: lightgrey;
+  border: 1px dotted darkgrey;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 2 / -2;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 2 / -2;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-column-gap: 5.55vw;
+  column-gap: 5.55vw;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.c1 > *:first-child {
+  margin-top: 11vw;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      leftDown
+    </div>
+    <div
+      class="c2"
+    >
+      leftDown
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with "leftOnly" renders correctly 1`] = `
+.c0 {
+  background-color: lightgrey;
+  border: 1px dotted darkgrey;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 2 / -2;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 2 / -2;
+  -webkit-column-gap: 5.55vw;
+  column-gap: 5.55vw;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.c1 > * {
+  grid-column: 1;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      leftOnly
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with "middle" renders correctly 1`] = `
+.c0 {
+  background-color: lightgrey;
+  border: 1px dotted darkgrey;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 2 / -2;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 2 / -2;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-column-gap: 5.55vw;
+  column-gap: 5.55vw;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      middle
+    </div>
+    <div
+      class="c3"
+    >
+      middle
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with "rightDown" renders correctly 1`] = `
+.c0 {
+  background-color: lightgrey;
+  border: 1px dotted darkgrey;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 2 / -2;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 2 / -2;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-column-gap: 5.55vw;
+  column-gap: 5.55vw;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.c1 > *:last-child {
+  margin-top: 11vw;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      rightDown
+    </div>
+    <div
+      class="c2"
+    >
+      rightDown
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with "rightOnly" renders correctly 1`] = `
+.c0 {
+  background-color: lightgrey;
+  border: 1px dotted darkgrey;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 2 / -2;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 2 / -2;
+  -webkit-column-gap: 5.55vw;
+  column-gap: 5.55vw;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.c1 > * {
+  grid-column: 2;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      rightOnly
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with "start" renders correctly 1`] = `
+.c0 {
+  background-color: lightgrey;
+  border: 1px dotted darkgrey;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 2 / -2;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 2 / -2;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-column-gap: 5.55vw;
+  column-gap: 5.55vw;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      start
+    </div>
+    <div
+      class="c3"
+    >
+      start
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with "variableEnd" renders correctly 1`] = `
+.c0 {
+  background-color: lightgrey;
+  border: 1px dotted darkgrey;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 2 / -2;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 5.55vw;
+}
+
+.c1 > * {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      variableEnd
+    </div>
+    <div
+      class="c2"
+    >
+      variableEnd
+    </div>
+    <div
+      class="c3"
+    >
+      variableEnd
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with "variableMiddle" renders correctly 1`] = `
+.c0 {
+  background-color: lightgrey;
+  border: 1px dotted darkgrey;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 2 / -2;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 5.55vw;
+}
+
+.c1 > * {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      variableMiddle
+    </div>
+    <div
+      class="c3"
+    >
+      variableMiddle
+    </div>
+    <div
+      class="c2"
+    >
+      variableMiddle
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with "variableStart" renders correctly 1`] = `
+.c0 {
+  background-color: lightgrey;
+  border: 1px dotted darkgrey;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 2 / -2;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 5.55vw;
+}
+
+.c1 > * {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      variableStart
+    </div>
+    <div
+      class="c3"
+    >
+      variableStart
+    </div>
+    <div
+      class="c3"
+    >
+      variableStart
+    </div>
+  </div>
+</section>
+`;
