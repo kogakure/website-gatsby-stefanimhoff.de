@@ -1,4 +1,4 @@
-import { AttributionData } from '../components/attribution';
+import { AttributionData } from '../../components/attribution';
 
 export type PostQueryData = {
   mdx: {

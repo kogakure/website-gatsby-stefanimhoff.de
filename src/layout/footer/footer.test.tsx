@@ -3,11 +3,11 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../services/test-utils';
 
-import { Footer } from './footer';
+import { Default } from './footer.stories';
 
 describe('Footer', () => {
   test('renders correctly', () => {
-    const { container } = render(<Footer />);
+    const { container } = render(<Default />);
     const mockDate = new Date(1590275951821);
     const spy = jest
       .spyOn(global, 'Date')
@@ -19,7 +19,7 @@ describe('Footer', () => {
   });
 
   test('is accessible', async () => {
-    const { container } = render(<Footer />);
+    const { container } = render(<Default />);
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();
