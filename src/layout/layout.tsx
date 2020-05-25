@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
 
+import { useLayoutQuery } from '../hooks';
+
 import { Header } from './header';
 import { Main, MainSize } from './main';
 import { Footer } from './footer';
@@ -16,12 +18,18 @@ export const Layout: React.FC<LayoutProps> = ({
   children,
   size = 'fullsize',
   variant,
-}) => (
-  <>
-    <SEO />
-    {variant && <Helmet bodyAttributes={{ class: variant }} />}
-    <Header />
-    <Main size={size}>{children}</Main>
-    <Footer />
-  </>
-);
+}) => {
+  const {
+    navigationYaml: { navigation },
+  } = useLayoutQuery();
+
+  return (
+    <>
+      <SEO />
+      {variant && <Helmet bodyAttributes={{ class: variant }} />}
+      <Header navigation={navigation} />
+      <Main size={size}>{children}</Main>
+      <Footer />
+    </>
+  );
+};

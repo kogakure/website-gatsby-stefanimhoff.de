@@ -1,5 +1,62 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`LocalizedDate changes the date text on click 1`] = `
+.c0 {
+  cursor: pointer;
+}
+
+<time
+  class="c0"
+  datetime="2020-01-17T18:00:00"
+>
+  17.01.2020
+</time>
+`;
+
+exports[`LocalizedDate changes the date text on click 2`] = `
+<time
+  class="sc-bdVaJa fVCJpx"
+  datetime="2020-01-17T18:00:00"
+>
+  2020
+  .c0 {
+  font-size: 0.7em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+
+<span
+    class="c0"
+  >
+    年
+  </span>
+  01
+  .c0 {
+  font-size: 0.7em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+
+<span
+    class="c0"
+  >
+    月
+  </span>
+  17
+  .c0 {
+  font-size: 0.7em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+
+<span
+    class="c0"
+  >
+    日
+  </span>
+</time>
+`;
+
 exports[`LocalizedDate renders correctly 1`] = `
 .c0 {
   cursor: pointer;

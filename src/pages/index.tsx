@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
-import { PostsQueryData } from '../typings/posts-query';
+import { PostsQueryData } from '../typings/graphql';
 import { Layout, SEO } from '../layout';
 import { LocalizedDate } from '../components/localized-date';
 import { TextLink } from '../components/text-link';

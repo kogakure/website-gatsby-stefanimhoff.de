@@ -2,7 +2,6 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import { useSiteMetadataQuery } from '../../hooks';
-import { SiteMetadataQueryData } from '../../typings/site-metadata-query-data';
 
 export type SEOProps = {
   article?: boolean;
@@ -27,7 +26,9 @@ export const SEO = ({
   robots = 'all',
   title,
 }: SEOProps) => {
-  const { site }: SiteMetadataQueryData = useSiteMetadataQuery();
+  const {
+    site: { siteMetadata },
+  } = useSiteMetadataQuery();
   const {
     author,
     description: defaultDescription,
@@ -38,7 +39,7 @@ export const SEO = ({
     title: defaultTitle,
     titleTemplate,
     twitterUsername,
-  } = site.siteMetadata;
+  } = siteMetadata;
 
   const seo = {
     description: description || defaultDescription,

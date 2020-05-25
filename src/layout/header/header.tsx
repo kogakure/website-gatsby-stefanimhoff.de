@@ -1,11 +1,17 @@
 import * as React from 'react';
 
+import { NavigationItem } from '../../typings/graphql';
+
 import { Styled } from './header.styles';
 
-export const Header: React.FC = () => (
+export type HeaderProps = {
+  navigation: NavigationItem[];
+};
+
+export const Header: React.FC<HeaderProps> = ({ navigation }) => (
   <Styled.Header role="banner">
     <Styled.GridHomeLink />
-    <Styled.GridNavigation />
+    <Styled.GridNavigation navigation={navigation} />
     <Styled.GridThemeToggle />
   </Styled.Header>
 );

@@ -1,9 +1,8 @@
 import React from 'react';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
-import { PostPageContextData } from '../typings/post-page-context';
-import { PostQueryData } from '../typings/post-query';
+import { PostPageContextData, PostQueryData } from '../typings/graphql';
 import { Layout, SEO } from '../layout';
 import { MDXProviderContainer } from '../layout/mdx-provider-container';
 import { Attribution } from '../components/attribution';
