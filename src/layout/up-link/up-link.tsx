@@ -14,7 +14,7 @@ const scrollToTop = (e: React.MouseEvent) => {
 export const UpLink: React.FC = ({ ...props }) => (
   <Styled.ArrowLink href="#top" onClick={scrollToTop} {...props}>
     <Styled.Button type="button" aria-label="Back to top">
-      <Styled.Arrow />
+      <Styled.Arrow aria-hidden="true" />
     </Styled.Button>
   </Styled.ArrowLink>
 );

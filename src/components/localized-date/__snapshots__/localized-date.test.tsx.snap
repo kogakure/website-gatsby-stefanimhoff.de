@@ -1,13 +1,79 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`LocalizedDate changes the date text on Enter keyUp 1`] = `
+.c0 {
+  cursor: pointer;
+}
+
+<time
+  aria-label="Toggle date format"
+  class="c0"
+  datetime="2020-01-17T18:00:00"
+  role="button"
+  tabindex="0"
+>
+  17.01.2020
+</time>
+`;
+
+exports[`LocalizedDate changes the date text on Enter keyUp 2`] = `
+<time
+  aria-label="Toggle date format"
+  class="sc-bdVaJa fVCJpx"
+  datetime="2020-01-17T18:00:00"
+  role="button"
+  tabindex="0"
+>
+  2020
+  .c0 {
+  font-size: 0.7em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+
+<span
+    class="c0"
+  >
+    年
+  </span>
+  01
+  .c0 {
+  font-size: 0.7em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+
+<span
+    class="c0"
+  >
+    月
+  </span>
+  17
+  .c0 {
+  font-size: 0.7em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+
+<span
+    class="c0"
+  >
+    日
+  </span>
+</time>
+`;
+
 exports[`LocalizedDate changes the date text on click 1`] = `
 .c0 {
   cursor: pointer;
 }
 
 <time
+  aria-label="Toggle date format"
   class="c0"
   datetime="2020-01-17T18:00:00"
+  role="button"
+  tabindex="0"
 >
   17.01.2020
 </time>
@@ -15,8 +81,11 @@ exports[`LocalizedDate changes the date text on click 1`] = `
 
 exports[`LocalizedDate changes the date text on click 2`] = `
 <time
+  aria-label="Toggle date format"
   class="sc-bdVaJa fVCJpx"
   datetime="2020-01-17T18:00:00"
+  role="button"
+  tabindex="0"
 >
   2020
   .c0 {
@@ -63,8 +132,11 @@ exports[`LocalizedDate renders correctly 1`] = `
 }
 
 <time
+  aria-label="Toggle date format"
   class="c0"
   datetime="2020-01-17T18:00:00"
+  role="button"
+  tabindex="0"
 >
   January 17th, 2020
 </time>

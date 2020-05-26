@@ -53,8 +53,12 @@ export const LocalizedDate: React.FC<LocalizedDateProps> = ({
 
   return (
     <Styled.LocalizedDateContainer
+      aria-label="Toggle date format"
       dateTime={date}
       onClick={toggleLanguage}
+      onKeyUp={(e) => e.key === 'Enter' && toggleLanguage()}
+      role="button"
+      tabIndex={0}
       {...props}
     >
       {string}
