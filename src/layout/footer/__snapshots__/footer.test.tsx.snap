@@ -22,7 +22,7 @@ exports[`Footer renders correctly 1`] = `
 }
 
 .c4 {
-  fill: var(--colorText);
+  fill: var(--colorForeground);
   font-size: 1.2rem;
 }
 
@@ -71,19 +71,17 @@ exports[`Footer renders correctly 1`] = `
 }
 
 .c9 {
-  color: var(--colorText);
+  color: var(--colorForeground);
   -webkit-text-decoration: none;
   text-decoration: none;
-  -webkit-text-decoration-color: var(--colorLink);
-  text-decoration-color: var(--colorLink);
 }
 
 .c9:hover,
 .c9:focus {
   -webkit-text-decoration: underline;
   text-decoration: underline;
-  -webkit-text-decoration-color: var(--colorLinkActive) !important;
-  text-decoration-color: var(--colorLinkActive) !important;
+  -webkit-text-decoration-color: var(--colorAccent) !important;
+  text-decoration-color: var(--colorAccent) !important;
   -webkit-text-decoration-thickness: 0.15em;
   text-decoration-thickness: 0.15em;
   text-underline-offset: 0.15em;
@@ -101,7 +99,7 @@ exports[`Footer renders correctly 1`] = `
   display: grid;
   grid-template-columns: repeat(18,1fr);
   grid-template-rows: clamp(50px,5.55vw,150px);
-  margin-top: 11vw;
+  margin-top: 5.55vw;
 }
 
 .c6 {
@@ -116,13 +114,6 @@ exports[`Footer renders correctly 1`] = `
   grid-column: -2;
   grid-row: 1;
   justify-self: center;
-}
-
-@supports (not (text-decoration-color:red)) {
-  .c9:hover,
-  .c9:focus {
-    color: var(--colorLink);
-  }
 }
 
 <footer

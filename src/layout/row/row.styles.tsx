@@ -166,7 +166,7 @@ const Row = styled.section<{ debug?: boolean; marginBottom?: boolean }>`
   ${({ debug }) =>
     debug &&
     css`
-      background-color: lightgrey;
+      background-color: var(--colorForegroundFeather);
       border: 1px dotted darkgrey;
       width: 100%;
     `};

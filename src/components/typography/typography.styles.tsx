@@ -12,7 +12,7 @@ const autoLinkBaseStyles = css`
   & .autolink {
     background: transparent;
     display: inline-flex;
-    fill: var(--colorText);
+    fill: var(--colorForeground);
     margin-left: ${space[2]};
     opacity: 0;
     vertical-align: middle;
@@ -40,7 +40,7 @@ const Title = styled.h1`
   ${autoLinkBaseStyles};
 `;
 
-const Headline = styled.h1`
+const Headline = styled.h2`
   font-size: ${fontSize[5]};
   font-weight: ${fontWeight.black};
   letter-spacing: normal;
@@ -50,7 +50,7 @@ const Headline = styled.h1`
   ${autoLinkBaseStyles};
 `;
 
-const Subline = styled.h2`
+const Subline = styled.h3`
   font-size: ${fontSize[4]};
   font-weight: ${fontWeight.black};
   letter-spacing: normal;

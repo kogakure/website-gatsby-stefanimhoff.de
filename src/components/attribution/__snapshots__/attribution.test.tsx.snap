@@ -2,10 +2,10 @@
 
 exports[`Attribution renders correctly 1`] = `
 .c1 {
-  color: var(--colorText);
+  color: var(--colorForeground);
   font-weight: 600;
-  -webkit-text-decoration-color: var(--colorLink);
-  text-decoration-color: var(--colorLink);
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
   -webkit-text-decoration-thickness: 0.1em;
   text-decoration-thickness: 0.1em;
   text-underline-offset: 0.1em;
@@ -13,20 +13,13 @@ exports[`Attribution renders correctly 1`] = `
 
 .c1:hover,
 .c1:focus {
-  -webkit-text-decoration-color: var(--colorLinkActive);
-  text-decoration-color: var(--colorLinkActive);
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
 }
 
 .c0 {
   list-style: none;
   padding: 0;
-}
-
-@supports (not (text-decoration-color:red)) {
-  .c1:hover,
-  .c1:focus {
-    color: var(--colorLink);
-  }
 }
 
 <ul
@@ -51,10 +44,10 @@ exports[`Attribution renders correctly 1`] = `
 
 exports[`Attribution with author and link renders correctly 1`] = `
 .c1 {
-  color: var(--colorText);
+  color: var(--colorForeground);
   font-weight: 600;
-  -webkit-text-decoration-color: var(--colorLink);
-  text-decoration-color: var(--colorLink);
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
   -webkit-text-decoration-thickness: 0.1em;
   text-decoration-thickness: 0.1em;
   text-underline-offset: 0.1em;
@@ -62,20 +55,13 @@ exports[`Attribution with author and link renders correctly 1`] = `
 
 .c1:hover,
 .c1:focus {
-  -webkit-text-decoration-color: var(--colorLinkActive);
-  text-decoration-color: var(--colorLinkActive);
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
 }
 
 .c0 {
   list-style: none;
   padding: 0;
-}
-
-@supports (not (text-decoration-color:red)) {
-  .c1:hover,
-  .c1:focus {
-    color: var(--colorLink);
-  }
 }
 
 <ul
@@ -114,10 +100,10 @@ exports[`Attribution with author renders correctly 1`] = `
 
 exports[`Attribution with multiple attributions renders correctly 1`] = `
 .c1 {
-  color: var(--colorText);
+  color: var(--colorForeground);
   font-weight: 600;
-  -webkit-text-decoration-color: var(--colorLink);
-  text-decoration-color: var(--colorLink);
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
   -webkit-text-decoration-thickness: 0.1em;
   text-decoration-thickness: 0.1em;
   text-underline-offset: 0.1em;
@@ -125,20 +111,13 @@ exports[`Attribution with multiple attributions renders correctly 1`] = `
 
 .c1:hover,
 .c1:focus {
-  -webkit-text-decoration-color: var(--colorLinkActive);
-  text-decoration-color: var(--colorLinkActive);
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
 }
 
 .c0 {
   list-style: none;
   padding: 0;
-}
-
-@supports (not (text-decoration-color:red)) {
-  .c1:hover,
-  .c1:focus {
-    color: var(--colorLink);
-  }
 }
 
 <ul

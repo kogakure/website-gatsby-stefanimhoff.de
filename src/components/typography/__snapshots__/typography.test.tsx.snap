@@ -2,7 +2,7 @@
 
 exports[`Typography Headline renders correctly 1`] = `
 .c0 {
-  font-size: clamp(2.00rem,2.9vw,3.25rem);
+  font-size: clamp(1.50rem,2.9vw,3.25rem);
   font-weight: 900;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -19,7 +19,7 @@ exports[`Typography Headline renders correctly 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  fill: var(--colorText);
+  fill: var(--colorForeground);
   margin-left: clamp( 0.335rem,0.72vw,0.402rem);
   opacity: 0;
   vertical-align: middle;
@@ -41,11 +41,11 @@ exports[`Typography Headline renders correctly 1`] = `
   }
 }
 
-<h1
+<h2
   class="c0"
 >
   Headline
-</h1>
+</h2>
 `;
 
 exports[`Typography Paragraph renders correctly 1`] = `
@@ -87,7 +87,7 @@ exports[`Typography Subline renders correctly 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  fill: var(--colorText);
+  fill: var(--colorForeground);
   margin-left: clamp( 0.335rem,0.72vw,0.402rem);
   opacity: 0;
   vertical-align: middle;
@@ -109,16 +109,16 @@ exports[`Typography Subline renders correctly 1`] = `
   }
 }
 
-<h2
+<h3
   class="c0"
 >
   Subline
-</h2>
+</h3>
 `;
 
 exports[`Typography Title renders correctly 1`] = `
 .c0 {
-  font-size: clamp(3.25rem,4.7vw,5.30rem);
+  font-size: clamp(2.25rem,4.7vw,5.30rem);
   font-weight: 900;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
@@ -135,7 +135,7 @@ exports[`Typography Title renders correctly 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  fill: var(--colorText);
+  fill: var(--colorForeground);
   margin-left: clamp( 0.335rem,0.72vw,0.402rem);
   opacity: 0;
   vertical-align: middle;

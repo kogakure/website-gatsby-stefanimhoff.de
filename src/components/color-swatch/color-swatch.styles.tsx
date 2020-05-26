@@ -4,7 +4,7 @@ import { Information as InformationIcon } from '../icons';
 import { borderStyle, borderWidth, radius, shadow } from '../../layout/tokens';
 
 const ColorSwatchContainer = styled.div`
-  border-color: var(--colorTextSoft);
+  border-color: var(--colorForegroundSoft);
   border-radius: ${radius[2]};
   border-style: ${borderStyle.solid};
   border-width: ${borderWidth[1]};
@@ -35,7 +35,7 @@ const Toggle = styled.div`
 `;
 
 const Icon = styled(InformationIcon)`
-  fill: var(--colorTextFullContrast);
+  fill: var(--colorForegroundFullContrast);
   font-size: 1rem;
 `;
 
@@ -43,7 +43,7 @@ const Information = styled.div`
   background: var(--colorBackgroundFullContrast);
   border-bottom-left-radius: ${radius[2]};
   border-bottom-right-radius: ${radius[2]};
-  color: var(--colorTextFullContrast);
+  color: var(--colorForegroundFullContrast);
   min-height: 8rem;
   padding: 0.8rem 0.6rem;
   position: relative;

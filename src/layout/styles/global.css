@@ -12,7 +12,7 @@ html {
 
 body {
   background-color: var(--colorBackground);
-  color: var(--colorText);
+  color: var(--colorForeground);
   font-family: 'Playfair Display Webfont', 'Georgia', serif;
   line-height: 1.6;
 }
@@ -42,7 +42,11 @@ body samp {
 }
 
 .code-block {
+  border-color: var(--colorForegroundSoft);
+  border-style: solid;
+  border-width: 1px;
   margin-bottom: clamp(2.074rem, 4.44vw, 2.488rem);
+  margin-top: clamp(2.074rem, 4.44vw, 2.488rem);
   overflow-y: auto;
 }
 

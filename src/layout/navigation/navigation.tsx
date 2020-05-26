@@ -22,7 +22,7 @@ export const Navigation: React.FC<NavigationProps> = ({
               textDecoration: 'underline',
               textDecorationThickness: '0.1em',
               textUnderlineOffset: '0.1em',
-              textDecorationColor: 'var(--colorLink)',
+              textDecorationColor: 'var(--colorForegroundSoft)',
             }}
           >
             {item.text}

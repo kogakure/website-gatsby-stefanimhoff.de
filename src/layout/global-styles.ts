@@ -11,74 +11,72 @@ export const GlobalStyles = createGlobalStyle`
     --colorAccent: ${lightColors.accent};
     --colorBackground: ${lightColors.background};
     --colorBackgroundFullContrast: ${lightColors.backgroundFullContrast};
-    --colorLink: ${lightColors.linkUnderline};
-    --colorLinkActive: ${lightColors.linkUnderlineActive};
-    --colorLogo: ${lightColors.logo};
-    --colorText: ${lightColors.text};
-    --colorTextFullContrast: ${lightColors.textFullContrast};
-    --colorTextSoft: ${lightColors.textSoft};
-    --colorTextSoftInverse: ${lightColors.borderSoftInverse};
-    --colorTextStrong: ${lightColors.textStrong};
-    --colorTextStrongInverse: ${lightColors.textStrongInverse};
+    --colorCodeBackground: #282c34;
+    --colorCodeForeground: #abb2bf;
+    --colorForeground: ${lightColors.foreground};
+    --colorForegroundFeaterInverse: ${lightColors.foregroundFeatherInverse};
+    --colorForegroundFeather: ${lightColors.foregroundFeather};
+    --colorForegroundFullContrast: ${lightColors.foregroundFullContrast};
+    --colorForegroundSoft: ${lightColors.foregroundSoft};
+    --colorForegroundSoftInverse: ${lightColors.foregroundSoftInverse};
+    --colorForegroundStrong: ${lightColors.foregroundStrong};
+    --colorForegroundStrongInverse: ${lightColors.foregroundStrongInverse};
     --opacityDark: 1;
     --opacityLight: 0;
-    --colorCodeText: #abb2bf;
-    --colorCodeBackground: #282c34;
   }
 
   .dark {
     --colorAccent: ${darkColors.accent};
     --colorBackground: ${darkColors.background};
     --colorBackgroundFullContrast: ${darkColors.backgroundFullContrast};
-    --colorLink: ${darkColors.linkUnderline};
-    --colorLinkActive: ${darkColors.linkUnderlineActive};
-    --colorLogo: ${darkColors.logo};
-    --colorText: ${darkColors.text};
-    --colorTextFullContrast: ${darkColors.textFullContrast};
-    --colorTextSoft: ${darkColors.textSoft};
-    --colorTextSoftInverse: ${darkColors.borderSoftInverse};
-    --colorTextStrong: ${darkColors.textStrong};
-    --colorTextStrongInverse: ${darkColors.textStrongInverse};
+    --colorCodeBackground: #282c34;
+    --colorCodeForeground: #abb2bf;
+    --colorForeground: ${darkColors.foreground};
+    --colorForegroundFeather: ${darkColors.foregroundFeather};
+    --colorForegroundFeatherInverse: ${darkColors.foregroundFeatherInverse};
+    --colorForegroundFullContrast: ${darkColors.foregroundFullContrast};
+    --colorForegroundSoft: ${darkColors.foregroundSoft};
+    --colorForegroundSoftInverse: ${darkColors.foregroundSoftInverse};
+    --colorForegroundStrong: ${darkColors.foregroundStrong};
+    --colorForegroundStrongInverse: ${darkColors.foregroundStrongInverse};
     --opacityDark: 0;
     --opacityLight: 1;
-    --colorCodeText: #abb2bf;
-    --colorCodeBackground: #282c34;
   }
 
   .light .green {
+    --colorAccent: ${lightColors.accentGreen};
     --colorBackground: ${lightColors.backgroundGreen};
-    --colorLogo: ${lightColors.logoGreen};
-    --colorText: ${lightColors.textGreen};
+    --colorForeground: ${lightColors.foregroundGreen};
   }
 
   .dark .green {
+    --colorAccent: ${lightColors.accentGreen};
     --colorBackground: ${darkColors.backgroundGreen};
-    --colorLogo: ${darkColors.logoGreen};
-    --colorText: ${darkColors.textGreen};
+    --colorForeground: ${darkColors.foregroundGreen};
   }
 
   .light .blue {
+    --colorAccent: ${lightColors.accentBlue};
     --colorBackground: ${lightColors.backgroundBlue};
-    --colorLogo: ${lightColors.logoBlue};
-    --colorText: ${lightColors.textBlue};
+    --colorForeground: ${lightColors.foregroundBlue};
   }
 
   .dark .blue {
+    --colorAccent: ${lightColors.accentBlue};
     --colorBackground: ${darkColors.backgroundBlue};
-    --colorLogo: ${darkColors.logoBlue};
-    --colorText: ${darkColors.textBlue};
+    --colorForeground: ${darkColors.foregroundBlue};
   }
 
   .light .brown {
+    --colorAccent: ${lightColors.accentBrown};
     --colorBackground: ${lightColors.backgroundBrown};
-    --colorLogo: ${lightColors.logoBrown};
-    --colorText: ${lightColors.textBrown};
+    --colorForeground: ${lightColors.foregroundBrown};
   }
 
   .dark .brown {
+    --colorAccent: ${lightColors.accentBrown};
     --colorBackground: ${darkColors.backgroundBrown};
-    --colorLogo: ${darkColors.logoBrown};
-    --colorText: ${darkColors.textBrown};
+    --colorForeground: ${darkColors.foregroundBrown};
   }
 
   p {

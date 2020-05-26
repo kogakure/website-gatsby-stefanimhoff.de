@@ -4,7 +4,7 @@ import { space, borderStyle, borderWidth } from '../../layout/tokens';
 
 const HorizontalRule = styled.hr`
   border-bottom-width: ${borderWidth[1]};
-  border-color: var(--colorTextSoftInverse);
+  border-color: var(--colorForegroundSoft);
   border-left-width: 0;
   border-right-width: 0;
   border-style: ${borderStyle.solid};

@@ -22,7 +22,7 @@ exports[`HomeLink renders correctly 1`] = `
 }
 
 .c2 {
-  fill: var(--colorText);
+  fill: var(--colorForeground);
   font-size: 1.2rem;
 }
 

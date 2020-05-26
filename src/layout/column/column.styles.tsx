@@ -8,6 +8,13 @@ export const variants = {
   fullsize: css`
     grid-column: 1 / -1;
   `,
+  regular: css`
+    grid-column: 2 / -2;
+
+    @media (${mediaQuery.tablet}) {
+      grid-column: 3 / -3;
+    }
+  `,
   narrow: css`
     grid-column: 2 / -2;
 
@@ -19,24 +26,13 @@ export const variants = {
       grid-column: 7 / -7;
     }
   `,
-  regular: css`
-    grid-column: 2 / -2;
-
-    @media (${mediaQuery.tablet}) {
-      grid-column: 3 / -3;
-    }
-
-    @media (${mediaQuery.desktop}) {
-      grid-column: 6 / -6;
-    }
-  `,
 };
 
 const Column = styled.div<ColumnProps>`
   ${({ debug }) =>
     debug &&
     css`
-      background-color: lightgrey;
+      background-color: var(--colorForegroundFeather);
       border: 1px dotted darkgrey;
       width: 100%;
     `};
