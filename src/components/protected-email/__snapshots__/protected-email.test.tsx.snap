@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProtectedEmail renders correctly 1`] = `
+.c1 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c1:hover,
+.c1:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c0 {
+  background: transparent;
+}
+
+<span
+  class="c0"
+  role="button"
+  tabindex="0"
+>
+  <a
+    class="c1"
+    href="#"
+  >
+    Email
+  </a>
+</span>
+`;
+
+exports[`ProtectedEmail with custom title renders correctly 1`] = `
+.c1 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c1:hover,
+.c1:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c0 {
+  background: transparent;
+}
+
+<span
+  class="c0"
+  role="button"
+  tabindex="0"
+>
+  <a
+    class="c1"
+    href="#"
+  >
+    Email me today!
+  </a>
+</span>
+`;
+
+exports[`ProtectedEmail without GPG key download option renders correctly 1`] = `
+.c1 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c1:hover,
+.c1:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c0 {
+  background: transparent;
+}
+
+<span
+  class="c0"
+  role="button"
+  tabindex="0"
+>
+  <a
+    class="c1"
+    href="#"
+  >
+    Email
+  </a>
+</span>
+`;

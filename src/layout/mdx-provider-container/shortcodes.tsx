@@ -7,6 +7,7 @@ import { InlineQuote } from '../../components/inline-quote';
 import { KeyboardShortcut } from '../../components/keyboard-shortcut';
 import { Mark } from '../../components/mark';
 import { OrderedList } from '../../components/ordered-list';
+import { ProtectedEmail } from '../../components/protected-email';
 import { Pullquote } from '../../components/pullquote';
 import { RubyAnnotation } from '../../components/ruby-annotation';
 import { Sample } from '../../components/sample';
@@ -36,6 +37,7 @@ export const shortcodes = {
   InlineQuote,
   KeyboardShortcut,
   Paragraph,
+  ProtectedEmail,
   Pullquote,
   Row,
   RubyAnnotation,
