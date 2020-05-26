@@ -1,5 +1,5 @@
 - navigation:
-    - text: "About"
-      url: "/about/"
-    - text: "Projects"
-      url: "/projects/"
+    - text: 'About'
+      url: '/about/'
+    - text: 'Projects'
+      url: '/projects/'

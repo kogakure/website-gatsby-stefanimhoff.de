@@ -2,12 +2,12 @@ import React from 'react';
 
 import { Column, Layout, MDXProviderContainer } from '../layout';
 
-const DefaultTemplate: React.FC = ({ children }) => (
+const FullsizeTemplate: React.FC = ({ children }) => (
   <Layout>
     <MDXProviderContainer>
-      <Column variant="regular">{children}</Column>
+      <Column variant="fullsize">{children}</Column>
     </MDXProviderContainer>
   </Layout>
 );
 
-export default DefaultTemplate;
+export default FullsizeTemplate;
