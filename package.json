@@ -36,7 +36,7 @@
     "start": "run-p start:**",
     "start:gatsby": "gatsby develop -H 0.0.0.0 -o",
     "start:storybook": "start-storybook -p 9000 -c .storybook",
-    "svg": "svgr --icon --filename-case kebab --template ./templates/svgr/icon.js --index-template templates/svgr/icon-index.js --ext tsx -d src/components/icons src/components/icons/svg",
+    "svg": "svgr --icon --filename-case kebab --template scripts/templates/svgr/icon.js --index-template scripts/templates/svgr/icon-index.js --ext tsx -d src/components/icons src/components/icons/svg",
     "test": "is-ci 'test:coverage' 'test:watch'",
     "test:coverage": "jest --coverage",
     "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand --watch",
