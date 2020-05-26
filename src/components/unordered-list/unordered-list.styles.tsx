@@ -6,11 +6,13 @@ import {
   fontSize,
   mediaQuery,
   radius,
+  space,
 } from '../../layout/tokens';
 
 const UnorderedListContainer = styled.ul`
   font-size: ${fontSize[3]};
   list-style-type: circle;
+  margin-bottom: ${space[12]};
   padding-left: 1.2em;
 
   @media (${mediaQuery.tablet}) {

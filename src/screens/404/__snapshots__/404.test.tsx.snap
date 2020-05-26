@@ -99,7 +99,7 @@ exports[`404 Title404 renders correctly 1`] = `
 
 @media (min-width:1200px) {
   .c1 {
-    grid-column: 1 / -8;
+    grid-column: 1 / -9;
   }
 }
 

@@ -4,8 +4,8 @@ const Button = styled.button`
   background: transparent;
   border: 0;
   cursor: pointer;
-  height: 40px;
-  width: 40px;
+  height: 20px;
+  width: 20px;
 `;
 
 export const Emoji = styled.span`
