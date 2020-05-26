@@ -15,7 +15,7 @@ export const Title404 = styled(Title)`
   z-index: 1;
 
   @media (${mediaQuery.desktop}) {
-    grid-column: 1 / -8;
+    grid-column: 1 / -9;
   }
 `;
 

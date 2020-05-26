@@ -11,13 +11,12 @@ export type EmojifyProps = {
 
 export const Emojify: React.FC<EmojifyProps> = ({ emoji, ...props }) => {
   const { emojified } = React.useContext(EmojifyContext);
+  const emojiText = unicode.get(emoji);
+  const emojiLabel =
+    emojiText === undefined ? 'emoji' : String(emojiText.replace('_', ' '));
 
   return emojified ? (
-    <Styled.Emoji
-      role="img"
-      aria-label={unicode.get(emoji) || 'emoji'}
-      {...props}
-    >
+    <Styled.Emoji role="img" aria-label={emojiLabel} {...props}>
       {' '}
       {emoji}{' '}
     </Styled.Emoji>

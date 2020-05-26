@@ -17,8 +17,8 @@ exports[`Emojify renders correctly 1`] = `
   background: transparent;
   border: 0;
   cursor: pointer;
-  height: 40px;
-  width: 40px;
+  height: 20px;
+  width: 20px;
 }
 
 .c2 {

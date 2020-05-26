@@ -1,6 +1,7 @@
 import { Blockquote } from '../../components/blockquote';
 import { ColorSwatch } from '../../components/color-swatch';
 import { Emojify } from '../emojify';
+import { EmojifyToggle } from '../emojify-toggle';
 import { HorizontalRule } from '../../components/horizontal-rule';
 import { InlineCode } from '../../components/inline-code';
 import { InlineQuote } from '../../components/inline-quote';
@@ -32,6 +33,7 @@ export const shortcodes = {
   Blockquote,
   ColorSwatch,
   Emojify,
+  EmojifyToggle,
   Grid,
   Headline,
   InlineQuote,

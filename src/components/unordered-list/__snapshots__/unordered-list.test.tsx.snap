@@ -4,6 +4,7 @@ exports[`UnorderedList renders correctly 1`] = `
 .c0 {
   font-size: clamp(1.00rem,1.1vw,1.25rem);
   list-style-type: circle;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   padding-left: 1.2em;
 }
 
