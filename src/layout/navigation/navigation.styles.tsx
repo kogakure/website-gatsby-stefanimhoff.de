@@ -14,20 +14,15 @@ const Item = styled.li`
 `;
 
 const ItemLink = styled(Link)`
-  color: var(--colorText);
+  color: var(--colorForeground);
   text-decoration: none;
-  text-decoration-color: var(--colorLink);
 
   &:hover,
   &:focus {
     text-decoration: underline;
-    text-decoration-color: var(--colorLinkActive) !important;
+    text-decoration-color: var(--colorAccent) !important;
     text-decoration-thickness: 0.1em;
     text-underline-offset: 0.1em;
-
-    @supports (not (text-decoration-color: red)) {
-      color: var(--colorLink);
-    }
   }
 `;
 

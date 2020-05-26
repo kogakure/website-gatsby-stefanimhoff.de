@@ -29,7 +29,7 @@ const UnorderedListContainer = styled.ul`
     input[type='checkbox'] {
       appearance: none;
       background: transparent;
-      border-color: var(--colorTextSoftInverse);
+      border-color: var(--colorForegroundSoft);
       border-radius: ${radius[25]};
       border-style: ${borderStyle.solid};
       border-width: ${borderWidth[10]};
@@ -45,7 +45,7 @@ const UnorderedListContainer = styled.ul`
 
       &:after {
         border-bottom-width: ${borderWidth[15]};
-        border-color: var(--colorText);
+        border-color: var(--colorForeground);
         border-left-color: transparent;
         border-left-width: 0;
         border-right-width: ${borderWidth[15]};

@@ -22,7 +22,7 @@ exports[`ThemeToggle renders correctly 1`] = `
 }
 
 .c1 {
-  fill: var(--colorText);
+  fill: var(--colorForeground);
   font-size: 0.8rem;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;

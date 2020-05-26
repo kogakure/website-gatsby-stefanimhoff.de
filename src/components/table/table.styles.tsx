@@ -9,7 +9,7 @@ const Table = styled.table`
   width: 100%;
 
   td {
-    border-top-color: var(--colorTextSoftInverse);
+    border-top-color: var(--colorForegroundSoft);
     border-top-style: ${borderStyle.solid};
     border-top-width: ${borderWidth[1]};
   }

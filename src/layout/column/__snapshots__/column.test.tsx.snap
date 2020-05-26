@@ -15,7 +15,7 @@ exports[`Column renders correctly 1`] = `
 }
 
 .c2 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   grid-column: 1 / -1;
@@ -72,7 +72,7 @@ exports[`Column with "fullsize" renders correctly 1`] = `
 }
 
 .c2 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   grid-column: 1 / -1;
@@ -129,7 +129,7 @@ exports[`Column with "narrow" renders correctly 1`] = `
 }
 
 .c2 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   grid-column: 2 / -2;
@@ -198,7 +198,7 @@ exports[`Column with "regular" renders correctly 1`] = `
 }
 
 .c2 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   grid-column: 2 / -2;
@@ -224,12 +224,6 @@ exports[`Column with "regular" renders correctly 1`] = `
 @media (min-width:768px) {
   .c2 {
     grid-column: 3 / -3;
-  }
-}
-
-@media (min-width:1200px) {
-  .c2 {
-    grid-column: 6 / -6;
   }
 }
 

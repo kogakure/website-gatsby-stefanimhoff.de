@@ -22,7 +22,7 @@ exports[`Layout renders correctly 1`] = `
 }
 
 .c11 {
-  fill: var(--colorText);
+  fill: var(--colorForeground);
   font-size: 0.8rem;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -58,7 +58,7 @@ exports[`Layout renders correctly 1`] = `
 }
 
 .c4 {
-  fill: var(--colorText);
+  fill: var(--colorForeground);
   font-size: 1.2rem;
 }
 
@@ -97,19 +97,17 @@ exports[`Layout renders correctly 1`] = `
 }
 
 .c8 {
-  color: var(--colorText);
+  color: var(--colorForeground);
   -webkit-text-decoration: none;
   text-decoration: none;
-  -webkit-text-decoration-color: var(--colorLink);
-  text-decoration-color: var(--colorLink);
 }
 
 .c8:hover,
 .c8:focus {
   -webkit-text-decoration: underline;
   text-decoration: underline;
-  -webkit-text-decoration-color: var(--colorLinkActive) !important;
-  text-decoration-color: var(--colorLinkActive) !important;
+  -webkit-text-decoration-color: var(--colorAccent) !important;
+  text-decoration-color: var(--colorAccent) !important;
   -webkit-text-decoration-thickness: 0.1em;
   text-decoration-thickness: 0.1em;
   text-underline-offset: 0.1em;
@@ -143,13 +141,6 @@ exports[`Layout renders correctly 1`] = `
   align-self: center;
   grid-column: -2;
   justify-self: center;
-}
-
-@supports (not (text-decoration-color:red)) {
-  .c8:hover,
-  .c8:focus {
-    color: var(--colorLink);
-  }
 }
 
 <header

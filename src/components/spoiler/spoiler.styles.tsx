@@ -6,8 +6,8 @@ import { SpoilerProps } from '.';
 
 const Spoiler = styled.span<SpoilerProps & { spoiler: boolean }>`
   background: ${({ spoiler }) =>
-    spoiler ? 'var(--colorText)' : 'var(--colorBackground)'};
-  color: var(--colorText);
+    spoiler ? 'var(--colorForeground)' : 'var(--colorBackground)'};
+  color: var(--colorForeground);
   cursor: ${({ spoiler }) => (spoiler ? 'help' : 'default')};
   display: ${({ block }) => (block ? 'block' : 'inline')};
   margin-bottom: ${({ block }) => (block ? space[12] : null)};

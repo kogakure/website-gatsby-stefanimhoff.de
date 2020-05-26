@@ -2,7 +2,7 @@
 
 exports[`Row renders correctly 1`] = `
 .c0 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
@@ -50,7 +50,7 @@ exports[`Row renders correctly 1`] = `
 
 exports[`Row with "bigLeft" renders correctly 1`] = `
 .c0 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
@@ -97,7 +97,7 @@ exports[`Row with "bigLeft" renders correctly 1`] = `
 
 exports[`Row with "bigRight" renders correctly 1`] = `
 .c0 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
@@ -144,7 +144,7 @@ exports[`Row with "bigRight" renders correctly 1`] = `
 
 exports[`Row with "center" renders correctly 1`] = `
 .c0 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
@@ -192,7 +192,7 @@ exports[`Row with "center" renders correctly 1`] = `
 
 exports[`Row with "end" renders correctly 1`] = `
 .c0 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
@@ -268,7 +268,7 @@ exports[`Row with "end" renders correctly 1`] = `
 
 exports[`Row with "fullSize" renders correctly 1`] = `
 .c0 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
@@ -315,7 +315,7 @@ exports[`Row with "fullSize" renders correctly 1`] = `
 
 exports[`Row with "leftDown" renders correctly 1`] = `
 .c0 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
@@ -378,7 +378,7 @@ exports[`Row with "leftDown" renders correctly 1`] = `
 
 exports[`Row with "leftOnly" renders correctly 1`] = `
 .c0 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
@@ -432,7 +432,7 @@ exports[`Row with "leftOnly" renders correctly 1`] = `
 
 exports[`Row with "middle" renders correctly 1`] = `
 .c0 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
@@ -508,7 +508,7 @@ exports[`Row with "middle" renders correctly 1`] = `
 
 exports[`Row with "rightDown" renders correctly 1`] = `
 .c0 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
@@ -571,7 +571,7 @@ exports[`Row with "rightDown" renders correctly 1`] = `
 
 exports[`Row with "rightOnly" renders correctly 1`] = `
 .c0 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
@@ -625,7 +625,7 @@ exports[`Row with "rightOnly" renders correctly 1`] = `
 
 exports[`Row with "start" renders correctly 1`] = `
 .c0 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
@@ -701,7 +701,7 @@ exports[`Row with "start" renders correctly 1`] = `
 
 exports[`Row with "variableEnd" renders correctly 1`] = `
 .c0 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
@@ -794,7 +794,7 @@ exports[`Row with "variableEnd" renders correctly 1`] = `
 
 exports[`Row with "variableMiddle" renders correctly 1`] = `
 .c0 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
@@ -887,7 +887,7 @@ exports[`Row with "variableMiddle" renders correctly 1`] = `
 
 exports[`Row with "variableStart" renders correctly 1`] = `
 .c0 {
-  background-color: lightgrey;
+  background-color: var(--colorForegroundFeather);
   border: 1px dotted darkgrey;
   width: 100%;
   margin-bottom: clamp(2.488rem,5.32vw,2.986rem);

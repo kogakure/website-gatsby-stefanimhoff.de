@@ -9,7 +9,7 @@ exports[`Table renders correctly 1`] = `
 }
 
 .c0 td {
-  border-top-color: var(--colorTextSoftInverse);
+  border-top-color: var(--colorForegroundSoft);
   border-top-style: solid;
   border-top-width: 1px;
 }

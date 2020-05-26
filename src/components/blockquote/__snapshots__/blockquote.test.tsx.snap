@@ -310,10 +310,10 @@ exports[`Blockquote with author renders correctly 1`] = `
 
 exports[`Blockquote with author, source and URL renders correctly 1`] = `
 .c4 {
-  color: var(--colorText);
+  color: var(--colorForeground);
   font-weight: 600;
-  -webkit-text-decoration-color: var(--colorLink);
-  text-decoration-color: var(--colorLink);
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
   -webkit-text-decoration-thickness: 0.1em;
   text-decoration-thickness: 0.1em;
   text-underline-offset: 0.1em;
@@ -321,8 +321,8 @@ exports[`Blockquote with author, source and URL renders correctly 1`] = `
 
 .c4:hover,
 .c4:focus {
-  -webkit-text-decoration-color: var(--colorLinkActive);
-  text-decoration-color: var(--colorLinkActive);
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
 }
 
 .c1 {
@@ -373,13 +373,6 @@ exports[`Blockquote with author, source and URL renders correctly 1`] = `
 
 .c0 {
   width: 90%;
-}
-
-@supports (not (text-decoration-color:red)) {
-  .c4:hover,
-  .c4:focus {
-    color: var(--colorLink);
-  }
 }
 
 <div
@@ -615,10 +608,10 @@ exports[`Blockquote with multiple paragraphs renders correctly 1`] = `
 
 exports[`Blockquote with source and URL renders correctly 1`] = `
 .c3 {
-  color: var(--colorText);
+  color: var(--colorForeground);
   font-weight: 600;
-  -webkit-text-decoration-color: var(--colorLink);
-  text-decoration-color: var(--colorLink);
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
   -webkit-text-decoration-thickness: 0.1em;
   text-decoration-thickness: 0.1em;
   text-underline-offset: 0.1em;
@@ -626,8 +619,8 @@ exports[`Blockquote with source and URL renders correctly 1`] = `
 
 .c3:hover,
 .c3:focus {
-  -webkit-text-decoration-color: var(--colorLinkActive);
-  text-decoration-color: var(--colorLinkActive);
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
 }
 
 .c1 {
@@ -674,13 +667,6 @@ exports[`Blockquote with source and URL renders correctly 1`] = `
 
 .c0 {
   width: 90%;
-}
-
-@supports (not (text-decoration-color:red)) {
-  .c3:hover,
-  .c3:focus {
-    color: var(--colorLink);
-  }
 }
 
 <div

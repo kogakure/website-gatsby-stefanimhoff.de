@@ -27,7 +27,7 @@ li .c0 {
     -moz-appearance: none;
     appearance: none;
     background: transparent;
-    border-color: var(--colorTextSoftInverse);
+    border-color: var(--colorForegroundSoft);
     border-radius: 25%;
     border-style: solid;
     border-width: 0.1em;
@@ -44,7 +44,7 @@ li .c0 {
 
   .c0 input[type='checkbox']:after {
     border-bottom-width: 0.15em;
-    border-color: var(--colorText);
+    border-color: var(--colorForeground);
     border-left-color: transparent;
     border-left-width: 0;
     border-right-width: 0.15em;
