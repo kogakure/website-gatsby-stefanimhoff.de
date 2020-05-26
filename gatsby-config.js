@@ -70,7 +70,7 @@ module.exports = {
       options: {
         extensions: ['.mdx', '.md'],
         defaultLayouts: {
-          default: require.resolve('./src/templates/default.tsx'),
+          default: require.resolve('./src/templates/regular.tsx'),
         },
         gatsbyRemarkPlugins: [
           'gatsby-remark-copy-linked-files',
