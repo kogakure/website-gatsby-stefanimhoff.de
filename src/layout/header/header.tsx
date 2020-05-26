@@ -9,7 +9,7 @@ export type HeaderProps = {
 };
 
 export const Header: React.FC<HeaderProps> = ({ navigation }) => (
-  <Styled.Header as="header" role="banner">
+  <Styled.Header role="banner">
     <Styled.GridHomeLink />
     <Styled.GridNavigation navigation={navigation} />
     <Styled.GridThemeToggle />
