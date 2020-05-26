@@ -22,14 +22,16 @@ import {
   Subline,
   Title,
 } from '../../components/typography';
-import { Row } from '../row';
 import { SEO } from '../seo';
+import { Grid } from '../grid';
+import { Row } from '../row';
 
 export const shortcodes = {
   BlockLink,
   Blockquote,
   ColorSwatch,
   Emojify,
+  Grid,
   Headline,
   InlineQuote,
   KeyboardShortcut,
