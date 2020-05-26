@@ -34,7 +34,7 @@ export const ThemeToggle: React.FC = ({ ...props }) => {
       onClick={setPreferredTheme}
       {...props}
     >
-      <Styled.CircleIcon role="img" aria-label="Circle" />
+      <Styled.CircleIcon role="img" aria-hidden="true" />
     </Styled.Button>
   );
 };

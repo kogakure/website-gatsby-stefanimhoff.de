@@ -43,7 +43,7 @@ exports[`ThemeToggle renders correctly 1`] = `
   type="button"
 >
   <svg
-    aria-label="Circle"
+    aria-hidden="true"
     class="c1"
     clip-rule="evenodd"
     fill-rule="evenodd"
