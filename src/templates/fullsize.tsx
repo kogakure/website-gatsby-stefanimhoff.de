@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { Column, Layout, MDXProviderContainer } from '../layout';
+import { Column, Layout, LayoutProps, MDXProviderContainer } from '../layout';
 
-const FullsizeTemplate: React.FC = ({ children }) => (
-  <Layout>
+const FullsizeTemplate: React.FC<LayoutProps> = ({ variant, children }) => (
+  <Layout variant={variant}>
     <MDXProviderContainer>
       <Column variant="fullsize">{children}</Column>
     </MDXProviderContainer>
