@@ -403,6 +403,7 @@ exports[`Pullquote with author, source and URL renders correctly 1`] = `
       <a
         class="c3"
         href="https://www.goodreads.com/book/show/12530.The_Writing_Life"
+        rel="nofollow noopener noreferrer external"
       >
         The Writing Life
       </a>
@@ -488,6 +489,7 @@ exports[`Pullquote with source and URL renders correctly 1`] = `
       <a
         class="c2"
         href="https://www.goodreads.com/book/show/12530.The_Writing_Life"
+        rel="nofollow noopener noreferrer external"
       >
         The Writing Life
       </a>
