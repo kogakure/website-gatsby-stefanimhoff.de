@@ -48,6 +48,54 @@ exports[`Typography Headline renders correctly 1`] = `
 </h2>
 `;
 
+exports[`Typography Headline with "noMargin" renders correctly 1`] = `
+.c0 {
+  font-size: clamp(1.50rem,2.9vw,3.25rem);
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.c0 .autolink {
+  background: transparent;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.c0:hover .autolink,
+.c0:focus .autolink {
+  opacity: 0.5;
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c0 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+<h2
+  class="c0"
+>
+  Headline
+</h2>
+`;
+
 exports[`Typography Paragraph renders correctly 1`] = `
 .c0 {
   font-size: clamp(1.00rem,1.1vw,1.25rem);
@@ -68,6 +116,26 @@ exports[`Typography Paragraph renders correctly 1`] = `
 </p>
 `;
 
+exports[`Typography Paragraph with "noMargin" renders correctly 1`] = `
+.c0 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+<p
+  class="c0"
+>
+  Lorem ipsum dolor amet shoreditch tbh butcher 90's portland, keytar street art. Pork belly you probably haven't heard of them ethical post-ironic hella, cray kale chips fashion axe chillwave shabby chic man bun slow-carb unicorn. Live-edge intelligentsia tumblr quinoa man braid. Hexagon disrupt echo park brunch direct trade four dollar toast chartreuse, drinking vinegar wolf bushwick pork belly. Vexillologist sartorial literally venmo blog. Tumblr you probably haven't heard of them bitters swag waistcoat af. Deep v helvetica blog, paleo cardigan seitan kombucha normcore.
+</p>
+`;
+
 exports[`Typography SubSubheadline renders correctly 1`] = `
 .c0 {
   font-size: clamp(1.00rem,1.1vw,1.25rem);
@@ -78,6 +146,54 @@ exports[`Typography SubSubheadline renders correctly 1`] = `
   letter-spacing: normal;
   line-height: 1.0;
   margin-bottom: clamp( 0.694rem,1.49vw,0.833rem);
+  margin-top: 0;
+}
+
+.c0 .autolink {
+  background: transparent;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.c0:hover .autolink,
+.c0:focus .autolink {
+  opacity: 0.5;
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c0 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+<h4
+  class="c0"
+>
+  SubSubheadline
+</h4>
+`;
+
+exports[`Typography SubSubheadline with "noMargin" renders correctly 1`] = `
+.c0 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.0;
+  margin-bottom: 0;
   margin-top: 0;
 }
 
@@ -164,6 +280,54 @@ exports[`Typography Subheadline renders correctly 1`] = `
 </h3>
 `;
 
+exports[`Typography Subheadline with "noMargin" renders correctly 1`] = `
+.c0 {
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.c0 .autolink {
+  background: transparent;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.c0:hover .autolink,
+.c0:focus .autolink {
+  opacity: 0.5;
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c0 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+<h3
+  class="c0"
+>
+  Subheadline
+</h3>
+`;
+
 exports[`Typography Title renders correctly 1`] = `
 .c0 {
   font-size: clamp(2.25rem,4.7vw,5.30rem);
@@ -174,6 +338,54 @@ exports[`Typography Title renders correctly 1`] = `
   letter-spacing: normal;
   line-height: 1.0;
   margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  margin-top: 0;
+}
+
+.c0 .autolink {
+  background: transparent;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.c0:hover .autolink,
+.c0:focus .autolink {
+  opacity: 0.5;
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c0 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+<h1
+  class="c0"
+>
+  Title
+</h1>
+`;
+
+exports[`Typography Title with "noMargin" renders correctly 1`] = `
+.c0 {
+  font-size: clamp(2.25rem,4.7vw,5.30rem);
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.0;
+  margin-bottom: 0;
   margin-top: 0;
 }
 

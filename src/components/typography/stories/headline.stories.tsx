@@ -7,3 +7,5 @@ export default {
 };
 
 export const Default = () => <Headline>Headline</Headline>;
+
+export const NoMargin = () => <Headline noMargin>Headline</Headline>;

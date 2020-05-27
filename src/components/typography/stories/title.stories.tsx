@@ -7,3 +7,5 @@ export default {
 };
 
 export const Default = () => <Title>Title</Title>;
+
+export const NoMargin = () => <Title noMargin>Title</Title>;

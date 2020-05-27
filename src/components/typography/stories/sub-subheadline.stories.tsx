@@ -7,3 +7,7 @@ export default {
 };
 
 export const Default = () => <SubSubheadline>SubSubheadline</SubSubheadline>;
+
+export const NoMargin = () => (
+  <SubSubheadline noMargin>SubSubheadline</SubSubheadline>
+);
