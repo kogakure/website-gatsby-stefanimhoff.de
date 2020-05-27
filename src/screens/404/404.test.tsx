@@ -3,7 +3,7 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../services/test-utils';
 
-import { Title404, Huge404, Haiku } from './404.styles';
+import { Title404, Huge404, Haiku } from '.';
 
 describe('404', () => {
   describe('Title404', () => {
