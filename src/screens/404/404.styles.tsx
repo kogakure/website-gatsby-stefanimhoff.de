@@ -7,6 +7,7 @@ import {
   mediaQuery,
 } from '../../layout/tokens';
 import { Title } from '../../components/typography';
+import { Verse } from '../../components/verse';
 
 export const Title404 = styled(Title)`
   grid-column: 1 / -1;
@@ -19,7 +20,7 @@ export const Title404 = styled(Title)`
   }
 `;
 
-export const Haiku = styled.div`
+export const Haiku = styled(Verse)`
   grid-column: 1 / -1;
   grid-row: 2;
   z-index: 1;

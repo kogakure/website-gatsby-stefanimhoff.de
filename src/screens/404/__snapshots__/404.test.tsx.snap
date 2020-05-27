@@ -2,22 +2,47 @@
 
 exports[`404 Haiku renders correctly 1`] = `
 .c0 {
+  margin: clamp(1.44rem,3.70vw,1.728rem);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: italic;
+}
+
+.c0 p {
+  margin: 0;
+}
+
+.c2 {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: inherit;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.c1 {
   grid-column: 1 / -1;
   grid-row: 2;
   z-index: 1;
 }
 
 @media (min-width:768px) {
-  .c0 {
+  .c1 {
     grid-column: 3 / -6;
   }
 }
 
-<div
-  class="c0"
+<blockquote
+  class="c0 c1"
 >
-  Haiku
-</div>
+  <pre
+    class="c2"
+  >
+    Haiku
+  </pre>
+</blockquote>
 `;
 
 exports[`404 Huge404 renders correctly 1`] = `
