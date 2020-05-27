@@ -29,6 +29,7 @@ exports[`ProtectedEmail renders correctly 1`] = `
   <a
     class="c1"
     href="#"
+    rel="nofollow noopener noreferrer external"
   >
     Email
   </a>
@@ -64,6 +65,7 @@ exports[`ProtectedEmail with custom title renders correctly 1`] = `
   <a
     class="c1"
     href="#"
+    rel="nofollow noopener noreferrer external"
   >
     Email me today!
   </a>
@@ -99,6 +101,7 @@ exports[`ProtectedEmail without GPG key download option renders correctly 1`] = 
   <a
     class="c1"
     href="#"
+    rel="nofollow noopener noreferrer external"
   >
     Email
   </a>

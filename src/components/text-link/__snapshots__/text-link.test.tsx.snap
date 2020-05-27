@@ -21,6 +21,7 @@ exports[`BlockLink with href renders correctly 1`] = `
   <a
     class="c0"
     href="https://www.stefanimhoff.de"
+    rel="nofollow noopener noreferrer external"
   >
     BlockLink as External Link
   </a>
@@ -74,6 +75,7 @@ exports[`TextLink with href renders correctly 1`] = `
 <a
   class="c0"
   href="https://www.stefanimhoff.de"
+  rel="nofollow noopener noreferrer external"
 >
   External Link
 </a>

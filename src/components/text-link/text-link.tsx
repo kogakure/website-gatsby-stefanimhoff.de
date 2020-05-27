@@ -40,7 +40,11 @@ export const TextLink: React.FC<TextLinkAnchorProps> = ({
       {children}
     </Styled.TextLinkRouter>
   ) : (
-    <Styled.TextLinkHref href={href} {...props}>
+    <Styled.TextLinkHref
+      href={href}
+      rel="nofollow noopener noreferrer external"
+      {...props}
+    >
       {children}
     </Styled.TextLinkHref>
   );

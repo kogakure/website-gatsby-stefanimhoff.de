@@ -35,6 +35,7 @@ exports[`Attribution renders correctly 1`] = `
     <a
       class="c1"
       href="https://www.stefanimhoff.de"
+      rel="nofollow noopener noreferrer external"
     >
       Stefan Imhoff
     </a>
@@ -73,6 +74,7 @@ exports[`Attribution with author and link renders correctly 1`] = `
     <a
       class="c1"
       href="https://www.stefanimhoff.de"
+      rel="nofollow noopener noreferrer external"
     >
       Stefan Imhoff
     </a>
@@ -133,6 +135,7 @@ exports[`Attribution with multiple attributions renders correctly 1`] = `
     <a
       class="c1"
       href="https://www.stefanimhoff.de"
+      rel="nofollow noopener noreferrer external"
     >
       Stefan Imhoff
     </a>

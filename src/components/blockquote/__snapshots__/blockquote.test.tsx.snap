@@ -401,6 +401,7 @@ exports[`Blockquote with author, source and URL renders correctly 1`] = `
         <a
           class="c4"
           href="https://api.parliament.uk/historic-hansard/commons/1947/nov/11/parliament-bill"
+          rel="nofollow noopener noreferrer external"
         >
           Speech to the House of Commons
         </a>
@@ -689,6 +690,7 @@ exports[`Blockquote with source and URL renders correctly 1`] = `
         <a
           class="c3"
           href="https://api.parliament.uk/historic-hansard/commons/1947/nov/11/parliament-bill"
+          rel="nofollow noopener noreferrer external"
         >
           Speech to the House of Commons
         </a>
