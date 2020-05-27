@@ -45,17 +45,27 @@ const Headline = styled.h2`
   font-weight: ${fontWeight.black};
   letter-spacing: normal;
   line-height: ${lineHeight[1]};
-  margin-bottom: ${space[11]};
+  margin-bottom: ${space[10]};
   margin-top: 0;
   ${autoLinkBaseStyles};
 `;
 
-const Subline = styled.h3`
+const Subheadline = styled.h3`
   font-size: ${fontSize[4]};
   font-weight: ${fontWeight.black};
   letter-spacing: normal;
   line-height: ${lineHeight[1]};
-  margin-bottom: ${space[10]};
+  margin-bottom: ${space[8]};
+  margin-top: 0;
+  ${autoLinkBaseStyles};
+`;
+
+const SubSubheadline = styled.h4`
+  font-size: ${fontSize[3]};
+  font-weight: ${fontWeight.black};
+  letter-spacing: normal;
+  line-height: ${lineHeight[1]};
+  margin-bottom: ${space[6]};
   margin-top: 0;
   ${autoLinkBaseStyles};
 `;
@@ -72,6 +82,7 @@ const Paragraph = styled.p`
 export const Styled = {
   Headline,
   Paragraph,
-  Subline,
+  Subheadline,
+  SubSubheadline,
   Title,
 };

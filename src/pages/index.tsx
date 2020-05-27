@@ -6,7 +6,7 @@ import { PostsQueryData } from '../typings/graphql';
 import { Layout, SEO } from '../layout';
 import { LocalizedDate } from '../components/localized-date';
 import { TextLink } from '../components/text-link';
-import { Subline } from '../components/typography';
+import { Subheadline } from '../components/typography';
 
 const Wrapper = styled.div`
   grid-column: 3 / 13;
@@ -38,9 +38,9 @@ const IndexPage = ({ data }: PostsQueryData) => {
           return (
             <article key={slug}>
               <header>
-                <Subline>
+                <Subheadline>
                   <TextLink to={slug}>{title}</TextLink>
-                </Subline>
+                </Subheadline>
                 <LocalizedDate date={date} />
               </header>
               <section>

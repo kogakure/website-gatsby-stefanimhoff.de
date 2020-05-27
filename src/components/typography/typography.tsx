@@ -10,8 +10,12 @@ export const Headline: React.FC = ({ children, ...props }) => (
   <Styled.Headline {...props}>{children}</Styled.Headline>
 );
 
-export const Subline: React.FC = ({ children, ...props }) => (
-  <Styled.Subline {...props}>{children}</Styled.Subline>
+export const Subheadline: React.FC = ({ children, ...props }) => (
+  <Styled.Subheadline {...props}>{children}</Styled.Subheadline>
+);
+
+export const SubSubheadline: React.FC = ({ children, ...props }) => (
+  <Styled.SubSubheadline {...props}>{children}</Styled.SubSubheadline>
 );
 
 export const Paragraph: React.FC = ({ children, ...props }) => (
