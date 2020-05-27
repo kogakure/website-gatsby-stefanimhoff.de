@@ -2,12 +2,97 @@
 
 exports[`Verse renders correctly 1`] = `
 .c0 {
+  margin: clamp(1.44rem,3.70vw,1.728rem);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   font-style: italic;
+}
+
+.c0 p {
+  margin: 0;
+}
+
+.c1 {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: inherit;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+<blockquote
+  class="c0"
+>
+  <pre
+    class="c1"
+  >
+    <p>
+      God guard me from those thoughts men think
+      <br />
+      In the mind alone;
+      <br />
+      He that sings a lasting song
+      <br />
+      Thinks in a marrow bone.
+    </p>
+  </pre>
+</blockquote>
+`;
+
+exports[`Verse with "center" renders correctly 1`] = `
+.c0 {
   margin: clamp(1.44rem,3.70vw,1.728rem);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: italic;
+}
+
+.c0 p {
+  margin: 0;
+}
+
+.c1 {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: inherit;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+<blockquote
+  class="c0"
+>
+  <pre
+    class="c1"
+  >
+    <p>
+      God guard me from those thoughts men think
+      <br />
+      In the mind alone;
+      <br />
+      He that sings a lasting song
+      <br />
+      Thinks in a marrow bone.
+    </p>
+  </pre>
+</blockquote>
+`;
+
+exports[`Verse with "left" renders correctly 1`] = `
+.c0 {
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: clamp(1.44rem,3.70vw,1.728rem);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: italic;
 }
 
 .c0 p {
@@ -17,8 +102,6 @@ exports[`Verse renders correctly 1`] = `
 .c1 {
   font-family: inherit;
   margin-bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 0;
 }
 

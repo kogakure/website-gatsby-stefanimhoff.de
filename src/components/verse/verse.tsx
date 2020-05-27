@@ -1,9 +1,18 @@
 import * as React from 'react';
 
-import { Styled } from './verse.styles';
+import { Styled, variants } from './verse.styles';
 
-export const Verse: React.FC = ({ children, ...props }) => (
-  <Styled.Verse {...props}>
-    <Styled.Preformatted>{children}</Styled.Preformatted>
+export type VerseVariants = keyof typeof variants;
+export type VerseProps = {
+  variant?: VerseVariants;
+};
+
+export const Verse: React.FC<VerseProps> = ({
+  variant = 'center',
+  children,
+  ...props
+}) => (
+  <Styled.Verse variant={variant} {...props}>
+    <Styled.Preformatted variant={variant}>{children}</Styled.Preformatted>
   </Styled.Verse>
 );
