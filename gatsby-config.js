@@ -91,10 +91,10 @@ module.exports = {
           {
             resolve: 'gatsby-remark-vscode',
             options: {
-              theme: 'One Dark Pro',
+              theme: 'Noctis Minimus',
               wrapperClassName: 'code-block',
               injectStyles: true,
-              extensions: ['material-theme', 'vscode-apache'],
+              extensions: ['noctis-theme', 'vscode-apache'],
               languageAliases: {},
               replaceColor: (x) => x,
               getLineClassName: ({
