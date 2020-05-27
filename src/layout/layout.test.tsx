@@ -37,6 +37,24 @@ describe('Layout', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
+  test('with variant "green" renders correctly', () => {
+    const { container } = render(<Layout variant="green" />);
+
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  test('with variant "blue" renders correctly', () => {
+    const { container } = render(<Layout variant="blue" />);
+
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  test('with variant "brown" renders correctly', () => {
+    const { container } = render(<Layout variant="brown" />);
+
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
   test('is accessible', async () => {
     const { container } = render(<Layout />);
     const results = await axe(container);
