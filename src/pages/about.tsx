@@ -22,7 +22,7 @@ const AboutPage = () => (
           <Emojify emoji="📚" />
           reading books,
           <Emojify emoji="📺" />
-          watching movies &amp; TV shows,
+          watching movies and TV shows,
           <Emojify emoji="✍️" />
           creating Sketchnotes,
           <Emojify emoji="📸" />
