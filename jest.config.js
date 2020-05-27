@@ -6,6 +6,7 @@ module.exports = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   collectCoverageFrom: ['<rootDir>/src/**/*.{js,ts,tsx}'],
   coveragePathIgnorePatterns: [
+    '<rootDir>/src/contexts',
     '<rootDir>/src/html.js',
     '<rootDir>/src/layout/global-styles.ts',
     '<rootDir>/src/layout/theme-toggle/theme-toggle.tsx',
@@ -17,10 +18,10 @@ module.exports = {
   ],
   coverageThreshold: {
     global: {
-      statements: 30,
-      branches: 3,
-      function: 25,
-      lines: 30,
+      statements: 80,
+      branches: 80,
+      function: 80,
+      lines: 80,
     },
   },
   watchPlugins: [

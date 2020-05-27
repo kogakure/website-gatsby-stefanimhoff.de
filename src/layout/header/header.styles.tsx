@@ -8,7 +8,7 @@ const Header = styled.header`
   display: grid;
   grid-template-columns: repeat(18, 1fr);
   grid-template-rows: clamp(50px, 5.55vw, 150px);
-  margin-bottom: 11vw;
+  margin-bottom: clamp(25px, 5.55vw, 150px);
 `;
 
 const GridHomeLink = styled(HomeLink)`
