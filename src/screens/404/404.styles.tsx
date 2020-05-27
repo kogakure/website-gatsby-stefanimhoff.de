@@ -46,3 +46,9 @@ export const Huge404 = styled.span`
     grid-row: 1 / 4;
   }
 `;
+
+export const Styled = {
+  Title404,
+  Haiku,
+  Huge404,
+};
