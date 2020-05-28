@@ -3,18 +3,18 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../../services/test-utils';
 
-import { Title } from '.';
+import { WhatIDo } from '.';
 
-describe('About', () => {
-  describe('Title', () => {
+describe('Homepage', () => {
+  describe('WhatIDo', () => {
     test('renders correctly', () => {
-      const { container } = render(<Title />);
+      const { container } = render(<WhatIDo />);
 
       expect(container.firstChild).toMatchSnapshot();
     });
 
     test('is accessible', async () => {
-      const { container } = render(<Title />);
+      const { container } = render(<WhatIDo />);
       const results = await axe(container);
 
       expect(results).toHaveNoViolations();

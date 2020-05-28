@@ -9,20 +9,13 @@ exports[`About Photo renders correctly 1`] = `
   border-style: solid;
   border-top-width: 1px;
   box-shadow: 0 0 50px rgba(0,0,0,0.2);
-  grid-column: 1 / 12;
+  grid-column: 1 / -5;
   grid-row: 2;
 }
 
 @media (min-width:768px) {
   .c0 {
-    border-left-width: 1px;
-    grid-column: 4 / 10;
-  }
-}
-
-@media (min-width:1200px) {
-  .c0 {
-    grid-column: 7 / 10;
+    grid-column: 1 / -9;
   }
 }
 
@@ -45,20 +38,20 @@ exports[`About Photo renders correctly 1`] = `
     />
     <picture>
       <source
-        sizes="(max-width: 800px) 100vw, 800px"
-        srcset="/static/image.jpg 200w, /static/image.jpg 400w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        srcset="/static/cover.jpg 200w, /static/cover.jpg 400w"
       />
       <img
         alt=""
         loading="lazy"
-        sizes="(max-width: 800px) 100vw, 800px"
-        src="/static/image.jpg"
-        srcset="/static/image.jpg 200w, /static/image.jpg 400w"
+        sizes="(max-width: 1200px) 100vw, 1200px"
+        src="/static/cover.jpg"
+        srcset="/static/cover.jpg 200w, /static/cover.jpg 400w"
         style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
       />
     </picture>
     <noscript>
-      &lt;picture&gt;&lt;source srcset="/static/image.jpg 200w, /static/image.jpg 400w" sizes="(max-width: 800px) 100vw, 800px" /&gt;&lt;img loading="lazy" sizes="(max-width: 800px) 100vw, 800px" srcset="/static/image.jpg 200w, /static/image.jpg 400w" src="/static/image.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+      &lt;picture&gt;&lt;source srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" sizes="(max-width: 1200px) 100vw, 1200px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" src="/static/cover.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
     </noscript>
   </div>
 </div>

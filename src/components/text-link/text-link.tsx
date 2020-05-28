@@ -7,6 +7,7 @@ import { Styled } from './text-link.styles';
 
 export type TextLinkProps = {
   href?: string;
+  showIcon?: boolean;
   to?: string;
 };
 
@@ -24,6 +25,7 @@ export const TextLink: React.FC<TextLinkAnchorProps> = ({
   onClick,
   partiallyActive,
   replace,
+  showIcon,
   to,
   ...props
 }) =>
@@ -38,6 +40,7 @@ export const TextLink: React.FC<TextLinkAnchorProps> = ({
       {...props}
     >
       {children}
+      {showIcon && <Styled.ArrowIcon />}
     </Styled.TextLinkRouter>
   ) : (
     <Styled.TextLinkHref

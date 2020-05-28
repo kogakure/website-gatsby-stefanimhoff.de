@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { mediaQuery, shadow } from '../../../layout/tokens';
 
-export const Photo = styled.div`
+export const CoverImage = styled.div`
   border-bottom-width: 1px;
   border-color: var(--colorForegroundSoft);
   border-left-width: 0;
@@ -10,19 +10,14 @@ export const Photo = styled.div`
   border-style: solid;
   border-top-width: 1px;
   box-shadow: ${shadow.subtleShade};
-  grid-column: 1 / 12;
+  grid-column: 1 / -5;
   grid-row: 2;
 
   @media (${mediaQuery.tablet}) {
-    border-left-width: 1px;
-    grid-column: 4 / 10;
-  }
-
-  @media (${mediaQuery.desktop}) {
-    grid-column: 7 / 10;
+    grid-column: 1 / -9;
   }
 `;
 
 export const Styled = {
-  Photo,
+  CoverImage,
 };
