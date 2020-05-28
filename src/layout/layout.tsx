@@ -15,14 +15,14 @@ export type LayoutProps = {
 
 export const Layout: React.FC<LayoutProps> = ({ children, variant }) => {
   const {
-    navigationYaml: { navigation },
+    allNavigationYaml: { nodes },
   } = useLayoutQuery();
 
   return (
     <>
       <SEO />
       {variant && <Helmet bodyAttributes={{ class: variant }} />}
-      <Header navigation={navigation} />
+      <Header navigation={nodes} />
       <Main>{children}</Main>
       <Footer />
     </>
