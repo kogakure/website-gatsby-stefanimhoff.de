@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About SectionAboutWebsite renders correctly 1`] = `
+.c1 {
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.0;
+  margin-bottom: clamp( 1.0rem,2.14vw,1.2rem);
+  margin-top: 0;
+}
+
+.c1 .autolink {
+  background: transparent;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.c1:hover .autolink,
+.c1:focus .autolink {
+  opacity: 0.5;
+}
+
+.c2 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
+  margin-top: 0;
+}
+
+.c4 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.c3 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c3:hover,
+.c3:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c0 {
+  grid-column: 2 / -2;
+  grid-row: 4;
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c1 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    grid-column: 5 / 13;
+  }
+}
+
+@media (min-width:1200px) {
+  .c0 {
+    grid-column: 7 / 12;
+  }
+}
+
+<section
+  class="c0"
+>
+  <h2
+    class="c1"
+  >
+    About This Website
+  </h2>
+  <p
+    class="c2"
+  >
+    I build this website with
+     
+    <a
+      class="c3"
+      href="https://reactjs.org/"
+      rel="nofollow noopener noreferrer external"
+    >
+      React
+    </a>
+    , using
+     
+    <a
+      class="c3"
+      href="https://www.gatsbyjs.org/"
+      rel="nofollow noopener noreferrer external"
+    >
+      Gatsby
+    </a>
+    , a blazing fast, static site generator.
+  </p>
+  <p
+    class="c2"
+  >
+    The source code of this website is available on
+     
+    <a
+      class="c3"
+      href="https://github.com/kogakure/website-gatsby-stefanimhoff.de"
+      rel="nofollow noopener noreferrer external"
+    >
+      GitHub
+    </a>
+    . Feel free to learn from the source code and reuse code for your projects. Don’t just steal it. Learn from it. Remix. Reuse. Build your own stuff.
+  </p>
+  <p
+    class="c4"
+  >
+    The website is hosted on
+     
+    <a
+      class="c3"
+      href="https://www.netlify.com/"
+      rel="nofollow noopener noreferrer external"
+    >
+      Netlify
+    </a>
+    .
+  </p>
+</section>
+`;

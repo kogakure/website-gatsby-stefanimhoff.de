@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About AboutMe renders correctly 1`] = `
+.c2 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c2:hover,
+.c2:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c4 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c4:hover,
+.c4:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c1 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
+  margin-top: 0;
+}
+
+.c3 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.c0 {
+  grid-column: 2 / -2;
+  grid-row: 3;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    grid-column: 6 / 14;
+  }
+}
+
+@media (min-width:1200px) {
+  .c0 {
+    grid-column: 8 / 13;
+  }
+}
+
+<section
+  class="c0"
+>
+  <p
+    class="c1"
+  >
+    I’m 
+    <em>
+      Stefan Imhoff
+    </em>
+    , a Front-End Web Developer and Designer from Hamburg, Germany. I love
+    <span>
+       
+    </span>
+    design and art,
+    <span>
+       
+    </span>
+    reading books,
+    <span>
+       
+    </span>
+    watching movies and TV shows,
+    <span>
+       
+    </span>
+    creating Sketchnotes,
+    <span>
+       
+    </span>
+    taking photos, and
+    <span>
+       
+    </span>
+    writing 
+    <a
+      class="c2"
+      href="/haiku/"
+    >
+      Haiku
+    </a>
+    . I consider myself as a
+    <span>
+       
+    </span>
+    <a
+      class="c2"
+      href="/minimalism/"
+    >
+      Minimalist
+    </a>
+    , a
+     
+    <span>
+       
+    </span>
+    Stoic, an
+    <span>
+       
+    </span>
+    Introvert and
+    <span>
+       
+    </span>
+    Japanophile.
+  </p>
+  <p
+    class="c3"
+  >
+    Writing is a passion of me: Besides writing
+     
+    <a
+      class="c2"
+      href="/journal/"
+    >
+      articles
+    </a>
+     I wrote a
+     
+    <a
+      class="c4"
+      href="https://book.kogakure.de/"
+      rel="nofollow noopener noreferrer external"
+    >
+      book
+    </a>
+     about Ninja and Ninjutsu – a topic that I know way too much about.
+  </p>
+</section>
+`;

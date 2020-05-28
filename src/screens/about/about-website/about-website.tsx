@@ -1,0 +1,31 @@
+import * as React from 'react';
+
+import { Paragraph, Subheadline } from '../../../components/typography';
+import { TextLink } from '../../../components/text-link';
+
+import { Styled } from './about-website.styles';
+
+export const AboutWebsite: React.FC = () => (
+  <Styled.AboutWebsite>
+    <Subheadline as="h2">About This Website</Subheadline>
+    <Paragraph>
+      I build this website with{' '}
+      <TextLink href="https://reactjs.org/">React</TextLink>, using{' '}
+      <TextLink href="https://www.gatsbyjs.org/">Gatsby</TextLink>, a blazing
+      fast, static site generator.
+    </Paragraph>
+    <Paragraph>
+      The source code of this website is available on{' '}
+      <TextLink href="https://github.com/kogakure/website-gatsby-stefanimhoff.de">
+        GitHub
+      </TextLink>
+      . Feel free to learn from the source code and reuse code for your
+      projects. Don’t just steal it. Learn from it. Remix. Reuse. Build your own
+      stuff.
+    </Paragraph>
+    <Paragraph noMargin>
+      The website is hosted on{' '}
+      <TextLink href="https://www.netlify.com/">Netlify</TextLink>.
+    </Paragraph>
+  </Styled.AboutWebsite>
+);
