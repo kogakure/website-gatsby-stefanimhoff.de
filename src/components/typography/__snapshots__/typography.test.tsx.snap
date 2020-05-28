@@ -105,7 +105,7 @@ exports[`Typography Paragraph renders correctly 1`] = `
   -ms-letter-spacing: normal;
   letter-spacing: normal;
   line-height: 1.6;
-  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
   margin-top: 0;
 }
 

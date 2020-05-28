@@ -2,6 +2,7 @@ import { Link as GatsbyLink } from 'gatsby';
 import styled, { css } from 'styled-components';
 
 import { fontWeight } from '../../layout/tokens';
+import { ArrowRight } from '../icons';
 
 const linkStyles = css`
   color: var(--colorForeground);
@@ -24,7 +25,15 @@ const TextLinkHref = styled.a`
   ${linkStyles}
 `;
 
+const ArrowIcon = styled(ArrowRight)`
+  fill: var(--colorForeground);
+  margin-left: 0.2em;
+  position: relative;
+  top: 0.2em;
+`;
+
 export const Styled = {
+  ArrowIcon,
   TextLinkHref,
   TextLinkRouter,
 };

@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`About SectionAboutWebsite renders correctly 1`] = `
+exports[`Homepage AboutMe renders correctly 1`] = `
 .c1 {
-  font-size: clamp(1.25rem,1.8vw,2.00rem);
+  font-size: clamp(1.50rem,2.9vw,3.25rem);
   font-weight: 900;
   -webkit-letter-spacing: normal;
   -moz-letter-spacing: normal;
   -ms-letter-spacing: normal;
   letter-spacing: normal;
   line-height: 1.0;
-  margin-bottom: clamp( 1.0rem,2.14vw,1.2rem);
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
   margin-top: 0;
 }
 
@@ -42,7 +42,7 @@ exports[`About SectionAboutWebsite renders correctly 1`] = `
   margin-top: 0;
 }
 
-.c4 {
+.c3 {
   font-size: clamp(1.00rem,1.1vw,1.25rem);
   font-weight: 400;
   -webkit-letter-spacing: normal;
@@ -54,7 +54,7 @@ exports[`About SectionAboutWebsite renders correctly 1`] = `
   margin-top: 0;
 }
 
-.c3 {
+.c4 {
   color: var(--colorForeground);
   font-weight: 600;
   -webkit-text-decoration-color: var(--colorForegroundSoft);
@@ -64,15 +64,25 @@ exports[`About SectionAboutWebsite renders correctly 1`] = `
   text-underline-offset: 0.1em;
 }
 
-.c3:hover,
-.c3:focus {
+.c4:hover,
+.c4:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
 
+.c5 {
+  fill: var(--colorForeground);
+  margin-left: 0.2em;
+  position: relative;
+  top: 0.2em;
+}
+
 .c0 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
   grid-column: 2 / -2;
-  grid-row: 4;
+  grid-row: 3;
 }
 
 @media screen and (prefers-reduced-motion:no-preference) {
@@ -88,74 +98,54 @@ exports[`About SectionAboutWebsite renders correctly 1`] = `
 
 @media (min-width:768px) {
   .c0 {
-    grid-column: 5 / 13;
+    grid-column: 12 / -2;
+    grid-row: 2;
   }
 }
 
 @media (min-width:1200px) {
   .c0 {
-    grid-column: 7 / 12;
+    grid-column: 13 / -3;
   }
 }
 
-<section
+<div
   class="c0"
 >
   <h2
     class="c1"
   >
-    About This Website
+    About Me
   </h2>
   <p
     class="c2"
   >
-    I build this website with
+    I’m a Front-End Web Developer and Designer based in Hamburg. I love design and art, creating Sketchnotes, reading books, taking photos, and writing Haiku. I am also a Minimalist, a Stoic, introvert and Japanophile.
      
-    <a
-      class="c3"
-      href="https://reactjs.org/"
-      rel="nofollow noopener noreferrer external"
-    >
-      React
-    </a>
-    , using
-     
-    <a
-      class="c3"
-      href="https://www.gatsbyjs.org/"
-      rel="nofollow noopener noreferrer external"
-    >
-      Gatsby
-    </a>
-    , a blazing fast, static site generator.
   </p>
   <p
-    class="c2"
+    class="c3"
   >
-    The source code of this website is available on
-     
     <a
-      class="c3"
-      href="https://github.com/kogakure/website-gatsby-stefanimhoff.de"
-      rel="nofollow noopener noreferrer external"
+      class="c4"
+      href="/about/"
     >
-      GitHub
+      More
+      <svg
+        class="c5"
+        height="1em"
+        viewBox="0 0 24 24"
+        width="1em"
+      >
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+        <path
+          d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+        />
+      </svg>
     </a>
-    . Feel free to learn from the source code and reuse code for your projects. Don’t just steal it. Learn from it. Remix. Reuse. Build your own stuff.
   </p>
-  <p
-    class="c4"
-  >
-    The website is hosted on
-     
-    <a
-      class="c3"
-      href="https://www.netlify.com/"
-      rel="nofollow noopener noreferrer external"
-    >
-      Netlify
-    </a>
-    .
-  </p>
-</section>
+</div>
 `;

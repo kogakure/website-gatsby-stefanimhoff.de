@@ -5,7 +5,7 @@ import { render } from '../../../services/test-utils';
 
 import { Title } from '.';
 
-describe('About', () => {
+describe('Homepage', () => {
   describe('Title', () => {
     test('renders correctly', () => {
       const { container } = render(<Title />);

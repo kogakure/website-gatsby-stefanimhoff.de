@@ -77,7 +77,7 @@ const Paragraph = styled.p<TypographyProps>`
   font-weight: ${fontWeight.normal};
   letter-spacing: normal;
   line-height: ${lineHeight[2]};
-  margin-bottom: ${({ noMargin }) => (noMargin ? '0' : space[12])};
+  margin-bottom: ${({ noMargin }) => (noMargin ? '0' : space[10])};
   margin-top: 0;
 `;
 

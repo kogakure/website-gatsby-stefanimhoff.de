@@ -1,56 +1,49 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import styled from 'styled-components';
 
+import FullsizeTemplate from '../templates/fullsize';
+import { Grid, SEO } from '../layout';
 import { PostsQueryData } from '../typings/graphql';
-import { Layout, SEO } from '../layout';
 import { LocalizedDate } from '../components/localized-date';
 import { TextLink } from '../components/text-link';
 import { Subheadline } from '../components/typography';
-
-const Wrapper = styled.div`
-  grid-column: 3 / 13;
-  grid-row: 1;
-`;
-
-const Aside = styled.aside`
-  grid-column: 13 / -3;
-  grid-row: 1;
-`;
+import { AboutMe, Title, CoverImage, WhatIDo } from '../screens/homepage';
 
 const IndexPage = ({ data }: PostsQueryData) => {
   const posts = data.allBlogPosts.edges;
 
   return (
-    <Layout>
+    <FullsizeTemplate>
       <SEO homepage />
-      <Aside>
-        Some content in a sidebar, just to show the possibilities of the grid.
-      </Aside>
-      <Wrapper>
-        {posts.map(({ node }) => {
-          const {
-            excerpt,
-            fields: { slug },
-            frontmatter: { title, description, date },
-          } = node;
+      <Grid rowGap variant="fullsize">
+        <Title />
+        <CoverImage />
+        <AboutMe />
+        <WhatIDo />
+      </Grid>
+      <br />
+      {posts.map(({ node }) => {
+        const {
+          excerpt,
+          fields: { slug },
+          frontmatter: { title, description, date },
+        } = node;
 
-          return (
-            <article key={slug}>
-              <header>
-                <Subheadline>
-                  <TextLink to={slug}>{title}</TextLink>
-                </Subheadline>
-                <LocalizedDate date={date} />
-              </header>
-              <section>
-                <p>{description || excerpt}</p>
-              </section>
-            </article>
-          );
-        })}
-      </Wrapper>
-    </Layout>
+        return (
+          <article key={slug}>
+            <header>
+              <Subheadline>
+                <TextLink to={slug}>{title}</TextLink>
+              </Subheadline>
+              <LocalizedDate date={date} />
+            </header>
+            <section>
+              <p>{description || excerpt}</p>
+            </section>
+          </article>
+        );
+      })}
+    </FullsizeTemplate>
   );
 };
 
