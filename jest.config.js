@@ -7,6 +7,7 @@ module.exports = {
   collectCoverageFrom: ['<rootDir>/src/**/*.{js,ts,tsx}'],
   coveragePathIgnorePatterns: [
     '<rootDir>/src/contexts',
+    '<rootDir>/src/hooks',
     '<rootDir>/src/html.js',
     '<rootDir>/src/layout/global-styles.ts',
     '<rootDir>/src/layout/theme-toggle/theme-toggle.tsx',

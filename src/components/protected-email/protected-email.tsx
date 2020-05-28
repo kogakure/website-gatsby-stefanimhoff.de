@@ -26,6 +26,9 @@ export const ProtectedEmail: React.FC<ProtectedEmailProps> = ({
     <>
       {emailVisible ? (
         <Styled.ProtectedEmail>
+          <TextLink href="mailto:stefan@imhoff.name">
+            stefan@imhoff.name
+          </TextLink>
           {!noKeyDownload && (
             <Styled.LockBox>
               <a
@@ -37,9 +40,6 @@ export const ProtectedEmail: React.FC<ProtectedEmailProps> = ({
               </a>
             </Styled.LockBox>
           )}
-          <TextLink href="mailto:stefan@imhoff.name">
-            stefan@imhoff.name
-          </TextLink>
         </Styled.ProtectedEmail>
       ) : (
         <Styled.ProtectedEmail
