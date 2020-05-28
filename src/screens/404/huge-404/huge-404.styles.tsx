@@ -5,30 +5,7 @@ import {
   fontWeight,
   lineHeight,
   mediaQuery,
-} from '../../layout/tokens';
-import { Title } from '../../components/typography';
-import { Verse } from '../../components/verse';
-
-export const Title404 = styled(Title)`
-  grid-column: 1 / -1;
-  grid-row: 1;
-  margin-bottom: 0;
-  z-index: 1;
-
-  @media (${mediaQuery.desktop}) {
-    grid-column: 1 / -9;
-  }
-`;
-
-export const Haiku = styled(Verse)`
-  grid-column: 1 / -1;
-  grid-row: 2;
-  z-index: 1;
-
-  @media (${mediaQuery.tablet}) {
-    grid-column: 3 / -6;
-  }
-`;
+} from '../../../layout/tokens';
 
 export const Huge404 = styled.span`
   color: var(--colorForegroundFeather);
@@ -48,7 +25,5 @@ export const Huge404 = styled.span`
 `;
 
 export const Styled = {
-  Title404,
-  Haiku,
   Huge404,
 };
