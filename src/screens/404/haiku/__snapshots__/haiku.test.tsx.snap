@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`404 Haiku renders correctly 1`] = `
+.c0 {
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: clamp(1.44rem,3.70vw,1.728rem);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: italic;
+}
+
+.c0 p {
+  margin: 0;
+}
+
+.c2 {
+  font-family: inherit;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.c1 {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  z-index: 1;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    grid-column: 3 / -6;
+  }
+}
+
+<blockquote
+  class="c0 c1"
+>
+  <pre
+    class="c2"
+  >
+    You searched for something.
+    <br />
+    It might have once been here.
+    <br />
+    But now it’s gone.
+  </pre>
+</blockquote>
+`;

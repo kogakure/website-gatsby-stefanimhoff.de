@@ -1,1 +1,3 @@
-export * from './404.styles';
+export * from './haiku';
+export * from './huge-404';
+export * from './title';

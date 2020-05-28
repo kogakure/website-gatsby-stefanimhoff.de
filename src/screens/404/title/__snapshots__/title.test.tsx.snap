@@ -1,80 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`404 Haiku renders correctly 1`] = `
-.c0 {
-  margin: clamp(1.44rem,3.70vw,1.728rem);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  font-style: italic;
-}
-
-.c0 p {
-  margin: 0;
-}
-
-.c2 {
-  margin-left: auto;
-  margin-right: auto;
-  font-family: inherit;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.c1 {
-  grid-column: 1 / -1;
-  grid-row: 2;
-  z-index: 1;
-}
-
-@media (min-width:768px) {
-  .c1 {
-    grid-column: 3 / -6;
-  }
-}
-
-<blockquote
-  class="c0 c1"
->
-  <pre
-    class="c2"
-  >
-    Haiku
-  </pre>
-</blockquote>
-`;
-
-exports[`404 Huge404 renders correctly 1`] = `
-.c0 {
-  color: var(--colorForegroundFeather);
-  font-size: clamp(5.50rem,28.7vw,22.43rem);
-  font-weight: 900;
-  grid-column: -6 / -1;
-  grid-row: 2 / 4;
-  line-height: 1.0;
-  text-align: right;
-  -webkit-writing-mode: vertical-lr;
-  -ms-writing-mode: tb;
-  writing-mode: vertical-lr;
-  z-index: 0;
-}
-
-@media (min-width:1200px) {
-  .c0 {
-    grid-column: -6 / -2;
-    grid-row: 1 / 4;
-  }
-}
-
-<span
-  class="c0"
->
-  404
-</span>
-`;
-
-exports[`404 Title404 renders correctly 1`] = `
+exports[`404 Title renders correctly 1`] = `
 .c0 {
   font-size: clamp(2.25rem,4.7vw,5.30rem);
   font-weight: 900;
@@ -131,6 +57,6 @@ exports[`404 Title404 renders correctly 1`] = `
 <h1
   class="c0 c1"
 >
-  404
+  This page can’t be found.
 </h1>
 `;
