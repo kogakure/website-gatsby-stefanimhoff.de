@@ -3,10 +3,10 @@ import { graphql, useStaticQuery } from 'gatsby';
 import { LayoutQueryData } from '../typings/graphql';
 
 export const useLayoutQuery = () => {
-  const { navigationYaml }: LayoutQueryData = useStaticQuery(graphql`
+  const { allNavigationYaml }: LayoutQueryData = useStaticQuery(graphql`
     query LayoutQuery {
-      navigationYaml {
-        navigation {
+      allNavigationYaml {
+        nodes {
           text
           url
         }
@@ -14,5 +14,5 @@ export const useLayoutQuery = () => {
     }
   `);
 
-  return { navigationYaml };
+  return { allNavigationYaml };
 };

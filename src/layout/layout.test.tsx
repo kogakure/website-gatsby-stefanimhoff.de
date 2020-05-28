@@ -22,8 +22,8 @@ useStaticQuery.mockImplementation(() => ({
       twitterUsername: '@twitter',
     },
   },
-  navigationYaml: {
-    navigation: [
+  allNavigationYaml: {
+    nodes: [
       { text: 'About', url: '/about/' },
       { text: 'Projects', url: '/projects/' },
     ],
