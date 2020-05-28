@@ -6,3 +6,6 @@ export * from './post-page-context';
 export * from './post-query';
 export * from './posts-query';
 export * from './site-metadata-query-data';
+export * from './social-media';
+export * from './social-media-item';
+export * from './social-media-query-data';

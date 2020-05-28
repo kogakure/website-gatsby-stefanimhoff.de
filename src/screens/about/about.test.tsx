@@ -5,11 +5,14 @@ import { axe } from 'jest-axe';
 import { render } from '../../services/test-utils';
 
 import {
-  TitleAbout,
   PhotoContainer,
+  PortraitPhoto,
   SectionAbout,
   SectionAboutWebsite,
-  PortraitPhoto,
+  SectionConnect,
+  SectionContact,
+  SocialMedia,
+  TitleAbout,
 } from '.';
 
 const useStaticQuery = jest.spyOn(Gatsby, 'useStaticQuery');
@@ -62,45 +65,96 @@ describe('About', () => {
 
       expect(results).toHaveNoViolations();
     });
+  });
 
-    describe('SectionAbout', () => {
-      test('renders correctly', () => {
-        const { container } = render(<SectionAbout>About</SectionAbout>);
+  describe('SectionAbout', () => {
+    test('renders correctly', () => {
+      const { container } = render(<SectionAbout>About</SectionAbout>);
 
-        expect(container.firstChild).toMatchSnapshot();
-      });
-
-      test('is accessible', async () => {
-        const { container } = render(<SectionAbout>About</SectionAbout>);
-        const results = await axe(container);
-
-        expect(results).toHaveNoViolations();
-      });
+      expect(container.firstChild).toMatchSnapshot();
     });
 
-    describe('SectionAboutWebsite', () => {
-      test('renders correctly', () => {
-        const { container } = render(
-          <SectionAboutWebsite>About Website</SectionAboutWebsite>
-        );
+    test('is accessible', async () => {
+      const { container } = render(<SectionAbout>About</SectionAbout>);
+      const results = await axe(container);
 
-        expect(container.firstChild).toMatchSnapshot();
-      });
-
-      test('is accessible', async () => {
-        const { container } = render(
-          <SectionAboutWebsite>About Website</SectionAboutWebsite>
-        );
-        const results = await axe(container);
-
-        expect(results).toHaveNoViolations();
-      });
+      expect(results).toHaveNoViolations();
     });
   });
 
-  test('renders correctly', () => {
-    const { container } = render(<PortraitPhoto />);
+  describe('SectionAboutWebsite', () => {
+    test('renders correctly', () => {
+      const { container } = render(
+        <SectionAboutWebsite>About Website</SectionAboutWebsite>
+      );
 
-    expect(container.firstChild).toMatchSnapshot();
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('is accessible', async () => {
+      const { container } = render(
+        <SectionAboutWebsite>About Website</SectionAboutWebsite>
+      );
+      const results = await axe(container);
+
+      expect(results).toHaveNoViolations();
+    });
+  });
+
+  describe('SectionContact', () => {
+    test('renders correctly', () => {
+      const { container } = render(<SectionContact>Contact</SectionContact>);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('is accessible', async () => {
+      const { container } = render(<SectionContact>Contact</SectionContact>);
+      const results = await axe(container);
+
+      expect(results).toHaveNoViolations();
+    });
+  });
+
+  describe('SectionConnect', () => {
+    test('renders correctly', () => {
+      const { container } = render(<SectionConnect>Connect</SectionConnect>);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('is accessible', async () => {
+      const { container } = render(<SectionConnect>Connect</SectionConnect>);
+      const results = await axe(container);
+
+      expect(results).toHaveNoViolations();
+    });
+  });
+
+  describe('SocialMedia', () => {
+    test('renders correctly', () => {
+      const { container } = render(<SocialMedia>Social Media</SocialMedia>);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('is accessible', async () => {
+      const { container } = render(
+        <SocialMedia>
+          <li>Social Media</li>
+        </SocialMedia>
+      );
+      const results = await axe(container);
+
+      expect(results).toHaveNoViolations();
+    });
+  });
+
+  describe('PortraitPhoto', () => {
+    test('renders correctly', () => {
+      const { container } = render(<PortraitPhoto />);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
   });
 });
