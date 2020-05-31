@@ -3,7 +3,7 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../services/test-utils';
 
-import { Default, Linked, Netflix, PrimeVideo } from './flag.stories';
+import { Default, Linked } from './flag.stories';
 
 describe('Flag', () => {
   test('renders correctly', () => {
@@ -28,36 +28,6 @@ describe('Flag', () => {
 
     test('is accessible', async () => {
       const { container } = render(<Linked />);
-      const results = await axe(container);
-
-      expect(results).toHaveNoViolations();
-    });
-  });
-
-  describe('with variant "netflix"', () => {
-    test('renders correctly', () => {
-      const { container } = render(<Netflix />);
-
-      expect(container.firstChild).toMatchSnapshot();
-    });
-
-    test('is accessible', async () => {
-      const { container } = render(<Netflix />);
-      const results = await axe(container);
-
-      expect(results).toHaveNoViolations();
-    });
-  });
-
-  describe('with variant "primevideo"', () => {
-    test('renders correctly', () => {
-      const { container } = render(<PrimeVideo />);
-
-      expect(container.firstChild).toMatchSnapshot();
-    });
-
-    test('is accessible', async () => {
-      const { container } = render(<PrimeVideo />);
       const results = await axe(container);
 
       expect(results).toHaveNoViolations();

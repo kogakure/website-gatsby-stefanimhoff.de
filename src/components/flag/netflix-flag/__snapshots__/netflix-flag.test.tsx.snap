@@ -14,38 +14,22 @@ exports[`Flag renders correctly 1`] = `
   padding-left: 0.3em;
   padding-right: 0.3em;
   padding-top: 0.1em;
-}
-
-<span
-  class="c0"
->
-  default
-</span>
-`;
-
-exports[`Flag with href renders correctly 1`] = `
-.c0 {
-  background-color: lightgrey;
-  border-color: darkgrey;
-  border-radius: 2px;
-  border-style: solid;
-  border-width: 1px;
-  color: black;
-  font-family: 'Fira Code','Operator','Hasklig','Monoid',monospace;
-  font-size: 0.7em;
-  padding-bottom: 0em;
-  padding-left: 0.3em;
-  padding-right: 0.3em;
-  padding-top: 0.1em;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
+.c1 {
+  background-color: rgb(207,0,0);
+  border-color: rgb(207,0,0);
+  color: white;
+}
+
 <a
-  class="c0"
-  href="https://www.stefanimhoff.de"
+  aria-label="Netflix"
+  class="c0 c1"
+  href="https://www.netflix.com/title/80014749"
   rel="nofollow noopener noreferrer external"
 >
-  link
+  N
 </a>
 `;
