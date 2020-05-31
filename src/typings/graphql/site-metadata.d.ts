@@ -13,3 +13,7 @@ export type Site = {
     twitterUsername: string;
   };
 };
+
+export type SiteMetadataQueryData = {
+  site: Site;
+};

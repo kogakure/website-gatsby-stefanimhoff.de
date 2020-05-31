@@ -4,3 +4,11 @@ export type EdgeNode<Type> = {
     excerpt?: string;
   };
 };
+
+export type PostsQueryData = {
+  data: {
+    allBlogPosts: {
+      edges: [EdgeNode];
+    };
+  };
+};
