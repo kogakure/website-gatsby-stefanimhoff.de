@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Grid } from '.';
+import { ContentGrid } from '.';
 
 export default {
-  component: Grid,
-  title: 'Layout/Grid',
+  component: ContentGrid,
+  title: 'Layout/Content Grid',
 };
 
 const Box = styled.div`
@@ -15,7 +15,7 @@ const Box = styled.div`
 `;
 
 export const Default = () => (
-  <Grid debug>
+  <ContentGrid debug>
     <Box>1</Box>
     <Box>2</Box>
     <Box>3</Box>
@@ -34,11 +34,11 @@ export const Default = () => (
     <Box>16</Box>
     <Box>17</Box>
     <Box>18</Box>
-  </Grid>
+  </ContentGrid>
 );
 
 export const Fullsize = () => (
-  <Grid debug variant="fullsize">
+  <ContentGrid debug size="fullsize">
     <Box>1</Box>
     <Box>2</Box>
     <Box>3</Box>
@@ -57,11 +57,11 @@ export const Fullsize = () => (
     <Box>16</Box>
     <Box>17</Box>
     <Box>18</Box>
-  </Grid>
+  </ContentGrid>
 );
 
 export const Regular = () => (
-  <Grid debug variant="regular">
+  <ContentGrid debug size="regular">
     <Box>1</Box>
     <Box>2</Box>
     <Box>3</Box>
@@ -76,11 +76,11 @@ export const Regular = () => (
     <Box>12</Box>
     <Box>13</Box>
     <Box>14</Box>
-  </Grid>
+  </ContentGrid>
 );
 
 export const Narrow = () => (
-  <Grid debug variant="narrow">
+  <ContentGrid debug size="narrow">
     <Box>1</Box>
     <Box>2</Box>
     <Box>3</Box>
@@ -89,11 +89,11 @@ export const Narrow = () => (
     <Box>6</Box>
     <Box>7</Box>
     <Box>8</Box>
-  </Grid>
+  </ContentGrid>
 );
 
 export const RowGap = () => (
-  <Grid debug rowGap variant="narrow">
+  <ContentGrid debug rowGap size="narrow">
     <Box>1</Box>
     <Box>2</Box>
     <Box>3</Box>
@@ -104,5 +104,5 @@ export const RowGap = () => (
     <Box>8</Box>
     <Box>9</Box>
     <Box>10</Box>
-  </Grid>
+  </ContentGrid>
 );

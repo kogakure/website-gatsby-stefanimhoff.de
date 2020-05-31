@@ -1,8 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
-import FullsizeTemplate from '../templates/fullsize';
-import { Grid, SEO } from '../layout';
+import { ContentGrid, Layout, SEO } from '../layout';
 import { PostsQueryData } from '../typings/graphql';
 import { LocalizedDate } from '../components/localized-date';
 import { TextLink } from '../components/text-link';
@@ -13,14 +12,14 @@ const IndexPage = ({ data }: PostsQueryData) => {
   const posts = data.allBlogPosts.edges;
 
   return (
-    <FullsizeTemplate>
+    <Layout>
       <SEO homepage />
-      <Grid rowGap variant="fullsize">
+      <ContentGrid rowGap>
         <Title />
         <CoverImage />
         <AboutMe />
         <WhatIDo />
-      </Grid>
+      </ContentGrid>
       <br />
       {posts.map(({ node }) => {
         const {
@@ -43,7 +42,7 @@ const IndexPage = ({ data }: PostsQueryData) => {
           </article>
         );
       })}
-    </FullsizeTemplate>
+    </Layout>
   );
 };
 

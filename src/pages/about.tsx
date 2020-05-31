@@ -1,7 +1,6 @@
 import React from 'react';
 
-import FullsizeTemplate from '../templates/fullsize';
-import { Grid } from '../layout';
+import { Layout, ContentGrid } from '../layout';
 import {
   AboutMe,
   AboutWebsite,
@@ -12,16 +11,16 @@ import {
 } from '../screens/about';
 
 const AboutPage = () => (
-  <FullsizeTemplate>
-    <Grid rowGap variant="fullsize">
+  <Layout>
+    <ContentGrid rowGap size="fullsize">
       <Title />
       <Photo />
       <AboutMe />
       <AboutWebsite />
       <Contact />
       <Connect />
-    </Grid>
-  </FullsizeTemplate>
+    </ContentGrid>
+  </Layout>
 );
 
 export default AboutPage;

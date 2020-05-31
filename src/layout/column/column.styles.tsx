@@ -2,9 +2,9 @@ import styled, { css } from 'styled-components';
 
 import { mediaQuery } from '../tokens';
 
-import { ColumnProps } from './column';
+import { ColumnProps } from '.';
 
-export const variants = {
+export const sizes = {
   fullsize: css`
     grid-column: 1 / -1;
   `,
@@ -33,10 +33,12 @@ const Column = styled.div<ColumnProps>`
     debug &&
     css`
       background-color: var(--colorForegroundFeather);
-      border: 1px dotted darkgrey;
+      border-color: red;
+      border-style: solid;
+      border-width: 1px;
       width: 100%;
     `};
-  ${({ variant }) => variant && variants[variant]}
+  ${({ size }) => size && sizes[size]}
   width: 100%;
 `;
 

@@ -1,17 +1,16 @@
 import React from 'react';
 
-import RegularTemplate from '../templates/regular';
-import { Grid } from '../layout';
+import { ContentGrid, Layout } from '../layout';
 import { Haiku, Huge404, Title } from '../screens/404';
 
 const Error404Page = () => (
-  <RegularTemplate>
-    <Grid rowGap variant="regular">
+  <Layout size="regular">
+    <ContentGrid rowGap size="regular">
       <Title />
       <Haiku />
       <Huge404 />
-    </Grid>
-  </RegularTemplate>
+    </ContentGrid>
+  </Layout>
 );
 
 export default Error404Page;

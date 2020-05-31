@@ -2,9 +2,7 @@ import styled from 'styled-components';
 
 import { Lock } from '../../components/icons';
 
-const ProtectedEmail = styled.span`
-  background: transparent;
-`;
+const ProtectedEmail = styled.span``;
 
 const LockBox = styled.span`
   align-items: center;

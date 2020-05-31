@@ -32,7 +32,7 @@ export const Default = () => (
 
 export const Fullsize = () => (
   <Main>
-    <Column variant="fullsize" {...rowProps}>
+    <Column size="fullsize" {...rowProps}>
       <Box>fullsize</Box>
     </Column>
   </Main>
@@ -40,7 +40,7 @@ export const Fullsize = () => (
 
 export const Regular = () => (
   <Main>
-    <Column variant="regular" {...rowProps}>
+    <Column size="regular" {...rowProps}>
       <Box>regular</Box>
     </Column>
   </Main>
@@ -48,7 +48,7 @@ export const Regular = () => (
 
 export const Narrow = () => (
   <Main>
-    <Column variant="narrow" {...rowProps}>
+    <Column size="narrow" {...rowProps}>
       <Box>narrow</Box>
     </Column>
   </Main>
