@@ -2,9 +2,9 @@ import styled, { css } from 'styled-components';
 
 import { mediaQuery } from '../tokens';
 
-import { GridProps } from './grid';
+import { ContentGridProps } from './content-grid';
 
-export const variants = {
+export const sizes = {
   fullsize: css`
     grid-template-columns: repeat(18, 1fr);
   `,
@@ -28,14 +28,16 @@ export const variants = {
   `,
 };
 
-const Grid = styled.div<GridProps>`
+const ContentGrid = styled.div<ContentGridProps>`
   ${({ debug }) =>
     debug &&
     css`
       background-color: var(--colorForegroundFeather);
-      border: 1px dotted darkgrey;
+      border-color: blue;
+      border-style: dashed;
+      border-width: 1px;
     `};
-  ${({ variant }) => variant && variants[variant]}
+  ${({ size }) => size && sizes[size]}
   ${({ rowGap }) =>
     rowGap &&
     css`
@@ -46,5 +48,5 @@ const Grid = styled.div<GridProps>`
 `;
 
 export const Styled = {
-  Grid,
+  ContentGrid,
 };

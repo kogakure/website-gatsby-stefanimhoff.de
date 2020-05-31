@@ -167,7 +167,9 @@ const Row = styled.section<{ debug?: boolean; marginBottom?: boolean }>`
     debug &&
     css`
       background-color: var(--colorForegroundFeather);
-      border: 1px dotted darkgrey;
+      border-color: green;
+      border-style: dotted;
+      border-width: 1px;
       width: 100%;
     `};
   ${({ marginBottom }) => marginBottom && `margin-bottom: ${space[13]}`};

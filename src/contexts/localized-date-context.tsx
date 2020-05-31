@@ -1,21 +1,32 @@
 /* eslint-disable @typescript-eslint/no-empty-function */
-import React from 'react';
+import * as React from 'react';
 import createPersistedState from 'use-persisted-state';
 
-const useLocalizedDateState = createPersistedState('localizedDate');
-
-const initialState = {
-  localizedDate: 'en',
-  setLocalizedDate: (localizedDate: string) => {},
+export type LocalizedDateLanguage = 'en' | 'de' | 'ja';
+export type LocalizedDateState = {
+  localizedDateLanguage: LocalizedDateLanguage;
+  setLocalizedDateLanguage: (localizedDate: LocalizedDateLanguage) => void;
 };
+
+const initialState: LocalizedDateState = {
+  localizedDateLanguage: 'en',
+  setLocalizedDateLanguage: () => {},
+};
+
+const useLocalizedDateState = createPersistedState('localizedDate');
 
 export const LocalizedDateContext = React.createContext(initialState);
 
 export const LocalizedDateProvider: React.FC = ({ children }) => {
-  const [localizedDate, setLocalizedDate] = useLocalizedDateState('en');
+  const [
+    localizedDateLanguage,
+    setLocalizedDateLanguage,
+  ] = useLocalizedDateState(initialState.localizedDateLanguage);
 
   return (
-    <LocalizedDateContext.Provider value={{ localizedDate, setLocalizedDate }}>
+    <LocalizedDateContext.Provider
+      value={{ localizedDateLanguage, setLocalizedDateLanguage }}
+    >
       {children}
     </LocalizedDateContext.Provider>
   );

@@ -25,17 +25,17 @@ import {
   SubSubheadline,
   Title,
 } from '../../components/typography';
-import { SEO } from '../seo';
-import { Grid } from '../grid';
+import { ContentGrid } from '../content-grid';
 import { Row } from '../row';
+import { SEO } from '../seo';
 
 export const shortcodes = {
   BlockLink,
   Blockquote,
   ColorSwatch,
+  ContentGrid,
   Emojify,
   EmojifyToggle,
-  Grid,
   Headline,
   InlineQuote,
   KeyboardShortcut,
@@ -47,8 +47,8 @@ export const shortcodes = {
   SEO,
   Sample,
   Spoiler,
-  Subheadline,
   SubSubheadline,
+  Subheadline,
   TextLink,
   Title,
   Variable,

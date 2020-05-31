@@ -16,7 +16,9 @@ exports[`Column renders correctly 1`] = `
 
 .c2 {
   background-color: var(--colorForegroundFeather);
-  border: 1px dotted darkgrey;
+  border-color: red;
+  border-style: solid;
+  border-width: 1px;
   width: 100%;
   grid-column: 1 / -1;
   width: 100%;
@@ -73,7 +75,9 @@ exports[`Column with "fullsize" renders correctly 1`] = `
 
 .c2 {
   background-color: var(--colorForegroundFeather);
-  border: 1px dotted darkgrey;
+  border-color: red;
+  border-style: solid;
+  border-width: 1px;
   width: 100%;
   grid-column: 1 / -1;
   width: 100%;
@@ -130,7 +134,9 @@ exports[`Column with "narrow" renders correctly 1`] = `
 
 .c2 {
   background-color: var(--colorForegroundFeather);
-  border: 1px dotted darkgrey;
+  border-color: red;
+  border-style: solid;
+  border-width: 1px;
   width: 100%;
   grid-column: 2 / -2;
   width: 100%;
@@ -199,7 +205,9 @@ exports[`Column with "regular" renders correctly 1`] = `
 
 .c2 {
   background-color: var(--colorForegroundFeather);
-  border: 1px dotted darkgrey;
+  border-color: red;
+  border-style: solid;
+  border-width: 1px;
   width: 100%;
   grid-column: 2 / -2;
   width: 100%;

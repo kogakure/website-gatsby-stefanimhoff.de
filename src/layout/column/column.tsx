@@ -1,20 +1,21 @@
 import * as React from 'react';
 
-import { Styled, variants } from './column.styles';
+import { LayoutSize } from '..';
 
-export type ColumnVariants = keyof typeof variants;
+import { Styled } from './column.styles';
+
 export type ColumnProps = {
-  variant?: ColumnVariants;
   debug?: boolean;
+  size?: LayoutSize;
 };
 
 export const Column: React.FC<ColumnProps> = ({
-  debug,
-  variant = 'fullsize',
   children,
+  debug = false,
+  size = 'fullsize',
   ...props
 }) => (
-  <Styled.Column debug={debug} variant={variant} {...props}>
+  <Styled.Column debug={debug} size={size} {...props}>
     {children}
   </Styled.Column>
 );

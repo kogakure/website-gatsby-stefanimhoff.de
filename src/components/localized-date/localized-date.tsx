@@ -1,7 +1,7 @@
 import * as React from 'react';
 import moment from 'moment';
 
-import { LocalizedDateContext } from '../../contexts';
+import { LocalizedDateContext, LocalizedDateLanguage } from '../../contexts';
 
 import { Styled } from './localized-date.styles';
 
@@ -16,21 +16,21 @@ export const LocalizedDate: React.FC<LocalizedDateProps> = ({
   const en = moment(date).format('MMMM Do, YYYY');
   const de = moment(date).format('DD.MM.YYYY');
   const [day, month, year] = de.split('.');
-  const { localizedDate, setLocalizedDate } = React.useContext(
+  const { localizedDateLanguage, setLocalizedDateLanguage } = React.useContext(
     LocalizedDateContext
   );
-  const currentLanguage = localizedDate;
+  const currentLanguage = localizedDateLanguage;
   let string;
 
   const toggleLanguage = () => {
-    const possibleLanguages = ['en', 'de', 'ja'];
+    const possibleLanguages: LocalizedDateLanguage[] = ['en', 'de', 'ja'];
     const index = possibleLanguages.indexOf(currentLanguage);
 
     if (index >= 0 && index < possibleLanguages.length - 1) {
       const nextLanguage = possibleLanguages[index + 1];
-      setLocalizedDate(nextLanguage);
+      setLocalizedDateLanguage(nextLanguage);
     } else {
-      setLocalizedDate('en');
+      setLocalizedDateLanguage('en');
     }
   };
 

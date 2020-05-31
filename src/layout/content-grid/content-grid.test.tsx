@@ -2,7 +2,13 @@ import React from 'react';
 
 import { render } from '../../services/test-utils';
 
-import { Default, Fullsize, Regular, Narrow, RowGap } from './grid.stories';
+import {
+  Default,
+  Fullsize,
+  Regular,
+  Narrow,
+  RowGap,
+} from './content-grid.stories';
 
 describe('Grid', () => {
   test('renders correctly', () => {

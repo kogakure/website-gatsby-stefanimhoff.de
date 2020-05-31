@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ProtectedEmail renders correctly 1`] = `
-.c1 {
+.c0 {
   color: var(--colorForeground);
   font-weight: 600;
   -webkit-text-decoration-color: var(--colorForegroundSoft);
@@ -11,23 +11,19 @@ exports[`ProtectedEmail renders correctly 1`] = `
   text-underline-offset: 0.1em;
 }
 
-.c1:hover,
-.c1:focus {
+.c0:hover,
+.c0:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
 
-.c0 {
-  background: transparent;
-}
-
 <span
-  class="c0"
+  class=""
   role="button"
   tabindex="0"
 >
   <a
-    class="c1"
+    class="c0"
     href="#"
     rel="nofollow noopener noreferrer external"
   >
@@ -37,7 +33,7 @@ exports[`ProtectedEmail renders correctly 1`] = `
 `;
 
 exports[`ProtectedEmail with custom title renders correctly 1`] = `
-.c1 {
+.c0 {
   color: var(--colorForeground);
   font-weight: 600;
   -webkit-text-decoration-color: var(--colorForegroundSoft);
@@ -47,23 +43,19 @@ exports[`ProtectedEmail with custom title renders correctly 1`] = `
   text-underline-offset: 0.1em;
 }
 
-.c1:hover,
-.c1:focus {
+.c0:hover,
+.c0:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
 
-.c0 {
-  background: transparent;
-}
-
 <span
-  class="c0"
+  class=""
   role="button"
   tabindex="0"
 >
   <a
-    class="c1"
+    class="c0"
     href="#"
     rel="nofollow noopener noreferrer external"
   >
@@ -73,7 +65,7 @@ exports[`ProtectedEmail with custom title renders correctly 1`] = `
 `;
 
 exports[`ProtectedEmail without GPG key download option renders correctly 1`] = `
-.c1 {
+.c0 {
   color: var(--colorForeground);
   font-weight: 600;
   -webkit-text-decoration-color: var(--colorForegroundSoft);
@@ -83,23 +75,19 @@ exports[`ProtectedEmail without GPG key download option renders correctly 1`] = 
   text-underline-offset: 0.1em;
 }
 
-.c1:hover,
-.c1:focus {
+.c0:hover,
+.c0:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
 
-.c0 {
-  background: transparent;
-}
-
 <span
-  class="c0"
+  class=""
   role="button"
   tabindex="0"
 >
   <a
-    class="c1"
+    class="c0"
     href="#"
     rel="nofollow noopener noreferrer external"
   >
