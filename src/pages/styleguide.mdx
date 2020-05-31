@@ -661,6 +661,28 @@ And some more text
 <Spoiler block>Hidden text in a block</Spoiler>
 ```
 
+### Label
+
+Default labels, for example for a TV show season <Flag label="1" /> or a time code <Flag label="1:09:57" />. And with a Link <Flag label="linked" href="https://www.stefanimhoff.de" />.
+
+```jsx
+<Flag label="1" />
+<Flag label="1:09:57" />
+<Flag label="1" href="https://www.test.de" />
+```
+
+Netflix: <Flag variant="netflix" id="80014749" />
+
+```jsx
+<Flag variant="netflix" id="80014749" />
+```
+
+Prime Video: <Flag variant="primevideo" id="B0874XF36P" />
+
+```jsx
+<Flag variant="amazon" id="B0874XF36P" />
+```
+
 ### ColorSwatch
 
 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gridGap: '20px', gridAutoRows: 'auto', marginBottom: '2rem' }}>

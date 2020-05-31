@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flag renders correctly 1`] = `
+.c0 {
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  font-family: 'Fira Code','Operator','Hasklig','Monoid',monospace;
+  font-size: 0.7em;
+  padding-bottom: 0em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-top: 0.1em;
+  background-color: lightgrey;
+  border-color: darkgrey;
+  color: black;
+}
+
+<span
+  aria-label="default"
+  class="c0"
+>
+  default
+</span>
+`;
+
+exports[`Flag with href renders correctly 1`] = `
+.c0 {
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  font-family: 'Fira Code','Operator','Hasklig','Monoid',monospace;
+  font-size: 0.7em;
+  padding-bottom: 0em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-top: 0.1em;
+  background-color: lightgrey;
+  border-color: darkgrey;
+  color: black;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<a
+  aria-label="link"
+  class="c0"
+  href="https://www.stefanimhoff.de"
+  rel="nofollow noopener noreferrer external"
+>
+  link
+</a>
+`;
+
+exports[`Flag with variant "netflix" renders correctly 1`] = `
+.c0 {
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  font-family: 'Fira Code','Operator','Hasklig','Monoid',monospace;
+  font-size: 0.7em;
+  padding-bottom: 0em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-top: 0.1em;
+  background-color: rgb(207,0,0);
+  border-color: rgb(207,0,0);
+  color: white;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<a
+  aria-label="Netflix"
+  class="c0"
+  href="https://www.netflix.com/title/80014749"
+  rel="nofollow noopener noreferrer external"
+>
+  N
+</a>
+`;
+
+exports[`Flag with variant "primevideo" renders correctly 1`] = `
+.c0 {
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  font-family: 'Fira Code','Operator','Hasklig','Monoid',monospace;
+  font-size: 0.7em;
+  padding-bottom: 0em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-top: 0.1em;
+  background-color: rgb(73,163,221);
+  border-color: rgb(73,163,221);
+  color: black;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<a
+  aria-label="Prime Video"
+  class="c0"
+  href="https://www.amazon.de/gp/video/detail/B0874XF36P"
+  rel="nofollow noopener noreferrer external"
+>
+  P
+</a>
+`;
