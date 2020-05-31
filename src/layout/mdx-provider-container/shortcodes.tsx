@@ -2,6 +2,7 @@ import { Blockquote } from '../../components/blockquote';
 import { ColorSwatch } from '../../components/color-swatch';
 import { Flag, NetflixFlag, PrimeVideoFlag } from '../../components/flag';
 import { HorizontalRule } from '../../components/horizontal-rule';
+import { IconLink } from '../../components/icon-link';
 import { InlineCode } from '../../components/inline-code';
 import { InlineQuote } from '../../components/inline-quote';
 import { KeyboardShortcut } from '../../components/keyboard-shortcut';
