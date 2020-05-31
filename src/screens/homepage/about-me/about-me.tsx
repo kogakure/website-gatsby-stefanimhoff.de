@@ -9,9 +9,9 @@ export const AboutMe: React.FC = () => (
   <Styled.AboutMe>
     <Headline>About Me</Headline>
     <Paragraph>
-      I’m a Front-End Web Developer and Designer based in Hamburg. I love design
-      and art, creating Sketchnotes, reading books, taking photos, and writing
-      Haiku. I am also a Minimalist, a Stoic, introvert and Japanophile.{' '}
+      I’m a Front-End Web Developer and Designer from Hamburg, Germany. I love
+      design and art, reading books, creating Sketchnotes, taking photos, and
+      writing Haiku.{' '}
     </Paragraph>
     <Paragraph noMargin>
       <TextLink to="/about/" showIcon>
