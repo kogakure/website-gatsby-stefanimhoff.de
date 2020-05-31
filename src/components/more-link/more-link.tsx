@@ -9,7 +9,7 @@ export const MoreLink: React.FC<MoreLinkProps> = ({
   children = 'More',
   ...props
 }) => (
-  <IconLink icon={<ArrowRight />} {...props}>
+  <IconLink animation="right" icon={<ArrowRight />} {...props}>
     {children}
   </IconLink>
 );

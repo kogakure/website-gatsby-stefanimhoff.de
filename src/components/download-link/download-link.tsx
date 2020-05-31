@@ -9,7 +9,7 @@ export const DownloadLink: React.FC<DownloadLinkProps> = ({
   children = 'Download',
   ...props
 }) => (
-  <IconLink icon={<Download />} {...props}>
+  <IconLink animation="down" icon={<Download />} {...props}>
     {children}
   </IconLink>
 );

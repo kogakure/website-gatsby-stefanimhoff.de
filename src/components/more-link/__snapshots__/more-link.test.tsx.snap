@@ -26,6 +26,21 @@ exports[`MoreLink renders correctly 1`] = `
   margin-left: 0.2em;
   position: relative;
   top: 0.2em;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+a:hover .c1,
+a:active .c1,
+a:focus .c1 {
+  -webkit-transform: translate3D(0.25rem,0,0);
+  -ms-transform: translate3D(0.25rem,0,0);
+  transform: translate3D(0.25rem,0,0);
 }
 
 <a
@@ -79,6 +94,21 @@ exports[`MoreLink with custom text renders correctly 1`] = `
   margin-left: 0.2em;
   position: relative;
   top: 0.2em;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+a:hover .c1,
+a:active .c1,
+a:focus .c1 {
+  -webkit-transform: translate3D(0.25rem,0,0);
+  -ms-transform: translate3D(0.25rem,0,0);
+  transform: translate3D(0.25rem,0,0);
 }
 
 <a
