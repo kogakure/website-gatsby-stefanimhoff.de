@@ -1,7 +1,6 @@
 import { Blockquote } from '../../components/blockquote';
 import { ColorSwatch } from '../../components/color-swatch';
-import { Emojify } from '../emojify';
-import { EmojifyToggle } from '../emojify-toggle';
+import { Flag } from '../../components/flag';
 import { HorizontalRule } from '../../components/horizontal-rule';
 import { InlineCode } from '../../components/inline-code';
 import { InlineQuote } from '../../components/inline-quote';
@@ -26,6 +25,8 @@ import {
   Title,
 } from '../../components/typography';
 import { ContentGrid } from '../content-grid';
+import { Emojify } from '../emojify';
+import { EmojifyToggle } from '../emojify-toggle';
 import { Row } from '../row';
 import { SEO } from '../seo';
 
@@ -36,6 +37,7 @@ export const shortcodes = {
   ContentGrid,
   Emojify,
   EmojifyToggle,
+  Flag,
   Headline,
   InlineQuote,
   KeyboardShortcut,
