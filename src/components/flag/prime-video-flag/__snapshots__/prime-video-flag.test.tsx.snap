@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrimeVideoFlag renders correctly 1`] = `
+.c0 {
+  background-color: lightgrey;
+  border-color: darkgrey;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  color: black;
+  font-family: 'Fira Code','Operator','Hasklig','Monoid',monospace;
+  font-size: 0.7em;
+  padding-bottom: 0em;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  padding-top: 0.1em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  background-color: rgb(73,163,221);
+  border-color: rgb(73,163,221);
+  color: black;
+}
+
+<a
+  aria-label="Prime Video"
+  class="c0 c1"
+  href="https://www.amazon.de/gp/video/detail/B0874XF36P"
+  rel="nofollow noopener noreferrer external"
+>
+  P
+</a>
+`;
