@@ -1,3 +1,6 @@
+export * from './japanese-color';
+export * from './japanese-color-item';
+export * from './japanese-color-query-data';
 export * from './layout-query-data';
 export * from './navigation';
 export * from './navigation-item';

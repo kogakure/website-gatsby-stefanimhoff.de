@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ColorSwatch renders correctly 1`] = `
+exports[`Traditional Colors of Japan ColorGrid renders correctly 1`] = `
 .c1 {
   border-color: var(--colorForegroundSoft);
   border-radius: 5px;
@@ -78,7 +78,11 @@ exports[`ColorSwatch renders correctly 1`] = `
 }
 
 .c0 {
-  width: 200px;
+  display: grid;
+  grid-column: 1 / -1;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
 }
 
 <div
@@ -89,7 +93,7 @@ exports[`ColorSwatch renders correctly 1`] = `
   >
     <div
       class="c2"
-      style="background-color: rgb(0, 92, 175);"
+      style="background-color: rgb(220, 159, 180);"
     />
     <div
       class="c3"
@@ -120,12 +124,12 @@ exports[`ColorSwatch renders correctly 1`] = `
       <div
         class="c6"
       >
-        Lapis Lazuli
+        Pink
       </div>
       <div
         class="c7"
       >
-        The soft, slightly purplish blue associated with the semi-precious stone.
+        The vivid pink of Dianthus chinesis flowers.
       </div>
     </div>
   </div>

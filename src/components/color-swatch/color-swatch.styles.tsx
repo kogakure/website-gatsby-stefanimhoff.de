@@ -17,6 +17,9 @@ const ColorSwatchContainer = styled.div`
 
 const Color = styled.div`
   background: lightgrey;
+  border-bottom-color: var(--colorForegroundSoft);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
   border-top-left-radius: ${radius[2]};
   border-top-right-radius: ${radius[2]};
   height: 6rem;
