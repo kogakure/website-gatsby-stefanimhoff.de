@@ -36,7 +36,7 @@ export const AboutMe: React.FC = () => (
       Writing is a passion of me: Besides writing{' '}
       <TextLink to="/journal/">articles</TextLink> I wrote a{' '}
       <TextLink href="https://book.kogakure.de/">book</TextLink> about Ninja and
-      Ninjutsu – a topic that I know way too much about.
+      Ninjutsu—a topic that I know way too much about.
     </Paragraph>
   </Styled.AboutMe>
 );

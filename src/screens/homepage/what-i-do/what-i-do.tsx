@@ -18,7 +18,6 @@ export const WhatIDo: React.FC = () => (
         I deeply care about good user experience: Writing good text, choosing
         the right photography, typography, colours. Programming fast, reusable,
         well-tested and easy-to-maintain code or creating engaging animations.
-        Everything&nbsp;matters.
       </Paragraph>
       <Paragraph>
         I am currently working at{' '}

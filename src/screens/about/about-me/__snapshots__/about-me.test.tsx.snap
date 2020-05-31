@@ -160,7 +160,7 @@ exports[`About AboutMe renders correctly 1`] = `
     >
       book
     </a>
-     about Ninja and Ninjutsu – a topic that I know way too much about.
+     about Ninja and Ninjutsu—a topic that I know way too much about.
   </p>
 </section>
 `;
