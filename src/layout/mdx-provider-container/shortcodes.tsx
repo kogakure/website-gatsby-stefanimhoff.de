@@ -7,6 +7,7 @@ import { InlineCode } from '../../components/inline-code';
 import { InlineQuote } from '../../components/inline-quote';
 import { KeyboardShortcut } from '../../components/keyboard-shortcut';
 import { Mark } from '../../components/mark';
+import { MoreLink } from '../../components/more-link';
 import { OrderedList } from '../../components/ordered-list';
 import { ProtectedEmail } from '../../components/protected-email';
 import { Pullquote } from '../../components/pullquote';
@@ -40,8 +41,10 @@ export const shortcodes = {
   EmojifyToggle,
   Flag,
   Headline,
+  IconLink,
   InlineQuote,
   KeyboardShortcut,
+  MoreLink,
   NetflixFlag,
   Paragraph,
   PrimeVideoFlag,
