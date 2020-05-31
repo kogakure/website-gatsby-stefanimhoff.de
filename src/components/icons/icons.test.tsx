@@ -5,6 +5,7 @@ import { render } from '../../services/test-utils';
 import { Icon as ArrowUp } from './arrow-up.stories';
 import { Icon as ArrowLeft } from './arrow-left.stories';
 import { Icon as Circle } from './circle.stories';
+import { Icon as Download } from './download.stories';
 import { Icon as Information } from './information.stories';
 import { Icon as Lock } from './lock.stories';
 
@@ -23,6 +24,12 @@ describe('Icon', () => {
 
   test('Circle renders correctly', () => {
     const { container } = render(<Circle />);
+
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  test('Download renders correctly', () => {
+    const { container } = render(<Download />);
 
     expect(container.firstChild).toMatchSnapshot();
   });

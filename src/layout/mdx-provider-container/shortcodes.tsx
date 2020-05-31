@@ -1,5 +1,6 @@
 import { Blockquote } from '../../components/blockquote';
 import { ColorSwatch } from '../../components/color-swatch';
+import { DownloadLink } from '../../components/download-link';
 import { Flag, NetflixFlag, PrimeVideoFlag } from '../../components/flag';
 import { HorizontalRule } from '../../components/horizontal-rule';
 import { IconLink } from '../../components/icon-link';
@@ -37,6 +38,7 @@ export const shortcodes = {
   Blockquote,
   ColorSwatch,
   ContentGrid,
+  DownloadLink,
   Emojify,
   EmojifyToggle,
   Flag,
