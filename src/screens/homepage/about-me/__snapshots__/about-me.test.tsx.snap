@@ -79,6 +79,21 @@ exports[`Homepage AboutMe renders correctly 1`] = `
   margin-left: 0.2em;
   position: relative;
   top: 0.2em;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+a:hover .c5,
+a:active .c5,
+a:focus .c5 {
+  -webkit-transform: translate3D(0.25rem,0,0);
+  -ms-transform: translate3D(0.25rem,0,0);
+  transform: translate3D(0.25rem,0,0);
 }
 
 .c0 {
