@@ -16,11 +16,13 @@ export type LayoutProps = {
   debug?: boolean;
   size?: LayoutSize;
   variant?: LayoutVariant;
+  homeTo?: string;
 };
 
 export const Layout: React.FC<LayoutProps> = ({
   children,
   debug = false,
+  homeTo,
   size = 'fullsize',
   variant = 'default',
 }) => {
@@ -32,7 +34,7 @@ export const Layout: React.FC<LayoutProps> = ({
     <MDXProviderContainer>
       <SEO />
       <Helmet bodyAttributes={{ class: variant }} />
-      <Header navigation={nodes} />
+      <Header navigation={nodes} homeTo={homeTo} />
       <Main>
         <Column debug={debug} size={size}>
           {children}
