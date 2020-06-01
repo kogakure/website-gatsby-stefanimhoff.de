@@ -31,7 +31,7 @@ const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
   const imageURL = cover ? cover.publicURL : undefined;
 
   return (
-    <Layout>
+    <Layout homeTo="/journal/">
       <SEO
         article
         description={description}
@@ -63,7 +63,6 @@ const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
             )}
           </>
         )}
-
         {next === false ? null : (
           <>
             {next && (

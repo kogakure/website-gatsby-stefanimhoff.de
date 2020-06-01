@@ -4,7 +4,7 @@ import { ContentGrid, Layout } from '../layout';
 import { ColorGrid, Title } from '../screens/traditional-colors-of-japan';
 
 const TraditionalColorsOfJapanPage = () => (
-  <Layout size="regular">
+  <Layout homeTo="/projects/" size="regular">
     <ContentGrid rowGap size="regular">
       <Title />
       <ColorGrid />

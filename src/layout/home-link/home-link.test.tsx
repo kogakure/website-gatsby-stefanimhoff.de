@@ -12,6 +12,12 @@ describe('HomeLink', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
+  test('with custom "to" renders correctly', () => {
+    const { container } = render(<HomeLink to="/some-page/" />);
+
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
   test('is accessible', async () => {
     const { container } = render(<HomeLink />);
     const results = await axe(container);
