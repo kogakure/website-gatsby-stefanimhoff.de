@@ -1,3 +1,4 @@
+import { AmazonBook } from '../../components/amazon-book';
 import { Blockquote } from '../../components/blockquote';
 import { Book } from '../../components/book';
 import { ColorSwatch } from '../../components/color-swatch';
@@ -35,6 +36,7 @@ import { Row } from '../row';
 import { SEO } from '../seo';
 
 export const shortcodes = {
+  AmazonBook,
   BlockLink,
   Blockquote,
   Book,
