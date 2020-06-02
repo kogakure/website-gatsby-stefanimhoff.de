@@ -15,9 +15,9 @@ export const AboutMe: React.FC = () => (
     </Paragraph>
     <Paragraph>
       I love walking and cycling, and do{' '}
-      <TextLink to="/calisthenics/">Calisthenics</TextLink> and running to fit.
-      My favourite weather is thunderstorm and rain, but also warm, sunny
-      weather. My favourite places are the sea and forests.
+      <TextLink to="/calisthenics/">Calisthenics</TextLink> and running to stay
+      fit. My favourite weather is thunderstorm and rain, but I like also warm,
+      sunny weather. My favourite places are the sea and forests.
     </Paragraph>
     <Paragraph>
       When I’m inside I like reading in my roughly 1,000 books. I am also a big
