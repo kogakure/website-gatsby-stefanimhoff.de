@@ -1,4 +1,5 @@
 import { Blockquote } from '../../components/blockquote';
+import { Book } from '../../components/book';
 import { ColorSwatch } from '../../components/color-swatch';
 import { DownloadLink } from '../../components/download-link';
 import { Flag, NetflixFlag, PrimeVideoFlag } from '../../components/flag';
@@ -36,6 +37,7 @@ import { SEO } from '../seo';
 export const shortcodes = {
   BlockLink,
   Blockquote,
+  Book,
   ColorSwatch,
   ContentGrid,
   DownloadLink,
