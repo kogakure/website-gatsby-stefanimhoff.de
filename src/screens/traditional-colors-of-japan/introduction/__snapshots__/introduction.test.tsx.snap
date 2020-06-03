@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Traditional Colors of Japan Introduction renders correctly 1`] = `
+.c1 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: 0;
+}
+
+.c2 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.c3 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c3:hover,
+.c3:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c4 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: 0.2em;
+  position: relative;
+  top: 0.2em;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+a:hover .c4,
+a:active .c4,
+a:focus .c4 {
+  -webkit-transform: translate3D(0,0.25rem,0);
+  -ms-transform: translate3D(0,0.25rem,0);
+  transform: translate3D(0,0.25rem,0);
+}
+
+.c0 {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  margin-bottom: 0;
+  z-index: 1;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    grid-column: 1 / 10;
+  }
+}
+
+@media (min-width:1200px) {
+  .c0 {
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    display: grid;
+  }
+}
+
+<div
+  class="c0"
+>
+  <p
+    class="c1"
+  >
+    A few years ago I found by accident the book
+     
+    <cite>
+      The Traditional Colors of Japan
+    </cite>
+     by
+     
+    <strong>
+      Nobyoshi Hamada
+    </strong>
+    .
+  </p>
+  <p
+    class="c1"
+  >
+    It’s the best book about Japanese colors I know. The book is filled with beautiful photography showing examples of nature, craftsmanship and art applying the colors.
+  </p>
+  <p
+    class="c1"
+  >
+    I took the time and converted all colors in the book into an ASE (Adobe Swatch Exchange) file that is usable in all Graphic software. You can download the file or browse all colors on this page.
+  </p>
+  <p
+    class="c2"
+  >
+    <a
+      class="c3"
+      href="/downloads/traditional-colors-of-japan-rgb.zip"
+      rel="nofollow noopener noreferrer external"
+    >
+      Download Color Palette
+      <span
+        class="c4"
+      >
+        <svg
+          height="1em"
+          viewBox="0 0 24 24"
+          width="1em"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+          />
+          <path
+            d="M3 19h18v2H3v-2zm10-5.828L19.071 7.1l1.414 1.414L12 17 3.515 8.515 4.929 7.1 11 13.17V2h2v11.172z"
+          />
+        </svg>
+      </span>
+    </a>
+  </p>
+</div>
+`;
