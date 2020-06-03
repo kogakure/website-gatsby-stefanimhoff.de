@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Traditional Colors of Japan Book renders correctly 1`] = `
+.c1 {
+  box-shadow: 0 0.1em 0.5em rgba(0,0,0,0.5);
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  vertical-align: bottom;
+}
+
+.c1:hover,
+.c1:focus {
+  box-shadow: 0 0.1em 0.8em rgba(0,0,0,0.8);
+}
+
+.c1::before {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background: linear-gradient( to left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 90% );
+  box-shadow: 0.1em 0 rgba(0,0,0,0.1),2px 0 0px rgba(255,255,255,0.1);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 0.5em;
+  z-index: 2;
+}
+
+.c1::after {
+  border-radius: 4em / 2em;
+  bottom: 1em;
+  box-shadow: 0 0 2em rgba(0,0,0,0.8);
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 50%;
+  top: 1em;
+  z-index: -1;
+}
+
+.c2 {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  display: block;
+  position: relative;
+}
+
+.c0 {
+  -webkit-align-self: start;
+  -ms-flex-item-align: start;
+  align-self: start;
+  display: grid;
+  grid-column: 1 / -1;
+  grid-row: 3;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.c0 img {
+  height: auto;
+  max-width: 100%;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    grid-column: 11 / -1;
+    grid-row: 2;
+    -webkit-box-pack: end;
+    -webkit-justify-content: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+  }
+}
+
+<div
+  class="c0"
+>
+  <a
+    class="c1"
+    href="http://www.amazon.de/gp/product/475624100X?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=475624100X"
+    rel="nofollow noopener noreferrer external"
+  >
+    <img
+      alt="Book: The Tradtional Colors of Japan"
+      class="c2"
+      src="https://images-na.ssl-images-amazon.com/images/P/475624100X.01.LZZZZZZZ.jpg"
+    />
+  </a>
+</div>
+`;
