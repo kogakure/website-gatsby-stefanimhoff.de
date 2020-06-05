@@ -15,11 +15,6 @@ exports[`Column renders correctly 1`] = `
 }
 
 .c2 {
-  background-color: var(--colorForegroundFeather);
-  border-color: red;
-  border-style: solid;
-  border-width: 1px;
-  width: 100%;
   grid-column: 1 / -1;
   width: 100%;
 }

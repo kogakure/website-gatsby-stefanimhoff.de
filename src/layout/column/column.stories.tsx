@@ -14,7 +14,6 @@ const Box = styled.div`
 
 const rowProps = {
   marginBottom: true,
-  debug: true,
 };
 
 export default {
@@ -32,7 +31,7 @@ export const Default = () => (
 
 export const Fullsize = () => (
   <Main>
-    <Column size="fullsize" {...rowProps}>
+    <Column size="fullsize" {...rowProps} debug>
       <Box>fullsize</Box>
     </Column>
   </Main>
@@ -40,7 +39,7 @@ export const Fullsize = () => (
 
 export const Regular = () => (
   <Main>
-    <Column size="regular" {...rowProps}>
+    <Column size="regular" {...rowProps} debug>
       <Box>regular</Box>
     </Column>
   </Main>
@@ -48,7 +47,7 @@ export const Regular = () => (
 
 export const Narrow = () => (
   <Main>
-    <Column size="narrow" {...rowProps}>
+    <Column size="narrow" {...rowProps} debug>
       <Box>narrow</Box>
     </Column>
   </Main>
