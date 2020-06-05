@@ -1,0 +1,312 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CV Experience renders correctly 1`] = `
+.c0 {
+  font-size: clamp(1.50rem,2.9vw,3.25rem);
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.0;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: 0;
+}
+
+.c0 .autolink {
+  background: transparent;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.c0:hover .autolink,
+.c0:focus .autolink {
+  opacity: 0.5;
+}
+
+.c2 {
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.c2 .autolink {
+  background: transparent;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.c2:hover .autolink,
+.c2:focus .autolink {
+  opacity: 0.5;
+}
+
+.c5 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.c5 .autolink {
+  background: transparent;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.c5:hover .autolink,
+.c5:focus .autolink {
+  opacity: 0.5;
+}
+
+.c9 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  list-style-type: circle;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
+  padding-left: 1.2em;
+}
+
+li .c9 {
+  padding-left: 2rem;
+}
+
+.c9.contains-task-list {
+  list-style-type: none;
+}
+
+.c8 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c8:hover,
+.c8:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  justify-items: center;
+}
+
+.c7 {
+  line-height: 1;
+}
+
+.c6 {
+  line-height: 1;
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  margin-right: clamp( 0.335rem,0.72vw,0.402rem);
+}
+
+.c1 {
+  font-weight: bold;
+}
+
+.c3 {
+  font-style: italic;
+  margin-bottom: clamp( 0.335rem,0.72vw,0.402rem);
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c0 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c2 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c5 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+@media (min-width:768px) {
+  .c9 {
+    padding-left: 0;
+  }
+}
+
+@supports (-webkit-appearance:none) or (-moz-appearance:none) or (appearance:none) {
+  .c9 input[type='checkbox'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    border-color: var(--colorForegroundSoft);
+    border-radius: 25%;
+    border-style: solid;
+    border-width: 0.1em;
+    cursor: pointer;
+    display: inline-block;
+    height: 1em;
+    margin: 0;
+    outline: none;
+    position: relative;
+    top: 0.3em;
+    vertical-align: top;
+    width: 1em;
+  }
+
+  .c9 input[type='checkbox']:after {
+    border-bottom-width: 0.15em;
+    border-color: var(--colorForeground);
+    border-left-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0.15em;
+    border-style: solid;
+    border-top-color: transparent;
+    border-top-width: 0;
+    content: '';
+    display: block;
+    height: 0.5em;
+    left: 0.25em;
+    opacity: var(--opacity,0);
+    position: absolute;
+    top: 0.1em;
+    -webkit-transform: rotate(var(--rotate,0deg));
+    -ms-transform: rotate(var(--rotate,0deg));
+    transform: rotate(var(--rotate,0deg));
+    width: 0.3em;
+  }
+
+  .c9 input[type='checkbox']:checked {
+    --rotate: 43deg;
+    --opacity: 1;
+  }
+
+  .c9 input[type='checkbox']:disabled {
+    cursor: not-allowed;
+  }
+}
+
+<section
+  class=""
+>
+  <h2
+    class="c0"
+  >
+    Professional Experience
+  </h2>
+  <div>
+    <div
+      class="c1"
+    >
+      <h3
+        class="c2"
+      >
+        Senior Software Engineer
+      </h3>
+    </div>
+    <div
+      class="c3"
+    >
+      03/2020-current
+    </div>
+    <div
+      class="c4"
+    >
+      <h4
+        class="c5"
+      >
+        XING
+      </h4>
+      <span
+        class="c6"
+      >
+        •
+      </span>
+      <span
+        class="c7"
+      >
+        Hamburg, Germany
+      </span>
+    </div>
+    <div
+      class=""
+    >
+      <a
+        class="c8"
+        href="https://www.xing.com"
+        rel="nofollow noopener noreferrer external"
+      >
+        www.xing.com
+      </a>
+    </div>
+    <ul
+      class="c9"
+    >
+      <li>
+        Task 1
+      </li>
+      <li>
+        Task 2
+      </li>
+      <li>
+        Task 3
+      </li>
+    </ul>
+  </div>
+</section>
+`;

@@ -58,15 +58,6 @@ export const useCvQuery = () => {
             headline
             items
           }
-          projects {
-            headline
-            items {
-              description
-              notes
-              title
-              url
-            }
-          }
         }
       }
     }

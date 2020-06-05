@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CV Languages renders correctly 1`] = `
+.c0 {
+  font-size: clamp(1.50rem,2.9vw,3.25rem);
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.0;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: 0;
+}
+
+.c0 .autolink {
+  background: transparent;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.c0:hover .autolink,
+.c0:focus .autolink {
+  opacity: 0.5;
+}
+
+.c1 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  list-style-type: circle;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
+  padding-left: 1.2em;
+}
+
+li .c1 {
+  padding-left: 2rem;
+}
+
+.c1.contains-task-list {
+  list-style-type: none;
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c0 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    padding-left: 0;
+  }
+}
+
+@supports (-webkit-appearance:none) or (-moz-appearance:none) or (appearance:none) {
+  .c1 input[type='checkbox'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    border-color: var(--colorForegroundSoft);
+    border-radius: 25%;
+    border-style: solid;
+    border-width: 0.1em;
+    cursor: pointer;
+    display: inline-block;
+    height: 1em;
+    margin: 0;
+    outline: none;
+    position: relative;
+    top: 0.3em;
+    vertical-align: top;
+    width: 1em;
+  }
+
+  .c1 input[type='checkbox']:after {
+    border-bottom-width: 0.15em;
+    border-color: var(--colorForeground);
+    border-left-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0.15em;
+    border-style: solid;
+    border-top-color: transparent;
+    border-top-width: 0;
+    content: '';
+    display: block;
+    height: 0.5em;
+    left: 0.25em;
+    opacity: var(--opacity,0);
+    position: absolute;
+    top: 0.1em;
+    -webkit-transform: rotate(var(--rotate,0deg));
+    -ms-transform: rotate(var(--rotate,0deg));
+    transform: rotate(var(--rotate,0deg));
+    width: 0.3em;
+  }
+
+  .c1 input[type='checkbox']:checked {
+    --rotate: 43deg;
+    --opacity: 1;
+  }
+
+  .c1 input[type='checkbox']:disabled {
+    cursor: not-allowed;
+  }
+}
+
+<section
+  class=""
+>
+  <h2
+    class="c0"
+  >
+    Languages
+  </h2>
+  <ul
+    class="c1"
+  >
+    <li>
+      <strong>
+        German
+      </strong>
+       (
+      native language
+      )
+    </li>
+  </ul>
+</section>
+`;
