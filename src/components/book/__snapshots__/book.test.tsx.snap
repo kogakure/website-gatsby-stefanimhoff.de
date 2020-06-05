@@ -62,7 +62,7 @@ exports[`Book renders correctly 1`] = `
   class="c0"
 >
   <img
-    alt="kogakure"
+    alt=""
     class="c1"
     height="393"
     src="[object Object]"

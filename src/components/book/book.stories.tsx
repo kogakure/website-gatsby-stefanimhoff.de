@@ -9,9 +9,7 @@ export default {
   title: 'Misc/Book',
 };
 
-export const Default = () => (
-  <Book alt="kogakure" height="393" src={book} width="300" />
-);
+export const Default = () => <Book height="393" src={book} width="300" />;
 
 export const LinkedBook = () => (
   <Book
