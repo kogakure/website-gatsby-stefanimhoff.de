@@ -21,48 +21,48 @@
         tasks:
           - >-
             Programming of central components for the XING Platform with React
-            and CSS
-          - "Development, maintenance and documentation of the XING Design System"
+            and CSS.
+          - "Development, maintenance and documentation of the XING Design System."
           - >-
             Support for the product teams with the integration of new interfaces
-            from components of the design system
+            from components of the Design System.
           - >-
             Conception of new components in collaboration with designers and
-            developers
+            developers.
           - >-
             Evaluation of coding challenges and interviews for hiring new
-            Frontend Developers
-          - Administration of a Slack workspace with over 800 participants
+            Frontend Developers.
+          - Administration of a Slack workspace with over 800 participants.
       - company: XING
         url: "https://www.xing.com"
         location: "Hamburg, Germany"
         title: Front-End Engineer
         duration: 01/2011-02/2020
         tasks:
-          - "Development, deployment and monitoring of multiple XING products"
+          - "Development, deployment and monitoring of multiple XING products."
           - >-
             Concept, idea and development of user interface improvements on the
-            job marketplace, which lead to 59 % more visitors on job ads
+            job marketplace, which lead to 59 % more visitors on job ads.
           - >-
             Idea and conception of a freelancer marketplace in a Hack Week,
-            which lead to a new product on the platform
-          - Development of an iPad hybrid app with Backbone.js
-          - Creation of a screencast series in cooperation with User Care
+            which lead to a new product on the platform.
+          - Development of an iPad hybrid app with Backbone.js.
+          - Creation of a screencast series in cooperation with User Care.
           - >-
             Development of multiple products as the logged out profile, public
             search, onboarding user flow and profile-filling widget with React,
-            Redux and GraphQL
+            Redux and GraphQL.
       - company: Dumrath & Fassnacht
         location: "Hamburg, Germany"
         title: Web Designer
         duration: 09/2005-12/2010
         tasks:
-          - "Planning, design and layout of websites"
-          - Implementation in W3C standard with HTML and CSS
+          - "Planning, design and layout of websites."
+          - Implementation in W3C standard with HTML and CSS.
           - >-
             Programming websites with content management systems and blog
-            systems
-          - Revision and update of existing customer website
+            systems.
+          - Revision and update of existing customer website.
           - Customer advisory
       - company: IGS Development
         location: "Harbke, Germany"
@@ -71,12 +71,12 @@
         tasks:
           - >-
             Creation of Internet and Intranet pages with HTML, CSS, PHP, MySQL
-            and Typo3
+            and Typo3.
           - >-
             Filming of industrial processes and production facilities in Germany
-            and France
-          - "Editing and Postproduction with Premiere, Avid and After Effect"
-          - Creation of 3D models and animations with 3ds max and Cinema 4D
+            and France.
+          - "Editing and Postproduction with Premiere, Avid and After Effect."
+          - Creation of 3D models and animations with 3ds max and Cinema 4D.
       - company: Schmitz Kommunikation
         location: "Hamburg, Germany"
         title: Intern Web Design
@@ -89,8 +89,8 @@
     headline: Education
     items:
       - school: bib International College
-        url: "https://www.bib.de/"
-        degree: Certified computer scientist (specializing in Multimedia)
+        url: "https://www.bib.de"
+        degree: Computer Scientist
         location: "Hanover, Germany"
         duration: 10/1999-09/2001
   skills:
@@ -207,8 +207,8 @@
   awards:
     headline: Awards
     items:
-      - "Three times winner of yearly company-wide innovation award of XING Prototyping Days (2013, 2015, 2017)"
-      - SEMY Award – German Search Marketing Award 2015
+      - "Three times winner of yearly company-wide innovation award of XING Prototyping Days (2013, 2015, 2017)."
+      - SEMY Award – German Search Marketing Award 2015.
   interests:
     headline: Interests & Hobbies
     items:
@@ -237,30 +237,3 @@
       - >-
         I started learning manual photography. My camera is a Fuji X100T, with
         it’s fixed lens the perfect tool for city photography, sports or people.
-  projects:
-    headline: Projects
-    items:
-      - title: Martial Arts Online Magazine
-        url: "https://www.kogakure.de"
-        description: Information about Ninja and Ninjutsu
-        notes:
-          - Created with Hugo static site generator
-          - est. 1999
-          - 150.000 visits per year
-          - 67.000 unique visitors per year
-          - Multiple mentions in German print and television
-      - title: Personal Website
-        description: "My blog, portfolio and playground"
-        url: "https://www.stefanimhoff.de"
-        notes:
-          - My personal website
-          - est. 2006
-          - Playground for new tools and techniques
-          - Runs with Gatsby
-          - Build with CSS Grid Layout
-      - title: Photo Blog
-        description: Blog for my hobby of exploring Hamburg
-        url: "https://hamburg.stefanimhoff.de"
-        notes:
-          - Created with Hugo static site generator
-          - est. 2015

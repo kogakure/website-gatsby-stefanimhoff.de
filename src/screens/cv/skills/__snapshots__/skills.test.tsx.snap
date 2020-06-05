@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CV Skills renders correctly 1`] = `
+.c0 {
+  font-size: clamp(1.50rem,2.9vw,3.25rem);
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.0;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: 0;
+}
+
+.c0 .autolink {
+  background: transparent;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.c0:hover .autolink,
+.c0:focus .autolink {
+  opacity: 0.5;
+}
+
+.c1 {
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.c1 .autolink {
+  background: transparent;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.c1:hover .autolink,
+.c1:focus .autolink {
+  opacity: 0.5;
+}
+
+.c2 {
+  list-style: none;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: clamp( 0.579rem,1.24vw,0.694rem);
+  padding: 0;
+}
+
+.c3 {
+  display: inline;
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c0 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c1 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+<section
+  class=""
+>
+  <h2
+    class="c0"
+  >
+    Key Skills
+  </h2>
+  <div>
+    <h3
+      class="c1"
+    >
+      Frontend
+    </h3>
+    <ul
+      class="c2"
+    >
+      <li
+        class="c3"
+      >
+        Skill 1
+        , 
+      </li>
+      <li
+        class="c3"
+      >
+        Skill 2
+        , 
+      </li>
+      <li
+        class="c3"
+      >
+        Skill 3
+        .
+      </li>
+    </ul>
+  </div>
+</section>
+`;

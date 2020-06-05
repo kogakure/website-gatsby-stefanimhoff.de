@@ -1,4 +1,14 @@
-export type CvExperience = {
+export type CvSummary = {
+  headline: string;
+  text: string;
+};
+
+export type CvPersonal = {
+  name: string;
+  tagline: string;
+};
+
+export type CvExperienceItem = {
   company: string;
   duration: string;
   location: string;
@@ -7,7 +17,12 @@ export type CvExperience = {
   url?: string;
 };
 
-export type CvEducation = {
+export type CvExperience = {
+  headline: string;
+  items: CvExperienceItem[];
+};
+
+export type CvEducationItem = {
   degree: string;
   duration: string;
   location: string;
@@ -15,60 +30,50 @@ export type CvEducation = {
   url?: string;
 };
 
-export type CvSkill = {
+export type CvEducation = {
+  headline: string;
+  items: CvEducationItem[];
+};
+
+export type CvSkillsItem = {
   headline: string;
   tags: string[];
 };
 
-export type CvLanguage = {
+export type CvSkills = {
+  headline: string;
+  items: CvSkillsItem[];
+};
+
+export type CvLanguagesItem = {
   language: string;
   level: string;
 };
 
-export type CvProject = {
-  description: string;
-  notes: string[];
-  title: string;
-  url?: string;
+export type CvLanguages = {
+  headline: string;
+  items: CvLanguagesItem[];
+};
+
+export type CvAwards = {
+  headline: string;
+  items: string[];
+};
+
+export type CvInterests = {
+  headline: string;
+  items: string[];
 };
 
 export type CvItem = {
-  personal: {
-    name: string;
-    tagline: string;
-  };
-  summary: {
-    headline: string;
-    text: string;
-  };
-  experience: {
-    headline: string;
-    items: CvExperience[];
-  };
-  education: {
-    headline: string;
-    items: CvEducation[];
-  };
-  skills: {
-    headline: string;
-    items: CvSkill[];
-  };
-  languages: {
-    headline: string;
-    items: CvLanguage[];
-  };
-  awards: {
-    headline: string;
-    items: string[];
-  };
-  interests: {
-    headline: string;
-    items: string[];
-  };
-  projects: {
-    headline: string;
-    items: CvProject[];
-  };
+  personal: CvPersonal;
+  summary: CvSummary;
+  experience: CvExperience;
+  education: CvEducation;
+  skills: CvSkills;
+  languages: CvLanguages;
+  awards: CvAwards;
+  interests: CvInterests;
 };
 
 export type Cv = {

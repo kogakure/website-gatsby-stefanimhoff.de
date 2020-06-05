@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CV MainColumn renders correctly 1`] = `
+.c0 {
+  grid-column: 1 / -1;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    grid-column: 1 / 9;
+  }
+}
+
+<section
+  class="c0"
+>
+  MainColumn
+</section>
+`;

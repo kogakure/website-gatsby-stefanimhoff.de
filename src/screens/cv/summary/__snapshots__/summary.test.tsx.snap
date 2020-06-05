@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CV Summary renders correctly 1`] = `
+.c1 {
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.0;
+  margin-bottom: clamp( 1.0rem,2.14vw,1.2rem);
+  margin-top: 0;
+}
+
+.c1 .autolink {
+  background: transparent;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.c1:hover .autolink,
+.c1:focus .autolink {
+  opacity: 0.5;
+}
+
+.c2 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.c0 {
+  grid-column: 1 / -1;
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c1 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    grid-column: 1 / 9;
+  }
+}
+
+<section
+  class="c0"
+>
+  <h3
+    class="c1"
+  >
+    Professional Summary
+  </h3>
+  <p
+    class="c2"
+  >
+    Summary Text
+  </p>
+</section>
+`;

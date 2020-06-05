@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CV Divider renders correctly 1`] = `
+.c0 {
+  border-bottom-width: 1px;
+  border-color: var(--colorForegroundSoft);
+  border-left-width: 0;
+  border-right-width: 0;
+  border-style: solid;
+  border-top-width: 0;
+  width: 60%;
+}
+
+.c1 {
+  grid-column: 1 / -1;
+  width: 90%;
+}
+
+<hr
+  class="c0 c1"
+/>
+`;
