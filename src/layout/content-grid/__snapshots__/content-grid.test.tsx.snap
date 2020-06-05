@@ -2,10 +2,6 @@
 
 exports[`Grid renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: blue;
-  border-style: dashed;
-  border-width: 1px;
   grid-template-columns: repeat(18,1fr);
   display: grid;
   width: 100%;
