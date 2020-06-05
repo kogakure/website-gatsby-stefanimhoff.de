@@ -9,10 +9,11 @@ export default {
 
 const props = {
   asin: '0812968255',
-  alt: 'Meditations by Marcus Aurelius',
 };
 
-export const Default = () => <AmazonBook {...props} />;
+export const Default = () => (
+  <AmazonBook {...props} alt="Meditations by Marcus Aurelius" />
+);
 
 export const Small = () => <AmazonBook {...props} size="small" />;
 

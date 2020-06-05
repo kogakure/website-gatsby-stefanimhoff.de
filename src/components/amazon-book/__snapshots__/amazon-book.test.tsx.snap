@@ -64,7 +64,7 @@ exports[`AmazonBook in "large" renders correctly 1`] = `
   rel="nofollow noopener noreferrer external"
 >
   <img
-    alt="Meditations by Marcus Aurelius"
+    alt=""
     class="c1"
     src="https://images-na.ssl-images-amazon.com/images/P/0812968255.01.LZZZZZZZ.jpg"
   />
@@ -135,7 +135,7 @@ exports[`AmazonBook in "medium" renders correctly 1`] = `
   rel="nofollow noopener noreferrer external"
 >
   <img
-    alt="Meditations by Marcus Aurelius"
+    alt=""
     class="c1"
     src="https://images-na.ssl-images-amazon.com/images/P/0812968255.01.TZZZZZZZ.jpg"
   />
@@ -206,7 +206,7 @@ exports[`AmazonBook in "small" renders correctly 1`] = `
   rel="nofollow noopener noreferrer external"
 >
   <img
-    alt="Meditations by Marcus Aurelius"
+    alt=""
     class="c1"
     src="https://images-na.ssl-images-amazon.com/images/P/0812968255.01.THUMBZZZ.jpg"
   />
