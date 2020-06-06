@@ -14,7 +14,7 @@ const Location = styled.span`
   line-height: 1;
 `;
 
-const Dot = styled.span`
+const Separator = styled.span`
   line-height: 1;
   margin-left: ${space[2]};
   margin-right: ${space[2]};
@@ -32,11 +32,11 @@ const Duration = styled.div`
 `;
 
 export const Styled = {
-  Dot,
   Duration,
   Education,
   HeadlineRow,
   Location,
+  Separator,
   Title,
   Url,
 };

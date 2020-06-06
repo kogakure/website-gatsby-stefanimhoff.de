@@ -13,10 +13,10 @@ export const Title: React.FC = () => (
     <TitleComponent noMargin>Stefan Imhoff</TitleComponent>
     <Paragraph noMargin>
       <Emojify emoji="👨🏻‍💻" />
-      Front-End Web Developer •<Emojify emoji="🎨" />
-      Designer •<Emojify emoji="⬜️" />
-      Minimalist •<Emojify emoji="🎧" />
-      Introvert •<Emojify emoji="⛩" />
+      Front-End Web Developer /<Emojify emoji="🎨" />
+      Designer /<Emojify emoji="⬜️" />
+      Minimalist /<Emojify emoji="🎧" />
+      Introvert /<Emojify emoji="⛩" />
       Japanophile
     </Paragraph>
   </Styled.Title>

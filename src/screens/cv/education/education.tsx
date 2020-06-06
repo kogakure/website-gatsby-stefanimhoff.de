@@ -25,7 +25,7 @@ export const Education: React.FC<EducationProps> = ({ data, ...props }) => (
         <Styled.Duration>{duration}</Styled.Duration>
         <Styled.HeadlineRow>
           <SubSubheadline noMargin>{school}</SubSubheadline>
-          <Styled.Dot>•</Styled.Dot>
+          <Styled.Separator>/</Styled.Separator>
           <Styled.Location>{location}</Styled.Location>
         </Styled.HeadlineRow>
         {url && (

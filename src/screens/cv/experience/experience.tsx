@@ -26,7 +26,7 @@ export const Experience: React.FC<ExperienceProps> = ({ data, ...props }) => (
         <Styled.Duration>{duration}</Styled.Duration>
         <Styled.HeadlineRow>
           <SubSubheadline noMargin>{company}</SubSubheadline>
-          <Styled.Dot>•</Styled.Dot>
+          <Styled.Separator>/</Styled.Separator>
           <Styled.Location>{location}</Styled.Location>
         </Styled.HeadlineRow>
         {url && (
