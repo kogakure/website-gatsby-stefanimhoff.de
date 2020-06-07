@@ -3,7 +3,7 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../services/test-utils';
 
-import { Default } from './unordered-list.stories';
+import { Default, NoMargin } from './unordered-list.stories';
 
 describe('UnorderedList', () => {
   test('renders correctly', () => {
@@ -17,5 +17,11 @@ describe('UnorderedList', () => {
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();
+  });
+
+  test('with "noMargin" renders correctly', () => {
+    const { container } = render(<NoMargin />);
+
+    expect(container.firstChild).toMatchSnapshot();
   });
 });

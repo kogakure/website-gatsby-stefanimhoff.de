@@ -96,3 +96,174 @@ li .c0 {
   </li>
 </ul>
 `;
+
+exports[`UnorderedList with "noMargin" renders correctly 1`] = `
+.c1 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  list-style-type: circle;
+  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
+  padding-left: 1.2em;
+}
+
+li .c1 {
+  padding-left: 2rem;
+}
+
+.c1.contains-task-list {
+  list-style-type: none;
+}
+
+.c0 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  list-style-type: circle;
+  margin-bottom: 0;
+  padding-left: 1.2em;
+}
+
+li .c0 {
+  padding-left: 2rem;
+}
+
+.c0.contains-task-list {
+  list-style-type: none;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    padding-left: 0;
+  }
+}
+
+@supports (-webkit-appearance:none) or (-moz-appearance:none) or (appearance:none) {
+  .c1 input[type='checkbox'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    border-color: var(--colorForegroundSoft);
+    border-radius: 25%;
+    border-style: solid;
+    border-width: 0.1em;
+    cursor: pointer;
+    display: inline-block;
+    height: 1em;
+    margin: 0;
+    outline: none;
+    position: relative;
+    top: 0.3em;
+    vertical-align: top;
+    width: 1em;
+  }
+
+  .c1 input[type='checkbox']:after {
+    border-bottom-width: 0.15em;
+    border-color: var(--colorForeground);
+    border-left-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0.15em;
+    border-style: solid;
+    border-top-color: transparent;
+    border-top-width: 0;
+    content: '';
+    display: block;
+    height: 0.5em;
+    left: 0.25em;
+    opacity: var(--opacity,0);
+    position: absolute;
+    top: 0.1em;
+    -webkit-transform: rotate(var(--rotate,0deg));
+    -ms-transform: rotate(var(--rotate,0deg));
+    transform: rotate(var(--rotate,0deg));
+    width: 0.3em;
+  }
+
+  .c1 input[type='checkbox']:checked {
+    --rotate: 43deg;
+    --opacity: 1;
+  }
+
+  .c1 input[type='checkbox']:disabled {
+    cursor: not-allowed;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    padding-left: 0;
+  }
+}
+
+@supports (-webkit-appearance:none) or (-moz-appearance:none) or (appearance:none) {
+  .c0 input[type='checkbox'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: transparent;
+    border-color: var(--colorForegroundSoft);
+    border-radius: 25%;
+    border-style: solid;
+    border-width: 0.1em;
+    cursor: pointer;
+    display: inline-block;
+    height: 1em;
+    margin: 0;
+    outline: none;
+    position: relative;
+    top: 0.3em;
+    vertical-align: top;
+    width: 1em;
+  }
+
+  .c0 input[type='checkbox']:after {
+    border-bottom-width: 0.15em;
+    border-color: var(--colorForeground);
+    border-left-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0.15em;
+    border-style: solid;
+    border-top-color: transparent;
+    border-top-width: 0;
+    content: '';
+    display: block;
+    height: 0.5em;
+    left: 0.25em;
+    opacity: var(--opacity,0);
+    position: absolute;
+    top: 0.1em;
+    -webkit-transform: rotate(var(--rotate,0deg));
+    -ms-transform: rotate(var(--rotate,0deg));
+    transform: rotate(var(--rotate,0deg));
+    width: 0.3em;
+  }
+
+  .c0 input[type='checkbox']:checked {
+    --rotate: 43deg;
+    --opacity: 1;
+  }
+
+  .c0 input[type='checkbox']:disabled {
+    cursor: not-allowed;
+  }
+}
+
+<ul
+  class="c0"
+>
+  <li>
+    Vegetables
+    <ul
+      class="c1"
+    >
+      <li>
+        Tomatoe
+      </li>
+      <li>
+        Onion
+      </li>
+      <li>
+        Potatoe
+      </li>
+    </ul>
+  </li>
+</ul>
+`;
