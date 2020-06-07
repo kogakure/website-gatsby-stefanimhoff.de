@@ -17,6 +17,7 @@ export const GlobalStyles = createGlobalStyle`
     --colorForegroundFeaterInverse: ${lightColors.foregroundFeatherInverse};
     --colorForegroundFeather: ${lightColors.foregroundFeather};
     --colorForegroundFullContrast: ${lightColors.foregroundFullContrast};
+    --colorForegroundFullContrastInverse: ${lightColors.foregroundFullContrastInverse};
     --colorForegroundSoft: ${lightColors.foregroundSoft};
     --colorForegroundSoftInverse: ${lightColors.foregroundSoftInverse};
     --colorForegroundStrong: ${lightColors.foregroundStrong};
@@ -35,6 +36,7 @@ export const GlobalStyles = createGlobalStyle`
     --colorForegroundFeather: ${darkColors.foregroundFeather};
     --colorForegroundFeatherInverse: ${darkColors.foregroundFeatherInverse};
     --colorForegroundFullContrast: ${darkColors.foregroundFullContrast};
+    --colorForegroundFullContrastInverse: ${darkColors.foregroundFullContrastInverse};
     --colorForegroundSoft: ${darkColors.foregroundSoft};
     --colorForegroundSoftInverse: ${darkColors.foregroundSoftInverse};
     --colorForegroundStrong: ${darkColors.foregroundStrong};
