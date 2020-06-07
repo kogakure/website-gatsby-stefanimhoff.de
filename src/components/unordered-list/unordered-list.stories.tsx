@@ -19,3 +19,16 @@ export const Default = () => (
     </li>
   </UnorderedList>
 );
+
+export const NoMargin = () => (
+  <UnorderedList noMargin>
+    <li>
+      Vegetables
+      <UnorderedList>
+        <li>Tomatoe</li>
+        <li>Onion</li>
+        <li>Potatoe</li>
+      </UnorderedList>
+    </li>
+  </UnorderedList>
+);

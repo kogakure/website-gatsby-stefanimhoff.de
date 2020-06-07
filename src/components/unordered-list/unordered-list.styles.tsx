@@ -9,10 +9,12 @@ import {
   space,
 } from '../../layout/tokens';
 
-const UnorderedListContainer = styled.ul`
+import { UnorderedListProps } from './unordered-list';
+
+const UnorderedListContainer = styled.ul<UnorderedListProps>`
   font-size: ${fontSize[3]};
   list-style-type: circle;
-  margin-bottom: ${space[12]};
+  margin-bottom: ${({ noMargin }) => (noMargin ? '0' : space[12])};
   padding-left: 1.2em;
 
   @media (${mediaQuery.tablet}) {
