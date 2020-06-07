@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { mediaQuery } from '../../../layout/tokens';
 import { UnorderedList } from '../../../components/unordered-list';
 
-export const Connect = styled.section`
+const Connect = styled.section`
   grid-column: 2 / -2;
   grid-row: 6;
 
@@ -17,7 +17,7 @@ export const Connect = styled.section`
   }
 `;
 
-export const SocialMedia = styled(UnorderedList)`
+const SocialMedia = styled(UnorderedList)`
   column-count: 1;
   margin: 0;
 

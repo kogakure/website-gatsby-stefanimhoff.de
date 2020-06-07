@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ColorGrid = styled.div`
+const ColorGrid = styled.div`
   display: grid;
   grid-column: 1 / -1;
   grid-column-gap: 20px;

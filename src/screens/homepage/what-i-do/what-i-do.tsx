@@ -12,12 +12,13 @@ export const WhatIDo: React.FC = () => (
       <Paragraph>
         I create and build beautiful, user-centric layouts for devices of all
         sizes on the web for nearly two decades. I love bringing simplicity and
-        minimalism to everything I create.
+        minimalism to everything&nbsp;I&nbsp;create.
       </Paragraph>
       <Paragraph>
         I deeply care about good user experience: Writing good text, choosing
-        the right photography, typography, colours. Programming fast, reusable,
-        well-tested and easy-to-maintain code or creating engaging animations.
+        the right photography, typography, and colours. Programming fast,
+        reusable, well-tested and easy-to-maintain code or creating
+        engaging&nbsp;animations.
       </Paragraph>
       <Paragraph>
         I am currently working at{' '}
@@ -29,8 +30,8 @@ export const WhatIDo: React.FC = () => (
         <TextLink href="https://medium.com/xing-hackweek">HackWeeks</TextLink> I
         was part of a small team creating a complete new job platform for
         freelancers. I am also a three-time winner of the{' '}
-        <em>Prototyping Days</em>, a yearly two-day company-wide prototyping
-        event.
+        <em>Prototyping Days</em>, a yearly two-day company-wide
+        prototyping&nbsp;event.
       </Paragraph>
     </Styled.Text>
   </Styled.WhatIDo>

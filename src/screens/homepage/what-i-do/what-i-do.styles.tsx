@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { mediaQuery } from '../../../layout/tokens';
 
-export const WhatIDo = styled.div`
+const WhatIDo = styled.div`
   grid-column: 2 / -2;
   grid-row: 4;
 
@@ -16,7 +16,7 @@ export const WhatIDo = styled.div`
   }
 `;
 
-export const Text = styled.div`
+const Text = styled.div`
   column-count: 1;
   column-gap: 5.55vw;
 

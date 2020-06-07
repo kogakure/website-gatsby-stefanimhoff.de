@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { mediaQuery } from '../../../layout/tokens';
 
-export const Introduction = styled.div`
+const Introduction = styled.div`
   grid-column: 1 / -1;
   grid-row: 2;
   margin-bottom: 0;

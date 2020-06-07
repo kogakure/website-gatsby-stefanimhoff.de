@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { mediaQuery, shadow } from '../../../layout/tokens';
 
-export const Photo = styled.div`
+const Photo = styled.div`
   border-bottom-width: 1px;
   border-color: var(--colorForegroundSoft);
   border-left-width: 0;

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { mediaQuery } from '../../../layout/tokens';
 
-export const SideColumn = styled.aside`
+const SideColumn = styled.aside`
   grid-column: 1 / -1;
 
   @media (${mediaQuery.tablet}) {

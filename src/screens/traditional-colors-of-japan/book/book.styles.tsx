@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { mediaQuery } from '../../../layout/tokens';
 
-export const Book = styled.div`
+const Book = styled.div`
   align-self: start;
   display: grid;
   grid-column: 1 / -1;

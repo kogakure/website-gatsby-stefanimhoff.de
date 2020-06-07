@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { mediaQuery } from '../../../layout/tokens';
 import { Verse } from '../../../components/verse';
 
-export const Haiku = styled(Verse)`
+const Haiku = styled(Verse)`
   grid-column: 1 / -1;
   grid-row: 2;
   z-index: 1;
