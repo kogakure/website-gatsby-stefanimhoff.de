@@ -1,4 +1,6 @@
 export * from './cv';
+export * from './haiku';
+export * from './haiku-page-context';
 export * from './japanese-color';
 export * from './layout';
 export * from './post';

@@ -1,117 +1,39 @@
 - id: "1"
-  de: >
-    Wolken, unbewegt,
-    ein Kind lacht laut auf im Hof,
-    weit ist der Himmel.
-  en: >
-    Clouds, unmoved,
-    a child laughs out loud in the yard,
-    wide is the sky.
+  de: "Wolken, unbewegt,\nein Kind lacht laut auf im Hof,\nweit ist der Himmel."
+  en: "Clouds, unmoved,\na child laughs out loud in the yard,\nwide is the sky."
 - id: "2"
-  de: >
-    Sturm in dunkler Nacht,
-    Rascheln hoch in Baumkronen.
-    Rauschende Stille.
-  en: >
-    Storm in dark night,
-    Rustling high in the treetops.
-    Rushing silence.
+  de: "Sturm in dunkler Nacht,\nRascheln hoch in Baumkronen.\nRauschende Stille."
+  en: "Storm in dark night,\nRustling high in the treetops.\nRushing silence."
 - id: "3"
-  de: >
-    Prasselnder Regen,
-    eiligen Schrittes der Mann,
-    dem Schirm folgt er nach.
-  en: >
-    Crackling rain,
-    the man walks in a hurry,
-    he follows the umbrella.
+  de: "Prasselnder Regen,\neiligen Schrittes der Mann,\ndem Schirm folgt er nach."
+  en: "Crackling rain,\nthe man walks in a hurry,\nhe follows the umbrella."
 - id: "4"
-  de: >
-    Die Winterwinde,
-    das Hausdach, es knackt und knarrt,
-    eisiger Regen.
-  en: >
-    The winter winds,
-    the house roof, it cracks and creaks,
-    freezing rain.
+  de: "Die Winterwinde,\ndas Hausdach, es knackt und knarrt,\neisiger Regen."
+  en: "The winter winds,\nthe house roof, it cracks and creaks,\nfreezing rain."
 - id: "5"
-  de: >
-    Flüsternde Stimmen,  
-    Gespräche in dunkler Nacht,  
-    vom Sturm weggeweht.
-  en: >
-    Whispers,  
-    talks in the dark night,  
-    blown away by the storm.
+  de: "Flüsternde Stimmen,\nGespräche in dunkler Nacht,\nvom Sturm weggeweht."
+  en: "Whispers,\ntalks in the dark night,\nblown away by the storm."
 - id: "6"
-  de: >
-    Die Luft ist schon frisch,
-    Cirruswölkchen am Himmel,
-    der Sommer endet.
-  en: >
-    The air is already fresh,
-    Cirrus clouds in the sky,
-    the summer ends.
+  de: "Die Luft ist schon frisch,\nCirruswölkchen am Himmel,\nder Sommer endet."
+  en: "The air is already fresh,\nCirrus clouds in the sky,\nthe summer ends."
 - id: "7"
-  de: >
-    Flackernde Kerzen,
-    schon endet das Lichterfest,
-    so auch der Sommer.
-  en: >
-    Flickering candles,
-    the festival of lights ends.
-    So does the summer.
+  de: "Flackernde Kerzen,\nschon endet das Lichterfest,\nso auch der Sommer."
+  en: "Flickering candles,\nthe festival of lights ends.\nSo does the summer."
 - id: "8"
-  de: >
-    Ein Windstoß, heftig,
-    reißt an der Zeitung so stark,
-    in Fetzen dahin.
-  en: >
-    A gust of wind, fierce,
-    rips the newspaper so hard
-    in scraps.
+  de: "Ein Windstoß, heftig,\nreißt an der Zeitung so stark,\nin Fetzen dahin."
+  en: "A gust of wind, fierce,\nrips the newspaper so hard\nin scraps."
 - id: "9"
-  de: >
-    Schneebedeckter Berg,
-    am Hang fährt ein Skifahrer,
-    die Lawine folgt.
-  en: >
-    Snowy mountain,
-    a skier drives on a slope,
-    the avalanche follows.
+  de: "Schneebedeckter Berg,\nam Hang fährt ein Skifahrer,\ndie Lawine folgt."
+  en: "Snowy mountain,\na skier drives on a slope,\nthe avalanche follows."
 - id: "10"
-  de: >
-    Es ist gänzlich still,
-    blauer Himmel und Sonne,
-    ein Sonntag im Herbst.
-  en: >
-    It is completely silenent,
-    blue sky and sun,
-    a sunday in autumn.
+  de: "Es ist gänzlich still,\nblauer Himmel und Sonne,\nein Sonntag im Herbst."
+  en: "It is completely silenent,\nblue sky and sun,\na sunday in autumn."
 - id: "11"
-  de: >
-    Wind in den Blättern,
-    wie das Rauschen von Regen
-    hoch in den Wipfeln.
-  en: >
-    Wind in the leaves,
-    like the rustle of rain
-    high in the tree tops.
+  de: "Wind in den Blättern,\nwie das Rauschen von Regen\nhoch in den Wipfeln."
+  en: "Wind in the leaves,\nlike the rustle of rain\nhigh in the tree tops."
 - id: "12"
-  de: >
-    Nebel am Abend,
-    kühle Luft, feucht wie Suppe,
-    kein goldener Herbst.
-  en: >
-    Fog in the evening,
-    cool air, moist like soup,
-    no golden autumn.
+  de: "Nebel am Abend,\nkühle Luft, feucht wie Suppe,\nkein goldener Herbst."
+  en: "Fog in the evening,\ncool air, moist like soup,\nno golden autumn."
 - id: "13"
-  de: >
-    Ach, der Herbst ist da.
-    Da sind sie wieder: Laubbläser.
-    Ich vermisse den Rechen.
-  en: >
-    Oh, autumn arrived.
-    They are back: Leaf blowers.
-    I miss the rake.
+  de: "Ach, der Herbst ist da.\nDa sind sie wieder: Laubbläser.\nIch vermisse den Rechen."
+  en: "Oh, autumn arrived.\nThey are back: Leaf blowers.\nI miss the rake."
