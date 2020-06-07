@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Haiku Introduction renders correctly 1`] = `
+.c1 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: 0;
+}
+
+.c3 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  margin-bottom: 0;
+  padding-left: 1em;
+}
+
+li .c3 {
+  padding-left: 2rem;
+}
+
+.c2 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+}
+
+.c0 {
+  grid-column: 2 / -2;
+  grid-row: 2;
+}
+
+@media (min-width:768px) {
+  .c3 {
+    padding-left: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    grid-column: 5 / -6;
+  }
+}
+
+@media (min-width:1200px) {
+  .c0 {
+    grid-column: 7 / -6;
+  }
+}
+
+<div
+  class="c0"
+>
+  <p
+    class="c1"
+  >
+    Haiku (jap. 
+    <ruby
+      class="c2"
+    >
+      俳
+      <rp>
+        （
+      </rp>
+      <rt>
+        ハイ
+      </rt>
+      <rp>
+        ）
+      </rp>
+    </ruby>
+    <ruby
+      class="c2"
+    >
+      句
+      <rp>
+        （
+      </rp>
+      <rt>
+        ク
+      </rt>
+      <rp>
+        ）
+      </rp>
+    </ruby>
+    ) is a short form of Japanese poetry in three phrases, typically characterized by three qualities:
+  </p>
+  <ol
+    class="c3"
+  >
+    <li>
+      The essence of haiku is 
+      <dfn
+        title="cutting"
+      >
+        kiru
+      </dfn>
+       (cutting). This is often represented by the juxtaposition of two images or ideas and a
+       
+      <dfn
+        title="cutting word"
+      >
+        kireji
+      </dfn>
+       (cutting word) between them.
+    </li>
+    <li>
+      Traditional haiku often consist of 17 syllables, in three phrases of 5, 7, and 5.
+    </li>
+    <li>
+      A 
+      <dfn
+        title="seasonal reference"
+      >
+        kigo
+      </dfn>
+       (seasonal reference) with topics as season, heaven, earth, humanity, observances, animals or plants.
+    </li>
+  </ol>
+</div>
+`;
