@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { mediaQuery } from '../../../layout/tokens';
 
-export const AboutMe = styled.div`
+const AboutMe = styled.div`
   align-self: center;
   grid-column: 2 / -2;
   grid-row: 3;

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { mediaQuery } from '../../../layout/tokens';
 
-export const AboutWebsite = styled.section`
+const AboutWebsite = styled.section`
   grid-column: 2 / -2;
   grid-row: 4;
 

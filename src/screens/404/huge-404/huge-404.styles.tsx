@@ -7,7 +7,7 @@ import {
   mediaQuery,
 } from '../../../layout/tokens';
 
-export const Huge404 = styled.span`
+const Huge404 = styled.span`
   color: var(--colorForegroundFeather);
   font-size: ${fontSize[9]};
   font-weight: ${fontWeight.black};
