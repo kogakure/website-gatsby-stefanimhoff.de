@@ -1,0 +1,729 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MinimalLayout renders correctly 1`] = `
+.c0 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.c9 {
+  fill: var(--colorForeground);
+  font-size: 0.8rem;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: font-size;
+  transition-property: font-size;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c9:hover,
+.c9:focus {
+  font-size: 1rem;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.c6 {
+  fill: var(--colorForeground);
+  font-size: 1.2rem;
+}
+
+.c3 {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c3:hover,
+.c3:focus {
+  -webkit-transform: translate3D(-0.25rem,0,0);
+  -ms-transform: translate3D(-0.25rem,0,0);
+  transform: translate3D(-0.25rem,0,0);
+}
+
+.c2 {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-row: 1;
+  grid-template-columns: repeat(18,1fr);
+  grid-template-rows: clamp(50px,5.55vw,150px);
+  height: clamp(50px,5.55vw,150px);
+  z-index: 1;
+}
+
+.c4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  grid-column: 1;
+  justify-self: center;
+}
+
+.c8 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  grid-column: -2;
+  justify-self: center;
+}
+
+<main
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <header
+      class="c2"
+    >
+      <a
+        class="c3 c4"
+        href="/"
+      >
+        <button
+          aria-label="Back to Homepage"
+          class="c5"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="c6"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
+            />
+          </svg>
+        </button>
+      </a>
+      <button
+        aria-label="Switch to light theme"
+        class="c7 c8"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="c9"
+          clip-rule="evenodd"
+          fill-rule="evenodd"
+          height="1em"
+          role="img"
+          stroke-linejoin="round"
+          stroke-miterlimit="2"
+          viewBox="0 0 24 24"
+          width="1em"
+        >
+          <circle
+            cx="12"
+            cy="12"
+            r="9.967"
+          />
+        </svg>
+      </button>
+    </header>
+  </div>
+</main>
+`;
+
+exports[`MinimalLayout with variant "blue" renders correctly 1`] = `
+.c0 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.c9 {
+  fill: var(--colorForeground);
+  font-size: 0.8rem;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: font-size;
+  transition-property: font-size;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c9:hover,
+.c9:focus {
+  font-size: 1rem;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.c6 {
+  fill: var(--colorForeground);
+  font-size: 1.2rem;
+}
+
+.c3 {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c3:hover,
+.c3:focus {
+  -webkit-transform: translate3D(-0.25rem,0,0);
+  -ms-transform: translate3D(-0.25rem,0,0);
+  transform: translate3D(-0.25rem,0,0);
+}
+
+.c2 {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-row: 1;
+  grid-template-columns: repeat(18,1fr);
+  grid-template-rows: clamp(50px,5.55vw,150px);
+  height: clamp(50px,5.55vw,150px);
+  z-index: 1;
+}
+
+.c4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  grid-column: 1;
+  justify-self: center;
+}
+
+.c8 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  grid-column: -2;
+  justify-self: center;
+}
+
+<main
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <header
+      class="c2"
+    >
+      <a
+        class="c3 c4"
+        href="/"
+      >
+        <button
+          aria-label="Back to Homepage"
+          class="c5"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="c6"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
+            />
+          </svg>
+        </button>
+      </a>
+      <button
+        aria-label="Switch to light theme"
+        class="c7 c8"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="c9"
+          clip-rule="evenodd"
+          fill-rule="evenodd"
+          height="1em"
+          role="img"
+          stroke-linejoin="round"
+          stroke-miterlimit="2"
+          viewBox="0 0 24 24"
+          width="1em"
+        >
+          <circle
+            cx="12"
+            cy="12"
+            r="9.967"
+          />
+        </svg>
+      </button>
+    </header>
+  </div>
+</main>
+`;
+
+exports[`MinimalLayout with variant "brown" renders correctly 1`] = `
+.c0 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.c9 {
+  fill: var(--colorForeground);
+  font-size: 0.8rem;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: font-size;
+  transition-property: font-size;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c9:hover,
+.c9:focus {
+  font-size: 1rem;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.c6 {
+  fill: var(--colorForeground);
+  font-size: 1.2rem;
+}
+
+.c3 {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c3:hover,
+.c3:focus {
+  -webkit-transform: translate3D(-0.25rem,0,0);
+  -ms-transform: translate3D(-0.25rem,0,0);
+  transform: translate3D(-0.25rem,0,0);
+}
+
+.c2 {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-row: 1;
+  grid-template-columns: repeat(18,1fr);
+  grid-template-rows: clamp(50px,5.55vw,150px);
+  height: clamp(50px,5.55vw,150px);
+  z-index: 1;
+}
+
+.c4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  grid-column: 1;
+  justify-self: center;
+}
+
+.c8 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  grid-column: -2;
+  justify-self: center;
+}
+
+<main
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <header
+      class="c2"
+    >
+      <a
+        class="c3 c4"
+        href="/"
+      >
+        <button
+          aria-label="Back to Homepage"
+          class="c5"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="c6"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
+            />
+          </svg>
+        </button>
+      </a>
+      <button
+        aria-label="Switch to light theme"
+        class="c7 c8"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="c9"
+          clip-rule="evenodd"
+          fill-rule="evenodd"
+          height="1em"
+          role="img"
+          stroke-linejoin="round"
+          stroke-miterlimit="2"
+          viewBox="0 0 24 24"
+          width="1em"
+        >
+          <circle
+            cx="12"
+            cy="12"
+            r="9.967"
+          />
+        </svg>
+      </button>
+    </header>
+  </div>
+</main>
+`;
+
+exports[`MinimalLayout with variant "green" renders correctly 1`] = `
+.c0 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c7 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.c9 {
+  fill: var(--colorForeground);
+  font-size: 0.8rem;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: font-size;
+  transition-property: font-size;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c9:hover,
+.c9:focus {
+  font-size: 1rem;
+}
+
+.c5 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.c6 {
+  fill: var(--colorForeground);
+  font-size: 1.2rem;
+}
+
+.c3 {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c3:hover,
+.c3:focus {
+  -webkit-transform: translate3D(-0.25rem,0,0);
+  -ms-transform: translate3D(-0.25rem,0,0);
+  transform: translate3D(-0.25rem,0,0);
+}
+
+.c2 {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-row: 1;
+  grid-template-columns: repeat(18,1fr);
+  grid-template-rows: clamp(50px,5.55vw,150px);
+  height: clamp(50px,5.55vw,150px);
+  z-index: 1;
+}
+
+.c4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  grid-column: 1;
+  justify-self: center;
+}
+
+.c8 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  grid-column: -2;
+  justify-self: center;
+}
+
+<main
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <header
+      class="c2"
+    >
+      <a
+        class="c3 c4"
+        href="/"
+      >
+        <button
+          aria-label="Back to Homepage"
+          class="c5"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="c6"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
+            />
+          </svg>
+        </button>
+      </a>
+      <button
+        aria-label="Switch to light theme"
+        class="c7 c8"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="c9"
+          clip-rule="evenodd"
+          fill-rule="evenodd"
+          height="1em"
+          role="img"
+          stroke-linejoin="round"
+          stroke-miterlimit="2"
+          viewBox="0 0 24 24"
+          width="1em"
+        >
+          <circle
+            cx="12"
+            cy="12"
+            r="9.967"
+          />
+        </svg>
+      </button>
+    </header>
+  </div>
+</main>
+`;
