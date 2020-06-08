@@ -48,12 +48,14 @@ export const GlobalStyles = createGlobalStyle`
   .light .green {
     --colorAccent: ${lightColors.accentGreen};
     --colorBackground: ${lightColors.backgroundGreen};
+    --colorBackgroundDark: ${lightColors.backgroundGreenDark};
     --colorForeground: ${lightColors.foregroundGreen};
   }
 
   .dark .green {
     --colorAccent: ${lightColors.accentGreen};
     --colorBackground: ${darkColors.backgroundGreen};
+    --colorBackgroundDark: ${darkColors.backgroundGreenDark};
     --colorForeground: ${darkColors.foregroundGreen};
   }
 
