@@ -2,9 +2,9 @@ import React from 'react';
 import { axe } from 'jest-axe';
 import * as Gatsby from 'gatsby';
 
-import { render } from '../services/test-utils';
+import { render } from '../../services/test-utils';
 
-import { Layout } from './layout';
+import { Layout } from '.';
 
 const useStaticQuery = jest.spyOn(Gatsby, 'useStaticQuery');
 

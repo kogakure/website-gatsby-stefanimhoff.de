@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { LayoutSize } from '../layout';
+import { LayoutSize } from '..';
 
 import { Styled } from './content-grid.styles';
 
