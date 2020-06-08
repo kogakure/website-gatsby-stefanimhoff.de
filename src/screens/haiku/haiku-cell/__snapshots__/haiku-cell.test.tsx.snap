@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Haiku HaikuCell renders correctly 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: grid;
+  height: 100%;
+  width: 100%;
+}
+
+.c1 {
+  font-family: inherit;
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 900;
+  margin-bottom: clamp(50px,5.55vw,150px);
+  margin-top: clamp(50px,5.55vw,150px);
+  text-align: center;
+  width: 100%;
+}
+
+@media (min-width:25rem) {
+  .c1 {
+    font-size: clamp(1.25rem,1.8vw,2.00rem);
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+  }
+}
+
+<div
+  class="c0"
+>
+  <pre
+    class="c1"
+  >
+    HaikuCell
+  </pre>
+</div>
+`;
+
+exports[`Haiku HaikuCell with "dark" renders correctly 1`] = `
+.c0 {
+  background: var(--colorBackgroundDark);
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: grid;
+  height: 100%;
+  width: 100%;
+}
+
+.c1 {
+  font-family: inherit;
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 900;
+  margin-bottom: clamp(50px,5.55vw,150px);
+  margin-top: clamp(50px,5.55vw,150px);
+  text-align: center;
+  width: 100%;
+}
+
+@media (min-width:25rem) {
+  .c1 {
+    font-size: clamp(1.25rem,1.8vw,2.00rem);
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+  }
+}
+
+<div
+  class="c0"
+>
+  <pre
+    class="c1"
+  >
+    HaikuCell
+  </pre>
+</div>
+`;
