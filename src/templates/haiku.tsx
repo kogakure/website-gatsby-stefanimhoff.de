@@ -2,8 +2,8 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import { HaikuPageContextData, HaikuQueryData } from '../typings/graphql';
-import { Layout, SEO } from '../layout';
-import { Verse } from '../components/verse';
+import { MinimalLayout, SEO } from '../layout';
+import { HaikuGrid, HaikuCell } from '../screens/haiku';
 
 export type HaikuTemplateProps = {
   readonly data: HaikuQueryData;
@@ -17,11 +17,13 @@ const HaikuTemplate = ({ data, pageContext }: HaikuTemplateProps) => {
   } = data.allHaikuYaml;
 
   return (
-    <Layout homeTo="/haiku/" variant="green">
+    <MinimalLayout homeTo="/haiku/" variant="green">
       <SEO title={`Haiku ${slug}`} />
-      <Verse>{de}</Verse>
-      <Verse>{en}</Verse>
-    </Layout>
+      <HaikuGrid>
+        <HaikuCell>{de}</HaikuCell>
+        <HaikuCell dark>{en}</HaikuCell>
+      </HaikuGrid>
+    </MinimalLayout>
   );
 };
 
