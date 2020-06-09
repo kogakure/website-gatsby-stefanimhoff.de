@@ -97,8 +97,8 @@ exports.createPages = async ({ graphql, actions }) => {
   const haikus = result.data.allHaikuYaml.nodes;
 
   haikus.forEach((haiku, index) => {
-    const previous = index === haikus.length - 1 ? null : haikus[index + 1];
-    const next = index === 0 ? null : haikus[index - 1];
+    const previous = index === 0 ? null : haikus[index - 1];
+    const next = index === haikus.length - 1 ? null : haikus[index + 1];
 
     createPage({
       path: `/haiku/${haiku.id}/`,

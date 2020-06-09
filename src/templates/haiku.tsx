@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import { HaikuPageContextData, HaikuQueryData } from '../typings/graphql';
-import { MinimalLayout, SEO } from '../layout';
+import { MinimalLayout, Pagination, SEO } from '../layout';
 import { HaikuGrid, HaikuCell } from '../screens/haiku';
 
 export type HaikuTemplateProps = {
@@ -11,7 +11,7 @@ export type HaikuTemplateProps = {
 };
 
 const HaikuTemplate = ({ data, pageContext }: HaikuTemplateProps) => {
-  const { slug } = pageContext;
+  const { slug, next, previous } = pageContext;
   const {
     nodes: [{ de, en }],
   } = data.allHaikuYaml;
@@ -22,6 +22,28 @@ const HaikuTemplate = ({ data, pageContext }: HaikuTemplateProps) => {
       <HaikuGrid>
         <HaikuCell>{de}</HaikuCell>
         <HaikuCell dark>{en}</HaikuCell>
+        {previous === false ? null : (
+          <>
+            {previous && (
+              <Pagination
+                text={`Haiku ${previous.id}`}
+                to={`/haiku/${previous.id}/`}
+                variant="left"
+              />
+            )}
+          </>
+        )}
+        {next === false ? null : (
+          <>
+            {next && (
+              <Pagination
+                text={`Haiku ${next.id}`}
+                to={`/haiku/${next.id}/`}
+                variant="right"
+              />
+            )}
+          </>
+        )}
       </HaikuGrid>
     </MinimalLayout>
   );
