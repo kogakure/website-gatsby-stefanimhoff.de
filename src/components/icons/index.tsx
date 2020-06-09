@@ -1,4 +1,6 @@
+export { default as ArrowLeftS } from './arrow-left-s';
 export { default as ArrowLeft } from './arrow-left';
+export { default as ArrowRightS } from './arrow-right-s';
 export { default as ArrowRight } from './arrow-right';
 export { default as ArrowUp } from './arrow-up';
 export { default as Circle } from './circle';
