@@ -6,12 +6,12 @@ const templatePath = 'scripts/templates';
 
 module.exports = function (plop) {
   plop.setGenerator('post', {
-    description: 'Create a new blog post',
+    description: 'Create a new journal post',
     prompts: [
       {
         type: 'input',
         name: 'title',
-        message: 'Blog Post Title',
+        message: 'Journal Post Title',
         validate(value) {
           if (/.+/.test(value)) {
             return true;
@@ -27,7 +27,7 @@ module.exports = function (plop) {
         {
           type: 'addMany',
           destination: `${currentDir}/content/posts/${currentDate.getFullYear()}/{{dashCase title}}`,
-          base: `${templatePath}/blog-post`,
+          base: `${templatePath}/journal`,
           templateFiles: '**/*.txt',
           stripExtensions: ['txt'],
           data: {

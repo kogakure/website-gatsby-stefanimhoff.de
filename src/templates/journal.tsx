@@ -11,12 +11,12 @@ import { LocalizedDate } from '../components/localized-date';
 import { TextLink } from '../components/text-link';
 import { Title } from '../components/typography';
 
-export type BlogPostTemplateProps = {
+export type JournalTemplateProps = {
   readonly data: PostQueryData;
   readonly pageContext: PostPageContextData;
 };
 
-const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
+const JournalTemplate = ({ data, pageContext }: JournalTemplateProps) => {
   const {
     body,
     frontmatter: { title, date, description, cover, attribution },
@@ -77,10 +77,10 @@ const BlogPostTemplate = ({ data, pageContext }: BlogPostTemplateProps) => {
   );
 };
 
-export default BlogPostTemplate;
+export default JournalTemplate;
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query JournalPostBySlug($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
       id
       body

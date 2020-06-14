@@ -34,7 +34,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
   // Templates
-  const blogPostTemplate = path.resolve('./src/templates/blog-post.tsx');
+  const journalPostTemplate = path.resolve('./src/templates/journal.tsx');
   const haikuTemplate = path.resolve('./src/templates/haiku.tsx');
 
   // GraphQL Query
@@ -75,7 +75,7 @@ exports.createPages = async ({ graphql, actions }) => {
     throw result.errors;
   }
 
-  // Create blog posts pages.
+  // Create Journal detail pages.
   const posts = result.data.allMdx.edges;
 
   posts.forEach((post, index) => {
@@ -84,7 +84,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     createPage({
       path: post.node.fields.slug,
-      component: blogPostTemplate,
+      component: journalPostTemplate,
       context: {
         slug: post.node.fields.slug,
         previous,
