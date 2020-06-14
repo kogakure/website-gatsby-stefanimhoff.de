@@ -9,12 +9,13 @@ const Introduction = styled.div`
   z-index: 1;
 
   @media (${mediaQuery.tablet}) {
-    grid-column: 1 / 10;
+    grid-column: 1 / 8;
   }
 
   @media (${mediaQuery.desktop}) {
     align-content: center;
     display: grid;
+    grid-column: 1 / 8;
   }
 `;
 

@@ -10,7 +10,8 @@ export const Introduction: React.FC = () => (
     <Paragraph>
       A few years ago I found by accident the book{' '}
       <cite>The Traditional Colors of Japan</cite> by{' '}
-      <strong>Nobyoshi Hamada</strong>.
+      <strong>Nobyoshi Hamada</strong>. He also wrote the sister book{' '}
+      <cite>Traditional Japanese Color Palette</cite>.
     </Paragraph>
     <Paragraph>
       It’s the best book about Japanese colors I know. The book is filled with
