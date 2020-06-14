@@ -1,4 +1,6 @@
 - text: "About"
   url: "/about/"
+- text: "Journal"
+  url: "/journal/"
 - text: "Projects"
   url: "/projects/"

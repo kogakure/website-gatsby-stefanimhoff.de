@@ -18,8 +18,11 @@ const GridHomeLink = styled(HomeLink)`
 `;
 
 const GridNavigation = styled(Navigation)`
-  align-self: center;
   grid-column: 3 / -3;
+
+  @media (min-width: 300px) {
+    align-self: center;
+  }
 `;
 
 const GridThemeToggle = styled(ThemeToggle)`
