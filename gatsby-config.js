@@ -14,7 +14,7 @@ const siteMetadata = {
   author: 'Stefan Imhoff',
   language: 'en',
   siteUrl: 'https://www.stefanimhoff.de',
-  feedUrl: 'https://feeds.feedburner.com/stefanimhoff',
+  feedUrl: 'https://www.stefanimhoff.de/index.xml',
 };
 
 module.exports = {

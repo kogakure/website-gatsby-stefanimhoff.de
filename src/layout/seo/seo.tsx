@@ -57,11 +57,11 @@ export const SEO = ({
       <Helmet title={seo.title} titleTemplate={seo.titleTemplate}>
         <html lang={seo.language} />
         {bodyClass && <body className={bodyClass} />}
-        // Author
+        {/* Author */}
         <meta name="author" content={author} />
-        // Description
+        {/* Description */}
         <meta name="description" content={seo.description} />
-        // OpenGraph
+        {/* OpenGraph */}
         {seo.title && <meta property="og:title" content={seo.title} />}
         {seo.url && <meta property="og:url" content={seo.url} />}
         {(article ? true : null) && (
@@ -71,7 +71,7 @@ export const SEO = ({
           <meta property="og:description" content={seo.description} />
         )}
         {seo.image && <meta property="og:image" content={seo.image} />}
-        // Twitter Card
+        {/* Twitter Card */}
         {twitterUsername && (
           <meta name="twitter:site" content={twitterUsername} />
         )}
@@ -83,22 +83,22 @@ export const SEO = ({
         {seo.url && <meta name="twitter:url" content={seo.url} />}
         {seo.image && <meta name="twitter:image" content={seo.image} />}
         <meta name="robots" content={robots} />
-        // Mobile Tags
+        {/* Mobile Tags */}
         <meta name="HandheldFriendly" content="True" />
         <meta name="MobileOptimized" content="320" />
-        // Turn off autolinking of numbers and addresses
+        {/* Turn off autolinking of numbers and addresses */}
         <meta name="format-detection" content="telephone=no" />
         <meta name="format-detection" content="address=no" />
-        // Font smoothing for IE
+        {/* Font smoothing for IE */}
         <meta httpEquiv="cleartype" content="on" />
-        // RSS/Atom Feed
+        {/* RSS/Atom Feed */}
         <link
           href={seo.feedUrl}
           rel="alternate"
           title="Stefan Imhoff"
           type="application/rss+xml"
         />
-        // Humans.txt
+        {/* Humans.txt */}
         <link type="text/plain" rel="author" href={seo.humans} />
       </Helmet>
     </>

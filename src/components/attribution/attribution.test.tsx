@@ -11,8 +11,6 @@ import {
   AuthorLink,
 } from './attribution.stories';
 
-jest.mock('../../services/generate-key.ts');
-
 describe('Attribution', () => {
   test('renders correctly', () => {
     const { container } = render(<Default />);
