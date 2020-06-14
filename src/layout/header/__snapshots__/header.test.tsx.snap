@@ -129,9 +129,6 @@ exports[`Header renders correctly 1`] = `
 }
 
 .c5 {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  align-self: center;
   grid-column: 3 / -3;
 }
 
@@ -141,6 +138,14 @@ exports[`Header renders correctly 1`] = `
   align-self: center;
   grid-column: -2;
   justify-self: center;
+}
+
+@media (min-width:300px) {
+  .c5 {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
 }
 
 <header
