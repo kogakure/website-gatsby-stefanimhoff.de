@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import { useAllJournalPostsQuery } from '../../../hooks';
+import { Emojify } from '../../../layout';
 import { Headline } from '../../../components/typography';
 import { UnorderedList } from '../../../components/unordered-list';
 import { TextLink } from '../../../components/text-link';
@@ -14,7 +15,10 @@ export const AllPosts: React.FC = () => {
 
   return (
     <Styled.AllPosts>
-      <Headline>All Articles</Headline>
+      <Headline>
+        All Articles
+        <Emojify emoji="🗃" />
+      </Headline>
       <UnorderedList noMargin>
         {edges.map(({ node: { fields, frontmatter } }) => (
           <li key={frontmatter.title}>

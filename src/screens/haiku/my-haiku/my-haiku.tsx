@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import { useHaikuQuery } from '../../../hooks';
+import { Emojify } from '../../../layout';
 import { Paragraph, Headline } from '../../../components/typography';
 
 import { Styled } from './my-haiku.styles';
@@ -12,7 +13,10 @@ export const MyHaiku: React.FC = () => {
 
   return (
     <Styled.MyHaiku>
-      <Headline>My Haiku</Headline>
+      <Headline>
+        My Haiku
+        <Emojify emoji="🍂" />
+      </Headline>
       <Paragraph>
         These links lead you to some of my own haiku that I have written over
         the years:
