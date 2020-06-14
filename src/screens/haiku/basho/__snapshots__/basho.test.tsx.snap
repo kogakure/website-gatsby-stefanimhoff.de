@@ -1,6 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Haiku Basho renders correctly 1`] = `
+.c3 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+}
+
 .c1 {
   font-size: clamp(1.50rem,2.9vw,3.25rem);
   font-weight: 900;
@@ -42,10 +46,6 @@ exports[`Haiku Basho renders correctly 1`] = `
   margin-top: 0;
 }
 
-.c3 {
-  font-size: clamp(1.00rem,1.1vw,1.25rem);
-}
-
 .c0 {
   grid-column: 2 / -2;
   grid-row: 4;
@@ -81,6 +81,9 @@ exports[`Haiku Basho renders correctly 1`] = `
     class="c1"
   >
     Matsuo Bashô
+    <span>
+       
+    </span>
   </h2>
   <p
     class="c2"

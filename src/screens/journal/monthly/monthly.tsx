@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import { useMonthlyJournalPostsQuery } from '../../../hooks';
+import { Emojify } from '../../../layout';
 import { Headline } from '../../../components/typography';
 import { UnorderedList } from '../../../components/unordered-list';
 import { TextLink } from '../../../components/text-link';
@@ -14,7 +15,10 @@ export const Monthly: React.FC = () => {
 
   return (
     <Styled.Monthly>
-      <Headline>Monthly Recommendations</Headline>
+      <Headline>
+        Monthly Recommendations
+        <Emojify emoji="❤️" />
+      </Headline>
       <UnorderedList noMargin>
         {edges.map(({ node: { fields, frontmatter } }) => (
           <li key={frontmatter.title}>

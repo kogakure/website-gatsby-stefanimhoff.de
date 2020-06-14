@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import { Emojify } from '../../../layout';
 import { Paragraph, Headline } from '../../../components/typography';
 import { RubyAnnotation } from '../../../components/ruby-annotation';
 
@@ -7,7 +8,10 @@ import { Styled } from './basho.styles';
 
 export const Basho: React.FC = () => (
   <Styled.Basho>
-    <Headline>Matsuo Bashô</Headline>
+    <Headline>
+      Matsuo Bashô
+      <Emojify emoji="🍌" />
+    </Headline>
     <Paragraph noMargin>
       Matsuo Bashô (<RubyAnnotation base="松" text="まつ" />
       <RubyAnnotation base="尾" text="お" />
