@@ -7,7 +7,7 @@ export type EdgeNode<Type> = {
 
 export type PostsQueryData = {
   data: {
-    allBlogPosts: {
+    allJournalPosts: {
       edges: [EdgeNode];
     };
   };
