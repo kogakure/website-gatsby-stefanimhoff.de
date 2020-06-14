@@ -1,13 +1,12 @@
 ---
 published: true
 title: {{titleCase title}}
-deck: Subtitle (optional)
 date: {{date}}
 author: Stefan Imhoff
 excerpt: Excerpt (optional)
 description: Meta Description (optional)
-robots: 'noindex,follow'
 cover: ./cover.jpg
+og: ./og.jpg
 attribution:
   - author: Author
     title: Title
@@ -29,7 +28,6 @@ categories:
   - software
   - tip
   - typography
-series: ''
 ---
 
 Hello World!
