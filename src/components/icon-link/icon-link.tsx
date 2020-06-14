@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { TextLink, TextLinkAnchorProps } from '../text-link';
+import { TextLink, TextLinkProps } from '../text-link';
 
 import { Styled } from './icon-link.styles';
 
@@ -9,7 +9,7 @@ export type IconLinkProps = {
   icon: React.ReactElement;
   animation?: AnimationDirection;
 };
-export type TextLinkWithIconProps = IconLinkProps & TextLinkAnchorProps;
+export type TextLinkWithIconProps = IconLinkProps & TextLinkProps;
 
 export const IconLink: React.FC<TextLinkWithIconProps> = ({
   animation = null,

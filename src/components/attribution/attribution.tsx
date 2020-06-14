@@ -1,6 +1,5 @@
 import * as React from 'react';
 
-import { generateKey } from '../../services/generate-key';
 import { TextLink } from '../text-link';
 
 import { Styled } from './attribution.styles';
@@ -19,7 +18,7 @@ export const Attribution: React.FC<AttributionProps> = ({ data, ...props }) => (
   <>
     <Styled.Attribution {...props}>
       {data.map((attribution) => (
-        <li key={generateKey(attribution.author)}>
+        <li key={`${attribution.author}-${attribution.title}`}>
           {attribution.title && <cite>{attribution.title}. </cite>}
           {attribution.url ? (
             <>

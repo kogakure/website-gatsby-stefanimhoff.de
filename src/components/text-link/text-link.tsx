@@ -1,7 +1,4 @@
 import * as React from 'react';
-import { GatsbyLinkProps } from 'gatsby';
-
-import { StyledComponentProps } from '../../typings/styled-components';
 
 import { Styled } from './text-link.styles';
 
@@ -10,33 +7,14 @@ export type TextLinkProps = {
   to?: string;
 };
 
-/* eslint-disable */
-export type TextLinkAnchorProps = TextLinkProps &
-  StyledComponentProps &
-  Omit<GatsbyLinkProps<any>, 'to'>;
-/* eslint-enable */
-
-export const TextLink: React.FC<TextLinkAnchorProps> = ({
-  activeClassName,
+export const TextLink: React.FC<TextLinkProps> = ({
   children,
   href,
-  innerRef,
-  onClick,
-  partiallyActive,
-  replace,
   to,
   ...props
 }) =>
   to ? (
-    <Styled.TextLinkRouter
-      to={to}
-      activeClassName={activeClassName}
-      innerRef={innerRef}
-      onClick={onClick}
-      partiallyActive={partiallyActive}
-      replace={replace}
-      {...props}
-    >
+    <Styled.TextLinkRouter to={to} {...props}>
       {children}
     </Styled.TextLinkRouter>
   ) : (
