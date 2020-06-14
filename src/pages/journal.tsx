@@ -1,7 +1,17 @@
 import React from 'react';
 
-import { Layout } from '../layout';
+import { Layout, ContentGrid } from '../layout';
+import { AllPosts, Introduction, Monthly, Title } from '../screens/journal';
 
-const JournalPage = () => <Layout>Journal</Layout>;
+const JournalPage = () => (
+  <Layout>
+    <ContentGrid rowGap size="fullsize">
+      <Title />
+      <Introduction />
+      <Monthly />
+      <AllPosts />
+    </ContentGrid>
+  </Layout>
+);
 
 export default JournalPage;
