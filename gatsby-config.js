@@ -113,10 +113,6 @@ module.exports = {
               loading: 'lazy',
               maxWidth: 1200,
               showCaptions: ['title'],
-              tracedSVG: {
-                color: 'lightgray',
-                turnPolicy: 'TURNPOLICY_MAJORITY',
-              },
               withWebP: true,
               wrapperStyle: 'margin-bottom: clamp(2.074rem, 4.44vw, 2.488rem)',
             },

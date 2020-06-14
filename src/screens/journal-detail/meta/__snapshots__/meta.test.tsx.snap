@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Journal Detail Meta renders correctly 1`] = `
+.c4 {
+  cursor: pointer;
+}
+
+.c2 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c2:hover,
+.c2:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c0 {
+  grid-column: 2 / -2;
+  grid-row: 2;
+}
+
+.c1 {
+  line-height: 1;
+  margin-bottom: clamp( 0.694rem,1.49vw,0.833rem);
+}
+
+.c3 {
+  line-height: 1.2;
+}
+
+.c5 {
+  font-style: italic;
+  line-height: 1;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    grid-column: -6 / -3;
+  }
+}
+
+<header
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <em>
+      By
+    </em>
+     
+    <a
+      class="c2"
+      href="/about/"
+    >
+      Stefan Imhoff
+    </a>
+  </div>
+  <div
+    class="c3"
+  >
+    <time
+      aria-label="Toggle date format"
+      class="c4"
+      datetime="2019-10-16T18:00:00"
+      role="button"
+      tabindex="0"
+    >
+      October 16th, 2019
+    </time>
+  </div>
+  <div
+    class="c5"
+  >
+    2 min read
+  </div>
+</header>
+`;

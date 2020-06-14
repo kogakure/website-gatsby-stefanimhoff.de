@@ -8,9 +8,19 @@ exports[`About Photo renders correctly 1`] = `
   border-right-width: 1px;
   border-style: solid;
   border-top-width: 1px;
-  box-shadow: 0 0 50px rgba(0,0,0,0.2);
   grid-column: 1 / -5;
   grid-row: 2;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c0:hover,
+.c0:focus {
+  box-shadow: 0 0 50px rgba(0,0,0,0.2);
 }
 
 @media (min-width:768px) {

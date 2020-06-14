@@ -62,8 +62,8 @@ exports[`Traditional Colors of Japan Books renders correctly 1`] = `
   -webkit-align-self: start;
   -ms-flex-item-align: start;
   align-self: start;
-  -webkit-column-gap: 15px;
-  column-gap: 15px;
+  -webkit-column-gap: 3vw;
+  column-gap: 3vw;
   display: grid;
   grid-column: 1 / -1;
   grid-row: 3;

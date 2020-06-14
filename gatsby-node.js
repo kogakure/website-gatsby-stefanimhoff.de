@@ -40,6 +40,13 @@ exports.createPages = async ({ graphql, actions }) => {
   // GraphQL Query
   const result = await graphql(`
     {
+      allHaikuYaml {
+        nodes {
+          id
+          en
+          de
+        }
+      }
       allMdx(
         filter: {
           fileAbsolutePath: { regex: "/content/posts/" }
@@ -59,13 +66,6 @@ exports.createPages = async ({ graphql, actions }) => {
               title
             }
           }
-        }
-      }
-      allHaikuYaml {
-        nodes {
-          id
-          en
-          de
         }
       }
     }

@@ -1,3 +1,4 @@
+import { CoverImageProps } from '../../screens/journal-detail';
 import { AttributionData } from '../../components/attribution';
 
 export type PostQueryData = {
@@ -11,6 +12,7 @@ export type PostQueryData = {
       language?: string;
       cover?: {
         publicURL: string;
+        childImageSharp: CoverImageProps;
       };
       attribution: AttributionData[] | null;
     };

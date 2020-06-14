@@ -63,8 +63,8 @@ exports[`Haiku Books renders correctly 1`] = `
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
-  -webkit-column-gap: 15px;
-  column-gap: 15px;
+  -webkit-column-gap: 3vw;
+  column-gap: 3vw;
   display: grid;
   grid-column: 2 / -2;
   grid-row: 5;
