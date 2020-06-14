@@ -1,15 +1,15 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { MDXRenderer } from 'gatsby-plugin-mdx';
 
 import { PostPageContextData, PostQueryData } from '../typings/graphql';
-import { Layout, SEO } from '../layout';
-import { MDXProviderContainer } from '../layout/mdx-provider-container';
-import { Attribution } from '../components/attribution';
-import { HorizontalRule } from '../components/horizontal-rule';
-import { LocalizedDate } from '../components/localized-date';
-import { TextLink } from '../components/text-link';
-import { Title } from '../components/typography';
+import { Layout, ContentGrid, SEO, Pagination } from '../layout';
+import {
+  CoverImage,
+  Footer,
+  Meta,
+  Post,
+  Title,
+} from '../screens/journal-detail';
 
 export type JournalTemplateProps = {
   readonly data: PostQueryData;
@@ -21,7 +21,7 @@ const JournalTemplate = ({ data, pageContext }: JournalTemplateProps) => {
     body,
     frontmatter: { title, date, description, cover, attribution },
     fields: {
-      readingTime: { text, words },
+      readingTime: { text },
       language,
       robots,
       slug,
@@ -42,36 +42,37 @@ const JournalTemplate = ({ data, pageContext }: JournalTemplateProps) => {
         title={title}
       />
       <article>
-        <header>
+        <ContentGrid rowGap size="fullsize">
           <Title>{title}</Title>
-          <LocalizedDate date={date} />
-          <div>
-            {words} words, {text}
-          </div>
-        </header>
-        <MDXProviderContainer>
-          <MDXRenderer>{body}</MDXRenderer>
-        </MDXProviderContainer>
-        <HorizontalRule />
-        {attribution && <Attribution data={attribution} />}
-        {previous === false ? null : (
-          <>
-            {previous && (
-              <TextLink to={previous.node.fields.slug}>
-                Previous: {previous.node.frontmatter.title}
-              </TextLink>
-            )}
-          </>
-        )}
-        {next === false ? null : (
-          <>
-            {next && (
-              <TextLink to={next.node.fields.slug}>
-                Next: {next.node.frontmatter.title}
-              </TextLink>
-            )}
-          </>
-        )}
+          <Meta date={date} readingTime={text} />
+          {cover && cover.childImageSharp && cover.childImageSharp.fluid && (
+            <CoverImage fluid={cover.childImageSharp.fluid} />
+          )}
+          <Post body={body} />
+          {attribution && <Footer attribution={attribution} />}
+          {previous === false ? null : (
+            <>
+              {previous && (
+                <Pagination
+                  text={previous.node.frontmatter.title}
+                  to={previous.node.fields.slug}
+                  variant="left"
+                />
+              )}
+            </>
+          )}
+          {next === false ? null : (
+            <>
+              {next && (
+                <Pagination
+                  text={next.node.frontmatter.title}
+                  to={next.node.fields.slug}
+                  variant="right"
+                />
+              )}
+            </>
+          )}
+        </ContentGrid>
       </article>
     </Layout>
   );
@@ -88,6 +89,16 @@ export const pageQuery = graphql`
         title
         date
         description
+        cover {
+          childImageSharp {
+            fluid(maxWidth: 2500) {
+              aspectRatio
+              sizes
+              src
+              srcSet
+            }
+          }
+        }
         attribution {
           title
           author

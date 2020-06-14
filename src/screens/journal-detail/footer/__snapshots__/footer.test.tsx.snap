@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Journal Detail Footer renders correctly 1`] = `
+.c4 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c4:hover,
+.c4:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c3 {
+  list-style: none;
+  padding: 0;
+}
+
+.c1 {
+  border-bottom-width: 1px;
+  border-color: var(--colorForegroundSoft);
+  border-left-width: 0;
+  border-right-width: 0;
+  border-style: solid;
+  border-top-width: 0;
+  margin-bottom: clamp(2.986rem,6.39vw,3.583rem);
+  margin-top: clamp(2.986rem,6.39vw,3.583rem);
+  width: 60%;
+}
+
+.c0 {
+  grid-column: 2 / -2;
+}
+
+.c2 {
+  margin-top: 0;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    grid-column: 3 / -7;
+  }
+}
+
+@media (min-width:1200px) {
+  .c0 {
+    grid-column: 7 / -7;
+  }
+}
+
+<footer
+  class="c0"
+>
+  <hr
+    class="c1 c2"
+  />
+  <ul
+    class="c3"
+  >
+    <li>
+      <cite>
+        Sunflowers
+        . 
+      </cite>
+      Photography by
+       
+      <a
+        class="c4"
+        href="https://www.stefanimhoff.de"
+        rel="nofollow noopener noreferrer external"
+      >
+        Stefan Imhoff
+      </a>
+    </li>
+  </ul>
+</footer>
+`;

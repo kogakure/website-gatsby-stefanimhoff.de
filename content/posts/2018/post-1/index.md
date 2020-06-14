@@ -1,6 +1,6 @@
 ---
 published: true
-title: Post 1 (Image Example)
+title: Example Post 1
 date: '2018-11-03T18:00:00'
 cover: ./gatsby-astronaut.png
 attribution:

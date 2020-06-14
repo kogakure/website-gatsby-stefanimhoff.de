@@ -13,6 +13,8 @@ module.exports = {
     '<rootDir>/src/layout/theme-toggle/theme-toggle.tsx',
     '<rootDir>/src/layout/up-link/up-link.tsx',
     '<rootDir>/src/pages',
+    '<rootDir>/src/screens/journal-detail/cover-image',
+    '<rootDir>/src/screens/journal-detail/post',
     '<rootDir>/src/services/test-utils.tsx',
     '<rootDir>/src/services/theme.js',
     '<rootDir>/src/templates',

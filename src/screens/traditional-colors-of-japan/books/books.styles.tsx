@@ -4,7 +4,7 @@ import { mediaQuery } from '../../../layout/tokens';
 
 const Books = styled.div`
   align-self: start;
-  column-gap: 15px;
+  column-gap: 3vw;
   display: grid;
   grid-column: 1 / -1;
   grid-row: 3;

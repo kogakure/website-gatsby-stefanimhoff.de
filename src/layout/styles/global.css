@@ -30,6 +30,15 @@ body {
   flex-direction: column;
 }
 
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: clamp(0.8rem, 0.8vw, 0.75rem);
+  text-align: center;
+}
+
 abbr {
   font-family: 'Playfair Display SC Webfont', 'Georgia', serif;
   font-variant: small-caps;
