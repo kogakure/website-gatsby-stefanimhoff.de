@@ -59,7 +59,6 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          fileAbsolutePath
           excerpt
           fields {
             slug

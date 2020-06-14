@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Journal Introduction renders correctly 1`] = `
+.c1 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: 0;
+}
+
+.c3 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c3:hover,
+.c3:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c2 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c2:hover,
+.c2:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c0 {
+  grid-column: 2 / -2;
+  grid-row: 2;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    grid-column: 6 / -6;
+  }
+}
+
+<div
+  class="c0"
+>
+  <p
+    class="c1"
+  >
+    Writing is a passion of me. I’ve written a huge collection of articles about
+     
+    <a
+      class="c2"
+      href="https://www.kogakure.de/"
+      rel="nofollow noopener noreferrer external"
+    >
+      Ninja & Ninjutsu
+    </a>
+     
+    that I later converted into a
+     
+    <a
+      class="c2"
+      href="https://book.kogakure.de/"
+      rel="nofollow noopener noreferrer external"
+    >
+      book
+    </a>
+    . The online publishing platform 
+    <cite>
+      Medium
+    </cite>
+     selected
+     
+    <a
+      class="c3"
+      href="/attention/"
+    >
+      one of my articles
+    </a>
+     as recommendation of the day.
+  </p>
+  <p
+    class="c1"
+  >
+    I am writing about code, design, productivity, self-improvement, films and books in this Journal and publish a monthly article with recommendations.
+  </p>
+</div>
+`;
