@@ -3,18 +3,18 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../../services/test-utils';
 
-import { Book } from '.';
+import { Books } from '.';
 
 describe('Traditional Colors of Japan', () => {
-  describe('Book', () => {
+  describe('Books', () => {
     test('renders correctly', () => {
-      const { container } = render(<Book />);
+      const { container } = render(<Books />);
 
       expect(container.firstChild).toMatchSnapshot();
     });
 
     test('is accessible', async () => {
-      const { container } = render(<Book />);
+      const { container } = render(<Books />);
       const results = await axe(container);
 
       expect(results).toHaveNoViolations();

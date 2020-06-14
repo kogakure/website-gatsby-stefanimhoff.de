@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Traditional Colors of Japan Book renders correctly 1`] = `
+exports[`Traditional Colors of Japan Books renders correctly 1`] = `
 .c1 {
   box-shadow: 0 0.1em 0.5em rgba(0,0,0,0.5);
   display: -webkit-inline-box;
@@ -62,9 +62,12 @@ exports[`Traditional Colors of Japan Book renders correctly 1`] = `
   -webkit-align-self: start;
   -ms-flex-item-align: start;
   align-self: start;
+  -webkit-column-gap: 15px;
+  column-gap: 15px;
   display: grid;
   grid-column: 1 / -1;
   grid-row: 3;
+  grid-template-columns: repeat(2,1fr);
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -79,12 +82,18 @@ exports[`Traditional Colors of Japan Book renders correctly 1`] = `
 
 @media (min-width:768px) {
   .c0 {
-    grid-column: 11 / -1;
+    grid-column: 8 / -1;
     grid-row: 2;
     -webkit-box-pack: end;
     -webkit-justify-content: end;
     -ms-flex-pack: end;
     justify-content: end;
+  }
+}
+
+@media (min-width:768px) {
+  .c0 {
+    grid-column: 9 / -1;
   }
 }
 
@@ -100,6 +109,17 @@ exports[`Traditional Colors of Japan Book renders correctly 1`] = `
       alt="Book: The Traditional Colors of Japan"
       class="c2"
       src="https://images-na.ssl-images-amazon.com/images/P/475624100X.01.LZZZZZZZ.jpg"
+    />
+  </a>
+  <a
+    class="c1"
+    href="http://www.amazon.de/gp/product/475624114X?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=475624114X"
+    rel="nofollow noopener noreferrer external"
+  >
+    <img
+      alt="Book: Traditional Japanese Color Palette"
+      class="c2"
+      src="https://images-na.ssl-images-amazon.com/images/P/475624114X.01.LZZZZZZZ.jpg"
     />
   </a>
 </div>

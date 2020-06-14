@@ -76,7 +76,7 @@ a:focus .c4 {
 
 @media (min-width:768px) {
   .c0 {
-    grid-column: 1 / 10;
+    grid-column: 1 / 8;
   }
 }
 
@@ -86,6 +86,7 @@ a:focus .c4 {
     -ms-flex-line-pack: center;
     align-content: center;
     display: grid;
+    grid-column: 1 / 8;
   }
 }
 
@@ -105,6 +106,11 @@ a:focus .c4 {
     <strong>
       Nobyoshi Hamada
     </strong>
+    . He also wrote the sister book
+     
+    <cite>
+      Traditional Japanese Color Palette
+    </cite>
     .
   </p>
   <p

@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ContentGrid, Layout } from '../layout';
 import {
-  Book,
+  Books,
   ColorGrid,
   Introduction,
   Title,
@@ -13,7 +13,7 @@ const TraditionalColorsOfJapanPage = () => (
     <ContentGrid rowGap size="regular">
       <Title />
       <Introduction />
-      <Book />
+      <Books />
       <ColorGrid />
     </ContentGrid>
   </Layout>
