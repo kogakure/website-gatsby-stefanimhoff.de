@@ -20,7 +20,7 @@
     "build:storybook": "build-storybook -c .storybook -o storybook",
     "clean": "gatsby clean",
     "commit": "git-cz",
-    "develop": "gatsby develop",
+    "develop": "yarn clean & gatsby develop",
     "format": "yarn run prettier --write",
     "format:check": "yarn run prettier --list-different",
     "image:optimize": "node scripts/optimize.js",

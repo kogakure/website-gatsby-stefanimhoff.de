@@ -14,15 +14,15 @@
     headline: Professional Experience
     items:
       - company: XING
-        url: "https://www.xing.com"
+        url: 'https://www.xing.com'
         title: Senior Software Engineer
-        location: "Hamburg, Germany"
+        location: 'Hamburg, Germany'
         duration: 03/2020-current
         tasks:
           - >-
             Programming of central components for the XING Platform with React
             and CSS.
-          - "Development, maintenance and documentation of the XING Design System."
+          - 'Development, maintenance and documentation of the XING Design System.'
           - >-
             Support for the product teams with the integration of new interfaces
             from components of the Design System.
@@ -34,12 +34,12 @@
             Frontend Developers.
           - Administration of a Slack workspace with over 800 participants.
       - company: XING
-        url: "https://www.xing.com"
-        location: "Hamburg, Germany"
+        url: 'https://www.xing.com'
+        location: 'Hamburg, Germany'
         title: Front-End Engineer
         duration: 01/2011-02/2020
         tasks:
-          - "Development, deployment and monitoring of multiple XING products."
+          - 'Development, deployment and monitoring of multiple XING products.'
           - >-
             Concept, idea and development of user interface improvements on the
             job marketplace, which lead to 59 % more visitors on job ads.
@@ -53,11 +53,11 @@
             search, onboarding user flow and profile-filling widget with React,
             Redux and GraphQL.
       - company: Dumrath & Fassnacht
-        location: "Hamburg, Germany"
+        location: 'Hamburg, Germany'
         title: Web Designer
         duration: 09/2005-12/2010
         tasks:
-          - "Planning, design and layout of websites."
+          - 'Planning, design and layout of websites.'
           - Implementation in W3C standard with HTML and CSS.
           - >-
             Programming websites with content management systems and blog
@@ -65,7 +65,7 @@
           - Revision and update of existing customer website.
           - Customer advisory
       - company: IGS Development
-        location: "Harbke, Germany"
+        location: 'Harbke, Germany'
         title: Media Designer
         duration: 02/2002-01/2005
         tasks:
@@ -75,10 +75,10 @@
           - >-
             Filming of industrial processes and production facilities in Germany
             and France.
-          - "Editing and Postproduction with Premiere, Avid and After Effect."
+          - 'Editing and Postproduction with Premiere, Avid and After Effect.'
           - Creation of 3D models and animations with 3ds max and Cinema 4D.
       - company: Schmitz Kommunikation
-        location: "Hamburg, Germany"
+        location: 'Hamburg, Germany'
         title: Intern Web Design
         duration: 03/2001-04/2001
         tasks:
@@ -89,9 +89,9 @@
     headline: Education
     items:
       - school: bib International College
-        url: "https://www.bib.de"
+        url: 'https://www.bib.de'
         degree: Computer Scientist
-        location: "Hanover, Germany"
+        location: 'Hanover, Germany'
         duration: 10/1999-09/2001
   skills:
     headline: Key Skills
@@ -207,7 +207,7 @@
   awards:
     headline: Awards
     items:
-      - "Three times winner of yearly company-wide innovation award of XING Prototyping Days (2013, 2015, 2017)."
+      - 'Three times winner of yearly company-wide innovation award of XING Prototyping Days (2013, 2015, 2017).'
       - SEMY Award – German Search Marketing Award 2015.
   interests:
     headline: Interests & Hobbies
