@@ -1,5 +1,4 @@
 import * as React from 'react';
-import unicode from 'emoji-unicode-map';
 
 import { EmojifyContext } from '../../contexts';
 
@@ -11,12 +10,9 @@ export type EmojifyProps = {
 
 export const Emojify: React.FC<EmojifyProps> = ({ emoji, ...props }) => {
   const { emojified } = React.useContext(EmojifyContext);
-  const emojiText = unicode.get(emoji);
-  const emojiLabel =
-    emojiText === undefined ? 'emoji' : String(emojiText.replace('_', ' '));
 
   return emojified ? (
-    <Styled.Emoji role="img" aria-label={emojiLabel} {...props}>
+    <Styled.Emoji role="img" aria-hidden="true" {...props}>
       {' '}
       {emoji}{' '}
     </Styled.Emoji>

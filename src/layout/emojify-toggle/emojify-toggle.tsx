@@ -8,7 +8,6 @@ export const EmojifyToggle: React.FC = () => {
   const { emojified, setEmojified } = React.useContext(EmojifyContext);
   const buttonText = emojified ? 'Hide Emoji' : 'Show Emoji';
   const emoji = emojified ? '🙈' : '🐵';
-  const emojiText = emojified ? 'See-No-Evil Monkey' : 'Monkey Face';
 
   return (
     <Styled.Button
@@ -16,7 +15,7 @@ export const EmojifyToggle: React.FC = () => {
       aria-label={buttonText}
       onClick={() => setEmojified(!emojified)}
     >
-      <Styled.Emoji role="img" aria-label={emojiText}>
+      <Styled.Emoji role="img" aria-hidden="true">
         {emoji}
       </Styled.Emoji>
     </Styled.Button>

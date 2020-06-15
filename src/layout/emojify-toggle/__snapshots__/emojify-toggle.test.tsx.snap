@@ -19,7 +19,7 @@ exports[`EmojifyToggle renders correctly 1`] = `
   type="button"
 >
   <span
-    aria-label="Monkey Face"
+    aria-hidden="true"
     class="c1"
     role="img"
   >

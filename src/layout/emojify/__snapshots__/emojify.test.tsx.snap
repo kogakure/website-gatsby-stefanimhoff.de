@@ -35,7 +35,7 @@ exports[`Emojify renders correctly 1`] = `
     type="button"
   >
     <span
-      aria-label="See-No-Evil Monkey"
+      aria-hidden="true"
       class="c2"
       role="img"
     >
