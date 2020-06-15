@@ -1,8 +1,33 @@
 import styled, { css } from 'styled-components';
 
-import { space } from '../tokens';
+import { mediaQuery, space } from '../tokens';
 
 import { RowProps } from '.';
+
+const defaultRow = css`
+  grid-column: 1 / -1;
+
+  @media (${mediaQuery.tablet}) {
+    grid-column: 2 / -2;
+  }
+`;
+
+const gridDefault = css`
+  gap: 5.55vw;
+  grid-template-columns: 1fr;
+  justify-items: center;
+
+  @media (${mediaQuery.tablet}) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+`;
+
+const variableDefault = css`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5.55vw;
+  justify-content: space-around;
+`;
 
 export const variants = {
   center: {
@@ -15,98 +40,107 @@ export const variants = {
   },
   rightDown: {
     row: css`
-      grid-column: 2 / -2;
+      ${defaultRow};
     `,
     grid: css`
       align-items: start;
-      column-gap: 5.55vw;
-      grid-template-columns: repeat(2, 1fr);
+      ${gridDefault};
 
       & > *:last-child {
-        margin-top: 11vw;
+        @media (${mediaQuery.tablet}) {
+          margin-top: 11vw;
+        }
       }
     `,
   },
   leftDown: {
     row: css`
-      grid-column: 2 / -2;
+      ${defaultRow};
     `,
     grid: css`
       align-items: start;
-      column-gap: 5.55vw;
-      grid-template-columns: repeat(2, 1fr);
+      ${gridDefault};
 
       & > *:first-child {
-        margin-top: 11vw;
+        @media (${mediaQuery.tablet}) {
+          margin-top: 11vw;
+        }
       }
     `,
   },
   leftOnly: {
     row: css`
-      grid-column: 2 / -2;
+      ${defaultRow};
     `,
     grid: css`
-      column-gap: 5.55vw;
-      grid-template-columns: repeat(2, 1fr);
+      ${gridDefault};
 
       & > * {
-        grid-column: 1;
+        @media (${mediaQuery.tablet}) {
+          grid-column: 1;
+        }
       }
     `,
   },
   rightOnly: {
     row: css`
-      grid-column: 2 / -2;
+      ${defaultRow};
     `,
     grid: css`
-      column-gap: 5.55vw;
-      grid-template-columns: repeat(2, 1fr);
+      ${gridDefault};
 
       & > * {
-        grid-column: 2;
+        @media (${mediaQuery.tablet}) {
+          grid-column: 2;
+        }
       }
     `,
   },
   bigRight: {
     row: css`
-      grid-column: 6 / -1;
+      grid-column: 1 / -1;
+
+      @media (${mediaQuery.tablet}) {
+        grid-column: 6 / -1;
+      }
     `,
     grid: null,
   },
   bigLeft: {
     row: css`
-      grid-column: 1 / -6;
+      grid-column: 1 / -1;
+
+      @media (${mediaQuery.tablet}) {
+        grid-column: 1 / -6;
+      }
     `,
     grid: null,
   },
   start: {
     row: css`
-      grid-column: 2 / -2;
+      ${defaultRow};
     `,
     grid: css`
       align-items: start;
-      column-gap: 5.55vw;
-      grid-template-columns: repeat(2, 1fr);
+      ${gridDefault};
     `,
   },
   middle: {
     row: css`
-      grid-column: 2 / -2;
+      ${defaultRow};
     `,
     grid: css`
       align-items: center;
-      column-gap: 5.55vw;
-      grid-template-columns: repeat(2, 1fr);
+      ${gridDefault};
     `,
   },
   end: {
     row: css`
-      grid-column: 2 / -2;
+      ${defaultRow};
     `,
     grid: css`
       align-items: end;
-      column-gap: 5.55vw;
-      grid-template-columns: repeat(2, 1fr);
+      ${gridDefault};
     `,
   },
   fullsize: {
@@ -121,13 +155,7 @@ export const variants = {
     `,
     grid: css`
       align-items: start;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5.55vw;
-
-      & > * {
-        flex-grow: 1;
-      }
+      ${variableDefault};
     `,
   },
   variableMiddle: {
@@ -136,13 +164,7 @@ export const variants = {
     `,
     grid: css`
       align-items: center;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5.55vw;
-
-      & > * {
-        flex-grow: 1;
-      }
+      ${variableDefault};
     `,
   },
   variableEnd: {
@@ -151,13 +173,7 @@ export const variants = {
     `,
     grid: css`
       align-items: end;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 5.55vw;
-
-      & > * {
-        flex-grow: 1;
-      }
+      ${variableDefault};
     `,
   },
 };
@@ -174,7 +190,7 @@ const Row = styled.section<{ debug?: boolean; marginBottom?: boolean }>`
     `};
   ${({ marginBottom }) => marginBottom && `margin-bottom: ${space[13]}`};
   display: grid;
-  grid-column: 2 / -2;
+  grid-column: 1 / -1;
   grid-template-columns: repeat(18, 1fr);
 `;
 
