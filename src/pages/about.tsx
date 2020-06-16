@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Layout, ContentGrid } from '../layout';
+import { Layout, ContentGrid, SEO } from '../layout';
 import {
   AboutMe,
   AboutWebsite,
@@ -12,6 +12,7 @@ import {
 
 const AboutPage = () => (
   <Layout>
+    <SEO title="About" />
     <ContentGrid rowGap size="fullsize">
       <Title />
       <Photo />
