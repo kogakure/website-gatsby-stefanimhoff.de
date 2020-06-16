@@ -40,14 +40,14 @@ exports.createPages = async ({ graphql, actions }) => {
   // GraphQL Query
   const result = await graphql(`
     {
-      allHaikuYaml {
+      haiku: allHaikuYaml {
         nodes {
           id
           en
           de
         }
       }
-      allMdx(
+      journal: allMdx(
         filter: {
           fileAbsolutePath: { regex: "/content/posts/" }
           frontmatter: { published: { eq: true } }
@@ -76,7 +76,7 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 
   // Create Journal detail pages.
-  const posts = result.data.allMdx.edges;
+  const posts = result.data.journal.edges;
 
   posts.forEach((post, index) => {
     const previous = index === posts.length - 1 ? null : posts[index + 1];
@@ -94,7 +94,7 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 
   // Create Haiku detail pages.
-  const haikus = result.data.allHaikuYaml.nodes;
+  const haikus = result.data.haiku.nodes;
 
   haikus.forEach((haiku, index) => {
     const previous = index === 0 ? null : haikus[index - 1];

@@ -9,7 +9,7 @@ import { Subheadline } from '../components/typography';
 import { AboutMe, Title, CoverImage, WhatIDo } from '../screens/homepage';
 
 const IndexPage = ({ data }: PostsQueryData) => {
-  const posts = data.allJournalPosts.edges;
+  const posts = data.homepageJournalPosts.edges;
 
   return (
     <Layout>
@@ -50,7 +50,7 @@ export default IndexPage;
 
 export const pageQuery = graphql`
   query {
-    allJournalPosts: allMdx(
+    homepageJournalPosts: allMdx(
       filter: {
         fileAbsolutePath: { regex: "/content/posts/" }
         frontmatter: { published: { eq: true } }
