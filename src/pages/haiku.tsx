@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Layout, ContentGrid } from '../layout';
+import { Layout, ContentGrid, SEO } from '../layout';
 import {
   Basho,
   Books,
@@ -12,6 +12,7 @@ import {
 
 const HaikuPage = () => (
   <Layout variant="green">
+    <SEO title="Haiku" />
     <ContentGrid rowGap size="fullsize">
       <Title />
       <Introduction />

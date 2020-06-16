@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ContentGrid, Layout } from '../layout';
+import { ContentGrid, Layout, SEO } from '../layout';
 import {
   Books,
   ColorGrid,
@@ -10,6 +10,7 @@ import {
 
 const TraditionalColorsOfJapanPage = () => (
   <Layout homeTo="/projects/" size="regular">
+    <SEO title="The Traditional lColors of Japan" />
     <ContentGrid rowGap size="regular">
       <Title />
       <Introduction />
