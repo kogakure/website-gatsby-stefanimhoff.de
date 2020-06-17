@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Journal Introduction renders correctly 1`] = `
+.c1 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: 0;
+}
+
+.c2 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c2:hover,
+.c2:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c0 {
+  grid-column: 2 / -2;
+  grid-row: 2;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    grid-column: 6 / -6;
+  }
+}
+
+<div
+  class="c0"
+>
+  <p
+    class="c1"
+  >
+    I’m a 
+    <em>
+      Frontend Developer
+    </em>
+     by profession. But I worked in previous jobs also in Design, Editing, or 3D Animation. I even created Flash Animations and Multimedia CD-ROMs when this was still a thing.
+  </p>
+  <p
+    class="c1"
+  >
+    I follow the concept of the
+     
+    <a
+      class="c2"
+      href="https://simple.wikipedia.org/wiki/Renaissance_man"
+      rel="nofollow noopener noreferrer external"
+    >
+      Renaissance man
+    </a>
+     
+    and like to try out as many different professions as possible.
+  </p>
+  <p
+    class="c1"
+  >
+    These are some of the projects I created over the last years.
+  </p>
+</div>
+`;
