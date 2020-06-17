@@ -9,7 +9,7 @@ import { Photo } from '.';
 const useStaticQuery = jest.spyOn(Gatsby, 'useStaticQuery');
 
 useStaticQuery.mockImplementation(() => ({
-  placeholderImage: {
+  portraitImage: {
     childImageSharp: {
       fluid: {
         aspectRatio: 0.66,
