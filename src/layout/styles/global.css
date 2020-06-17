@@ -30,6 +30,10 @@ body {
   flex-direction: column;
 }
 
+.gatsby-image-wrapper {
+  width: 100%;
+}
+
 figure {
   margin: 0;
 }
