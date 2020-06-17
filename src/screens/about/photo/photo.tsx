@@ -1,10 +1,24 @@
 import * as React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
 
-import { PortraitPhoto } from './portrait-photo';
 import { Styled } from './photo.styles';
 
-export const Photo: React.FC = () => (
-  <Styled.Photo>
-    <PortraitPhoto />
-  </Styled.Photo>
-);
+export const Photo: React.FC = () => {
+  const {
+    portraitImage: {
+      childImageSharp: { fluid },
+    },
+  } = useStaticQuery(graphql`
+    query {
+      portraitImage: file(relativePath: { eq: "portrait-stefan-imhoff.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 800) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `);
+
+  return <Styled.PortraitPhoto fluid={fluid} />;
+};

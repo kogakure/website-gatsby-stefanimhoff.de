@@ -1,10 +1,24 @@
 import * as React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
 
 import { Styled } from './cover-image.styles';
-import { BonsaiImage } from './bosai-image';
 
-export const CoverImage: React.FC = () => (
-  <Styled.CoverImage>
-    <BonsaiImage />
-  </Styled.CoverImage>
-);
+export const CoverImage: React.FC = () => {
+  const {
+    bonsaiImage: {
+      childImageSharp: { fluid },
+    },
+  } = useStaticQuery(graphql`
+    query {
+      bonsaiImage: file(relativePath: { eq: "bonsai.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1200) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `);
+
+  return <Styled.CoverImage fluid={fluid} />;
+};

@@ -9,7 +9,7 @@ import { CoverImage } from '.';
 const useStaticQuery = jest.spyOn(Gatsby, 'useStaticQuery');
 
 useStaticQuery.mockImplementation(() => ({
-  placeholderImage: {
+  bonsaiImage: {
     childImageSharp: {
       fluid: {
         aspectRatio: 0.66,

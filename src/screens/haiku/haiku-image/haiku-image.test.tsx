@@ -9,7 +9,7 @@ import { HaikuImage } from '.';
 const useStaticQuery = jest.spyOn(Gatsby, 'useStaticQuery');
 
 useStaticQuery.mockImplementation(() => ({
-  placeholderImage: {
+  forestImage: {
     childImageSharp: {
       fluid: {
         aspectRatio: 0.66,
