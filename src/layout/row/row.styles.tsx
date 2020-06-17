@@ -23,10 +23,8 @@ const gridDefault = css`
 `;
 
 const variableDefault = css`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5.55vw;
-  justify-content: space-around;
+  gap: ${space[13]};
+  justify-items: center;
 `;
 
 export const variants = {
@@ -198,6 +196,13 @@ const Grid = styled.div<RowProps>`
   display: grid;
   ${({ variant }) => variant && variants[variant].row};
   ${({ variant }) => variant && variants[variant].grid};
+  ${({ minWidth, repeat, variant }) =>
+    (variant === 'variableStart' ||
+      variant === 'variableMiddle' ||
+      variant === 'variableEnd') &&
+    `
+      grid-template-columns: repeat(${repeat}, minmax(${minWidth}, 1fr));
+    `}
 `;
 
 export const Styled = {
