@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects TextBlock renders correctly 1`] = `
+.c0 {
+  padding-left: 5.55vw;
+  padding-right: 5.55vw;
+  width: 100%;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    padding: 0;
+  }
+}
+
+<div
+  class="c0"
+>
+  Text
+</div>
+`;
