@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Journal Introduction renders correctly 1`] = `
+exports[`Projects Introduction renders correctly 1`] = `
 .c1 {
   font-size: clamp(1.00rem,1.1vw,1.25rem);
   font-weight: 400;

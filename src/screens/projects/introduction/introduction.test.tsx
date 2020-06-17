@@ -5,7 +5,7 @@ import { render } from '../../../services/test-utils';
 
 import { Introduction } from '.';
 
-describe('Journal', () => {
+describe('Projects', () => {
   describe('Introduction', () => {
     test('renders correctly', () => {
       const { container } = render(<Introduction />);
