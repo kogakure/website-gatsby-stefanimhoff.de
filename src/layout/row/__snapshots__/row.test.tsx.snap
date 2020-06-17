@@ -847,18 +847,9 @@ exports[`Row with "variableEnd" renders correctly 1`] = `
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: end;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  gap: 5.55vw;
-  -webkit-box-pack: space-around;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: space-around;
-  justify-content: space-around;
+  gap: clamp(2.488rem,5.32vw,2.986rem);
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
 }
 
 .c3 {
@@ -939,18 +930,9 @@ exports[`Row with "variableMiddle" renders correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  gap: 5.55vw;
-  -webkit-box-pack: space-around;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: space-around;
-  justify-content: space-around;
+  gap: clamp(2.488rem,5.32vw,2.986rem);
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
 }
 
 .c3 {
@@ -1031,18 +1013,9 @@ exports[`Row with "variableStart" renders correctly 1`] = `
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  gap: 5.55vw;
-  -webkit-box-pack: space-around;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: space-around;
-  justify-content: space-around;
+  gap: clamp(2.488rem,5.32vw,2.986rem);
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
 }
 
 .c2 {
