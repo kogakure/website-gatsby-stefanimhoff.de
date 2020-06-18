@@ -9,12 +9,13 @@ const Image = styled(Img)`
   border-style: solid;
   border-width: 1px;
   transition-duration: 500ms;
-  transition-property: box-shadow;
+  transition-property: box-shadow, transform;
   transition-timing-function: ease-in-out;
 
   &:hover,
   &:focus {
     box-shadow: ${shadow.subtleShade};
+    transform: scale(1.03);
   }
 `;
 
