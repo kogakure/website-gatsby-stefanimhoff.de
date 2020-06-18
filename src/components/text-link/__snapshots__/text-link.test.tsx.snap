@@ -1,60 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`BlockLink with href renders correctly 1`] = `
-.c0 {
-  color: var(--colorForeground);
-  font-weight: 600;
-  -webkit-text-decoration-color: var(--colorForegroundSoft);
-  text-decoration-color: var(--colorForegroundSoft);
-  -webkit-text-decoration-thickness: 0.1em;
-  text-decoration-thickness: 0.1em;
-  text-underline-offset: 0.1em;
-}
-
-.c0:hover,
-.c0:focus {
-  -webkit-text-decoration-color: var(--colorAccent);
-  text-decoration-color: var(--colorAccent);
-}
-
-<p>
-  <a
-    class="c0"
-    href="https://www.stefanimhoff.de"
-    rel="nofollow noopener noreferrer external"
-  >
-    BlockLink as External Link
-  </a>
-</p>
-`;
-
-exports[`BlockLink with to property renders correctly 1`] = `
-.c0 {
-  color: var(--colorForeground);
-  font-weight: 600;
-  -webkit-text-decoration-color: var(--colorForegroundSoft);
-  text-decoration-color: var(--colorForegroundSoft);
-  -webkit-text-decoration-thickness: 0.1em;
-  text-decoration-thickness: 0.1em;
-  text-underline-offset: 0.1em;
-}
-
-.c0:hover,
-.c0:focus {
-  -webkit-text-decoration-color: var(--colorAccent);
-  text-decoration-color: var(--colorAccent);
-}
-
-<p>
-  <a
-    class="c0"
-    href="/"
-  >
-    BlockLink as Router Link
-  </a>
-</p>
-`;
-
 exports[`TextLink with href renders correctly 1`] = `
 .c0 {
   color: var(--colorForeground);
@@ -64,6 +9,33 @@ exports[`TextLink with href renders correctly 1`] = `
   -webkit-text-decoration-thickness: 0.1em;
   text-decoration-thickness: 0.1em;
   text-underline-offset: 0.1em;
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+<a
+  class="c0"
+  href="https://www.stefanimhoff.de"
+  rel="nofollow noopener noreferrer external"
+>
+  External Link
+</a>
+`;
+
+exports[`TextLink with href with "block" renders correctly 1`] = `
+.c0 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+  display: block;
 }
 
 .c0:hover,
@@ -99,6 +71,34 @@ exports[`TextLink with to property renders correctly 1`] = `
 }
 
 <a
+  block="0"
+  class="c0"
+  href="/"
+>
+  Router Link
+</a>
+`;
+
+exports[`TextLink with to property with "block" renders correctly 1`] = `
+.c0 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+  display: block;
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+<a
+  block="1"
   class="c0"
   href="/"
 >

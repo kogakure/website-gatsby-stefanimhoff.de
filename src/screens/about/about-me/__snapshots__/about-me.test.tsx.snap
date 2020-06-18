@@ -87,6 +87,7 @@ exports[`About AboutMe renders correctly 1`] = `
     , a Front-End Web Developer and Designer from Hamburg, Germany. I love design and art, reading books, watching movies and TV shows, creating Sketchnotes, taking photos, and writing
      
     <a
+      block="0"
       class="c2"
       href="/haiku/"
     >
@@ -100,6 +101,7 @@ exports[`About AboutMe renders correctly 1`] = `
     I love walking and cycling, and do
      
     <a
+      block="0"
       class="c2"
       href="/calisthenics/"
     >
@@ -127,6 +129,7 @@ exports[`About AboutMe renders correctly 1`] = `
   >
     I see myself as a 
     <a
+      block="0"
       class="c2"
       href="/minimalism/"
     >
@@ -134,6 +137,7 @@ exports[`About AboutMe renders correctly 1`] = `
     </a>
     , a Stoic, an Introvert and Japanophile. Writing is a passion of me. Besides writing 
     <a
+      block="0"
       class="c2"
       href="/journal/"
     >

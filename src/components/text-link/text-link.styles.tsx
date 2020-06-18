@@ -4,6 +4,8 @@ import styled, { css } from 'styled-components';
 import { fontWeight } from '../../layout/tokens';
 import { ArrowRight } from '../icons';
 
+import { TextLinkProps } from '.';
+
 const linkStyles = css`
   color: var(--colorForeground);
   font-weight: ${fontWeight.bold};
@@ -17,12 +19,14 @@ const linkStyles = css`
   }
 `;
 
-const TextLinkRouter = styled(GatsbyLink)`
+const TextLinkRouter = styled(GatsbyLink)<TextLinkProps>`
   ${linkStyles};
+  ${({ block }) => block && 'display: block'};
 `;
 
-const TextLinkHref = styled.a`
+const TextLinkHref = styled.a<TextLinkProps>`
   ${linkStyles}
+  ${({ block }) => block && 'display: block'};
 `;
 
 const ArrowIcon = styled(ArrowRight)`

@@ -7,8 +7,9 @@ exports[`Haiku Photo renders correctly 1`] = `
   border-width: 1px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
+  -webkit-transition-property: box-shadow,-webkit-transform;
+  -webkit-transition-property: box-shadow,transform;
+  transition-property: box-shadow,transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
@@ -16,6 +17,9 @@ exports[`Haiku Photo renders correctly 1`] = `
 .c0:hover,
 .c0:focus {
   box-shadow: 0 0 50px rgba(0,0,0,0.2);
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .c1 {
