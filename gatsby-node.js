@@ -35,6 +35,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   // Templates
   const journalPostTemplate = path.resolve('./src/templates/journal.tsx');
+  const showcaseTemplate = path.resolve('./src/templates/showcase.tsx');
   const haikuTemplate = path.resolve('./src/templates/haiku.tsx');
 
   // GraphQL Query
@@ -68,6 +69,24 @@ exports.createPages = async ({ graphql, actions }) => {
           }
         }
       }
+      showcases: allMdx(
+        filter: {
+          fileAbsolutePath: { regex: "/content/showcases/" }
+          frontmatter: { published: { eq: true } }
+        }
+        limit: 1000
+      ) {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+            }
+          }
+        }
+      }
     }
   `);
 
@@ -87,6 +106,25 @@ exports.createPages = async ({ graphql, actions }) => {
       component: journalPostTemplate,
       context: {
         slug: post.node.fields.slug,
+        previous,
+        next,
+      },
+    });
+  });
+
+  // Create Journal detail pages.
+  const showcases = result.data.showcases.edges;
+
+  showcases.forEach((showcase, index) => {
+    const previous =
+      index === showcases.length - 1 ? null : showcases[index + 1];
+    const next = index === 0 ? null : showcases[index - 1];
+
+    createPage({
+      path: `/showcase${showcase.node.fields.slug}`,
+      component: showcaseTemplate,
+      context: {
+        slug: showcase.node.fields.slug,
         previous,
         next,
       },

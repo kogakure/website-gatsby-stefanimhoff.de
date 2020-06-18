@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Journal Detail Title renders correctly 1`] = `
+.c0 {
+  font-size: clamp(2.25rem,4.7vw,5.30rem);
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.0;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  margin-top: 0;
+}
+
+.c0 .autolink {
+  background: transparent;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.c0:hover .autolink,
+.c0:focus .autolink {
+  opacity: 0.5;
+}
+
+.c1 {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  margin-bottom: 0;
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c0 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+<h1
+  class="c0 c1"
+>
+  Post
+</h1>
+`;
