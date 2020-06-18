@@ -1,7 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Projects IgaNinjaFont renders correctly 1`] = `
-.c6 {
+exports[`Projects BookCover renders correctly 1`] = `
+.c8 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c8:hover,
+.c8:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c9 {
   color: var(--colorForeground);
   font-weight: 600;
   -webkit-text-decoration-color: var(--colorForegroundSoft);
@@ -12,13 +28,13 @@ exports[`Projects IgaNinjaFont renders correctly 1`] = `
   display: block;
 }
 
-.c6:hover,
-.c6:focus {
+.c9:hover,
+.c9:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
 
-.c7 {
+.c10 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -36,41 +52,15 @@ exports[`Projects IgaNinjaFont renders correctly 1`] = `
   transition-timing-function: ease-in-out;
 }
 
-a:hover .c7,
-a:active .c7,
-a:focus .c7 {
-  -webkit-transform: translate3D(0,0.25rem,0);
-  -ms-transform: translate3D(0,0.25rem,0);
-  transform: translate3D(0,0.25rem,0);
-}
-
-.c8 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  fill: var(--colorForeground);
-  margin-left: 0.2em;
-  position: relative;
-  top: 0.2em;
-  -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-}
-
-a:hover .c8,
-a:active .c8,
-a:focus .c8 {
+a:hover .c10,
+a:active .c10,
+a:focus .c10 {
   -webkit-transform: translate3D(0.25rem,0,0);
   -ms-transform: translate3D(0.25rem,0,0);
   transform: translate3D(0.25rem,0,0);
 }
 
-.c4 {
+.c6 {
   font-size: clamp(1.50rem,2.9vw,3.25rem);
   font-weight: 900;
   -webkit-letter-spacing: normal;
@@ -82,7 +72,7 @@ a:focus .c8 {
   margin-top: 0;
 }
 
-.c4 .autolink {
+.c6 .autolink {
   background: transparent;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -94,12 +84,12 @@ a:focus .c8 {
   vertical-align: middle;
 }
 
-.c4:hover .autolink,
-.c4:focus .autolink {
+.c6:hover .autolink,
+.c6:focus .autolink {
   opacity: 0.5;
 }
 
-.c5 {
+.c7 {
   font-size: clamp(1.00rem,1.1vw,1.25rem);
   font-weight: 400;
   -webkit-letter-spacing: normal;
@@ -112,6 +102,7 @@ a:focus .c8 {
 }
 
 .c0 {
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -129,7 +120,7 @@ a:focus .c8 {
   align-items: center;
 }
 
-.c9 {
+.c2 {
   border-color: var(--colorForegroundSoft);
   border-style: solid;
   border-width: 1px;
@@ -142,15 +133,15 @@ a:focus .c8 {
   transition-timing-function: ease-in-out;
 }
 
-.c9:hover,
-.c9:focus {
+.c2:hover,
+.c2:focus {
   box-shadow: 0 0 50px rgba(0,0,0,0.2);
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
 }
 
-.c3 {
+.c5 {
   color: var(--colorForegroundStrong);
   display: block;
   font-size: clamp(0.65rem,0.8vw,0.75rem);
@@ -158,20 +149,19 @@ a:focus .c8 {
   line-height: 1;
 }
 
-.c2 {
+.c4 {
   padding-left: 5.55vw;
   padding-right: 5.55vw;
   width: 100%;
 }
 
-.c10 {
+.c3 {
   border-left-width: 0;
   border-right-width: 0;
-  grid-row: 1;
 }
 
 @media screen and (prefers-reduced-motion:no-preference) {
-  .c4 .autolink {
+  .c6 .autolink {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     -webkit-transition-property: opacity;
@@ -194,22 +184,21 @@ a:focus .c8 {
 }
 
 @media (min-width:768px) {
+  .c5 {
+    padding: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 {
+    padding: 0;
+  }
+}
+
+@media (min-width:768px) {
   .c3 {
-    padding: 0;
-  }
-}
-
-@media (min-width:768px) {
-  .c2 {
-    padding: 0;
-  }
-}
-
-@media (min-width:768px) {
-  .c10 {
     border-left-width: 1px;
     border-right-width: 1px;
-    grid-column: 2;
   }
 }
 
@@ -220,82 +209,7 @@ a:focus .c8 {
     class="c1"
   >
     <div
-      class="c2"
-    >
-      <small
-        class="c3"
-      >
-        Type Design / Graphic Design
-      </small>
-      <h2
-        class="c4"
-      >
-        Ingo: Iga Ninja Cipher Font
-      </h2>
-      <p
-        class="c5"
-      >
-        The 
-        <em>
-          Iga Ninja Cipher Font
-        </em>
-         was created by me of an image provided by the 
-        <strong>
-          Iga Ninja Museum
-        </strong>
-         in Japan and is said to be a font for correspondence in cipher. It was a fun personal project to learn how to create a typeface.
-      </p>
-      <a
-        class="c6"
-        href="/downloads/ingo-iga-ninja-font.zip"
-        rel="nofollow noopener noreferrer external"
-      >
-        Download
-        <span
-          class="c7"
-        >
-          <svg
-            height="1em"
-            viewBox="0 0 24 24"
-            width="1em"
-          >
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M3 19h18v2H3v-2zm10-5.828L19.071 7.1l1.414 1.414L12 17 3.515 8.515 4.929 7.1 11 13.17V2h2v11.172z"
-            />
-          </svg>
-        </span>
-      </a>
-      <a
-        class="c6"
-        href="https://github.com/kogakure/font-ingo"
-        rel="nofollow noopener noreferrer external"
-      >
-        GitHub
-        <span
-          class="c8"
-        >
-          <svg
-            height="1em"
-            viewBox="0 0 24 24"
-            width="1em"
-          >
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-            />
-          </svg>
-        </span>
-      </a>
-    </div>
-    <div
-      class="c9 c10 gatsby-image-wrapper"
+      class="c2 c3 gatsby-image-wrapper"
       style="position: relative; overflow: hidden;"
     >
       <div
@@ -325,6 +239,62 @@ a:focus .c8 {
       <noscript>
         &lt;picture&gt;&lt;source srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" sizes="(max-width: 1200px) 100vw, 1200px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" src="/static/cover.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
       </noscript>
+    </div>
+    <div
+      class="c4"
+    >
+      <small
+        class="c5"
+      >
+        Graphic Design
+      </small>
+      <h2
+        class="c6"
+      >
+        Book Cover
+      </h2>
+      <p
+        class="c7"
+      >
+        I designed this book cover for my book 
+        <cite>
+          kogakure
+        </cite>
+        , which I wrote in 2017. It’s a book in German about the Ninja and their secret art of Ninjutsu. The book was written with
+         
+        <a
+          class="c8"
+          href="https://www.gitbook.com/"
+          rel="nofollow noopener noreferrer external"
+        >
+          GitBook
+        </a>
+         and can be read or downloaded for free as PDF, ePub or Mobi eBook.
+      </p>
+      <a
+        class="c9"
+        href="https://book.kogakure.de/"
+        rel="nofollow noopener noreferrer external"
+      >
+        Read Book
+        <span
+          class="c10"
+        >
+          <svg
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+            />
+          </svg>
+        </span>
+      </a>
     </div>
   </div>
 </section>

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects SmallPrint renders correctly 1`] = `
+.c0 {
+  color: var(--colorForegroundStrong);
+  display: block;
+  font-size: clamp(0.65rem,0.8vw,0.75rem);
+  font-variant: small-caps;
+  line-height: 1;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    padding: 0;
+  }
+}
+
+<small
+  class="c0"
+>
+  Text
+</small>
+`;
