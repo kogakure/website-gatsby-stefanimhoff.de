@@ -55,17 +55,17 @@ exports[`Projects Introduction renders correctly 1`] = `
   <p
     class="c1"
   >
-    I follow the concept of the
+    I like the concept of the
      
     <a
       class="c2"
       href="https://simple.wikipedia.org/wiki/Renaissance_man"
       rel="nofollow noopener noreferrer external"
     >
-      Renaissance man
+      Renaissance Man
     </a>
      
-    and like to try out as many different professions as possible.
+    and try out as many different professions as possible.
   </p>
   <p
     class="c1"
