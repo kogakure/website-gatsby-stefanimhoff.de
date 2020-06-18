@@ -5,9 +5,9 @@ import { render } from '../../services/test-utils';
 
 import {
   HTMLLink,
+  HTMLLinkBlock,
   RouterLink,
-  BlockLinkHTMLLink,
-  BlockLinkRouterLink,
+  RouterLinkBlock,
 } from './text-link.stories';
 
 describe('TextLink', () => {
@@ -18,6 +18,12 @@ describe('TextLink', () => {
       expect(container.firstChild).toMatchSnapshot();
     });
 
+    test('with "block" renders correctly', () => {
+      const { container } = render(<HTMLLinkBlock />);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
     test('is accessible', async () => {
       const { container } = render(<HTMLLink />);
       const results = await axe(container);
@@ -33,40 +39,14 @@ describe('TextLink', () => {
       expect(container.firstChild).toMatchSnapshot();
     });
 
+    test('with "block" renders correctly', () => {
+      const { container } = render(<RouterLinkBlock />);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
     test('is accessible', async () => {
       const { container } = render(<RouterLink />);
-      const results = await axe(container);
-
-      expect(results).toHaveNoViolations();
-    });
-  });
-});
-
-describe('BlockLink', () => {
-  describe('with href', () => {
-    test('renders correctly', () => {
-      const { container } = render(<BlockLinkHTMLLink />);
-
-      expect(container.firstChild).toMatchSnapshot();
-    });
-
-    test('is accessible', async () => {
-      const { container } = render(<BlockLinkHTMLLink />);
-      const results = await axe(container);
-
-      expect(results).toHaveNoViolations();
-    });
-  });
-
-  describe('with to property', () => {
-    test('renders correctly', () => {
-      const { container } = render(<BlockLinkRouterLink />);
-
-      expect(container.firstChild).toMatchSnapshot();
-    });
-
-    test('is accessible', async () => {
-      const { container } = render(<BlockLinkRouterLink />);
       const results = await axe(container);
 
       expect(results).toHaveNoViolations();

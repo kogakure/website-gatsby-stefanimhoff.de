@@ -57,6 +57,7 @@ exports[`Journal Detail Meta renders correctly 1`] = `
     </em>
      
     <a
+      block="0"
       class="c2"
       href="/about/"
     >

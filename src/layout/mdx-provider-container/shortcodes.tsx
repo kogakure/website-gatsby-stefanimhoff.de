@@ -18,7 +18,7 @@ import { RubyAnnotation } from '../../components/ruby-annotation';
 import { Sample } from '../../components/sample';
 import { Spoiler } from '../../components/spoiler';
 import { Table } from '../../components/table';
-import { TextLink, BlockLink } from '../../components/text-link';
+import { TextLink } from '../../components/text-link';
 import { UnorderedList } from '../../components/unordered-list';
 import { Variable } from '../../components/variable';
 import { Verse } from '../../components/verse';
@@ -37,7 +37,6 @@ import { SEO } from '../seo';
 
 export const shortcodes = {
   AmazonBook,
-  BlockLink,
   Blockquote,
   Book,
   ColorSwatch,
