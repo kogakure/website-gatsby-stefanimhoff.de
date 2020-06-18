@@ -1,5 +1,260 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Row centered renders correctly 1`] = `
+.c0 {
+  background-color: var(--colorForegroundFeather);
+  border-color: green;
+  border-style: dotted;
+  border-width: 1px;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+  justify-items: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      center
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row fullsize renders correctly 1`] = `
+.c0 {
+  background-color: var(--colorForegroundFeather);
+  border-color: green;
+  border-style: dotted;
+  border-width: 1px;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      fullsize
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row only one item left renders correctly 1`] = `
+.c0 {
+  background-color: var(--colorForegroundFeather);
+  border-color: green;
+  border-style: dotted;
+  border-width: 1px;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+  gap: 5.55vw;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    grid-column: 2 / -2;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (min-width:768px) {
+  .c1 > * {
+    grid-column: 1;
+  }
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      leftOnly
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row only one item right renders correctly 1`] = `
+.c0 {
+  background-color: var(--colorForegroundFeather);
+  border-color: green;
+  border-style: dotted;
+  border-width: 1px;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+  gap: 5.55vw;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    grid-column: 2 / -2;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (min-width:768px) {
+  .c1 > * {
+    grid-column: 2;
+  }
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      rightOnly
+    </div>
+  </div>
+</section>
+`;
+
 exports[`Row renders correctly 1`] = `
 .c0 {
   background-color: var(--colorForegroundFeather);
@@ -17,6 +272,10 @@ exports[`Row renders correctly 1`] = `
   display: grid;
   grid-column: 1 / -1;
   justify-items: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
 }
 
 .c2 {
@@ -50,7 +309,7 @@ exports[`Row renders correctly 1`] = `
 </section>
 `;
 
-exports[`Row with "bigLeft" renders correctly 1`] = `
+exports[`Row with big item left renders correctly 1`] = `
 .c0 {
   background-color: var(--colorForegroundFeather);
   border-color: green;
@@ -66,6 +325,10 @@ exports[`Row with "bigLeft" renders correctly 1`] = `
 .c1 {
   display: grid;
   grid-column: 1 / -1;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
 }
 
 .c2 {
@@ -105,7 +368,7 @@ exports[`Row with "bigLeft" renders correctly 1`] = `
 </section>
 `;
 
-exports[`Row with "bigRight" renders correctly 1`] = `
+exports[`Row with big item right renders correctly 1`] = `
 .c0 {
   background-color: var(--colorForegroundFeather);
   border-color: green;
@@ -121,6 +384,10 @@ exports[`Row with "bigRight" renders correctly 1`] = `
 .c1 {
   display: grid;
   grid-column: 1 / -1;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
 }
 
 .c2 {
@@ -160,7 +427,7 @@ exports[`Row with "bigRight" renders correctly 1`] = `
 </section>
 `;
 
-exports[`Row with "center" renders correctly 1`] = `
+exports[`Row with one item down left renders correctly 1`] = `
 .c0 {
   background-color: var(--colorForegroundFeather);
   border-color: green;
@@ -176,202 +443,13 @@ exports[`Row with "center" renders correctly 1`] = `
 .c1 {
   display: grid;
   grid-column: 1 / -1;
-  justify-items: center;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-<section
-  class="c0"
->
-  <div
-    class="c1"
-  >
-    <div
-      class="c2"
-    >
-      center
-    </div>
-  </div>
-</section>
-`;
-
-exports[`Row with "end" renders correctly 1`] = `
-.c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
-  display: grid;
-  grid-column: 1 / -1;
-  grid-template-columns: repeat(18,1fr);
-}
-
-.c1 {
-  display: grid;
-  grid-column: 1 / -1;
-  -webkit-align-items: end;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: end;
   gap: 5.55vw;
   grid-template-columns: 1fr;
   justify-items: center;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-@media (min-width:768px) {
-  .c1 {
-    grid-column: 2 / -2;
-  }
-}
-
-@media (min-width:768px) {
-  .c1 {
-    grid-template-columns: repeat(2,1fr);
-  }
-}
-
-<section
-  class="c0"
->
-  <div
-    class="c1"
-  >
-    <div
-      class="c2"
-    >
-      end
-    </div>
-    <div
-      class="c3"
-    >
-      end
-    </div>
-  </div>
-</section>
-`;
-
-exports[`Row with "fullSize" renders correctly 1`] = `
-.c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
-  display: grid;
-  grid-column: 1 / -1;
-  grid-template-columns: repeat(18,1fr);
-}
-
-.c1 {
-  display: grid;
-  grid-column: 1 / -1;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-<section
-  class="c0"
->
-  <div
-    class="c1"
-  >
-    <div
-      class="c2"
-    >
-      fullsize
-    </div>
-  </div>
-</section>
-`;
-
-exports[`Row with "leftDown" renders correctly 1`] = `
-.c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
-  display: grid;
-  grid-column: 1 / -1;
-  grid-template-columns: repeat(18,1fr);
-}
-
-.c1 {
-  display: grid;
-  grid-column: 1 / -1;
   -webkit-align-items: start;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
-  gap: 5.55vw;
-  grid-template-columns: 1fr;
-  justify-items: center;
 }
 
 .c2 {
@@ -428,7 +506,7 @@ exports[`Row with "leftDown" renders correctly 1`] = `
 </section>
 `;
 
-exports[`Row with "leftOnly" renders correctly 1`] = `
+exports[`Row with one item down right renders correctly 1`] = `
 .c0 {
   background-color: var(--colorForegroundFeather);
   border-color: green;
@@ -447,170 +525,10 @@ exports[`Row with "leftOnly" renders correctly 1`] = `
   gap: 5.55vw;
   grid-template-columns: 1fr;
   justify-items: center;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-@media (min-width:768px) {
-  .c1 {
-    grid-column: 2 / -2;
-  }
-}
-
-@media (min-width:768px) {
-  .c1 {
-    grid-template-columns: repeat(2,1fr);
-  }
-}
-
-@media (min-width:768px) {
-  .c1 > * {
-    grid-column: 1;
-  }
-}
-
-<section
-  class="c0"
->
-  <div
-    class="c1"
-  >
-    <div
-      class="c2"
-    >
-      leftOnly
-    </div>
-  </div>
-</section>
-`;
-
-exports[`Row with "middle" renders correctly 1`] = `
-.c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
-  display: grid;
-  grid-column: 1 / -1;
-  grid-template-columns: repeat(18,1fr);
-}
-
-.c1 {
-  display: grid;
-  grid-column: 1 / -1;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: 5.55vw;
-  grid-template-columns: 1fr;
-  justify-items: center;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-@media (min-width:768px) {
-  .c1 {
-    grid-column: 2 / -2;
-  }
-}
-
-@media (min-width:768px) {
-  .c1 {
-    grid-template-columns: repeat(2,1fr);
-  }
-}
-
-<section
-  class="c0"
->
-  <div
-    class="c1"
-  >
-    <div
-      class="c2"
-    >
-      middle
-    </div>
-    <div
-      class="c3"
-    >
-      middle
-    </div>
-  </div>
-</section>
-`;
-
-exports[`Row with "rightDown" renders correctly 1`] = `
-.c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
-  display: grid;
-  grid-column: 1 / -1;
-  grid-template-columns: repeat(18,1fr);
-}
-
-.c1 {
-  display: grid;
-  grid-column: 1 / -1;
   -webkit-align-items: start;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
-  gap: 5.55vw;
-  grid-template-columns: 1fr;
-  justify-items: center;
 }
 
 .c2 {
@@ -667,7 +585,7 @@ exports[`Row with "rightDown" renders correctly 1`] = `
 </section>
 `;
 
-exports[`Row with "rightOnly" renders correctly 1`] = `
+exports[`Row with two equal sized items aligned to center renders correctly 1`] = `
 .c0 {
   background-color: var(--colorForegroundFeather);
   border-color: green;
@@ -686,80 +604,10 @@ exports[`Row with "rightOnly" renders correctly 1`] = `
   gap: 5.55vw;
   grid-template-columns: 1fr;
   justify-items: center;
-}
-
-.c2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-@media (min-width:768px) {
-  .c1 {
-    grid-column: 2 / -2;
-  }
-}
-
-@media (min-width:768px) {
-  .c1 {
-    grid-template-columns: repeat(2,1fr);
-  }
-}
-
-@media (min-width:768px) {
-  .c1 > * {
-    grid-column: 2;
-  }
-}
-
-<section
-  class="c0"
->
-  <div
-    class="c1"
-  >
-    <div
-      class="c2"
-    >
-      rightOnly
-    </div>
-  </div>
-</section>
-`;
-
-exports[`Row with "start" renders correctly 1`] = `
-.c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
-  display: grid;
-  grid-column: 1 / -1;
-  grid-template-columns: repeat(18,1fr);
-}
-
-.c1 {
-  display: grid;
-  grid-column: 1 / -1;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
-  gap: 5.55vw;
-  grid-template-columns: 1fr;
-  justify-items: center;
 }
 
 .c2 {
@@ -816,18 +664,18 @@ exports[`Row with "start" renders correctly 1`] = `
     <div
       class="c2"
     >
-      start
+      center
     </div>
     <div
       class="c3"
     >
-      start
+      center
     </div>
   </div>
 </section>
 `;
 
-exports[`Row with "variableEnd" renders correctly 1`] = `
+exports[`Row with two equal sized items aligned to end renders correctly 1`] = `
 .c0 {
   background-color: var(--colorForegroundFeather);
   border-color: green;
@@ -843,16 +691,16 @@ exports[`Row with "variableEnd" renders correctly 1`] = `
 .c1 {
   display: grid;
   grid-column: 1 / -1;
+  gap: 5.55vw;
+  grid-template-columns: 1fr;
+  justify-items: center;
   -webkit-align-items: end;
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: end;
-  gap: clamp(2.488rem,5.32vw,2.986rem);
-  justify-items: center;
-  grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
 }
 
-.c3 {
+.c2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -869,72 +717,6 @@ exports[`Row with "variableEnd" renders correctly 1`] = `
   justify-content: center;
 }
 
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-<section
-  class="c0"
->
-  <div
-    class="c1"
-  >
-    <div
-      class="c2"
-    >
-      variableEnd
-    </div>
-    <div
-      class="c2"
-    >
-      variableEnd
-    </div>
-    <div
-      class="c3"
-    >
-      variableEnd
-    </div>
-  </div>
-</section>
-`;
-
-exports[`Row with "variableMiddle" renders correctly 1`] = `
-.c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
-  display: grid;
-  grid-column: 1 / -1;
-  grid-template-columns: repeat(18,1fr);
-}
-
-.c1 {
-  display: grid;
-  grid-column: 1 / -1;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  gap: clamp(2.488rem,5.32vw,2.986rem);
-  justify-items: center;
-  grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
-}
-
 .c3 {
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -945,27 +727,22 @@ exports[`Row with "variableMiddle" renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 100px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
 }
 
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+@media (min-width:768px) {
+  .c1 {
+    grid-column: 2 / -2;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    grid-template-columns: repeat(2,1fr);
+  }
 }
 
 <section
@@ -977,23 +754,18 @@ exports[`Row with "variableMiddle" renders correctly 1`] = `
     <div
       class="c2"
     >
-      variableMiddle
+      end
     </div>
     <div
       class="c3"
     >
-      variableMiddle
-    </div>
-    <div
-      class="c2"
-    >
-      variableMiddle
+      end
     </div>
   </div>
 </section>
 `;
 
-exports[`Row with "variableStart" renders correctly 1`] = `
+exports[`Row with two equal sized items aligned to start renders correctly 1`] = `
 .c0 {
   background-color: var(--colorForegroundFeather);
   border-color: green;
@@ -1009,12 +781,358 @@ exports[`Row with "variableStart" renders correctly 1`] = `
 .c1 {
   display: grid;
   grid-column: 1 / -1;
+  gap: 5.55vw;
+  grid-template-columns: 1fr;
+  justify-items: center;
   -webkit-align-items: start;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    grid-column: 2 / -2;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      start
+    </div>
+    <div
+      class="c3"
+    >
+      start
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with two equal sized items renders correctly 1`] = `
+.c0 {
+  background-color: var(--colorForegroundFeather);
+  border-color: green;
+  border-style: dotted;
+  border-width: 1px;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+  gap: 5.55vw;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+@media (min-width:768px) {
+  .c1 {
+    grid-column: 2 / -2;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      start
+    </div>
+    <div
+      class="c3"
+    >
+      start
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with variable amount of items aligned to center renders correctly 1`] = `
+.c0 {
+  background-color: var(--colorForegroundFeather);
+  border-color: green;
+  border-style: dotted;
+  border-width: 1px;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
   gap: clamp(2.488rem,5.32vw,2.986rem);
   justify-items: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      variable (Center)
+    </div>
+    <div
+      class="c3"
+    >
+      variable (Center)
+    </div>
+    <div
+      class="c2"
+    >
+      variable (Center)
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with variable amount of items aligned to end renders correctly 1`] = `
+.c0 {
+  background-color: var(--colorForegroundFeather);
+  border-color: green;
+  border-style: dotted;
+  border-width: 1px;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+  gap: clamp(2.488rem,5.32vw,2.986rem);
+  justify-items: center;
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+  grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      variable (End)
+    </div>
+    <div
+      class="c2"
+    >
+      variable (End)
+    </div>
+    <div
+      class="c3"
+    >
+      variable (End)
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with variable amount of items aligned to start renders correctly 1`] = `
+.c0 {
+  background-color: var(--colorForegroundFeather);
+  border-color: green;
+  border-style: dotted;
+  border-width: 1px;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+  gap: clamp(2.488rem,5.32vw,2.986rem);
+  justify-items: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
   grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
 }
 
@@ -1060,17 +1178,100 @@ exports[`Row with "variableStart" renders correctly 1`] = `
     <div
       class="c2"
     >
-      variableStart
+      variable (Start)
     </div>
     <div
       class="c3"
     >
-      variableStart
+      variable (Start)
     </div>
     <div
       class="c3"
     >
-      variableStart
+      variable (Start)
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Row with variable amount of items renders correctly 1`] = `
+.c0 {
+  background-color: var(--colorForegroundFeather);
+  border-color: green;
+  border-style: dotted;
+  border-width: 1px;
+  width: 100%;
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+  gap: clamp(2.488rem,5.32vw,2.986rem);
+  justify-items: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+}
+
+.c2 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: rgba(25,25,25,0.3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      variable (Start)
+    </div>
+    <div
+      class="c3"
+    >
+      variable (Start)
+    </div>
+    <div
+      class="c3"
+    >
+      variable (Start)
     </div>
   </div>
 </section>

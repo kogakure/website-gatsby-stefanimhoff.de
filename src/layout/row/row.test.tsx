@@ -7,16 +7,18 @@ import {
   BigRight,
   Center,
   Default,
-  End,
+  Equal,
+  EqualCenter,
+  EqualEnd,
+  EqualStart,
   Fullsize,
   LeftDown,
   LeftOnly,
-  Middle,
   RightDown,
   RightOnly,
-  Start,
+  Variable,
+  VariableCenter,
   VariableEnd,
-  VariableMiddle,
   VariableStart,
 } from './row.stories';
 
@@ -27,84 +29,113 @@ describe('Row', () => {
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  test('with "center" renders correctly', () => {
-    const { container } = render(<Center />);
+  describe('centered', () => {
+    test('renders correctly', () => {
+      const { container } = render(<Center />);
 
-    expect(container.firstChild).toMatchSnapshot();
+      expect(container.firstChild).toMatchSnapshot();
+    });
   });
 
-  test('with "fullSize" renders correctly', () => {
-    const { container } = render(<Fullsize />);
+  describe('fullsize', () => {
+    test('renders correctly', () => {
+      const { container } = render(<Fullsize />);
 
-    expect(container.firstChild).toMatchSnapshot();
+      expect(container.firstChild).toMatchSnapshot();
+    });
   });
 
-  test('with "rightOnly" renders correctly', () => {
-    const { container } = render(<RightOnly />);
+  describe('only one item', () => {
+    test('right renders correctly', () => {
+      const { container } = render(<RightOnly />);
 
-    expect(container.firstChild).toMatchSnapshot();
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('left renders correctly', () => {
+      const { container } = render(<LeftOnly />);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
   });
 
-  test('with "leftOnly" renders correctly', () => {
-    const { container } = render(<LeftOnly />);
+  describe('with big item', () => {
+    test('right renders correctly', () => {
+      const { container } = render(<BigRight />);
 
-    expect(container.firstChild).toMatchSnapshot();
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('left renders correctly', () => {
+      const { container } = render(<BigLeft />);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
   });
 
-  test('with "bigRight" renders correctly', () => {
-    const { container } = render(<BigRight />);
+  describe('with two equal sized items', () => {
+    test('renders correctly', () => {
+      const { container } = render(<Equal />);
 
-    expect(container.firstChild).toMatchSnapshot();
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('aligned to start renders correctly', () => {
+      const { container } = render(<EqualStart />);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('aligned to center renders correctly', () => {
+      const { container } = render(<EqualCenter />);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('aligned to end renders correctly', () => {
+      const { container } = render(<EqualEnd />);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
   });
 
-  test('with "bigLeft" renders correctly', () => {
-    const { container } = render(<BigLeft />);
+  describe('with one item down', () => {
+    test('right renders correctly', () => {
+      const { container } = render(<RightDown />);
 
-    expect(container.firstChild).toMatchSnapshot();
+      expect(container.firstChild).toMatchSnapshot();
+    });
+
+    test('left renders correctly', () => {
+      const { container } = render(<LeftDown />);
+
+      expect(container.firstChild).toMatchSnapshot();
+    });
   });
 
-  test('with "start" renders correctly', () => {
-    const { container } = render(<Start />);
+  describe('with variable amount of items', () => {
+    test('renders correctly', () => {
+      const { container } = render(<Variable />);
 
-    expect(container.firstChild).toMatchSnapshot();
-  });
+      expect(container.firstChild).toMatchSnapshot();
+    });
 
-  test('with "middle" renders correctly', () => {
-    const { container } = render(<Middle />);
+    test('aligned to start renders correctly', () => {
+      const { container } = render(<VariableStart />);
 
-    expect(container.firstChild).toMatchSnapshot();
-  });
+      expect(container.firstChild).toMatchSnapshot();
+    });
 
-  test('with "end" renders correctly', () => {
-    const { container } = render(<End />);
+    test('aligned to center renders correctly', () => {
+      const { container } = render(<VariableCenter />);
 
-    expect(container.firstChild).toMatchSnapshot();
-  });
+      expect(container.firstChild).toMatchSnapshot();
+    });
 
-  test('with "rightDown" renders correctly', () => {
-    const { container } = render(<RightDown />);
+    test('aligned to end renders correctly', () => {
+      const { container } = render(<VariableEnd />);
 
-    expect(container.firstChild).toMatchSnapshot();
-  });
-
-  test('with "leftDown" renders correctly', () => {
-    const { container } = render(<LeftDown />);
-
-    expect(container.firstChild).toMatchSnapshot();
-  });
-  test('with "variableStart" renders correctly', () => {
-    const { container } = render(<VariableStart />);
-
-    expect(container.firstChild).toMatchSnapshot();
-  });
-  test('with "variableMiddle" renders correctly', () => {
-    const { container } = render(<VariableMiddle />);
-
-    expect(container.firstChild).toMatchSnapshot();
-  });
-  test('with "variableEnd" renders correctly', () => {
-    const { container } = render(<VariableEnd />);
-
-    expect(container.firstChild).toMatchSnapshot();
+      expect(container.firstChild).toMatchSnapshot();
+    });
   });
 });

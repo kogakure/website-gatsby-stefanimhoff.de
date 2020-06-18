@@ -27,6 +27,18 @@ const variableDefault = css`
   justify-items: center;
 `;
 
+export const verticalVariants = {
+  start: css`
+    align-items: start;
+  `,
+  center: css`
+    align-items: center;
+  `,
+  end: css`
+    align-items: end;
+  `,
+};
+
 export const variants = {
   center: {
     row: css`
@@ -41,7 +53,6 @@ export const variants = {
       ${defaultRow};
     `,
     grid: css`
-      align-items: start;
       ${gridDefault};
 
       & > *:last-child {
@@ -56,7 +67,6 @@ export const variants = {
       ${defaultRow};
     `,
     grid: css`
-      align-items: start;
       ${gridDefault};
 
       & > *:first-child {
@@ -114,30 +124,11 @@ export const variants = {
     `,
     grid: null,
   },
-  start: {
+  equal: {
     row: css`
       ${defaultRow};
     `,
     grid: css`
-      align-items: start;
-      ${gridDefault};
-    `,
-  },
-  middle: {
-    row: css`
-      ${defaultRow};
-    `,
-    grid: css`
-      align-items: center;
-      ${gridDefault};
-    `,
-  },
-  end: {
-    row: css`
-      ${defaultRow};
-    `,
-    grid: css`
-      align-items: end;
       ${gridDefault};
     `,
   },
@@ -147,30 +138,11 @@ export const variants = {
     `,
     grid: null,
   },
-  variableStart: {
+  variable: {
     row: css`
       grid-column: 1 / -1;
     `,
     grid: css`
-      align-items: start;
-      ${variableDefault};
-    `,
-  },
-  variableMiddle: {
-    row: css`
-      grid-column: 1 / -1;
-    `,
-    grid: css`
-      align-items: center;
-      ${variableDefault};
-    `,
-  },
-  variableEnd: {
-    row: css`
-      grid-column: 1 / -1;
-    `,
-    grid: css`
-      align-items: end;
       ${variableDefault};
     `,
   },
@@ -196,10 +168,9 @@ const Grid = styled.div<RowProps>`
   display: grid;
   ${({ variant }) => variant && variants[variant].row};
   ${({ variant }) => variant && variants[variant].grid};
+  ${({ vertical }) => vertical && verticalVariants[vertical]};
   ${({ minWidth, repeat, variant }) =>
-    (variant === 'variableStart' ||
-      variant === 'variableMiddle' ||
-      variant === 'variableEnd') &&
+    variant === 'variable' &&
     `
       grid-template-columns: repeat(${repeat}, minmax(${minWidth}, 1fr));
     `}
