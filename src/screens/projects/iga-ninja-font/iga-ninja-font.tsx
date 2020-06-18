@@ -5,7 +5,7 @@ import { Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
 import { DownloadLink } from '../../../components/download-link';
-import { TextBlock } from '..';
+import { SmallPrint, TextBlock } from '..';
 
 import { Styled } from './iga-ninja-font.styles';
 
@@ -29,21 +29,22 @@ export const IgaNinjaFont: React.FC = () => {
   `);
 
   return (
-    <Row variant="equal" vertical="end">
-      <Styled.FontImage fluid={fluid} />
+    <Row variant="equal" vertical="center">
       <TextBlock>
+        <SmallPrint>Type Design / Graphic Design</SmallPrint>
         <Headline>Ingo: Iga Ninja Cipher Font</Headline>
         <Paragraph>
-          The <em>Iga Ninja Font</em> was created by me of an image provided by
-          the <strong>Iga Ninja Museum</strong> in Japan and is said to be a
-          font for correspondence in cipher. It was a fun personal project to
-          learn how to create a typeface.
+          The <em>Iga Ninja Cipher Font</em> was created by me of an image
+          provided by the <strong>Iga Ninja Museum</strong> in Japan and is said
+          to be a font for correspondence in cipher. It was a fun personal
+          project to learn how to create a typeface.
         </Paragraph>
         <DownloadLink block href="/downloads/ingo-iga-ninja-font.zip" />
         <MoreLink block href="https://github.com/kogakure/font-ingo">
           GitHub
         </MoreLink>
       </TextBlock>
+      <Styled.FontImage fluid={fluid} />
     </Row>
   );
 };

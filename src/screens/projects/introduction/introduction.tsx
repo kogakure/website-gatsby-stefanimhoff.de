@@ -9,7 +9,7 @@ export const Introduction: React.FC = () => (
   <Styled.Introduction>
     <Paragraph>
       I’m a <em>Frontend Developer</em> by profession. But I worked in previous
-      jobs also in Design, Editing, or 3D Animation. I even created Flash
+      jobs also in Design, Editing, and 3D Animation. I even created Flash
       Animations and Multimedia CD-ROMs when this was still a thing.
     </Paragraph>
     <Paragraph>

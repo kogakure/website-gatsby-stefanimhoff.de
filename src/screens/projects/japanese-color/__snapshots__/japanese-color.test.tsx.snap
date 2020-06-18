@@ -1,0 +1,563 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects JapaneseColor renders correctly 1`] = `
+.c6 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+  display: block;
+}
+
+.c6:hover,
+.c6:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c8 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+  display: block;
+}
+
+.c8:hover,
+.c8:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c11 {
+  border-color: var(--colorForegroundSoft);
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 0 50px rgba(0,0,0,0.2);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 0.8rem;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c11:hover,
+.c11:focus {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+.c12 {
+  background: lightgrey;
+  border-bottom-color: var(--colorForegroundSoft);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  min-height: 6rem;
+}
+
+.c13 {
+  background: var(--colorBackgroundFullContrast);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: var(--colorForegroundFullContrast);
+  height: 100%;
+  min-height: 8rem;
+  padding: 0.8rem 0.6rem;
+  position: relative;
+}
+
+.c14 {
+  font-size: 0.8rem;
+}
+
+.c15 {
+  padding-bottom: 0.1rem;
+  padding-top: 0.1rem;
+}
+
+.c7 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: 0.2em;
+  position: relative;
+  top: 0.2em;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+a:hover .c7,
+a:active .c7,
+a:focus .c7 {
+  -webkit-transform: translate3D(0.25rem,0,0);
+  -ms-transform: translate3D(0.25rem,0,0);
+  transform: translate3D(0.25rem,0,0);
+}
+
+.c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: 0.2em;
+  position: relative;
+  top: 0.2em;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+a:hover .c9,
+a:active .c9,
+a:focus .c9 {
+  -webkit-transform: translate3D(0,0.25rem,0);
+  -ms-transform: translate3D(0,0.25rem,0);
+  transform: translate3D(0,0.25rem,0);
+}
+
+.c4 {
+  font-size: clamp(1.50rem,2.9vw,3.25rem);
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.0;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: 0;
+}
+
+.c4 .autolink {
+  background: transparent;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.c4:hover .autolink,
+.c4:focus .autolink {
+  opacity: 0.5;
+}
+
+.c5 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: 0;
+}
+
+.c0 {
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+  gap: 5.55vw;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  -webkit-align-items: end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+}
+
+.c3 {
+  color: var(--colorForegroundStrong);
+  display: block;
+  font-size: clamp(0.65rem,0.8vw,0.75rem);
+  font-variant: small-caps;
+  line-height: 1;
+}
+
+.c2 {
+  padding-left: 5.55vw;
+  padding-right: 5.55vw;
+  width: 100%;
+}
+
+.c10 {
+  display: grid;
+  grid-gap: clamp( 0.579rem,1.24vw,0.694rem);
+  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  width: 100%;
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c4 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    grid-column: 2 / -2;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    padding: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 {
+    padding: 0;
+  }
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <small
+        class="c3"
+      >
+        Design / Web Development
+      </small>
+      <h2
+        class="c4"
+      >
+        The Traditional Colors of Japan
+      </h2>
+      <p
+        class="c5"
+      >
+        In 2007 I stumbled upon a Japanese book about the traditional colors of Japan by 
+        <strong>
+          Nobyoshi Hamada
+        </strong>
+        . He listed all 250 colors with their color value in the appendix. I took some time to create an
+         
+        <abbr
+          title="Adobe Swatch Exchange"
+        >
+          ASE
+        </abbr>
+         file to be used with all common design software.
+      </p>
+      <p
+        class="c5"
+      >
+        With this version of the website I finally dedicate the colors an extra section listing them all with their name and color values.
+      </p>
+      <a
+        block="1"
+        class="c6"
+        href="/traditional-colors-of-japan/"
+      >
+        See All Colors
+        <span
+          class="c7"
+        >
+          <svg
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+            />
+          </svg>
+        </span>
+      </a>
+      <a
+        class="c8"
+        href="/downloads/traditional-colors-of-japan-rgb.zip"
+        rel="nofollow noopener noreferrer external"
+      >
+        Download Color Palette
+        <span
+          class="c9"
+        >
+          <svg
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M3 19h18v2H3v-2zm10-5.828L19.071 7.1l1.414 1.414L12 17 3.515 8.515 4.929 7.1 11 13.17V2h2v11.172z"
+            />
+          </svg>
+        </span>
+      </a>
+    </div>
+    <div
+      class="c10"
+    >
+      <div
+        class="c11"
+      >
+        <div
+          class="c12"
+          style="background-color: rgb(248, 195, 205);"
+        />
+        <div
+          class="c13"
+        >
+          <div
+            class="c14"
+          >
+            <div
+              class="c15"
+            >
+              <strong>
+                R
+              </strong>
+               
+              248
+               
+              <strong>
+                G
+              </strong>
+               
+              195
+               
+              <strong>
+                B
+              </strong>
+               
+              205
+               
+            </div>
+            <div
+              class="c15"
+            >
+              <strong>
+                H
+              </strong>
+               
+              349
+               
+              <strong>
+                S
+              </strong>
+               
+              79
+               
+              <strong>
+                L
+              </strong>
+               
+              87
+               
+            </div>
+            <div
+              class="c15"
+            >
+              <strong>
+                #F8C3CD
+              </strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c11"
+      >
+        <div
+          class="c12"
+          style="background-color: rgb(191, 103, 102);"
+        />
+        <div
+          class="c13"
+        >
+          <div
+            class="c14"
+          >
+            <div
+              class="c15"
+            >
+              <strong>
+                R
+              </strong>
+               
+              191
+               
+              <strong>
+                G
+              </strong>
+               
+              103
+               
+              <strong>
+                B
+              </strong>
+               
+              102
+               
+            </div>
+            <div
+              class="c15"
+            >
+              <strong>
+                H
+              </strong>
+               
+              1
+               
+              <strong>
+                S
+              </strong>
+               
+              41
+               
+              <strong>
+                L
+              </strong>
+               
+              57
+               
+            </div>
+            <div
+              class="c15"
+            >
+              <strong>
+                #BF6766
+              </strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c11"
+      >
+        <div
+          class="c12"
+          style="background-color: rgb(165, 222, 228);"
+        />
+        <div
+          class="c13"
+        >
+          <div
+            class="c14"
+          >
+            <div
+              class="c15"
+            >
+              <strong>
+                R
+              </strong>
+               
+              165
+               
+              <strong>
+                G
+              </strong>
+               
+              222
+               
+              <strong>
+                B
+              </strong>
+               
+              228
+               
+            </div>
+            <div
+              class="c15"
+            >
+              <strong>
+                H
+              </strong>
+               
+              186
+               
+              <strong>
+                S
+              </strong>
+               
+              54
+               
+              <strong>
+                L
+              </strong>
+               
+              77
+               
+            </div>
+            <div
+              class="c15"
+            >
+              <strong>
+                #A5DEE4
+              </strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
