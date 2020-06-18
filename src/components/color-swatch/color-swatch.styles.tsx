@@ -13,6 +13,14 @@ const ColorSwatchContainer = styled.div`
   flex-direction: column;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.8rem;
+  transition-duration: 500ms;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.03);
+  }
 `;
 
 const Color = styled.div`
@@ -22,7 +30,7 @@ const Color = styled.div`
   border-bottom-width: 1px;
   border-top-left-radius: ${radius[2]};
   border-top-right-radius: ${radius[2]};
-  height: 6rem;
+  min-height: 6rem;
 `;
 
 const Toggle = styled.div`
@@ -47,6 +55,7 @@ const Information = styled.div`
   border-bottom-left-radius: ${radius[2]};
   border-bottom-right-radius: ${radius[2]};
   color: var(--colorForegroundFullContrast);
+  height: 100%;
   min-height: 8rem;
   padding: 0.8rem 0.6rem;
   position: relative;

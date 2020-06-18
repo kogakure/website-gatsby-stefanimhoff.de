@@ -16,6 +16,20 @@ exports[`Traditional Colors of Japan ColorGrid renders correctly 1`] = `
   flex-direction: column;
   font-family: Helvetica,Arial,sans-serif;
   font-size: 0.8rem;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c1:hover,
+.c1:focus {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .c2 {
@@ -25,7 +39,7 @@ exports[`Traditional Colors of Japan ColorGrid renders correctly 1`] = `
   border-bottom-width: 1px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  height: 6rem;
+  min-height: 6rem;
 }
 
 .c4 {
@@ -59,6 +73,7 @@ exports[`Traditional Colors of Japan ColorGrid renders correctly 1`] = `
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   color: var(--colorForegroundFullContrast);
+  height: 100%;
   min-height: 8rem;
   padding: 0.8rem 0.6rem;
   position: relative;
