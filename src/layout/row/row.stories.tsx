@@ -70,21 +70,28 @@ export const BigLeft = () => (
   </Row>
 );
 
-export const Start = () => (
-  <Row variant="start" {...rowProps}>
+export const Equal = () => (
+  <Row variant="equal" {...rowProps}>
     <FixedBox>start</FixedBox>
     <Box>start</Box>
   </Row>
 );
 
-export const Middle = () => (
-  <Row variant="middle" {...rowProps}>
-    <FixedBox>middle</FixedBox>
-    <Box>middle</Box>
+export const EqualStart = () => (
+  <Row variant="equal" vertical="start" {...rowProps}>
+    <FixedBox>start</FixedBox>
+    <Box>start</Box>
   </Row>
 );
-export const End = () => (
-  <Row variant="end" {...rowProps}>
+
+export const EqualCenter = () => (
+  <Row variant="equal" vertical="center" {...rowProps}>
+    <FixedBox>center</FixedBox>
+    <Box>center</Box>
+  </Row>
+);
+export const EqualEnd = () => (
+  <Row variant="equal" vertical="end" {...rowProps}>
     <FixedBox>end</FixedBox>
     <Box>end</Box>
   </Row>
@@ -104,26 +111,34 @@ export const LeftDown = () => (
   </Row>
 );
 
-export const VariableStart = () => (
-  <Row variant="variableStart" {...rowProps}>
-    <FixedBox>variableStart</FixedBox>
-    <Box>variableStart</Box>
-    <Box>variableStart</Box>
+export const Variable = () => (
+  <Row variant="variable" {...rowProps}>
+    <FixedBox>variable (Start)</FixedBox>
+    <Box>variable (Start)</Box>
+    <Box>variable (Start)</Box>
   </Row>
 );
 
-export const VariableMiddle = () => (
-  <Row variant="variableMiddle" {...rowProps}>
-    <Box>variableMiddle</Box>
-    <FixedBox>variableMiddle</FixedBox>
-    <Box>variableMiddle</Box>
+export const VariableStart = () => (
+  <Row variant="variable" vertical="start" {...rowProps}>
+    <FixedBox>variable (Start)</FixedBox>
+    <Box>variable (Start)</Box>
+    <Box>variable (Start)</Box>
+  </Row>
+);
+
+export const VariableCenter = () => (
+  <Row variant="variable" vertical="center" {...rowProps}>
+    <Box>variable (Center)</Box>
+    <FixedBox>variable (Center)</FixedBox>
+    <Box>variable (Center)</Box>
   </Row>
 );
 
 export const VariableEnd = () => (
-  <Row variant="variableEnd" {...rowProps}>
-    <Box>variableEnd</Box>
-    <Box>variableEnd</Box>
-    <FixedBox>variableEnd</FixedBox>
+  <Row variant="variable" vertical="end" {...rowProps}>
+    <Box>variable (End)</Box>
+    <Box>variable (End)</Box>
+    <FixedBox>variable (End)</FixedBox>
   </Row>
 );

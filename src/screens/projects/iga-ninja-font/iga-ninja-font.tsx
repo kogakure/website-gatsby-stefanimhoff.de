@@ -29,7 +29,7 @@ export const IgaNinjaFont: React.FC = () => {
   `);
 
   return (
-    <Row variant="end">
+    <Row variant="equal" vertical="end">
       <Styled.FontImage fluid={fluid} />
       <TextBlock>
         <Headline>Ingo: Iga Ninja Cipher Font</Headline>
