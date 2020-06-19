@@ -4,7 +4,6 @@ import { useStaticQuery, graphql } from 'gatsby';
 import { Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
-import { DownloadLink } from '../../../components/download-link';
 import { SmallPrint, TextBlock } from '..';
 
 import { Styled } from './iga-ninja-font.styles';
@@ -39,7 +38,6 @@ export const IgaNinjaFont: React.FC = () => {
           to be a font for correspondence in cipher. It was a fun personal
           project to learn how to create a typeface.
         </Paragraph>
-        <DownloadLink block href="/downloads/ingo-iga-ninja-font.zip" />
         <MoreLink block href="https://github.com/kogakure/font-ingo">
           GitHub
         </MoreLink>

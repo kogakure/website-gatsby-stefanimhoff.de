@@ -4,7 +4,6 @@ import { Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { ColorSwatch } from '../../../components/color-swatch';
 import { MoreLink } from '../../../components/more-link';
-import { DownloadLink } from '../../../components/download-link';
 import { SmallPrint, TextBlock } from '..';
 
 import { Styled } from './japanese-color.styles';
@@ -26,11 +25,8 @@ export const JapaneseColor: React.FC = () => (
         section listing them all with their name and color values.
       </Paragraph>
       <MoreLink block to="/traditional-colors-of-japan/">
-        See All Colors
+        See Traditional Colors of Japan
       </MoreLink>
-      <DownloadLink block href="/downloads/traditional-colors-of-japan-rgb.zip">
-        Download Color Palette
-      </DownloadLink>
     </TextBlock>
     <Styled.Colors>
       <ColorSwatch color="#f8c3cd" />

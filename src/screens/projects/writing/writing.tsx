@@ -20,9 +20,6 @@ export const Writing: React.FC = () => (
       <MoreLink block to="/journal/">
         Read Journal
       </MoreLink>
-      <MoreLink block to="/index.xml">
-        Subscribe to RSS Feed
-      </MoreLink>
     </TextBlock>
     <TextBlock>
       <SmallPrint>Poetry / Writing</SmallPrint>
