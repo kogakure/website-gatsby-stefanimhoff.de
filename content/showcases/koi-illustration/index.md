@@ -6,7 +6,7 @@ published: true
 
 <Row variant="fullsize">
 
-![Koi Illustration](./cover.jpg)
+![Koi Illustration](./images/cover.jpg)
 
 </Row>
 
@@ -26,25 +26,25 @@ The illustration was done with a pencil on paper and then brought into Adobe Pho
 
 <Row variant="fullsize">
 
-![Making Of Step 1](./koi-making-of-01.jpg)
-![Making Of Step 2](./koi-making-of-02.jpg)
-![Making Of Step 3](./koi-making-of-03.jpg)
-![Making Of Step 4](./koi-making-of-04.jpg)
-![Making Of Step 5](./koi-making-of-05.jpg)
-![Making Of Step 6](./koi-making-of-06.jpg)
-![Making Of Step 7](./koi-making-of-07.jpg)
-![Making Of Step 8](./koi-making-of-08.jpg)
-![Making Of Step 9](./koi-making-of-09.jpg)
-![Making Of Step 10](./koi-making-of-10.jpg)
-![Making Of Step 11](./koi-making-of-11.jpg)
-![Making Of Step 12](./koi-making-of-12.jpg)
-![Making Of Step 13](./koi-making-of-13.jpg)
-![Making Of Step 14](./koi-making-of-14.jpg)
-![Making Of Step 15](./koi-making-of-15.jpg)
-![Making Of Step 16](./koi-making-of-16.jpg)
-![Making Of Step 17](./koi-making-of-17.jpg)
-![Making Of Step 18](./koi-making-of-18.jpg)
-![Making Of Step 19](./koi-making-of-19.jpg)
-![Making Of Step 20](./koi-making-of-20.jpg)
+![Making Of Step 1](./images/koi-making-of-01.jpg)
+![Making Of Step 2](./images/koi-making-of-02.jpg)
+![Making Of Step 3](./images/koi-making-of-03.jpg)
+![Making Of Step 4](./images/koi-making-of-04.jpg)
+![Making Of Step 5](./images/koi-making-of-05.jpg)
+![Making Of Step 6](./images/koi-making-of-06.jpg)
+![Making Of Step 7](./images/koi-making-of-07.jpg)
+![Making Of Step 8](./images/koi-making-of-08.jpg)
+![Making Of Step 9](./images/koi-making-of-09.jpg)
+![Making Of Step 10](./images/koi-making-of-10.jpg)
+![Making Of Step 11](./images/koi-making-of-11.jpg)
+![Making Of Step 12](./images/koi-making-of-12.jpg)
+![Making Of Step 13](./images/koi-making-of-13.jpg)
+![Making Of Step 14](./images/koi-making-of-14.jpg)
+![Making Of Step 15](./images/koi-making-of-15.jpg)
+![Making Of Step 16](./images/koi-making-of-16.jpg)
+![Making Of Step 17](./images/koi-making-of-17.jpg)
+![Making Of Step 18](./images/koi-making-of-18.jpg)
+![Making Of Step 19](./images/koi-making-of-19.jpg)
+![Making Of Step 20](./images/koi-making-of-20.jpg)
 
 </Row>
