@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 import { mediaQuery } from '../../../layout/tokens';
-import { Image } from '../../../components/image';
+import { Image as IgaNinjaFontImage } from '../../../components/image';
 
-const FontImage = styled(Image)`
+const Image = styled(IgaNinjaFontImage)`
   border-left-width: 0;
   border-right-width: 0;
   grid-row: 1;
@@ -16,5 +16,5 @@ const FontImage = styled(Image)`
 `;
 
 export const Styled = {
-  FontImage,
+  Image,
 };

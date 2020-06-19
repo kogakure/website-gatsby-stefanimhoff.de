@@ -86,7 +86,6 @@ a:focus .c7 {
 }
 
 .c0 {
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
