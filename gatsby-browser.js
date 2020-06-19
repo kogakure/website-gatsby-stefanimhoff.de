@@ -9,15 +9,18 @@ const sourceCodeInfo = `👋 I see you’re interested in the source code of thi
 👉 https://github.com/kogakure/website-gatsby-stefanimhoff.de
 `;
 
-// TODO: #84 Move Normalize and GlobalStyles to wrapPageElement
 export const wrapRootElement = ({ element }) => (
   <EmojifyProvider>
-    <LocalizedDateProvider>
-      <Normalize />
-      <GlobalStyles />
-      {element}
-    </LocalizedDateProvider>
+    <LocalizedDateProvider>{element}</LocalizedDateProvider>
   </EmojifyProvider>
+);
+
+export const wrapPageElement = ({ element }) => (
+  <>
+    <Normalize />
+    <GlobalStyles />
+    {element}
+  </>
 );
 
 export const onClientEntry = () => {

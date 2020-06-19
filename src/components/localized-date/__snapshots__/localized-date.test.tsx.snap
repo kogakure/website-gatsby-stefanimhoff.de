@@ -19,7 +19,7 @@ exports[`LocalizedDate changes the date text on Enter keyUp 1`] = `
 exports[`LocalizedDate changes the date text on Enter keyUp 2`] = `
 <time
   aria-label="Toggle date format"
-  class="sc-bdVaJa fVCJpx"
+  class="sc-AxjAm jIaAfJ"
   datetime="2020-01-17T18:00:00"
   role="button"
   tabindex="0"
@@ -82,7 +82,7 @@ exports[`LocalizedDate changes the date text on click 1`] = `
 exports[`LocalizedDate changes the date text on click 2`] = `
 <time
   aria-label="Toggle date format"
-  class="sc-bdVaJa fVCJpx"
+  class="sc-AxjAm jIaAfJ"
   datetime="2020-01-17T18:00:00"
   role="button"
   tabindex="0"
