@@ -39,32 +39,6 @@ exports[`Projects IgaNinjaFont renders correctly 1`] = `
 a:hover .c7,
 a:active .c7,
 a:focus .c7 {
-  -webkit-transform: translate3D(0,0.25rem,0);
-  -ms-transform: translate3D(0,0.25rem,0);
-  transform: translate3D(0,0.25rem,0);
-}
-
-.c8 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  fill: var(--colorForeground);
-  margin-left: 0.2em;
-  position: relative;
-  top: 0.2em;
-  -webkit-transition-duration: 500ms;
-  transition-duration: 500ms;
-  -webkit-transition-property: -webkit-transform;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-}
-
-a:hover .c8,
-a:active .c8,
-a:focus .c8 {
   -webkit-transform: translate3D(0.25rem,0,0);
   -ms-transform: translate3D(0.25rem,0,0);
   transform: translate3D(0.25rem,0,0);
@@ -129,7 +103,7 @@ a:focus .c8 {
   align-items: center;
 }
 
-.c9 {
+.c8 {
   border-color: var(--colorForegroundSoft);
   border-style: solid;
   border-width: 1px;
@@ -142,8 +116,8 @@ a:focus .c8 {
   transition-timing-function: ease-in-out;
 }
 
-.c9:hover,
-.c9:focus {
+.c8:hover,
+.c8:focus {
   box-shadow: 0 0 50px rgba(0,0,0,0.2);
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
@@ -164,7 +138,7 @@ a:focus .c8 {
   width: 100%;
 }
 
-.c10 {
+.c9 {
   border-left-width: 0;
   border-right-width: 0;
   grid-row: 1;
@@ -206,7 +180,7 @@ a:focus .c8 {
 }
 
 @media (min-width:768px) {
-  .c10 {
+  .c9 {
     border-left-width: 1px;
     border-right-width: 1px;
     grid-column: 2;
@@ -247,36 +221,12 @@ a:focus .c8 {
       </p>
       <a
         class="c6"
-        href="/downloads/ingo-iga-ninja-font.zip"
-        rel="nofollow noopener noreferrer external"
-      >
-        Download
-        <span
-          class="c7"
-        >
-          <svg
-            height="1em"
-            viewBox="0 0 24 24"
-            width="1em"
-          >
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M3 19h18v2H3v-2zm10-5.828L19.071 7.1l1.414 1.414L12 17 3.515 8.515 4.929 7.1 11 13.17V2h2v11.172z"
-            />
-          </svg>
-        </span>
-      </a>
-      <a
-        class="c6"
         href="https://github.com/kogakure/font-ingo"
         rel="nofollow noopener noreferrer external"
       >
         GitHub
         <span
-          class="c8"
+          class="c7"
         >
           <svg
             height="1em"
@@ -295,7 +245,7 @@ a:focus .c8 {
       </a>
     </div>
     <div
-      class="c9 c10 gatsby-image-wrapper"
+      class="c8 c9 gatsby-image-wrapper"
       style="position: relative; overflow: hidden;"
     >
       <div
