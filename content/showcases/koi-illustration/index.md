@@ -1,6 +1,6 @@
 ---
 title: Koi Illustration
-description: I created this illustration for an old version of my website in 2007. It was done with a pencil on paper and then brought into Adobe Photoshop, where all coloring was done (with the help of a Wacom tablet).
+description: I created this illustration for a previous version of my website in 2007 with a pencil on paper and then brought it into Adobe Photoshop, where all coloring was done.
 published: true
 ---
 
@@ -12,7 +12,7 @@ published: true
 
 <Row variant="bigLeft">
 
-I created this illustration for an old version of my website in 2007. The inspiration for my illustration was the art of the Japanese tattoo, _irezumi_ (刺青). Most motives have a deep meaning, based on religion, history, or myths from China and Japan.
+I created this illustration for a previous version of my website in 2007. The inspiration for my illustration was the art of the Japanese tattoo, _irezumi_ (刺青). Most motives have a deep meaning, based on religion, history, or myths from China and Japan.
 
 A lot of the motives are based on the Chinese novel [Shuihu Zhuan](https://en.wikipedia.org/wiki/Water_Margin) (jap. _suikoden_, engl. _Water Margin_), or are based on mythical creatures like the Phoenix, Dragons or Koi.
 
@@ -22,7 +22,7 @@ The illustration was done with a pencil on paper and then brought into Adobe Pho
 
 </Row>
 
-## Making Of
+## Making-Of
 
 <Row variant="fullsize">
 
