@@ -4,15 +4,18 @@ import { Normalize } from 'styled-normalize';
 import { EmojifyProvider, LocalizedDateProvider } from './src/contexts';
 import { GlobalStyles } from './src/layout';
 
-// TODO: #84 Move Normalize and GlobalStyles to wrapPageElement
 export const wrapRootElement = ({ element }) => (
   <EmojifyProvider>
-    <LocalizedDateProvider>
-      <Normalize />
-      <GlobalStyles />
-      {element}
-    </LocalizedDateProvider>
+    <LocalizedDateProvider>{element}</LocalizedDateProvider>
   </EmojifyProvider>
+);
+
+export const wrapPageElement = ({ element }) => (
+  <>
+    <Normalize />
+    <GlobalStyles />
+    {element}
+  </>
 );
 
 export const onRenderBody = ({ setHtmlAttributes }) => {
