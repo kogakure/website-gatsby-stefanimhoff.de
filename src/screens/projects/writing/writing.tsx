@@ -6,7 +6,7 @@ import { MoreLink } from '../../../components/more-link';
 import { SmallPrint, TextBlock } from '..';
 
 export const Writing: React.FC = () => (
-  <Row marginBottom variant="rightDown">
+  <Row variant="rightDown">
     <TextBlock>
       <SmallPrint>Writing</SmallPrint>
       <Headline>Journal &amp; Blog</Headline>

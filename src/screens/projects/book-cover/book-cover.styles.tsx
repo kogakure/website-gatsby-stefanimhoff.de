@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 import { mediaQuery } from '../../../layout/tokens';
-import { Image } from '../../../components/image';
+import { Image as BookCover } from '../../../components/image';
 
-const BookCover = styled(Image)`
+const Image = styled(BookCover)`
   border-left-width: 0;
   border-right-width: 0;
 
@@ -14,5 +14,5 @@ const BookCover = styled(Image)`
 `;
 
 export const Styled = {
-  BookCover,
+  Image,
 };

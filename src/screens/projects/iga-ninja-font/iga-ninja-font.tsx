@@ -44,7 +44,7 @@ export const IgaNinjaFont: React.FC = () => {
           GitHub
         </MoreLink>
       </TextBlock>
-      <Styled.FontImage fluid={fluid} />
+      <Styled.Image fluid={fluid} />
     </Row>
   );
 };

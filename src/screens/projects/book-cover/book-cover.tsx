@@ -28,7 +28,7 @@ export const BookCover: React.FC = () => {
 
   return (
     <Row marginBottom variant="equal" vertical="center">
-      <Styled.BookCover fluid={fluid} />
+      <Styled.Image fluid={fluid} />
       <TextBlock>
         <SmallPrint>Graphic Design</SmallPrint>
         <Headline>Book Cover</Headline>
