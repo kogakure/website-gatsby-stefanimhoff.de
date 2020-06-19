@@ -5,9 +5,10 @@ import {
   BookCover,
   IgaNinjaFont,
   Introduction,
-  Writing,
-  Title,
   JapaneseColor,
+  KoiIllustration,
+  Title,
+  Writing,
 } from '../screens/projects';
 
 const ProjectsPage = () => (
@@ -18,6 +19,7 @@ const ProjectsPage = () => (
       <Introduction />
       <JapaneseColor />
       <Writing />
+      <KoiIllustration />
       <BookCover />
       <IgaNinjaFont />
     </ContentGrid>

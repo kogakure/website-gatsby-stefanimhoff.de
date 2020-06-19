@@ -2,6 +2,7 @@ export * from './book-cover';
 export * from './iga-ninja-font';
 export * from './introduction';
 export * from './japanese-color';
+export * from './koi-illustration';
 export * from './small-print';
 export * from './text-block';
 export * from './title';
