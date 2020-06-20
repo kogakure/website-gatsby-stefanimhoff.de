@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects BambooIllustration renders correctly 1`] = `
+.c0 {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  background-color: var(--colorForegroundFeather);
+  box-sizing: border-box;
+  padding-bottom: 5.55vw;
+  padding-right: 5.55vw;
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+@media (min-width:768px) {
+
+}
+
+<section
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <img
+        alt="Bamboo Illustration"
+        src="[object Object]"
+      />
+    </div>
+  </div>
+</section>
+`;

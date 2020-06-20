@@ -1,3 +1,4 @@
+export * from './bamboo-illustration';
 export * from './book-cover';
 export * from './iga-ninja-font';
 export * from './introduction';
