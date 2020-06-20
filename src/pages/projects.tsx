@@ -8,6 +8,7 @@ import {
   JapaneseColor,
   KoiIllustration,
   Title,
+  BambooIllustration,
   Writing,
 } from '../screens/projects';
 
@@ -19,6 +20,7 @@ const ProjectsPage = () => (
       <Introduction />
       <JapaneseColor />
       <Writing />
+      <BambooIllustration />
       <KoiIllustration />
       <BookCover />
       <IgaNinjaFont />
