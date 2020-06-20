@@ -45,9 +45,7 @@ export const BookKogakure: React.FC = () => {
           <TextLink href="https://www.gitbook.com/">GitBook</TextLink> and can
           be read or downloaded for free as PDF, ePub or Mobi eBook.
         </Paragraph>
-        <MoreLink block href="https://book.kogakure.de/">
-          Read Book
-        </MoreLink>
+        <MoreLink href="https://book.kogakure.de/">Read Book</MoreLink>
       </TextBlock>
       <Styled.Image fluid={fluid} />
     </Row>

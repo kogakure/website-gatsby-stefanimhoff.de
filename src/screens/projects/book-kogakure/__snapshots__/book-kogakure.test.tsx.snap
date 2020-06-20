@@ -18,23 +18,6 @@ exports[`Projects BookKogakure renders correctly 1`] = `
 }
 
 .c7 {
-  color: var(--colorForeground);
-  font-weight: 600;
-  -webkit-text-decoration-color: var(--colorForegroundSoft);
-  text-decoration-color: var(--colorForegroundSoft);
-  -webkit-text-decoration-thickness: 0.1em;
-  text-decoration-thickness: 0.1em;
-  text-underline-offset: 0.1em;
-  display: block;
-}
-
-.c7:hover,
-.c7:focus {
-  -webkit-text-decoration-color: var(--colorAccent);
-  text-decoration-color: var(--colorAccent);
-}
-
-.c8 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -52,9 +35,9 @@ exports[`Projects BookKogakure renders correctly 1`] = `
   transition-timing-function: ease-in-out;
 }
 
-a:hover .c8,
-a:active .c8,
-a:focus .c8 {
+a:hover .c7,
+a:active .c7,
+a:focus .c7 {
   -webkit-transform: translate3D(0.25rem,0,0);
   -ms-transform: translate3D(0.25rem,0,0);
   transform: translate3D(0.25rem,0,0);
@@ -120,7 +103,7 @@ a:focus .c8 {
   align-items: center;
 }
 
-.c9 {
+.c8 {
   border-color: var(--colorForegroundSoft);
   border-style: solid;
   border-width: 1px;
@@ -133,8 +116,8 @@ a:focus .c8 {
   transition-timing-function: ease-in-out;
 }
 
-.c9:hover,
-.c9:focus {
+.c8:hover,
+.c8:focus {
   box-shadow: 0 0 50px rgba(0,0,0,0.2);
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
@@ -155,7 +138,7 @@ a:focus .c8 {
   width: 100%;
 }
 
-.c10 {
+.c9 {
   border-left-width: 0;
   border-right-width: 0;
   grid-row: 1;
@@ -197,7 +180,7 @@ a:focus .c8 {
 }
 
 @media (min-width:768px) {
-  .c10 {
+  .c9 {
     border-left-width: 1px;
     border-right-width: 1px;
     grid-column: 2;
@@ -257,13 +240,13 @@ a:focus .c8 {
          and can be read or downloaded for free as PDF, ePub or Mobi eBook.
       </p>
       <a
-        class="c7"
+        class="c6"
         href="https://book.kogakure.de/"
         rel="nofollow noopener noreferrer external"
       >
         Read Book
         <span
-          class="c8"
+          class="c7"
         >
           <svg
             height="1em"
@@ -282,7 +265,7 @@ a:focus .c8 {
       </a>
     </div>
     <div
-      class="c9 c10 gatsby-image-wrapper"
+      class="c8 c9 gatsby-image-wrapper"
       style="position: relative; overflow: hidden;"
     >
       <div

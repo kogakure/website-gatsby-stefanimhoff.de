@@ -37,7 +37,7 @@ export const KoiIllustration: React.FC = () => {
           <SmallPrint>Illustration / Painting</SmallPrint>
           <Headline>Koi Illustration</Headline>
           <Paragraph>
-            I created this illustration for a previous version of my website in
+            I created this illustration for a previous version of my website in{' '}
             <strong>2007</strong> with a pencil on paper and then brought it
             into Adobe Photoshop, where all coloring was done.
           </Paragraph>
