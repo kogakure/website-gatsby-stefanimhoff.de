@@ -23,6 +23,7 @@ exports[`Traditional Colors of Japan ColorGrid renders correctly 1`] = `
   transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
+  width: 100%;
 }
 
 .c1:hover,

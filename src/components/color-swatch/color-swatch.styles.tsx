@@ -16,6 +16,7 @@ const ColorSwatchContainer = styled.div`
   transition-duration: 500ms;
   transition-property: transform;
   transition-timing-function: ease-in-out;
+  width: 100%;
 
   &:hover,
   &:focus {
