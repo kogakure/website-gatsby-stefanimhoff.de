@@ -37,7 +37,7 @@ const ShowcaseTemplate = ({ data, pageContext }: JournalTemplateProps) => {
               {previous && (
                 <Pagination
                   text={previous.node.frontmatter.title}
-                  to={previous.node.fields.slug}
+                  to={`/showcase${previous.node.fields.slug}`}
                   variant="left"
                 />
               )}
@@ -48,7 +48,7 @@ const ShowcaseTemplate = ({ data, pageContext }: JournalTemplateProps) => {
               {next && (
                 <Pagination
                   text={next.node.frontmatter.title}
-                  to={next.node.fields.slug}
+                  to={`/showcase${next.node.fields.slug}`}
                   variant="right"
                 />
               )}
