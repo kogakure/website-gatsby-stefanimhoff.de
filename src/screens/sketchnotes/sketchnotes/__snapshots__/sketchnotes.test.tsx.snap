@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sketchnotes Sketchnotes renders correctly 1`] = `
+.c0 {
+  grid-column: 1 / -1;
+}
+
+<section
+  class="c0"
+>
+  Sketchnotes
+</section>
+`;

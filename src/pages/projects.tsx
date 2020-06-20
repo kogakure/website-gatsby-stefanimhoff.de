@@ -2,19 +2,20 @@ import React from 'react';
 
 import { ContentGrid, Layout, SEO } from '../layout';
 import {
+  BambooIllustration,
   BookKogakure,
+  HamburgBlog,
   IgaNinjaFont,
   Introduction,
   JapaneseColor,
   KoiIllustration,
-  Title,
-  BambooIllustration,
-  Writing,
-  HamburgBlog,
   MartialArtsWebsite,
   OsteopathieHamburg,
+  Sketchnotes,
   StefanImhoffV2,
   ThaiRestaurant,
+  Title,
+  Writing,
   XingIllustrations,
 } from '../screens/projects';
 
@@ -26,6 +27,7 @@ const ProjectsPage = () => (
       <Introduction />
       <JapaneseColor />
       <Writing />
+      <Sketchnotes />
       <XingIllustrations />
       <BambooIllustration />
       <MartialArtsWebsite />

@@ -7,6 +7,7 @@ export * from './japanese-color';
 export * from './koi-illustration';
 export * from './martial-arts-website';
 export * from './osteopathie-hamburg';
+export * from './sketchnotes';
 export * from './small-print';
 export * from './stefanimhoff-v2';
 export * from './text-block';

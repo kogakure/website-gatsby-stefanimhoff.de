@@ -9,4 +9,5 @@ export * from './post';
 export * from './post-page-context';
 export * from './posts';
 export * from './site-metadata';
+export * from './sketchnotes';
 export * from './social-media';
