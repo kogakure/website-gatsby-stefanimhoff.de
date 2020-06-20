@@ -59,7 +59,7 @@ figure {
 
 figcaption {
   font-size: clamp(0.8rem, 0.8vw, 0.75rem);
-  text-align: center;
+  text-align: left;
 }
 
 abbr {
