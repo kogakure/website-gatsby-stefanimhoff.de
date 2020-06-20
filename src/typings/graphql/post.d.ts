@@ -14,6 +14,10 @@ export type PostQueryData = {
         publicURL: string;
         childImageSharp: CoverImageProps;
       };
+      og?: {
+        publicURL: string;
+        childImageSharp: CoverImageProps;
+      };
       attribution: AttributionData[] | null;
     };
     fields: {

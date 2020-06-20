@@ -19,7 +19,7 @@ export type JournalTemplateProps = {
 const JournalTemplate = ({ data, pageContext }: JournalTemplateProps) => {
   const {
     body,
-    frontmatter: { title, date, description, cover, attribution },
+    frontmatter: { title, date, description, cover, og, attribution },
     fields: {
       readingTime: { text },
       language,
@@ -28,7 +28,14 @@ const JournalTemplate = ({ data, pageContext }: JournalTemplateProps) => {
     },
   } = data.mdx;
   const { previous, next } = pageContext;
-  const imageURL = cover ? cover.publicURL : undefined;
+
+  let imageURL;
+
+  if (og) {
+    imageURL = og.publicURL;
+  } else if (cover) {
+    imageURL = cover.publicURL;
+  }
 
   return (
     <Layout homeTo="/journal/">
@@ -90,6 +97,7 @@ export const pageQuery = graphql`
         date
         description
         cover {
+          publicURL
           childImageSharp {
             fluid(maxWidth: 2500) {
               aspectRatio
@@ -99,13 +107,13 @@ export const pageQuery = graphql`
             }
           }
         }
+        og {
+          publicURL
+        }
         attribution {
           title
           author
           url
-        }
-        cover {
-          publicURL
         }
       }
       fields {
