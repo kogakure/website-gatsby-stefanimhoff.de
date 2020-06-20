@@ -7,6 +7,7 @@ export const useAllJournalPostsQuery = () => {
     {
       allJournalPosts: allMdx(
         filter: {
+          fileAbsolutePath: { regex: "/content/posts/" }
           frontmatter: {
             published: { eq: true }
             categories: { ne: "monthly" }
