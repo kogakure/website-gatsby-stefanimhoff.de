@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sketchnotes Sketchnote renders correctly 1`] = `
+.c0 {
+  margin-bottom: 5.55vw;
+}
+
+<div
+  class="c0"
+>
+  Sketchnote
+</div>
+`;

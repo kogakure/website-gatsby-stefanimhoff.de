@@ -52,6 +52,13 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        name: 'sketchnotes',
+        path: `${__dirname}/content/sketchnotes`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         name: 'data',
         path: `${__dirname}/content/data`,
       },

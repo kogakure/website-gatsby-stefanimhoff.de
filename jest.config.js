@@ -16,6 +16,8 @@ module.exports = {
     '<rootDir>/src/pages',
     '<rootDir>/src/screens/journal-detail/cover-image',
     '<rootDir>/src/screens/journal-detail/post',
+    '<rootDir>/src/screens/showcase/body',
+    '<rootDir>/src/screens/sketchnotes/body',
     '<rootDir>/src/services/test-utils.tsx',
     '<rootDir>/src/services/theme.js',
     '<rootDir>/src/templates',
