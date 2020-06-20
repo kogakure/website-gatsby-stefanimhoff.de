@@ -34,7 +34,7 @@ export const HamburgBlog: React.FC = () => {
         <Paragraph>
           I created this{' '}
           <TextLink href="https://hamburg.stefanimhoff.de/">
-            photography blog
+            Photography Blog
           </TextLink>{' '}
           for one of my hobbies: I explore the city Hamburg, mostly walking,
           sometimes biking to find out more about the individual districts and
