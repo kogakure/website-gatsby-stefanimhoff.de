@@ -38,8 +38,8 @@ export const KoiIllustration: React.FC = () => {
           <Headline>Koi Illustration</Headline>
           <Paragraph>
             I created this illustration for a previous version of my website in
-            2007 with a pencil on paper and then brought it into Adobe
-            Photoshop, where all coloring was done.
+            <strong>2007</strong> with a pencil on paper and then brought it
+            into Adobe Photoshop, where all coloring was done.
           </Paragraph>
           <MoreLink block to="/showcase/koi-illustration/" />
         </TextBlock>

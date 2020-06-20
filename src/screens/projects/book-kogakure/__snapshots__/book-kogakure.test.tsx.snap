@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Projects IgaNinjaFont renders correctly 1`] = `
-.c8 {
+exports[`Projects BookKogakure renders correctly 1`] = `
+.c6 {
   color: var(--colorForeground);
   font-weight: 600;
   -webkit-text-decoration-color: var(--colorForegroundSoft);
@@ -11,13 +11,30 @@ exports[`Projects IgaNinjaFont renders correctly 1`] = `
   text-underline-offset: 0.1em;
 }
 
-.c8:hover,
-.c8:focus {
+.c6:hover,
+.c6:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
 
-.c9 {
+.c7 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+  display: block;
+}
+
+.c7:hover,
+.c7:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c8 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -35,15 +52,15 @@ exports[`Projects IgaNinjaFont renders correctly 1`] = `
   transition-timing-function: ease-in-out;
 }
 
-a:hover .c9,
-a:active .c9,
-a:focus .c9 {
+a:hover .c8,
+a:active .c8,
+a:focus .c8 {
   -webkit-transform: translate3D(0.25rem,0,0);
   -ms-transform: translate3D(0.25rem,0,0);
   transform: translate3D(0.25rem,0,0);
 }
 
-.c6 {
+.c4 {
   font-size: clamp(1.50rem,2.9vw,3.25rem);
   font-weight: 900;
   -webkit-letter-spacing: normal;
@@ -55,7 +72,7 @@ a:focus .c9 {
   margin-top: 0;
 }
 
-.c6 .autolink {
+.c4 .autolink {
   background: transparent;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -67,12 +84,12 @@ a:focus .c9 {
   vertical-align: middle;
 }
 
-.c6:hover .autolink,
-.c6:focus .autolink {
+.c4:hover .autolink,
+.c4:focus .autolink {
   opacity: 0.5;
 }
 
-.c7 {
+.c5 {
   font-size: clamp(1.00rem,1.1vw,1.25rem);
   font-weight: 400;
   -webkit-letter-spacing: normal;
@@ -85,6 +102,7 @@ a:focus .c9 {
 }
 
 .c0 {
+  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -102,7 +120,7 @@ a:focus .c9 {
   align-items: center;
 }
 
-.c2 {
+.c9 {
   border-color: var(--colorForegroundSoft);
   border-style: solid;
   border-width: 1px;
@@ -115,15 +133,15 @@ a:focus .c9 {
   transition-timing-function: ease-in-out;
 }
 
-.c2:hover,
-.c2:focus {
+.c9:hover,
+.c9:focus {
   box-shadow: 0 0 50px rgba(0,0,0,0.2);
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
 }
 
-.c5 {
+.c3 {
   color: var(--colorForegroundStrong);
   display: block;
   font-size: clamp(0.65rem,0.8vw,0.75rem);
@@ -131,19 +149,20 @@ a:focus .c9 {
   line-height: 1;
 }
 
-.c4 {
+.c2 {
   padding-left: 5.55vw;
   padding-right: 5.55vw;
   width: 100%;
 }
 
-.c3 {
+.c10 {
   border-left-width: 0;
   border-right-width: 0;
+  grid-row: 1;
 }
 
 @media screen and (prefers-reduced-motion:no-preference) {
-  .c6 .autolink {
+  .c4 .autolink {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     -webkit-transition-property: opacity;
@@ -166,21 +185,22 @@ a:focus .c9 {
 }
 
 @media (min-width:768px) {
-  .c5 {
-    padding: 0;
-  }
-}
-
-@media (min-width:768px) {
-  .c4 {
-    padding: 0;
-  }
-}
-
-@media (min-width:768px) {
   .c3 {
+    padding: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c2 {
+    padding: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c10 {
     border-left-width: 1px;
     border-right-width: 1px;
+    grid-column: 2;
   }
 }
 
@@ -191,7 +211,78 @@ a:focus .c9 {
     class="c1"
   >
     <div
-      class="c2 c3 gatsby-image-wrapper"
+      class="c2"
+    >
+      <small
+        class="c3"
+      >
+        Writing / Graphic Design
+      </small>
+      <h2
+        class="c4"
+      >
+        Book & Book Cover
+      </h2>
+      <p
+        class="c5"
+      >
+        I wrote this book in 
+        <strong>
+          2017
+        </strong>
+         out of the articles I’ve written on my
+         
+        <a
+          class="c6"
+          href="https://www.kogakure.de/"
+          rel="nofollow noopener noreferrer external"
+        >
+          Martial Arts website
+        </a>
+         
+        in the last 20 years. It’s a book in German about the Ninja and their secret art of Ninjutsu.
+      </p>
+      <p
+        class="c5"
+      >
+        I also designed the book cover for my book. The book was written with
+         
+        <a
+          class="c6"
+          href="https://www.gitbook.com/"
+          rel="nofollow noopener noreferrer external"
+        >
+          GitBook
+        </a>
+         and can be read or downloaded for free as PDF, ePub or Mobi eBook.
+      </p>
+      <a
+        class="c7"
+        href="https://book.kogakure.de/"
+        rel="nofollow noopener noreferrer external"
+      >
+        Read Book
+        <span
+          class="c8"
+        >
+          <svg
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+            />
+          </svg>
+        </span>
+      </a>
+    </div>
+    <div
+      class="c9 c10 gatsby-image-wrapper"
       style="position: relative; overflow: hidden;"
     >
       <div
@@ -221,57 +312,6 @@ a:focus .c9 {
       <noscript>
         &lt;picture&gt;&lt;source srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" sizes="(max-width: 1200px) 100vw, 1200px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" src="/static/cover.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
       </noscript>
-    </div>
-    <div
-      class="c4"
-    >
-      <small
-        class="c5"
-      >
-        Type Design / Graphic Design
-      </small>
-      <h2
-        class="c6"
-      >
-        Ingo: Iga Ninja Cipher Font
-      </h2>
-      <p
-        class="c7"
-      >
-        The 
-        <em>
-          Iga Ninja Cipher Font
-        </em>
-         was created by me of an image provided by the 
-        <strong>
-          Iga Ninja Museum
-        </strong>
-         in Japan and is said to be a font for correspondence in cipher. It was a fun personal project to learn how to create a typeface.
-      </p>
-      <a
-        class="c8"
-        href="https://github.com/kogakure/font-ingo"
-        rel="nofollow noopener noreferrer external"
-      >
-        GitHub
-        <span
-          class="c9"
-        >
-          <svg
-            height="1em"
-            viewBox="0 0 24 24"
-            width="1em"
-          >
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-            />
-          </svg>
-        </span>
-      </a>
     </div>
   </div>
 </section>

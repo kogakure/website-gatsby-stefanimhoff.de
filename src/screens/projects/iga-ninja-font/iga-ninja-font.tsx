@@ -29,6 +29,7 @@ export const IgaNinjaFont: React.FC = () => {
 
   return (
     <Row variant="equal" vertical="center">
+      <Styled.Image fluid={fluid} />
       <TextBlock>
         <SmallPrint>Type Design / Graphic Design</SmallPrint>
         <Headline>Ingo: Iga Ninja Cipher Font</Headline>
@@ -38,11 +39,8 @@ export const IgaNinjaFont: React.FC = () => {
           to be a font for correspondence in cipher. It was a fun personal
           project to learn how to create a typeface.
         </Paragraph>
-        <MoreLink block href="https://github.com/kogakure/font-ingo">
-          GitHub
-        </MoreLink>
+        <MoreLink href="https://github.com/kogakure/font-ingo">GitHub</MoreLink>
       </TextBlock>
-      <Styled.Image fluid={fluid} />
     </Row>
   );
 };
