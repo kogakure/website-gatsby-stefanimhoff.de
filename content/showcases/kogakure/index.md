@@ -6,7 +6,7 @@ published: true
 
 <Row variant="bigLeft" marginBottom>
 
-I redesigned my **Martial Arts Online Magazine** in 2017. Additionally I moved the website from _Jekyll_ (as static page generator) to [Hugo](http://gohugo.io/). I used **CSS Grid Layout** throughout the website, the homepage has **12 different grids**.
+I redesigned my [Martial Arts Online Magazine](https://www.kogakure.de/) in 2017. Additionally I moved the website from _Jekyll_ (as static page generator) to [Hugo](http://gohugo.io/). I used **CSS Grid Layout** throughout the website, the homepage has **12 different grids**.
 
 I removed clutter by removing some background patterns, added new hover animations for images and container, added new buttons and a new pulsing heart animation for the donation section.
 

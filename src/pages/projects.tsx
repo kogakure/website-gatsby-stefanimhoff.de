@@ -2,7 +2,7 @@ import React from 'react';
 
 import { ContentGrid, Layout, SEO } from '../layout';
 import {
-  BookCover,
+  BookKogakure,
   IgaNinjaFont,
   Introduction,
   JapaneseColor,
@@ -10,6 +10,12 @@ import {
   Title,
   BambooIllustration,
   Writing,
+  HamburgBlog,
+  MartialArtsWebsite,
+  OsteopathieHamburg,
+  StefanImhoffV2,
+  ThaiRestaurant,
+  XingIllustrations,
 } from '../screens/projects';
 
 const ProjectsPage = () => (
@@ -20,9 +26,15 @@ const ProjectsPage = () => (
       <Introduction />
       <JapaneseColor />
       <Writing />
+      <XingIllustrations />
       <BambooIllustration />
+      <MartialArtsWebsite />
+      <BookKogakure />
+      <StefanImhoffV2 />
+      <HamburgBlog />
       <KoiIllustration />
-      <BookCover />
+      <OsteopathieHamburg />
+      <ThaiRestaurant />
       <IgaNinjaFont />
     </ContentGrid>
   </Layout>

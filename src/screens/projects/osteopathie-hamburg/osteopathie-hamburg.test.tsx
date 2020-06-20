@@ -4,12 +4,12 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../../services/test-utils';
 
-import { BookCover } from '.';
+import { OsteopathieHamburg } from '.';
 
 const useStaticQuery = jest.spyOn(Gatsby, 'useStaticQuery');
 
 useStaticQuery.mockImplementation(() => ({
-  bookCover: {
+  osteopathieHamburg: {
     childImageSharp: {
       fluid: {
         aspectRatio: 0.66,
@@ -23,15 +23,15 @@ useStaticQuery.mockImplementation(() => ({
 }));
 
 describe('Projects', () => {
-  describe('BookCover', () => {
+  describe('OsteopathieHamburg', () => {
     test('renders correctly', () => {
-      const { container } = render(<BookCover />);
+      const { container } = render(<OsteopathieHamburg />);
 
       expect(container.firstChild).toMatchSnapshot();
     });
 
     test('is accessible', async () => {
-      const { container } = render(<BookCover />);
+      const { container } = render(<OsteopathieHamburg />);
       const results = await axe(container);
 
       expect(results).toHaveNoViolations();

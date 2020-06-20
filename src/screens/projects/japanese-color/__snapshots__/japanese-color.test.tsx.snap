@@ -9,7 +9,6 @@ exports[`Projects JapaneseColor renders correctly 1`] = `
   -webkit-text-decoration-thickness: 0.1em;
   text-decoration-thickness: 0.1em;
   text-underline-offset: 0.1em;
-  display: block;
 }
 
 .c6:hover,
@@ -160,10 +159,10 @@ a:focus .c7 {
   gap: 5.55vw;
   grid-template-columns: 1fr;
   justify-items: center;
-  -webkit-align-items: end;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: end;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .c3 {
@@ -184,6 +183,8 @@ a:focus .c7 {
   display: grid;
   grid-gap: clamp( 0.579rem,1.24vw,0.694rem);
   grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  padding-left: 5.55vw;
+  padding-right: 5.55vw;
   width: 100%;
 }
 
@@ -219,6 +220,13 @@ a:focus .c7 {
 @media (min-width:768px) {
   .c2 {
     padding: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c8 {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -263,7 +271,7 @@ a:focus .c7 {
         With this version of the website I finally dedicate the colors an extra section listing them all with their name and color values.
       </p>
       <a
-        block="1"
+        block="0"
         class="c6"
         href="/traditional-colors-of-japan/"
       >
@@ -295,7 +303,7 @@ a:focus .c7 {
       >
         <div
           class="c10"
-          style="background-color: rgb(248, 195, 205);"
+          style="background-color: rgb(215, 84, 85);"
         />
         <div
           class="c11"
@@ -310,182 +318,249 @@ a:focus .c7 {
                 R
               </strong>
                
-              248
+              215
                
               <strong>
                 G
+              </strong>
+               
+              84
+               
+              <strong>
+                B
+              </strong>
+               
+              85
+               
+            </div>
+            <div
+              class="c13"
+            >
+              <strong>
+                H
+              </strong>
+               
+              360
+               
+              <strong>
+                S
+              </strong>
+               
+              62
+               
+              <strong>
+                L
+              </strong>
+               
+              59
+               
+            </div>
+            <div
+              class="c13"
+            >
+              <strong>
+                #D75455
+              </strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c9"
+      >
+        <div
+          class="c10"
+          style="background-color: rgb(150, 99, 46);"
+        />
+        <div
+          class="c11"
+        >
+          <div
+            class="c12"
+          >
+            <div
+              class="c13"
+            >
+              <strong>
+                R
+              </strong>
+               
+              150
+               
+              <strong>
+                G
+              </strong>
+               
+              99
+               
+              <strong>
+                B
+              </strong>
+               
+              46
+               
+            </div>
+            <div
+              class="c13"
+            >
+              <strong>
+                H
+              </strong>
+               
+              31
+               
+              <strong>
+                S
+              </strong>
+               
+              53
+               
+              <strong>
+                L
+              </strong>
+               
+              38
+               
+            </div>
+            <div
+              class="c13"
+            >
+              <strong>
+                #96632E
+              </strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c9"
+      >
+        <div
+          class="c10"
+          style="background-color: rgb(58, 143, 183);"
+        />
+        <div
+          class="c11"
+        >
+          <div
+            class="c12"
+          >
+            <div
+              class="c13"
+            >
+              <strong>
+                R
+              </strong>
+               
+              58
+               
+              <strong>
+                G
+              </strong>
+               
+              143
+               
+              <strong>
+                B
+              </strong>
+               
+              183
+               
+            </div>
+            <div
+              class="c13"
+            >
+              <strong>
+                H
+              </strong>
+               
+              199
+               
+              <strong>
+                S
+              </strong>
+               
+              52
+               
+              <strong>
+                L
+              </strong>
+               
+              47
+               
+            </div>
+            <div
+              class="c13"
+            >
+              <strong>
+                #3A8FB7
+              </strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="c9"
+      >
+        <div
+          class="c10"
+          style="background-color: rgb(0, 98, 132);"
+        />
+        <div
+          class="c11"
+        >
+          <div
+            class="c12"
+          >
+            <div
+              class="c13"
+            >
+              <strong>
+                R
+              </strong>
+               
+              0
+               
+              <strong>
+                G
+              </strong>
+               
+              98
+               
+              <strong>
+                B
+              </strong>
+               
+              132
+               
+            </div>
+            <div
+              class="c13"
+            >
+              <strong>
+                H
               </strong>
                
               195
                
               <strong>
-                B
-              </strong>
-               
-              205
-               
-            </div>
-            <div
-              class="c13"
-            >
-              <strong>
-                H
-              </strong>
-               
-              349
-               
-              <strong>
                 S
               </strong>
                
-              79
+              100
                
               <strong>
                 L
               </strong>
                
-              87
+              26
                
             </div>
             <div
               class="c13"
             >
               <strong>
-                #F8C3CD
-              </strong>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="c9"
-      >
-        <div
-          class="c10"
-          style="background-color: rgb(191, 103, 102);"
-        />
-        <div
-          class="c11"
-        >
-          <div
-            class="c12"
-          >
-            <div
-              class="c13"
-            >
-              <strong>
-                R
-              </strong>
-               
-              191
-               
-              <strong>
-                G
-              </strong>
-               
-              103
-               
-              <strong>
-                B
-              </strong>
-               
-              102
-               
-            </div>
-            <div
-              class="c13"
-            >
-              <strong>
-                H
-              </strong>
-               
-              1
-               
-              <strong>
-                S
-              </strong>
-               
-              41
-               
-              <strong>
-                L
-              </strong>
-               
-              57
-               
-            </div>
-            <div
-              class="c13"
-            >
-              <strong>
-                #BF6766
-              </strong>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="c9"
-      >
-        <div
-          class="c10"
-          style="background-color: rgb(165, 222, 228);"
-        />
-        <div
-          class="c11"
-        >
-          <div
-            class="c12"
-          >
-            <div
-              class="c13"
-            >
-              <strong>
-                R
-              </strong>
-               
-              165
-               
-              <strong>
-                G
-              </strong>
-               
-              222
-               
-              <strong>
-                B
-              </strong>
-               
-              228
-               
-            </div>
-            <div
-              class="c13"
-            >
-              <strong>
-                H
-              </strong>
-               
-              186
-               
-              <strong>
-                S
-              </strong>
-               
-              54
-               
-              <strong>
-                L
-              </strong>
-               
-              77
-               
-            </div>
-            <div
-              class="c13"
-            >
-              <strong>
-                #A5DEE4
+                #006284
               </strong>
             </div>
           </div>

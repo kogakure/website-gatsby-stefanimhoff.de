@@ -1,6 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Projects BookCover renders correctly 1`] = `
+exports[`Projects MartialArtsWebsite renders correctly 1`] = `
+.c9 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c9:hover,
+.c9:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
 .c8 {
   color: var(--colorForeground);
   font-weight: 600;
@@ -13,23 +29,6 @@ exports[`Projects BookCover renders correctly 1`] = `
 
 .c8:hover,
 .c8:focus {
-  -webkit-text-decoration-color: var(--colorAccent);
-  text-decoration-color: var(--colorAccent);
-}
-
-.c9 {
-  color: var(--colorForeground);
-  font-weight: 600;
-  -webkit-text-decoration-color: var(--colorForegroundSoft);
-  text-decoration-color: var(--colorForegroundSoft);
-  -webkit-text-decoration-thickness: 0.1em;
-  text-decoration-thickness: 0.1em;
-  text-underline-offset: 0.1em;
-  display: block;
-}
-
-.c9:hover,
-.c9:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
@@ -102,7 +101,6 @@ a:focus .c10 {
 }
 
 .c0 {
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -246,37 +244,51 @@ a:focus .c10 {
       <small
         class="c5"
       >
-        Graphic Design
+        Web Design / Web Development / Writing
       </small>
       <h2
         class="c6"
       >
-        Book Cover
+        Martial Arts Website
       </h2>
       <p
         class="c7"
       >
-        I designed this book cover for my book 
-        <cite>
-          kogakure
-        </cite>
-        , which I wrote in 2017. It’s a book in German about the Ninja and their secret art of Ninjutsu. The book was written with
+        My
          
         <a
           class="c8"
-          href="https://www.gitbook.com/"
+          href="https://www.kogakure.de/"
           rel="nofollow noopener noreferrer external"
         >
-          GitBook
+          Martial Arts Online Magazine
         </a>
-         and can be read or downloaded for free as PDF, ePub or Mobi eBook.
+         
+        with the topic of 
+        <em>
+          Ninja
+        </em>
+         & 
+        <em>
+          Ninjutsu
+        </em>
+         was first launched in 
+        <strong>
+          1999
+        </strong>
+         and is my oldest and most visited website. The current design is already the 
+        <strong>
+          7th
+        </strong>
+         
+        iteration of the design.
       </p>
       <a
+        block="0"
         class="c9"
-        href="https://book.kogakure.de/"
-        rel="nofollow noopener noreferrer external"
+        href="/showcase/kogakure/"
       >
-        Read Book
+        More
         <span
           class="c10"
         >

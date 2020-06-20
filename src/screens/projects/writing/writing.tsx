@@ -11,15 +11,13 @@ export const Writing: React.FC = () => (
       <SmallPrint>Writing</SmallPrint>
       <Headline>Journal &amp; Blog</Headline>
       <Paragraph>
-        I have been writing articles on this website since 2007. The topics
-        include programming, design, self-improvement, productivity, books and
-        films. The collection has been much bigger, but I deleted outdated and
-        irrelevant articles. Since 2019 I also write a monthly article with
-        recommendations of the past month.
+        I have been writing articles on this website since <strong>2007</strong>
+        . The topics include programming, design, self-improvement,
+        productivity, books and films. The collection has been much bigger, but
+        I deleted outdated and irrelevant articles. Since <strong>2019</strong>{' '}
+        I also write a monthly article with recommendations of the past month.
       </Paragraph>
-      <MoreLink block to="/journal/">
-        Read Journal
-      </MoreLink>
+      <MoreLink to="/journal/">Read Journal</MoreLink>
     </TextBlock>
     <TextBlock>
       <SmallPrint>Poetry / Writing</SmallPrint>
@@ -30,9 +28,7 @@ export const Writing: React.FC = () => (
         a fun, creative way to use limitation and brevity while saying something
         meaningful.
       </Paragraph>
-      <MoreLink block to="/haiku/">
-        Read Haiku
-      </MoreLink>
+      <MoreLink to="/haiku/">Read Haiku</MoreLink>
     </TextBlock>
   </Row>
 );

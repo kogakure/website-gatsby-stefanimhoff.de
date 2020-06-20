@@ -9,7 +9,7 @@ import { SmallPrint, TextBlock } from '..';
 import { Styled } from './japanese-color.styles';
 
 export const JapaneseColor: React.FC = () => (
-  <Row marginBottom variant="equal" vertical="end">
+  <Row marginBottom variant="equal" vertical="center">
     <TextBlock>
       <SmallPrint>Design / Web Development</SmallPrint>
       <Headline>The Traditional Colors of Japan</Headline>
@@ -24,14 +24,15 @@ export const JapaneseColor: React.FC = () => (
         With this version of the website I finally dedicate the colors an extra
         section listing them all with their name and color values.
       </Paragraph>
-      <MoreLink block to="/traditional-colors-of-japan/">
+      <MoreLink to="/traditional-colors-of-japan/">
         See Traditional Colors of Japan
       </MoreLink>
     </TextBlock>
     <Styled.Colors>
-      <ColorSwatch color="#f8c3cd" />
-      <ColorSwatch color="#bf6766" />
-      <ColorSwatch color="#a5dee4" />
+      <ColorSwatch color="#D75455" />
+      <ColorSwatch color="#96632E" />
+      <ColorSwatch color="#3A8FB7" />
+      <ColorSwatch color="#006284" />
     </Styled.Colors>
   </Row>
 );

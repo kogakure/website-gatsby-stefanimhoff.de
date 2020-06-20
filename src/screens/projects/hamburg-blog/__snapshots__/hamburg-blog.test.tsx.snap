@@ -1,6 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Projects Writing renders correctly 1`] = `
+exports[`Projects HamburgBlog renders correctly 1`] = `
+.c7 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c7:hover,
+.c7:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
 .c6 {
   color: var(--colorForeground);
   font-weight: 600;
@@ -17,7 +33,7 @@ exports[`Projects Writing renders correctly 1`] = `
   text-decoration-color: var(--colorAccent);
 }
 
-.c7 {
+.c8 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -35,9 +51,9 @@ exports[`Projects Writing renders correctly 1`] = `
   transition-timing-function: ease-in-out;
 }
 
-a:hover .c7,
-a:active .c7,
-a:focus .c7 {
+a:hover .c8,
+a:active .c8,
+a:focus .c8 {
   -webkit-transform: translate3D(0.25rem,0,0);
   -ms-transform: translate3D(0.25rem,0,0);
   transform: translate3D(0.25rem,0,0);
@@ -96,10 +112,31 @@ a:focus .c7 {
   gap: 5.55vw;
   grid-template-columns: 1fr;
   justify-items: center;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c9 {
+  border-color: var(--colorForegroundSoft);
+  border-style: solid;
+  border-width: 1px;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: box-shadow,-webkit-transform;
+  -webkit-transition-property: box-shadow,transform;
+  transition-property: box-shadow,transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c9:hover,
+.c9:focus {
+  box-shadow: 0 0 50px rgba(0,0,0,0.2);
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .c3 {
@@ -114,6 +151,12 @@ a:focus .c7 {
   padding-left: 5.55vw;
   padding-right: 5.55vw;
   width: 100%;
+}
+
+.c10 {
+  border-left-width: 0;
+  border-right-width: 0;
+  grid-row: 1;
 }
 
 @media screen and (prefers-reduced-motion:no-preference) {
@@ -140,12 +183,6 @@ a:focus .c7 {
 }
 
 @media (min-width:768px) {
-  .c1 > *:last-child {
-    margin-top: 11vw;
-  }
-}
-
-@media (min-width:768px) {
   .c3 {
     padding: 0;
   }
@@ -154,6 +191,14 @@ a:focus .c7 {
 @media (min-width:768px) {
   .c2 {
     padding: 0;
+  }
+}
+
+@media (min-width:768px) {
+  .c10 {
+    border-left-width: 1px;
+    border-right-width: 1px;
+    grid-column: 2;
   }
 }
 
@@ -169,35 +214,36 @@ a:focus .c7 {
       <small
         class="c3"
       >
-        Writing
+        Web Design / Web Development / Photography
       </small>
       <h2
         class="c4"
       >
-        Journal & Blog
+        Exploring Hamburg
       </h2>
       <p
         class="c5"
       >
-        I have been writing articles on this website since 
-        <strong>
-          2007
-        </strong>
-        . The topics include programming, design, self-improvement, productivity, books and films. The collection has been much bigger, but I deleted outdated and irrelevant articles. Since 
-        <strong>
-          2019
-        </strong>
+        I created this
          
-        I also write a monthly article with recommendations of the past month.
+        <a
+          class="c6"
+          href="https://hamburg.stefanimhoff.de/"
+          rel="nofollow noopener noreferrer external"
+        >
+          photography blog
+        </a>
+         
+        for one of my hobbies: I explore the city Hamburg, mostly walking, sometimes biking to find out more about the individual districts and to shoot photos.
       </p>
       <a
         block="0"
-        class="c6"
-        href="/journal/"
+        class="c7"
+        href="/showcase/hamburg-blog/"
       >
-        Read Journal
+        More
         <span
-          class="c7"
+          class="c8"
         >
           <svg
             height="1em"
@@ -216,51 +262,36 @@ a:focus .c7 {
       </a>
     </div>
     <div
-      class="c2"
+      class="c9 c10 gatsby-image-wrapper"
+      style="position: relative; overflow: hidden;"
     >
-      <small
-        class="c3"
-      >
-        Poetry / Writing
-      </small>
-      <h2
-        class="c4"
-      >
-        Haiku
-      </h2>
-      <p
-        class="c5"
-      >
-        I started writing Haiku poetry some years ago inspired by the works of the Japanese Haiku poet 
-        <strong>
-          Matsuo Bashô
-        </strong>
-        . I think Haiku are a fun, creative way to use limitation and brevity while saying something meaningful.
-      </p>
-      <a
-        block="0"
-        class="c6"
-        href="/haiku/"
-      >
-        Read Haiku
-        <span
-          class="c7"
-        >
-          <svg
-            height="1em"
-            viewBox="0 0 24 24"
-            width="1em"
-          >
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-            />
-          </svg>
-        </span>
-      </a>
+      <div
+        aria-hidden="true"
+        style="width: 100%; padding-bottom: 151.5151515151515%;"
+      />
+      <img
+        alt=""
+        aria-hidden="true"
+        src="data:image/jpeg;base64,XYZ"
+        style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
+      />
+      <picture>
+        <source
+          sizes="(max-width: 1200px) 100vw, 1200px"
+          srcset="/static/cover.jpg 200w, /static/cover.jpg 400w"
+        />
+        <img
+          alt=""
+          loading="lazy"
+          sizes="(max-width: 1200px) 100vw, 1200px"
+          src="/static/cover.jpg"
+          srcset="/static/cover.jpg 200w, /static/cover.jpg 400w"
+          style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+        />
+      </picture>
+      <noscript>
+        &lt;picture&gt;&lt;source srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" sizes="(max-width: 1200px) 100vw, 1200px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" src="/static/cover.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+      </noscript>
     </div>
   </div>
 </section>
