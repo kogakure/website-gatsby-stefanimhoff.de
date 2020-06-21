@@ -109,6 +109,14 @@ export const pageQuery = graphql`
         }
         og {
           publicURL
+          childImageSharp {
+            fluid(maxWidth: 1200) {
+              aspectRatio
+              sizes
+              src
+              srcSet
+            }
+          }
         }
         attribution {
           title
