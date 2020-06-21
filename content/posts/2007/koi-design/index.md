@@ -1,12 +1,14 @@
 ---
 published: true
-title: "The Koi Design: Inspiration and Idea For My Website Header"
+title: The Koi Design
 author: Stefan Imhoff
 date: 2007-06-02T02:00:00+02:00
 description: Irezumi (Japanese tattooing) as inspiration for my website and the origin of my design.
 categories:
   - design
 ---
+
+## Inspiration and Idea For My Header
 
 The idea for the design of <del>this new website</del> <ins>a previous version of this website</ins> has been buzzing around in my head for some time. But somehow she did not want to move into the physical world. As an inspiration, I used the art of Japanese tattoo – Irezumi.
 
@@ -33,7 +35,7 @@ The links to the Japanese art of [ukiyo-e](https://en.wikipedia.org/wiki/Ukiyo-e
 
 ## Motives
 
-In addition to gods, mythical creatures and demons, the most important source of motifs is the ancient Chinese novella <cite>[Shuihu Zhuan](https://en.wikipedia.org/wiki/Water_Margin)</cite> (Water Margin), known in Japan as <cite>Suikoden</cite>. It belongs to one of the four classical books of Chinese literature. The German translation of this very entertaining book is called <cite>[Die Räuber vom Liang Schan Moor ](http://www.amazon.de/gp/product/3458318917?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=3458318917)</cite>.
+In addition to gods, mythical creatures and demons, the most important source of motifs is the ancient Chinese novella _[Shuihu Zhuan](https://en.wikipedia.org/wiki/Water_Margin)_ (Water Margin), known in Japan as _Suikoden_. It belongs to one of the four classical books of Chinese literature. The German translation of this very entertaining book is called _[Die Räuber vom Liang Schan Moor ](http://www.amazon.de/gp/product/3458318917?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=3458318917)_.
 
 ## Water Margin
 

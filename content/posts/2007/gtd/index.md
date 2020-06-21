@@ -1,6 +1,6 @@
 ---
 published: true
-title: GTD – Getting Things Done
+title: "GTD: Getting Things Done"
 author: Stefan Imhoff
 date: 2007-11-24T01:15:00+02:00
 description: "I’ve been working with GTD (Getting Things Done) for 1.5 years: An Introduction to Organization and Self-Management with GTD."
@@ -11,9 +11,11 @@ categories:
   - self-improvement
 ---
 
+## One and a Half Years With GTD
+
 Since exactly one and a half years I use now the principles of _GTD_ (<em>Getting Things Done</em>®), from the book by _David Allen_ to organize my daily tasks.
 
-In his book <cite>[Getting Things Done: The Art of Stress-Free Productivity](http://www.amazon.de/gp/product/0143126563/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=0143126563&linkCode=as2&tag=stefanimhoffde-21)</cite>, David Allen introduces an interesting system that allows you to do your daily tasks effectively and efficiently.
+In his book _[Getting Things Done: The Art of Stress-Free Productivity](http://www.amazon.de/gp/product/0143126563/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=0143126563&linkCode=as2&tag=stefanimhoffde-21)_, David Allen introduces an interesting system that allows you to do your daily tasks effectively and efficiently.
 
 <Row variant="variable" marginBottom>
   <AmazonBook asin="0143126563" />
