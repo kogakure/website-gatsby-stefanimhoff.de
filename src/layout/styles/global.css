@@ -81,6 +81,19 @@ body samp {
   margin-bottom: clamp(2.074rem, 4.44vw, 2.488rem);
   margin-top: clamp(2.074rem, 4.44vw, 2.488rem);
   overflow-y: auto;
+  width: 88.8vw;
+}
+
+@media (min-width: 768px) {
+  .code-block {
+    width: 77.7vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .code-block {
+    width: 33.3vw;
+  }
 }
 
 /* ===================================
