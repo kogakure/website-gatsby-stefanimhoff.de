@@ -5,10 +5,6 @@ import { mediaQuery } from '../../../layout/tokens';
 const Post = styled.div`
   grid-column: 2 / -2;
 
-  & > p:last-of-type {
-    margin-bottom: 0;
-  }
-
   @media (${mediaQuery.tablet}) {
     grid-column: 3 / -7;
   }
