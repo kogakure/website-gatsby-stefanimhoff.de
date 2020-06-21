@@ -1,8 +1,9 @@
 ---
 published: true
-title: Example Post 1
-date: '2018-11-03T18:00:00'
+title: Example Post
+date: "2018-11-03T18:00:00"
 cover: ./gatsby-astronaut.png
+og: ./gatsby-astronaut.png
 attribution:
   - author: Gatsby
     title: Gatsby Astronaut
@@ -11,6 +12,8 @@ categories:
   - design
   - code
 ---
+
+## Example Deck
 
 I'm baby taxidermy whatever shabby chic chicharrones listicle mixtape you probably haven't heard of them bushwick chartreuse plaid cray banjo hell of messenger bag. Cray brunch migas, disrupt woke seitan twee. Viral ennui subway tile, pug thundercats unicorn shoreditch 90's. Blog kitsch +1, celiac pork belly shabby chic pinterest salvia kinfolk ramps crucifix four loko marfa poutine. Fingerstache dreamcatcher XOXO williamsburg distillery. Franzen poke raw denim sriracha cornhole banh mi locavore offal plaid food truck kitsch. Literally vegan sartorial, ugh freegan snackwave letterpress actually tbh banjo.
 
@@ -24,7 +27,7 @@ Try-hard brunch food truck fam four loko lumbersexual. IPhone yr kombucha messen
 
 Etsy pork belly cronut tote bag, bushwick whatever trust fund messenger bag knausgaard. Banjo pug portland lyft umami. Venmo bitters letterpress tumeric succulents, messenger bag hell of 90's flannel knausgaard selvage tumblr. Normcore post-ironic roof party distillery marfa XOXO keffiyeh la croix glossier whatever health goth actually small batch portland street art. Master cleanse next level meditation heirloom blue bottle. Sriracha pop-up blog jianbing schlitz selfies locavore. Skateboard raclette hashtag ethical.
 
-![Astronaut](./gatsby-astronaut.png 'Image of an Astronaut.')
+![Astronaut](./gatsby-astronaut.png "Image of an Astronaut.")
 
 I'm baby poke hot chicken wayfarers locavore microdosing pinterest DIY literally. Mixtape etsy fanny pack keffiyeh yuccie. Fanny pack woke synth chia. Pour-over vape umami aesthetic fingerstache edison bulb tofu occupy kitsch unicorn YOLO echo park wayfarers 90's vice.
 
