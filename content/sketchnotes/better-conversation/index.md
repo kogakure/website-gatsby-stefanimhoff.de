@@ -1,6 +1,6 @@
 ---
 title: Better Conversation
-date: '2017-06-11T14:57:00'
+date: "2017-06-11T14:57:00"
 published: true
 ---
 

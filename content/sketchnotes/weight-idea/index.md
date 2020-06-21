@@ -1,6 +1,6 @@
 ---
 title: Weight Idea
-date: '2017-06-11T15:00:00'
+date: "2017-06-11T15:00:00"
 published: true
 ---
 
