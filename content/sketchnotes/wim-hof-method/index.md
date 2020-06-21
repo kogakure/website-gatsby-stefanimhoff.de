@@ -1,6 +1,6 @@
 ---
 title: The Wim Hof Method
-date: '2017-05-28T12:43:00'
+date: "2017-05-28T12:43:00"
 published: true
 ---
 

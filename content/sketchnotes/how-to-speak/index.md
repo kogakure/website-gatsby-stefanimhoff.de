@@ -1,6 +1,6 @@
 ---
 title: How to Speak So That People Want to Listen
-date: '2017-06-01T21:01:00'
+date: "2017-06-01T21:01:00"
 published: true
 ---
 

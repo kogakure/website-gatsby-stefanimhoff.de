@@ -1,6 +1,6 @@
 ---
 title: Being a Good Listener
-date: '2017-07-22T11:58:00'
+date: "2017-07-22T11:58:00"
 published: true
 ---
 

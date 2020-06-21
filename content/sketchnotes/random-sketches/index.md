@@ -1,6 +1,6 @@
 ---
 title: Random Sketches
-date: '2017-09-16T12:11:00'
+date: "2017-09-16T12:11:00"
 published: true
 ---
 

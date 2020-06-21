@@ -1,6 +1,6 @@
 ---
 title: The Art of Enough
-date: '2017-05-25T13:06:00'
+date: "2017-05-25T13:06:00"
 published: true
 ---
 

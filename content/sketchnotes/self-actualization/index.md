@@ -1,6 +1,6 @@
 ---
 title: Self-Actualization vs. Self-Image Actualization
-date: '2017-04-30T21:43:00'
+date: "2017-04-30T21:43:00"
 published: true
 ---
 
