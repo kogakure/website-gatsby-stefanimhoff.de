@@ -1,4 +1,5 @@
 import { AmazonBook } from '../../components/amazon-book';
+import { Banner } from '../../components/banner';
 import { Blockquote } from '../../components/blockquote';
 import { Book } from '../../components/book';
 import { ColorSwatch } from '../../components/color-swatch';
@@ -37,6 +38,7 @@ import { SEO } from '../seo';
 
 export const shortcodes = {
   AmazonBook,
+  Banner,
   Blockquote,
   Book,
   ColorSwatch,
@@ -81,6 +83,8 @@ export const shortcodes = {
   ol: OrderedList,
   p: Paragraph,
   q: InlineQuote,
+  samp: Sample,
   table: Table,
   ul: UnorderedList,
+  var: Variable,
 };
