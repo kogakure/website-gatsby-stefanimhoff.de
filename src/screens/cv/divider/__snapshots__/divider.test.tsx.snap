@@ -2,13 +2,12 @@
 
 exports[`CV Divider renders correctly 1`] = `
 .c0 {
-  border-bottom-width: 1px;
-  border-color: var(--colorForegroundSoft);
+  border-bottom-width: 0.1em;
+  border-color: var(--colorForegroundFeather);
   border-left-width: 0;
   border-right-width: 0;
   border-style: solid;
   border-top-width: 0;
-  width: 60%;
 }
 
 .c1 {
