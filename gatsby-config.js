@@ -2,8 +2,6 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const acronyms = require('./acronyms.json');
-
 const siteMetadata = {
   title: 'Stefan Imhoff - Developer/Designer from Hamburg, Germany',
   titleTemplate: '%s · Stefan Imhoff',
@@ -25,49 +23,49 @@ module.exports = {
     'gatsby-plugin-styled-components',
     'gatsby-plugin-typescript',
     'gatsby-remark-reading-time',
+    'gatsby-transformer-yaml',
     'gatsby-transformer-json',
     'gatsby-transformer-sharp',
-    'gatsby-transformer-yaml',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'pages',
-        path: `${__dirname}/src/pages`,
+        path: `${__dirname}/src/pages/`,
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'posts',
-        path: `${__dirname}/content/posts`,
+        path: `${__dirname}/content/posts/`,
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'showcases',
-        path: `${__dirname}/content/showcases`,
+        path: `${__dirname}/content/showcases/`,
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'sketchnotes',
-        path: `${__dirname}/content/sketchnotes`,
+        path: `${__dirname}/content/sketchnotes/`,
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'data',
-        path: `${__dirname}/content/data`,
+        path: `${__dirname}/content/data/`,
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
-        path: `${__dirname}/content/assets/images`,
+        path: `${__dirname}/content/assets/images/`,
       },
     },
     {
@@ -136,12 +134,6 @@ module.exports = {
             options: {
               target: null,
               rel: 'nofollow noopener noreferrer external',
-            },
-          },
-          {
-            resolve: 'gatsby-remark-acronyms',
-            options: {
-              acronyms,
             },
           },
         ],
