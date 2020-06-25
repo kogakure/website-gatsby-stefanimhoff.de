@@ -14,7 +14,7 @@ categories:
 
 During a visit to the art exhibition _Japan and the West_ in the [Art Museum Wolfsburg](https://www.kunstmuseum-wolfsburg.de/), I was able to get my hands on a wonderful book about the traditional, Japanese colors.
 
-In the museum shop, I was able to buy the book _[The Traditional Colors of Japan](http://www.amazon.de/gp/product/4894445786/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=4894445786&linkCode=as2&tag=stefanimhoffde-21)_, which is in Japanese. In addition to a full-color palette of 250 colors, it also contains an exact indication of RGB, CMYK, and other information.
+In the museum shop, I was able to buy the book _<AffiliateLink asin="4894445786">The Traditional Colors of Japan</AffiliateLink>_, which is in Japanese. In addition to a full-color palette of 250 colors, it also contains an exact indication of RGB, CMYK, and other information.
 
 <Row variant="variable" marginBottom>
   <AmazonBook asin="4894445786" />

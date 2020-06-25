@@ -15,7 +15,7 @@ categories:
 
 Since exactly one and a half years I use now the principles of _GTD_ (<em>Getting Things Done</em>®), from the book by _David Allen_ to organize my daily tasks.
 
-In his book _[Getting Things Done: The Art of Stress-Free Productivity](http://www.amazon.de/gp/product/0143126563/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=0143126563&linkCode=as2&tag=stefanimhoffde-21)_, David Allen introduces an interesting system that allows you to do your daily tasks effectively and efficiently.
+In his book _<AffiliateLink asin="0143126563">Getting Things Done: The Art of Stress-Free Productivity</AffiliateLink>_, David Allen introduces an interesting system that allows you to do your daily tasks effectively and efficiently.
 
 <Row variant="variable" marginBottom>
   <AmazonBook asin="0143126563" />

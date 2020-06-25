@@ -18,7 +18,7 @@ Tattoos are an art that is transient in the truest sense of the word since with 
 
 These works of art are extremely painful (dozens of bamboo needles are [stung several times a second](https://www.youtube.com/watch?v=NddXHY2QUV0)), tedious (from a few months to several years) and expensive (starting at 20,000 €). That is also the reason why I like to look at them, but definitely never will wear one myself.
 
-One of the best living artists of the Irezumi is Horiyoshi III, whose works can be seen in some illustrated books: [Tattoos from the Floating World: Ukiyo-e Motif's in Japanese Tattoo](http://www.amazon.de/gp/product/9074822452?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=9074822452) and [Bushido: Legacies of the Japanese Tattoo](http://www.amazon.de/gp/product/0764312014?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=0764312014).
+One of the best living artists of the Irezumi is Horiyoshi III, whose works can be seen in some illustrated books: <AffiliateLink asin="9074822452">Tattoos from the Floating World: Ukiyo-e Motif's in Japanese Tattoo</AffiliateLink> and <AffiliateLink asin="0764312014">Bushido: Legacies of the Japanese Tattoo</AffiliateLink>.
 
 <Row variant="variable" marginBottom>
   <AmazonBook asin="9074822452" />
@@ -35,7 +35,7 @@ The links to the Japanese art of [ukiyo-e](https://en.wikipedia.org/wiki/Ukiyo-e
 
 ## Motives
 
-In addition to gods, mythical creatures and demons, the most important source of motifs is the ancient Chinese novella _[Shuihu Zhuan](https://en.wikipedia.org/wiki/Water_Margin)_ (Water Margin), known in Japan as _Suikoden_. It belongs to one of the four classical books of Chinese literature. The German translation of this very entertaining book is called _[Die Räuber vom Liang Schan Moor ](http://www.amazon.de/gp/product/3458318917?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=3458318917)_.
+In addition to gods, mythical creatures and demons, the most important source of motifs is the ancient Chinese novella _[Shuihu Zhuan](https://en.wikipedia.org/wiki/Water_Margin)_ (Water Margin), known in Japan as _Suikoden_. It belongs to one of the four classical books of Chinese literature. The German translation of this very entertaining book is called _<AffiliateLink asin="3458318917">Die Räuber vom Liang Schan Moor</AffiliateLink>_.
 
 ## Water Margin
 
