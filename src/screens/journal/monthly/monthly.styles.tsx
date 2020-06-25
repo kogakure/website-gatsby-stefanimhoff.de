@@ -7,13 +7,9 @@ const Monthly = styled.div`
   grid-row: 4;
 
   @media (${mediaQuery.tablet}) {
-    grid-column: 11 / span 6;
+    grid-column: 12 / span 5;
     grid-row: 3;
     margin-top: clamp(25px, 5.55vw, 100px);
-  }
-
-  @media (${mediaQuery.desktop}) {
-    grid-column: 11 / span 5;
   }
 `;
 

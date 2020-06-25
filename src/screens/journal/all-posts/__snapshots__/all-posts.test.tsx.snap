@@ -138,13 +138,7 @@ li .c2 {
 
 @media (min-width:768px) {
   .c0 {
-    grid-column: 3 / span 7;
-  }
-}
-
-@media (min-width:1200px) {
-  .c0 {
-    grid-column: 4 / span 6;
+    grid-column: 4 / span 7;
   }
 }
 
