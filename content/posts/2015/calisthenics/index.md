@@ -84,11 +84,9 @@ And I am patient. It’s more about the journey than about the goal. It’s stil
 
 Calisthenics is far more popular in other countries, like Russia or the United States, where you will find a lot of good outdoor training courses. Working out is everyday life, as you can see in this [Street Workout video from Ukraine]. In Germany, this is unfortunately not the case. Most German cities don’t provide good outdoor training courses, and if they do, the height of bars is more fitted for children.
 
-But with creativity, you’ll always find a solution. If prisoners can train Calisthenics in their small cells, you should find ways to train without a perfect training course. You can pull up to branches of trees or fences, dip on handrails, or bicycle stands. I, for example, found a playground nearby with decent bars. Not high enough to hang with my legs stretched, but I can train. Additionally, I bought a [Doorway Pull-Up Bar] and [Dip Bars], because I got tired of using two chairs for Dips.
+But with creativity, you’ll always find a solution. If prisoners can train Calisthenics in their small cells, you should find ways to train without a perfect training course. You can pull up to branches of trees or fences, dip on handrails, or bicycle stands. I, for example, found a playground nearby with decent bars. Not high enough to hang with my legs stretched, but I can train. Additionally, I bought a <AffiliateLink asin="B00EZ24BC2">Doorway Pull-Up Bar</AffiliateLink> and <AffiliateLink asin="B0088I92VY">Dip Bars</AffiliateLink>, because I got tired of using two chairs for Dips.
 
 [street workout video from ukraine]: https://www.youtube.com/watch?v=bvLQZVnz5WM
-[doorway pull-up bar]: http://www.amazon.de/gp/product/B00EZ24BC2?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=3924862397
-[dip bars]: http://www.amazon.de/gp/product/B0088I92VY?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=3924862397
 
 ## Build Muscle, Endurance, and Strength
 

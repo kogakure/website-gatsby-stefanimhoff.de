@@ -19,7 +19,7 @@ Simple things like readability or contrast decide whether the message of a text 
 
 The right choice of font, font size, weight, layout, sentence width, lead, letter-spacing, or many other things unconsciously affect the reader and thus transport the statement. Proper typography can support and reinforce a message that makes the wrong message even meaningless or ridiculous.
 
-I’ve always found typography fascinating, but only after reading the book <cite>[The Elements _of_ Typographic Style](http://www.amazon.de/gp/product/0881792128?ie=UTF8&camp=1638&creative=19454&creativeASIN=0881792128&linkCode=as2&tag=stefanimhoffde-21)</cite> by _Robert Bringhurst_ I studied the matter more deeply. There is a Web-adapted version of his book on the website [The Elements _of_ Typographic Style Applied _to the_ Web](http://webtypography.net/).
+I’ve always found typography fascinating, but only after reading the book <cite><AffiliateLink asin="0881792128">The Elements of Typographic Style</AffiliateLink></cite> by _Robert Bringhurst_ I studied the matter more deeply. There is a Web-adapted version of his book on the website [The Elements _of_ Typographic Style Applied _to the_ Web](http://webtypography.net/).
 
 <Row variant="variable" marginBottom>
   <AmazonBook asin="0881792128" />

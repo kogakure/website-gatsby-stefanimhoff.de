@@ -46,7 +46,7 @@ As everything in this world is connected, Minimalism has its roots in a lot of d
 
 As Minimalism is also defined as _Simple Living_, Simplicity will inevitably be part of a Minimalist's life. The reason is deep thinking often results in love for simple forms. Objects, which are resistant against temporary fashion, which endure times and follow the concept of _form follows function_.
 
-As Kenya Hara writes in [Wa: The Essence of Japanese Design](http://www.amazon.de/gp/product/0714866962?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=0714866962), the origin of Simplicity can be found in the European _modernism_ as a result of the society getting free of sole rulers (who were defined by objects of decoration and excess of material objects). Rationality was the basis of this concept, resulting in _Bauhaus_ in 1909 or the founding of _Domus_ in 1928.
+As Kenya Hara writes in <AffiliateLink asin="0714866962">Wa: The Essence of Japanese Design</AffiliateLink>, the origin of Simplicity can be found in the European _modernism_ as a result of the society getting free of sole rulers (who were defined by objects of decoration and excess of material objects). Rationality was the basis of this concept, resulting in _Bauhaus_ in 1909 or the founding of _Domus_ in 1928.
 
 <Row variant="variable" marginBottom>
   <AmazonBook asin="0714866962" />
@@ -64,7 +64,7 @@ That’s why I think extreme forms of Minimalism can easily result in less freed
 
 ## My history as a Minimalist
 
-I think I was always a Minimalist, even when the term didn’t exist. My first contact with the idea was in high school, where we had to read [To Have or to Be?](http://www.amazon.de/gp/product/178093680X?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=178093680X) by Erich Fromm.
+I think I was always a Minimalist, even when the term didn’t exist. My first contact with the idea was in high school, where we had to read <AffiliateLink asin="178093680X">To Have or to Be?</AffiliateLink> by Erich Fromm.
 
 <Row variant="variable" marginBottom>
   <AmazonBook asin="178093680X" />
@@ -76,7 +76,7 @@ The next thing which influenced me was surely the book and movie [Fight Club](ht
   The things you own end up owning you.
 </Pullquote>
 
-The next step was probably reading David Allen's book [Gettings Things Done (GTD)](http://www.amazon.de/gp/product/0143126563?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=0143126563), which is a productivity system, but at it’s beginning is some inventory of your stuff. This way I got rid of a lot of stuff for the first time.
+The next step was probably reading David Allen's book <AffiliateLink asin="0143126563">Gettings Things Done (GTD)</AffiliateLink>, which is a productivity system, but at it’s beginning is some inventory of your stuff. This way I got rid of a lot of stuff for the first time.
 
 <Row variant="variable" marginBottom>
   <AmazonBook asin="0143126563" />

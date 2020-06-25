@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AffiliateLink renders correctly 1`] = `
+.c0 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+<a
+  class="c0"
+  href="http://www.amazon.de/gp/product/B07NWN6KD6?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=B07NWN6KD6"
+  rel="nofollow noopener noreferrer external"
+>
+  Affiliate Link
+</a>
+`;

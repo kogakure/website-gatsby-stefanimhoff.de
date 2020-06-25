@@ -17,7 +17,7 @@ Today, I recommend a book that I just finished recently and read a second time: 
   <AmazonBook asin="0307463745" />
 </Row>
 
-I have long been a great believer in the philosophy of simplicity which is cultivated by _<del>37signals</del> <ins>Basecamp</ins>_ so successfully. Already their first (free) book [Getting Real](https://basecamp.com/books/getting-real) (also as [paperback version](http://www.amazon.de/gp/product/0578012812?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=0578012812)) I read with great interest.
+I have long been a great believer in the philosophy of simplicity which is cultivated by _<del>37signals</del> <ins>Basecamp</ins>_ so successfully. Already their first (free) book [Getting Real](https://basecamp.com/books/getting-real) (also as <AffiliateLink asin="0578012812">paperback version</AffiliateLink>) I read with great interest.
 
 <Row variant="variable" marginBottom>
   <AmazonBook asin="0578012812" />
@@ -33,4 +33,4 @@ Getting Real was specially created for programmers who want to successfully comp
 
 With just 21,000 words, the book offers valuable tips for getting a productive and fulfilling working day. Of course, much of this is not new (some points have already been found in _Getting Real_), and none of this has been invented by _<del>37signals</del> <ins>Basecamp</ins>_, but so far I’ve read so many good tips nowhere else in such brevity and conciseness.
 
-And for the very ready lazy people, there is even an [audiobook version](http://www.amazon.de/gp/product/0307704513?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=19454&creativeASIN=0307704513).
+And for the very ready lazy people, there is even an <AffiliateLink asin="0307704513">audiobook version</AffiliateLink>.

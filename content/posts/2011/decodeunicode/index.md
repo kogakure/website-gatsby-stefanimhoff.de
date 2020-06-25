@@ -29,9 +29,9 @@ On the [official website](http://www.decodeunicode.org/) you can find a digital 
 
 ## The Book
 
-- <a href="http://www.amazon.de/gp/product/3874398137/ref=as_li_ss_tl?ie=UTF8&amp;tag=stefanimhoffde-21&amp;linkCode=as2&amp;camp=1638&amp;creative=19454&amp;creativeASIN=3874398137">
+- <AffiliateLink asin="3874398137">
     decodeunicode: Die Schriftzeichen der Welt
-  </a>
+  </AffiliateLink>
 - **656** pages
 - **Publisher**: Schmidt (Hermann), Mainz; Edition: 1 (15. Mai 2011)
 - **Language**: German

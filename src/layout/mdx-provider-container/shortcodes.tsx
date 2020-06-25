@@ -1,3 +1,4 @@
+import { AffiliateLink } from '../../components/affiliate-link';
 import { AmazonBook } from '../../components/amazon-book';
 import { Banner } from '../../components/banner';
 import { Blockquote } from '../../components/blockquote';
@@ -37,6 +38,7 @@ import { Row } from '../row';
 import { SEO } from '../seo';
 
 export const shortcodes = {
+  AffiliateLink,
   AmazonBook,
   Banner,
   Blockquote,
