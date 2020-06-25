@@ -7,11 +7,7 @@ const AllPosts = styled.div`
   grid-row: 3;
 
   @media (${mediaQuery.tablet}) {
-    grid-column: 3 / span 7;
-  }
-
-  @media (${mediaQuery.desktop}) {
-    grid-column: 4 / span 6;
+    grid-column: 4 / span 7;
   }
 `;
 

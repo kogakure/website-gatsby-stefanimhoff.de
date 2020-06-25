@@ -16,7 +16,7 @@ export const Monthly: React.FC = () => {
   return (
     <Styled.Monthly>
       <Headline>
-        Monthly Recommendations
+        Monthly Favorites
         <Emojify emoji="❤️" />
       </Headline>
       <UnorderedList noMargin>

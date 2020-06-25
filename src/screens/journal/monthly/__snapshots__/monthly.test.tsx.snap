@@ -138,15 +138,9 @@ li .c2 {
 
 @media (min-width:768px) {
   .c0 {
-    grid-column: 11 / span 6;
+    grid-column: 12 / span 5;
     grid-row: 3;
     margin-top: clamp(25px,5.55vw,100px);
-  }
-}
-
-@media (min-width:1200px) {
-  .c0 {
-    grid-column: 11 / span 5;
   }
 }
 
@@ -156,7 +150,7 @@ li .c2 {
   <h2
     class="c1"
   >
-    Monthly Recommendations
+    Monthly Favorites
     <span>
        
     </span>
