@@ -60,7 +60,6 @@
     "gatsby-plugin-styled-components": "^3.3.4",
     "gatsby-plugin-typescript": "^2.4.6",
     "gatsby-plugin-web-font-loader": "^1.0.4",
-    "gatsby-remark-acronyms": "^1.1.0",
     "gatsby-remark-autolink-headers": "^2.3.5",
     "gatsby-remark-copy-linked-files": "^2.3.5",
     "gatsby-remark-external-links": "^0.0.4",

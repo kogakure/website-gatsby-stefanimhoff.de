@@ -10807,13 +10807,6 @@ gatsby-recipes@^0.1.41:
     ws "^7.3.0"
     xstate "^4.10.0"
 
-gatsby-remark-acronyms@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-acronyms/-/gatsby-remark-acronyms-1.1.0.tgz#056a8b67788cb6915ed4fc832fd16529d2ca964f"
-  integrity sha512-fppFQX5V5O/nTEG3ykXjUsNz0lE2mqgtCTn7zGMdcm1ADgkFF64HorwZM8KG4lNBBlYmA9EnKg7NK5/tNMCQ6g==
-  dependencies:
-    unist-util-visit "^1.4.1"
-
 gatsby-remark-autolink-headers@^2.3.5:
   version "2.3.5"
   resolved "https://registry.yarnpkg.com/gatsby-remark-autolink-headers/-/gatsby-remark-autolink-headers-2.3.5.tgz#039025254d9c6c9220e11ee77f54274262d301f2"
