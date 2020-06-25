@@ -8,6 +8,7 @@ const InlineCode = styled.code`
   color: var(--colorCodeForeground);
   font-size: ${fontSize[2]};
   padding: ${space[1]} ${space[3]};
+  white-space: nowrap;
 `;
 
 export const Styled = {
