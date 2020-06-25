@@ -7,6 +7,7 @@ exports[`InlineCode renders correctly 1`] = `
   color: var(--colorCodeForeground);
   font-size: clamp(0.65rem,0.8vw,0.75rem);
   padding: 0.335rem clamp( 0.402rem,0.86vw,0.482rem);
+  white-space: nowrap;
 }
 
 <code
