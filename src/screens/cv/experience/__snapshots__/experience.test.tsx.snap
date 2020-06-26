@@ -96,6 +96,7 @@ exports[`CV Experience renders correctly 1`] = `
 }
 
 li .c9 {
+  margin-bottom: 0;
   padding-left: 2rem;
 }
 

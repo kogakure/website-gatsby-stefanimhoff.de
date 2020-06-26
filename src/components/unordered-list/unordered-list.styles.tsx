@@ -22,6 +22,7 @@ const UnorderedListContainer = styled.ul<UnorderedListProps>`
   }
 
   li & {
+    margin-bottom: 0;
     padding-left: 2rem;
   }
 

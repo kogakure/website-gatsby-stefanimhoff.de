@@ -25,6 +25,7 @@ exports[`Journal Monthly renders correctly 1`] = `
 }
 
 li .c2 {
+  margin-bottom: 0;
   padding-left: 2rem;
 }
 
