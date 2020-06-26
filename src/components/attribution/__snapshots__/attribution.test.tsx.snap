@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Attribution renders correctly 1`] = `
-.c1 {
+.c3 {
   color: var(--colorForeground);
   font-weight: 600;
   -webkit-text-decoration-color: var(--colorForegroundSoft);
@@ -11,8 +11,8 @@ exports[`Attribution renders correctly 1`] = `
   text-underline-offset: 0.1em;
 }
 
-.c1:hover,
-.c1:focus {
+.c3:hover,
+.c3:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
@@ -22,29 +22,43 @@ exports[`Attribution renders correctly 1`] = `
   padding: 0;
 }
 
+.c1 {
+  margin-bottom: clamp( 0.402rem,0.86vw,0.482rem);
+}
+
+.c2 {
+  white-space: nowrap;
+}
+
 <ul
   class="c0"
 >
-  <li>
+  <li
+    class="c1"
+  >
     <cite>
       Sunflowers
       . 
     </cite>
-    Photography by
-     
-    <a
-      class="c1"
-      href="https://www.stefanimhoff.de"
-      rel="nofollow noopener noreferrer external"
+    <span
+      class="c2"
     >
-      Stefan Imhoff
-    </a>
+      Photography by
+       
+      <a
+        class="c3"
+        href="https://www.stefanimhoff.de"
+        rel="nofollow noopener noreferrer external"
+      >
+        Stefan Imhoff
+      </a>
+    </span>
   </li>
 </ul>
 `;
 
 exports[`Attribution with author and link renders correctly 1`] = `
-.c1 {
+.c3 {
   color: var(--colorForeground);
   font-weight: 600;
   -webkit-text-decoration-color: var(--colorForegroundSoft);
@@ -54,8 +68,8 @@ exports[`Attribution with author and link renders correctly 1`] = `
   text-underline-offset: 0.1em;
 }
 
-.c1:hover,
-.c1:focus {
+.c3:hover,
+.c3:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
@@ -65,19 +79,33 @@ exports[`Attribution with author and link renders correctly 1`] = `
   padding: 0;
 }
 
+.c1 {
+  margin-bottom: clamp( 0.402rem,0.86vw,0.482rem);
+}
+
+.c2 {
+  white-space: nowrap;
+}
+
 <ul
   class="c0"
 >
-  <li>
-    Photography by
-     
-    <a
-      class="c1"
-      href="https://www.stefanimhoff.de"
-      rel="nofollow noopener noreferrer external"
+  <li
+    class="c1"
+  >
+    <span
+      class="c2"
     >
-      Stefan Imhoff
-    </a>
+      Photography by
+       
+      <a
+        class="c3"
+        href="https://www.stefanimhoff.de"
+        rel="nofollow noopener noreferrer external"
+      >
+        Stefan Imhoff
+      </a>
+    </span>
   </li>
 </ul>
 `;
@@ -88,20 +116,34 @@ exports[`Attribution with author renders correctly 1`] = `
   padding: 0;
 }
 
+.c1 {
+  margin-bottom: clamp( 0.402rem,0.86vw,0.482rem);
+}
+
+.c2 {
+  white-space: nowrap;
+}
+
 <ul
   class="c0"
 >
-  <li>
-    Photography by 
-    <b>
-      Stefan Imhoff
-    </b>
+  <li
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      Photography by 
+      <b>
+        Stefan Imhoff
+      </b>
+    </span>
   </li>
 </ul>
 `;
 
 exports[`Attribution with multiple attributions renders correctly 1`] = `
-.c1 {
+.c3 {
   color: var(--colorForeground);
   font-weight: 600;
   -webkit-text-decoration-color: var(--colorForegroundSoft);
@@ -111,8 +153,8 @@ exports[`Attribution with multiple attributions renders correctly 1`] = `
   text-underline-offset: 0.1em;
 }
 
-.c1:hover,
-.c1:focus {
+.c3:hover,
+.c3:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
@@ -122,33 +164,53 @@ exports[`Attribution with multiple attributions renders correctly 1`] = `
   padding: 0;
 }
 
+.c1 {
+  margin-bottom: clamp( 0.402rem,0.86vw,0.482rem);
+}
+
+.c2 {
+  white-space: nowrap;
+}
+
 <ul
   class="c0"
 >
-  <li>
+  <li
+    class="c1"
+  >
     <cite>
       Sunflowers
       . 
     </cite>
-    Photography by
-     
-    <a
-      class="c1"
-      href="https://www.stefanimhoff.de"
-      rel="nofollow noopener noreferrer external"
+    <span
+      class="c2"
     >
-      Stefan Imhoff
-    </a>
+      Photography by
+       
+      <a
+        class="c3"
+        href="https://www.stefanimhoff.de"
+        rel="nofollow noopener noreferrer external"
+      >
+        Stefan Imhoff
+      </a>
+    </span>
   </li>
-  <li>
+  <li
+    class="c1"
+  >
     <cite>
       Boat on a River
       . 
     </cite>
-    Photography by 
-    <b>
-      Stefan Imhoff
-    </b>
+    <span
+      class="c2"
+    >
+      Photography by 
+      <b>
+        Stefan Imhoff
+      </b>
+    </span>
   </li>
 </ul>
 `;
@@ -159,18 +221,32 @@ exports[`Attribution with title and author renders correctly 1`] = `
   padding: 0;
 }
 
+.c1 {
+  margin-bottom: clamp( 0.402rem,0.86vw,0.482rem);
+}
+
+.c2 {
+  white-space: nowrap;
+}
+
 <ul
   class="c0"
 >
-  <li>
+  <li
+    class="c1"
+  >
     <cite>
       Sunflowers
       . 
     </cite>
-    Photography by 
-    <b>
-      Stefan Imhoff
-    </b>
+    <span
+      class="c2"
+    >
+      Photography by 
+      <b>
+        Stefan Imhoff
+      </b>
+    </span>
   </li>
 </ul>
 `;
