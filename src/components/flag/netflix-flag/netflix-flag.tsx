@@ -11,6 +11,7 @@ export const NetflixFlag: React.FC<NetflixFlagProps> = ({ id, ...props }) => (
     aria-label="Netflix"
     href={`https://www.netflix.com/title/${id}`}
     label="N"
+    title="Netflix"
     {...props}
   />
 );
