@@ -56,6 +56,7 @@ export const pageQuery = graphql`
         frontmatter: { published: { eq: true } }
       }
       sort: { fields: [frontmatter___date], order: DESC }
+      limit: 3
     ) {
       edges {
         node {
