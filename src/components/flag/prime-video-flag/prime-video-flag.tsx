@@ -14,6 +14,7 @@ export const PrimeVideoFlag: React.FC<PrimeVideoFlagProps> = ({
     aria-label="Prime Video"
     href={`https://www.amazon.de/gp/video/detail/${id}`}
     label="P"
+    title="Prime Video"
     {...props}
   />
 );
