@@ -44,6 +44,7 @@ global.___loader = {
   hovering: () => {},
 };
 
+global.__BASE_PATH__ = '';
 global.__PATH_PREFIX__ = '';
 window.___navigate = (pathname) => {
   action('NavigateTo:')(pathname);
