@@ -14,6 +14,7 @@ const OrderedListContainer = styled.ol<OrderedListProps>`
   }
 
   li & {
+    margin-bottom: 0;
     padding-left: 2rem;
   }
 `;

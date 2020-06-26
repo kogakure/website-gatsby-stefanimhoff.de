@@ -9,6 +9,7 @@ exports[`UnorderedList renders correctly 1`] = `
 }
 
 li .c0 {
+  margin-bottom: 0;
   padding-left: 2rem;
 }
 
@@ -106,6 +107,7 @@ exports[`UnorderedList with "noMargin" renders correctly 1`] = `
 }
 
 li .c0 {
+  margin-bottom: 0;
   padding-left: 2rem;
 }
 
@@ -121,6 +123,7 @@ li .c0 {
 }
 
 li .c1 {
+  margin-bottom: 0;
   padding-left: 2rem;
 }
 

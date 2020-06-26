@@ -20,6 +20,7 @@ exports[`Haiku Introduction renders correctly 1`] = `
 }
 
 li .c3 {
+  margin-bottom: 0;
   padding-left: 2rem;
 }
 

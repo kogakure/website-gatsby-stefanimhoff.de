@@ -38,6 +38,7 @@ exports[`CV Awards renders correctly 1`] = `
 }
 
 li .c1 {
+  margin-bottom: 0;
   padding-left: 2rem;
 }
 
