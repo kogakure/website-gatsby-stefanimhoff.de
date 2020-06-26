@@ -6,8 +6,8 @@ author: Stefan Imhoff
 description: How I save and process information, so I can find it again quickly and store it so I can’t loose it again.
 cover: ./book-store.jpg
 attribution:
-  - author: "Brandon Lopez"
-    url: "https://unsplash.com/photos/3E_8XgqRSps"
+  - author: Brandon Lopez
+    url: https://unsplash.com/photos/3E_8XgqRSps
 categories:
   - self-improvement
 ---

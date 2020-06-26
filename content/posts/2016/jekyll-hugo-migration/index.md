@@ -1,9 +1,9 @@
 ---
 published: true
-title: "Migrating to Hugo from Jekyll"
+title: Migrating to Hugo from Jekyll
 author: Stefan Imhoff
 date: 2016-08-27T13:05:57+02:00
-description: "A blog post about the migration from Jekyll to Hugo and why it’s worth to try out Hugo."
+description: A blog post about the migration from Jekyll to Hugo and why it’s worth to try out Hugo.
 categories:
   - code
 ---
