@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Journal Detail Footer renders correctly 1`] = `
-.c4 {
+.c6 {
   color: var(--colorForeground);
   font-weight: 600;
   -webkit-text-decoration-color: var(--colorForegroundSoft);
@@ -11,8 +11,8 @@ exports[`Journal Detail Footer renders correctly 1`] = `
   text-underline-offset: 0.1em;
 }
 
-.c4:hover,
-.c4:focus {
+.c6:hover,
+.c6:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
@@ -20,6 +20,14 @@ exports[`Journal Detail Footer renders correctly 1`] = `
 .c3 {
   list-style: none;
   padding: 0;
+}
+
+.c4 {
+  margin-bottom: clamp( 0.402rem,0.86vw,0.482rem);
+}
+
+.c5 {
+  white-space: nowrap;
 }
 
 .c1 {
@@ -62,20 +70,26 @@ exports[`Journal Detail Footer renders correctly 1`] = `
   <ul
     class="c3"
   >
-    <li>
+    <li
+      class="c4"
+    >
       <cite>
         Sunflowers
         . 
       </cite>
-      Photography by
-       
-      <a
-        class="c4"
-        href="https://www.stefanimhoff.de"
-        rel="nofollow noopener noreferrer external"
+      <span
+        class="c5"
       >
-        Stefan Imhoff
-      </a>
+        Photography by
+         
+        <a
+          class="c6"
+          href="https://www.stefanimhoff.de"
+          rel="nofollow noopener noreferrer external"
+        >
+          Stefan Imhoff
+        </a>
+      </span>
     </li>
   </ul>
 </footer>

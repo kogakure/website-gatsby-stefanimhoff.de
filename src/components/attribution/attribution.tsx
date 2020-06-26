@@ -18,19 +18,19 @@ export const Attribution: React.FC<AttributionProps> = ({ data, ...props }) => (
   <>
     <Styled.Attribution {...props}>
       {data.map((attribution) => (
-        <li key={`${attribution.author}-${attribution.title}`}>
+        <Styled.ListItem key={`${attribution.author}-${attribution.title}`}>
           {attribution.title && <cite>{attribution.title}. </cite>}
           {attribution.url ? (
-            <>
+            <Styled.Author>
               Photography by{' '}
               <TextLink href={attribution.url}>{attribution.author}</TextLink>
-            </>
+            </Styled.Author>
           ) : (
-            <>
+            <Styled.Author>
               Photography by <b>{attribution.author}</b>
-            </>
+            </Styled.Author>
           )}
-        </li>
+        </Styled.ListItem>
       ))}
     </Styled.Attribution>
   </>
