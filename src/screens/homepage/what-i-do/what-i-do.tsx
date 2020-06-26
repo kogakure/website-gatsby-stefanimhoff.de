@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import { Headline, Paragraph } from '../../../components/typography';
+import { MoreLink } from '../../../components/more-link';
 import { TextLink } from '../../../components/text-link';
 
 import { Styled } from './what-i-do.styles';
@@ -25,7 +26,7 @@ export const WhatIDo: React.FC = () => (
         <TextLink href="https://www.xing.com/">XING</TextLink>, the biggest
         business network in Europe, working on the Design&nbsp;System.
       </Paragraph>
-      <Paragraph noMargin>
+      <Paragraph>
         I love innovating: During multiple{' '}
         <TextLink href="https://medium.com/xing-hackweek">HackWeeks</TextLink> I
         was part of a small team creating a complete new job platform for
@@ -33,6 +34,7 @@ export const WhatIDo: React.FC = () => (
         <em>Prototyping Days</em>, a yearly two-day company-wide
         prototyping&nbsp;event.
       </Paragraph>
+      <MoreLink to="/projects/" />
     </Styled.Text>
   </Styled.WhatIDo>
 );
