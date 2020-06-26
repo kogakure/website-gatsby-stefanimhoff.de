@@ -6,8 +6,8 @@ author: Stefan Imhoff
 description: On the advantages of building yourself a morning routine and the details of my morning routine.
 cover: ./bed-book-journal.jpg
 attribution:
-  - author: "Annie Spratt"
-    url: "https://unsplash.com/photos/C8C020JnsjM"
+  - author: Annie Spratt
+    url: https://unsplash.com/photos/C8C020JnsjM
 categories:
   - self-improvement
 ---
