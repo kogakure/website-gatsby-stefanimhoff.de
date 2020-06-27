@@ -99,7 +99,7 @@ exports[`Journal Introduction renders correctly 1`] = `
   <p
     class="c1"
   >
-    I am writing about code, design, productivity, self-improvement, films and books in this Journal and publish a monthly article with recommendations.
+    I am writing about code, design, productivity, self-improvement, films, and books in this Journal and publish a monthly article with recommendations.
   </p>
 </div>
 `;
