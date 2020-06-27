@@ -1,12 +1,14 @@
 ---
 published: true
-title: Migrating to Hugo from Jekyll
+title: Migrating to Hugo
 author: Stefan Imhoff
 date: 2016-08-27T13:05:57+02:00
 description: A blog post about the migration from Jekyll to Hugo and why it’s worth to try out Hugo.
 categories:
   - code
 ---
+
+## Migrating from Jekyll to Hugo
 
 After running over 2 years with [Jekyll](https://jekyllrb.com/) I recently replaced it with [Hugo](https://gohugo.io/), a static site generator written in Go.
 
