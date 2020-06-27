@@ -26,15 +26,18 @@ exports[`ThemeToggle renders correctly 1`] = `
   font-size: 0.8rem;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  -webkit-transition-property: font-size;
-  transition-property: font-size;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
 
 .c1:hover,
 .c1:focus {
-  font-size: 1rem;
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 <button

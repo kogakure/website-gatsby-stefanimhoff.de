@@ -39,15 +39,18 @@ exports[`MinimalLayout renders correctly 1`] = `
   font-size: 0.8rem;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  -webkit-transition-property: font-size;
-  transition-property: font-size;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
 
 .c9:hover,
 .c9:focus {
-  font-size: 1rem;
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 .c5 {
@@ -221,15 +224,18 @@ exports[`MinimalLayout with variant "blue" renders correctly 1`] = `
   font-size: 0.8rem;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  -webkit-transition-property: font-size;
-  transition-property: font-size;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
 
 .c9:hover,
 .c9:focus {
-  font-size: 1rem;
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 .c5 {
@@ -403,15 +409,18 @@ exports[`MinimalLayout with variant "brown" renders correctly 1`] = `
   font-size: 0.8rem;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  -webkit-transition-property: font-size;
-  transition-property: font-size;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
 
 .c9:hover,
 .c9:focus {
-  font-size: 1rem;
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 .c5 {
@@ -585,15 +594,18 @@ exports[`MinimalLayout with variant "green" renders correctly 1`] = `
   font-size: 0.8rem;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  -webkit-transition-property: font-size;
-  transition-property: font-size;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
 
 .c9:hover,
 .c9:focus {
-  font-size: 1rem;
+  -webkit-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 .c5 {

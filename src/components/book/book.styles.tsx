@@ -10,19 +10,18 @@ const borderRadius = css`
 `;
 
 const baseBook = css`
-  /* stylelint-disable plugin/stylelint-no-indistinguishable-colors, 
-     plugin/no-low-performance-animation-properties */
+  /* stylelint-disable plugin/stylelint-no-indistinguishable-colors */
   box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.5);
   display: inline-flex;
   position: relative;
   transition-duration: 500ms;
-  transition-property: box-shadow;
+  transition-property: transform;
   transition-timing-function: ease-in-out;
   vertical-align: bottom;
 
   &:hover,
   &:focus {
-    box-shadow: 0 0.1em 0.8em rgba(0, 0, 0, 0.8);
+    transform: scale(1.03);
   }
 
   &::before {
@@ -47,10 +46,19 @@ const baseBook = css`
     box-shadow: 0 0 2em rgba(0, 0, 0, 0.8);
     content: '';
     left: 0;
+    opacity: 0;
     position: absolute;
     right: 50%;
     top: 1em;
+    transition-duration: 500ms;
+    transition-property: opacity;
+    transition-timing-function: ease-in-out;
     z-index: -1;
+  }
+
+  &:hover::after,
+  &:focus::after {
+    opacity: 1;
   }
 `;
 
