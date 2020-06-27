@@ -20,8 +20,9 @@ export const Introduction: React.FC = () => (
       of the day.
     </Paragraph>
     <Paragraph>
-      I am writing about code, design, productivity, self-improvement, films and
-      books in this Journal and publish a monthly article with recommendations.
+      I am writing about code, design, productivity, self-improvement, films,
+      and books in this Journal and publish a monthly article with
+      recommendations.
     </Paragraph>
   </Styled.Introduction>
 );

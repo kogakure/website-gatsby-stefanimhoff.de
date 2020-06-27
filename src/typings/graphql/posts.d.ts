@@ -5,10 +5,10 @@ export type EdgeNode<Type> = {
   };
 };
 
+export type HomepageJournalPost = {
+  edges: [EdgeNode];
+};
+
 export type PostsQueryData = {
-  data: {
-    homepageJournalPosts: {
-      edges: [EdgeNode];
-    };
-  };
+  homepageJournalPosts: HomepageJournalPost;
 };
