@@ -15,16 +15,15 @@ const Button = styled.button`
 `;
 
 export const CircleIcon = styled(Circle)`
-  /* stylelint-disable plugin/no-low-performance-animation-properties */
   fill: var(--colorForeground);
   font-size: 0.8rem;
   transition-duration: ${transitionDuration[5]};
-  transition-property: font-size;
+  transition-property: transform;
   transition-timing-function: ease-in-out;
 
   &:hover,
   &:focus {
-    font-size: 1rem;
+    transform: scale(1.25);
   }
 `;
 

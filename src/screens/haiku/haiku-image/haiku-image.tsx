@@ -20,5 +20,9 @@ export const HaikuImage: React.FC = () => {
     }
   `);
 
-  return <Styled.HaikuImage fluid={fluid} />;
+  return (
+    <Styled.HaikuImageContainer>
+      <Styled.HaikuImage fluid={fluid} />
+    </Styled.HaikuImageContainer>
+  );
 };

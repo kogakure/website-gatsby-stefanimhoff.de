@@ -10,8 +10,9 @@ exports[`AmazonBook in "large" renders correctly 1`] = `
   position: relative;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
   vertical-align: bottom;
@@ -19,7 +20,9 @@ exports[`AmazonBook in "large" renders correctly 1`] = `
 
 .c0:hover,
 .c0:focus {
-  box-shadow: 0 0.1em 0.8em rgba(0,0,0,0.8);
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .c0::before {
@@ -43,10 +46,22 @@ exports[`AmazonBook in "large" renders correctly 1`] = `
   box-shadow: 0 0 2em rgba(0,0,0,0.8);
   content: '';
   left: 0;
+  opacity: 0;
   position: absolute;
   right: 50%;
   top: 1em;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
   z-index: -1;
+}
+
+.c0:hover::after,
+.c0:focus::after {
+  opacity: 1;
 }
 
 .c1 {
@@ -81,8 +96,9 @@ exports[`AmazonBook in "medium" renders correctly 1`] = `
   position: relative;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
   vertical-align: bottom;
@@ -90,7 +106,9 @@ exports[`AmazonBook in "medium" renders correctly 1`] = `
 
 .c0:hover,
 .c0:focus {
-  box-shadow: 0 0.1em 0.8em rgba(0,0,0,0.8);
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .c0::before {
@@ -114,10 +132,22 @@ exports[`AmazonBook in "medium" renders correctly 1`] = `
   box-shadow: 0 0 2em rgba(0,0,0,0.8);
   content: '';
   left: 0;
+  opacity: 0;
   position: absolute;
   right: 50%;
   top: 1em;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
   z-index: -1;
+}
+
+.c0:hover::after,
+.c0:focus::after {
+  opacity: 1;
 }
 
 .c1 {
@@ -152,8 +182,9 @@ exports[`AmazonBook in "small" renders correctly 1`] = `
   position: relative;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
   vertical-align: bottom;
@@ -161,7 +192,9 @@ exports[`AmazonBook in "small" renders correctly 1`] = `
 
 .c0:hover,
 .c0:focus {
-  box-shadow: 0 0.1em 0.8em rgba(0,0,0,0.8);
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .c0::before {
@@ -185,10 +218,22 @@ exports[`AmazonBook in "small" renders correctly 1`] = `
   box-shadow: 0 0 2em rgba(0,0,0,0.8);
   content: '';
   left: 0;
+  opacity: 0;
   position: absolute;
   right: 50%;
   top: 1em;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
   z-index: -1;
+}
+
+.c0:hover::after,
+.c0:focus::after {
+  opacity: 1;
 }
 
 .c1 {
@@ -223,8 +268,9 @@ exports[`AmazonBook renders correctly 1`] = `
   position: relative;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  -webkit-transition-property: box-shadow;
-  transition-property: box-shadow;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
   vertical-align: bottom;
@@ -232,7 +278,9 @@ exports[`AmazonBook renders correctly 1`] = `
 
 .c0:hover,
 .c0:focus {
-  box-shadow: 0 0.1em 0.8em rgba(0,0,0,0.8);
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .c0::before {
@@ -256,10 +304,22 @@ exports[`AmazonBook renders correctly 1`] = `
   box-shadow: 0 0 2em rgba(0,0,0,0.8);
   content: '';
   left: 0;
+  opacity: 0;
   position: absolute;
   right: 50%;
   top: 1em;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
   z-index: -1;
+}
+
+.c0:hover::after,
+.c0:focus::after {
+  opacity: 1;
 }
 
 .c1 {

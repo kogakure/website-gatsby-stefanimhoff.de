@@ -20,5 +20,9 @@ export const Photo: React.FC = () => {
     }
   `);
 
-  return <Styled.PortraitPhoto fluid={fluid} />;
+  return (
+    <Styled.PortraitPhotoContainer>
+      <Styled.PortraitPhoto fluid={fluid} />
+    </Styled.PortraitPhotoContainer>
+  );
 };

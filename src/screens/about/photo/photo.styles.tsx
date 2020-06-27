@@ -3,8 +3,7 @@ import styled from 'styled-components';
 import { mediaQuery } from '../../../layout/tokens';
 import { Image } from '../../../components/image';
 
-const PortraitPhoto = styled(Image)`
-  border-left-width: 0;
+const PortraitPhotoContainer = styled.div`
   grid-column: 1 / 12;
   grid-row: 2;
 
@@ -18,6 +17,11 @@ const PortraitPhoto = styled(Image)`
   }
 `;
 
+const PortraitPhoto = styled(Image)`
+  border-left-width: 0;
+`;
+
 export const Styled = {
   PortraitPhoto,
+  PortraitPhotoContainer,
 };

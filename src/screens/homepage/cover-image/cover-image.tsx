@@ -20,5 +20,9 @@ export const CoverImage: React.FC = () => {
     }
   `);
 
-  return <Styled.CoverImage fluid={fluid} />;
+  return (
+    <Styled.ImageContainer>
+      <Styled.CoverImage fluid={fluid} />
+    </Styled.ImageContainer>
+  );
 };

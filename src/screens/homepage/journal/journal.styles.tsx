@@ -30,7 +30,6 @@ const Grid = styled.div`
 `;
 
 const Post = styled.article<{ bottomSpace: string; topSpace: string }>`
-  /* stylelint-disable plugin/no-low-performance-animation-properties */
   align-self: auto;
   background-color: var(--colorForegroundFeather);
   border-color: var(--colorForegroundSoft);
@@ -41,14 +40,34 @@ const Post = styled.article<{ bottomSpace: string; topSpace: string }>`
   margin-bottom: 0;
   margin-top: 0;
   padding: ${space[5]};
+  position: relative;
   transition-duration: 500ms;
-  transition-property: box-shadow, transform;
+  transition-property: transform;
   transition-timing-function: ease-in-out;
 
   &:hover,
   &:focus {
-    box-shadow: ${shadow.subtleShade};
     transform: scale(1.03);
+  }
+
+  &::after {
+    box-shadow: ${shadow.subtleShade};
+    content: '';
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition-duration: 500ms;
+    transition-property: opacity;
+    transition-timing-function: ease-in-out;
+    width: 100%;
+    z-index: -1;
+  }
+
+  &:hover::after,
+  &:focus::after {
+    opacity: 1;
   }
 
   @media (${mediaQuery.tablet}) {
