@@ -125,7 +125,7 @@ exports[`About AboutMe renders correctly 1`] = `
     is my favourite dish.
   </p>
   <p
-    class="c4"
+    class="c1"
   >
     I see myself as a 
     <a
@@ -161,7 +161,20 @@ exports[`About AboutMe renders correctly 1`] = `
     >
       website
     </a>
-     about Ninja and Ninjutsu.
+     about Ninja and Ninjutsu. .
+  </p>
+  <p
+    class="c4"
+  >
+    See what I’m doing right 
+    <a
+      block="0"
+      class="c2"
+      href="/now/"
+    >
+      now
+    </a>
+    .
   </p>
 </section>
 `;
