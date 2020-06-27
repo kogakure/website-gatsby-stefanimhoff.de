@@ -28,13 +28,16 @@ export const AboutMe: React.FC = () => (
       </TextLink>{' '}
       is my favourite dish.
     </Paragraph>
-    <Paragraph noMargin>
+    <Paragraph>
       I see myself as a <TextLink to="/minimalism/">Minimalist</TextLink>, a
       Stoic, an Introvert and Japanophile. Writing is a passion of me. Besides
       writing <TextLink to="/journal/">articles</TextLink> I’ve written a{' '}
       <TextLink href="https://book.kogakure.de/">book</TextLink> and run{' '}
       <TextLink href="https://www.kogakure.de/">website</TextLink> about Ninja
-      and Ninjutsu.
+      and Ninjutsu. .
+    </Paragraph>
+    <Paragraph noMargin>
+      See what I’m doing right <TextLink to="/now/">now</TextLink>.
     </Paragraph>
   </Styled.AboutMe>
 );
