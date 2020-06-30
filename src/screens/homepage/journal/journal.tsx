@@ -9,6 +9,7 @@ import {
   Paragraph,
 } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
+import { TextLink } from '../../../components/text-link';
 
 import { Styled } from './journal.styles';
 
@@ -29,6 +30,21 @@ export const Journal: React.FC = () => {
           </Paragraph>
           <MoreLink to="/journal/" />
         </Styled.Text>
+        <Styled.Subscribe>
+          <SubSubheadline as="h3">Subscribe</SubSubheadline>
+          <Paragraph noMargin>
+            Stay up to date. Subscribe to my{' '}
+            <TextLink href="https://mailchi.mp/2658683a02d9/stefanimhoff">
+              newsletter
+            </TextLink>
+            ,{' '}
+            <TextLink href="https://www.stefanimhoff.de/index.xml">
+              RSS feed
+            </TextLink>
+            , and follow me on{' '}
+            <TextLink href="https://twitter.com/kogakure">Twitter</TextLink>.
+          </Paragraph>
+        </Styled.Subscribe>
       </Styled.Introduction>
       <Styled.Grid>
         {edges.map(({ node }) => {

@@ -19,8 +19,21 @@ const Introduction = styled.header`
 `;
 
 const Text = styled.div`
-  grid-column: 1 / 10;
+  grid-column: 1 / -1;
   margin-bottom: ${space[10]};
+
+  @media (${mediaQuery.tablet}) {
+    grid-column: 1 / 7;
+  }
+`;
+
+const Subscribe = styled.div`
+  grid-column: 1 / -1;
+  margin-bottom: ${space[10]};
+
+  @media (${mediaQuery.tablet}) {
+    grid-column: 8 / -1;
+  }
 `;
 
 const Grid = styled.div`
@@ -102,5 +115,6 @@ export const Styled = {
   Journal,
   LinkedPost,
   Post,
+  Subscribe,
   Text,
 };
