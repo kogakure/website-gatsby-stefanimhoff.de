@@ -17,7 +17,7 @@ export const Sketchnotes: React.FC = () => {
     query {
       sketchnotesImage: file(relativePath: { eq: "projects/sketchnotes.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1280) {
+          fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid
           }
         }

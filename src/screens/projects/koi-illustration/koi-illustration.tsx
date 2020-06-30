@@ -19,7 +19,7 @@ export const KoiIllustration: React.FC = () => {
         relativePath: { eq: "projects/koi-illustration.jpg" }
       ) {
         childImageSharp {
-          fluid(maxWidth: 1400) {
+          fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid
           }
         }

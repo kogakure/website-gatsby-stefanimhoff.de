@@ -99,7 +99,7 @@ export const pageQuery = graphql`
         cover {
           publicURL
           childImageSharp {
-            fluid(maxWidth: 2500) {
+            fluid(maxWidth: 1200) {
               aspectRatio
               sizes
               src
