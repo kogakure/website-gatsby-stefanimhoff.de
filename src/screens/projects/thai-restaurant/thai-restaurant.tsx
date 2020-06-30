@@ -37,7 +37,10 @@ export const ThaiRestaurant: React.FC = () => {
           <strong>2010</strong>. It was online for nearly ten years and I had a
           lot of fun creating it.
         </Paragraph>
-        <MoreLink to="/showcase/thai-restaurants-hamburg/" />
+        <MoreLink
+          to="/showcase/thai-restaurants-hamburg/"
+          aria-label="See the showcase Thai Restaurant Hamburg"
+        />
       </TextBlock>
       <Styled.Image fluid={fluid} />
     </Row>

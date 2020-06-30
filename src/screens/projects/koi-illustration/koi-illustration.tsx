@@ -41,7 +41,11 @@ export const KoiIllustration: React.FC = () => {
             <strong>2007</strong> with a pencil on paper and then brought it
             into Adobe Photoshop, where all coloring was done.
           </Paragraph>
-          <MoreLink block to="/showcase/koi-illustration/" />
+          <MoreLink
+            block
+            to="/showcase/koi-illustration/"
+            aria-label="See the showcase Koi Illustration"
+          />
         </TextBlock>
       </Row>
     </>

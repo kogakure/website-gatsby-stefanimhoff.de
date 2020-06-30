@@ -198,6 +198,7 @@ a:focus .c6 {
       , a yearly two-day company-wide prototyping event.
     </p>
     <a
+      aria-label="See all my projects"
       block="0"
       class="c5"
       href="/projects/"
