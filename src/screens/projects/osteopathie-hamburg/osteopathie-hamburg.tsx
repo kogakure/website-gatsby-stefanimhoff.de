@@ -35,11 +35,14 @@ export const OsteopathieHamburg: React.FC = () => {
         <Headline>Osteopathie-Institut Hamburg</Headline>
         <Paragraph>
           I created this website for the{' '}
-          <strong>Osteopathie-Insitut Hamburg</strong> in <strong>2010</strong>{' '}
+          <strong>Osteopathie-Institut Hamburg</strong> in <strong>2010</strong>{' '}
           as one of my last websites before I started working as a{' '}
           <em>Frontend Engineer</em> for XING.
         </Paragraph>
-        <MoreLink to="/showcase/osteopathie-hamburg/" />
+        <MoreLink
+          to="/showcase/osteopathie-hamburg/"
+          aria-label="See the showcase Osteopathie-Institut Hamburg"
+        />
       </TextBlock>
     </Row>
   );

@@ -14,7 +14,7 @@ export const AboutMe: React.FC = () => (
       writing Haiku.
     </Paragraph>
     <Paragraph noMargin>
-      <MoreLink to="/about/" />
+      <MoreLink to="/about/" aria-label="More information about me" />
     </Paragraph>
   </Styled.AboutMe>
 );

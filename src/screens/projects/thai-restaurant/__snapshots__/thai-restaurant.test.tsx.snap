@@ -244,6 +244,7 @@ a:focus .c7 {
         . It was online for nearly ten years and I had a lot of fun creating it.
       </p>
       <a
+        aria-label="See the showcase Thai Restaurant Hamburg"
         block="0"
         class="c6"
         href="/showcase/thai-restaurants-hamburg/"

@@ -316,6 +316,7 @@ a:focus .c11 {
         iteration of the design.
       </p>
       <a
+        aria-label="See the showcase Martial Arts Online Magazine"
         block="0"
         class="c10"
         href="/showcase/kogakure/"

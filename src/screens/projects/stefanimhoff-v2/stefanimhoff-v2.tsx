@@ -38,7 +38,10 @@ export const StefanImhoffV2: React.FC = () => {
           and is the website you’re looking at. The previous design was the{' '}
           <strong>2nd</strong> iteration of the design.
         </Paragraph>
-        <MoreLink to="/showcase/stefanimhoff-v2/" />
+        <MoreLink
+          to="/showcase/stefanimhoff-v2/"
+          aria-label="See the showcase Personal Website and Blog"
+        />
       </TextBlock>
     </Row>
   );

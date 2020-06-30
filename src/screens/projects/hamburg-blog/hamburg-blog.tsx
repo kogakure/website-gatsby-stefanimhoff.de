@@ -40,7 +40,10 @@ export const HamburgBlog: React.FC = () => {
           sometimes biking to find out more about the individual districts and
           to shoot photos.
         </Paragraph>
-        <MoreLink to="/showcase/hamburg-blog/" />
+        <MoreLink
+          to="/showcase/hamburg-blog/"
+          aria-label="See the showcase Exploring Hamburg"
+        />
       </TextBlock>
       <Styled.Image fluid={fluid} />
     </Row>

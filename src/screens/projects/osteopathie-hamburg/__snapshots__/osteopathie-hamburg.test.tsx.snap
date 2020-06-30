@@ -274,7 +274,7 @@ a:focus .c10 {
         I created this website for the
          
         <strong>
-          Osteopathie-Insitut Hamburg
+          Osteopathie-Institut Hamburg
         </strong>
          in 
         <strong>
@@ -289,6 +289,7 @@ a:focus .c10 {
          for XING.
       </p>
       <a
+        aria-label="See the showcase Osteopathie-Institut Hamburg"
         block="0"
         class="c9"
         href="/showcase/osteopathie-hamburg/"

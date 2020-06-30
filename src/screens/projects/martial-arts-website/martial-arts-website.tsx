@@ -44,7 +44,10 @@ export const MartialArtsWebsite: React.FC = () => {
           website. The current design is already the <strong>7th</strong>{' '}
           iteration of the design.
         </Paragraph>
-        <MoreLink to="/showcase/kogakure/" />
+        <MoreLink
+          to="/showcase/kogakure/"
+          aria-label="See the showcase Martial Arts Online Magazine"
+        />
       </TextBlock>
     </Row>
   );

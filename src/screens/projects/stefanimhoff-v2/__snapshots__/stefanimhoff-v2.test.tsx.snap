@@ -283,6 +283,7 @@ a:focus .c10 {
          iteration of the design.
       </p>
       <a
+        aria-label="See the showcase Personal Website and Blog"
         block="0"
         class="c9"
         href="/showcase/stefanimhoff-v2/"

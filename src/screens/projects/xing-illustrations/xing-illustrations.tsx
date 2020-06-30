@@ -45,7 +45,10 @@ export const XingIllustrations: React.FC = () => {
             and finished the whole process from concept, scribbles to final
             illustrations in a day.
           </Paragraph>
-          <MoreLink to="/showcase/xing-onboarding-illustrations/" />
+          <MoreLink
+            to="/showcase/xing-onboarding-illustrations/"
+            aria-label="See the showcase XING Onboarding Illustrations"
+          />
         </TextBlock>
       </Row>
     </>
