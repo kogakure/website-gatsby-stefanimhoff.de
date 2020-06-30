@@ -20,7 +20,7 @@ export const XingIllustrations: React.FC = () => {
         relativePath: { eq: "projects/xing-illustrations.jpg" }
       ) {
         childImageSharp {
-          fluid(maxWidth: 1500) {
+          fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid
           }
         }

@@ -19,7 +19,7 @@ export const IgaNinjaFont: React.FC = () => {
         relativePath: { eq: "projects/ingo-iga-ninja-cipher.jpg" }
       ) {
         childImageSharp {
-          fluid(maxWidth: 1400) {
+          fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid
           }
         }
