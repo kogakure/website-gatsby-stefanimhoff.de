@@ -100,10 +100,7 @@ export const pageQuery = graphql`
           publicURL
           childImageSharp {
             fluid(maxWidth: 1200) {
-              aspectRatio
-              sizes
-              src
-              srcSet
+              ...GatsbyImageSharpFluid
             }
           }
         }
@@ -111,10 +108,7 @@ export const pageQuery = graphql`
           publicURL
           childImageSharp {
             fluid(maxWidth: 1200) {
-              aspectRatio
-              sizes
-              src
-              srcSet
+              ...GatsbyImageSharpFluid
             }
           }
         }
