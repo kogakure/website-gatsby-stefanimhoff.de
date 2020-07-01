@@ -43,6 +43,18 @@ exports[`Homepage WhatIDo renders correctly 1`] = `
 }
 
 .c5 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.c6 {
   color: var(--colorForeground);
   font-weight: 600;
   -webkit-text-decoration-color: var(--colorForegroundSoft);
@@ -52,8 +64,8 @@ exports[`Homepage WhatIDo renders correctly 1`] = `
   text-underline-offset: 0.1em;
 }
 
-.c5:hover,
-.c5:focus {
+.c6:hover,
+.c6:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
@@ -74,7 +86,7 @@ exports[`Homepage WhatIDo renders correctly 1`] = `
   text-decoration-color: var(--colorAccent);
 }
 
-.c6 {
+.c7 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -92,9 +104,9 @@ exports[`Homepage WhatIDo renders correctly 1`] = `
   transition-timing-function: ease-in-out;
 }
 
-a:hover .c6,
-a:active .c6,
-a:focus .c6 {
+a:hover .c7,
+a:active .c7,
+a:focus .c7 {
   -webkit-transform: translate3D(0.25rem,0,0);
   -ms-transform: translate3D(0.25rem,0,0);
   transform: translate3D(0.25rem,0,0);
@@ -108,8 +120,9 @@ a:focus .c6 {
 .c2 {
   -webkit-column-count: 1;
   column-count: 1;
-  -webkit-column-gap: 5.55vw;
-  column-gap: 5.55vw;
+  -webkit-column-gap: 2.775vw;
+  column-gap: 2.775vw;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
 }
 
 @media screen and (prefers-reduced-motion:no-preference) {
@@ -197,15 +210,19 @@ a:focus .c6 {
       </em>
       , a yearly two-day company-wide prototyping event.
     </p>
+  </div>
+  <p
+    class="c5"
+  >
     <a
       aria-label="See all my projects"
       block="0"
-      class="c5"
+      class="c6"
       href="/projects/"
     >
       More
       <span
-        class="c6"
+        class="c7"
       >
         <svg
           height="1em"
@@ -222,6 +239,6 @@ a:focus .c6 {
         </svg>
       </span>
     </a>
-  </div>
+  </p>
 </div>
 `;

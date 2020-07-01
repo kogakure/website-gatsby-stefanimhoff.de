@@ -34,7 +34,9 @@ export const WhatIDo: React.FC = () => (
         <em>Prototyping Days</em>, a yearly two-day company-wide
         prototyping&nbsp;event.
       </Paragraph>
-      <MoreLink to="/projects/" aria-label="See all my projects" />
     </Styled.Text>
+    <Paragraph noMargin>
+      <MoreLink to="/projects/" aria-label="See all my projects" />
+    </Paragraph>
   </Styled.WhatIDo>
 );
