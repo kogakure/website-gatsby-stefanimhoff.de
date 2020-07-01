@@ -4,6 +4,8 @@ import { Normalize } from 'styled-normalize';
 import { EmojifyProvider, LocalizedDateProvider } from './src/contexts';
 import { GlobalStyles } from './src/layout';
 
+const WebFont = require('webfontloader');
+
 const sourceCodeInfo = `👋 I see you’re interested in the source code of this site? 👨🏻‍💻 I build it with Gatsby, React, TypeScript and Styled Components. You can find it here:
 
 👉 https://github.com/kogakure/website-gatsby-stefanimhoff.de
@@ -29,5 +31,14 @@ export const onClientEntry = () => {
     root.classList.remove('no-js');
     // eslint-disable-next-line no-console
     console.info(sourceCodeInfo);
+  });
+};
+
+export const onInitialClientRender = () => {
+  WebFont.load({
+    custom: {
+      families: ['Playfair Display Webfont', 'Playfair Display SC Webfont'],
+      urls: ['/fonts/fonts.css'],
+    },
   });
 };
