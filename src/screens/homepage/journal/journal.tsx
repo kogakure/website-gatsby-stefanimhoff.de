@@ -37,8 +37,11 @@ export const Journal: React.FC = () => {
           <SubSubheadline as="h3">Subscribe</SubSubheadline>
           <Paragraph noMargin>
             Stay up to date. Subscribe to my{' '}
-            <TextLink href="https://mailchi.mp/2658683a02d9/stefanimhoff">
-              newsletter
+            <TextLink
+              href="https://mailchi.mp/2658683a02d9/stefanimhoff"
+              target="_blank"
+            >
+              Newsletter
             </TextLink>
             ,{' '}
             <TextLink href="https://www.stefanimhoff.de/index.xml">

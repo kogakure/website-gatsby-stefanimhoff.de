@@ -6,6 +6,7 @@ export type TextLinkProps = {
   block?: boolean | 0 | 1;
   href?: string;
   to?: string;
+  target?: string;
 };
 
 export const TextLink: React.FC<TextLinkProps> = ({
