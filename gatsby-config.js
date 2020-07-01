@@ -21,6 +21,14 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     'gatsby-plugin-styled-components',
+    {
+      resolve: 'gatsby-plugin-layout',
+      options: {
+        component: require.resolve(
+          './src/layout/page-transition/transition-layout.tsx'
+        ),
+      },
+    },
     'gatsby-plugin-typescript',
     'gatsby-remark-reading-time',
     'gatsby-transformer-yaml',
