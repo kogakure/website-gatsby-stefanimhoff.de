@@ -61,7 +61,6 @@
     "gatsby-plugin-sharp": "^2.6.12",
     "gatsby-plugin-styled-components": "^3.3.4",
     "gatsby-plugin-typescript": "^2.4.6",
-    "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-remark-autolink-headers": "^2.3.5",
     "gatsby-remark-copy-linked-files": "^2.3.5",
     "gatsby-remark-external-links": "^0.0.4",
@@ -84,7 +83,8 @@
     "styled-components": "^5.1.1",
     "styled-normalize": "^8.0.7",
     "use-persisted-state": "^0.3.0",
-    "vscode-apache": "https://github.com/mrmlnc/vscode-apache.git#1.2.0"
+    "vscode-apache": "https://github.com/mrmlnc/vscode-apache.git#1.2.0",
+    "webfontloader": "^1.6.28"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",

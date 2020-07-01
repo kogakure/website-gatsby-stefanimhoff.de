@@ -69,15 +69,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        custom: {
-          families: ['Playfair Display Webfont', 'Playfair Display SC Webfont'],
-          urls: ['/fonts/fonts.css'],
-        },
-      },
-    },
-    {
       resolve: 'gatsby-plugin-mdx',
       options: {
         extensions: ['.mdx', '.md'],
