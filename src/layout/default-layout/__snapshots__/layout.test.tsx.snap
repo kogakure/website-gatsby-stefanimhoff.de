@@ -143,6 +143,139 @@ exports[`Layout renders correctly 1`] = `
   justify-self: center;
 }
 
+.c12 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.c13 {
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c18 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.c19 {
+  fill: var(--colorForeground);
+  font-size: 1.2rem;
+}
+
+.c16 {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c16:hover,
+.c16:focus {
+  -webkit-transform: translate3D(0,-0.25rem,0);
+  -ms-transform: translate3D(0,-0.25rem,0);
+  transform: translate3D(0,-0.25rem,0);
+}
+
+.c20 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: clamp(15px,2.4vw,50px);
+}
+
+.c22 {
+  font-size: 14px;
+  position: relative;
+  top: 1px;
+}
+
+.c23 {
+  font-size: 12px;
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.c24 {
+  color: var(--colorForeground);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c24:hover,
+.c24:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--colorAccent) !important;
+  text-decoration-color: var(--colorAccent) !important;
+  -webkit-text-decoration-thickness: 0.15em;
+  text-decoration-thickness: 0.15em;
+  text-underline-offset: 0.15em;
+}
+
+.c25 {
+  font-size: 12px;
+}
+
+.c26 {
+  font-size: 14px;
+}
+
+.c15 {
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-template-rows: clamp(50px,5.55vw,150px);
+  margin-top: clamp(25px,5.55vw,150px);
+}
+
+.c21 {
+  grid-column: 1 / -3;
+  grid-row: 1;
+}
+
+.c17 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  grid-column: -2;
+  grid-row: 1;
+  justify-self: center;
+}
+
+.c14 {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
 @media (min-width:300px) {
   .c5 {
     -webkit-align-self: center;
@@ -151,90 +284,174 @@ exports[`Layout renders correctly 1`] = `
   }
 }
 
-<header
-  class="c0"
-  role="banner"
->
-  <a
-    class="c1 c2"
-    href="/"
+<div>
+  <div
+    style="transition: opacity 300ms ease-in-out; opacity: 1;"
   >
-    <button
-      aria-label="Back to Homepage"
-      class="c3"
-      type="button"
+    <header
+      class="c0"
+      role="banner"
     >
-      <svg
-        aria-hidden="true"
-        class="c4"
-        height="1em"
-        viewBox="0 0 24 24"
-        width="1em"
+      <a
+        class="c1 c2"
+        href="/"
       >
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
-        />
-      </svg>
-    </button>
-  </a>
-  <nav
-    class="c5"
-    role="navigation"
-  >
-    <ul
-      class="c6"
-    >
-      <li
-        class="c7"
-      >
-        <a
-          class="c8"
-          href="/about/"
+        <button
+          aria-label="Back to Homepage"
+          class="c3"
+          type="button"
         >
-          About
-        </a>
-      </li>
-      <li
-        class="c7"
+          <svg
+            aria-hidden="true"
+            class="c4"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
+            />
+          </svg>
+        </button>
+      </a>
+      <nav
+        class="c5"
+        role="navigation"
       >
-        <a
-          class="c8"
-          href="/projects/"
+        <ul
+          class="c6"
         >
-          Projects
-        </a>
-      </li>
-    </ul>
-  </nav>
-  <button
-    aria-label="Switch to light theme"
-    class="c9 c10"
-    type="button"
-  >
-    <svg
-      aria-hidden="true"
-      class="c11"
-      clip-rule="evenodd"
-      fill-rule="evenodd"
-      height="1em"
-      role="img"
-      stroke-linejoin="round"
-      stroke-miterlimit="2"
-      viewBox="0 0 24 24"
-      width="1em"
+          <li
+            class="c7"
+          >
+            <a
+              class="c8"
+              href="/about/"
+            >
+              About
+            </a>
+          </li>
+          <li
+            class="c7"
+          >
+            <a
+              class="c8"
+              href="/projects/"
+            >
+              Projects
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button
+        aria-label="Switch to light theme"
+        class="c9 c10"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="c11"
+          clip-rule="evenodd"
+          fill-rule="evenodd"
+          height="1em"
+          role="img"
+          stroke-linejoin="round"
+          stroke-miterlimit="2"
+          viewBox="0 0 24 24"
+          width="1em"
+        >
+          <circle
+            cx="12"
+            cy="12"
+            r="9.967"
+          />
+        </svg>
+      </button>
+    </header>
+    <main
+      class="c12"
     >
-      <circle
-        cx="12"
-        cy="12"
-        r="9.967"
-      />
-    </svg>
-  </button>
-</header>
+      <div
+        class="c13"
+      >
+        <div
+          class="c14"
+        />
+      </div>
+    </main>
+    <footer
+      class="c15"
+      role="contentinfo"
+    >
+      <a
+        class="c16 c17"
+        href="#top"
+      >
+        <button
+          aria-label="Back to top"
+          class="c18"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="c19"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"
+            />
+          </svg>
+        </button>
+      </a>
+      <div
+        class="c20 c21"
+      >
+        <div>
+          <span
+            class="c22"
+          >
+            © 
+          </span>
+          <strong
+            class="c23"
+          >
+            <a
+              class="c24"
+              href="/imprint/"
+            >
+              Stefan Imhoff
+            </a>
+          </strong>
+          <span
+            class="c25"
+          >
+             / 
+          </span>
+          <span
+            class="c26"
+          >
+            <time
+              datetime="2020"
+            >
+              2006–
+              2020
+            </time>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
 `;
 
 exports[`Layout with variant "blue" renders correctly 1`] = `
@@ -380,6 +597,139 @@ exports[`Layout with variant "blue" renders correctly 1`] = `
   justify-self: center;
 }
 
+.c12 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.c13 {
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c18 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.c19 {
+  fill: var(--colorForeground);
+  font-size: 1.2rem;
+}
+
+.c16 {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c16:hover,
+.c16:focus {
+  -webkit-transform: translate3D(0,-0.25rem,0);
+  -ms-transform: translate3D(0,-0.25rem,0);
+  transform: translate3D(0,-0.25rem,0);
+}
+
+.c20 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: clamp(15px,2.4vw,50px);
+}
+
+.c22 {
+  font-size: 14px;
+  position: relative;
+  top: 1px;
+}
+
+.c23 {
+  font-size: 12px;
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.c24 {
+  color: var(--colorForeground);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c24:hover,
+.c24:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--colorAccent) !important;
+  text-decoration-color: var(--colorAccent) !important;
+  -webkit-text-decoration-thickness: 0.15em;
+  text-decoration-thickness: 0.15em;
+  text-underline-offset: 0.15em;
+}
+
+.c25 {
+  font-size: 12px;
+}
+
+.c26 {
+  font-size: 14px;
+}
+
+.c15 {
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-template-rows: clamp(50px,5.55vw,150px);
+  margin-top: clamp(25px,5.55vw,150px);
+}
+
+.c21 {
+  grid-column: 1 / -3;
+  grid-row: 1;
+}
+
+.c17 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  grid-column: -2;
+  grid-row: 1;
+  justify-self: center;
+}
+
+.c14 {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
 @media (min-width:300px) {
   .c5 {
     -webkit-align-self: center;
@@ -388,90 +738,174 @@ exports[`Layout with variant "blue" renders correctly 1`] = `
   }
 }
 
-<header
-  class="c0"
-  role="banner"
->
-  <a
-    class="c1 c2"
-    href="/"
+<div>
+  <div
+    style="transition: opacity 300ms ease-in-out; opacity: 1;"
   >
-    <button
-      aria-label="Back to Homepage"
-      class="c3"
-      type="button"
+    <header
+      class="c0"
+      role="banner"
     >
-      <svg
-        aria-hidden="true"
-        class="c4"
-        height="1em"
-        viewBox="0 0 24 24"
-        width="1em"
+      <a
+        class="c1 c2"
+        href="/"
       >
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
-        />
-      </svg>
-    </button>
-  </a>
-  <nav
-    class="c5"
-    role="navigation"
-  >
-    <ul
-      class="c6"
-    >
-      <li
-        class="c7"
-      >
-        <a
-          class="c8"
-          href="/about/"
+        <button
+          aria-label="Back to Homepage"
+          class="c3"
+          type="button"
         >
-          About
-        </a>
-      </li>
-      <li
-        class="c7"
+          <svg
+            aria-hidden="true"
+            class="c4"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
+            />
+          </svg>
+        </button>
+      </a>
+      <nav
+        class="c5"
+        role="navigation"
       >
-        <a
-          class="c8"
-          href="/projects/"
+        <ul
+          class="c6"
         >
-          Projects
-        </a>
-      </li>
-    </ul>
-  </nav>
-  <button
-    aria-label="Switch to light theme"
-    class="c9 c10"
-    type="button"
-  >
-    <svg
-      aria-hidden="true"
-      class="c11"
-      clip-rule="evenodd"
-      fill-rule="evenodd"
-      height="1em"
-      role="img"
-      stroke-linejoin="round"
-      stroke-miterlimit="2"
-      viewBox="0 0 24 24"
-      width="1em"
+          <li
+            class="c7"
+          >
+            <a
+              class="c8"
+              href="/about/"
+            >
+              About
+            </a>
+          </li>
+          <li
+            class="c7"
+          >
+            <a
+              class="c8"
+              href="/projects/"
+            >
+              Projects
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button
+        aria-label="Switch to light theme"
+        class="c9 c10"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="c11"
+          clip-rule="evenodd"
+          fill-rule="evenodd"
+          height="1em"
+          role="img"
+          stroke-linejoin="round"
+          stroke-miterlimit="2"
+          viewBox="0 0 24 24"
+          width="1em"
+        >
+          <circle
+            cx="12"
+            cy="12"
+            r="9.967"
+          />
+        </svg>
+      </button>
+    </header>
+    <main
+      class="c12"
     >
-      <circle
-        cx="12"
-        cy="12"
-        r="9.967"
-      />
-    </svg>
-  </button>
-</header>
+      <div
+        class="c13"
+      >
+        <div
+          class="c14"
+        />
+      </div>
+    </main>
+    <footer
+      class="c15"
+      role="contentinfo"
+    >
+      <a
+        class="c16 c17"
+        href="#top"
+      >
+        <button
+          aria-label="Back to top"
+          class="c18"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="c19"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"
+            />
+          </svg>
+        </button>
+      </a>
+      <div
+        class="c20 c21"
+      >
+        <div>
+          <span
+            class="c22"
+          >
+            © 
+          </span>
+          <strong
+            class="c23"
+          >
+            <a
+              class="c24"
+              href="/imprint/"
+            >
+              Stefan Imhoff
+            </a>
+          </strong>
+          <span
+            class="c25"
+          >
+             / 
+          </span>
+          <span
+            class="c26"
+          >
+            <time
+              datetime="2020"
+            >
+              2006–
+              2020
+            </time>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
 `;
 
 exports[`Layout with variant "brown" renders correctly 1`] = `
@@ -617,6 +1051,139 @@ exports[`Layout with variant "brown" renders correctly 1`] = `
   justify-self: center;
 }
 
+.c12 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.c13 {
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c18 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.c19 {
+  fill: var(--colorForeground);
+  font-size: 1.2rem;
+}
+
+.c16 {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c16:hover,
+.c16:focus {
+  -webkit-transform: translate3D(0,-0.25rem,0);
+  -ms-transform: translate3D(0,-0.25rem,0);
+  transform: translate3D(0,-0.25rem,0);
+}
+
+.c20 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: clamp(15px,2.4vw,50px);
+}
+
+.c22 {
+  font-size: 14px;
+  position: relative;
+  top: 1px;
+}
+
+.c23 {
+  font-size: 12px;
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.c24 {
+  color: var(--colorForeground);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c24:hover,
+.c24:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--colorAccent) !important;
+  text-decoration-color: var(--colorAccent) !important;
+  -webkit-text-decoration-thickness: 0.15em;
+  text-decoration-thickness: 0.15em;
+  text-underline-offset: 0.15em;
+}
+
+.c25 {
+  font-size: 12px;
+}
+
+.c26 {
+  font-size: 14px;
+}
+
+.c15 {
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-template-rows: clamp(50px,5.55vw,150px);
+  margin-top: clamp(25px,5.55vw,150px);
+}
+
+.c21 {
+  grid-column: 1 / -3;
+  grid-row: 1;
+}
+
+.c17 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  grid-column: -2;
+  grid-row: 1;
+  justify-self: center;
+}
+
+.c14 {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
 @media (min-width:300px) {
   .c5 {
     -webkit-align-self: center;
@@ -625,90 +1192,174 @@ exports[`Layout with variant "brown" renders correctly 1`] = `
   }
 }
 
-<header
-  class="c0"
-  role="banner"
->
-  <a
-    class="c1 c2"
-    href="/"
+<div>
+  <div
+    style="transition: opacity 300ms ease-in-out; opacity: 1;"
   >
-    <button
-      aria-label="Back to Homepage"
-      class="c3"
-      type="button"
+    <header
+      class="c0"
+      role="banner"
     >
-      <svg
-        aria-hidden="true"
-        class="c4"
-        height="1em"
-        viewBox="0 0 24 24"
-        width="1em"
+      <a
+        class="c1 c2"
+        href="/"
       >
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
-        />
-      </svg>
-    </button>
-  </a>
-  <nav
-    class="c5"
-    role="navigation"
-  >
-    <ul
-      class="c6"
-    >
-      <li
-        class="c7"
-      >
-        <a
-          class="c8"
-          href="/about/"
+        <button
+          aria-label="Back to Homepage"
+          class="c3"
+          type="button"
         >
-          About
-        </a>
-      </li>
-      <li
-        class="c7"
+          <svg
+            aria-hidden="true"
+            class="c4"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
+            />
+          </svg>
+        </button>
+      </a>
+      <nav
+        class="c5"
+        role="navigation"
       >
-        <a
-          class="c8"
-          href="/projects/"
+        <ul
+          class="c6"
         >
-          Projects
-        </a>
-      </li>
-    </ul>
-  </nav>
-  <button
-    aria-label="Switch to light theme"
-    class="c9 c10"
-    type="button"
-  >
-    <svg
-      aria-hidden="true"
-      class="c11"
-      clip-rule="evenodd"
-      fill-rule="evenodd"
-      height="1em"
-      role="img"
-      stroke-linejoin="round"
-      stroke-miterlimit="2"
-      viewBox="0 0 24 24"
-      width="1em"
+          <li
+            class="c7"
+          >
+            <a
+              class="c8"
+              href="/about/"
+            >
+              About
+            </a>
+          </li>
+          <li
+            class="c7"
+          >
+            <a
+              class="c8"
+              href="/projects/"
+            >
+              Projects
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button
+        aria-label="Switch to light theme"
+        class="c9 c10"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="c11"
+          clip-rule="evenodd"
+          fill-rule="evenodd"
+          height="1em"
+          role="img"
+          stroke-linejoin="round"
+          stroke-miterlimit="2"
+          viewBox="0 0 24 24"
+          width="1em"
+        >
+          <circle
+            cx="12"
+            cy="12"
+            r="9.967"
+          />
+        </svg>
+      </button>
+    </header>
+    <main
+      class="c12"
     >
-      <circle
-        cx="12"
-        cy="12"
-        r="9.967"
-      />
-    </svg>
-  </button>
-</header>
+      <div
+        class="c13"
+      >
+        <div
+          class="c14"
+        />
+      </div>
+    </main>
+    <footer
+      class="c15"
+      role="contentinfo"
+    >
+      <a
+        class="c16 c17"
+        href="#top"
+      >
+        <button
+          aria-label="Back to top"
+          class="c18"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="c19"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"
+            />
+          </svg>
+        </button>
+      </a>
+      <div
+        class="c20 c21"
+      >
+        <div>
+          <span
+            class="c22"
+          >
+            © 
+          </span>
+          <strong
+            class="c23"
+          >
+            <a
+              class="c24"
+              href="/imprint/"
+            >
+              Stefan Imhoff
+            </a>
+          </strong>
+          <span
+            class="c25"
+          >
+             / 
+          </span>
+          <span
+            class="c26"
+          >
+            <time
+              datetime="2020"
+            >
+              2006–
+              2020
+            </time>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
 `;
 
 exports[`Layout with variant "green" renders correctly 1`] = `
@@ -854,6 +1505,139 @@ exports[`Layout with variant "green" renders correctly 1`] = `
   justify-self: center;
 }
 
+.c12 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.c13 {
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c18 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+}
+
+.c19 {
+  fill: var(--colorForeground);
+  font-size: 1.2rem;
+}
+
+.c16 {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.c16:hover,
+.c16:focus {
+  -webkit-transform: translate3D(0,-0.25rem,0);
+  -ms-transform: translate3D(0,-0.25rem,0);
+  transform: translate3D(0,-0.25rem,0);
+}
+
+.c20 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: clamp(15px,2.4vw,50px);
+}
+
+.c22 {
+  font-size: 14px;
+  position: relative;
+  top: 1px;
+}
+
+.c23 {
+  font-size: 12px;
+  -webkit-letter-spacing: 0.05em;
+  -moz-letter-spacing: 0.05em;
+  -ms-letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.c24 {
+  color: var(--colorForeground);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c24:hover,
+.c24:focus {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--colorAccent) !important;
+  text-decoration-color: var(--colorAccent) !important;
+  -webkit-text-decoration-thickness: 0.15em;
+  text-decoration-thickness: 0.15em;
+  text-underline-offset: 0.15em;
+}
+
+.c25 {
+  font-size: 12px;
+}
+
+.c26 {
+  font-size: 14px;
+}
+
+.c15 {
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-template-rows: clamp(50px,5.55vw,150px);
+  margin-top: clamp(25px,5.55vw,150px);
+}
+
+.c21 {
+  grid-column: 1 / -3;
+  grid-row: 1;
+}
+
+.c17 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  grid-column: -2;
+  grid-row: 1;
+  justify-self: center;
+}
+
+.c14 {
+  grid-column: 1 / -1;
+  width: 100%;
+}
+
 @media (min-width:300px) {
   .c5 {
     -webkit-align-self: center;
@@ -862,88 +1646,172 @@ exports[`Layout with variant "green" renders correctly 1`] = `
   }
 }
 
-<header
-  class="c0"
-  role="banner"
->
-  <a
-    class="c1 c2"
-    href="/"
+<div>
+  <div
+    style="transition: opacity 300ms ease-in-out; opacity: 1;"
   >
-    <button
-      aria-label="Back to Homepage"
-      class="c3"
-      type="button"
+    <header
+      class="c0"
+      role="banner"
     >
-      <svg
-        aria-hidden="true"
-        class="c4"
-        height="1em"
-        viewBox="0 0 24 24"
-        width="1em"
+      <a
+        class="c1 c2"
+        href="/"
       >
-        <path
-          d="M0 0h24v24H0z"
-          fill="none"
-        />
-        <path
-          d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
-        />
-      </svg>
-    </button>
-  </a>
-  <nav
-    class="c5"
-    role="navigation"
-  >
-    <ul
-      class="c6"
-    >
-      <li
-        class="c7"
-      >
-        <a
-          class="c8"
-          href="/about/"
+        <button
+          aria-label="Back to Homepage"
+          class="c3"
+          type="button"
         >
-          About
-        </a>
-      </li>
-      <li
-        class="c7"
+          <svg
+            aria-hidden="true"
+            class="c4"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z"
+            />
+          </svg>
+        </button>
+      </a>
+      <nav
+        class="c5"
+        role="navigation"
       >
-        <a
-          class="c8"
-          href="/projects/"
+        <ul
+          class="c6"
         >
-          Projects
-        </a>
-      </li>
-    </ul>
-  </nav>
-  <button
-    aria-label="Switch to light theme"
-    class="c9 c10"
-    type="button"
-  >
-    <svg
-      aria-hidden="true"
-      class="c11"
-      clip-rule="evenodd"
-      fill-rule="evenodd"
-      height="1em"
-      role="img"
-      stroke-linejoin="round"
-      stroke-miterlimit="2"
-      viewBox="0 0 24 24"
-      width="1em"
+          <li
+            class="c7"
+          >
+            <a
+              class="c8"
+              href="/about/"
+            >
+              About
+            </a>
+          </li>
+          <li
+            class="c7"
+          >
+            <a
+              class="c8"
+              href="/projects/"
+            >
+              Projects
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button
+        aria-label="Switch to light theme"
+        class="c9 c10"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="c11"
+          clip-rule="evenodd"
+          fill-rule="evenodd"
+          height="1em"
+          role="img"
+          stroke-linejoin="round"
+          stroke-miterlimit="2"
+          viewBox="0 0 24 24"
+          width="1em"
+        >
+          <circle
+            cx="12"
+            cy="12"
+            r="9.967"
+          />
+        </svg>
+      </button>
+    </header>
+    <main
+      class="c12"
     >
-      <circle
-        cx="12"
-        cy="12"
-        r="9.967"
-      />
-    </svg>
-  </button>
-</header>
+      <div
+        class="c13"
+      >
+        <div
+          class="c14"
+        />
+      </div>
+    </main>
+    <footer
+      class="c15"
+      role="contentinfo"
+    >
+      <a
+        class="c16 c17"
+        href="#top"
+      >
+        <button
+          aria-label="Back to top"
+          class="c18"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="c19"
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"
+            />
+          </svg>
+        </button>
+      </a>
+      <div
+        class="c20 c21"
+      >
+        <div>
+          <span
+            class="c22"
+          >
+            © 
+          </span>
+          <strong
+            class="c23"
+          >
+            <a
+              class="c24"
+              href="/imprint/"
+            >
+              Stefan Imhoff
+            </a>
+          </strong>
+          <span
+            class="c25"
+          >
+             / 
+          </span>
+          <span
+            class="c26"
+          >
+            <time
+              datetime="2020"
+            >
+              2006–
+              2020
+            </time>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
 `;
