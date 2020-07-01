@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import { Row } from '../../../layout';
+import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
 import { TextLink } from '../../../components/text-link';
@@ -33,7 +33,10 @@ export const MartialArtsWebsite: React.FC = () => {
       <Styled.Image fluid={fluid} />
       <TextBlock>
         <SmallPrint>Web Design / Web Development / Writing</SmallPrint>
-        <Headline>Martial Arts Website</Headline>
+        <Headline>
+          Martial Arts Website
+          <Emojify emoji="👊" />
+        </Headline>
         <Paragraph>
           My{' '}
           <TextLink href="https://www.kogakure.de/">

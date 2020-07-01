@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import { Row } from '../../../layout';
+import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
 import { SmallPrint, TextBlock } from '..';
@@ -29,7 +29,10 @@ export const Sketchnotes: React.FC = () => {
     <Row variant="equal" vertical="center">
       <TextBlock>
         <SmallPrint>Illustration / Writing</SmallPrint>
-        <Headline>Sketchnotes</Headline>
+        <Headline>
+          Sketchnotes
+          <Emojify emoji="📝" />
+        </Headline>
         <Paragraph>
           One of my passions is <em>Sketchnotes</em> or also called{' '}
           <em>Visual Notetaking</em>. In Sketchnoting you use visual language to

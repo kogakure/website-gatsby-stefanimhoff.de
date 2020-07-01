@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import { Emojify } from '../../../layout';
 import { Paragraph, Subheadline } from '../../../components/typography';
 import { TextLink } from '../../../components/text-link';
 
@@ -7,7 +8,10 @@ import { Styled } from './about-website.styles';
 
 export const AboutWebsite: React.FC = () => (
   <Styled.AboutWebsite>
-    <Subheadline as="h2">About This Website</Subheadline>
+    <Subheadline as="h2">
+      About This Website
+      <Emojify emoji="🌐" />
+    </Subheadline>
     <Paragraph>
       I build this website with{' '}
       <TextLink href="https://reactjs.org/">React</TextLink>, using{' '}

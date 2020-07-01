@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import { Row } from '../../../layout';
+import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
 import { SmallPrint, TextBlock } from '..';
@@ -35,7 +35,10 @@ export const KoiIllustration: React.FC = () => {
       <Row variant="rightOnly">
         <TextBlock>
           <SmallPrint>Illustration / Painting</SmallPrint>
-          <Headline>Koi Illustration</Headline>
+          <Headline>
+            Koi Illustration
+            <Emojify emoji="🐠" />
+          </Headline>
           <Paragraph>
             I created this illustration for a previous version of my website in{' '}
             <strong>2007</strong> with a pencil on paper and then brought it

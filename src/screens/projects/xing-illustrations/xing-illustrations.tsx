@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import { Row } from '../../../layout';
+import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
 import { TextLink } from '../../../components/text-link';
@@ -36,7 +36,10 @@ export const XingIllustrations: React.FC = () => {
       <Row variant="rightOnly">
         <TextBlock>
           <SmallPrint>Illustration / Icon Design</SmallPrint>
-          <Headline>XING Onboarding Illustration</Headline>
+          <Headline>
+            XING Onboarding Illustration
+            <Emojify emoji="🚀" />
+          </Headline>
           <Paragraph>
             I was asked to create three new illustrations that could be used for
             an Onboarding screen on{' '}

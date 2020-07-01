@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import { Row } from '../../../layout';
+import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
 import { TextLink } from '../../../components/text-link';
@@ -30,7 +30,10 @@ export const BookKogakure: React.FC = () => {
     <Row marginBottom variant="equal" vertical="center">
       <TextBlock>
         <SmallPrint>Writing / Graphic Design</SmallPrint>
-        <Headline>Book &amp; Book Cover</Headline>
+        <Headline>
+          Book &amp; Book Cover
+          <Emojify emoji="📖" />
+        </Headline>
         <Paragraph>
           I wrote this book in <strong>2017</strong> out of the articles I’ve
           written on my{' '}

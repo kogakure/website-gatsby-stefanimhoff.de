@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import { Row } from '../../../layout';
+import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
 import { SmallPrint, TextBlock } from '..';
@@ -32,7 +32,10 @@ export const OsteopathieHamburg: React.FC = () => {
       <Styled.Image fluid={fluid} />
       <TextBlock>
         <SmallPrint>Web Design / Web Development</SmallPrint>
-        <Headline>Osteopathie-Institut Hamburg</Headline>
+        <Headline>
+          Osteopathie-Institut Hamburg
+          <Emojify emoji="🦴" />
+        </Headline>
         <Paragraph>
           I created this website for the{' '}
           <strong>Osteopathie-Institut Hamburg</strong> in <strong>2010</strong>{' '}

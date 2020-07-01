@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import { Row } from '../../../layout';
+import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
 import { SmallPrint, TextBlock } from '..';
@@ -32,7 +32,10 @@ export const IgaNinjaFont: React.FC = () => {
       <Styled.Image fluid={fluid} />
       <TextBlock>
         <SmallPrint>Type Design / Graphic Design</SmallPrint>
-        <Headline>Ingo: Iga Ninja Cipher Font</Headline>
+        <Headline>
+          Ingo: Iga Ninja Cipher Font
+          <Emojify emoji="🏯" />
+        </Headline>
         <Paragraph>
           The <em>Iga Ninja Cipher Font</em> was created by me of an image
           provided by the <strong>Iga Ninja Museum</strong> in Japan and is said

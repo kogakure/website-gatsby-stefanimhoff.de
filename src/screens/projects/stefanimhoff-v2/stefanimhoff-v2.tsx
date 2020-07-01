@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import { Row } from '../../../layout';
+import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
 import { SmallPrint, TextBlock } from '..';
@@ -32,7 +32,10 @@ export const StefanImhoffV2: React.FC = () => {
       <Styled.Image fluid={fluid} />
       <TextBlock>
         <SmallPrint>Web Design / Web Development</SmallPrint>
-        <Headline>Personal Website &amp; Blog</Headline>
+        <Headline>
+          Personal Website &amp; Blog
+          <Emojify emoji="🌳" />
+        </Headline>
         <Paragraph>
           My Personal Website and blog first launched in <strong>2006</strong>{' '}
           and is the website you’re looking at. The previous design was the{' '}

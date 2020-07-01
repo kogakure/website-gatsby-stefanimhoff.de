@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Row } from '../../../layout';
+import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
 import { SmallPrint, TextBlock } from '..';
@@ -9,7 +9,10 @@ export const Writing: React.FC = () => (
   <Row variant="rightDown">
     <TextBlock>
       <SmallPrint>Writing</SmallPrint>
-      <Headline>Journal &amp; Blog</Headline>
+      <Headline>
+        Journal &amp; Blog
+        <Emojify emoji="🖋" />
+      </Headline>
       <Paragraph>
         I have been writing articles on this website since <strong>2007</strong>
         . The topics include programming, design, self-improvement,
@@ -21,7 +24,10 @@ export const Writing: React.FC = () => (
     </TextBlock>
     <TextBlock>
       <SmallPrint>Poetry / Writing</SmallPrint>
-      <Headline>Haiku</Headline>
+      <Headline>
+        Haiku
+        <Emojify emoji="🗣" />
+      </Headline>
       <Paragraph>
         I started writing Haiku poetry some years ago inspired by the works of
         the Japanese Haiku poet <strong>Matsuo Bashô</strong>. I think Haiku are
