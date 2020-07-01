@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { mediaQuery } from '../../../layout/tokens';
+import { mediaQuery, space } from '../../../layout/tokens';
 
 const WhatIDo = styled.div`
   grid-column: 2 / -2;
@@ -18,7 +18,8 @@ const WhatIDo = styled.div`
 
 const Text = styled.div`
   column-count: 1;
-  column-gap: 5.55vw;
+  column-gap: 2.775vw;
+  margin-bottom: ${space[10]};
 
   @media (${mediaQuery.tablet}) {
     column-count: 2;
