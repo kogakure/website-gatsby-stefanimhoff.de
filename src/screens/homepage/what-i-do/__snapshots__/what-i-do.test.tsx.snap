@@ -1,59 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Homepage WhatIDo renders correctly 1`] = `
-.c1 {
-  font-size: clamp(1.50rem,2.9vw,3.25rem);
-  font-weight: 900;
-  -webkit-letter-spacing: normal;
-  -moz-letter-spacing: normal;
-  -ms-letter-spacing: normal;
-  letter-spacing: normal;
-  line-height: 1.0;
-  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
-  margin-top: 0;
-}
-
-.c1 .autolink {
-  background: transparent;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  fill: var(--colorForeground);
-  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
-  opacity: 0;
-  vertical-align: middle;
-}
-
-.c1:hover .autolink,
-.c1:focus .autolink {
-  opacity: 0.5;
-}
-
-.c3 {
-  font-size: clamp(1.00rem,1.1vw,1.25rem);
-  font-weight: 400;
-  -webkit-letter-spacing: normal;
-  -moz-letter-spacing: normal;
-  -ms-letter-spacing: normal;
-  letter-spacing: normal;
-  line-height: 1.6;
-  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
-  margin-top: 0;
-}
-
-.c5 {
-  font-size: clamp(1.00rem,1.1vw,1.25rem);
-  font-weight: 400;
-  -webkit-letter-spacing: normal;
-  -moz-letter-spacing: normal;
-  -ms-letter-spacing: normal;
-  letter-spacing: normal;
-  line-height: 1.6;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
 .c6 {
   color: var(--colorForeground);
   font-weight: 600;
@@ -112,6 +59,59 @@ a:focus .c7 {
   transform: translate3D(0.25rem,0,0);
 }
 
+.c1 {
+  font-size: clamp(1.50rem,2.9vw,3.25rem);
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.0;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: 0;
+}
+
+.c1 .autolink {
+  background: transparent;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.c1:hover .autolink,
+.c1:focus .autolink {
+  opacity: 0.5;
+}
+
+.c3 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: 0;
+}
+
+.c5 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 .c0 {
   grid-column: 2 / -2;
   grid-row: 4;
@@ -163,6 +163,9 @@ a:focus .c7 {
     class="c1"
   >
     What I Do
+    <span>
+       
+    </span>
   </h2>
   <div
     class="c2"

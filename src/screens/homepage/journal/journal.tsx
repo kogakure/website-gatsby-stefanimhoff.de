@@ -3,6 +3,7 @@ import * as React from 'react';
 
 import { getRandomNumber } from '../../../services/random-number';
 import { useHomepageJournalPostsQuery } from '../../../hooks';
+import { Emojify } from '../../../layout';
 import {
   Headline,
   SubSubheadline,
@@ -20,7 +21,10 @@ export const Journal: React.FC = () => {
 
   return (
     <Styled.Journal>
-      <Headline>Latest Articles</Headline>
+      <Headline>
+        Latest Articles
+        <Emojify emoji="🖋" />
+      </Headline>
       <Styled.Introduction>
         <Styled.Text>
           <Paragraph>

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Row } from '../../../layout';
+import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { ColorSwatch } from '../../../components/color-swatch';
 import { MoreLink } from '../../../components/more-link';
@@ -12,7 +12,10 @@ export const JapaneseColor: React.FC = () => (
   <Row marginBottom variant="equal" vertical="center">
     <TextBlock>
       <SmallPrint>Design / Web Development</SmallPrint>
-      <Headline>The Traditional Colors of Japan</Headline>
+      <Headline>
+        The Traditional Colors of Japan
+        <Emojify emoji="⛩" />
+      </Headline>
       <Paragraph>
         In 2007 I stumbled upon a Japanese book about the traditional colors of
         Japan by <strong>Nobyoshi Hamada</strong>. He listed all 250 colors with

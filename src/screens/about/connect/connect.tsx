@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import { Emojify } from '../../../layout';
 import { useSocialMediaQuery } from '../../../hooks';
 import { Subheadline } from '../../../components/typography';
 import { TextLink } from '../../../components/text-link';
@@ -13,7 +14,10 @@ export const Connect: React.FC = () => {
 
   return (
     <Styled.Connect id="connect">
-      <Subheadline as="h2">Connect</Subheadline>
+      <Subheadline as="h2">
+        Connect
+        <Emojify emoji="🤝" />
+      </Subheadline>
       <Styled.SocialMedia>
         {nodes.map(({ text, url }) => (
           <li key={text}>

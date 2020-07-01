@@ -1,5 +1,6 @@
 import * as React from 'react';
 
+import { Emojify } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
 import { TextLink } from '../../../components/text-link';
@@ -8,7 +9,10 @@ import { Styled } from './what-i-do.styles';
 
 export const WhatIDo: React.FC = () => (
   <Styled.WhatIDo>
-    <Headline>What I Do</Headline>
+    <Headline>
+      What I Do
+      <Emojify emoji="👨🏻‍💻" />
+    </Headline>
     <Styled.Text>
       <Paragraph>
         I create and build beautiful, user-centric layouts for devices of all

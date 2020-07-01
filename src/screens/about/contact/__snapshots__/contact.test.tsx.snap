@@ -94,6 +94,9 @@ exports[`About Contact renders correctly 1`] = `
     class="c1"
   >
     Contact
+    <span>
+       
+    </span>
   </h2>
   <p
     class="c2"

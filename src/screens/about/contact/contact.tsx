@@ -8,7 +8,10 @@ import { Styled } from './contact.styles';
 
 export const Contact: React.FC = () => (
   <Styled.Contact id="contact">
-    <Subheadline as="h2">Contact</Subheadline>
+    <Subheadline as="h2">
+      Contact
+      <Emojify emoji="📇" />
+    </Subheadline>
     <Paragraph noMargin>
       You’ve got mail!
       <Emojify emoji="📬" />

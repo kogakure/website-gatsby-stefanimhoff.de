@@ -1,6 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`About SectionAboutWebsite renders correctly 1`] = `
+.c3 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c3:hover,
+.c3:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
 .c1 {
   font-size: clamp(1.25rem,1.8vw,2.00rem);
   font-weight: 900;
@@ -54,22 +70,6 @@ exports[`About SectionAboutWebsite renders correctly 1`] = `
   margin-top: 0;
 }
 
-.c3 {
-  color: var(--colorForeground);
-  font-weight: 600;
-  -webkit-text-decoration-color: var(--colorForegroundSoft);
-  text-decoration-color: var(--colorForegroundSoft);
-  -webkit-text-decoration-thickness: 0.1em;
-  text-decoration-thickness: 0.1em;
-  text-underline-offset: 0.1em;
-}
-
-.c3:hover,
-.c3:focus {
-  -webkit-text-decoration-color: var(--colorAccent);
-  text-decoration-color: var(--colorAccent);
-}
-
 .c0 {
   grid-column: 2 / -2;
   grid-row: 4;
@@ -105,6 +105,9 @@ exports[`About SectionAboutWebsite renders correctly 1`] = `
     class="c1"
   >
     About This Website
+    <span>
+       
+    </span>
   </h2>
   <p
     class="c2"

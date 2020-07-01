@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import { Row } from '../../../layout';
+import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
 import { TextLink } from '../../../components/text-link';
@@ -30,7 +30,10 @@ export const HamburgBlog: React.FC = () => {
     <Row variant="equal" vertical="center">
       <TextBlock>
         <SmallPrint>Web Design / Web Development / Photography</SmallPrint>
-        <Headline>Exploring Hamburg</Headline>
+        <Headline>
+          Exploring Hamburg
+          <Emojify emoji="🚢" />
+        </Headline>
         <Paragraph>
           I created this{' '}
           <TextLink href="https://hamburg.stefanimhoff.de/">

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Row } from '../../../layout';
+import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { TextLink } from '../../../components/text-link';
 import { SmallPrint, TextBlock } from '..';
@@ -18,7 +18,10 @@ export const BambooIllustration: React.FC = () => (
     <Row variant="rightOnly">
       <TextBlock>
         <SmallPrint>Illustration</SmallPrint>
-        <Headline>Bamboo Illustration</Headline>
+        <Headline>
+          Bamboo Illustration
+          <Emojify emoji="🎋" />
+        </Headline>
         <Paragraph>
           I created the bamboo illustration in <strong>2006</strong> for my{' '}
           <TextLink href="https://www.kogakure.de/">
@@ -28,8 +31,8 @@ export const BambooIllustration: React.FC = () => (
         </Paragraph>
         <Paragraph>
           <strong>2015</strong> I descided to use my bamboo as{' '}
-          <abbr title="Scalable Vector Graphics">SVG</abbr> on my website.
-          Unfortuanately the gradient tool is not supported in{' '}
+          <abbr title="Scalable Vector Graphics">SVG</abbr> on my Unfortuanately
+          the gradient tool is not supported in{' '}
           <abbr title="Scalable Vector Graphics">SVG</abbr> and I needed to
           recreate my bamboo with linear, radial and other supported gradients
           in{' '}
