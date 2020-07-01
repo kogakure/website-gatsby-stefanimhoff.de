@@ -26,10 +26,7 @@ export const useHomepageJournalPostsQuery = () => {
                 publicURL
                 childImageSharp {
                   fluid(maxWidth: 1000) {
-                    aspectRatio
-                    sizes
-                    src
-                    srcSet
+                    ...GatsbyImageSharpFluid
                   }
                 }
               }
