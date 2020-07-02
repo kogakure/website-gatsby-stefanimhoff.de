@@ -25,7 +25,7 @@ describe('ProtectedEmail', () => {
 
     user.click(await findByText(/email/i));
 
-    expect(container).toHaveTextContent(/stefan@imhoff.name/i);
+    expect(container).toHaveTextContent(/@imhoff.name/i);
     expect(getByRole('link', { name: /download public/i })).toBeInTheDocument();
   });
 
@@ -37,7 +37,7 @@ describe('ProtectedEmail', () => {
       code: 13,
     });
 
-    expect(container).toHaveTextContent(/stefan@imhoff.name/i);
+    expect(container).toHaveTextContent(/@imhoff.name/i);
     expect(getByRole('link', { name: /download public/i })).toBeInTheDocument();
   });
 
@@ -53,7 +53,7 @@ describe('ProtectedEmail', () => {
 
       user.click(await findByText(/email/i));
 
-      expect(container).toHaveTextContent(/stefan@imhoff.name/i);
+      expect(container).toHaveTextContent(/@imhoff.name/i);
       expect(
         queryByRole('link', { name: /download public/i })
       ).not.toBeInTheDocument();
@@ -67,7 +67,7 @@ describe('ProtectedEmail', () => {
         code: 13,
       });
 
-      expect(container).toHaveTextContent(/stefan@imhoff.name/i);
+      expect(container).toHaveTextContent(/@imhoff.name/i);
       expect(
         queryByRole('link', { name: /download public/i })
       ).not.toBeInTheDocument();
