@@ -26,15 +26,13 @@ export const ProtectedEmail: React.FC<ProtectedEmailProps> = ({
     <>
       {emailVisible ? (
         <span>
-          <TextLink href="mailto:stefan@imhoff.name">
-            stefan@imhoff.name
-          </TextLink>
+          <TextLink href="mailto:hey@imhoff.name">hey@imhoff.name</TextLink>
           {!noKeyDownload && (
             <Styled.LockBox>
               <a
                 title={downloadText}
                 aria-label={downloadText}
-                href="/downloads/publickey.stefan@imhoff.name-1d844c94d6fec7939a9bdaf221ce017ed5fa22c6.asc"
+                href="/downloads/publickey.hey@imhoff.name-9cb867d4ccd2c1d7d9fde82f4b649797f3e007a9.asc"
               >
                 <Styled.LockIcon aria-hidden="true" />
               </a>
