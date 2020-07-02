@@ -8,7 +8,6 @@ const PortraitPhotoContainer = styled.div`
   grid-row: 2;
 
   @media (${mediaQuery.tablet}) {
-    border-left-width: 1px;
     grid-column: 4 / 10;
   }
 
@@ -19,6 +18,10 @@ const PortraitPhotoContainer = styled.div`
 
 const PortraitPhoto = styled(Image)`
   border-left-width: 0;
+
+  @media (${mediaQuery.tablet}) {
+    border-left-width: 1px;
+  }
 `;
 
 export const Styled = {
