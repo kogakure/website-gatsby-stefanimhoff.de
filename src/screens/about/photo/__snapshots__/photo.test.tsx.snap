@@ -61,7 +61,6 @@ exports[`About Photo renders correctly 1`] = `
 
 @media (min-width:768px) {
   .c0 {
-    border-left-width: 1px;
     grid-column: 4 / 10;
   }
 }
@@ -69,6 +68,12 @@ exports[`About Photo renders correctly 1`] = `
 @media (min-width:1200px) {
   .c0 {
     grid-column: 7 / 10;
+  }
+}
+
+@media (min-width:768px) {
+  .c3 {
+    border-left-width: 1px;
   }
 }
 
