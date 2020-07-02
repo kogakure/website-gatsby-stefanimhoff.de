@@ -16,12 +16,12 @@ export const WhatIDo: React.FC = () => (
     <Styled.Text>
       <Paragraph>
         I create and build beautiful, user-centric layouts for devices of all
-        sizes on the web for nearly two decades. I love bringing simplicity and
+        sizes on the web for nearly two decades and love bringing simplicity and
         minimalism to everything&nbsp;I&nbsp;create.
       </Paragraph>
       <Paragraph>
         I deeply care about good user experience: Writing good text, choosing
-        the right photography, typography, and colours. Programming fast,
+        the right photography, typography, and colors. Programming fast,
         reusable, well-tested and easy-to-maintain code or creating
         engaging&nbsp;animations.
       </Paragraph>
@@ -32,7 +32,7 @@ export const WhatIDo: React.FC = () => (
       </Paragraph>
       <Paragraph>
         I love innovating: During multiple{' '}
-        <TextLink href="https://medium.com/xing-hackweek">HackWeeks</TextLink> I
+        <TextLink href="https://medium.com/xing-hackweek">Hackweeks</TextLink> I
         was part of a small team creating a complete new job platform for
         freelancers. I am also a three-time winner of the{' '}
         <em>Prototyping Days</em>, a yearly two-day company-wide
