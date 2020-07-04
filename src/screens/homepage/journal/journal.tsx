@@ -33,10 +33,7 @@ export const Journal: React.FC = ({ ...props }) => {
               films, and books in this Journal and publish a monthly article
               with recommendations.
             </Paragraph>
-            <MoreLink
-              to="/journal/"
-              aria-label="Read all articles in the Journal"
-            />
+            <MoreLink to="/journal/">Read all articles</MoreLink>
           </Styled.Text>
           <Styled.Subscribe>
             <SubSubheadline as="h3">Subscribe</SubSubheadline>

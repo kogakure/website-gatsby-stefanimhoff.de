@@ -151,12 +151,11 @@ a:focus .c5 {
     class="c3"
   >
     <a
-      aria-label="More information about me"
       block="0"
       class="c4"
       href="/about/"
     >
-      More
+      Read more about me
       <span
         class="c5"
       >

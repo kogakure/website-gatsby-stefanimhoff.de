@@ -22,7 +22,7 @@ export const AboutMe: React.FC = () => (
       writing Haiku.
     </Paragraph>
     <Paragraph noMargin>
-      <MoreLink to="/about/" aria-label="More information about me" />
+      <MoreLink to="/about/">Read more about me</MoreLink>
     </Paragraph>
   </Styled.AboutMe>
 );

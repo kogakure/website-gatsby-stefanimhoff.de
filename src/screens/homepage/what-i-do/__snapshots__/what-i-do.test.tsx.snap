@@ -221,12 +221,11 @@ a:focus .c7 {
     class="c5"
   >
     <a
-      aria-label="See all my projects"
       block="0"
       class="c6"
       href="/projects/"
     >
-      More
+      See what I do
       <span
         class="c7"
       >

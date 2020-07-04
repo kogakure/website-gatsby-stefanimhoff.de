@@ -40,7 +40,7 @@ export const WhatIDo: React.FC = ({ ...props }) => (
       </Paragraph>
     </Styled.Text>
     <Paragraph noMargin>
-      <MoreLink to="/projects/" aria-label="See all my projects" />
+      <MoreLink to="/projects/">See what I do</MoreLink>
     </Paragraph>
   </Styled.WhatIDo>
 );
