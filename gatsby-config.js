@@ -147,11 +147,9 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-layout',
+      resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        component: require.resolve(
-          './src/layout/page-transition/transition-layout.tsx'
-        ),
+        siteUrl: 'https://www.stefanimhoff.de',
       },
     },
     {
