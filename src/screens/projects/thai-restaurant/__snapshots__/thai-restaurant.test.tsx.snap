@@ -102,7 +102,7 @@ a:focus .c7 {
   align-items: center;
 }
 
-.c8 {
+.c9 {
   height: 100%;
   position: relative;
   -webkit-transition-duration: 500ms;
@@ -115,14 +115,14 @@ a:focus .c7 {
   width: 100%;
 }
 
-.c8:hover,
-.c8:focus {
+.c9:hover,
+.c9:focus {
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
 }
 
-.c8::after {
+.c9::after {
   box-shadow: 0 0 50px rgba(0,0,0,0.2);
   content: '';
   height: 100%;
@@ -140,15 +140,19 @@ a:focus .c7 {
   z-index: -1;
 }
 
-.c8:hover::after,
-.c8:focus::after {
+.c9:hover::after,
+.c9:focus::after {
   opacity: 1;
 }
 
-.c9 {
+.c10 {
   border-color: var(--colorForegroundSoft);
   border-style: solid;
   border-width: 1px;
+}
+
+.c8 {
+  width: 100%;
 }
 
 .c3 {
@@ -165,7 +169,7 @@ a:focus .c7 {
   width: 100%;
 }
 
-.c10 {
+.c11 {
   border-left-width: 0;
   border-right-width: 0;
   grid-row: 1;
@@ -207,7 +211,7 @@ a:focus .c7 {
 }
 
 @media (min-width:768px) {
-  .c10 {
+  .c11 {
     border-left-width: 1px;
     border-right-width: 1px;
     grid-column: 2;
@@ -222,6 +226,8 @@ a:focus .c7 {
   >
     <div
       class="c2"
+      data-sal="slide-up"
+      data-sal-duration="800"
     >
       <small
         class="c3"
@@ -274,38 +280,44 @@ a:focus .c7 {
     </div>
     <div
       class="c8"
+      data-sal="slide-up"
+      data-sal-duration="800"
     >
       <div
-        class="c9 c10 gatsby-image-wrapper"
-        style="position: relative; overflow: hidden;"
+        class="c9"
       >
         <div
-          aria-hidden="true"
-          style="width: 100%; padding-bottom: 151.5151515151515%;"
-        />
-        <img
-          alt=""
-          aria-hidden="true"
-          src="data:image/jpeg;base64,XYZ"
-          style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
-        />
-        <picture>
-          <source
-            sizes="(max-width: 1200px) 100vw, 1200px"
-            srcset="/static/cover.jpg 200w, /static/cover.jpg 400w"
+          class="c10 c11 gatsby-image-wrapper"
+          style="position: relative; overflow: hidden;"
+        >
+          <div
+            aria-hidden="true"
+            style="width: 100%; padding-bottom: 151.5151515151515%;"
           />
           <img
             alt=""
-            loading="lazy"
-            sizes="(max-width: 1200px) 100vw, 1200px"
-            src="/static/cover.jpg"
-            srcset="/static/cover.jpg 200w, /static/cover.jpg 400w"
-            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+            aria-hidden="true"
+            src="data:image/jpeg;base64,XYZ"
+            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
           />
-        </picture>
-        <noscript>
-          &lt;picture&gt;&lt;source srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" sizes="(max-width: 1200px) 100vw, 1200px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" src="/static/cover.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
-        </noscript>
+          <picture>
+            <source
+              sizes="(max-width: 1200px) 100vw, 1200px"
+              srcset="/static/cover.jpg 200w, /static/cover.jpg 400w"
+            />
+            <img
+              alt=""
+              loading="lazy"
+              sizes="(max-width: 1200px) 100vw, 1200px"
+              src="/static/cover.jpg"
+              srcset="/static/cover.jpg 200w, /static/cover.jpg 400w"
+              style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+            />
+          </picture>
+          <noscript>
+            &lt;picture&gt;&lt;source srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" sizes="(max-width: 1200px) 100vw, 1200px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" src="/static/cover.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+          </noscript>
+        </div>
       </div>
     </div>
   </div>

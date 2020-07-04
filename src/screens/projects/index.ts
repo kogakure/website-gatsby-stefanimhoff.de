@@ -2,6 +2,7 @@ export * from './bamboo-illustration';
 export * from './book-kogakure';
 export * from './hamburg-blog';
 export * from './iga-ninja-font';
+export * from './image-block';
 export * from './introduction';
 export * from './japanese-color';
 export * from './koi-illustration';

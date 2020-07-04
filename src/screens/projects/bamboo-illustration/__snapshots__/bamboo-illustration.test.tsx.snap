@@ -49,6 +49,8 @@ exports[`Projects BambooIllustration renders correctly 1`] = `
 
 <section
   class="c0"
+  data-sal="slide-up"
+  data-sal-duration="800"
 >
   <div
     class="c1"

@@ -62,6 +62,6 @@ exports[`About Title renders correctly 1`] = `
 <h1
   class="c0 c1"
 >
-  About Me
+  About
 </h1>
 `;

@@ -302,99 +302,106 @@ a:focus .c6 {
 <section
   class="c0"
 >
-  <h2
-    class="c1"
+  <div
+    data-sal="slide-up"
+    data-sal-duration="800"
   >
-    Latest Articles
-    <span>
-       
-    </span>
-  </h2>
-  <header
-    class="c2"
-  >
-    <div
-      class="c3"
+    <h2
+      class="c1"
     >
-      <p
-        class="c4"
+      Latest Articles
+      <span>
+         
+      </span>
+    </h2>
+    <header
+      class="c2"
+    >
+      <div
+        class="c3"
       >
-        I am writing about code, design, productivity, self-improvement, films, and books in this Journal and publish a monthly article with recommendations.
-      </p>
-      <a
-        aria-label="Read all articles in the Journal"
-        block="0"
-        class="c5"
-        href="/journal/"
-      >
-        More
-        <span
-          class="c6"
+        <p
+          class="c4"
         >
-          <svg
-            height="1em"
-            viewBox="0 0 24 24"
-            width="1em"
+          I am writing about code, design, productivity, self-improvement, films, and books in this Journal and publish a monthly article with recommendations.
+        </p>
+        <a
+          aria-label="Read all articles in the Journal"
+          block="0"
+          class="c5"
+          href="/journal/"
+        >
+          More
+          <span
+            class="c6"
           >
-            <path
-              d="M0 0h24v24H0z"
-              fill="none"
-            />
-            <path
-              d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-            />
-          </svg>
-        </span>
-      </a>
-    </div>
-    <div
-      class="c7"
-    >
-      <h3
-        class="c8"
+            <svg
+              height="1em"
+              viewBox="0 0 24 24"
+              width="1em"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+              />
+            </svg>
+          </span>
+        </a>
+      </div>
+      <div
+        class="c7"
       >
-        Subscribe
-      </h3>
-      <p
-        class="c9"
-      >
-        Stay up to date. Subscribe to my
-         
-        <a
-          class="c10"
-          href="https://mailchi.mp/2658683a02d9/stefanimhoff"
-          rel="nofollow noopener noreferrer external"
-          target="_blank"
+        <h3
+          class="c8"
         >
-          Newsletter
-        </a>
-        ,
-         
-        <a
-          class="c10"
-          href="https://www.stefanimhoff.de/index.xml"
-          rel="nofollow noopener noreferrer external"
+          Subscribe
+        </h3>
+        <p
+          class="c9"
         >
-          RSS feed
-        </a>
-        , and follow me on
-         
-        <a
-          class="c10"
-          href="https://twitter.com/kogakure"
-          rel="nofollow noopener noreferrer external"
-        >
-          Twitter
-        </a>
-        .
-      </p>
-    </div>
-  </header>
+          Stay up to date. Subscribe to my
+           
+          <a
+            class="c10"
+            href="https://mailchi.mp/2658683a02d9/stefanimhoff"
+            rel="nofollow noopener noreferrer external"
+            target="_blank"
+          >
+            Newsletter
+          </a>
+          ,
+           
+          <a
+            class="c10"
+            href="https://www.stefanimhoff.de/index.xml"
+            rel="nofollow noopener noreferrer external"
+          >
+            RSS feed
+          </a>
+          , and follow me on
+           
+          <a
+            class="c10"
+            href="https://twitter.com/kogakure"
+            rel="nofollow noopener noreferrer external"
+          >
+            Twitter
+          </a>
+          .
+        </p>
+      </div>
+    </header>
+  </div>
   <div
     class="c11"
   >
     <article
       class="c12"
+      data-sal="slide-up"
+      data-sal-duration="800"
     >
       <a
         aria-label="Post 1"

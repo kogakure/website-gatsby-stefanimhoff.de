@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
-import { SmallPrint, TextBlock } from '..';
+import { ImageBlock, SmallPrint, TextBlock } from '..';
 
 import { Styled } from './thai-restaurant.styles';
 
@@ -29,7 +29,7 @@ export const ThaiRestaurant: React.FC = () => {
 
   return (
     <Row variant="equal" vertical="center">
-      <TextBlock>
+      <TextBlock data-sal="slide-up" data-sal-duration="800">
         <SmallPrint>Graphic Design / Web Design / Web Development</SmallPrint>
         <Headline>
           Thai Restaurants Hamburg
@@ -45,7 +45,9 @@ export const ThaiRestaurant: React.FC = () => {
           aria-label="See the showcase Thai Restaurant Hamburg"
         />
       </TextBlock>
-      <Styled.Image fluid={fluid} />
+      <ImageBlock data-sal="slide-up" data-sal-duration="800">
+        <Styled.Image fluid={fluid} />
+      </ImageBlock>
     </Row>
   );
 };

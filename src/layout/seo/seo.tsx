@@ -98,6 +98,23 @@ export const SEO = ({
           title="Stefan Imhoff"
           type="application/rss+xml"
         />
+        {/* Disable Sal when no JavaScript available */}
+        <noscript>
+          {`
+          <style>
+              [data-sal|='fade'] {
+                opacity: 1;
+              }
+
+              [data-sal|='slide'],
+              [data-sal|='zoom'] {
+                opacity: 1;
+                transform: none;
+              }
+          </style>
+        `}
+        </noscript>
+
         {/* Humans.txt */}
         <link type="text/plain" rel="author" href={seo.humans} />
       </Helmet>

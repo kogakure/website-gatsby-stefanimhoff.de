@@ -10,13 +10,18 @@ import { Styled } from './bamboo-illustration.styles';
 
 export const BambooIllustration: React.FC = () => (
   <>
-    <Row variant="fullsize" vertical="center">
+    <Row
+      variant="fullsize"
+      vertical="center"
+      data-sal="slide-up"
+      data-sal-duration="800"
+    >
       <Styled.ImageContainer>
         <img src={bambooIllustration} alt="Bamboo Illustration" />
       </Styled.ImageContainer>
     </Row>
     <Row variant="rightOnly">
-      <TextBlock>
+      <TextBlock data-sal="slide-up" data-sal-duration="800">
         <SmallPrint>Illustration</SmallPrint>
         <Headline>
           Bamboo Illustration
@@ -34,8 +39,7 @@ export const BambooIllustration: React.FC = () => (
           <abbr title="Scalable Vector Graphics">SVG</abbr> on my Unfortuanately
           the gradient tool is not supported in{' '}
           <abbr title="Scalable Vector Graphics">SVG</abbr> and I needed to
-          recreate my bamboo with linear, radial and other supported gradients
-          in{' '}
+          recreate my bamboo with linear, radial and other supported in{' '}
           <TextLink href="https://affinity.serif.com/designer/">
             Affinity Designer
           </TextLink>

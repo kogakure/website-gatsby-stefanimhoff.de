@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects ImageBlock renders correctly 1`] = `
+.c0 {
+  width: 100%;
+}
+
+<div
+  class="c0"
+>
+  Image
+</div>
+`;

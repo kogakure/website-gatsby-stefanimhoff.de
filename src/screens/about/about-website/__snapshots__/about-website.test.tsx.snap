@@ -100,6 +100,8 @@ exports[`About SectionAboutWebsite renders correctly 1`] = `
 
 <section
   class="c0"
+  data-sal="slide-up"
+  data-sal-duration="800"
 >
   <h2
     class="c1"

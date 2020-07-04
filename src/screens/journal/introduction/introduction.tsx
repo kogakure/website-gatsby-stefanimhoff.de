@@ -6,7 +6,11 @@ import { TextLink } from '../../../components/text-link';
 import { Styled } from './introduction.styles';
 
 export const Introduction: React.FC = () => (
-  <Styled.Introduction>
+  <Styled.Introduction
+    data-sal="slide-up"
+    data-sal-duration="800"
+    data-sal-delay="300"
+  >
     <Paragraph>
       Writing is a passion of me. I’ve written a huge collection of articles
       about{' '}

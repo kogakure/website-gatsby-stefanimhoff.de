@@ -7,12 +7,12 @@ import { RubyAnnotation } from '../../../components/ruby-annotation';
 import { Styled } from './basho.styles';
 
 export const Basho: React.FC = () => (
-  <Styled.Basho>
+  <Styled.Basho data-sal="slide-up" data-sal-duration="800">
     <Headline>
       Matsuo Bashô
       <Emojify emoji="🍌" />
     </Headline>
-    <Paragraph noMargin>
+    <Paragraph>
       Matsuo Bashô (<RubyAnnotation base="松" text="まつ" />
       <RubyAnnotation base="尾" text="お" />
       <RubyAnnotation base="芭" text="バ" />

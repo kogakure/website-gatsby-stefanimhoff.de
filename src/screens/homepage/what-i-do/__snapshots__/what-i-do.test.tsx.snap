@@ -158,6 +158,8 @@ a:focus .c7 {
 
 <div
   class="c0"
+  data-sal="slide-up"
+  data-sal-duration="800"
 >
   <h2
     class="c1"
@@ -192,7 +194,7 @@ a:focus .c7 {
       >
         XING
       </a>
-      , the biggest business network in Europe, working on the Design System.
+      , the network in Europe, working on the Design System.
     </p>
     <p
       class="c3"
@@ -206,7 +208,8 @@ a:focus .c7 {
       >
         Hackweeks
       </a>
-       I was part of a small team creating a complete new job platform for freelancers. I am also a three-time winner of the
+       
+      was part of a small team creating a complete new job platform for freelancers. I am also a three-time winner of the
        
       <em>
         Prototyping Days

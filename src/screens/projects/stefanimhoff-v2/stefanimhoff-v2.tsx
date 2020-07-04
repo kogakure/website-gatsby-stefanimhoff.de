@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
-import { SmallPrint, TextBlock } from '..';
+import { ImageBlock, SmallPrint, TextBlock } from '..';
 
 import { Styled } from './stefanimhoff-v2.styles';
 
@@ -29,8 +29,10 @@ export const StefanImhoffV2: React.FC = () => {
 
   return (
     <Row variant="equal" vertical="center">
-      <Styled.Image fluid={fluid} />
-      <TextBlock>
+      <ImageBlock data-sal="slide-up" data-sal-duration="800">
+        <Styled.Image fluid={fluid} />
+      </ImageBlock>
+      <TextBlock data-sal="slide-up" data-sal-duration="800">
         <SmallPrint>Web Design / Web Development</SmallPrint>
         <Headline>
           Personal Website &amp; Blog

@@ -1,46 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`About AboutMe renders correctly 1`] = `
-.c1 {
-  font-size: clamp(1.00rem,1.1vw,1.25rem);
-  font-weight: 400;
-  -webkit-letter-spacing: normal;
-  -moz-letter-spacing: normal;
-  -ms-letter-spacing: normal;
-  letter-spacing: normal;
-  line-height: 1.6;
-  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
-  margin-top: 0;
-}
-
-.c4 {
-  font-size: clamp(1.00rem,1.1vw,1.25rem);
-  font-weight: 400;
-  -webkit-letter-spacing: normal;
-  -moz-letter-spacing: normal;
-  -ms-letter-spacing: normal;
-  letter-spacing: normal;
-  line-height: 1.6;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.c2 {
-  color: var(--colorForeground);
-  font-weight: 600;
-  -webkit-text-decoration-color: var(--colorForegroundSoft);
-  text-decoration-color: var(--colorForegroundSoft);
-  -webkit-text-decoration-thickness: 0.1em;
-  text-decoration-thickness: 0.1em;
-  text-underline-offset: 0.1em;
-}
-
-.c2:hover,
-.c2:focus {
-  -webkit-text-decoration-color: var(--colorAccent);
-  text-decoration-color: var(--colorAccent);
-}
-
 .c3 {
   color: var(--colorForeground);
   font-weight: 600;
@@ -57,9 +17,89 @@ exports[`About AboutMe renders correctly 1`] = `
   text-decoration-color: var(--colorAccent);
 }
 
+.c4 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c4:hover,
+.c4:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c1 {
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
+  font-weight: 900;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.0;
+  margin-bottom: clamp( 1.0rem,2.14vw,1.2rem);
+  margin-top: 0;
+}
+
+.c1 .autolink {
+  background: transparent;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  fill: var(--colorForeground);
+  margin-left: clamp( 0.335rem,0.72vw,0.402rem);
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.c1:hover .autolink,
+.c1:focus .autolink {
+  opacity: 0.5;
+}
+
+.c2 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: 0;
+}
+
+.c5 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 .c0 {
   grid-column: 2 / -2;
   grid-row: 3;
+}
+
+@media screen and (prefers-reduced-motion:no-preference) {
+  .c1 .autolink {
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
 }
 
 @media (min-width:768px) {
@@ -77,104 +117,123 @@ exports[`About AboutMe renders correctly 1`] = `
 <section
   class="c0"
 >
-  <p
-    class="c1"
+  <div
+    data-sal="slide-up"
+    data-sal-delay="300"
+    data-sal-duration="800"
   >
-    I’m 
-    <em>
-      Stefan Imhoff
-    </em>
-    , a Front-End Web Developer and Designer from Hamburg, Germany. I love design and art, reading books, watching movies and TV shows, creating Sketchnotes, taking photos, and writing
-     
-    <a
-      block="0"
-      class="c2"
-      href="/haiku/"
+    <h2
+      class="c1"
     >
-      Haiku
-    </a>
-    .
-  </p>
-  <p
-    class="c1"
+      About Me
+      <span>
+         
+      </span>
+    </h2>
+    <p
+      class="c2"
+    >
+      I’m 
+      <em>
+        Stefan Imhoff
+      </em>
+      , a Front-End Web Developer and Designer from Hamburg, Germany. I love design and art, reading books, watching movies and TV shows, creating Sketchnotes, taking photos, and writing
+       
+      <a
+        block="0"
+        class="c3"
+        href="/haiku/"
+      >
+        Haiku
+      </a>
+      .
+    </p>
+  </div>
+  <div
+    data-sal="slide-up"
+    data-sal-duration="800"
   >
-    I love walking and cycling, and do
-     
-    <a
-      block="0"
+    <p
       class="c2"
-      href="/calisthenics/"
     >
-      Calisthenics
-    </a>
-     and running to stay fit. My favourite weather is thunderstorm and rain, but I like also warm, sunny weather. My favourite places are the sea and forests.
-  </p>
-  <p
-    class="c1"
-  >
-    When I’m inside I like reading in my roughly 1,000 books. I am also a big fan of movies and TV shows. I love reading about typography, architecture or interior design. I like to cook,
-     
-    <a
-      class="c3"
-      href="https://en.wikipedia.org/wiki/Hochzeitssuppe"
-      rel="nofollow noopener noreferrer external"
-    >
-      Niedersächsische Hochzeitssuppe
-    </a>
-     
-    is my favourite dish.
-  </p>
-  <p
-    class="c1"
-  >
-    I see myself as a 
-    <a
-      block="0"
+      I love walking and cycling, and do
+       
+      <a
+        block="0"
+        class="c3"
+        href="/calisthenics/"
+      >
+        Calisthenics
+      </a>
+       and running fit. My favourite weather is thunderstorm and rain, but I like also warm, sunny weather. My favourite places are the sea and forests.
+    </p>
+    <p
       class="c2"
-      href="/minimalism/"
     >
-      Minimalist
-    </a>
-    , a Stoic, an Introvert and Japanophile. Writing is a passion of me. Besides writing 
-    <a
-      block="0"
+      When I’m inside I like reading in my roughly 1,000 books. I am also a big fan of movies and TV shows. I love reading about typography, architecture or interior design. I like to cook,
+       
+      <a
+        class="c4"
+        href="https://en.wikipedia.org/wiki/Hochzeitssuppe"
+        rel="nofollow noopener noreferrer external"
+      >
+        Niedersächsische Hochzeitssuppe
+      </a>
+       
+      is my favourite dish.
+    </p>
+    <p
       class="c2"
-      href="/journal/"
     >
-      articles
-    </a>
-     I’ve written a
-     
-    <a
-      class="c3"
-      href="https://book.kogakure.de/"
-      rel="nofollow noopener noreferrer external"
+      I see myself as a 
+      <a
+        block="0"
+        class="c3"
+        href="/minimalism/"
+      >
+        Minimalist
+      </a>
+      , a Stoic, an Introvert and Japanophile. Writing is a passion of me. Besides writing 
+      <a
+        block="0"
+        class="c3"
+        href="/journal/"
+      >
+        articles
+      </a>
+       I’ve written a
+       
+      <a
+        class="c4"
+        href="https://book.kogakure.de/"
+        rel="nofollow noopener noreferrer external"
+      >
+        book
+      </a>
+       and run
+       
+      <a
+        class="c4"
+        href="https://www.kogakure.de/"
+        rel="nofollow noopener noreferrer external"
+      >
+        website
+      </a>
+       about Ninja and Ninjutsu.
+    </p>
+    <p
+      class="c5"
     >
-      book
-    </a>
-     and run
-     
-    <a
-      class="c3"
-      href="https://www.kogakure.de/"
-      rel="nofollow noopener noreferrer external"
-    >
-      website
-    </a>
-     about Ninja and Ninjutsu. .
-  </p>
-  <p
-    class="c4"
-  >
-    See what I’m doing right 
-    <a
-      block="0"
-      class="c2"
-      href="/now/"
-    >
-      now
-    </a>
-    .
-  </p>
+      See what I’m doing right 
+      <a
+        block="0"
+        class="c3"
+        href="/now/"
+      >
+        now
+      </a>
+      .
+    </p>
+  </div>
 </section>
 `;

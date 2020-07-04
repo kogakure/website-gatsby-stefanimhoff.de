@@ -42,7 +42,7 @@ exports[`Haiku Basho renders correctly 1`] = `
   -ms-letter-spacing: normal;
   letter-spacing: normal;
   line-height: 1.6;
-  margin-bottom: 0;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
   margin-top: 0;
 }
 
@@ -76,6 +76,8 @@ exports[`Haiku Basho renders correctly 1`] = `
 
 <div
   class="c0"
+  data-sal="slide-up"
+  data-sal-duration="800"
 >
   <h2
     class="c1"

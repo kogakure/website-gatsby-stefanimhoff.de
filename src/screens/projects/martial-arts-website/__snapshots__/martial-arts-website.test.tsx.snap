@@ -1,6 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Projects MartialArtsWebsite renders correctly 1`] = `
+.c11 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c11:hover,
+.c11:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
 .c10 {
   color: var(--colorForeground);
   font-weight: 600;
@@ -17,23 +33,7 @@ exports[`Projects MartialArtsWebsite renders correctly 1`] = `
   text-decoration-color: var(--colorAccent);
 }
 
-.c9 {
-  color: var(--colorForeground);
-  font-weight: 600;
-  -webkit-text-decoration-color: var(--colorForegroundSoft);
-  text-decoration-color: var(--colorForegroundSoft);
-  -webkit-text-decoration-thickness: 0.1em;
-  text-decoration-thickness: 0.1em;
-  text-underline-offset: 0.1em;
-}
-
-.c9:hover,
-.c9:focus {
-  -webkit-text-decoration-color: var(--colorAccent);
-  text-decoration-color: var(--colorAccent);
-}
-
-.c11 {
+.c12 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -51,15 +51,15 @@ exports[`Projects MartialArtsWebsite renders correctly 1`] = `
   transition-timing-function: ease-in-out;
 }
 
-a:hover .c11,
-a:active .c11,
-a:focus .c11 {
+a:hover .c12,
+a:active .c12,
+a:focus .c12 {
   -webkit-transform: translate3D(0.25rem,0,0);
   -ms-transform: translate3D(0.25rem,0,0);
   transform: translate3D(0.25rem,0,0);
 }
 
-.c7 {
+.c8 {
   font-size: clamp(1.50rem,2.9vw,3.25rem);
   font-weight: 900;
   -webkit-letter-spacing: normal;
@@ -71,7 +71,7 @@ a:focus .c11 {
   margin-top: 0;
 }
 
-.c7 .autolink {
+.c8 .autolink {
   background: transparent;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -83,12 +83,12 @@ a:focus .c11 {
   vertical-align: middle;
 }
 
-.c7:hover .autolink,
-.c7:focus .autolink {
+.c8:hover .autolink,
+.c8:focus .autolink {
   opacity: 0.5;
 }
 
-.c8 {
+.c9 {
   font-size: clamp(1.00rem,1.1vw,1.25rem);
   font-weight: 400;
   -webkit-letter-spacing: normal;
@@ -118,7 +118,7 @@ a:focus .c11 {
   align-items: center;
 }
 
-.c2 {
+.c3 {
   height: 100%;
   position: relative;
   -webkit-transition-duration: 500ms;
@@ -131,14 +131,14 @@ a:focus .c11 {
   width: 100%;
 }
 
-.c2:hover,
-.c2:focus {
+.c3:hover,
+.c3:focus {
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
 }
 
-.c2::after {
+.c3::after {
   box-shadow: 0 0 50px rgba(0,0,0,0.2);
   content: '';
   height: 100%;
@@ -156,18 +156,22 @@ a:focus .c11 {
   z-index: -1;
 }
 
-.c2:hover::after,
-.c2:focus::after {
+.c3:hover::after,
+.c3:focus::after {
   opacity: 1;
 }
 
-.c3 {
+.c4 {
   border-color: var(--colorForegroundSoft);
   border-style: solid;
   border-width: 1px;
 }
 
-.c6 {
+.c2 {
+  width: 100%;
+}
+
+.c7 {
   color: var(--colorForegroundStrong);
   display: block;
   font-size: clamp(0.65rem,0.8vw,0.75rem);
@@ -175,19 +179,19 @@ a:focus .c11 {
   line-height: 1;
 }
 
-.c5 {
+.c6 {
   padding-left: 5.55vw;
   padding-right: 5.55vw;
   width: 100%;
 }
 
-.c4 {
+.c5 {
   border-left-width: 0;
   border-right-width: 0;
 }
 
 @media screen and (prefers-reduced-motion:no-preference) {
-  .c7 .autolink {
+  .c8 .autolink {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     -webkit-transition-property: opacity;
@@ -210,6 +214,12 @@ a:focus .c11 {
 }
 
 @media (min-width:768px) {
+  .c7 {
+    padding: 0;
+  }
+}
+
+@media (min-width:768px) {
   .c6 {
     padding: 0;
   }
@@ -217,12 +227,6 @@ a:focus .c11 {
 
 @media (min-width:768px) {
   .c5 {
-    padding: 0;
-  }
-}
-
-@media (min-width:768px) {
-  .c4 {
     border-left-width: 1px;
     border-right-width: 1px;
   }
@@ -236,50 +240,58 @@ a:focus .c11 {
   >
     <div
       class="c2"
+      data-sal="slide-up"
+      data-sal-duration="800"
     >
       <div
-        class="c3 c4 gatsby-image-wrapper"
-        style="position: relative; overflow: hidden;"
+        class="c3"
       >
         <div
-          aria-hidden="true"
-          style="width: 100%; padding-bottom: 151.5151515151515%;"
-        />
-        <img
-          alt=""
-          aria-hidden="true"
-          src="data:image/jpeg;base64,XYZ"
-          style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
-        />
-        <picture>
-          <source
-            sizes="(max-width: 1200px) 100vw, 1200px"
-            srcset="/static/cover.jpg 200w, /static/cover.jpg 400w"
+          class="c4 c5 gatsby-image-wrapper"
+          style="position: relative; overflow: hidden;"
+        >
+          <div
+            aria-hidden="true"
+            style="width: 100%; padding-bottom: 151.5151515151515%;"
           />
           <img
             alt=""
-            loading="lazy"
-            sizes="(max-width: 1200px) 100vw, 1200px"
-            src="/static/cover.jpg"
-            srcset="/static/cover.jpg 200w, /static/cover.jpg 400w"
-            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+            aria-hidden="true"
+            src="data:image/jpeg;base64,XYZ"
+            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
           />
-        </picture>
-        <noscript>
-          &lt;picture&gt;&lt;source srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" sizes="(max-width: 1200px) 100vw, 1200px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" src="/static/cover.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
-        </noscript>
+          <picture>
+            <source
+              sizes="(max-width: 1200px) 100vw, 1200px"
+              srcset="/static/cover.jpg 200w, /static/cover.jpg 400w"
+            />
+            <img
+              alt=""
+              loading="lazy"
+              sizes="(max-width: 1200px) 100vw, 1200px"
+              src="/static/cover.jpg"
+              srcset="/static/cover.jpg 200w, /static/cover.jpg 400w"
+              style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
+            />
+          </picture>
+          <noscript>
+            &lt;picture&gt;&lt;source srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" sizes="(max-width: 1200px) 100vw, 1200px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" src="/static/cover.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
+          </noscript>
+        </div>
       </div>
     </div>
     <div
-      class="c5"
+      class="c6"
+      data-sal="slide-up"
+      data-sal-duration="800"
     >
       <small
-        class="c6"
+        class="c7"
       >
         Web Design / Web Development / Writing
       </small>
       <h2
-        class="c7"
+        class="c8"
       >
         Martial Arts Website
         <span>
@@ -287,12 +299,12 @@ a:focus .c11 {
         </span>
       </h2>
       <p
-        class="c8"
+        class="c9"
       >
         My
          
         <a
-          class="c9"
+          class="c10"
           href="https://www.kogakure.de/"
           rel="nofollow noopener noreferrer external"
         >
@@ -321,12 +333,12 @@ a:focus .c11 {
       <a
         aria-label="See the showcase Martial Arts Online Magazine"
         block="0"
-        class="c10"
+        class="c11"
         href="/showcase/kogakure/"
       >
         More
         <span
-          class="c11"
+          class="c12"
         >
           <svg
             height="1em"

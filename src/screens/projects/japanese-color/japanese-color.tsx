@@ -10,7 +10,7 @@ import { Styled } from './japanese-color.styles';
 
 export const JapaneseColor: React.FC = () => (
   <Row marginBottom variant="equal" vertical="center">
-    <TextBlock>
+    <TextBlock data-sal="slide-up" data-sal-duration="800">
       <SmallPrint>Design / Web Development</SmallPrint>
       <Headline>
         The Traditional Colors of Japan
@@ -31,7 +31,7 @@ export const JapaneseColor: React.FC = () => (
         See Traditional Colors of Japan
       </MoreLink>
     </TextBlock>
-    <Styled.Colors>
+    <Styled.Colors data-sal="slide-up" data-sal-duration="800">
       <ColorSwatch color="#D75455" />
       <ColorSwatch color="#96632E" />
       <ColorSwatch color="#3A8FB7" />

@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
-import { SmallPrint, TextBlock } from '..';
+import { SmallPrint, ImageBlock, TextBlock } from '..';
 
 import { Styled } from './sketchnotes.styles';
 
@@ -27,7 +27,7 @@ export const Sketchnotes: React.FC = () => {
 
   return (
     <Row variant="equal" vertical="center">
-      <TextBlock>
+      <TextBlock data-sal="slide-up" data-sal-duration="800">
         <SmallPrint>Illustration / Writing</SmallPrint>
         <Headline>
           Sketchnotes
@@ -41,7 +41,9 @@ export const Sketchnotes: React.FC = () => {
         </Paragraph>
         <MoreLink to="/sketchnotes/">See Sketchnotes</MoreLink>
       </TextBlock>
-      <Styled.Image fluid={fluid} />
+      <ImageBlock data-sal="slide-up" data-sal-duration="800">
+        <Styled.Image fluid={fluid} />
+      </ImageBlock>
     </Row>
   );
 };

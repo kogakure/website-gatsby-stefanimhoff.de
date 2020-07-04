@@ -37,6 +37,8 @@ exports[`404 Haiku renders correctly 1`] = `
 
 <blockquote
   class="c0 c1"
+  data-sal="slide-up"
+  data-sal-duration="800"
 >
   <pre
     class="c2"

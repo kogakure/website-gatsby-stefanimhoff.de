@@ -29,11 +29,11 @@ export const KoiIllustration: React.FC = () => {
 
   return (
     <>
-      <Row variant="bigLeft">
+      <Row variant="bigLeft" data-sal="slide-up" data-sal-duration="800">
         <Styled.Image fluid={fluid} />
       </Row>
       <Row variant="rightOnly">
-        <TextBlock>
+        <TextBlock data-sal="slide-up" data-sal-duration="800">
           <SmallPrint>Illustration / Painting</SmallPrint>
           <Headline>
             Koi Illustration

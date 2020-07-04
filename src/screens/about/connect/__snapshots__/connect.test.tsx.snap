@@ -173,6 +173,8 @@ li .c2 {
 
 <section
   class="c0"
+  data-sal="slide-up"
+  data-sal-duration="800"
   id="connect"
 >
   <h2

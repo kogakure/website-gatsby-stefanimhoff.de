@@ -15,13 +15,17 @@ export const AllPosts: React.FC = () => {
 
   return (
     <Styled.AllPosts>
-      <Headline>
+      <Headline data-sal="slide-up" data-sal-duration="800">
         All Articles
         <Emojify emoji="🗃" />
       </Headline>
       <UnorderedList noMargin>
         {edges.map(({ node: { fields, frontmatter } }) => (
-          <li key={frontmatter.title}>
+          <li
+            key={frontmatter.title}
+            data-sal="slide-up"
+            data-sal-duration="800"
+          >
             <TextLink to={fields.slug}>{frontmatter.title}</TextLink>
           </li>
         ))}
