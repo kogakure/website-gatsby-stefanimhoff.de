@@ -57,6 +57,13 @@ export const SEO = ({
       <Helmet title={seo.title} titleTemplate={seo.titleTemplate}>
         <html lang={seo.language} />
         {bodyClass && <body className={bodyClass} />}
+        {/* Favicon */}
+        <link
+          href={`${siteUrl}/favicon.ico`}
+          rel="shortcut icon"
+          type="image/x-icon"
+        />
+        <link href={`${siteUrl}/favicon.ico`} rel="icon" type="image/x-icon" />
         {/* Author */}
         <meta name="author" content={author} />
         {/* Description */}
