@@ -18,6 +18,10 @@ exports[`Flag renders correctly 1`] = `
   text-decoration: none;
 }
 
+.c2 {
+  display: none;
+}
+
 .c1 {
   background-color: rgb(207,0,0);
   border-color: rgb(207,0,0);
@@ -30,6 +34,18 @@ exports[`Flag renders correctly 1`] = `
   href="https://www.netflix.com/title/80014749"
   rel="nofollow noopener noreferrer external"
 >
+  <span
+    aria-hidden="true"
+    class="c2"
+  >
+    [
+  </span>
   N
+  <span
+    aria-hidden="true"
+    class="c2"
+  >
+    ]
+  </span>
 </a>
 `;

@@ -16,10 +16,26 @@ exports[`Flag renders correctly 1`] = `
   padding-top: 0.1em;
 }
 
+.c1 {
+  display: none;
+}
+
 <span
   class="c0"
 >
+  <span
+    aria-hidden="true"
+    class="c1"
+  >
+    [
+  </span>
   default
+  <span
+    aria-hidden="true"
+    class="c1"
+  >
+    ]
+  </span>
 </span>
 `;
 
@@ -41,11 +57,27 @@ exports[`Flag with href renders correctly 1`] = `
   text-decoration: none;
 }
 
+.c1 {
+  display: none;
+}
+
 <a
   class="c0"
   href="https://www.stefanimhoff.de"
   rel="nofollow noopener noreferrer external"
 >
+  <span
+    aria-hidden="true"
+    class="c1"
+  >
+    [
+  </span>
   link
+  <span
+    aria-hidden="true"
+    class="c1"
+  >
+    ]
+  </span>
 </a>
 `;

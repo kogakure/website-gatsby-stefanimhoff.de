@@ -3,7 +3,7 @@ require('dotenv').config({
 });
 
 const siteMetadata = {
-  title: 'Stefan Imhoff - Developer/Designer from Hamburg, Germany',
+  title: 'Stefan Imhoff - Frontend Developer from Hamburg, Germany',
   titleTemplate: '%s · Stefan Imhoff',
   description:
     'Front-End Web Developer / Designer / Minimalist / Introvert / Japanophile',
@@ -152,6 +152,75 @@ module.exports = {
         component: require.resolve(
           './src/layout/page-transition/transition-layout.tsx'
         ),
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-feed',
+      options: {
+        query: `
+        {
+          site {
+            siteMetadata {
+              author
+              description
+              language
+              siteUrl
+              title
+            }
+          }
+        }
+      `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMdx } }) =>
+              allMdx.edges.map((edge) => ({
+                ...edge.node.frontmatter,
+                description: edge.node.excerpt,
+                author: site.siteMetadata.author,
+                language: site.siteMetadata.language,
+                data: edge.node.frontmatter.date,
+                url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                custom_elements: [{ 'content:encoded': edge.node.html }],
+              })),
+            query: `
+              {
+                allMdx(
+                  filter: {
+                    fileAbsolutePath: {
+                      regex: "/content/posts/"
+                    }, 
+                    frontmatter: {
+                      published: {
+                        eq: true
+                      }
+                    }
+                  }, 
+                  sort: {
+                    order: DESC, 
+                    fields: [frontmatter___date]}, 
+                    limit: 15) {
+                  edges {
+                    node {
+                      excerpt
+                      html
+                      fields {
+                        slug
+                      }
+                      frontmatter {
+                        title
+                        date
+                      }
+                    }
+                  }
+                }
+              }
+          `,
+            output: '/index.xml',
+            title: 'Stefan Imhoff',
+            site_url: 'https://www.stefanimhoff.de/',
+          },
+        ],
       },
     },
     {

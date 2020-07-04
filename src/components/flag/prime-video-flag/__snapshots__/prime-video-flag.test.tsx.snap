@@ -18,6 +18,10 @@ exports[`PrimeVideoFlag renders correctly 1`] = `
   text-decoration: none;
 }
 
+.c2 {
+  display: none;
+}
+
 .c1 {
   background-color: rgb(73,163,221);
   border-color: rgb(73,163,221);
@@ -30,6 +34,18 @@ exports[`PrimeVideoFlag renders correctly 1`] = `
   href="https://www.amazon.de/gp/video/detail/B0874XF36P"
   rel="nofollow noopener noreferrer external"
 >
+  <span
+    aria-hidden="true"
+    class="c2"
+  >
+    [
+  </span>
   P
+  <span
+    aria-hidden="true"
+    class="c2"
+  >
+    ]
+  </span>
 </a>
 `;
