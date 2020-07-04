@@ -2,7 +2,7 @@ import React from 'react';
 import { Normalize } from 'styled-normalize';
 
 import { EmojifyProvider, LocalizedDateProvider } from './src/contexts';
-import { GlobalStyles } from './src/layout';
+import { GlobalStyles, MDXProviderContainer } from './src/layout';
 
 const WebFont = require('webfontloader');
 
@@ -13,7 +13,9 @@ const sourceCodeInfo = `👋 I see you’re interested in the source code of thi
 
 export const wrapRootElement = ({ element }) => (
   <EmojifyProvider>
-    <LocalizedDateProvider>{element}</LocalizedDateProvider>
+    <LocalizedDateProvider>
+      <MDXProviderContainer>{element}</MDXProviderContainer>
+    </LocalizedDateProvider>
   </EmojifyProvider>
 );
 

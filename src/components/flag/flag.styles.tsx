@@ -26,7 +26,12 @@ const LinkedFlag = styled.a`
   text-decoration: none;
 `;
 
+const Hidden = styled.span`
+  display: none;
+`;
+
 export const Styled = {
   Flag,
   LinkedFlag,
+  Hidden,
 };

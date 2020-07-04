@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Helmet } from 'react-helmet';
 
 import { Main } from '../main';
-import { MDXProviderContainer, SEO, LayoutProps } from '..';
+import { SEO, LayoutProps } from '..';
 
 import { Styled } from './minimal-layout.styles';
 
@@ -13,7 +13,7 @@ export const MinimalLayout: React.FC<LayoutProps> = ({
   size = 'fullsize',
   variant = 'default',
 }) => (
-  <MDXProviderContainer>
+  <>
     <SEO />
     <Helmet bodyAttributes={{ class: variant }} />
     <Main>
@@ -23,5 +23,5 @@ export const MinimalLayout: React.FC<LayoutProps> = ({
       </Styled.Header>
       {children}
     </Main>
-  </MDXProviderContainer>
+  </>
 );
