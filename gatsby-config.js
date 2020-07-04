@@ -181,7 +181,9 @@ module.exports = {
         icon_options: {
           purpose: 'maskable',
         },
+        cache_busting_mode: 'none',
       },
     },
+    'gatsby-plugin-offline',
   ],
 };
