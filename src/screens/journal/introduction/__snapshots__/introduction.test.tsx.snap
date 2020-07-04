@@ -58,6 +58,9 @@ exports[`Journal Introduction renders correctly 1`] = `
 
 <div
   class="c0"
+  data-sal="slide-up"
+  data-sal-delay="300"
+  data-sal-duration="800"
 >
   <p
     class="c1"

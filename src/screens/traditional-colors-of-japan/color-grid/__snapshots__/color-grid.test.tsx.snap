@@ -106,6 +106,8 @@ exports[`Traditional Colors of Japan ColorGrid renders correctly 1`] = `
 >
   <div
     class="c1"
+    data-sal="slide-up"
+    data-sal-duration="800"
   >
     <div
       class="c2"

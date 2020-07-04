@@ -7,7 +7,7 @@ import { TextLink } from '../../../components/text-link';
 import { Styled } from './about-website.styles';
 
 export const AboutWebsite: React.FC = () => (
-  <Styled.AboutWebsite>
+  <Styled.AboutWebsite data-sal="slide-up" data-sal-duration="800">
     <Subheadline as="h2">
       About This Website
       <Emojify emoji="🌐" />

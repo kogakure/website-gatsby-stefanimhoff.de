@@ -21,14 +21,6 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     'gatsby-plugin-styled-components',
-    {
-      resolve: 'gatsby-plugin-layout',
-      options: {
-        component: require.resolve(
-          './src/layout/page-transition/transition-layout.tsx'
-        ),
-      },
-    },
     'gatsby-plugin-typescript',
     'gatsby-remark-reading-time',
     'gatsby-transformer-yaml',
@@ -136,6 +128,30 @@ module.exports = {
             },
           },
         ],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-layout',
+      options: {
+        component: require.resolve(
+          './src/layout/page-transition/transition-layout.tsx'
+        ),
+      },
+    },
+    {
+      resolve: `gatsby-plugin-scroll-reveal`,
+      options: {
+        threshold: 0.1,
+        once: true,
+        disable: false,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-layout',
+      options: {
+        component: require.resolve(
+          './src/layout/page-transition/transition-layout.tsx'
+        ),
       },
     },
     {

@@ -88,6 +88,8 @@ exports[`About Contact renders correctly 1`] = `
 
 <section
   class="c0"
+  data-sal="slide-up"
+  data-sal-duration="800"
   id="contact"
 >
   <h2

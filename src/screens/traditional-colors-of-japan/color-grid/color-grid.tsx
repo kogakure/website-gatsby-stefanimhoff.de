@@ -18,6 +18,8 @@ export const ColorGrid: React.FC = () => {
           description={description}
           key={id}
           name={name}
+          data-sal="slide-up"
+          data-sal-duration="800"
         />
       ))}
     </Styled.ColorGrid>

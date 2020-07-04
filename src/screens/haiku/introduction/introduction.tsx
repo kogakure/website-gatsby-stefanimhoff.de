@@ -7,7 +7,11 @@ import { RubyAnnotation } from '../../../components/ruby-annotation';
 import { Styled } from './introduction.styles';
 
 export const Introduction: React.FC = () => (
-  <Styled.Introduction>
+  <Styled.Introduction
+    data-sal="slide-up"
+    data-sal-duration="800"
+    data-sal-delay="300"
+  >
     <Paragraph>
       Haiku (jap. <RubyAnnotation base="俳" text="ハイ" />
       <RubyAnnotation base="句" text="ク" />) is a short form of Japanese poetry

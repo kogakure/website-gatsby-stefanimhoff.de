@@ -102,6 +102,8 @@ exports[`Haiku Books renders correctly 1`] = `
 
 <div
   class="c0"
+  data-sal="slide-up"
+  data-sal-duration="800"
 >
   <a
     class="c1"

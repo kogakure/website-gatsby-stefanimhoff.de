@@ -6,7 +6,11 @@ import { TextLink } from '../../../components/text-link';
 import { Styled } from './introduction.styles';
 
 export const Introduction: React.FC = () => (
-  <Styled.Introduction>
+  <Styled.Introduction
+    data-sal="slide-up"
+    data-sal-duration="800"
+    data-sal-delay="300"
+  >
     <Paragraph>
       I’m a <em>Frontend Developer</em> by profession. But I worked in previous
       jobs also in Design, Editing, and 3D Animation. I even created Flash

@@ -7,7 +7,7 @@ import { SmallPrint, TextBlock } from '..';
 
 export const Writing: React.FC = () => (
   <Row variant="rightDown">
-    <TextBlock>
+    <TextBlock data-sal="slide-up" data-sal-duration="800">
       <SmallPrint>Writing</SmallPrint>
       <Headline>
         Journal &amp; Blog
@@ -22,7 +22,7 @@ export const Writing: React.FC = () => (
       </Paragraph>
       <MoreLink to="/journal/">Read Journal</MoreLink>
     </TextBlock>
-    <TextBlock>
+    <TextBlock data-sal="slide-up" data-sal-duration="800">
       <SmallPrint>Poetry / Writing</SmallPrint>
       <Headline>
         Haiku

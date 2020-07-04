@@ -5,7 +5,7 @@ import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
 import { TextLink } from '../../../components/text-link';
-import { SmallPrint, TextBlock } from '..';
+import { ImageBlock, SmallPrint, TextBlock } from '..';
 
 import { Styled } from './book-kogakure.styles';
 
@@ -28,7 +28,7 @@ export const BookKogakure: React.FC = () => {
 
   return (
     <Row marginBottom variant="equal" vertical="center">
-      <TextBlock>
+      <TextBlock data-sal="slide-up" data-sal-duration="800">
         <SmallPrint>Writing / Graphic Design</SmallPrint>
         <Headline>
           Book &amp; Book Cover
@@ -50,7 +50,9 @@ export const BookKogakure: React.FC = () => {
         </Paragraph>
         <MoreLink href="https://book.kogakure.de/">Read Book</MoreLink>
       </TextBlock>
-      <Styled.Image fluid={fluid} />
+      <ImageBlock data-sal="slide-up" data-sal-duration="800">
+        <Styled.Image fluid={fluid} />
+      </ImageBlock>
     </Row>
   );
 };

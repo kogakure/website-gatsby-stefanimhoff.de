@@ -165,6 +165,8 @@ a:focus .c7 {
   >
     <div
       class="c2"
+      data-sal="slide-up"
+      data-sal-duration="800"
     >
       <small
         class="c3"
@@ -220,6 +222,8 @@ a:focus .c7 {
     </div>
     <div
       class="c2"
+      data-sal="slide-up"
+      data-sal-duration="800"
     >
       <small
         class="c3"

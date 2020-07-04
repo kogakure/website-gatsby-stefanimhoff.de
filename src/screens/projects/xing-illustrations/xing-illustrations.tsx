@@ -30,10 +30,15 @@ export const XingIllustrations: React.FC = () => {
 
   return (
     <>
-      <Row variant="bigLeft" vertical="center">
+      <Row
+        variant="bigLeft"
+        vertical="center"
+        data-sal="slide-up"
+        data-sal-duration="800"
+      >
         <Styled.Image fluid={fluid} />
       </Row>
-      <Row variant="rightOnly">
+      <Row variant="rightOnly" data-sal="slide-up" data-sal-duration="800">
         <TextBlock>
           <SmallPrint>Illustration / Icon Design</SmallPrint>
           <Headline>

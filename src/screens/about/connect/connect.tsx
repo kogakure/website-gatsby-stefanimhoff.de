@@ -13,7 +13,7 @@ export const Connect: React.FC = () => {
   } = useSocialMediaQuery();
 
   return (
-    <Styled.Connect id="connect">
+    <Styled.Connect id="connect" data-sal="slide-up" data-sal-duration="800">
       <Subheadline as="h2">
         Connect
         <Emojify emoji="🤝" />

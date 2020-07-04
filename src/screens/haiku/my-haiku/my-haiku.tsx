@@ -12,7 +12,7 @@ export const MyHaiku: React.FC = () => {
   } = useHaikuQuery();
 
   return (
-    <Styled.MyHaiku>
+    <Styled.MyHaiku data-sal="slide-up" data-sal-duration="800">
       <Headline>
         My Haiku
         <Emojify emoji="🍂" />

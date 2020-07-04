@@ -7,8 +7,8 @@ import { TextLink } from '../../../components/text-link';
 
 import { Styled } from './what-i-do.styles';
 
-export const WhatIDo: React.FC = () => (
-  <Styled.WhatIDo>
+export const WhatIDo: React.FC = ({ ...props }) => (
+  <Styled.WhatIDo data-sal="slide-up" data-sal-duration="800" {...props}>
     <Headline>
       What I Do
       <Emojify emoji="👨🏻‍💻" />
@@ -27,12 +27,12 @@ export const WhatIDo: React.FC = () => (
       </Paragraph>
       <Paragraph>
         I am currently working at{' '}
-        <TextLink href="https://www.xing.com/">XING</TextLink>, the biggest
-        business network in Europe, working on the Design&nbsp;System.
+        <TextLink href="https://www.xing.com/">XING</TextLink>, the network in
+        Europe, working on the Design&nbsp;System.
       </Paragraph>
       <Paragraph>
         I love innovating: During multiple{' '}
-        <TextLink href="https://medium.com/xing-hackweek">Hackweeks</TextLink> I
+        <TextLink href="https://medium.com/xing-hackweek">Hackweeks</TextLink>{' '}
         was part of a small team creating a complete new job platform for
         freelancers. I am also a three-time winner of the{' '}
         <em>Prototyping Days</em>, a yearly two-day company-wide

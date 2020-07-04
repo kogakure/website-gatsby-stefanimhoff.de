@@ -148,6 +148,8 @@ li .c2 {
 >
   <h2
     class="c1"
+    data-sal="slide-up"
+    data-sal-duration="800"
   >
     All Articles
     <span>
@@ -157,7 +159,10 @@ li .c2 {
   <ul
     class="c2"
   >
-    <li>
+    <li
+      data-sal="slide-up"
+      data-sal-duration="800"
+    >
       <a
         block="0"
         class="c3"

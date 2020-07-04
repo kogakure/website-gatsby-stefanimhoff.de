@@ -5,7 +5,7 @@ import { Emojify, Row } from '../../../layout';
 import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
 import { TextLink } from '../../../components/text-link';
-import { SmallPrint, TextBlock } from '..';
+import { ImageBlock, SmallPrint, TextBlock } from '..';
 
 import { Styled } from './hamburg-blog.styles';
 
@@ -28,7 +28,7 @@ export const HamburgBlog: React.FC = () => {
 
   return (
     <Row variant="equal" vertical="center">
-      <TextBlock>
+      <TextBlock data-sal="slide-up" data-sal-duration="800">
         <SmallPrint>Web Design / Web Development / Photography</SmallPrint>
         <Headline>
           Exploring Hamburg
@@ -48,7 +48,9 @@ export const HamburgBlog: React.FC = () => {
           aria-label="See the showcase Exploring Hamburg"
         />
       </TextBlock>
-      <Styled.Image fluid={fluid} />
+      <ImageBlock data-sal="slide-up" data-sal-duration="800">
+        <Styled.Image fluid={fluid} />
+      </ImageBlock>
     </Row>
   );
 };

@@ -14,48 +14,50 @@ import { TextLink } from '../../../components/text-link';
 
 import { Styled } from './journal.styles';
 
-export const Journal: React.FC = () => {
+export const Journal: React.FC = ({ ...props }) => {
   const {
     homepageJournalPosts: { edges },
   } = useHomepageJournalPostsQuery();
 
   return (
-    <Styled.Journal>
-      <Headline>
-        Latest Articles
-        <Emojify emoji="🖋" />
-      </Headline>
-      <Styled.Introduction>
-        <Styled.Text>
-          <Paragraph>
-            I am writing about code, design, productivity, self-improvement,
-            films, and books in this Journal and publish a monthly article with
-            recommendations.
-          </Paragraph>
-          <MoreLink
-            to="/journal/"
-            aria-label="Read all articles in the Journal"
-          />
-        </Styled.Text>
-        <Styled.Subscribe>
-          <SubSubheadline as="h3">Subscribe</SubSubheadline>
-          <Paragraph noMargin>
-            Stay up to date. Subscribe to my{' '}
-            <TextLink
-              href="https://mailchi.mp/2658683a02d9/stefanimhoff"
-              target="_blank"
-            >
-              Newsletter
-            </TextLink>
-            ,{' '}
-            <TextLink href="https://www.stefanimhoff.de/index.xml">
-              RSS feed
-            </TextLink>
-            , and follow me on{' '}
-            <TextLink href="https://twitter.com/kogakure">Twitter</TextLink>.
-          </Paragraph>
-        </Styled.Subscribe>
-      </Styled.Introduction>
+    <Styled.Journal {...props}>
+      <div data-sal="slide-up" data-sal-duration="800">
+        <Headline>
+          Latest Articles
+          <Emojify emoji="🖋" />
+        </Headline>
+        <Styled.Introduction>
+          <Styled.Text>
+            <Paragraph>
+              I am writing about code, design, productivity, self-improvement,
+              films, and books in this Journal and publish a monthly article
+              with recommendations.
+            </Paragraph>
+            <MoreLink
+              to="/journal/"
+              aria-label="Read all articles in the Journal"
+            />
+          </Styled.Text>
+          <Styled.Subscribe>
+            <SubSubheadline as="h3">Subscribe</SubSubheadline>
+            <Paragraph noMargin>
+              Stay up to date. Subscribe to my{' '}
+              <TextLink
+                href="https://mailchi.mp/2658683a02d9/stefanimhoff"
+                target="_blank"
+              >
+                Newsletter
+              </TextLink>
+              ,{' '}
+              <TextLink href="https://www.stefanimhoff.de/index.xml">
+                RSS feed
+              </TextLink>
+              , and follow me on{' '}
+              <TextLink href="https://twitter.com/kogakure">Twitter</TextLink>.
+            </Paragraph>
+          </Styled.Subscribe>
+        </Styled.Introduction>
+      </div>
       <Styled.Grid>
         {edges.map(({ node }) => {
           const {
@@ -69,6 +71,8 @@ export const Journal: React.FC = () => {
               bottomSpace={getRandomNumber(7)}
               key={slug}
               topSpace={getRandomNumber(10)}
+              data-sal="slide-up"
+              data-sal-duration="800"
             >
               <Styled.LinkedPost to={slug} aria-label={title}>
                 {cover &&

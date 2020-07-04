@@ -6,7 +6,7 @@ import { DownloadLink } from '../../../components/download-link';
 import { Styled } from './introduction.styles';
 
 export const Introduction: React.FC = () => (
-  <Styled.Introduction>
+  <Styled.Introduction data-sal="slide-up" data-sal-duration="800">
     <Paragraph>
       A few years ago I found by accident the book{' '}
       <cite>The Traditional Colors of Japan</cite> by{' '}
