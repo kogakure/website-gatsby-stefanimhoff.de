@@ -5,7 +5,7 @@ import { Haiku, Huge404, Title } from '../screens/404';
 
 const Error404Page = () => (
   <Layout size="regular">
-    <SEO title="Error 404" />
+    <SEO title="Error 404" robots="noindex,follow" />
     <ContentGrid rowGap size="regular">
       <Title />
       <Haiku />
