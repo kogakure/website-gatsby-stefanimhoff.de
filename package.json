@@ -38,7 +38,7 @@
     "serve": "gatsby serve",
     "start": "run-p start:**",
     "start:gatsby": "gatsby develop -H 0.0.0.0 -o",
-    "start:storybook": "start-storybook -p 9000 -c .storybook",
+    "start:storybook": "start-storybook -p 9999 -c .storybook",
     "svg": "svgr --icon --filename-case kebab --template scripts/templates/svgr/icon.js --index-template scripts/templates/svgr/icon-index.js --ext tsx -d src/components/icons src/components/icons/svg",
     "test": "is-ci 'test:coverage' 'test:watch'",
     "test:coverage": "jest --coverage",
