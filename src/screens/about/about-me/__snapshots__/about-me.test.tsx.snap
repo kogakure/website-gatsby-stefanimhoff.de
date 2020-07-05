@@ -137,8 +137,16 @@ exports[`About AboutMe renders correctly 1`] = `
       <em>
         Stefan Imhoff
       </em>
-      , a Front-End Web Developer and Designer from Hamburg, Germany. I love design and art, reading books, watching movies and TV shows, creating Sketchnotes, taking photos, and writing
+      , a Front-End Web Developer and Designer from Hamburg, Germany. I love design and art, reading books, watching movies and TV shows, creating
        
+      <a
+        block="0"
+        class="c3"
+        href="/sketchnotes/"
+      >
+        Sketchnotes
+      </a>
+      , taking photos, and writing 
       <a
         block="0"
         class="c3"
@@ -176,6 +184,7 @@ exports[`About AboutMe renders correctly 1`] = `
         class="c4"
         href="https://en.wikipedia.org/wiki/Hochzeitssuppe"
         rel="nofollow noopener noreferrer external"
+        target="_blank"
       >
         Niedersächsische Hochzeitssuppe
       </a>
@@ -207,19 +216,23 @@ exports[`About AboutMe renders correctly 1`] = `
         class="c4"
         href="https://book.kogakure.de/"
         rel="nofollow noopener noreferrer external"
+        target="_blank"
       >
         book
       </a>
-       and run
+       
+      and run
        
       <a
         class="c4"
         href="https://www.kogakure.de/"
         rel="nofollow noopener noreferrer external"
+        target="_blank"
       >
         website
       </a>
-       about Ninja and Ninjutsu.
+       
+      about Ninja and Ninjutsu.
     </p>
     <p
       class="c5"
