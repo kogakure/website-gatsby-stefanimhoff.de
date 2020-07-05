@@ -12,7 +12,7 @@ const borderRadius = css`
 const baseBook = css`
   /* stylelint-disable plugin/stylelint-no-indistinguishable-colors */
   box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.5);
-  display: inline-flex;
+  display: grid;
   position: relative;
   transition-duration: 500ms;
   transition-property: transform;
@@ -73,6 +73,8 @@ const LinkedBook = styled.a`
 const Cover = styled.img`
   ${borderRadius};
   display: block;
+  height: auto;
+  max-width: 100%;
   position: relative;
 `;
 
