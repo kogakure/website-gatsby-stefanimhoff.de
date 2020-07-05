@@ -4,7 +4,7 @@ title: Gitweb Theme
 author: Stefan Imhoff
 date: 2009-02-19T20:00:00+02:00
 description: My popular theme for GitWeb to download for free. Now GitWeb looks a bit more similar to GitHub and is not so ugly anymore.
-og: ./gitweb-theme-summary.png
+og: ./og.jpg
 categories:
   - download
 ---
