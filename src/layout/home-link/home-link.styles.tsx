@@ -17,7 +17,7 @@ const Button = styled.button`
 
 const Arrow = styled(ArrowLeft)`
   fill: var(--colorForeground);
-  font-size: 1.2rem;
+  font-size: 20px;
 `;
 
 const ArrowLink = styled(Link)`
