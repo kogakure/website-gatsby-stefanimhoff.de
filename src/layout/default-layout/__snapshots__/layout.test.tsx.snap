@@ -23,7 +23,7 @@ exports[`Layout renders correctly 1`] = `
 
 .c11 {
   fill: var(--colorForeground);
-  font-size: 0.8rem;
+  font-size: 12px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   -webkit-transition-property: -webkit-transform;
@@ -62,7 +62,7 @@ exports[`Layout renders correctly 1`] = `
 
 .c4 {
   fill: var(--colorForeground);
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 
 .c1 {
@@ -178,7 +178,7 @@ exports[`Layout renders correctly 1`] = `
 
 .c19 {
   fill: var(--colorForeground);
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 
 .c16 {
@@ -477,7 +477,7 @@ exports[`Layout with variant "blue" renders correctly 1`] = `
 
 .c11 {
   fill: var(--colorForeground);
-  font-size: 0.8rem;
+  font-size: 12px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   -webkit-transition-property: -webkit-transform;
@@ -516,7 +516,7 @@ exports[`Layout with variant "blue" renders correctly 1`] = `
 
 .c4 {
   fill: var(--colorForeground);
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 
 .c1 {
@@ -632,7 +632,7 @@ exports[`Layout with variant "blue" renders correctly 1`] = `
 
 .c19 {
   fill: var(--colorForeground);
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 
 .c16 {
@@ -931,7 +931,7 @@ exports[`Layout with variant "brown" renders correctly 1`] = `
 
 .c11 {
   fill: var(--colorForeground);
-  font-size: 0.8rem;
+  font-size: 12px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   -webkit-transition-property: -webkit-transform;
@@ -970,7 +970,7 @@ exports[`Layout with variant "brown" renders correctly 1`] = `
 
 .c4 {
   fill: var(--colorForeground);
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 
 .c1 {
@@ -1086,7 +1086,7 @@ exports[`Layout with variant "brown" renders correctly 1`] = `
 
 .c19 {
   fill: var(--colorForeground);
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 
 .c16 {
@@ -1385,7 +1385,7 @@ exports[`Layout with variant "green" renders correctly 1`] = `
 
 .c11 {
   fill: var(--colorForeground);
-  font-size: 0.8rem;
+  font-size: 12px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   -webkit-transition-property: -webkit-transform;
@@ -1424,7 +1424,7 @@ exports[`Layout with variant "green" renders correctly 1`] = `
 
 .c4 {
   fill: var(--colorForeground);
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 
 .c1 {
@@ -1540,7 +1540,7 @@ exports[`Layout with variant "green" renders correctly 1`] = `
 
 .c19 {
   fill: var(--colorForeground);
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 
 .c16 {
