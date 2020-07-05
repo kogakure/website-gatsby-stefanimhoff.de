@@ -43,12 +43,3 @@
   src: url('playfairdisplaysc-regular-webfont.woff2') format('woff2'),
     url('playfairdisplaysc-regular-webfont.woff') format('woff');
 }
-
-@font-face {
-  font-family: 'Fira Code Retina Webfont';
-  font-display: swap;
-  font-weight: 400;
-  font-style: normal;
-  src: url('firacode-retina-webfont.woff2') format('woff2'),
-    url('firacode-retina-webfont.woff') format('woff');
-}
