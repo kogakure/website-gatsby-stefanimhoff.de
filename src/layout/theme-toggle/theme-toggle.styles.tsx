@@ -17,9 +17,11 @@ const Button = styled.button`
 export const CircleIcon = styled(Circle)`
   fill: var(--colorForeground);
   font-size: 12px;
+  height: 12px;
   transition-duration: ${transitionDuration[5]};
   transition-property: transform;
   transition-timing-function: ease-in-out;
+  width: 12px;
 
   &:hover,
   &:focus {

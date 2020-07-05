@@ -37,6 +37,7 @@ exports[`MinimalLayout renders correctly 1`] = `
 .c9 {
   fill: var(--colorForeground);
   font-size: 12px;
+  height: 12px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   -webkit-transition-property: -webkit-transform;
@@ -44,6 +45,7 @@ exports[`MinimalLayout renders correctly 1`] = `
   transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
+  width: 12px;
 }
 
 .c9:hover,
@@ -76,6 +78,8 @@ exports[`MinimalLayout renders correctly 1`] = `
 .c6 {
   fill: var(--colorForeground);
   font-size: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .c3 {
@@ -222,6 +226,7 @@ exports[`MinimalLayout with variant "blue" renders correctly 1`] = `
 .c9 {
   fill: var(--colorForeground);
   font-size: 12px;
+  height: 12px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   -webkit-transition-property: -webkit-transform;
@@ -229,6 +234,7 @@ exports[`MinimalLayout with variant "blue" renders correctly 1`] = `
   transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
+  width: 12px;
 }
 
 .c9:hover,
@@ -261,6 +267,8 @@ exports[`MinimalLayout with variant "blue" renders correctly 1`] = `
 .c6 {
   fill: var(--colorForeground);
   font-size: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .c3 {
@@ -407,6 +415,7 @@ exports[`MinimalLayout with variant "brown" renders correctly 1`] = `
 .c9 {
   fill: var(--colorForeground);
   font-size: 12px;
+  height: 12px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   -webkit-transition-property: -webkit-transform;
@@ -414,6 +423,7 @@ exports[`MinimalLayout with variant "brown" renders correctly 1`] = `
   transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
+  width: 12px;
 }
 
 .c9:hover,
@@ -446,6 +456,8 @@ exports[`MinimalLayout with variant "brown" renders correctly 1`] = `
 .c6 {
   fill: var(--colorForeground);
   font-size: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .c3 {
@@ -592,6 +604,7 @@ exports[`MinimalLayout with variant "green" renders correctly 1`] = `
 .c9 {
   fill: var(--colorForeground);
   font-size: 12px;
+  height: 12px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   -webkit-transition-property: -webkit-transform;
@@ -599,6 +612,7 @@ exports[`MinimalLayout with variant "green" renders correctly 1`] = `
   transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
+  width: 12px;
 }
 
 .c9:hover,
@@ -631,6 +645,8 @@ exports[`MinimalLayout with variant "green" renders correctly 1`] = `
 .c6 {
   fill: var(--colorForeground);
   font-size: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .c3 {

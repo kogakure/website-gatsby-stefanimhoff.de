@@ -24,6 +24,7 @@ exports[`Layout renders correctly 1`] = `
 .c11 {
   fill: var(--colorForeground);
   font-size: 12px;
+  height: 12px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   -webkit-transition-property: -webkit-transform;
@@ -31,6 +32,7 @@ exports[`Layout renders correctly 1`] = `
   transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
+  width: 12px;
 }
 
 .c11:hover,
@@ -63,6 +65,8 @@ exports[`Layout renders correctly 1`] = `
 .c4 {
   fill: var(--colorForeground);
   font-size: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .c1 {
@@ -179,6 +183,8 @@ exports[`Layout renders correctly 1`] = `
 .c19 {
   fill: var(--colorForeground);
   font-size: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .c16 {
@@ -478,6 +484,7 @@ exports[`Layout with variant "blue" renders correctly 1`] = `
 .c11 {
   fill: var(--colorForeground);
   font-size: 12px;
+  height: 12px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   -webkit-transition-property: -webkit-transform;
@@ -485,6 +492,7 @@ exports[`Layout with variant "blue" renders correctly 1`] = `
   transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
+  width: 12px;
 }
 
 .c11:hover,
@@ -517,6 +525,8 @@ exports[`Layout with variant "blue" renders correctly 1`] = `
 .c4 {
   fill: var(--colorForeground);
   font-size: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .c1 {
@@ -633,6 +643,8 @@ exports[`Layout with variant "blue" renders correctly 1`] = `
 .c19 {
   fill: var(--colorForeground);
   font-size: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .c16 {
@@ -932,6 +944,7 @@ exports[`Layout with variant "brown" renders correctly 1`] = `
 .c11 {
   fill: var(--colorForeground);
   font-size: 12px;
+  height: 12px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   -webkit-transition-property: -webkit-transform;
@@ -939,6 +952,7 @@ exports[`Layout with variant "brown" renders correctly 1`] = `
   transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
+  width: 12px;
 }
 
 .c11:hover,
@@ -971,6 +985,8 @@ exports[`Layout with variant "brown" renders correctly 1`] = `
 .c4 {
   fill: var(--colorForeground);
   font-size: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .c1 {
@@ -1087,6 +1103,8 @@ exports[`Layout with variant "brown" renders correctly 1`] = `
 .c19 {
   fill: var(--colorForeground);
   font-size: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .c16 {
@@ -1386,6 +1404,7 @@ exports[`Layout with variant "green" renders correctly 1`] = `
 .c11 {
   fill: var(--colorForeground);
   font-size: 12px;
+  height: 12px;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   -webkit-transition-property: -webkit-transform;
@@ -1393,6 +1412,7 @@ exports[`Layout with variant "green" renders correctly 1`] = `
   transition-property: transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
+  width: 12px;
 }
 
 .c11:hover,
@@ -1425,6 +1445,8 @@ exports[`Layout with variant "green" renders correctly 1`] = `
 .c4 {
   fill: var(--colorForeground);
   font-size: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .c1 {
@@ -1541,6 +1563,8 @@ exports[`Layout with variant "green" renders correctly 1`] = `
 .c19 {
   fill: var(--colorForeground);
   font-size: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .c16 {
