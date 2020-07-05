@@ -114,7 +114,7 @@ module.exports = {
             options: {
               linkImagesToOriginal: true,
               loading: 'lazy',
-              maxWidth: 1200,
+              maxWidth: 1000,
               showCaptions: ['title'],
               withWebP: true,
               wrapperStyle: 'margin-bottom: clamp(2.074rem, 4.44vw, 2.488rem)',
