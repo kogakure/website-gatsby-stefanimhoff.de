@@ -11,6 +11,7 @@ const HorizontalRule = styled.hr<HorizontalRuleProps>`
   border-right-width: 0;
   border-style: ${borderStyle.solid};
   border-top-width: 0;
+  width: 100%;
   ${({ noMargin }) =>
     !noMargin &&
     css`

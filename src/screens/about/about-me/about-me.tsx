@@ -11,7 +11,7 @@ export const AboutMe: React.FC = () => (
     <div data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
       <Subheadline as="h2">
         About Me
-        <Emojify emoji="🌐" />
+        <Emojify emoji="💁🏻‍♂️" />
       </Subheadline>
       <Paragraph>
         I’m <em>Stefan Imhoff</em>, a Front-End Web Developer and Designer from
