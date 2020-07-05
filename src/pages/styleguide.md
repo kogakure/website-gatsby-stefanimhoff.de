@@ -427,7 +427,7 @@ Keine Zeit für Pessimismus.
   source="The Writing Life"
   sourceUrl="https://www.goodreads.com/book/show/12530.The_Writing_Life"
 >
-  How we spend our days is, of course, how we spend our lives. >{' '}
+  How we spend our days is, of course, how we spend our lives. >{" "}
 </Pullquote>
 
 ```md
@@ -604,14 +604,14 @@ webp: {
 ```
 
 ```js{2,10-12}
-var gulp = require('gulp');
-var webp = require('gulp-webp');
-var config = require('../../config').webp;
+var gulp = require("gulp");
+var webp = require("gulp-webp");
+var config = require("../../config").webp;
 
 /**
  * Convert images to WebP
  */
-gulp.task('webp', function () {
+gulp.task("webp", function () {
   return gulp
     .src(config.src)
     .pipe(webp(config.options))
@@ -647,7 +647,7 @@ AddType image/webp .webp
 
 ### Emojify
 
-import { EmojifyToggle } from '../layout/emojify-toggle';
+import { EmojifyToggle } from "../layout/emojify-toggle";
 
 This component shows Emoji only, if the user has opt-in for it.
 
@@ -705,7 +705,7 @@ Prime Video: <PrimeVideoFlag id="B0874XF36P" />
 
 ### Book
 
-<div style={{ marginBottom: '2em' }}>
+<div style={{ marginBottom: "2em" }}>
   <Book
     alt="Example Book"
     src="https://dummyimage.com/150x200/888/fff"

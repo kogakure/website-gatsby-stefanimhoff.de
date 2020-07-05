@@ -68,7 +68,7 @@ I set up a <TextLink to="/now/">Now</TextLink> page, based on the idea of [Derek
 
 ## Feedback Welcome
 
-You can always send me a message or feedback, all possibilities to contact me or connect can be found on my <TextLink to="/about/">About</TextLink> page. I don’t track anything anymore so I’m flying completely blind about visitors to my website. Some blissful ignorance from my side to all this data-driven, growth-driven, customer-satisfaction-driven development.
+You can always send me a message or feedback, all possibilities to contact or connect me can be found on my <TextLink to="/about/">About</TextLink> page. I don’t track anything anymore so I’m flying completely blind about visitors to my website. Some blissful ignorance from my side to all this data-driven, growth-driven, customer-satisfaction-driven development.
 
 ## Source Code & Styleguide
 
