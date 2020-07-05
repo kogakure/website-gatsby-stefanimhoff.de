@@ -9,7 +9,12 @@ export const Books: React.FC = () => (
     <AmazonBook
       asin="0140441859"
       alt="The Narrow Road to the Deep North and Other Travel Sketches"
+      size="large"
     />
-    <AmazonBook asin="0140444599" alt="On Love and Barley: Haiku of Basho" />
+    <AmazonBook
+      asin="0140444599"
+      alt="On Love and Barley: Haiku of Basho"
+      size="large"
+    />
   </Styled.Books>
 );

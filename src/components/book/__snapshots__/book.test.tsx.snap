@@ -3,10 +3,7 @@
 exports[`Book renders correctly 1`] = `
 .c0 {
   box-shadow: 0 0.1em 0.5em rgba(0,0,0,0.5);
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: grid;
   position: relative;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -70,6 +67,8 @@ exports[`Book renders correctly 1`] = `
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   display: block;
+  height: auto;
+  max-width: 100%;
   position: relative;
 }
 
@@ -89,10 +88,7 @@ exports[`Book renders correctly 1`] = `
 exports[`Book with "href" renders correctly 1`] = `
 .c0 {
   box-shadow: 0 0.1em 0.5em rgba(0,0,0,0.5);
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: grid;
   position: relative;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -156,6 +152,8 @@ exports[`Book with "href" renders correctly 1`] = `
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
   display: block;
+  height: auto;
+  max-width: 100%;
   position: relative;
 }
 

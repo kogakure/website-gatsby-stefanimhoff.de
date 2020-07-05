@@ -23,8 +23,7 @@ const Books = styled.div`
   }
 
   & img {
-    height: auto;
-    max-width: 100%;
+    align-self: stretch;
   }
 `;
 
