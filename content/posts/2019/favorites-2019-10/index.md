@@ -140,7 +140,7 @@ The urge to save humanity is almost always a false front for the urge to rule.
 
 ---
 
-<Blockquote author="Yoshida Kenkô">
+<Blockquote author="Yoshida Kenkō">
 
 It is a most wonderful comfort to sit alone beneath a lamp, book spread before you, and commune with someone from the past whom you have never met.
 

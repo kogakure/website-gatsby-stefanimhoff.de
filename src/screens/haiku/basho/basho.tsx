@@ -9,11 +9,11 @@ import { Styled } from './basho.styles';
 export const Basho: React.FC = () => (
   <Styled.Basho data-sal="slide-up" data-sal-duration="800">
     <Headline>
-      Matsuo Bashô
+      Matsuo Bashō
       <Emojify emoji="🍌" />
     </Headline>
     <Paragraph>
-      Matsuo Bashô (<RubyAnnotation base="松" text="まつ" />
+      Matsuo Bashō (<RubyAnnotation base="松" text="まつ" />
       <RubyAnnotation base="尾" text="お" />
       <RubyAnnotation base="芭" text="バ" />
       <RubyAnnotation base="蕉" text="ショウ" />) was the most famous poet of

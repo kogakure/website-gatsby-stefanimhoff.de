@@ -82,7 +82,7 @@ exports[`Haiku Basho renders correctly 1`] = `
   <h2
     class="c1"
   >
-    Matsuo Bashô
+    Matsuo Bashō
     <span>
        
     </span>
@@ -90,7 +90,7 @@ exports[`Haiku Basho renders correctly 1`] = `
   <p
     class="c2"
   >
-    Matsuo Bashô (
+    Matsuo Bashō (
     <ruby
       class="c3"
     >

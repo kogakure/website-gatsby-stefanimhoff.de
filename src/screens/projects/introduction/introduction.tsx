@@ -18,7 +18,10 @@ export const Introduction: React.FC = () => (
     </Paragraph>
     <Paragraph>
       I like the concept of the{' '}
-      <TextLink href="https://simple.wikipedia.org/wiki/Renaissance_man">
+      <TextLink
+        href="https://simple.wikipedia.org/wiki/Renaissance_man"
+        target="_blank"
+      >
         Renaissance Man
       </TextLink>{' '}
       and try out as many different professions as possible.

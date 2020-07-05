@@ -30,7 +30,7 @@ export const Writing: React.FC = () => (
       </Headline>
       <Paragraph>
         I started writing Haiku poetry some years ago inspired by the works of
-        the Japanese Haiku poet <strong>Matsuo Bashô</strong>. I think Haiku are
+        the Japanese Haiku poet <strong>Matsuo Bashō</strong>. I think Haiku are
         a fun, creative way to use limitation and brevity while saying something
         meaningful.
       </Paragraph>
