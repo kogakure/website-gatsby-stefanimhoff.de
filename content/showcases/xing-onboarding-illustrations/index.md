@@ -20,7 +20,7 @@ One icon was needed for _Job Beginners_, one for _Professionals_ and one for _Re
 
 </Row>
 
-<Row variant="fullsize" marginBottom>
+<Row variant="center" marginBottom>
 
 ![Final Illustrations](./images/xing-illustrations-final-illustrations.jpg)
 
@@ -32,7 +32,7 @@ One icon was needed for _Job Beginners_, one for _Professionals_ and one for _Re
 
 </Row>
 
-<Row variant="fullsize" vertical="center" marginBottom>
+<Row variant="center" vertical="center" marginBottom>
 
 ![Final Draft](./images/xing-illustrations-final-draft.jpg)
 
@@ -44,7 +44,7 @@ One icon was needed for _Job Beginners_, one for _Professionals_ and one for _Re
 
 </Row>
 
-<Row variant="fullsize" vertical="center" marginBottom>
+<Row variant="center" vertical="center" marginBottom>
 
 ![Making-Of Starter](./images/xing-illustrations-making-of-starter.jpg)
 ![Making-Of Retired](./images/xing-illustrations-making-of-retired.jpg)
