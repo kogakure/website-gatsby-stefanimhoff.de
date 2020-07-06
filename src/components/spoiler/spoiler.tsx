@@ -14,21 +14,25 @@ export const Spoiler: React.FC<SpoilerProps> = ({
   const [spoiler, setSpoiler] = React.useState(true);
 
   return (
-    <span
-      aria-label="Spoiler"
-      onClick={() => setSpoiler(false)}
-      onKeyUp={(e) => e.key === 'Enter' && setSpoiler(false)}
-      role="button"
-      tabIndex={spoiler ? 0 : undefined}
-    >
-      <Styled.Spoiler
-        aria-hidden={spoiler}
-        block={block}
-        spoiler={spoiler}
-        {...props}
+    <>
+      <Styled.Hidden aria-hidden="true">SPOILER: </Styled.Hidden>
+      <span
+        aria-label="Spoiler"
+        onClick={() => setSpoiler(false)}
+        onKeyUp={(e) => e.key === 'Enter' && setSpoiler(false)}
+        role="button"
+        tabIndex={spoiler ? 0 : undefined}
       >
-        {children}
-      </Styled.Spoiler>
-    </span>
+        <Styled.Spoiler
+          aria-hidden={spoiler}
+          block={block}
+          spoiler={spoiler}
+          {...props}
+        >
+          {children}
+        </Styled.Spoiler>
+      </span>
+      <Styled.Hidden aria-hidden="true"> SPOILER END</Styled.Hidden>
+    </>
   );
 };

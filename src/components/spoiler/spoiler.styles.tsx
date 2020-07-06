@@ -22,6 +22,11 @@ const Spoiler = styled.span<SpoilerProps & { spoiler: boolean }>`
   }
 `;
 
+const Hidden = styled.strong`
+  display: none;
+`;
+
 export const Styled = {
+  Hidden,
   Spoiler,
 };
