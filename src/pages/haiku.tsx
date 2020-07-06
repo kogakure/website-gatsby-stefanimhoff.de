@@ -11,7 +11,7 @@ import {
 } from '../screens/haiku';
 
 const HaikuPage = () => (
-  <Layout variant="green">
+  <Layout variant="green" homeTo="/projects/">
     <SEO title="Haiku" />
     <ContentGrid rowGap size="fullsize">
       <Title />
