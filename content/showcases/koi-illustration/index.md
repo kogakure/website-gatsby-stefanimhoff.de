@@ -16,17 +16,27 @@ The illustration was done with a pencil on paper and then brought into Adobe Pho
 
 </Row>
 
-<Row variant="fullsize">
+---
+
+<Row variant="center" marginBottom>
+
+## Final Illustration
+
+</Row>
+
+<Row variant="center">
 
 ![Koi Illustration](./images/cover.jpg)
 
 </Row>
 
----
+<Row variant="center" marginBottom>
 
 ## Making-Of
 
-<Row variant="fullsize">
+</Row>
+
+<Row variant="center">
 
 ![Making-Of Step 1](./images/koi-making-of-01.jpg)
 ![Making-Of Step 2](./images/koi-making-of-02.jpg)
