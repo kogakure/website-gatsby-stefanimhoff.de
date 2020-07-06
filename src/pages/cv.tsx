@@ -36,7 +36,7 @@ const CVPage = () => {
   } = useCvQuery();
 
   return (
-    <Layout size="regular">
+    <Layout size="regular" homeTo="/about/">
       <SEO title="CV" robots="noindex,follow" />
       <ContentGrid rowGap size="regular">
         <Title />
