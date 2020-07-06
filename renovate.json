@@ -1,5 +1,15 @@
 {
-  "extends": [
-    "config:base"
+  "extends": ["config:base"],
+  "schedule": "every month",
+  "prConcurrentLimit": 3,
+  "masterIssue": true,
+  "labels": ["type: chore", "renovate"],
+  "packageRules": [
+    {
+      "updateTypes": ["minor", "patch"],
+      "assignAutomerge": true,
+      "assignees": ["kogakure"],
+      "automerge": true
+    }
   ]
 }
