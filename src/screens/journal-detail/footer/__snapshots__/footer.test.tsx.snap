@@ -39,6 +39,7 @@ exports[`Journal Detail Footer renders correctly 1`] = `
   border-top-width: 0;
   margin-bottom: clamp(2.986rem,6.39vw,3.583rem);
   margin-top: clamp(2.986rem,6.39vw,3.583rem);
+  width: 100%;
 }
 
 .c0 {
