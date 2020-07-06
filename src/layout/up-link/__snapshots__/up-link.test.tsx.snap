@@ -13,6 +13,7 @@ exports[`UpLink renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  font-size: 0;
   height: 40px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;

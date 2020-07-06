@@ -9,6 +9,7 @@ const Button = styled.button`
   border: 0;
   cursor: pointer;
   display: flex;
+  font-size: 0;
   height: 40px;
   justify-content: center;
   width: 40px;

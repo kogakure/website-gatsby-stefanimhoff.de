@@ -26,6 +26,7 @@ exports[`MinimalLayout renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  font-size: 0;
   height: 40px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -60,6 +61,7 @@ exports[`MinimalLayout renders correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  background: red;
   background: transparent;
   border: 0;
   cursor: pointer;
@@ -67,6 +69,7 @@ exports[`MinimalLayout renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  font-size: 0;
   height: 40px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -215,6 +218,7 @@ exports[`MinimalLayout with variant "blue" renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  font-size: 0;
   height: 40px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -249,6 +253,7 @@ exports[`MinimalLayout with variant "blue" renders correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  background: red;
   background: transparent;
   border: 0;
   cursor: pointer;
@@ -256,6 +261,7 @@ exports[`MinimalLayout with variant "blue" renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  font-size: 0;
   height: 40px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -404,6 +410,7 @@ exports[`MinimalLayout with variant "brown" renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  font-size: 0;
   height: 40px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -438,6 +445,7 @@ exports[`MinimalLayout with variant "brown" renders correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  background: red;
   background: transparent;
   border: 0;
   cursor: pointer;
@@ -445,6 +453,7 @@ exports[`MinimalLayout with variant "brown" renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  font-size: 0;
   height: 40px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -593,6 +602,7 @@ exports[`MinimalLayout with variant "green" renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  font-size: 0;
   height: 40px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -627,6 +637,7 @@ exports[`MinimalLayout with variant "green" renders correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  background: red;
   background: transparent;
   border: 0;
   cursor: pointer;
@@ -634,6 +645,7 @@ exports[`MinimalLayout with variant "green" renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  font-size: 0;
   height: 40px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
