@@ -2,76 +2,26 @@
 
 exports[`Spoiler renders correctly 1`] = `
 .c0 {
-  background: var(--colorForeground);
-  color: var(--colorForeground);
-  cursor: help;
-  display: inline;
-  padding: 0.1rem;
+  display: none;
 }
 
-.c0 > :first-child {
-  margin-top: 0;
-}
-
-.c0 > :last-child {
-  margin-bottom: 0;
-}
-
-<span
-  aria-label="Spoiler"
-  role="button"
-  tabindex="0"
+<strong
+  aria-hidden="true"
+  class="c0"
 >
-  <span
-    aria-hidden="true"
-    class="c0"
-  >
-    Hidden text
-  </span>
-</span>
+  SPOILER: 
+</strong>
 `;
 
 exports[`Spoiler with layout "block" renders correctly 1`] = `
 .c0 {
-  background: var(--colorForeground);
-  color: var(--colorForeground);
-  cursor: help;
-  display: block;
-  margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
-  padding: 0.1rem;
+  display: none;
 }
 
-.c0 > :first-child {
-  margin-top: 0;
-}
-
-.c0 > :last-child {
-  margin-bottom: 0;
-}
-
-<span
-  aria-label="Spoiler"
-  role="button"
-  tabindex="0"
+<strong
+  aria-hidden="true"
+  class="c0"
 >
-  <span
-    aria-hidden="true"
-    class="c0"
-  >
-    <p>
-      This is some 
-      <strong>
-        text
-      </strong>
-      , which is 
-      <em>
-        hidden
-      </em>
-      .
-    </p>
-    <p>
-       And some more text
-    </p>
-  </span>
-</span>
+  SPOILER: 
+</strong>
 `;
