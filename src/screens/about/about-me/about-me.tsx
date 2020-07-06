@@ -23,10 +23,14 @@ export const AboutMe: React.FC = () => (
     </div>
     <div data-sal="slide-up" data-sal-duration="800">
       <Paragraph>
-        I love walking and cycling, and do{' '}
-        <TextLink to="/calisthenics/">Calisthenics</TextLink> and running fit.
-        My favourite weather is thunderstorm and rain, but I like also warm,
-        sunny weather. My favourite places are the sea and forests.
+        I love{' '}
+        <TextLink href="https://hamburg.stefanimhoff.de/" target="_blank">
+          walking and cycling
+        </TextLink>
+        , and do <TextLink to="/calisthenics/">Calisthenics</TextLink> and
+        running to stay fit. My favourite weather is thunderstorm and rain, but
+        I like also warm, sunny weather. My favourite places are the sea and
+        forests.
       </Paragraph>
       <Paragraph>
         When I’m inside I like reading in my roughly 1,000 books. I am also a

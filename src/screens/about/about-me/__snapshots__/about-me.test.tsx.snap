@@ -164,8 +164,17 @@ exports[`About AboutMe renders correctly 1`] = `
     <p
       class="c2"
     >
-      I love walking and cycling, and do
+      I love
        
+      <a
+        class="c4"
+        href="https://hamburg.stefanimhoff.de/"
+        rel="nofollow noopener noreferrer external"
+        target="_blank"
+      >
+        walking and cycling
+      </a>
+      , and do 
       <a
         block="0"
         class="c3"
@@ -173,7 +182,7 @@ exports[`About AboutMe renders correctly 1`] = `
       >
         Calisthenics
       </a>
-       and running fit. My favourite weather is thunderstorm and rain, but I like also warm, sunny weather. My favourite places are the sea and forests.
+       and running to stay fit. My favourite weather is thunderstorm and rain, but I like also warm, sunny weather. My favourite places are the sea and forests.
     </p>
     <p
       class="c2"
