@@ -8,6 +8,7 @@ exports[`CV Divider renders correctly 1`] = `
   border-right-width: 0;
   border-style: solid;
   border-top-width: 0;
+  width: 100%;
 }
 
 .c1 {

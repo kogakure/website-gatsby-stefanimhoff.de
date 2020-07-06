@@ -17,6 +17,7 @@ const HorizontalRule = styled.hr<HorizontalRuleProps>`
       margin-bottom: ${space[14]};
       margin-top: ${space[14]};
     `}
+  width: 100%;
 `;
 
 export const Styled = {
