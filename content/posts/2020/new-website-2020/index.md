@@ -52,7 +52,7 @@ A few years back I created a small project creating an ASE file out of Tradition
 
 ![The Traditional Colors of Japan](colors-of-japan.jpg)
 
-The whole project stretched of two years, because I didn’t work continuously on the website, and sometimes didn’t do something for multiple months.
+The whole project stretched for three years, because I didn’t work continuously on the website, and sometimes didn’t do something for multiple months.
 
 ## Making-Of Series
 
