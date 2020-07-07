@@ -15,7 +15,7 @@ Walter-Heitmann-Str. 2<br />
 - I use [React], [TypeScript], [MDX], [Styled Components], [Storybook], [Visual Studio Code], [Yarn], [Prettier], [Jest], [Plop], and a whole lot more tools to build this website.
 - The Bonsai image on my homepage was taken by [Norio Nakayama].
 - The forest image on my Haiku page was taken by [Dan Otis].
-- The minimalistic icons are created by [Remix Icon] which are [Jimmy Cheung] and [Wendy Gao].
+- The minimalistic icons are created by [Remix Icon] which is [Jimmy Cheung] and [Wendy Gao].
 - The color theme for my code examples is [Noctis] by [Liviu Schera].
 
 ## License<Emojify emoji="📃" />
@@ -24,7 +24,7 @@ All content is copyrighted by _Stefan Imhoff_ unless otherwise stated. Feel free
 
 The articles in my <TextLink to="/journal/">Journal</TextLink> of this website are licensed under a [Creative Commons license].
 
-The use of my design—the unique combination of layout, photos, or illustrations—my private photos, personal data and logo are only allowed with written permission.
+The use of my design—the unique combination of layout, photos, or illustrations—my private photos, personal data, and logo are only allowed with written permission.
 
 In _easier_ words: **This is not a free theme**. Learn from it. Remix. Reuse. Build your own stuff. I believe in you. You can do it! 🤘
 

@@ -35,11 +35,12 @@ export const BambooIllustration: React.FC = () => (
           used Adobe Illustrator and the gradient grid tool.
         </Paragraph>
         <Paragraph>
-          <strong>2015</strong> I descided to use my bamboo as{' '}
-          <abbr title="Scalable Vector Graphics">SVG</abbr> on my Unfortuanately
+          <strong>2015</strong> I decided to use my bamboo as{' '}
+          <abbr title="Scalable Vector Graphics">SVG</abbr> on my Unfortunately,
           the gradient tool is not supported in{' '}
-          <abbr title="Scalable Vector Graphics">SVG</abbr> and I needed to
-          recreate my bamboo with linear, radial and other supported in{' '}
+          <abbr title="Scalable Vector Graphics">SVG</abbr> and I needed
+          recreate my bamboo with linear, radial, and other supported gradients
+          in{' '}
           <TextLink href="https://affinity.serif.com/designer/">
             Affinity Designer
           </TextLink>

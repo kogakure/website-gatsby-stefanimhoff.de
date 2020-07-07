@@ -15,7 +15,7 @@ export const AboutWebsite: React.FC = () => (
     <Paragraph>
       I build this website with{' '}
       <TextLink href="https://reactjs.org/">React</TextLink>, using{' '}
-      <TextLink href="https://www.gatsbyjs.org/">Gatsby</TextLink>, a blazing
+      <TextLink href="https://www.gatsbyjs.org/">Gatsby</TextLink>, a blazingly
       fast, static site generator.
     </Paragraph>
     <Paragraph>

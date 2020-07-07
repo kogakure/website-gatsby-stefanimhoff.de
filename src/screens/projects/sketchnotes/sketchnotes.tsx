@@ -36,8 +36,8 @@ export const Sketchnotes: React.FC = () => {
         <Paragraph>
           One of my passions is <em>Sketchnotes</em> or also called{' '}
           <em>Visual Notetaking</em>. In Sketchnoting you use visual language to
-          quickly visualize ideas, notes or thoughts. I create Sketchnotes since
-          I first visited a workshop in <strong>2015</strong>.
+          quickly visualize ideas, notes, or thoughts. I create Sketchnotes
+          since I first visited a workshop in <strong>2015</strong>.
         </Paragraph>
         <MoreLink to="/sketchnotes/">See Sketchnotes</MoreLink>
       </TextBlock>

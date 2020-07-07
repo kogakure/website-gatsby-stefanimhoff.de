@@ -39,8 +39,8 @@ export const StefanImhoffV2: React.FC = () => {
           <Emojify emoji="🌳" />
         </Headline>
         <Paragraph>
-          My Personal Website and blog first launched in <strong>2006</strong>{' '}
-          and is the website you’re looking at. The previous design was the{' '}
+          My website and blog first launched in <strong>2006</strong> and is the
+          website you’re looking at. The previous design was the{' '}
           <strong>2nd</strong> iteration of the design.
         </Paragraph>
         <MoreLink

@@ -12,7 +12,7 @@ export const Introduction: React.FC = () => (
     data-sal-delay="300"
   >
     <Paragraph>
-      Writing is a passion of me. I’ve written a huge collection of articles
+      Writing is a passion for me. I’ve written a huge collection of articles
       about{' '}
       <TextLink href="https://www.kogakure.de/">
         Ninja&nbsp;&amp;&nbsp;Ninjutsu
@@ -20,8 +20,8 @@ export const Introduction: React.FC = () => (
       that I later converted into a{' '}
       <TextLink href="https://book.kogakure.de/">book</TextLink>. The online
       publishing platform <cite>Medium</cite> selected{' '}
-      <TextLink to="/attention/">one of my articles</TextLink> as recommendation
-      of the day.
+      <TextLink to="/attention/">one of my articles</TextLink> as a
+      recommendation of the day.
     </Paragraph>
     <Paragraph>
       I am writing about code, design, productivity, self-improvement, films,

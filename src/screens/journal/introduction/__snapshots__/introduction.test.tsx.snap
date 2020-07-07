@@ -65,7 +65,7 @@ exports[`Journal Introduction renders correctly 1`] = `
   <p
     class="c1"
   >
-    Writing is a passion of me. I’ve written a huge collection of articles about
+    Writing is a passion for me. I’ve written a huge collection of articles about
      
     <a
       class="c2"
@@ -97,7 +97,7 @@ exports[`Journal Introduction renders correctly 1`] = `
     >
       one of my articles
     </a>
-     as recommendation of the day.
+     as a recommendation of the day.
   </p>
   <p
     class="c1"

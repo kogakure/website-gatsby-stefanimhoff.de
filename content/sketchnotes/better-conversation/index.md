@@ -6,7 +6,7 @@ published: true
 
 <div>
 
-A sketchnote I did of the TED Talk **Celeste Headlee**: [10 ways to have a better conversation](https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation).
+A Sketchnote I did of the TED Talk **Celeste Headlee**: [10 ways to have a better conversation](https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation).
 
 </div>
 

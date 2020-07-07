@@ -10,7 +10,7 @@ This website for the **Osteopathie-Insitut Hamburg**, a school to learn Osteopat
 
 I invested full effort into it not only because the teacher of that school was my Martial Arts teacher at that time, but also because the provided material (photos, quotes, text) was fantastic.
 
-The website had an interactive carousel on the homepage, collapsible sections in the course section, a custom Google Map pin and a contact form.
+The website had an interactive carousel on the homepage, collapsible sections in the course section, a custom Google Map pin, and a contact form.
 
 </Row>
 

@@ -29,7 +29,7 @@ export const Introduction: React.FC = () => (
       </li>
       <li>
         A <dfn title="seasonal reference">kigo</dfn> (seasonal reference) with
-        topics as season, heaven, earth, humanity, observances, animals or
+        topics as season, heaven, earth, humanity, observances, animals, or
         plants.
       </li>
     </OrderedList>

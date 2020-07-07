@@ -18,8 +18,8 @@ export const MyHaiku: React.FC = () => {
         <Emojify emoji="🍂" />
       </Headline>
       <Paragraph>
-        These links lead you to some of my own haiku that I have written over
-        the years:
+        These links lead you to some of the haiku that I have written over the
+        years:
       </Paragraph>
       <Styled.List>
         {nodes.map(({ id }) => (

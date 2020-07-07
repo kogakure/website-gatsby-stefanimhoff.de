@@ -132,7 +132,7 @@ exports[`About SectionAboutWebsite renders correctly 1`] = `
     >
       Gatsby
     </a>
-    , a blazing fast, static site generator.
+    , a blazingly fast, static site generator.
   </p>
   <p
     class="c2"

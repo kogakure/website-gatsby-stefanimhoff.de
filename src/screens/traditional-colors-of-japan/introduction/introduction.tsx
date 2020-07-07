@@ -15,7 +15,7 @@ export const Introduction: React.FC = () => (
     </Paragraph>
     <Paragraph>
       It’s the best book about Japanese colors I know. The book is filled with
-      beautiful photography showing examples of nature, craftsmanship and art
+      beautiful photography showing examples of nature, craftsmanship, and art
       applying the colors.
     </Paragraph>
     <Paragraph>

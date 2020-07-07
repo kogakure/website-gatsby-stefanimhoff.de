@@ -35,7 +35,7 @@ The links to the Japanese art of [ukiyo-e](https://en.wikipedia.org/wiki/Ukiyo-e
 
 ## Motives
 
-In addition to gods, mythical creatures and demons, the most important source of motifs is the ancient Chinese novella _[Shuihu Zhuan](https://en.wikipedia.org/wiki/Water_Margin)_ (Water Margin), known in Japan as _Suikoden_. It belongs to one of the four classical books of Chinese literature. The German translation of this very entertaining book is called _<AffiliateLink asin="3458318917">Die Räuber vom Liang Schan Moor</AffiliateLink>_.
+In addition to gods, mythical creatures and demons, the most important source of motifs is the ancient Chinese novella _[Shuǐhǔ Zhuàn](https://en.wikipedia.org/wiki/Water_Margin)_ (Water Margin), known in Japan as _Suikoden_. It belongs to one of the four classical books of Chinese literature. The German translation of this very entertaining book is called _<AffiliateLink asin="3458318917">Die Räuber vom Liang Schan Moor</AffiliateLink>_.
 
 ## Water Margin
 
