@@ -39,5 +39,5 @@ In _easier_ words: **This is not a free theme**. Learn from it. Remix. Reuse. Bu
 [si]: https://www.stefanimhoff.de/
 [storybook]: https://storybook.js.org/
 [styled components]: https://styled-components.com/
-[styleguide]: https://www.stfanimhoff.de/styleguide
+[styleguide]: https://styleguide.stefanimhoff.de/
 [typescript]: https://www.typescriptlang.org/
