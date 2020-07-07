@@ -60,7 +60,7 @@ But finally, the website is completed and I deserve a long summer break without 
 
 ## Stay Updated
 
-If you want to be updated you can follow my [RSS/Atom Feed](https://www.stefanimhoff.de/index.xml) (the old [Feedburner feed](https://feeds.feedburner.com/stefanimhoff) will continue to work).
+If you want to be updated you can follow my [RSS/Atom Feed](https://www.stefanimhoff.de/index.xml).
 
 If you don’t know (or care) what that is you can also subscribe to my brand-new [newsletter](https://mailchi.mp/2658683a02d9/stefanimhoff) which is currently just sending out once a month the articles I posted. But I might add more features in the future, like book recommendations, book reviews, or quotes. I’m new to the whole newsletter game, so bear with me.
 
