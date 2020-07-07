@@ -131,7 +131,7 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 
-  // Create Journal detail pages.
+  // Create Showcase detail pages.
   const showcases = result.data.showcases.edges;
 
   showcases.forEach((showcase, index) => {

@@ -137,7 +137,7 @@ exports[`About AboutMe renders correctly 1`] = `
       <em>
         Stefan Imhoff
       </em>
-      , a Front-End Web Developer and Designer from Hamburg, Germany. I love design and art, reading books, watching movies and TV shows, creating
+      , a Front-End Web Developer, and Designer from Hamburg, Germany. I love design and art, reading books, watching movies and TV shows, creating
        
       <a
         block="0"
@@ -182,12 +182,12 @@ exports[`About AboutMe renders correctly 1`] = `
       >
         Calisthenics
       </a>
-       and running to stay fit. My favourite weather is thunderstorm and rain, but I like also warm, sunny weather. My favourite places are the sea and forests.
+       and running to stay fit. My ideal weather is thunderstorms and rain, but I like also warm sunny weather. My favorite places are the sea and forests.
     </p>
     <p
       class="c2"
     >
-      When I’m inside I like reading in my roughly 1,000 books. I am also a big fan of movies and TV shows. I love reading about typography, architecture or interior design. I like to cook,
+      When I’m inside I like reading in my roughly 1,000 books. I am also a big fan of movies and TV shows. I love reading about typography, architecture, or interior design. I like to cook,
        
       <a
         class="c4"
@@ -198,7 +198,7 @@ exports[`About AboutMe renders correctly 1`] = `
         Niedersächsische Hochzeitssuppe
       </a>
        
-      is my favourite dish.
+      is my favorite dish.
     </p>
     <p
       class="c2"
@@ -211,7 +211,7 @@ exports[`About AboutMe renders correctly 1`] = `
       >
         Minimalist
       </a>
-      , a Stoic, an Introvert and Japanophile. Writing is a passion of me. Besides writing 
+      , a Stoic, an Introvert, and Japanophile. Writing is a passion for me. Besides writing 
       <a
         block="0"
         class="c3"
@@ -230,7 +230,7 @@ exports[`About AboutMe renders correctly 1`] = `
         book
       </a>
        
-      and run
+      and run a
        
       <a
         class="c4"

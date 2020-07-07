@@ -6,7 +6,7 @@ published: true
 
 <div>
 
-Sketchnote for the article [The Art of Enough](https://experiencelife.com/article/the-art-of-enough/), about consumption, spending mindful and buying quality.
+Sketchnote for the article [The Art of Enough](https://experiencelife.com/article/the-art-of-enough/), about consumption, spending mindful, and buying quality.
 
 </div>
 

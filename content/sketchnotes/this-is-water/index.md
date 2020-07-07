@@ -6,9 +6,9 @@ published: true
 
 <div>
 
-I always wanted to do a sketchnote for the Commencement Speech **This Is Water** to Kenyon College class of 2005 by the late **David Foster Wallace**. It was always one of my favourite philosophical speeches about the freedom of choice.
+I always wanted to do a Sketchnote for the Commencement Speech **This Is Water** to Kenyon College class of 2005 by the late **David Foster Wallace**. It was always one of my favorite philosophical speeches about freedom of choice.
 
-The sketchnote is based on the short film by _The Glossary_, who made a fantastic piece of art out of his speech.
+The Sketchnote is based on the short film by _The Glossary_, who made a fantastic piece of art out of his speech.
 
 </div>
 

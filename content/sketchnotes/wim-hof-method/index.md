@@ -6,7 +6,7 @@ published: true
 
 <div>
 
-Sketchnote of the **Wim Hof Method**. A breathing technique, which allowed him to hold 26 world records of extreme kind: Walking on Mount Everest in shorts, being dug in ice for hours.
+Sketchnote of the **Wim Hof Method**. A breathing technique, which allowed him to hold 26 world records of the extreme kind: Walking on Mount Everest in shorts, being dug in ice for hours.
 
 </div>
 

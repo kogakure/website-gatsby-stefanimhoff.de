@@ -22,18 +22,18 @@ export const WhatIDo: React.FC = ({ ...props }) => (
       <Paragraph>
         I deeply care about good user experience: Writing good text, choosing
         the right photography, typography, and colors. Programming fast,
-        reusable, well-tested and easy-to-maintain code or creating
+        reusable, well-tested, and easy-to-maintain code or creating
         engaging&nbsp;animations.
       </Paragraph>
       <Paragraph>
         I am currently working at{' '}
-        <TextLink href="https://www.xing.com/">XING</TextLink>, the network in
-        Europe, working on the Design&nbsp;System.
+        <TextLink href="https://www.xing.com/">XING</TextLink>, the biggest
+        business network in Europe, working on the Design&nbsp;System.
       </Paragraph>
       <Paragraph>
         I love innovating: During multiple{' '}
-        <TextLink href="https://medium.com/xing-hackweek">Hackweeks</TextLink> I
-        was part of a small team creating a complete new job platform for
+        <TextLink href="https://medium.com/xing-hackweek">Hackweeks</TextLink>,
+        I was part of a small team creating a completely new job platform for
         freelancers. I am also a three-time winner of the{' '}
         <em>Prototyping Days</em>, a yearly two-day company-wide
         prototyping&nbsp;event.

@@ -6,7 +6,7 @@ published: true
 
 <div>
 
-Title lettering in one of my sketchnote books.
+Title lettering in one of my Sketchnote books.
 
 </div>
 

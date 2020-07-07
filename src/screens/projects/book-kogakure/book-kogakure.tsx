@@ -46,7 +46,7 @@ export const BookKogakure: React.FC = () => {
         <Paragraph>
           I also designed the book cover for my book. The book was written with{' '}
           <TextLink href="https://www.gitbook.com/">GitBook</TextLink> and can
-          be read or downloaded for free as PDF, ePub or Mobi eBook.
+          be read or downloaded for free as PDF, ePub, or Mobi eBook.
         </Paragraph>
         <MoreLink href="https://book.kogakure.de/">Read Book</MoreLink>
       </TextBlock>

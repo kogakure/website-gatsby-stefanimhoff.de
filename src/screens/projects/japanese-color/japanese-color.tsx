@@ -24,8 +24,8 @@ export const JapaneseColor: React.FC = () => (
         common design software.
       </Paragraph>
       <Paragraph>
-        With this version of the website I finally dedicate the colors an extra
-        section listing them all with their name and color values.
+        With this version of the website I finally dedicate an extra section to
+        the colors, listing them all with their name and color values.
       </Paragraph>
       <MoreLink to="/traditional-colors-of-japan/">
         See Traditional Colors of Japan
