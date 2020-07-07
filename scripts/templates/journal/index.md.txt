@@ -3,7 +3,7 @@ published: true
 title: {{titleCase title}}
 date: {{date}}
 author: Stefan Imhoff
-description: Meta Description (optional)
+description: 
 cover: ./cover.jpg
 og: ./og.jpg
 attribution:
