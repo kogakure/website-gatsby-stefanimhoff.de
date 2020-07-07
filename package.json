@@ -73,6 +73,7 @@
     "gatsby-remark-images": "^3.3.11",
     "gatsby-remark-numbered-footnotes": "^1.0.1",
     "gatsby-remark-reading-time": "^1.1.0",
+    "gatsby-remark-relative-images": "^0.3.0",
     "gatsby-remark-responsive-iframe": "^2.4.5",
     "gatsby-remark-smartypants": "^2.3.4",
     "gatsby-remark-unwrap-images": "^1.0.2",

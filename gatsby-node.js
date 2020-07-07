@@ -1,5 +1,6 @@
 const path = require('path');
 
+const { fmImagesToRelative } = require('gatsby-remark-relative-images');
 const { createFilePath } = require('gatsby-source-filesystem');
 
 exports.createSchemaCustomization = ({ actions }) => {
@@ -20,6 +21,8 @@ exports.createSchemaCustomization = ({ actions }) => {
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
+
+  fmImagesToRelative(node);
 
   if (node.internal.type === 'Mdx') {
     const filePath = createFilePath({ node, getNode });
