@@ -4,12 +4,15 @@ const Button = styled.button`
   background: transparent;
   border: 0;
   cursor: pointer;
-  height: 20px;
-  width: 20px;
+  font-size: 0;
+  height: 25px;
+  width: 25px;
 `;
 
 export const Emoji = styled.span`
-  font-size: 1.5rem;
+  font-size: 20px;
+  height: 20px;
+  line-height: 10px;
 `;
 
 export const Styled = {

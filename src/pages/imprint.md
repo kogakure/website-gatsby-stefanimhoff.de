@@ -44,7 +44,9 @@ I take the protection of your personal data very seriously and strictly adhere t
 
 ## Easter Egg<Emojify emoji="🐰" />
 
-You’ve read _so_ far and unlocked an easter egg: **Emoji Mode**. If you click this icon you can turn on Emoji on this website ➜ <EmojifyToggle />
+You’ve read _so_ far and unlocked an easter egg: **Emoji Mode**. If you click this icon you can turn on Emoji on this website.
+
+<EmojifyToggle />
 
 [gatsby]: https://www.gatsbyjs.org/
 [netfify]: https://www.netlify.com/
