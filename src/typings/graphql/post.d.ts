@@ -1,4 +1,5 @@
-import { CoverImageProps } from '../../screens/journal-detail';
+import { GatsbyImageProps } from 'gatsby-image';
+
 import { AttributionData } from '../../components/attribution';
 
 export type PostQueryData = {
@@ -12,11 +13,11 @@ export type PostQueryData = {
       language?: string;
       cover?: {
         publicURL: string;
-        childImageSharp: CoverImageProps;
+        childImageSharp: GatsbyImageProps;
       };
       og?: {
         publicURL: string;
-        childImageSharp: CoverImageProps;
+        childImageSharp: GatsbyImageProps;
       };
       attribution: AttributionData[] | null;
     };

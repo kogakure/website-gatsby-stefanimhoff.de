@@ -31,7 +31,6 @@
     "lint:js:fix": "yarn lint:js --fix",
     "lint:ts": "tsc",
     "plop": "plop",
-    "prebuild": "yarn clean",
     "prebuild:storybook": "yarn build",
     "predevelop": "yarn clean",
     "prettier": "prettier --ignore-path .gitignore '**/*.{js,json,ts,tsx,md}'",
