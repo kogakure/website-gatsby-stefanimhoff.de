@@ -232,7 +232,7 @@ Unfortunately, the [subgrid feature](https://caniuse.com/#feat=css-subgrid) is n
 
 I decided to use icons sparingly and not to invest the time creating my own, because with [Remix Icon](https://remixicon.com/) I found a beautiful, free, minimal icon system. I even created a few icon wishes for Remix Icon early on, to get icons I thought I might need later (which I didn’t).
 
-I started my designs using a social media bar sitting in the lower-left corner. But as time moved on I found that the services I picked changes in the importance and they were not important enough to justify a constant icon in the corner. The social bar had to go.
+I started my designs using a social media bar sitting in the lower-left corner. But as time moved on I found that the services I picked changed in the importance and they were not important enough to justify a constant icon in the corner. The social bar had to go.
 
 Subtle arrows and icons for specific use cases were left. I removed complex sun and moon icons for the light and dark theme switcher in favor of a simple circle.
 
@@ -282,4 +282,4 @@ This is the second of _three_ parts in a series of articles about the process of
 
 - <TextLink to="/new-website-2020-inspiration/">Inspiration</TextLink>
 - **Design**
-- Development (coming soon)
+- <TextLink to="/new-website-2020-development/">Development</TextLink>

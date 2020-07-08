@@ -149,4 +149,4 @@ This is the first of _three_ parts in a series of articles about the process of 
 
 - **Inspiration**
 - <TextLink to="/new-website-2020-design/">Design</TextLink>
-- Development (coming soon)
+- <TextLink to="/new-website-2020-development/">Development</TextLink>
