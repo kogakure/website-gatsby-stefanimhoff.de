@@ -83,7 +83,7 @@ I, infinite silence, will grant you words.
 
 ## Inspiration
 
-- [Japan’s Luxurious Floating Ryokan, guntû](https://coolhunting.com/travel/japans-luxurious-floating-ryokan-guntu/) – Japan’s first design-forward floating hotel [guntû](https://guntu.jp/). A little, stunning 19-room boat floating on the Seto Inland Sea. A masterpiece of Japanese design.
+- [Japan’s Luxurious Floating Ryokan, guntū](https://coolhunting.com/travel/japans-luxurious-floating-ryokan-guntu/) – Japan’s first design-forward floating hotel [guntū](https://guntu.jp/). A little, stunning 19-room boat floating on the Seto Inland Sea. A masterpiece of Japanese design.
 - [Minimalist Doctors’ House With Courtyard And Koi Pond](http://www.home-designing.com/minimalist-doctors-house-with-courtyard-and-koi-pond) – A really beautiful, minimalist house in Bangkok.
 - [Oracle, how do I live forever?](https://www.theoatmeal.com/comics/be_kind) – Profound comic on **The Oatmeal** based on a [tweet](https://twitter.com/asmallfiction/status/1139758454573162496) by _James Miller_.
 - [Bruno Simon](https://bruno-simon.com/) – Probably the _best_ portfolio website I’ve seen this year. You drive around his portfolio in a 3D car.
