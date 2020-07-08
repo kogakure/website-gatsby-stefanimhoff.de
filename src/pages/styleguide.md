@@ -427,7 +427,7 @@ Keine Zeit für Pessimismus.
   source="The Writing Life"
   sourceUrl="https://www.goodreads.com/book/show/12530.The_Writing_Life"
 >
-  How we spend our days is, of course, how we spend our lives. >{" "}
+  How we spend our days is, of course, how we spend our lives.
 </Pullquote>
 
 ```md
@@ -705,13 +705,13 @@ Prime Video: <PrimeVideoFlag id="B0874XF36P" />
 
 ### Book
 
-<div style={{ marginBottom: "2em" }}>
+<Row variant="variable" marginBottom minWidth="150px">
   <Book
     alt="Example Book"
     src="https://dummyimage.com/150x200/888/fff"
     width="150"
   />
-</div>
+</Row>
 
 ```jsx
 <Book
@@ -723,11 +723,13 @@ Prime Video: <PrimeVideoFlag id="B0874XF36P" />
 
 #### AmazonBook
 
-<AmazonBook
-  alt="Meditations by Marcus Aurelius"
-  asin="0812968255"
-  width="150"
-/>
+<Row variant="variable" marginBottom minWidth="150px">
+  <AmazonBook
+    alt="Meditations by Marcus Aurelius"
+    asin="0812968255"
+    width="150"
+  />
+</Row>
 
 ```jsx
 <AmazonBook
