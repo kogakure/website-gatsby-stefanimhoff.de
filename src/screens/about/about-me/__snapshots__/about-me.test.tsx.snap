@@ -187,7 +187,7 @@ exports[`About AboutMe renders correctly 1`] = `
     <p
       class="c2"
     >
-      When I’m inside I like reading in my roughly 1,000 books. I am also a big fan of movies and TV shows. I love reading about typography, architecture, or interior design. I like to cook,
+      When I’m inside I like reading in my roughly 1,000 books. I love reading about typography, architecture, or interior design. But I am also a big fan of movies and TV shows. I like to cook,
        
       <a
         class="c4"

@@ -119,6 +119,13 @@ Stat sua cuique dies (To each his day is given)
 - [The Divine Comedy](https://www.goodreads.com/book/show/6656.The_Divine_Comedy) (<AffiliateLink asin="0679433139">Amazon</AffiliateLink>)
 - [The Daily Stoic](https://www.goodreads.com/book/show/29093292-the-daily-stoic) (<AffiliateLink asin="0735211736">Amazon</AffiliateLink>)
 
+<Row variant="variable" minWidth="110px" marginBottom>
+  <AmazonBook asin="0805091742" />
+  <AmazonBook asin="1784703931" />
+  <AmazonBook asin="0679433139" />
+  <AmazonBook asin="0735211736" />
+</Row>
+
 ## Articles
 
 - [Will You Choose Alive Time Or Dead Time?](https://ryanholiday.net/will-you-choose-alive-time-or-dead-time/)

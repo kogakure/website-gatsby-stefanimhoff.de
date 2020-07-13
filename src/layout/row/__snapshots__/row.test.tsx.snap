@@ -15,12 +15,8 @@ exports[`Row centered renders correctly 1`] = `
 
 .c1 {
   display: grid;
-  grid-column: 1 / -1;
   justify-items: center;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
+  grid-column: 1 / -1;
 }
 
 .c2 {
@@ -70,10 +66,6 @@ exports[`Row fullsize renders correctly 1`] = `
 .c1 {
   display: grid;
   grid-column: 1 / -1;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
 }
 
 .c2 {
@@ -122,14 +114,10 @@ exports[`Row only one item left renders correctly 1`] = `
 
 .c1 {
   display: grid;
-  grid-column: 1 / -1;
   gap: 5.55vw;
   grid-template-columns: 1fr;
   justify-items: center;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
+  grid-column: 1 / -1;
 }
 
 .c2 {
@@ -150,12 +138,6 @@ exports[`Row only one item left renders correctly 1`] = `
 
 @media (min-width:768px) {
   .c1 {
-    grid-column: 2 / -2;
-  }
-}
-
-@media (min-width:768px) {
-  .c1 {
     grid-template-columns: repeat(2,1fr);
   }
 }
@@ -163,6 +145,12 @@ exports[`Row only one item left renders correctly 1`] = `
 @media (min-width:768px) {
   .c1 > * {
     grid-column: 1;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    grid-column: 2 / -2;
   }
 }
 
@@ -196,14 +184,10 @@ exports[`Row only one item right renders correctly 1`] = `
 
 .c1 {
   display: grid;
-  grid-column: 1 / -1;
   gap: 5.55vw;
   grid-template-columns: 1fr;
   justify-items: center;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
+  grid-column: 1 / -1;
 }
 
 .c2 {
@@ -224,12 +208,6 @@ exports[`Row only one item right renders correctly 1`] = `
 
 @media (min-width:768px) {
   .c1 {
-    grid-column: 2 / -2;
-  }
-}
-
-@media (min-width:768px) {
-  .c1 {
     grid-template-columns: repeat(2,1fr);
   }
 }
@@ -237,6 +215,12 @@ exports[`Row only one item right renders correctly 1`] = `
 @media (min-width:768px) {
   .c1 > * {
     grid-column: 2;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    grid-column: 2 / -2;
   }
 }
 
@@ -270,12 +254,8 @@ exports[`Row renders correctly 1`] = `
 
 .c1 {
   display: grid;
-  grid-column: 1 / -1;
   justify-items: center;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
+  grid-column: 1 / -1;
 }
 
 .c2 {
@@ -325,10 +305,6 @@ exports[`Row with big item left renders correctly 1`] = `
 .c1 {
   display: grid;
   grid-column: 1 / -1;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
 }
 
 .c2 {
@@ -384,10 +360,6 @@ exports[`Row with big item right renders correctly 1`] = `
 .c1 {
   display: grid;
   grid-column: 1 / -1;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
 }
 
 .c2 {
@@ -442,14 +414,10 @@ exports[`Row with one item down left renders correctly 1`] = `
 
 .c1 {
   display: grid;
-  grid-column: 1 / -1;
   gap: 5.55vw;
   grid-template-columns: 1fr;
   justify-items: center;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
+  grid-column: 1 / -1;
 }
 
 .c2 {
@@ -470,12 +438,6 @@ exports[`Row with one item down left renders correctly 1`] = `
 
 @media (min-width:768px) {
   .c1 {
-    grid-column: 2 / -2;
-  }
-}
-
-@media (min-width:768px) {
-  .c1 {
     grid-template-columns: repeat(2,1fr);
   }
 }
@@ -483,6 +445,12 @@ exports[`Row with one item down left renders correctly 1`] = `
 @media (min-width:768px) {
   .c1 > *:first-child {
     margin-top: 11vw;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    grid-column: 2 / -2;
   }
 }
 
@@ -521,14 +489,10 @@ exports[`Row with one item down right renders correctly 1`] = `
 
 .c1 {
   display: grid;
-  grid-column: 1 / -1;
   gap: 5.55vw;
   grid-template-columns: 1fr;
   justify-items: center;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
+  grid-column: 1 / -1;
 }
 
 .c2 {
@@ -549,12 +513,6 @@ exports[`Row with one item down right renders correctly 1`] = `
 
 @media (min-width:768px) {
   .c1 {
-    grid-column: 2 / -2;
-  }
-}
-
-@media (min-width:768px) {
-  .c1 {
     grid-template-columns: repeat(2,1fr);
   }
 }
@@ -562,6 +520,12 @@ exports[`Row with one item down right renders correctly 1`] = `
 @media (min-width:768px) {
   .c1 > *:last-child {
     margin-top: 11vw;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    grid-column: 2 / -2;
   }
 }
 
@@ -600,14 +564,10 @@ exports[`Row with two equal sized items aligned to center renders correctly 1`] 
 
 .c1 {
   display: grid;
-  grid-column: 1 / -1;
   gap: 5.55vw;
   grid-template-columns: 1fr;
   justify-items: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  grid-column: 1 / -1;
 }
 
 .c2 {
@@ -645,13 +605,13 @@ exports[`Row with two equal sized items aligned to center renders correctly 1`] 
 
 @media (min-width:768px) {
   .c1 {
-    grid-column: 2 / -2;
+    grid-template-columns: repeat(2,1fr);
   }
 }
 
 @media (min-width:768px) {
   .c1 {
-    grid-template-columns: repeat(2,1fr);
+    grid-column: 2 / -2;
   }
 }
 
@@ -690,14 +650,10 @@ exports[`Row with two equal sized items aligned to end renders correctly 1`] = `
 
 .c1 {
   display: grid;
-  grid-column: 1 / -1;
   gap: 5.55vw;
   grid-template-columns: 1fr;
   justify-items: center;
-  -webkit-align-items: end;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: end;
+  grid-column: 1 / -1;
 }
 
 .c2 {
@@ -735,13 +691,13 @@ exports[`Row with two equal sized items aligned to end renders correctly 1`] = `
 
 @media (min-width:768px) {
   .c1 {
-    grid-column: 2 / -2;
+    grid-template-columns: repeat(2,1fr);
   }
 }
 
 @media (min-width:768px) {
   .c1 {
-    grid-template-columns: repeat(2,1fr);
+    grid-column: 2 / -2;
   }
 }
 
@@ -780,14 +736,10 @@ exports[`Row with two equal sized items aligned to start renders correctly 1`] =
 
 .c1 {
   display: grid;
-  grid-column: 1 / -1;
   gap: 5.55vw;
   grid-template-columns: 1fr;
   justify-items: center;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
+  grid-column: 1 / -1;
 }
 
 .c2 {
@@ -825,13 +777,13 @@ exports[`Row with two equal sized items aligned to start renders correctly 1`] =
 
 @media (min-width:768px) {
   .c1 {
-    grid-column: 2 / -2;
+    grid-template-columns: repeat(2,1fr);
   }
 }
 
 @media (min-width:768px) {
   .c1 {
-    grid-template-columns: repeat(2,1fr);
+    grid-column: 2 / -2;
   }
 }
 
@@ -870,14 +822,10 @@ exports[`Row with two equal sized items renders correctly 1`] = `
 
 .c1 {
   display: grid;
-  grid-column: 1 / -1;
   gap: 5.55vw;
   grid-template-columns: 1fr;
   justify-items: center;
-  -webkit-align-items: start;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: start;
+  grid-column: 1 / -1;
 }
 
 .c2 {
@@ -915,13 +863,13 @@ exports[`Row with two equal sized items renders correctly 1`] = `
 
 @media (min-width:768px) {
   .c1 {
-    grid-column: 2 / -2;
+    grid-template-columns: repeat(2,1fr);
   }
 }
 
 @media (min-width:768px) {
   .c1 {
-    grid-template-columns: repeat(2,1fr);
+    grid-column: 2 / -2;
   }
 }
 
@@ -960,13 +908,17 @@ exports[`Row with variable amount of items aligned to center renders correctly 1
 
 .c1 {
   display: grid;
-  grid-column: 1 / -1;
-  gap: clamp(2.488rem,5.32vw,2.986rem);
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   justify-items: center;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  gap: clamp(2.488rem,5.32vw,2.986rem);
+  grid-column: 1 / -1;
   grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
 }
 
@@ -1043,13 +995,17 @@ exports[`Row with variable amount of items aligned to end renders correctly 1`] 
 
 .c1 {
   display: grid;
-  grid-column: 1 / -1;
-  gap: clamp(2.488rem,5.32vw,2.986rem);
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   justify-items: center;
   -webkit-align-items: end;
   -webkit-box-align: end;
   -ms-flex-align: end;
   align-items: end;
+  gap: clamp(2.488rem,5.32vw,2.986rem);
+  grid-column: 1 / -1;
   grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
 }
 
@@ -1126,13 +1082,17 @@ exports[`Row with variable amount of items aligned to start renders correctly 1`
 
 .c1 {
   display: grid;
-  grid-column: 1 / -1;
-  gap: clamp(2.488rem,5.32vw,2.986rem);
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   justify-items: center;
   -webkit-align-items: start;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
+  gap: clamp(2.488rem,5.32vw,2.986rem);
+  grid-column: 1 / -1;
   grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
 }
 
@@ -1209,13 +1169,17 @@ exports[`Row with variable amount of items renders correctly 1`] = `
 
 .c1 {
   display: grid;
-  grid-column: 1 / -1;
-  gap: clamp(2.488rem,5.32vw,2.986rem);
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   justify-items: center;
   -webkit-align-items: start;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: start;
+  gap: clamp(2.488rem,5.32vw,2.986rem);
+  grid-column: 1 / -1;
   grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
 }
 

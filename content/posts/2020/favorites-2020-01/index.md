@@ -97,6 +97,11 @@ Search others for their virtues, thyself for thy vices.
 - [Tiamat’s Wrath (The Expanse #8)](https://www.goodreads.com/book/show/28335698-tiamat-s-wrath) (<AffiliateLink asin="0316332879">Amazon</AffiliateLink>)
 - [Permanent Record](https://www.goodreads.com/book/show/46223297-permanent-record) (<AffiliateLink asin="152903566X">Amazon</AffiliateLink>)
 
+<Row variant="variable" minWidth="110px" marginBottom>
+  <AmazonBook asin="0316332879" />
+  <AmazonBook asin="152903566X" />
+</Row>
+
 ## Articles
 
 - [The Basecamp Guide to Internal Communication](https://basecamp.com/guides/how-we-communicate)

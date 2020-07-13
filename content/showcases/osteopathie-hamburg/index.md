@@ -34,7 +34,7 @@ The website had an interactive carousel on the homepage, collapsible sections in
 
 ---
 
-<Row variant="center" vertical="center" marginBottom>
+<Row variant="variable" horizontal="center" maxWidth="50vw" marginBottom>
 
 ![Typefaces Delicous and Baskerville](./images/osteopathie-hamburg-typefaces.svg)
 

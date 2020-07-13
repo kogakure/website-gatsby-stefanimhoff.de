@@ -64,6 +64,10 @@ If wisdom were offered me on the one condition that I should keep it shut away a
 
 - [The Complete Fiction of H. P. Lovecraft](https://www.goodreads.com/book/show/44065867-the-complete-fiction-of-h-p-lovecraft) (<AffiliateLink asin="B07NWN6KD6">Amazon</AffiliateLink>) – I’m currently halfway through this book and love Lovecraft Horror.
 
+<Row variant="variable" horizontal="start" marginBottom>
+  <AmazonBook asin="B07NWN6KD6" />
+</Row>
+
 ## Articles
 
 - [IndieWeb Link Sharing](https://mxb.dev/blog/indieweb-link-sharing/) (Max Böck) – How to use a bookmarklet and Lambda functions to post links to your website.

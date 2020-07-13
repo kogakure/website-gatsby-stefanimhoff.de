@@ -92,6 +92,11 @@ Fools learn from experience. I prefer to learn from the experience of others.
 - [Why We Sleep](https://www.goodreads.com/book/show/36234689-why-we-sleep) (<AffiliateLink asin="0141983760">Amazon</AffiliateLink>) – A really fantastic book. Since I started reading this book I changed my sleep habits from 6-7 hours to 7-8 hours.
 - [The Daily Stoic](https://www.goodreads.com/book/show/29093292-the-daily-stoic) (<AffiliateLink asin="0735211736">Amazon</AffiliateLink>) – I re-read this book a third time.
 
+<Row variant="variable" minWidth="110px" marginBottom>
+  <AmazonBook asin="0141983760" />
+  <AmazonBook asin="0735211736" />
+</Row>
+
 ## Articles
 
 - [How Japan Has Almost Eradicated Gun Crime](https://getpocket.com/explore/item/how-japan-has-almost-eradicated-gun-crime)

@@ -3,7 +3,7 @@ published: true
 title: "New Website 2020: Inspiration"
 date: 2020-07-14T08:00:00+02:00
 author: Stefan Imhoff
-description:
+description: This is the first of three parts in a series of articles about the process of creating my new website. This one has a look into the inspiration for my website.
 cover: ./cover.jpg
 attribution:
   - author: Gerardo Ramirez
@@ -105,7 +105,7 @@ Austerity is closely related to simplicity. It means intentionally limiting a th
 
 It’s interesting to note that there are studies that prove that fewer options lead to more sales for example. And people tend to be happier with fewer choices. It’s a slim zone between having no options and too many options.
 
-I rolled back ideas multiple times because they integrated too much complexity. I removed a social icon bar I added in my early designs, removed fancy off-screen navigation, replaced complex icons with simple ones, and limited myself to a minimal amount of navigation items.
+I rolled back ideas multiple times because they integrated too much complexity. I removed a social icon bar I added in my early designs, removed fancy off-screen navigation, replaced complex icons with simple ones, and limited myself to a maximal amount of navigation items.
 
 ### Shizen – Naturalness (自然)
 
@@ -133,7 +133,7 @@ Examples could be a car breaking down, trains don’t drive, you get sick, you s
 
 In design this could be anything unusual, things the viewer wouldn’t expect. Something funny on a serious website or something not correctly placed. Ideas you wouldn’t expect in a given context.
 
-I hid multiple easter eggs around the website for the unworldliness and unconventional and added one idea I never saw on the internet before. I’ll reveal one of the Easter Eggs: You can click on any date and switch between English, German and Japanese format. Your selection is remembered. But there are more hidden secrets around the site. Happy searching!
+I hid multiple _easter eggs_ around the website for the unworldliness and unconventional and added one idea I never saw on the internet before. I’ll reveal one of them: You can click on any date and switch between English, German and Japanese format. Your selection is remembered. But there are more hidden secrets around the site. Happy searching!
 
 ### Seijaku – Tranquility (静寂)
 
@@ -148,5 +148,5 @@ The last concept I cannot guarantee but I hope the depth of the website and it�
 This is the first of _three_ parts in a series of articles about the process of creating my new website.
 
 - **Inspiration**
-- Design (coming soon)
+- <TextLink to="/new-website-2020-design/">Design</TextLink>
 - Development (coming soon)
