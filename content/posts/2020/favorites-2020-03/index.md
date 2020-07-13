@@ -115,6 +115,12 @@ Do not be dismayed by the brokenness of the world. All things break, and all thi
 - [How to Win Friends and Influence People](https://www.goodreads.com/book/show/4865.How_to_Win_Friends_and_Influence_People) (<AffiliateLink asin="0762462019">Amazon</AffiliateLink>)
 - [The Daily Stoic](https://www.goodreads.com/book/show/29093292-the-daily-stoic) (<AffiliateLink asin="0735211736">Amazon</AffiliateLink>)
 
+<Row variant="variable" minWidth="110px" marginBottom>
+  <AmazonBook asin="0804137501" />
+  <AmazonBook asin="0762462019" />
+  <AmazonBook asin="0735211736" />
+</Row>
+
 ## Articles
 
 - [What Happened to the Company That Raised Minimum Wage to \$70k/yr?](https://kottke.org/20/02/what-happened-to-the-company-that-raised-minimum-wage-to-70kyr)

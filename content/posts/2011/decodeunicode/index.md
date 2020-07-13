@@ -37,6 +37,6 @@ On the [official website](http://www.decodeunicode.org/) you can find a digital 
 - **Language**: German
 - **Price**: 68.00 €
 
-<Row variant="variable">
+<Row variant="variable" minWidth="130px">
   <AmazonBook asin="3874398137" />
 </Row>

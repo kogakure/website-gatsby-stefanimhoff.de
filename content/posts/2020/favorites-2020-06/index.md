@@ -95,8 +95,13 @@ The scars you share become lighthouses for other people who are headed to the sa
 
 ## Books
 
-- [The Daily Stoic](https://www.goodreads.com/book/show/29093292-the-daily-stoic) (<AffiliateLink asin="0735211736">Amazon</AffiliateLink>)
 - [Homo Deus: A History of Tomorrow](https://www.goodreads.com/book/show/31138556-homo-deus) (<AffiliateLink asin="1784703931">Amazon</AffiliateLink>)
+- [The Daily Stoic](https://www.goodreads.com/book/show/29093292-the-daily-stoic) (<AffiliateLink asin="0735211736">Amazon</AffiliateLink>)
+
+<Row variant="variable" minWidth="110px" marginBottom>
+  <AmazonBook asin="1784703931" />
+  <AmazonBook asin="0735211736" />
+</Row>
 
 ## Articles
 

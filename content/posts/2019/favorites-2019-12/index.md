@@ -90,6 +90,13 @@ No battle plan ever survives contact with the enemy.
 - [It Doesn’t Have to Be Crazy at Work](https://www.goodreads.com/book/show/38900866-it-doesn-t-have-to-be-crazy-at-work) (<AffiliateLink asin="0008323445">Amazon</AffiliateLink>) – A short and nice book by _Jason Fried_ and _David Heinemeier Hansson_.
 - [Permanent Record](https://www.goodreads.com/book/show/46223297-permanent-record) (<AffiliateLink asin="152903566X">Amazon</AffiliateLink>) – I started reading _Edward Snowdens_ book and it’s really interesting so far.
 
+<Row variant="variable" minWidth="110px" marginBottom>
+  <AmazonBook asin="0679433139" />
+  <AmazonBook asin="0316332879" />
+  <AmazonBook asin="0008323445" />
+  <AmazonBook asin="152903566X" />
+</Row>
+
 ## Articles
 
 - [Case Study: lynnandtonic.com 2019 refresh](https://lynnandtonic.com/thoughts/entries/case-study-2019-refresh/) – Lynn Fisher shows how she created her new website. Make sure to also have a look at her previous years' website [archive](https://lynnandtonic.com/archive/) and resize the browser! The bigger the monitor, the more funnier …

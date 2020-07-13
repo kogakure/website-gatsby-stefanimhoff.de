@@ -20,7 +20,7 @@ These works of art are extremely painful (dozens of bamboo needles are [stung se
 
 One of the best living artists of the Irezumi is Horiyoshi III, whose works can be seen in some illustrated books: <AffiliateLink asin="9074822452">Tattoos from the Floating World: Ukiyo-e Motif's in Japanese Tattoo</AffiliateLink> and <AffiliateLink asin="0764312014">Bushido: Legacies of the Japanese Tattoo</AffiliateLink>.
 
-<Row variant="variable" marginBottom>
+<Row variant="variable" marginBottom minWidth="130px">
   <AmazonBook asin="9074822452" />
   <AmazonBook asin="0764312014" />
 </Row>

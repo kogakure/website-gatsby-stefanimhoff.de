@@ -13,13 +13,10 @@ categories:
 
 Today, I recommend a book that I just finished recently and read a second time: _Rework_ by _Jason Fried_ and _David Heinemeier Hansson_.
 
-<Row variant="variable" marginBottom>
-  <AmazonBook asin="0307463745" />
-</Row>
-
 I have long been a great believer in the philosophy of simplicity which is cultivated by _<del>37signals</del> <ins>Basecamp</ins>_ so successfully. Already their first (free) book [Getting Real](https://basecamp.com/books/getting-real) (also as <AffiliateLink asin="0578012812">paperback version</AffiliateLink>) I read with great interest.
 
-<Row variant="variable" marginBottom>
+<Row variant="variable" minWidth="110px" marginBottom>
+  <AmazonBook asin="0307463745" />
   <AmazonBook asin="0578012812" />
 </Row>
 

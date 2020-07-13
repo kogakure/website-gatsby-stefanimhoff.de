@@ -31,7 +31,7 @@ The fantastic Bonsai image was shot by _Norio Nakayama_ and provided with a CC l
 
 ---
 
-<Row variant="center" vertical="center" marginBottom>
+<Row variant="variable" horizontal="center" maxWidth="50vw" marginBottom>
 
 ![Typefaces Yanone Kaffeesatz and Gentium Basic](./images/stefanimhoff-v2-typeface.svg)
 
@@ -39,7 +39,7 @@ The fantastic Bonsai image was shot by _Norio Nakayama_ and provided with a CC l
 
 ---
 
-<Row variant="center" vertical="center" marginBottom>
+<Row variant="variable" maxWidth="15vw" horizontal="center" marginBottom>
 
 ![Rakkan Logo](./images/stefanimhoff-v2-logo.svg)
 

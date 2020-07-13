@@ -92,14 +92,10 @@ a:focus .c11 {
 
 .c1 {
   display: grid;
-  grid-column: 1 / -1;
   gap: 5.55vw;
   grid-template-columns: 1fr;
   justify-items: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  grid-column: 1 / -1;
 }
 
 .c3 {
@@ -188,13 +184,13 @@ a:focus .c11 {
 
 @media (min-width:768px) {
   .c1 {
-    grid-column: 2 / -2;
+    grid-template-columns: repeat(2,1fr);
   }
 }
 
 @media (min-width:768px) {
   .c1 {
-    grid-template-columns: repeat(2,1fr);
+    grid-column: 2 / -2;
   }
 }
 

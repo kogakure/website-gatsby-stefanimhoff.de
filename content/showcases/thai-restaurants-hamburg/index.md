@@ -30,7 +30,7 @@ I learned a lot about Graphic Design while working on it. I created the complete
 
 ---
 
-<Row variant="center" vertical="center" marginBottom>
+<Row variant="variable" horizontal="center" maxWidth="50vw" marginBottom>
 
 ![Typeface Diavlo](./images/thai-restaurant-typefaces.svg)
 

@@ -33,7 +33,7 @@ I added **Service Worker** and full offline support for the website. The source 
 
 ---
 
-<Row variant="center" marginBottom>
+<Row variant="variable" horizontal="center" maxWidth="50vw" marginBottom>
 
 ![Typeface Exo](./images/kogakure-v8-typeface.svg)
 
@@ -41,7 +41,7 @@ I added **Service Worker** and full offline support for the website. The source 
 
 ---
 
-<Row variant="center" marginBottom>
+<Row variant="variable" horizontal="center" maxWidth="15vw" marginBottom>
 
 ![Rakkan Logo](./images/kogakure-v8-logo.svg)
 

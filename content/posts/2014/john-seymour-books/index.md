@@ -15,7 +15,7 @@ My earliest memories of books are that I lie on my parents’ soft carpet on my 
 
 Born in England in 1914, he went to boarding school in Switzerland and later began studying agricultural sciences. He went to Africa at the age of 20 to work as a farmer. After serving in World War II in North Africa and Asia, he returned to England and moved to an old remote farm with his family in 1957 and started living solely on home-grown produce. After moving to a farm in Wales in the 1970s, he wrote his world-famous books <cite>The Complete Book of Self-Sufficiency</cite> (<cite><AffiliateLink asin="3831015775">Das große Buch vom Leben auf dem Lande</AffiliateLink></cite>) and <cite>The Self-Sufficient Gardener</cite> (<cite><AffiliateLink asin="3783161452">Selbstversorgung aus dem Garten</AffiliateLink></cite>).
 
-<Row variant="variable" marginBottom>
+<Row variant="variable" minWidth="130px" marginBottom>
   <AmazonBook asin="3831015775" />
   <AmazonBook asin="3783161452" />
 </Row>

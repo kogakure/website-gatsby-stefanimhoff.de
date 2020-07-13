@@ -33,9 +33,9 @@ export const AboutMe: React.FC = () => (
         forests.
       </Paragraph>
       <Paragraph>
-        When I’m inside I like reading in my roughly 1,000 books. I am also a
-        big fan of movies and TV shows. I love reading about typography,
-        architecture, or interior design. I like to cook,{' '}
+        When I’m inside I like reading in my roughly 1,000 books. I love reading
+        about typography, architecture, or interior design. But I am also a big
+        fan of movies and TV shows. I like to cook,{' '}
         <TextLink
           href="https://en.wikipedia.org/wiki/Hochzeitssuppe"
           target="_blank"

@@ -114,6 +114,12 @@ I didn’t make a lot of progress in my current books this month, because I used
 - [The Divine Comedy](https://www.goodreads.com/book/show/6656.The_Divine_Comedy) (<AffiliateLink asin="0679433139">Amazon</AffiliateLink>)
 - [The Daily Stoic](https://www.goodreads.com/book/show/29093292-the-daily-stoic) (<AffiliateLink asin="0735211736">Amazon</AffiliateLink>)
 
+<Row variant="variable" minWidth="110px" marginBottom>
+  <AmazonBook asin="1784703931" />
+  <AmazonBook asin="0679433139" />
+  <AmazonBook asin="0735211736" />
+</Row>
+
 ## Articles
 
 - I read quite a lot of articles about the **Zettelkasten** method as a note-taking system. The website of the [Zettelkasten Method](https://zettelkasten.de/posts/overview/) has a nice overview of a lot of articles. I particularly liked two articles: [Zettelkasten — How One German Scholar Was So Freakishly Productive](https://writingcooperative.com/zettelkasten-how-one-german-scholar-was-so-freakishly-productive-997e4e0ca125) by **David B. Clear** and [Living with a Zettelkasten](https://omxi.se/2015-06-21-living-with-a-zettelkasten.html) by **Magnus Eriksson**. I even wrote my <TextLink to="/zettelkasten-note-taking-devonthink/">own article</TextLink> on how I implemented the method in my daily workflow with DEVONthink.

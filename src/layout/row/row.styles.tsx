@@ -24,10 +24,12 @@ const gridDefault = css`
 
 const variableDefault = css`
   gap: ${space[13]};
-  justify-items: center;
 `;
 
 export const verticalVariants = {
+  initial: css`
+    align-items: initial;
+  `,
   start: css`
     align-items: start;
   `,
@@ -36,6 +38,25 @@ export const verticalVariants = {
   `,
   end: css`
     align-items: end;
+  `,
+};
+
+export const horizontalVariants = {
+  initial: css`
+    justify-content: initial;
+    justify-items: initial;
+  `,
+  start: css`
+    justify-content: start;
+    justify-items: start;
+  `,
+  center: css`
+    justify-content: center;
+    justify-items: center;
+  `,
+  end: css`
+    justify-content: end;
+    justify-items: end;
   `,
 };
 
@@ -166,13 +187,16 @@ const Row = styled.section<{ debug?: boolean; marginBottom?: boolean }>`
 
 const Grid = styled.div<RowProps>`
   display: grid;
-  ${({ variant }) => variant && variants[variant].row};
+  ${({ horizontal, variant }) =>
+    variant === 'variable' && horizontal && horizontalVariants[horizontal]};
+  ${({ vertical, variant }) =>
+    variant === 'variable' && vertical && verticalVariants[vertical]};
   ${({ variant }) => variant && variants[variant].grid};
-  ${({ vertical }) => vertical && verticalVariants[vertical]};
-  ${({ minWidth, repeat, variant }) =>
+  ${({ variant }) => variant && variants[variant].row};
+  ${({ maxWidth, minWidth, repeat, variant }) =>
     variant === 'variable' &&
     `
-      grid-template-columns: repeat(${repeat}, minmax(${minWidth}, 1fr));
+      grid-template-columns: repeat(${repeat}, minmax(${minWidth}, ${maxWidth}));
     `}
 `;
 

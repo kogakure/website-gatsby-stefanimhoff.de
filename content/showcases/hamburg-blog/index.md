@@ -31,7 +31,7 @@ The website is mostly a **photography** blog, but I also write **short essays** 
 
 ---
 
-<Row variant="center" marginBottom>
+<Row variant="variable" horizontal="center" maxWidth="50vw" marginBottom>
 
 ![Typefaces IM Fell English and Playfair Display](./images/hamburg-blog-typefaces.svg)
 
