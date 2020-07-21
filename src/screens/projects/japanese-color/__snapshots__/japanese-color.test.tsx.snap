@@ -155,6 +155,15 @@ a:focus .c7 {
 
 .c1 {
   display: grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 5.55vw;
   grid-template-columns: 1fr;
   justify-items: center;
@@ -178,7 +187,7 @@ a:focus .c7 {
 .c8 {
   display: grid;
   grid-gap: clamp( 0.579rem,1.24vw,0.694rem);
-  grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+  grid-template-columns: repeat(auto-fill,minmax(12rem,1fr));
   padding-left: 5.55vw;
   padding-right: 5.55vw;
   width: 100%;

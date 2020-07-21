@@ -9,6 +9,15 @@ exports[`Projects KoiIllustration renders correctly 1`] = `
 
 .c1 {
   display: grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
   grid-column: 1 / -1;
 }
 

@@ -18,7 +18,7 @@ I learned a lot about Graphic Design while working on it. I created the complete
 
 </Row>
 
-<Row variant="variable" minWidth="10rem" repeat="auto-fit" marginBottom>
+<Row variant="variable" minWidth="12rem" repeat="auto-fill" marginBottom>
 
 <ColorSwatch color="#241701" />
 <ColorSwatch color="#4B2E01" />
@@ -30,7 +30,7 @@ I learned a lot about Graphic Design while working on it. I created the complete
 
 ---
 
-<Row variant="variable" horizontal="center" maxWidth="50vw" marginBottom>
+<Row variant="variable" horizontal="center" maxWidth="50vw"  marginBottom>
 
 ![Typeface Diavlo](./images/thai-restaurant-typefaces.svg)
 

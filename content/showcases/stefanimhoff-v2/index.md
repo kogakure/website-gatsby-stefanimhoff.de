@@ -20,7 +20,7 @@ The fantastic Bonsai image was shot by _Norio Nakayama_ and provided with a CC l
 
 </Row>
 
-<Row variant="variable" minWidth="10rem" repeat="auto-fill" marginBottom>
+<Row variant="variable" minWidth="12em" repeat="auto-fill" marginBottom>
 
 <ColorSwatch color="#333333" />
 <ColorSwatch color="#89B46B" />

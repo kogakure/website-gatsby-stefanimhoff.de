@@ -20,7 +20,7 @@ I added **Service Worker** and full offline support for the website. The source 
 
 </Row>
 
-<Row variant="variable" minWidth="10rem" marginBottom>
+<Row variant="variable" minWidth="12rem" repeat="auto-fill" marginBottom>
 
 <ColorSwatch color="#1A171B" />
 <ColorSwatch color="#B0BC04" />

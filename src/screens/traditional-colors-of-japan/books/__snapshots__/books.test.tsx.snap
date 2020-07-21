@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Traditional Colors of Japan Books renders correctly 1`] = `
-.c1 {
+.c3 {
   box-shadow: 0 0.1em 0.5em rgba(0,0,0,0.5);
   display: grid;
   position: relative;
@@ -15,14 +15,14 @@ exports[`Traditional Colors of Japan Books renders correctly 1`] = `
   vertical-align: bottom;
 }
 
-.c1:hover,
-.c1:focus {
+.c3:hover,
+.c3:focus {
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
 }
 
-.c1::before {
+.c3::before {
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   border-top-left-radius: 2px;
@@ -37,7 +37,7 @@ exports[`Traditional Colors of Japan Books renders correctly 1`] = `
   z-index: 2;
 }
 
-.c1::after {
+.c3::after {
   border-radius: 4em / 2em;
   bottom: 1em;
   box-shadow: 0 0 2em rgba(0,0,0,0.8);
@@ -56,12 +56,12 @@ exports[`Traditional Colors of Japan Books renders correctly 1`] = `
   z-index: -1;
 }
 
-.c1:hover::after,
-.c1:focus::after {
+.c3:hover::after,
+.c3:focus::after {
   opacity: 1;
 }
 
-.c2 {
+.c4 {
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   border-top-left-radius: 2px;
@@ -70,6 +70,28 @@ exports[`Traditional Colors of Japan Books renders correctly 1`] = `
   height: auto;
   max-width: 100%;
   position: relative;
+}
+
+.c1 {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(18,1fr);
+}
+
+.c2 {
+  display: grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: center;
+  -webkit-align-items: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  gap: clamp(2.488rem,5.32vw,2.986rem);
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(auto-fit,minmax(15em,1fr));
 }
 
 .c0 {
@@ -117,27 +139,35 @@ exports[`Traditional Colors of Japan Books renders correctly 1`] = `
   data-sal="slide-up"
   data-sal-duration="800"
 >
-  <a
+  <section
     class="c1"
-    href="http://www.amazon.de/gp/product/475624100X?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=475624100X"
-    rel="nofollow noopener noreferrer external"
   >
-    <img
-      alt="Book: The Traditional Colors of Japan"
+    <div
       class="c2"
-      src="https://images-na.ssl-images-amazon.com/images/P/475624100X.01.LZZZZZZZ.jpg"
-    />
-  </a>
-  <a
-    class="c1"
-    href="http://www.amazon.de/gp/product/475624114X?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=475624114X"
-    rel="nofollow noopener noreferrer external"
-  >
-    <img
-      alt="Book: Traditional Japanese Color Palette"
-      class="c2"
-      src="https://images-na.ssl-images-amazon.com/images/P/475624114X.01.LZZZZZZZ.jpg"
-    />
-  </a>
+    >
+      <a
+        class="c3"
+        href="http://www.amazon.de/gp/product/475624100X?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=475624100X"
+        rel="nofollow noopener noreferrer external"
+      >
+        <img
+          alt="Book: The Traditional Colors of Japan"
+          class="c4"
+          src="https://images-na.ssl-images-amazon.com/images/P/475624100X.01.LZZZZZZZ.jpg"
+        />
+      </a>
+      <a
+        class="c3"
+        href="http://www.amazon.de/gp/product/475624114X?ie=UTF8&tag=stefanimhoffde-21&linkCode=as2&camp=1638&creative=6742&creativeASIN=475624114X"
+        rel="nofollow noopener noreferrer external"
+      >
+        <img
+          alt="Book: Traditional Japanese Color Palette"
+          class="c4"
+          src="https://images-na.ssl-images-amazon.com/images/P/475624114X.01.LZZZZZZZ.jpg"
+        />
+      </a>
+    </div>
+  </section>
 </div>
 `;

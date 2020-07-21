@@ -9,6 +9,20 @@ exports[`Projects BambooIllustration renders correctly 1`] = `
 
 .c1 {
   display: grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: inherit;
+  -webkit-justify-content: inherit;
+  -ms-flex-pack: inherit;
+  justify-content: inherit;
+  justify-items: inherit;
   grid-column: 1 / -1;
 }
 

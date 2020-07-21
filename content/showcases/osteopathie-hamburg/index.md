@@ -20,7 +20,7 @@ The website had an interactive carousel on the homepage, collapsible sections in
 
 </Row>
 
-<Row variant="variable" minWidth="8rem" marginBottom>
+<Row variant="variable" minWidth="12rem" repeat="auto-fill" marginBottom>
 
 <ColorSwatch color="#002856" />
 <ColorSwatch color="#E5E9EE" />
