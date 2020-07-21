@@ -108,6 +108,15 @@ a:focus .c8 {
 
 .c1 {
   display: grid;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
   gap: 5.55vw;
   grid-template-columns: 1fr;
   justify-items: center;

@@ -66,6 +66,7 @@ export const variants = {
       grid-column: 1 / -1;
     `,
     grid: css`
+      justify-content: inherit;
       justify-items: center;
     `,
   },
@@ -157,7 +158,10 @@ export const variants = {
     row: css`
       grid-column: 1 / -1;
     `,
-    grid: null,
+    grid: css`
+      justify-content: inherit;
+      justify-items: inherit;
+    `,
   },
   variable: {
     row: css`
@@ -187,10 +191,8 @@ const Row = styled.section<{ debug?: boolean; marginBottom?: boolean }>`
 
 const Grid = styled.div<RowProps>`
   display: grid;
-  ${({ horizontal, variant }) =>
-    variant === 'variable' && horizontal && horizontalVariants[horizontal]};
-  ${({ vertical, variant }) =>
-    variant === 'variable' && vertical && verticalVariants[vertical]};
+  ${({ horizontal }) => horizontal && horizontalVariants[horizontal]};
+  ${({ vertical }) => vertical && verticalVariants[vertical]};
   ${({ variant }) => variant && variants[variant].grid};
   ${({ variant }) => variant && variants[variant].row};
   ${({ maxWidth, minWidth, repeat, variant }) =>

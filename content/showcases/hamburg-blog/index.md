@@ -18,7 +18,7 @@ The website is mostly a **photography** blog, but I also write **short essays** 
 
 </Row>
 
-<Row variant="variable" minWidth="10rem" marginBottom>
+<Row variant="variable" minWidth="12rem" repeat="auto-fill" marginBottom>
 
 <ColorSwatch color="#000000" />
 <ColorSwatch color="#1E2433" />
