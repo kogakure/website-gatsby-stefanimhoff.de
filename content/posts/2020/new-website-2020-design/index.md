@@ -76,6 +76,130 @@ However, I made a huge mistake while creating the font and repeated the mistake 
 
 At that early stage, I had thought of a substitution font while loading the web font or if web fonts are disabled. I selected _Georgia_ because it has a similar size, width, and character.
 
+## Color
+
+I wanted my website to have the color of Japanese _Washi_ (和紙) paper. Early on I knew that I would support a dark and a light theme. I tried to limit myself to very few colors: One **accent** color, **background** color, and **foreground** color. Additionally, I created variations of these with different intensity.
+
+### HSL Color Space
+
+I picket the HSL color space, to be able to quickly create variations of my colors. In HSL the first value **H** stands for Hue. Red is 0° and then each color is represented by a value on a circle. The **S** stands for Saturation and is a value between 0 % (grey) and 100 % (full saturation). The **L** stands for Lightness and is a value between 0 % (black) and 100 % (white). With all three values, I was able to create the colors I wanted: First I picked the color hue I wanted to go for. Next, I reduced the Saturation to a value below or around 10% which I found made any color instantly look _Shibui_ (one of its identifying features is desaturated colors). To get all the other colors I moved the Lightness value down for a dark color or up for a light color.
+
+<Row variant="variable" minWidth="9rem" marginBottom>
+  <ColorSwatch color="hsl(40,7%,90%)" name="Light Background" />
+  <ColorSwatch color="hsl(40,7%,5%)" name="Light Foreground" />
+  <ColorSwatch
+    color="hsl(357,96%,46%)"
+    name="Accent"
+    description="Used for Link hover styles"
+  />
+</Row>
+
+<Row variant="variable" minWidth="9rem" marginBottom>
+  <ColorSwatch color="hsl(40,7%,10%)" name="Light Background" />
+  <ColorSwatch
+    color="hsl(40,7%,90%)"
+    name="Light Foreground"
+    description="Value has opacity of 0.87"
+  />
+  <ColorSwatch
+    color="hsl(357,96%,46%)"
+    name="Accent"
+    description="Used for Link hover styles"
+  />
+</Row>
+
+---
+
+### Color Themes
+
+Additionally to the main colors, I created 3 other color themes: A green one for my Haiku page, a brown one, I wanted to use for my Sketchnotes page, and a blue one I wanted to use on my projects page (but didn’t do it).
+
+#### Green
+
+<Row variant="variable" minWidth="9rem" marginBottom>
+  <ColorSwatch color="hsl(65,5%,50%)" name="Light Green Background" />
+  <ColorSwatch color="hsl(65,5%,5%)" name="Light Green Foreground" />
+  <ColorSwatch
+    color="hsl(65,5%,30%)"
+    name="Accent"
+    description="Used for Link hover styles"
+  />
+</Row>
+
+<Row variant="variable" minWidth="9rem" marginBottom>
+  <ColorSwatch color="hsl(65,5%,20%)" name="Dark Green Background" />
+  <ColorSwatch
+    color="hsl(65,5%,90%)"
+    name="Dark Green Foreground"
+    description="Value has opacity of 0.87"
+  />
+  <ColorSwatch
+    color="hsl(65,5%,30%)"
+    name="Accent"
+    description="Used for Link hover styles"
+  />
+</Row>
+
+---
+
+#### Brown
+
+<Row variant="variable" minWidth="9rem" marginBottom>
+  <ColorSwatch color="hsl(38,10%,55%)" name="Light Brown Background" />
+  <ColorSwatch color="hsl(38,10%,5%)" name="Light Brown Foreground" />
+  <ColorSwatch
+    color="hsl(38,10%,30%)"
+    name="Accent"
+    description="Used for Link hover styles"
+  />
+</Row>
+
+<Row variant="variable" minWidth="9rem" marginBottom>
+  <ColorSwatch color="hsl(38,10%,20%)" name="Dark Brown Background" />
+  <ColorSwatch
+    color="hsl(38,10%,90%)"
+    name="Dark Brown Foreground"
+    description="Value has opacity of 0.87"
+  />
+  <ColorSwatch
+    color="hsl(38,10%,30%)"
+    name="Accent"
+    description="Used for Link hover styles"
+  />
+</Row>
+
+---
+
+#### Blue
+
+<Row variant="variable" minWidth="9rem" marginBottom>
+  <ColorSwatch color="hsl(220,6%,50%)" name="Light Blue Background" />
+  <ColorSwatch color="hsl(220,6%,5%)" name="Light Blue Foreground" />
+  <ColorSwatch
+    color="hsl(220,6%,30%)"
+    name="Accent"
+    description="Used for Link hover styles"
+  />
+</Row>
+
+<Row variant="variable" minWidth="9rem" marginBottom>
+  <ColorSwatch color="hsl(220,6%,20%)" name="Dark Blue Background" />
+  <ColorSwatch
+    color="hsl(220,6%,90%)"
+    name="Dark Blue Foreground"
+    description="Value has opacity of 0.87"
+  />
+  <ColorSwatch
+    color="hsl(220,6%,30%)"
+    name="Accent"
+    description="Used for Link hover styles"
+  />
+</Row>
+
+---
+
+I didn’t _just_ invert colors but needed to make sure to create good contrast which is why I handpicked dark and light colors by hand. I needed to make another adjustment after I launched my website I didn’t anticipate: The white text on the dark background was way too bright. This is a known problem and there are multiple solutions to fix this. You can pick a lighter font on dark—which I didn’t want to do because of the file size of additional font weights—or reduce the opacity. I picked for all light text on dark an opacity of `0.87`.
+
 ## Logo
 
 Next, I moved my focus to the logo. A logo is always a difficult topic. Do I need one? Why? What should it be? My initials? An image? It’s easy to create a cheesy logo. I used a _rakkan_ (落款), a Japanese artist seal, for at least 10 years. An artist carved it for me into stone, using the oldest Chinese font, the _small seal script_, introduced by the Chinese Emperor _Qin Shi Huang_ 2200 years ago. It gets pressed into red ink and then applied to the artwork as the signature. I choose the characters of my internet pseudonym _kogakure_ (木隠), meaning “hidden behind leaves”.
