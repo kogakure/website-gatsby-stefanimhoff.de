@@ -1,3 +1,7 @@
+[build]
+  command = "yarn run build"
+  publish = "public"
+
 # Redirect domain aliases to primary domain
 [[redirects]]
 from = "https://www.imhoff.name/*"
