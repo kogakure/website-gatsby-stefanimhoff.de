@@ -31,3 +31,6 @@ coverage
 
 # Storybook
 storybook
+
+# Local Netlify folder
+.netlify
