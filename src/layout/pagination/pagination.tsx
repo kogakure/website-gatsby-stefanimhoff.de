@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { GatsbyLinkProps } from 'gatsby';
+import { useScrollPosition } from '@n8tb1t/use-scroll-position';
 
 import { Styled, variants } from './pagination.styles';
 
@@ -19,11 +20,24 @@ export const Pagination: React.FC<LinkWithPaginationProps> = ({
   to,
   variant,
   ...props
-}) => (
-  <Styled.Link aria-label={text} title={text} to={to} variant={variant}>
-    <Styled.Pagination variant={variant} {...props}>
-      {variant === 'left' && <Styled.LeftArrow aria-hidden="true" />}
-      {variant === 'right' && <Styled.RightArrow aria-hidden="true" />}
-    </Styled.Pagination>
-  </Styled.Link>
-);
+}) => {
+  const [hideOnScroll, setHideOnScroll] = React.useState(true);
+
+  useScrollPosition(({ prevPos, currPos }) => {
+    const isShow = currPos.y >= prevPos.y;
+    if (isShow !== hideOnScroll) setHideOnScroll(isShow);
+  });
+
+  return (
+    <Styled.Link aria-label={text} title={text} to={to} variant={variant}>
+      <Styled.Pagination
+        hideOnScroll={hideOnScroll}
+        variant={variant}
+        {...props}
+      >
+        {variant === 'left' && <Styled.LeftArrow aria-hidden="true" />}
+        {variant === 'right' && <Styled.RightArrow aria-hidden="true" />}
+      </Styled.Pagination>
+    </Styled.Link>
+  );
+};

@@ -24,7 +24,14 @@ exports[`Pagination "Both" renders correctly 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
   width: 40px;
+  opacity: 1;
 }
 
 a:hover .c1,
@@ -89,7 +96,14 @@ exports[`Pagination "Left" renders correctly 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
   width: 40px;
+  opacity: 1;
 }
 
 a:hover .c1,
@@ -154,7 +168,14 @@ exports[`Pagination "Right" renders correctly 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
   width: 40px;
+  opacity: 1;
 }
 
 a:hover .c1,
@@ -219,7 +240,14 @@ exports[`Pagination renders correctly 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
   width: 40px;
+  opacity: 1;
 }
 
 a:hover .c1,

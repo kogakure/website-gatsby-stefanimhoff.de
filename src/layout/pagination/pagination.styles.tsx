@@ -27,6 +27,9 @@ const pagination = css`
   display: flex;
   height: 40px;
   justify-content: center;
+  transition-duration: 500ms;
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
   width: 40px;
 
   a:hover &,
@@ -40,8 +43,16 @@ const Link = styled(GatsbyLink)<PaginationProps>`
   ${({ variant }) => variant && variants[variant]}
 `;
 
-const Pagination = styled.div<PaginationProps>`
+const Pagination = styled.div<PaginationProps & { hideOnScroll: boolean }>`
   ${pagination};
+  ${({ hideOnScroll }) =>
+    hideOnScroll
+      ? css`
+          opacity: 1;
+        `
+      : css`
+          opacity: 0;
+        `}
 `;
 
 const LeftArrow = styled(ArrowLeftS)`
