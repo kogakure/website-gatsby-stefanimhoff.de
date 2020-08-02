@@ -49,7 +49,7 @@ The word _racism_ is like ketchup. It can be put on practically anything – and
 - [The Seven People Who Can Turn Off the Internet](https://www.youtube.com/watch?v=6KDBpn8fW78) <Flag label="6:15" />
 - [How To Command Respect From Everyone Around You](https://www.youtube.com/watch?v=g4w3IyvKvas) <Flag label="11:43" />
 - [COVID-19 & Mask Myths Debunked!](https://www.youtube.com/watch?v=npXP5wqNzaI) <Flag label="13:43" />
-- [Dying from ”overwork” – Japan’s toxic office culture](https://www.youtube.com/watch?v=HH1_px17utk) <Flag label="3:27" />
+- [Dying from “overwork” – Japan’s toxic office culture](https://www.youtube.com/watch?v=HH1_px17utk) <Flag label="3:27" />
 - [TikTok – a Trojan Horse into China’s Dystopia](https://www.youtube.com/watch?v=5UooWpC4yJs) <Flag label="13:16" />
 - [The Dangers of Tribalism](https://www.youtube.com/watch?v=7y-b7f6CK2M) <Flag label="11:39" />
 - [Deus Ex – Story Explanation and Analysis](https://www.youtube.com/watch?v=5Uj0-Ryh7TY) <Flag label="18:39" /> – _Max Derrat_ explains why Deus Ex might be the most important game ever created.
@@ -101,7 +101,7 @@ The word _racism_ is like ketchup. It can be put on practically anything – and
 ## TV Shows
 
 - [Dark](https://www.themoviedb.org/tv/70523-dark) <Flag label="3" /> <NetflixFlag id="80100172" /> – The last season of this brilliant TV show was mind-bending and came to a logical and beautiful ending.
-- [The Blacklist](https://www.themoviedb.org/tv/46952-the-blacklist) <Flag label="7" /> <NetflixFlag id="70281312" /> – A exciting, unfortunately, cut short due to Corona. The last episode was partly animated to fill in the missing scenes.
+- [The Blacklist](https://www.themoviedb.org/tv/46952-the-blacklist) <Flag label="7" /> <NetflixFlag id="70281312" /> – An exciting season, unfortunately, cut short due to Corona. The last episode was partly animated to fill in the missing scenes.
 - [Tales from the Loop](https://www.themoviedb.org/tv/93784-tales-from-the-loop) <Flag label="1" /> <PrimeVideoFlag id="B086BPMKBB" /> – A fantastic Sci-Fi TV show, inspired by the pictures of the artist _Simon Stålenhag_. It plays between the 1950s and 1980s in a small town that sits on top of a secret science base exploring the secrets of the universe. Not a lot of action, no gunfights or lasers, but a lot of poetic stories.
 - [Hanna](https://www.themoviedb.org/tv/54155-hanna) <Flag label="2" /> <PrimeVideoFlag id="b087wqx654" />
 - [Space Force](https://www.themoviedb.org/tv/85922-space-force) <Flag label="1" /> <NetflixFlag id="81021929" /> – This TV show was much funnier than the reviews would suggest.
@@ -146,6 +146,8 @@ The word _racism_ is like ketchup. It can be put on practically anything – and
 - [Resignation Letter — Bari Weiss](https://www.bariweiss.com/resignation-letter)
 - [The Defenestration of Bari Weiss](https://quillette.com/2020/07/14/the-defenestration-of-bari-weiss/)
 - [Intersectionality: A Cheaper Form of Virtue](https://areomagazine.com/2020/07/21/intersectionality-a-cheaper-form-of-virtue/)
+- [Remembering Cancel Culture’s 40-Year-Old Stepfather](https://quillette.com/2020/07/27/remembering-cancel-cultures-40-year-old-stepfather/)
+- [Understanding Totalitarianism](https://quillette.com/2020/07/29/understanding-totalitarianism/)
 - [Review: The End of Gender by Debra Soh](https://thepostmillennial.com/review-the-end-of-gender-by-debra-soh)
 - [Bild, Merkel and the culture wars: the inside story of Germany’s biggest tabloid](https://www.theguardian.com/world/2020/jul/16/bild-zeitung-tabloid-julian-reichelt-angela-merkel-germany)
 - [Three basic facts Congress must understand about Big Tech](https://protonmail.com/blog/big-tech-congress/)
@@ -161,13 +163,11 @@ The word _racism_ is like ketchup. It can be put on practically anything – and
 - [Fran Velasco](https://franvelas.co/)
 - [Plan B: A Concept Luxury Underground Bunker Perfect For The Pandemic](http://www.home-designing.com/plan-b-a-concept-luxury-underground-bunker-perfect-for-the-pandemic)
 - [Of Heroic Deeds and Hysterical Masses](https://quillette.com/2020/07/24/of-heroic-deeds-and-hysterical-masses/)
-- [Remembering Cancel Culture’s 40-Year-Old Stepfather](https://quillette.com/2020/07/27/remembering-cancel-cultures-40-year-old-stepfather/)
-- [Understanding Totalitarianism](https://quillette.com/2020/07/29/understanding-totalitarianism/)
 - [Japan’s New Kadokawa Culture Museum is Housed in an Angular, Granite Structure Designed by Kengo Kuma](https://www.thisiscolossal.com/2020/07/kadokawa-culture-museum/)
 
 ## Stuff & Things
 
-- [Ghost of Tsushima](https://www.playstation.com/games/ghost-of-tsushima-ps4/) – The new PlayStation exclusive game is Sony’s fasted-selling game of all times. And rightly so. It is incredibly good! The story is exciting and feels like being in a movie or more accurately in all Samurai movies ever produced at once. It has epic battles, deadly duels, and quiet moments while reflecting with Haiku, praying at a Shinto or Buddhist temple or shrine or while taking a bath in one of the many Onsen. Stunningly beautiful landscapes with falling cherry-blossom or maple trees leaves, endless grasslands, long sandy coastlines, dusty swamplands, or green bamboo forests. Directly next to battlefields with burned corpses, or landscapes and villages burned by the Mongol hordes. You can play with Japanese audio track for the right feeling and even enable Kurosawa mode (black and white with 60s audio) or play with the funny (but useless) photo mode to create videos or photos. The soundtrack was written by _Shigeru Umebayashi_.
+- [Ghost of Tsushima](https://www.playstation.com/games/ghost-of-tsushima-ps4/) – The new PlayStation exclusive game is Sony’s fasted-selling game of all times. And rightly so. It is incredibly good! The story is exciting and feels like being in a movie or more accurately in all Samurai movies ever produced at once. It has epic battles, deadly duels, and quiet moments while reflecting with Haiku, praying at a Shinto or Buddhist temple or shrine or while taking a bath in one of the many Onsen. Stunningly beautiful landscapes with falling cherry-blossom or maple tree leaves, endless grasslands, long sandy coastlines, dusty swamplands, or green bamboo forests. Directly next to battlefields with burned corpses, or landscapes and villages burned by the Mongol hordes. You can play with Japanese audio track for the right feeling and even enable Kurosawa mode (black and white with 60s audio) or play with the funny (but useless) photo mode to create videos or photos. The soundtrack was written by _Shigeru Umebayashi_.
 - [Code Time](https://www.software.com/code-time) is an open-source plugin for automatic programming metrics and time-tracking in your editor.
 - [Music Time](https://www.software.com/music-time) for Spotify is a code editor plugin that discovers your most productive music to listen to while you code.
 - [mmhmm](https://www.mmhmm.app/) looks like a funny idea to enhance video conferences. The CEO of mmhmm gives a short [beta preview](https://www.youtube.com/watch?v=c8KhKBLoSMk) <Flag label="5:13" />.
