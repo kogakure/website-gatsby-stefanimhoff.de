@@ -93,8 +93,8 @@ Fools learn from experience. I prefer to learn from the experience of others.
 - [The Daily Stoic](https://www.goodreads.com/book/show/29093292-the-daily-stoic) (<AffiliateLink asin="0735211736">Amazon</AffiliateLink>) – I re-read this book a third time.
 
 <Row variant="variable" minWidth="110px" marginBottom>
-  <AmazonBook asin="0141983760" />
-  <AmazonBook asin="0735211736" />
+  <AmazonBook asin="0141983760" size="large" />
+  <AmazonBook asin="0735211736" size="large" />
 </Row>
 
 ## Articles

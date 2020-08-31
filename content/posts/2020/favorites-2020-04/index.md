@@ -120,10 +120,10 @@ Stat sua cuique dies (To each his day is given)
 - [The Daily Stoic](https://www.goodreads.com/book/show/29093292-the-daily-stoic) (<AffiliateLink asin="0735211736">Amazon</AffiliateLink>)
 
 <Row variant="variable" minWidth="110px" marginBottom>
-  <AmazonBook asin="0805091742" />
-  <AmazonBook asin="1784703931" />
-  <AmazonBook asin="0679433139" />
-  <AmazonBook asin="0735211736" />
+  <AmazonBook asin="0805091742" size="large" />
+  <AmazonBook asin="1784703931" size="large" />
+  <AmazonBook asin="0679433139" size="large" />
+  <AmazonBook asin="0735211736" size="large" />
 </Row>
 
 ## Articles

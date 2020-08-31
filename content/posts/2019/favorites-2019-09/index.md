@@ -75,10 +75,10 @@ Objective judgment, now, at this very moment. Unselfish action, now, at this ver
 - [The Anatomy of Story: 22 Steps to Becoming a Master Storyteller](https://www.goodreads.com/book/show/1383168.The_Anatomy_of_Story) (<AffiliateLink asin="0865479518">Amazon</AffiliateLink>) – I’m interested in story-telling for a long time now. _John Truby_ shares his secrets for writing a compelling script.
 - [Daytripper](https://www.goodreads.com/book/show/8477057-daytripper) (<AffiliateLink asin="1401229697">Amazon</AffiliateLink>) – I re-read this fantastic graphic novel by _Fábio Moon_ and _Gabriel Bá_ about life and death. Each story follows _Bras de Olivias Dominguez_ during different periods in his life, each with the same ending: his death.
 
-<Row variant="variable" minWidth="120px" marginBottom>
-  <AmazonBook asin="B07C87SQ53" />
-  <AmazonBook asin="0865479518" />
-  <AmazonBook asin="1401229697" />
+<Row variant="variable" minWidth="110px" marginBottom>
+  <AmazonBook asin="B07C87SQ53" size="large" />
+  <AmazonBook asin="0865479518" size="large" />
+  <AmazonBook asin="1401229697" size="large" />
 </Row>
 
 ## Articles

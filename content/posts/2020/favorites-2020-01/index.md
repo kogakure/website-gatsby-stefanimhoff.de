@@ -98,8 +98,8 @@ Search others for their virtues, thyself for thy vices.
 - [Permanent Record](https://www.goodreads.com/book/show/46223297-permanent-record) (<AffiliateLink asin="152903566X">Amazon</AffiliateLink>)
 
 <Row variant="variable" minWidth="110px" marginBottom>
-  <AmazonBook asin="0316332879" />
-  <AmazonBook asin="152903566X" />
+  <AmazonBook asin="0316332879" size="large" />
+  <AmazonBook asin="152903566X" size="large" />
 </Row>
 
 ## Articles

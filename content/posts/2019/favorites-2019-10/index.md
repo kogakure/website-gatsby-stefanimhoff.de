@@ -73,12 +73,12 @@ I, infinite silence, will grant you words.
 - [The Divine Comedy](https://www.goodreads.com/book/show/6656.The_Divine_Comedy) (<AffiliateLink asin="0679433139">Amazon</AffiliateLink>) – Finally I started reading the most important poetry of Italian literature by _Dante Alighieri_. The book stood on my shelf for nearly 15 years.
 - [The Laws of Human Nature](https://www.goodreads.com/book/show/40060191-the-laws-of-human-nature) (<AffiliateLink asin="B07C87SQ53">Amazon</AffiliateLink>) – _Robert Greene_ on understanding people’s drives and motivations, even when they are unconscious of them themselves.
 
-<Row variant="variable" minWidth="150px" marginBottom>
-  <AmazonBook asin="0525538585" />
-  <AmazonBook asin="0918172020" />
-  <AmazonBook asin="0446691437" />
-  <AmazonBook asin="0679433139" />
-  <AmazonBook asin="B07C87SQ53" />
+<Row variant="variable" minWidth="110px" marginBottom>
+  <AmazonBook asin="0525538585" size="large" />
+  <AmazonBook asin="0918172020" size="large" />
+  <AmazonBook asin="0446691437" size="large" />
+  <AmazonBook asin="0679433139" size="large" />
+  <AmazonBook asin="B07C87SQ53" size="large" />
 </Row>
 
 ## Articles

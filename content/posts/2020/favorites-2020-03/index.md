@@ -116,9 +116,9 @@ Do not be dismayed by the brokenness of the world. All things break, and all thi
 - [The Daily Stoic](https://www.goodreads.com/book/show/29093292-the-daily-stoic) (<AffiliateLink asin="0735211736">Amazon</AffiliateLink>)
 
 <Row variant="variable" minWidth="110px" marginBottom>
-  <AmazonBook asin="0804137501" />
-  <AmazonBook asin="0762462019" />
-  <AmazonBook asin="0735211736" />
+  <AmazonBook asin="0804137501" size="large" />
+  <AmazonBook asin="0762462019" size="large" />
+  <AmazonBook asin="0735211736" size="large" />
 </Row>
 
 ## Articles

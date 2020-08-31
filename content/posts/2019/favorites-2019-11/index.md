@@ -78,12 +78,12 @@ If you’ve seen the present, you’ve seen all things, from time immemorial int
 - [Indistractable](https://www.goodreads.com/book/show/44595007-indistractable) (<AffiliateLink asin="194883653X">Amazon</AffiliateLink>) – _Nir Eyal_ writes about how to become indistractable.
 - [Tiamat’s Wrath (The Expanse #8)](https://www.goodreads.com/book/show/28335698-tiamat-s-wrath) (<AffiliateLink asin="0316332879">Amazon</AffiliateLink>) – I started reading the new book of _The Expanse_ and I’m really curious where this story leads, as this is probably the penultimate book of the series.
 
-<Row variant="variable" minWidth="150px" marginBottom>
-  <AmazonBook asin="B07C87SQ53" />
-  <AmazonBook asin="0679433139" />
-  <AmazonBook asin="4805312149" />
-  <AmazonBook asin="194883653X" />
-  <AmazonBook asin="0316332879" />
+<Row variant="variable" minWidth="110px" marginBottom>
+  <AmazonBook asin="B07C87SQ53" size="large" />
+  <AmazonBook asin="0679433139" size="large" />
+  <AmazonBook asin="4805312149" size="large" />
+  <AmazonBook asin="194883653X" size="large" />
+  <AmazonBook asin="0316332879" size="large" />
 </Row>
 
 ## Articles

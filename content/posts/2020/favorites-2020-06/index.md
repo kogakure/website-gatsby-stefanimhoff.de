@@ -99,8 +99,8 @@ The scars you share become lighthouses for other people who are headed to the sa
 - [The Daily Stoic](https://www.goodreads.com/book/show/29093292-the-daily-stoic) (<AffiliateLink asin="0735211736">Amazon</AffiliateLink>)
 
 <Row variant="variable" minWidth="110px" marginBottom>
-  <AmazonBook asin="1784703931" />
-  <AmazonBook asin="0735211736" />
+  <AmazonBook asin="1784703931" size="large" />
+  <AmazonBook asin="0735211736" size="large" />
 </Row>
 
 ## Articles

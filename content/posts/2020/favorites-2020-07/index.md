@@ -131,8 +131,8 @@ The word _racism_ is like ketchup. It can be put on practically anything – and
 - [The Daily Stoic](https://www.goodreads.com/book/show/29093292-the-daily-stoic) (<AffiliateLink asin="0735211736">Amazon</AffiliateLink>)
 
 <Row variant="variable" minWidth="110px" marginBottom>
-  <AmazonBook asin="1784703931" />
-  <AmazonBook asin="0735211736" />
+  <AmazonBook asin="1784703931" size="large" />
+  <AmazonBook asin="0735211736" size="large" />
 </Row>
 
 ## Articles

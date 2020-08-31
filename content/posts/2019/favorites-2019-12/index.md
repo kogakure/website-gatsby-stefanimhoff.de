@@ -91,10 +91,10 @@ No battle plan ever survives contact with the enemy.
 - [Permanent Record](https://www.goodreads.com/book/show/46223297-permanent-record) (<AffiliateLink asin="152903566X">Amazon</AffiliateLink>) – I started reading _Edward Snowdens_ book and it’s really interesting so far.
 
 <Row variant="variable" minWidth="110px" marginBottom>
-  <AmazonBook asin="0679433139" />
-  <AmazonBook asin="0316332879" />
-  <AmazonBook asin="0008323445" />
-  <AmazonBook asin="152903566X" />
+  <AmazonBook asin="0679433139" size="large" />
+  <AmazonBook asin="0316332879" size="large" />
+  <AmazonBook asin="0008323445" size="large" />
+  <AmazonBook asin="152903566X" size="large" />
 </Row>
 
 ## Articles
