@@ -45,7 +45,7 @@ The next thing I moved my attention to was Typography. I always loved Typography
 
 I even own a copy of the 650 pages strong [Decode Unicode](https://www.goodreads.com/book/show/17186505-decodeunicode), a book listing all 137,374 typographical characters, from the Armenian capital letter _Ayb_ to the Khmer Letter _Ka_. There is even a [complete website](https://decodeunicode.org/) showing all characters and a [two and a half-hour long movie](https://vimeo.com/48858289) showing all characters.
 
-<Row variant="variable" marginBottom>
+<Row variant="variable" minWidth="110px" marginBottom>
   <AmazonBook asin="0881792128" size="large" />
   <AmazonBook asin="3874398137" size="large" />
 </Row>
