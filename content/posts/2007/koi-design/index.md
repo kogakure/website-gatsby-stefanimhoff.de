@@ -1,6 +1,6 @@
 ---
 published: true
-title: The Koi Design
+title: Koi Design
 author: Stefan Imhoff
 date: 2007-06-02T02:00:00+02:00
 description: Irezumi (Japanese tattooing) as inspiration for my website and the origin of my design.
