@@ -16,7 +16,7 @@ The idea for the design of <del>this new website</del> <ins>a previous version o
 
 Tattoos are an art that is transient in the truest sense of the word since with the wearer the artwork also disappears as soon as he dies. But this fits in well with the concept of the _flowing world_, a concept of transience in Buddhism. In the symbol of the samurai, the cherry blossom, one can also see the transience of being after a short duration of a perfect life.
 
-These works of art are extremely painful (dozens of bamboo needles are [stung several times a second](https://www.youtube.com/watch?v=NddXHY2QUV0)), tedious (from a few months to several years) and expensive (starting at 20,000 €). That is also the reason why I like to look at them, but definitely never will wear one myself.
+These works of art are extremely painful (dozens of bamboo needles are [stung several times a second](https://youtu.be/NddXHY2QUV0)), tedious (from a few months to several years) and expensive (starting at 20,000 €). That is also the reason why I like to look at them, but definitely never will wear one myself.
 
 One of the best living artists of the Irezumi is Horiyoshi III, whose works can be seen in some illustrated books: <AffiliateLink asin="9074822452">Tattoos from the Floating World: Ukiyo-e Motif's in Japanese Tattoo</AffiliateLink> and <AffiliateLink asin="0764312014">Bushido: Legacies of the Japanese Tattoo</AffiliateLink>.
 

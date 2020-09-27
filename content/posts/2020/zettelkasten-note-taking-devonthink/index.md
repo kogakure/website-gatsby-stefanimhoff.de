@@ -208,5 +208,5 @@ I’m happy I was pointed to the Zettelkasten method by my colleague. It’s a r
 [multimarkdown]: https://rawgit.com/fletcher/MultiMarkdown-6-Syntax-Guide/master/index.html
 [devonthink to go]: https://apps.apple.com/app/devonthink-to-go/id395722470
 
-[^schroder2018aa]: Will Schroder (2018): [How To Remember Everything You Learn](https://www.youtube.com/watch?v=V-UvSKe8jW4).
+[^schroder2018aa]: Will Schroder (2018): [How To Remember Everything You Learn](https://youtu.be/V-UvSKe8jW4).
 [^tietze2014aa]: Christian Tietze (2014): [The Collector’s Fallacy](https://zettelkasten.de/posts/collectors-fallacy/).

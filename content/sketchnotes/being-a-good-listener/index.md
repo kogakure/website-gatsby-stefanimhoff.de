@@ -6,7 +6,7 @@ published: true
 
 <div>
 
-Sketchnote of the video [Being A Good Listener](https://www.youtube.com/watch?v=-BdbiZcNBXg) by **The School of Life**. Notes in German, but the video is in English.
+Sketchnote of the video [Being A Good Listener](https://youtu.be/-BdbiZcNBXg) by **The School of Life**. Notes in German, but the video is in English.
 
 </div>
 

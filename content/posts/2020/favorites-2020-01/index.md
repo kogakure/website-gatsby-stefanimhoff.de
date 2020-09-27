@@ -25,39 +25,39 @@ Search others for their virtues, thyself for thy vices.
 
 ## Videos
 
-- [Ancient Chinese Historian Describes Japan, First Full Description of Japan, "Wei-Zhi" (297 AD)](https://www.youtube.com/watch?v=5kvcALPPZoI) <Flag label="8:14" />
-- [Free Speech vs Feminism](https://www.youtube.com/watch?v=qZUBUUZpm2g) <Flag label="20:33" /> – Third part of the series on John Stuart Mill’s philosophical thoughts on free speech.
-- [3 Ways to Make Your Habits Stick](https://www.youtube.com/watch?v=C1TSpcnNtEs) <Flag label="11:30" />
-- [Jocko Willink Explains Respect, Influence, and Leadership, Impact Theory](https://www.youtube.com/watch?v=wxKVYiNIKZk) <Flag label="52:3" />
-- [A Better Way to Track Your Habits](https://www.youtube.com/watch?v=0bxIg3M_MHY) <Flag label="6:59" />
-- [Shot on iPhone 11 Pro — Chinese New Year — Daughter](https://www.youtube.com/watch?v=bvtwWhKdxhM) <Flag label="8:20" /> – A really beautiful short film shot on iPhone 11 Pro.
-- [Shot on iPhone 11 Pro — Chinese New Year — Making of ‘Daughter’ with Director Theodore Melfi](https://www.youtube.com/watch?v=dj6Lw7jnqBI) <Flag label="3:29" /> – Making of the short film.
-- [Frank Medrano - Be Unstoppable Motivation](https://www.youtube.com/watch?v=6QM1WZMd5do) <Flag label="1:45" />
-- [How to watch a kung-fu movie](https://www.youtube.com/watch?v=e0_2VLw32VU) <Flag label="3:25" /> – Short introduction on how to watch a Kung-Fu movie.
-- [Noah takes a photo of himself every day for 20 years](https://www.youtube.com/watch?v=wAIZ36GI4p8) <Flag label="8:17" /> – Years ago I already saw Noah’s 10-year time-lapse movie. He plans to continue the project until he dies.
-- [You Will Never Look At Life The Same, Jordan Peterson](https://www.youtube.com/watch?v=r-oNXuLDIfU) <Flag label="10:00" />
-- [The Drinker Recommends... 1917](https://www.youtube.com/watch?v=Gd9SUz7CRLw) <Flag label="12:13" /> – One of my favorite film critics highly recommends 1917.
-- [How '1917' Was Filmed To Look Like One-Shot](https://www.youtube.com/watch?v=kMBnvz-dEXw) <Flag label="10:19" />
-- [The Weird History of Adult Animation – Wisecrack Edition](https://www.youtube.com/watch?v=9Svu9jmKrzg) <Flag label="19:12" />
-- [How to Stop Procrastinating](https://www.youtube.com/watch?v=km4pOGd_lHw) <Flag label="10:47" />
-- [Why is CENTRAL AMERICA the MOST VIOLENT region in the WORLD? - VisualPolitik EN](https://www.youtube.com/watch?v=J1H8MNv2_fE) <Flag label="16:58" />
-- [Ex CIA: Iran's Next Move & Exposing The Deep State, Rubin Report](https://www.youtube.com/watch?v=0w3lNhNh7Kc) <Flag label="1:04:08" />
+- [Ancient Chinese Historian Describes Japan, First Full Description of Japan, "Wei-Zhi" (297 AD)](https://youtu.be/5kvcALPPZoI) <Flag label="8:14" />
+- [Free Speech vs Feminism](https://youtu.be/qZUBUUZpm2g) <Flag label="20:33" /> – Third part of the series on John Stuart Mill’s philosophical thoughts on free speech.
+- [3 Ways to Make Your Habits Stick](https://youtu.be/C1TSpcnNtEs) <Flag label="11:30" />
+- [Jocko Willink Explains Respect, Influence, and Leadership, Impact Theory](https://youtu.be/wxKVYiNIKZk) <Flag label="52:3" />
+- [A Better Way to Track Your Habits](https://youtu.be/0bxIg3M_MHY) <Flag label="6:59" />
+- [Shot on iPhone 11 Pro — Chinese New Year — Daughter](https://youtu.be/bvtwWhKdxhM) <Flag label="8:20" /> – A really beautiful short film shot on iPhone 11 Pro.
+- [Shot on iPhone 11 Pro — Chinese New Year — Making of ‘Daughter’ with Director Theodore Melfi](https://youtu.be/dj6Lw7jnqBI) <Flag label="3:29" /> – Making of the short film.
+- [Frank Medrano - Be Unstoppable Motivation](https://youtu.be/6QM1WZMd5do) <Flag label="1:45" />
+- [How to watch a kung-fu movie](https://youtu.be/e0_2VLw32VU) <Flag label="3:25" /> – Short introduction on how to watch a Kung-Fu movie.
+- [Noah takes a photo of himself every day for 20 years](https://youtu.be/wAIZ36GI4p8) <Flag label="8:17" /> – Years ago I already saw Noah’s 10-year time-lapse movie. He plans to continue the project until he dies.
+- [You Will Never Look At Life The Same, Jordan Peterson](https://youtu.be/r-oNXuLDIfU) <Flag label="10:00" />
+- [The Drinker Recommends... 1917](https://youtu.be/Gd9SUz7CRLw) <Flag label="12:13" /> – One of my favorite film critics highly recommends 1917.
+- [How '1917' Was Filmed To Look Like One-Shot](https://youtu.be/kMBnvz-dEXw) <Flag label="10:19" />
+- [The Weird History of Adult Animation – Wisecrack Edition](https://youtu.be/9Svu9jmKrzg) <Flag label="19:12" />
+- [How to Stop Procrastinating](https://youtu.be/km4pOGd_lHw) <Flag label="10:47" />
+- [Why is CENTRAL AMERICA the MOST VIOLENT region in the WORLD? - VisualPolitik EN](https://youtu.be/J1H8MNv2_fE) <Flag label="16:58" />
+- [Ex CIA: Iran's Next Move & Exposing The Deep State, Rubin Report](https://youtu.be/0w3lNhNh7Kc) <Flag label="1:04:08" />
 - [Keybase Tutorials](https://www.youtube.com/playlist?list=PL8apXttwwN4mjbkEs4WH8I0C2zQ0H8q6R) – Some really nice videos in how to set up and use Keybase.
-- [Joe Rogan Experience #1411 - Robert Downey Jr.](https://www.youtube.com/watch?v=d5XTDmm0KUQ) <Flag label="1:12:19" />
-- [Joe Rogan Experience #1413 - Bill Maher](https://www.youtube.com/watch?v=-KQGZa773sI) <Flag label="1:57:57" />
-- [Why Subordinating Your Ego Shows Confidence - Jocko Willink](https://www.youtube.com/watch?v=b6vHa3lRo4g) <Flag label="8:20" />
-- [Why 1.5 billion people eat with chopsticks](https://www.youtube.com/watch?v=tSciinXdGhI) <Flag label="3:26" />
-- [What's so special about Viking ships?](https://www.youtube.com/watch?v=kge0c2mNmRQ) <Flag label="4:57" />
-- [Praying Through Cinema – Understanding Andrei Tarkovsky](https://www.youtube.com/watch?v=gNezdOlS-aw) <Flag label="23:46" />
-- [The Secret to Superhuman Performance](https://www.youtube.com/watch?v=kj1hLFSORTQ) <Flag label="10:30" />
-- [What's going on with Iran?](https://www.youtube.com/watch?v=5CL8nGQIbmk) <Flag label="17:46" />
-- [Free Speech vs Winnie the Pooh](https://www.youtube.com/watch?v=MM4Slc6Ix5w) <Flag label="15:37" /> – Fourth part of the series on John Stuart Mill’s philosophical thoughts on free speech.
-- [Caesar on the Gauls, Roman Primary Source, 58-49 BC](https://www.youtube.com/watch?v=ZdXRnLHL65k) <Flag label="10:33" />
-- [Debunking The Many Myths of Sweden, Aron Flam & Henrik Jönsson](https://www.youtube.com/watch?v=mpRBfoQRdpY) <Flag label="1:01:17" />
-- [What is Fascism? (Political Philosophy)](https://www.youtube.com/watch?v=ki8Hib735Cs) <Flag label="11:37" />
-- [Your New Year's Resolution Has Already Failed](https://www.youtube.com/watch?v=NVGuFdX5guE) <Flag label="6:23" />
-- [Rameses III Describes Invasion Of Sea Peoples, Mystery of Bronze Age Collapse](https://www.youtube.com/watch?v=01eyTLfFJqQ) <Flag label="5:52" />
-- [Casually Explained: Reddit](https://www.youtube.com/watch?v=Uy9V_v-XV8Q) <Flag label="7:07" />
+- [Joe Rogan Experience #1411 - Robert Downey Jr.](https://youtu.be/d5XTDmm0KUQ) <Flag label="1:12:19" />
+- [Joe Rogan Experience #1413 - Bill Maher](https://youtu.be/-KQGZa773sI) <Flag label="1:57:57" />
+- [Why Subordinating Your Ego Shows Confidence - Jocko Willink](https://youtu.be/b6vHa3lRo4g) <Flag label="8:20" />
+- [Why 1.5 billion people eat with chopsticks](https://youtu.be/tSciinXdGhI) <Flag label="3:26" />
+- [What's so special about Viking ships?](https://youtu.be/kge0c2mNmRQ) <Flag label="4:57" />
+- [Praying Through Cinema – Understanding Andrei Tarkovsky](https://youtu.be/gNezdOlS-aw) <Flag label="23:46" />
+- [The Secret to Superhuman Performance](https://youtu.be/kj1hLFSORTQ) <Flag label="10:30" />
+- [What's going on with Iran?](https://youtu.be/5CL8nGQIbmk) <Flag label="17:46" />
+- [Free Speech vs Winnie the Pooh](https://youtu.be/MM4Slc6Ix5w) <Flag label="15:37" /> – Fourth part of the series on John Stuart Mill’s philosophical thoughts on free speech.
+- [Caesar on the Gauls, Roman Primary Source, 58-49 BC](https://youtu.be/ZdXRnLHL65k) <Flag label="10:33" />
+- [Debunking The Many Myths of Sweden, Aron Flam & Henrik Jönsson](https://youtu.be/mpRBfoQRdpY) <Flag label="1:01:17" />
+- [What is Fascism? (Political Philosophy)](https://youtu.be/ki8Hib735Cs) <Flag label="11:37" />
+- [Your New Year's Resolution Has Already Failed](https://youtu.be/NVGuFdX5guE) <Flag label="6:23" />
+- [Rameses III Describes Invasion Of Sea Peoples, Mystery of Bronze Age Collapse](https://youtu.be/01eyTLfFJqQ) <Flag label="5:52" />
+- [Casually Explained: Reddit](https://youtu.be/Uy9V_v-XV8Q) <Flag label="7:07" />
 
 ## TV Shows
 

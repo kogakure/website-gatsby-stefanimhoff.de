@@ -142,7 +142,7 @@ One likes it bright, one likes it dark and one beige. For Vim there are almost c
 
 ## And Where Do I Start Now?
 
-If you have an hour and a half, check out the video from GoogleTechTalk, in which the developer of Vim, the Dutchman Bram Moolenaar, shows in [7 Habits For Effective Text Editing 2.0](https://www.youtube.com/watch?v=p6K4iIMlouI) which is so impressive on Vim.
+If you have an hour and a half, check out the video from GoogleTechTalk, in which the developer of Vim, the Dutchman Bram Moolenaar, shows in [7 Habits For Effective Text Editing 2.0](https://youtu.be/p6K4iIMlouI) which is so impressive on Vim.
 
 There are also two fantastic articles I can recommend: [Coming Home to Vim](http://stevelosh.com/blog/2010/09/coming-home-to-vim/) by Steve Losh and [How I boosted my vim](https://nvie.com/posts/how-i-boosted-my-vim/) by Vincent Driessen.
 

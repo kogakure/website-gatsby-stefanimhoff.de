@@ -25,67 +25,67 @@ Do not be dismayed by the brokenness of the world. All things break, and all thi
 
 ## Videos
 
-- [The Revenant – An Odyssey Through America’s Purgatory](https://www.youtube.com/watch?v=T7BNzk2oJA0) <Flag label="13:59" />
-- [Revealing Titania McGrath & UK Thoughtcrime Enforcement, Andrew Doyle](https://www.youtube.com/watch?v=tJlbkCcKnHw) <Flag label="1:01:14" />
-- [How Knives Out Switches Genres (Twice)](https://www.youtube.com/watch?v=AfF7-vJJBNY) <Flag label="7:31" />
-- [Revenge in Korean Thrillers](https://www.youtube.com/watch?v=i0kMVeVZRws) <Flag label="15:17" />
-- [Free Speech vs Political Correctness](https://www.youtube.com/watch?v=P4nhjOuboKc) <Flag label="24:05" />
-- [Your Mind is an Excellent Servant, but a Terrible Master - David Foster Wallace](https://www.youtube.com/watch?v=OsAd4HGJS4o) <Flag label="23:28" /> – Live Recording of the Commencement Speech by _David Foster Wallace_
-- [The Trouble With Tumbleweed](https://www.youtube.com/watch?v=hsWr_JWTZss) <Flag label="6:41" />
-- [Death in Space](https://www.youtube.com/watch?v=2ESuxKRuEvo) <Flag label="0:40" /> – A short animation film showing a lot of ways to die in space.
-- [She tried minimalism for a week.](https://www.youtube.com/watch?v=kgMtMUDL51M) <Flag label="14:59" />
-- [Why is TURKMENISTAN the World’s most INSANE dictatorship?](https://www.youtube.com/watch?v=mk6wZSVntNM) <Flag label="17:00" />
-- [CHINA’s biggest problem? Not enough PEOPLE for the FUTURE](https://www.youtube.com/watch?v=y4qFVuXEe-8) <Flag label="13:21" />
-- [Introverts – What People Don’t Understand](https://www.youtube.com/watch?v=g-ixbvMlNig) <Flag label="7:29" />
-- [Walk Away From Money - Dave Chappelle](https://www.youtube.com/watch?v=3TU7dGpvFEo) <Flag label="5:23" />
-- [One Way to Effectively Manage Your Time](https://www.youtube.com/watch?v=sb9Si5ih3os) <Flag label="10:26" />
-- [How the comfort zone is ruining your life](https://www.youtube.com/watch?v=0h-IAlNjd4Q) <Flag label="8:50" />
-- [Ryan Holiday On His Everyday Carries: What He Doesn’t Leave The House Without](https://www.youtube.com/watch?v=oaXMijw241c) <Flag label="7:29" />
-- [8 Success Hacks That Will Level Up Your Life](https://www.youtube.com/watch?v=govmnjHxMUc) <Flag label="36:20" />
-- [Fleeing California](https://www.youtube.com/watch?v=6Svc7GLUqd4) <Flag label="13:44" />
-- [Joe Rogan Experience #1439 - Michael Osterholm](https://www.youtube.com/watch?v=E3URhJx0NSw) <Flag label="1:34:10" />
-- [The tale of the doctor who defied Death - Iseult Gillespie](https://www.youtube.com/watch?v=yJ9UtAmjs7Y) <Flag label="5:27" />
-- [Shining Your Light – The Philosophy of Doctor Sleep](https://www.youtube.com/watch?v=8Te5Gv9VOb8) <Flag label="16:14" />
-- [9 Principles I Learned from The Art of War](https://www.youtube.com/watch?v=gPZ_hEXbq9M) <Flag label="15:24" />
-- [Can you commit a CRIME in INTERNATIONAL WATERS?](https://www.youtube.com/watch?v=ivhWqp7O39c) <Flag label="14:11" />
-- [15 Lazygit Features In Under 15 Minutes](https://www.youtube.com/watch?v=CPLdltN7wgE) <Flag label="12:11" />
-- [The Lockdown of Wuhan (BBC Our World)](https://www.youtube.com/watch?v=hGWlE4uiPJw) <Flag label="22:49" />
-- [Why COVID-19 is hitting us now – and how to prepare for the next outbreak | Alanna Shaikh](https://www.youtube.com/watch?v=JGTtGCq9grE) <Flag label="16:19" />
-- [The Worst Pandemics in History – What Do They Teach Us?](https://www.youtube.com/watch?v=_uL0ZgV6POc) <Flag label="7:39" />
-- [What This Chart Actually Means for COVID-19](https://www.youtube.com/watch?v=fgBla7RepXU) <Flag label="8:20" />
-- [How to deal with uncertainty](https://www.youtube.com/watch?v=jvDDPpxa-Vk) <Flag label="8:03" />
-- [The Obstacle Is The Way: How Stoics Turn Tragedy To Triumph](https://www.youtube.com/watch?v=y1lHP1Pf-xk) <Flag label="10:20" />
-- [SOUTH KOREA: how to FIGHT against CORONAVIRUS without CRIPPLING the COUNTRY](https://www.youtube.com/watch?v=BS0qoRyapUI) <Flag label="17:32" />
-- [iPad Pro – How to correctly use a computer – Apple](https://www.youtube.com/watch?v=w0P0FQ770dE) <Flag label="1:40" />
-- [The Best Way to Face Difficult Times](https://www.youtube.com/watch?v=dTfyrfnwouE) <Flag label="6:42" />
-- [The Stoic Response To The Coronavirus Pandemic](https://www.youtube.com/watch?v=5WRd85r5VDE) <Flag label="3:59" />
-- [Walk the streets of Wuhan at the height of the coronavirus pandemic](https://www.youtube.com/watch?v=hgRaxU8EohE) <Flag label="3:46" />
-- [The American Town Ceded to Mexico in 1970](https://www.youtube.com/watch?v=okljAsg5Dy4) <Flag label="6:29" />
-- [WHICH are the MOST CORRUPT countries in the WORLD? – VisualPolitik EN](https://www.youtube.com/watch?v=GMpiUZ-KAqs) <Flag label="6:29" />
-- [Introduction to Stoicism](https://www.youtube.com/watch?v=KkZu-iwGZek) <Flag label="22:21" />
-- [2017 Personality 13: Existentialism via Solzhenitsyn and the Gulag](https://www.youtube.com/watch?v=w84uRYq0Uc8) <Flag label="1:41:03" />
-- [Jonathan Pie: LOCKDOWN](https://www.youtube.com/watch?v=AnZ_5cm5eXA) <Flag label="7:10" />
-- [COVID-19: How Aviation is Fighting for Survival](https://www.youtube.com/watch?v=VX2e2iEg_pM) <Flag label="10:54" />
-- [Why Big Companies Make Bad Products – Steve Jobs](https://www.youtube.com/watch?v=p6PgHFS48gY) <Flag label="7:28" />
-- [The Number One Book Every Man Must Read](https://www.youtube.com/watch?v=rJ8IaZ4MXWo) <Flag label="10:01" />
-- [I learned how to lucid dream.](https://www.youtube.com/watch?v=B8yJeNa-bPU) <Flag label="14:12" />
-- [Why isn’t the Netherlands underwater? – Stefan Al](https://www.youtube.com/watch?v=25LW_PG2ZuI) <Flag label="5:23" />
-- [Top 10 Work from Home Productivity Tips (and How to Not Go Crazy!)](https://www.youtube.com/watch?v=PLBYYdg0sfs) <Flag label="18:21" />
-- [Responding to a Pandemic: The Myth of Sisyphus](https://www.youtube.com/watch?v=c2_t3M_vSsg) <Flag label="12:52" />
-- [Why Soap Is Still Our Best Weapon Against Coronavirus](https://www.youtube.com/watch?v=ls8P68lqwWQ) <Flag label="13:54" />
+- [The Revenant – An Odyssey Through America’s Purgatory](https://youtu.be/T7BNzk2oJA0) <Flag label="13:59" />
+- [Revealing Titania McGrath & UK Thoughtcrime Enforcement, Andrew Doyle](https://youtu.be/tJlbkCcKnHw) <Flag label="1:01:14" />
+- [How Knives Out Switches Genres (Twice)](https://youtu.be/AfF7-vJJBNY) <Flag label="7:31" />
+- [Revenge in Korean Thrillers](https://youtu.be/i0kMVeVZRws) <Flag label="15:17" />
+- [Free Speech vs Political Correctness](https://youtu.be/P4nhjOuboKc) <Flag label="24:05" />
+- [Your Mind is an Excellent Servant, but a Terrible Master - David Foster Wallace](https://youtu.be/OsAd4HGJS4o) <Flag label="23:28" /> – Live Recording of the Commencement Speech by _David Foster Wallace_
+- [The Trouble With Tumbleweed](https://youtu.be/hsWr_JWTZss) <Flag label="6:41" />
+- [Death in Space](https://youtu.be/2ESuxKRuEvo) <Flag label="0:40" /> – A short animation film showing a lot of ways to die in space.
+- [She tried minimalism for a week.](https://youtu.be/kgMtMUDL51M) <Flag label="14:59" />
+- [Why is TURKMENISTAN the World’s most INSANE dictatorship?](https://youtu.be/mk6wZSVntNM) <Flag label="17:00" />
+- [CHINA’s biggest problem? Not enough PEOPLE for the FUTURE](https://youtu.be/y4qFVuXEe-8) <Flag label="13:21" />
+- [Introverts – What People Don’t Understand](https://youtu.be/g-ixbvMlNig) <Flag label="7:29" />
+- [Walk Away From Money - Dave Chappelle](https://youtu.be/3TU7dGpvFEo) <Flag label="5:23" />
+- [One Way to Effectively Manage Your Time](https://youtu.be/sb9Si5ih3os) <Flag label="10:26" />
+- [How the comfort zone is ruining your life](https://youtu.be/0h-IAlNjd4Q) <Flag label="8:50" />
+- [Ryan Holiday On His Everyday Carries: What He Doesn’t Leave The House Without](https://youtu.be/oaXMijw241c) <Flag label="7:29" />
+- [8 Success Hacks That Will Level Up Your Life](https://youtu.be/govmnjHxMUc) <Flag label="36:20" />
+- [Fleeing California](https://youtu.be/6Svc7GLUqd4) <Flag label="13:44" />
+- [Joe Rogan Experience #1439 - Michael Osterholm](https://youtu.be/E3URhJx0NSw) <Flag label="1:34:10" />
+- [The tale of the doctor who defied Death - Iseult Gillespie](https://youtu.be/yJ9UtAmjs7Y) <Flag label="5:27" />
+- [Shining Your Light – The Philosophy of Doctor Sleep](https://youtu.be/8Te5Gv9VOb8) <Flag label="16:14" />
+- [9 Principles I Learned from The Art of War](https://youtu.be/gPZ_hEXbq9M) <Flag label="15:24" />
+- [Can you commit a CRIME in INTERNATIONAL WATERS?](https://youtu.be/ivhWqp7O39c) <Flag label="14:11" />
+- [15 Lazygit Features In Under 15 Minutes](https://youtu.be/CPLdltN7wgE) <Flag label="12:11" />
+- [The Lockdown of Wuhan (BBC Our World)](https://youtu.be/hGWlE4uiPJw) <Flag label="22:49" />
+- [Why COVID-19 is hitting us now – and how to prepare for the next outbreak | Alanna Shaikh](https://youtu.be/JGTtGCq9grE) <Flag label="16:19" />
+- [The Worst Pandemics in History – What Do They Teach Us?](https://youtu.be/_uL0ZgV6POc) <Flag label="7:39" />
+- [What This Chart Actually Means for COVID-19](https://youtu.be/fgBla7RepXU) <Flag label="8:20" />
+- [How to deal with uncertainty](https://youtu.be/jvDDPpxa-Vk) <Flag label="8:03" />
+- [The Obstacle Is The Way: How Stoics Turn Tragedy To Triumph](https://youtu.be/y1lHP1Pf-xk) <Flag label="10:20" />
+- [SOUTH KOREA: how to FIGHT against CORONAVIRUS without CRIPPLING the COUNTRY](https://youtu.be/BS0qoRyapUI) <Flag label="17:32" />
+- [iPad Pro – How to correctly use a computer – Apple](https://youtu.be/w0P0FQ770dE) <Flag label="1:40" />
+- [The Best Way to Face Difficult Times](https://youtu.be/dTfyrfnwouE) <Flag label="6:42" />
+- [The Stoic Response To The Coronavirus Pandemic](https://youtu.be/5WRd85r5VDE) <Flag label="3:59" />
+- [Walk the streets of Wuhan at the height of the coronavirus pandemic](https://youtu.be/hgRaxU8EohE) <Flag label="3:46" />
+- [The American Town Ceded to Mexico in 1970](https://youtu.be/okljAsg5Dy4) <Flag label="6:29" />
+- [WHICH are the MOST CORRUPT countries in the WORLD? – VisualPolitik EN](https://youtu.be/GMpiUZ-KAqs) <Flag label="6:29" />
+- [Introduction to Stoicism](https://youtu.be/KkZu-iwGZek) <Flag label="22:21" />
+- [2017 Personality 13: Existentialism via Solzhenitsyn and the Gulag](https://youtu.be/w84uRYq0Uc8) <Flag label="1:41:03" />
+- [Jonathan Pie: LOCKDOWN](https://youtu.be/AnZ_5cm5eXA) <Flag label="7:10" />
+- [COVID-19: How Aviation is Fighting for Survival](https://youtu.be/VX2e2iEg_pM) <Flag label="10:54" />
+- [Why Big Companies Make Bad Products – Steve Jobs](https://youtu.be/p6PgHFS48gY) <Flag label="7:28" />
+- [The Number One Book Every Man Must Read](https://youtu.be/rJ8IaZ4MXWo) <Flag label="10:01" />
+- [I learned how to lucid dream.](https://youtu.be/B8yJeNa-bPU) <Flag label="14:12" />
+- [Why isn’t the Netherlands underwater? – Stefan Al](https://youtu.be/25LW_PG2ZuI) <Flag label="5:23" />
+- [Top 10 Work from Home Productivity Tips (and How to Not Go Crazy!)](https://youtu.be/PLBYYdg0sfs) <Flag label="18:21" />
+- [Responding to a Pandemic: The Myth of Sisyphus](https://youtu.be/c2_t3M_vSsg) <Flag label="12:52" />
+- [Why Soap Is Still Our Best Weapon Against Coronavirus](https://youtu.be/ls8P68lqwWQ) <Flag label="13:54" />
 - ATMUS – Corona [Sampled from Go Corona & Bhag Ja Corona]<Flag label="1:54" />
-- [Are you distracted at work? Don’t blame technology.](https://www.youtube.com/watch?v=EosCR4Z70F4) <Flag label="3:37" />
-  [- Why Do Lymph Nodes Swell Up When You’re Sick?](https://www.youtube.com/watch?v=cN0cTTRuFDk) <Flag label="8:45" />
-- [The Benefits of Social Isolation](https://www.youtube.com/watch?v=nxQe9bPDW5E) <Flag label="10:03" />
-- [San Francisco Shut Down: COVID-19 Quarantine](https://www.youtube.com/watch?v=uWYdU5weIxc) <Flag label="3:34" />
-- [How Marcus Aurelius Responded To A Pandemic](https://www.youtube.com/watch?v=Em_qw-r6CMg) <Flag label="6:42" />
-- [Joe Rogan Experience #1446 – Bert Kreischer](https://www.youtube.com/watch?v=Q0V6KIZiXco) <Flag label="3:21:26" />
-- [Galactic Colonization](https://www.youtube.com/watch?v=c7OeeGcMFMc) <Flag label="23:34" />
-- [Why we Watch Comfort Movies](https://www.youtube.com/watch?v=-cMNRomN6XQ) <Flag label="8:41" />
-- [REMOTE Livestream Q&A with Jason Fried and David Heinemeier Hansson](https://www.youtube.com/watch?v=KPKOVT4vZD4) <Flag label="2:04:12" /> – Inspiring Q&A with tips about Remote work.
-- [Going Remote: Basecamp Walkthrough Livestream with Jason Fried and David Heinemeier Hansson](https://www.youtube.com/watch?v=CFzvA1dEvd8) <Flag label="1:46:20" /> – A walkthrough _Basecamp_.
-- [The Candace Owens Show: Jocko Willink](https://www.youtube.com/watch?v=N4IrIq2O3RQ) <Flag label="51:06" />
-- [The Turkish Century | From Hittites to Atatürk](https://www.youtube.com/watch?v=XgjiJHV8P0w) <Flag label="1:46:43" />
+- [Are you distracted at work? Don’t blame technology.](https://youtu.be/EosCR4Z70F4) <Flag label="3:37" />
+  [- Why Do Lymph Nodes Swell Up When You’re Sick?](https://youtu.be/cN0cTTRuFDk) <Flag label="8:45" />
+- [The Benefits of Social Isolation](https://youtu.be/nxQe9bPDW5E) <Flag label="10:03" />
+- [San Francisco Shut Down: COVID-19 Quarantine](https://youtu.be/uWYdU5weIxc) <Flag label="3:34" />
+- [How Marcus Aurelius Responded To A Pandemic](https://youtu.be/Em_qw-r6CMg) <Flag label="6:42" />
+- [Joe Rogan Experience #1446 – Bert Kreischer](https://youtu.be/Q0V6KIZiXco) <Flag label="3:21:26" />
+- [Galactic Colonization](https://youtu.be/c7OeeGcMFMc) <Flag label="23:34" />
+- [Why we Watch Comfort Movies](https://youtu.be/-cMNRomN6XQ) <Flag label="8:41" />
+- [REMOTE Livestream Q&A with Jason Fried and David Heinemeier Hansson](https://youtu.be/KPKOVT4vZD4) <Flag label="2:04:12" /> – Inspiring Q&A with tips about Remote work.
+- [Going Remote: Basecamp Walkthrough Livestream with Jason Fried and David Heinemeier Hansson](https://youtu.be/CFzvA1dEvd8) <Flag label="1:46:20" /> – A walkthrough _Basecamp_.
+- [The Candace Owens Show: Jocko Willink](https://youtu.be/N4IrIq2O3RQ) <Flag label="51:06" />
+- [The Turkish Century | From Hittites to Atatürk](https://youtu.be/XgjiJHV8P0w) <Flag label="1:46:43" />
 
 ## TV Shows
 

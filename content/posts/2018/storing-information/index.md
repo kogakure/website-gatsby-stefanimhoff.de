@@ -24,7 +24,7 @@ We live in the age of never-ending information. How should anyone possibly remem
 
 People have different ways of handling information. Some don’t care at all and remember nothing, note nothing down. Read it, forget it.
 
-But I’m not one of these people, my brain functions too well, so I’ll remember that I read, saw or heard information on a specific topic, but I just don’t remember where. This frustrates me the most … the annoying feeling, when you remember you saw this video [explaining how to remember everything you learn](https://www.youtube.com/watch?v=V-UvSKe8jW4), but you can’t remember where you saw it (how _ironic_), or who created it. You could try to find it again by searching on Google, YouTube, or wherever you think you saw it.
+But I’m not one of these people, my brain functions too well, so I’ll remember that I read, saw or heard information on a specific topic, but I just don’t remember where. This frustrates me the most … the annoying feeling, when you remember you saw this video [explaining how to remember everything you learn](https://youtu.be/V-UvSKe8jW4), but you can’t remember where you saw it (how _ironic_), or who created it. You could try to find it again by searching on Google, YouTube, or wherever you think you saw it.
 
 But this will not work in all cases. And the Internet is a transient, floating world. Everything will disappear, sooner or later.
 

@@ -11,7 +11,7 @@ categories:
 
 ## Stunning Documentary About Our Earth
 
-On June 5, 2009, Yann Arthus-Bertrand’s documentary film [HOME](https://www.youtube.com/watch?v=jqxENMKaeCU) started simultaneously and free of charge in all countries and all manner of media: on the Internet, on television and cinemas, where the film was even made available to the cinemas for free. In addition, the film is already available on DVD, and part of the sale price will be donated to the organization _Good Planet_.
+On June 5, 2009, Yann Arthus-Bertrand’s documentary film [HOME](https://youtu.be/jqxENMKaeCU) started simultaneously and free of charge in all countries and all manner of media: on the Internet, on television and cinemas, where the film was even made available to the cinemas for free. In addition, the film is already available on DVD, and part of the sale price will be donated to the organization _Good Planet_.
 
 With a budget of approximately USD 10-15 million, sponsored by [EuropaCorp](http://www.europacorp.com/) and PPR, the director wanted to create a moving film about our planet, in which he consistently succeeded.
 
@@ -33,4 +33,4 @@ The film is designed to get viewers to write about it, make their governments tu
 
 The film provides hard facts and frightening images that will scare even educated and well-informed people, and at times I felt like I was in Matrix, after Neo took the red pill. But there are also images of stunning beauty, which give reason to preserve our earth.
 
-You can watch the movie in HD on [YouTube](https://www.youtube.com/watch?v=jqxENMKaeCU).
+You can watch the movie in HD on [YouTube](https://youtu.be/jqxENMKaeCU).

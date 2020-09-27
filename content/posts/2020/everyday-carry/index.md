@@ -15,7 +15,7 @@ categories:
 
 ## Some Stuff I Carry Around Every Day
 
-A few days ago _Ryan Holiday_ posted the article “[Here’s Some Stuff Worth Carrying With You Everywhere](https://ryanholiday.net/heres-some-stuff-worth-carrying-with-you-everywhere/)” with an accompanying [video](https://www.youtube.com/watch?v=oaXMijw241c) on his blog.
+A few days ago _Ryan Holiday_ posted the article “[Here’s Some Stuff Worth Carrying With You Everywhere](https://ryanholiday.net/heres-some-stuff-worth-carrying-with-you-everywhere/)” with an accompanying [video](https://youtu.be/oaXMijw241c) on his blog.
 
 Ever since I read the article “[Meet the men obsessed with carrying all the right stuff](https://www.vox.com/the-goods/2019/7/24/20696487/everyday-carry-reddit-knife-wallet-gun)” on Vox, I had the plan to write a similar article, but never had the time to do it.
 
@@ -88,6 +88,6 @@ That’s it, feel free to share your **Everyday Carries** in a blog post or phot
 ## Recommended Links
 
 - [Here’s Some Stuff Worth Carrying With You Everywhere](https://ryanholiday.net/heres-some-stuff-worth-carrying-with-you-everywhere/)
-- [Ryan Holiday On His Everyday Carries: What He Doesn’t Leave The House Without | Daily Stoic](https://www.youtube.com/watch?v=oaXMijw241c)
+- [Ryan Holiday On His Everyday Carries: What He Doesn’t Leave The House Without | Daily Stoic](https://youtu.be/oaXMijw241c)
 - [Meet the men obsessed with carrying all the right stuff](https://www.vox.com/the-goods/2019/7/24/20696487/everyday-carry-reddit-knife-wallet-gun)
 - [Every Man Should Carry a Pocket Knife](https://www.artofmanliness.com/articles/every-man-should-carry-a-pocket-knife/)

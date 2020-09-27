@@ -16,7 +16,7 @@ Last week I found an inspirational film on YouTube, focusing on motivation. It�
 
 ![Why Do We Fall? – Motivational Video](/assets/images/articles/2015/motivational-video/motivational-video.jpg)
 
-The film _[Why Do We Fall? – Motivational Video](https://www.youtube.com/watch?v=mgmVOuLgFB0)_ by _Mateusz M_ is quite successful and was watched until now over **30 million** times.
+The film _[Why Do We Fall? – Motivational Video](https://youtu.be/mgmVOuLgFB0)_ by _Mateusz M_ is quite successful and was watched until now over **30 million** times.
 
 The one thing though, which I didn’t like was how the sources where quoted. Just a plain comma-separated list of people and music out of context, missing where the quote was from or who said it foremost. This post has the aim to fix this.
 

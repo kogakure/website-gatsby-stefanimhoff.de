@@ -216,7 +216,7 @@ But after finishing the logo I decided in the interest of simplicity and austeri
 
 ## Grid
 
-Early on I got obsessed with the [Golden Canon Grid](https://www.youtube.com/watch?v=fWfD0EfiXcE) and my early designs used a complicated and sophisticated version of it.
+Early on I got obsessed with the [Golden Canon Grid](https://youtu.be/fWfD0EfiXcE) and my early designs used a complicated and sophisticated version of it.
 
 ![Golden Canon Grid](golden-canon-grid.png)
 
@@ -250,7 +250,7 @@ I decided to use [Aaron James Draplins](http://www.draplin.com/) method of desig
   <AmazonBook asin="1419720171" size="large" />
 </Row>
 
-As he shows in the fantastic free video [Aaron Draplin Takes On a Logo Design Challenge](https://www.youtube.com/watch?v=zOPA0NaeTBk), he starts in the middle with an idea and then duplicates the whole version and iterates on it. If he reaches a dead end he moves back to the last junction and moves from there to another direction. In the end, he has one huge board with dozens of variants and ideas, none of them worked into good craftsmanship or details, but keeps everything loose and ungrouped to be able to manipulate the individual pieces.
+As he shows in the fantastic free video [Aaron Draplin Takes On a Logo Design Challenge](https://youtu.be/zOPA0NaeTBk), he starts in the middle with an idea and then duplicates the whole version and iterates on it. If he reaches a dead end he moves back to the last junction and moves from there to another direction. In the end, he has one huge board with dozens of variants and ideas, none of them worked into good craftsmanship or details, but keeps everything loose and ungrouped to be able to manipulate the individual pieces.
 
 I followed this technique on all my designs and created dozens of variations, sometimes whole pages, sometimes a small detail as the footer or a meta section.
 
@@ -258,7 +258,7 @@ I followed this technique on all my designs and created dozens of variations, so
 
 ![Variants of the Meta section](meta-section.png "Meta Section")
 
-Designing was the part that made the most fun to me. Designing is like a concert: It starts with a cello, but then more and more instruments get added until the whole [concert ends in a huge crescendo](https://www.youtube.com/watch?v=XpT-92HS11I). The start is always the hardest with the designer staring at a blank white screen. But then things fall into the place and ideas multiply and in the end, everything seems obvious and the next screen is easy to create.
+Designing was the part that made the most fun to me. Designing is like a concert: It starts with a cello, but then more and more instruments get added until the whole [concert ends in a huge crescendo](https://youtu.be/XpT-92HS11I). The start is always the hardest with the designer staring at a blank white screen. But then things fall into the place and ideas multiply and in the end, everything seems obvious and the next screen is easy to create.
 
 I started designing the blog detail page headline and moved out from there, creating text, header, footer, and small details.
 

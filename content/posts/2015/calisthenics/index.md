@@ -53,9 +53,9 @@ And yes, everybody can learn Pull-Ups. Women, too! Just have a look at [Cornelia
 [body weight training area]: https://bodyweighttrainingarena.com/
 [progression guides]: https://bodyweighttrainingarena.com/progressive-calisthenics/
 [a complete list of calisthenics exercises]: https://www.calisthenics-101.co.uk/blogs/a-complete-list-of-calisthenics-exercises
-[cornelia rizkes workout with some girls]: https://www.youtube.com/watch?v=FfClYaCzx5U
+[cornelia rizkes workout with some girls]: https://youtu.be/FfClYaCzx5U
 [madeleine leaner]: https://www.youtube.com/user/MaddeLisk
-[human flags, muscle-ups or lever]: https://www.youtube.com/watch?v=-ag2gAcbp9M
+[human flags, muscle-ups or lever]: https://youtu.be/-ag2gAcbp9M
 
 ## Building a New Habit
 
@@ -86,7 +86,7 @@ Calisthenics is far more popular in other countries, like Russia or the United S
 
 But with creativity, you’ll always find a solution. If prisoners can train Calisthenics in their small cells, you should find ways to train without a perfect training course. You can pull up to branches of trees or fences, dip on handrails, or bicycle stands. I, for example, found a playground nearby with decent bars. Not high enough to hang with my legs stretched, but I can train. Additionally, I bought a <AffiliateLink asin="B00EZ24BC2">Doorway Pull-Up Bar</AffiliateLink> and <AffiliateLink asin="B0088I92VY">Dip Bars</AffiliateLink>, because I got tired of using two chairs for Dips.
 
-[street workout video from ukraine]: https://www.youtube.com/watch?v=bvLQZVnz5WM
+[street workout video from ukraine]: https://youtu.be/bvLQZVnz5WM
 
 ## Build Muscle, Endurance, and Strength
 
@@ -102,7 +102,7 @@ Other good channels to follow are [Strength Project], [OfficialBarstarzz], [Bren
 
 So, and now get started with Body Weight Training.
 
-[frank medrano]: https://www.youtube.com/watch?v=mvJHw64fxgQ
+[frank medrano]: https://youtu.be/mvJHw64fxgQ
 [strength project]: https://www.youtube.com/user/strengthproject
 [officialbarstarzz]: https://www.youtube.com/user/OfficialBarstarzz
 [brendan meyers]: https://www.youtube.com/user/leftyjrpro

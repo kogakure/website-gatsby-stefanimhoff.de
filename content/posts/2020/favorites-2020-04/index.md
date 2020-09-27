@@ -26,67 +26,67 @@ Stat sua cuique dies (To each his day is given)
 
 ## Videos
 
-- [Working from Home: How to Set Up Your Workspace](https://www.youtube.com/watch?v=tMTxikrSe8g) <Flag label="14:21" />
-- [How to Use Writing to Sharpen Your Thinking](https://www.youtube.com/watch?v=65U5byDZ55M) <Flag label="6:08" /> – Tim Ferriss on how writing can sharpen and improve your thinking.
-- [Fear of GERMS – George Carlin](https://www.youtube.com/watch?v=l_L6AS1Huno) <Flag label="6:05" /> – Illustrated talk of one of George Carlins standup comedies
-- [My New Morning Routine](https://www.youtube.com/watch?v=5-IggORYVT0) <Flag label="9:06" />
-- [Parasite: Perfecting Class Critique](https://www.youtube.com/watch?v=oDz2dbXivDU) <Flag label="16:03" />
-- [Some Good News with John Krasinski](https://www.youtube.com/watch?v=F5pgG1M_h_U) <Flag label="15:43" />
-- [Let’s Learn CSS Grid! (with Rachel Andrew)](https://www.youtube.com/watch?v=g1osnSY9mSU) <Flag label="1:17:18" />
-- [How a Fitness App Revealed Secret Military Bases](https://www.youtube.com/watch?v=QqEuO5im1nA) <Flag label="5:17" />
-- [How to Feel Free in Quarantine](https://www.youtube.com/watch?v=eEIFno-G_bo) <Flag label="8:05" />
-- [Alive Time or Dead Time: You Choose If This Time Is Productive Or Not](https://www.youtube.com/watch?v=IaKT9Ph8ChU) <Flag label="5:08" />
-- [Joe Rogan Experience #1453 – Eric Weinstein](https://www.youtube.com/watch?v=wf0_nMaQ6tA) <Flag label="3:02:05" />
-- [Ashley Mathews (Riley Reid) on The Portal, Ep. #021 – The Mogul & Brains Behind America’s Sweetheart](https://www.youtube.com/watch?v=uHNBCVGH34c) <Flag label="1:51:12" />
-- [4 Strategies For Achieving Calm In Troubled Times](https://www.youtube.com/watch?v=hOL2dG7lBtw) <Flag label="15:46" />
-- [“Let Them Scream Whatever They Want” | Marcus Aurelius on Panic](https://www.youtube.com/watch?v=Tkaheggogm0) <Flag label="7:15" />
-- [How the Monkey King escaped the underworld – Shunan Teng](https://www.youtube.com/watch?v=Xs-9vfWDJfU) <Flag label="4:57" /> – Animated short film about the Monkey King tale.
-- [Increase Productivity With These Email Hacks](https://www.youtube.com/watch?v=-624UM7g4cE) <Flag label="9:06" />
-- [Russians vs Saudis: Coronavirus and the new Oil War](https://www.youtube.com/watch?v=DebpajQGRV0) <Flag label="16:23" />
-- [How to Make a DIY No-Sew Face Mask](https://www.youtube.com/watch?v=Mgp7DSGN33k) <Flag label="1:19" />
-- [Microservices](https://www.youtube.com/watch?v=y8OnoxKotPQ) <Flag label="3:08" /> – Funny, because true, but probably not for product owners.
-- [The Hustle](https://www.youtube.com/watch?v=_o7qjN3KF8U) <Flag label="1:58" /> – Another funny video of the same channel. Also true.
-- [Designer’s Table](https://www.youtube.com/watch?v=WqjUlmkYr2g) <Flag label="4:51" /> – And another one, this channel is good.
-- [Jason Fried, Why 40 Hours is Enough: Lessons from Basecamp](https://www.youtube.com/watch?v=r_cc-JrTe38) <Flag label="17:15" />
-- [How we work at Basecamp](https://www.youtube.com/watch?v=ATpJBeuknaQ) <Flag label="30:36" />
-- [How to Remember What You Read / How I Digest Books](https://www.youtube.com/watch?v=YQOrqAKKcUQ) <Flag label="21:10" /> – Tim Ferriss about how to properly digest books.
-- [The Beauty Of Journey](https://www.youtube.com/watch?v=WxAQjEC-mXc) <Flag label="4:34" />
-- [Journey – Story Explanation and Analysis](https://www.youtube.com/watch?v=8DsK3eTrMGM) <Flag label="13:25" /> – A religious and philosophical analysis of the game “Journey”.
-- [Journey – The Artistry of Game Design](https://www.youtube.com/watch?v=RJyGpVmkewU) <Flag label="9:33" /> – A deeper insight into the meaning and ideas behind the game “Journey”.
-- [The Story Hidden in Journey’s Soundtrack](https://www.youtube.com/watch?v=KeKnkaB0MBE) <Flag label="12:40" /> – The score and instruments in the game “Journey” explained.
-- [The Conspiracy Theory that the Middle Ages Never Happened](https://www.youtube.com/watch?v=d0Fbcc8uWEc) <Flag label="6:38" />
-- [Ryan Holiday — How to Use Stoicism to Choose Alive Time Over Dead Time](https://www.youtube.com/watch?v=7Iknv6rt9uk) <Flag label="1:05:26" />
-- [Aztec Perspective on First Contact with Europeans, Florentine Codex, 16th cent.](https://www.youtube.com/watch?v=9fKn9Dkq04w) <Flag label="22:08" />
-- [How Pandemics Change Society](https://www.youtube.com/watch?v=2Rr9b-HMSS4) <Flag label="15:05" />
-- [5 things that help me avoid procrastination](https://www.youtube.com/watch?v=cRpQOXV2cFg) <Flag label="9:39" />
-- [What a Zoom Call With Old People Is Like](https://www.youtube.com/watch?v=JY4vFj_fGWg) <Flag label="3:51" />
-- [Explaining the Pandemic to my Past Self](https://www.youtube.com/watch?v=Ms7capx4Cb8) <Flag label="3:00" />
-- [How I made a basketball hoop that always goes in](https://www.youtube.com/watch?v=vtN4tkvcBMA) <Flag label="22:06" />
-- [FLOW - A Meditative Experience](https://www.youtube.com/watch?v=pQwmLEiL3LE) <Flag label="1:30:32" /> – A meditative feature film in 4K by DUST designed to send you into a state of relaxation.
-- [How I Take Notes and Journal | Brainstorming + Focusing + Reducing Anxiety](https://www.youtube.com/watch?v=UFdR8w_R1HA) <Flag label="19:01" /> – Tim Ferriss explains his journaling methods.
-- [2017 Personality 16: Biology/Traits: Incentive Reward/Neuroticism](https://www.youtube.com/watch?v=ewU7Vb9ToXg) <Flag label="1:13:37" /> – Jordan B Peterson discusses the relationship between subcortical brain processes and the big five personality traits.
-- [New Rule: Panic Porn](https://www.youtube.com/watch?v=UcvIQJ-QurQ) <Flag label="5:31" /> – Bill Maher calls on the news media to calm down and give a proper perspective.
-- [The white lie we’ve been told about Roman statues](https://www.youtube.com/watch?v=4jmMWohs1XM) <Flag label="5:42" />
-- [Real Samurai Explains Rules for Peace and War, 17th cent. Scrolls of Natori-Ryu](https://www.youtube.com/watch?v=ftSObsSNeBw) <Flag label="19:47" />
+- [Working from Home: How to Set Up Your Workspace](https://youtu.be/tMTxikrSe8g) <Flag label="14:21" />
+- [How to Use Writing to Sharpen Your Thinking](https://youtu.be/65U5byDZ55M) <Flag label="6:08" /> – Tim Ferriss on how writing can sharpen and improve your thinking.
+- [Fear of GERMS – George Carlin](https://youtu.be/l_L6AS1Huno) <Flag label="6:05" /> – Illustrated talk of one of George Carlins standup comedies
+- [My New Morning Routine](https://youtu.be/5-IggORYVT0) <Flag label="9:06" />
+- [Parasite: Perfecting Class Critique](https://youtu.be/oDz2dbXivDU) <Flag label="16:03" />
+- [Some Good News with John Krasinski](https://youtu.be/F5pgG1M_h_U) <Flag label="15:43" />
+- [Let’s Learn CSS Grid! (with Rachel Andrew)](https://youtu.be/g1osnSY9mSU) <Flag label="1:17:18" />
+- [How a Fitness App Revealed Secret Military Bases](https://youtu.be/QqEuO5im1nA) <Flag label="5:17" />
+- [How to Feel Free in Quarantine](https://youtu.be/eEIFno-G_bo) <Flag label="8:05" />
+- [Alive Time or Dead Time: You Choose If This Time Is Productive Or Not](https://youtu.be/IaKT9Ph8ChU) <Flag label="5:08" />
+- [Joe Rogan Experience #1453 – Eric Weinstein](https://youtu.be/wf0_nMaQ6tA) <Flag label="3:02:05" />
+- [Ashley Mathews (Riley Reid) on The Portal, Ep. #021 – The Mogul & Brains Behind America’s Sweetheart](https://youtu.be/uHNBCVGH34c) <Flag label="1:51:12" />
+- [4 Strategies For Achieving Calm In Troubled Times](https://youtu.be/hOL2dG7lBtw) <Flag label="15:46" />
+- [“Let Them Scream Whatever They Want” | Marcus Aurelius on Panic](https://youtu.be/Tkaheggogm0) <Flag label="7:15" />
+- [How the Monkey King escaped the underworld – Shunan Teng](https://youtu.be/Xs-9vfWDJfU) <Flag label="4:57" /> – Animated short film about the Monkey King tale.
+- [Increase Productivity With These Email Hacks](https://youtu.be/-624UM7g4cE) <Flag label="9:06" />
+- [Russians vs Saudis: Coronavirus and the new Oil War](https://youtu.be/DebpajQGRV0) <Flag label="16:23" />
+- [How to Make a DIY No-Sew Face Mask](https://youtu.be/Mgp7DSGN33k) <Flag label="1:19" />
+- [Microservices](https://youtu.be/y8OnoxKotPQ) <Flag label="3:08" /> – Funny, because true, but probably not for product owners.
+- [The Hustle](https://youtu.be/_o7qjN3KF8U) <Flag label="1:58" /> – Another funny video of the same channel. Also true.
+- [Designer’s Table](https://youtu.be/WqjUlmkYr2g) <Flag label="4:51" /> – And another one, this channel is good.
+- [Jason Fried, Why 40 Hours is Enough: Lessons from Basecamp](https://youtu.be/r_cc-JrTe38) <Flag label="17:15" />
+- [How we work at Basecamp](https://youtu.be/ATpJBeuknaQ) <Flag label="30:36" />
+- [How to Remember What You Read / How I Digest Books](https://youtu.be/YQOrqAKKcUQ) <Flag label="21:10" /> – Tim Ferriss about how to properly digest books.
+- [The Beauty Of Journey](https://youtu.be/WxAQjEC-mXc) <Flag label="4:34" />
+- [Journey – Story Explanation and Analysis](https://youtu.be/8DsK3eTrMGM) <Flag label="13:25" /> – A religious and philosophical analysis of the game “Journey”.
+- [Journey – The Artistry of Game Design](https://youtu.be/RJyGpVmkewU) <Flag label="9:33" /> – A deeper insight into the meaning and ideas behind the game “Journey”.
+- [The Story Hidden in Journey’s Soundtrack](https://youtu.be/KeKnkaB0MBE) <Flag label="12:40" /> – The score and instruments in the game “Journey” explained.
+- [The Conspiracy Theory that the Middle Ages Never Happened](https://youtu.be/d0Fbcc8uWEc) <Flag label="6:38" />
+- [Ryan Holiday — How to Use Stoicism to Choose Alive Time Over Dead Time](https://youtu.be/7Iknv6rt9uk) <Flag label="1:05:26" />
+- [Aztec Perspective on First Contact with Europeans, Florentine Codex, 16th cent.](https://youtu.be/9fKn9Dkq04w) <Flag label="22:08" />
+- [How Pandemics Change Society](https://youtu.be/2Rr9b-HMSS4) <Flag label="15:05" />
+- [5 things that help me avoid procrastination](https://youtu.be/cRpQOXV2cFg) <Flag label="9:39" />
+- [What a Zoom Call With Old People Is Like](https://youtu.be/JY4vFj_fGWg) <Flag label="3:51" />
+- [Explaining the Pandemic to my Past Self](https://youtu.be/Ms7capx4Cb8) <Flag label="3:00" />
+- [How I made a basketball hoop that always goes in](https://youtu.be/vtN4tkvcBMA) <Flag label="22:06" />
+- [FLOW - A Meditative Experience](https://youtu.be/pQwmLEiL3LE) <Flag label="1:30:32" /> – A meditative feature film in 4K by DUST designed to send you into a state of relaxation.
+- [How I Take Notes and Journal | Brainstorming + Focusing + Reducing Anxiety](https://youtu.be/UFdR8w_R1HA) <Flag label="19:01" /> – Tim Ferriss explains his journaling methods.
+- [2017 Personality 16: Biology/Traits: Incentive Reward/Neuroticism](https://youtu.be/ewU7Vb9ToXg) <Flag label="1:13:37" /> – Jordan B Peterson discusses the relationship between subcortical brain processes and the big five personality traits.
+- [New Rule: Panic Porn](https://youtu.be/UcvIQJ-QurQ) <Flag label="5:31" /> – Bill Maher calls on the news media to calm down and give a proper perspective.
+- [The white lie we’ve been told about Roman statues](https://youtu.be/4jmMWohs1XM) <Flag label="5:42" />
+- [Real Samurai Explains Rules for Peace and War, 17th cent. Scrolls of Natori-Ryu](https://youtu.be/ftSObsSNeBw) <Flag label="19:47" />
 - [Design Systems Video Series | Master Product Design at Scale](https://www.invisionapp.com/design-system-manager/expert-advice)
-- [The Beauty Of Hero (Ying xiong)](https://www.youtube.com/watch?v=h7fXWeN_3Ro) <Flag label="4:23" />
-- [Work From Home Office Tour – Workspace + Desk Update 2020](https://www.youtube.com/watch?v=QVEp781Welg) <Flag label="7:57" />
-- [LOCKDOWN Episode 5](https://www.youtube.com/watch?v=pYpxi0AN07w) <Flag label="6:45" /> – Jonathan Pie in his 5th week of Lockdown
-- [The Liar Tweets Tonight](https://www.youtube.com/watch?v=TkU1ob_lHCw) <Flag label="2:36" /> – Funny song parody
-- [My Morning Workout Routine](https://www.youtube.com/watch?v=3PrCie6lvY8) <Flag label="9:50" />
-- [A Terrible Mistake: 1 Vacuum = 1 Free Flight](https://www.youtube.com/watch?v=f2g7TbQihsw) <Flag label="6:39" />
-- [How to Have a Terrible Day (Funny)](https://www.youtube.com/watch?v=2ZUeiLiAfWY) <Flag label="5:43" />
-- [The Rolling Stones perform “You Can’t Always Get What You Want”](https://www.youtube.com/watch?v=N7pZgQepXfA) <Flag label="5:37" />
-- [2017 Personality 17: Biology and Traits: Agreeableness](https://www.youtube.com/watch?v=G1eHJ9DdoEA) <Flag label="49:25" />
-- [The Ainu language - a short history, plus a note about last speakers and pandemics](https://www.youtube.com/watch?v=lnCXFSaBfN0) <Flag label="6:25" />
-- [The KonMari Fold | Basics](https://www.youtube.com/watch?v=IjkmqbJTLBM) <Flag label="4:09" /> – I do this since a year, and it’s fantastic!
-- [These Were The Habits Marcus Aurelius Practiced Every Day](https://www.youtube.com/watch?v=qbGPrO7rh3s) <Flag label="6:13" />
-- [Working From Home: How to Stay Focused](https://www.youtube.com/watch?v=AgIggrkBFcU) <Flag label="14:32" />
-- [Who Owns the Rain?](https://www.youtube.com/watch?v=PCuJJ6thps4) <Flag label="5:57" />
-- [The 10 Most Uplifting Movies of All Time](https://www.youtube.com/watch?v=-ds97yC24i0) <Flag label="18:26" />
-- [The Fundamental Difference Between Stories And Reality](https://www.youtube.com/watch?v=wuI-hEDhfCw) <Flag label="28:04" />
-- [The Ultimate Minimalist Meal Prep](https://www.youtube.com/watch?v=0nK1trRuq7c) <Flag label="9:27" />
-- [Why do we find Satisfying things so Satisfying? (Neuroscience and Pleasure)](https://www.youtube.com/watch?v=qr0JMv2uYxQ) <Flag label="18:16" />
+- [The Beauty Of Hero (Ying xiong)](https://youtu.be/h7fXWeN_3Ro) <Flag label="4:23" />
+- [Work From Home Office Tour – Workspace + Desk Update 2020](https://youtu.be/QVEp781Welg) <Flag label="7:57" />
+- [LOCKDOWN Episode 5](https://youtu.be/pYpxi0AN07w) <Flag label="6:45" /> – Jonathan Pie in his 5th week of Lockdown
+- [The Liar Tweets Tonight](https://youtu.be/TkU1ob_lHCw) <Flag label="2:36" /> – Funny song parody
+- [My Morning Workout Routine](https://youtu.be/3PrCie6lvY8) <Flag label="9:50" />
+- [A Terrible Mistake: 1 Vacuum = 1 Free Flight](https://youtu.be/f2g7TbQihsw) <Flag label="6:39" />
+- [How to Have a Terrible Day (Funny)](https://youtu.be/2ZUeiLiAfWY) <Flag label="5:43" />
+- [The Rolling Stones perform “You Can’t Always Get What You Want”](https://youtu.be/N7pZgQepXfA) <Flag label="5:37" />
+- [2017 Personality 17: Biology and Traits: Agreeableness](https://youtu.be/G1eHJ9DdoEA) <Flag label="49:25" />
+- [The Ainu language - a short history, plus a note about last speakers and pandemics](https://youtu.be/lnCXFSaBfN0) <Flag label="6:25" />
+- [The KonMari Fold | Basics](https://youtu.be/IjkmqbJTLBM) <Flag label="4:09" /> – I do this since a year, and it’s fantastic!
+- [These Were The Habits Marcus Aurelius Practiced Every Day](https://youtu.be/qbGPrO7rh3s) <Flag label="6:13" />
+- [Working From Home: How to Stay Focused](https://youtu.be/AgIggrkBFcU) <Flag label="14:32" />
+- [Who Owns the Rain?](https://youtu.be/PCuJJ6thps4) <Flag label="5:57" />
+- [The 10 Most Uplifting Movies of All Time](https://youtu.be/-ds97yC24i0) <Flag label="18:26" />
+- [The Fundamental Difference Between Stories And Reality](https://youtu.be/wuI-hEDhfCw) <Flag label="28:04" />
+- [The Ultimate Minimalist Meal Prep](https://youtu.be/0nK1trRuq7c) <Flag label="9:27" />
+- [Why do we find Satisfying things so Satisfying? (Neuroscience and Pleasure)](https://youtu.be/qr0JMv2uYxQ) <Flag label="18:16" />
 
 ## TV Shows
 

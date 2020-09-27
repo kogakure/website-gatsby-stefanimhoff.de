@@ -13,7 +13,7 @@ categories:
 
 From time to time – but not very often – a TV Show gets released, which surprises me. This happened last time in 2007 with _Pushing Daisies_, where I loved everything: the story, the actors, the sets, every dialog. And now it happened again. I have a new favorite TV Show: [Underwear](http://www.imdb.com/title/tt4790548/) (_Underwear_).
 
-**Underwear** (<span lang="ja">アンダーウェア</span>) or Atelier, is a mini-television series produced by **Netflix** and **Fuji TV**. You can add it to your watchlist on Netflix [here](https://www.netflix.com/title/80067618) or [watch a Trailer on YouTube](https://www.youtube.com/watch?v=CSnj2J6aVmI).
+**Underwear** (<span lang="ja">アンダーウェア</span>) or Atelier, is a mini-television series produced by **Netflix** and **Fuji TV**. You can add it to your watchlist on Netflix [here](https://www.netflix.com/title/80067618) or [watch a Trailer on YouTube](https://youtu.be/CSnj2J6aVmI).
 
 It’s a story about a young girl called **Mayuko** (**Mirei Kiritani**), coming from a small town, who finished her studies in fabric design at the university and starts her first job at an exclusive custom tailoring lingerie store called **Emotion** in Ginza, Tokyo. It’s a small shop with a few designers, some salesmen, and the owner of the workshop, who is a woman in her 50s (**Mao Daichi**), an honorary named _Shachou_ (President) by her employees.
 

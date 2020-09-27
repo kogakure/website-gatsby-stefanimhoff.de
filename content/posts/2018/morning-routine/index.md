@@ -20,7 +20,7 @@ Of course, you are not automatically successful with routines, but it’s very u
 
 A morning routine does not only give health benefits, but if you include time for learning, reflection, thought, and fitness, you will improve in all aspects of life.
 
-After reading a lot of articles, and watches a lot of talks about morning routine a similar pattern appeared in all of these routines. So I sat down a month ago and created a routine for me, which included also most of these patterns. I took some inspiration from [Tim Ferris](https://www.youtube.com/watch?v=LHAyE0UC5I4), [Ryan Holiday](https://ryanholiday.net/my-morning-routine/), and other [inspiring people](https://mymorningroutine.com/routines/).
+After reading a lot of articles, and watches a lot of talks about morning routine a similar pattern appeared in all of these routines. So I sat down a month ago and created a routine for me, which included also most of these patterns. I took some inspiration from [Tim Ferris](https://youtu.be/LHAyE0UC5I4), [Ryan Holiday](https://ryanholiday.net/my-morning-routine/), and other [inspiring people](https://mymorningroutine.com/routines/).
 
 ---
 
@@ -66,7 +66,7 @@ I start by reading the daily chapter of the fantastic book <AffiliateLink asin="
 
 ### Get Up
 
-Then I stand up and get up, and make my bed. [Because if you want to change the world, start off by making your bed](https://www.youtube.com/watch?v=3sK3wJAxGfs) says **William McRaven**, a former US Navy Admiral and Navy Seal:
+Then I stand up and get up, and make my bed. [Because if you want to change the world, start off by making your bed](https://youtu.be/3sK3wJAxGfs) says **William McRaven**, a former US Navy Admiral and Navy Seal:
 
 > If you wanna change the world, start off by making your bed. If you make your bed every morning, you’ll have accomplished the first task of the day. It will give you a small sense of pride and encourage you to do another task, and another, and another. And by the end of the day, that one task completed, will have turned into many tasks completed. Making your bed will also reinforce the fact, that the little things in life matter. If you can’t do the little things right, you’ll never be able to do the big things right.
 
@@ -98,9 +98,9 @@ After the workout, I do some headstands and stretching.
 
 ### Bathroom & Clothes
 
-Then I take a shower. The benefits of cold showers are well-known, but I take a warm one. In the end, I switch to a cool temperature for a minute. I shower my legs in ice-cold water, but not the whole body. I’ll leave this to [Wim Hof](https://www.youtube.com/watch?v=OpTG02x6w5o). 😄
+Then I take a shower. The benefits of cold showers are well-known, but I take a warm one. In the end, I switch to a cool temperature for a minute. I shower my legs in ice-cold water, but not the whole body. I’ll leave this to [Wim Hof](https://youtu.be/OpTG02x6w5o). 😄
 
-I put on my clothes, which is easy since I changed my style to a <TextLink to="/minimalism/">minimalistic</TextLink> one: black jeans, black, grey, white or some colored shirt and a belt. I took some inspiration for my wardrobe from filmmaker **Matt D’Avella**, who [showed his wardrobe in this video](https://www.youtube.com/watch?v=DSHsIOIhjJY).
+I put on my clothes, which is easy since I changed my style to a <TextLink to="/minimalism/">minimalistic</TextLink> one: black jeans, black, grey, white or some colored shirt and a belt. I took some inspiration for my wardrobe from filmmaker **Matt D’Avella**, who [showed his wardrobe in this video](https://youtu.be/DSHsIOIhjJY).
 
 ### Meditate
 

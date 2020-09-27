@@ -53,8 +53,8 @@ I replace the now obsolete article of 2007 with a large list of helpful links to
 ## Videos and Screencasts
 
 - [Official Git Screencasts](https://git-scm.com/videos)
-- [Google Tech Talk: Linus Torvalds on git](https://www.youtube.com/watch?v=4XpnKHJAok8) – Linus Torvalds presents Git at Google
-- [Google Tech Talk: Git](https://www.youtube.com/watch?v=8dhZ9BXQgc4) – Randal Schwartz introduces Git for an hour
+- [Google Tech Talk: Linus Torvalds on git](https://youtu.be/4XpnKHJAok8) – Linus Torvalds presents Git at Google
+- [Google Tech Talk: Git](https://youtu.be/8dhZ9BXQgc4) – Randal Schwartz introduces Git for an hour
 - [Git the basics](http://excess.org/article/2008/07/ogre-git-tutorial/) – Bart Trojanowski introduces Git (2 parts)
 
 ## Git Hosting

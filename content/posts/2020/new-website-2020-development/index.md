@@ -131,7 +131,7 @@ I ran into a problem because all the designs I created for the huge Desktop size
 
 ## Responsive Grid and Typography
 
-Lucky I stumbled upon a video about [min(), max(), and clamp()](https://www.youtube.com/watch?v=U9VF-4euyRo) a few weeks earlier. I’ve had never heard of `clamp` before and was surprised how supported it was. IE11 doesn’t support it, but _who_ cares about _that_ crappy discontinued browser? Not even Microsoft.
+Lucky I stumbled upon a video about [min(), max(), and clamp()](https://youtu.be/U9VF-4euyRo) a few weeks earlier. I’ve had never heard of `clamp` before and was surprised how supported it was. IE11 doesn’t support it, but _who_ cares about _that_ crappy discontinued browser? Not even Microsoft.
 
 The combination of `min()`, `max()` and `clamp()` allows responsive typography or grids, that respect a minimal and maximal size and adjust the size of anything in between these two values matching to the available screen space. This changed everything! I switched all font-sizes and space tokens to clamp. This allows the grid, margins, padding, or font-sizes to adjust to the screen size but stay inside reasonable ranges.
 

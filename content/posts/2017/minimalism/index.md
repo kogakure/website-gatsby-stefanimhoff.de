@@ -14,7 +14,7 @@ categories:
 
 Minimalism has come a long way. It recently got again a lot of traction with it’s highest search volume on [Google](https://trends.google.com/trends/explore?q=minimalism) ever recorded in January 2017. Because Minimalism is **very hard to define**, it leaves a lot of **room for interpretation** and its meaning shifted recently more from being a philosophy to being a lifestyle.
 
-In his video [Being a Minimalist](https://www.youtube.com/watch?v=D4bFYJ0JUMk) the creator **JP Sears** jokes about the extremes of Minimalism. A lot of people moved to Minimalism out of different reasons: From being overwhelmed of capitalism and the accelerating speed of life, to caring about the ecosystem, as result of balancing sick excesses like fast-fashion and constantly rising consumption of resources, to people just following a _trend_ to feel unique or setting a statement on their wealth, by not having stuff as a symbol of status.
+In his video [Being a Minimalist](https://youtu.be/D4bFYJ0JUMk) the creator **JP Sears** jokes about the extremes of Minimalism. A lot of people moved to Minimalism out of different reasons: From being overwhelmed of capitalism and the accelerating speed of life, to caring about the ecosystem, as result of balancing sick excesses like fast-fashion and constantly rising consumption of resources, to people just following a _trend_ to feel unique or setting a statement on their wealth, by not having stuff as a symbol of status.
 
 ## The Spectrum of Minimalism
 
@@ -54,7 +54,7 @@ As Kenya Hara writes in <AffiliateLink asin="0714866962">Wa: The Essence of Japa
 
 The Japanese Simplicity is described as _Emptiness_ by Kenya Hara and has a complex background: Japan was positioned at the end of many routes of cultural influence. From Rome along the Silk Road to Central Asia, China, Korea, and south from Turkey over India, South Asia, and north along with Russia. But after a civil war from 1467-1477 (_ōnin no ran_), which resulted in the destruction of a lot of objects of art (temples, statues, paintings, kimonos, etc.), may be out of necessity, a new form of simple and quiet design emerged.
 
-Different ideas like _shintō_, _zen_ Buddhism, and Daoism influenced this form of Simplicity (and Minimalism) in every aspect of life. In _shintō_ the concept of emptiness is the result of the creation of a space for the _kami_ (deities) to fill it. _Zen_ Buddhism brought aspects like _Upādāna_ (sanskr. the attachment, clinging, or grasping on ephemeral things). As a result many new ideas based on _Emptiness_, Simplicity and Minimalism emerged: [_wabi-sabi_](https://www.youtube.com/watch?v=QmHLYhxYVjA), [_kintsugi_](https://www.theschooloflife.com/thebookoflife/kintsugi), [japanese gardens](https://www.youtube.com/watch?v=7kaKYer6x5A), [_bonsai_](https://www.youtube.com/watch?v=NfdGGTb5_Ts), _ikebana_, [_chadō_](https://www.theschooloflife.com/thebookoflife/the-great-eastern-philosophers-sen-no-rikyu) or [_haiku_](https://www.theschooloflife.com/thebookoflife/the-great-eastern-philosophers-matsuo-basho).
+Different ideas like _shintō_, _zen_ Buddhism, and Daoism influenced this form of Simplicity (and Minimalism) in every aspect of life. In _shintō_ the concept of emptiness is the result of the creation of a space for the _kami_ (deities) to fill it. _Zen_ Buddhism brought aspects like _Upādāna_ (sanskr. the attachment, clinging, or grasping on ephemeral things). As a result many new ideas based on _Emptiness_, Simplicity and Minimalism emerged: [_wabi-sabi_](https://youtu.be/QmHLYhxYVjA), [_kintsugi_](https://www.theschooloflife.com/thebookoflife/kintsugi), [japanese gardens](https://youtu.be/7kaKYer6x5A), [_bonsai_](https://youtu.be/NfdGGTb5_Ts), _ikebana_, [_chadō_](https://www.theschooloflife.com/thebookoflife/the-great-eastern-philosophers-sen-no-rikyu) or [_haiku_](https://www.theschooloflife.com/thebookoflife/the-great-eastern-philosophers-matsuo-basho).
 
 ## Why to become a Minimalist?
 
@@ -141,15 +141,15 @@ As JP Sears jokes: _It’s not about being so poor, that you have the inability 
 ## Recommended Videos, Articles, and Blogs
 
 - [Minimalism: A Documentary About The Important Things](https://www.netflix.com/title/80114460)
-- [Less stuff, happier life](https://www.youtube.com/watch?v=6XSJ-kI4VVg)
-- [Life is easy. Why do we make it so hard? | Jon Jandai | TEDxDoiSuthep](https://www.youtube.com/watch?v=21j_OCNLuYg)
-- [TEDxO'Porto - Mark Boyle - The Moneyless Man](https://www.youtube.com/watch?v=-PuyYVVVkIM)
-- [Less stuff, more happiness | Graham Hill](https://www.youtube.com/watch?v=L8YJtvHGeUU)
-- [TEDxBoulder - Grant Blakeman - Minimalism - For a More Full Life](https://www.youtube.com/watch?v=ES_u5b1CAr4)
-- [A rich life with less stuff | The Minimalists | TEDxWhitefish](https://www.youtube.com/watch?v=GgBpyNsS-jU)
-- [TEDxAsheville - Adam Baker - Sell your crap. Pay your debt. Do what you love.](https://www.youtube.com/watch?v=9XRPbFIN4lk)
-- [The less you own, the more you have | Angela Horn | TEDxCapeTown](https://www.youtube.com/watch?v=CyKmpyYy14k)
-- [What exactly is a 'tiny house'? | Amy Henion | TEDxNortheasternU](https://www.youtube.com/watch?v=DTPsASRO7WA)
+- [Less stuff, happier life](https://youtu.be/6XSJ-kI4VVg)
+- [Life is easy. Why do we make it so hard? | Jon Jandai | TEDxDoiSuthep](https://youtu.be/21j_OCNLuYg)
+- [TEDxO'Porto - Mark Boyle - The Moneyless Man](https://youtu.be/-PuyYVVVkIM)
+- [Less stuff, more happiness | Graham Hill](https://youtu.be/L8YJtvHGeUU)
+- [TEDxBoulder - Grant Blakeman - Minimalism - For a More Full Life](https://youtu.be/ES_u5b1CAr4)
+- [A rich life with less stuff | The Minimalists | TEDxWhitefish](https://youtu.be/GgBpyNsS-jU)
+- [TEDxAsheville - Adam Baker - Sell your crap. Pay your debt. Do what you love.](https://youtu.be/9XRPbFIN4lk)
+- [The less you own, the more you have | Angela Horn | TEDxCapeTown](https://youtu.be/CyKmpyYy14k)
+- [What exactly is a 'tiny house'? | Amy Henion | TEDxNortheasternU](https://youtu.be/DTPsASRO7WA)
 - [The Art of Enough](https://experiencelife.com/article/the-art-of-enough/)
 - [The Minimalists](https://www.theminimalists.com/)
 - [Aesence/](http://www.aesence.com/)

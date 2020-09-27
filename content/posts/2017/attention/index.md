@@ -110,10 +110,10 @@ If you have read to this point, without being distracted, kudos! Now put down yo
 
 ### Videos & Podcast
 
-- [Look Up](https://www.youtube.com/watch?v=Z7dLU6fk9QY) (Garry Turk)
-- [Social Media’s Dark Side: How Facebook and Snapchat Try to Steal Our Self-Worth](https://www.youtube.com/watch?v=HBRLMoL_vTQ) (Tristan Harris)
+- [Look Up](https://youtu.be/Z7dLU6fk9QY) (Garry Turk)
+- [Social Media’s Dark Side: How Facebook and Snapchat Try to Steal Our Self-Worth](https://youtu.be/HBRLMoL_vTQ) (Tristan Harris)
 - [How a handful of tech companies control billions of minds every day](https://www.ted.com/talks/tristan_harris_the_manipulative_tricks_tech_companies_use_to_capture_your_attention) (Tristan Harris)
-- [Put social back in social media – TEDxLinz](https://www.youtube.com/watch?v=gnbLLQwZxeA) (Christian Heilmann)
+- [Put social back in social media – TEDxLinz](https://youtu.be/gnbLLQwZxeA) (Christian Heilmann)
 - [Hurry Slowly](https://hurryslowly.co/)
 
 ### Articles

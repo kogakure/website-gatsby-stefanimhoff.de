@@ -42,7 +42,7 @@ $ brew install hugo
 
 The main reason for switching was for my speed. And fast it is. Generating my whole site, with **86** articles, **125** tags, **21** categories and **2** series takes **~700 ms**. This means everything included, even moving all the assets. If I wouldn’t use my _Related Articles_ section, I could cut the time in half. Since I use Gulp and minimize, optimize and do a lot to my files, my production Gulp task needs now **~30 seconds** (including syncing the files to the server), compared to **2-3 minutes** before.
 
-How fast Hugo _really_ is can be best seen in this video: [Hugo benchmark - 5,000 posts in seconds](https://www.youtube.com/watch?v=CdiDYZ51a2o).
+How fast Hugo _really_ is can be best seen in this video: [Hugo benchmark - 5,000 posts in seconds](https://youtu.be/CdiDYZ51a2o).
 
 ## Templates
 
