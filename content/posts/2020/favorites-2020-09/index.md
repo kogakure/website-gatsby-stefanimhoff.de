@@ -1,0 +1,318 @@
+---
+published: true
+title: September 2020 Favorites
+date: 2020-09-30T18:00:00+02:00
+author: Stefan Imhoff
+description: A list of all the things I enjoyed in September 2020.
+cover: ./cover.jpg
+og: ./og.jpg
+attribution:
+  - author: Jørgen Håland
+    title: Brown Mushroom in the Forest, Oslo
+    url: https://unsplash.com/photos/he5FaI_NuLs
+categories:
+  - monthly
+---
+
+## Things I enjoyed in September 2020
+
+<Blockquote author="Dr. Martin Luther King, Jr.">
+
+Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.
+
+</Blockquote>
+
+---
+
+## Videos
+
+### Science & Knowledge
+
+- [The Biggest Lie About Renewable Energy](https://youtu.be/bC-BYhuFUtY) <Flag label="13:14" />
+- [How to Illegally Cross the Mexico-US Border](https://youtu.be/DTIDCA7mjZs) <Flag label="14:50" />
+- [The Coddling of the American Mind – Jonathan Haidt](https://youtu.be/Wuf0-x9Pbu4) <Flag label="12:14" />
+- [The Strange Reason Why the US Owes London £12,598,845](https://youtu.be/3D4Bz7r7cCM) <Flag label="6:02" />
+- [The Bystander Effect vs. The Good Samaritan Effect](https://youtu.be/h9GMo0QE7Us) <Flag label="8:47" />
+- [The Fabric of the Cosmos: The Illusion of Time Documentary](https://youtu.be/Zuedaptw73w) <Flag label="50:37" />
+- [Confirmation Bias and Meditative Consciousness](https://youtu.be/6MhhR1FT63c) <Flag label="21:07" />
+- [Why the US Military Has a 26-Page Brownie Recipe](https://youtu.be/qCaIY-bBINQ) <Flag label="6:17" />
+
+### Productivity
+
+- [The One Hour Night Routine](https://youtu.be/CQqdmDjgx9k) <Flag label="8:45" />
+- [Organize Your Knowledge with Zettelkasten](https://youtu.be/XUltI4v_UU4) <Flag label="8:06" />
+- [Obsidian – The Power of Backlinks and the Knowledge Graph](https://youtu.be/n7xrHPpTWJ0) <Flag label="12:20" />
+- [How I Take Literature Notes in Obsidian](https://youtu.be/4Jg69Ygf1XI) <Flag label="10:35" /> – Part 1: Creating literature notes from a source (book, article, movie)
+- [How I Write Permanent Notes in Obsidian](https://youtu.be/FivmWbDrO-M) <Flag label="11:03" /> – Part 2: Moving the ideas from the literature notes into the permanent notes.
+- [Obsidian: How to Organize Your Notes](https://youtu.be/oE8HyLuHjsQ) <Flag label="11:52" />
+- [Obsidian: Keep Notes for the Long Term](https://youtu.be/yQCV0Pluhqs) <Flag label="10:48" />
+- Spaced Repetition with Obsidian and NeuraCache <Flag label="13:40" />
+- [Getting Started with Networked Thought in Obsidian](https://youtu.be/LkiqNPySFW8) <Flag label="27:24" />
+- [Using Obsidian to Take Notes on Books](https://youtu.be/VFRp6QS8z8w) <Flag label="19:59" />
+- [Getting Started with a Zettelkasten System](https://youtu.be/b21JhcfuGac) <Flag label="12:01" />
+- [How to Take Smart Notes](https://youtu.be/uCrWIanRYnM) <Flag label="8:18" />
+- [What Makes A Good Zettelkasten Note](https://youtu.be/Q4JqjbQZ6_Q) <Flag label="19:40" />
+- [My Two Uses for DEVONthink and Obsidian](https://youtu.be/xlDfpcipCm4) <Flag label="6:06" />
+- [DEVONthink Read it Later](https://youtu.be/aezxmGjAYvU) <Flag label="13:19" />
+- [RemNote Tutorials](https://www.youtube.com/playlist?list=PLBwTyifkXByjkj_H8OFTCPAtoc58Txzt0) – Official tutorial playlist for the note-taking app RemNote.
+- [The 5 Magical Apps That Changed My Life](https://youtu.be/lhpY1frNqdA) <Flag label="11:15" />
+- [How to Get Started with the Obsidian App for Note-Taking for Complete Beginners](https://youtu.be/QgbLb6QCK88) <Flag label="12:36" />
+- [The 8 Settings to Activate in the Obsidian App for Beginners](https://youtu.be/_2z-7D4bQEA) <Flag label="7:17" />
+- [How to Use the NEW Graph View in the Obsidian Note-Taking App](https://youtu.be/058Tvff2Fso) <Flag label="13:56" />
+- [Why you procrastinate (and how to overcome it)](https://youtu.be/TGfN9297Yq8) <Flag label="11:33" />
+- [Smart Note-Taking Habit | Luhmann’s Zettelkasten](https://youtu.be/LM4t0jeFZcs) <Flag label="5:07" />
+- [Interview and Q&A with Sönke Ahrens on How to Take Smart Notes](https://youtu.be/kXnR7qX3BDc) <Flag label="56:04" />
+
+### History & Culture
+
+- [Pyongyang: a rare look at daily life in North Korea’s secretive capital](https://youtu.be/Al47zkqfUw8) <Flag label="4:55" /> – A rainy day in North Korean’s capital city Pyongyang. Interesting as equally depressing.
+- [The Joe Rogan Experience (Full Documentary)](https://youtu.be/NDZ8Eu335Sg) <Flag label="22:00" />
+- [3 Rules That Will Immediately Change Your Life – Joe Rogan](https://youtu.be/pzoOg_uWMWo) <Flag label="8:01" />
+- [Clocks around the world: how other languages tell time](https://youtu.be/eelVqfm8vVc) <Flag label="8:28" />
+- [Marcus Aurelius – Philosopher Emperor: End of the Roman Golden Age](https://youtu.be/cLtDWIsOs1E) <Flag label="22:39" />
+- [The 3 Biggest Myths About Minimalism](https://youtu.be/euXHO76FfU8) <Flag label="10:22" /> – Matt D’Avella summarizes common misconceptions about Minimalism.
+
+### Cinema & Film
+
+- [DUNE Trailer (2020)](https://youtu.be/IPcrB4OC1TE) <Flag label="3:19" />
+- [Redefining the Anti-War Film](https://youtu.be/yf0G2MPBEYM) <Flag label="58:29" /> – _Tom van der Linden_ created a one-hour long film about anti-war films.
+- [The Drinker Recommends… Dredd](https://youtu.be/GXEFg2zs6g4) <Flag label="7:58" />
+- [Mulan – The Movie Nobody Wants](https://youtu.be/kIH-eFqBLP4) <Flag label="9:47" />
+- [Sci-Fi Short Film: ”Doppelbänger“ | DUST](https://youtu.be/W26Gw9qCicg) <Flag label="14:22" /> – It isn’t easy being single in a future society on the verge of the technological singularity.
+- [Film Theory: Where is Rick Grimes? The Walking Dead’s Final Mysteries SOLVED!](https://youtu.be/qoQcWvuBv84) <Flag label="14:27" />
+- [How James Gandolfini Navigates Emotion](https://youtu.be/rLSm2RSpVKI) <Flag label="10:41" />
+
+### Philosophy
+
+- [A Test to Work Out if You’re a Good Person](https://youtu.be/9jI9mavbbDw) <Flag label="4:51" />
+- [The Japanese folktale of the selfish scholar – Iseult Gillespie](https://youtu.be/VixAX2IzaE4) <Flag label="4:59" />
+- [What Marcus Aurelius Can Teach Us About Leadership](https://youtu.be/ZuwJ9qWLWEQ) <Flag label="12:12" />
+
+### Politics & Political Theory
+
+- [Let’s Talk About Racism In America Featuring Morgan Freeman, Denzel Washington & More](https://youtu.be/5ZrgrbUNxzk) <Flag label="12:58" />
+- [Herschel Walker’s Son Christian has had enough of The BLM Movement & Riots](https://youtu.be/QO21EgwA7V0) <Flag label="3:38" /> – Funny, short and precise, and summarized to the point.
+- [Ritual Public Shaming](https://youtu.be/olXipfCKUoo) <Flag label="15:33" /> – The similarity to Mao’s Red Guards is frightening.
+- [Unrest? Uprisings? Let’s Cut The BS and Tell The Truth.](https://youtu.be/FxmXjvMNlm4) <Flag label="10:34" />
+- [Another Trump Scandal That Wasn’t](https://youtu.be/Vd9N1We1E2Y) <Flag label="8:56" />
+- [Candace Owens | The Ben Shapiro Show Sunday Special Ep. 97](https://youtu.be/WsQ7tOuDDKE) <Flag label="1:06:58" />
+- [Transgenderism. A Logical Look. Part 1](https://youtu.be/xbwhcZXgE_s) <Flag label="12:52" /> and [A Logical Look At Transgenderism. Part 2](https://youtu.be/D_DMpCvNe8E) <Flag label="10:13" /> – That’s _real_ logic.
+- [Why the White Working Class Supports Trump.](https://youtu.be/XgwoDF9z5hg) <Flag label="5:23" />
+- [The N-Word. Let’s Talk About It. Is That Allowed?](https://youtu.be/StUz3fHSf9I) <Flag label="9:05" />
+- [#HeToo… What Feminists Don’t Want You To Know](https://youtu.be/cDjZUmWI-A0) <Flag label="5:42" />
+- [Why I Changed my Opinion on China](https://youtu.be/ed4ryYokLzU) – The story of an American who lived for a few years in China, got married and a kid and how radical the country changed to the worse in the last years. As a teacher and travel blogger, who reported positive things from all over China he had to escape military police and flee the country with his wife and kid: [How I Escaped From China – The Untold Story](https://youtu.be/z7CPqROtanA) <Flag label="18:17" /> and [How I Got my Family Out of China](https://youtu.be/JZpV-KFH2pQ) <Flag label="12:39" />.
+- [The Moment Larry Elder changed Dave Rubins Mind Forever (Systemic Racism)](https://youtu.be/phPXTWJhnYM) <Flag label="8:16" /> – It’s interesting seeing ideology crushed by facts.
+- [Exposing What You Aren’t Being Told About Slavery & Racism – Candace Owens](https://youtu.be/UmURyFLUVx0) <Flag label="1:41:48" />
+- [Konstantin Kisin – Political Correctness | Inspired Edinburgh](https://youtu.be/r3CAcWmYZLo) <Flag label="1:26:12" />
+
+### Humor
+
+- [How to Sell Protest Footage to FOX AND CNN](https://youtu.be/xiYZ__Ww02c) <Flag label="1:56" />
+- [Joe Rogan interviews Tim Pool & Jack Dorsey](https://youtu.be/NEArAlNMuE4) <Flag label="2:43" /> – A funny cartoon by FreedomToons.
+- [What It’s Like Getting Censored on YouTube](https://youtu.be/RGxbaxviRVw) <Flag label="6:09" /> – One of JP Spears comedy videos was recently unjustifiable censored by YouTube. This video mocks how this process works.
+- [Emotional Distancing Guidelines](https://youtu.be/ohRQ1ZbqcwE) <Flag label="5:30" />
+- [The First Morbidly Plus Sized Fashion Photographer](https://youtu.be/dAbHbCVwyqg) <Flag label="2:06" />
+- [A Brief History of Socialism](https://youtu.be/zZz2HF5KtrY) <Flag label="3:06" />
+- [How News Anchors Are Trained](https://youtu.be/xxGeu9edNLY) <Flag label="2:21" />
+- [Every Political Ad Ever](https://youtu.be/KmmFQeaY3YM) <Flag label="1:26" />
+- [The Pandemic Hotline](https://youtu.be/uese-6Xln7o) <Flag label="6:16" />
+- [Uncle Roger Review Gordon Ramsay Fried Rice](https://youtu.be/FrUfwpaNNIM) <Flag label="11:41" />
+- [The NEW Political Correctness Rules](https://youtu.be/bXrnqcNgL00) <Flag label="5:13" />
+
+## TV Shows
+
+- [The Boys](https://www.themoviedb.org/tv/76479-the-boys) <Flag label="2" /> <PrimeVideoFlag id="b08h88kjgb" />
+- [Lucifer](https://www.themoviedb.org/tv/63174-lucifer) <Flag label="5" /> <PrimeVideoFlag id="b08g9q25sb" />
+- [iZombie](https://www.themoviedb.org/tv/60866-izombie) <Flag label="3" /> <Flag label="4" /> <NetflixFlag id="80027159"/>
+- [Cobra Kai](https://www.themoviedb.org/tv/77169-cobra-kai) <Flag label="1"/> <Flag label="2" /> <NetflixFlag id="81002370"/> – This was the best TV Show I’ve seen in a long time. Continuing the story of the movie [The Karate Kid](https://www.themoviedb.org/movie/1885-the-karate-kid) 34 years later the now much older protagonists meet again. A funny, interesting Drama with a lot of nuance and deep characters. The actors are the original actors from 1984! I can’t wait for season 3.
+
+## Movies
+
+- [Aquaman](https://www.themoviedb.org/movie/297802-aquaman) <NetflixFlag id="81004278" /> – This movie was fun, nothing special regarding the story, uses the typical story arch of the hero, but the effects and action were nice.
+- [The Social Dilemma](https://www.themoviedb.org/movie/656690-the-social-dilemma) <NetflixFlag id="81254224" />
+- [Ron White: If You Quit Listening, I’ll Shut Up](https://www.themoviedb.org/movie/550302-ron-white-if-you-quit-listening-i-ll-shut-up) <NetflixFlag id="80244900" />
+- [Rurouni Kenshin Part I: Origins](https://www.themoviedb.org/movie/127533) <PrimeVideoFlag id="B07LFCMQ4W" />
+- [Rurouni Kenshin Part II: Kyoto Inferno](https://www.themoviedb.org/movie/221731-rur-ni-kenshin-ky-to-taika-hen) <PrimeVideoFlag id="B00WLSD5PG" />
+- [Rurouni Kenshin Part III: The Legend Ends](https://www.themoviedb.org/movie/221732-rur-ni-kenshin-densetsu-no-saigo-hen) <PrimeVideoFlag id="B00WLQ8YO0" />
+- [The Karate Kid](https://www.themoviedb.org/movie/1885-the-karate-kid) <NetflixFlag id="60036164" /> – After finishing the TV Show Cobra Kai I wanted to rewatch this 1984 classic.
+- [Michael McIntyre: Showman](https://www.themoviedb.org/movie/743059-michael-mcintyre-showman) <NetflixFlag id="81258970" />
+- [Les Misérables](https://www.themoviedb.org/movie/586863-les-miserables) <PrimeVideoFlag id="B0842HW48T" />
+
+## Music
+
+- [Leo Birenberg & Zach Robinson: Cobra Kai (Score from the Original Series)](https://open.spotify.com/album/0TkfHTK2sSV4CxrQWqBrNF?si=569KC9lWS3WOrPyKKBflFg) – Cool 80s themed soundtrack of the TV Show, Cobra Kai.
+- [Leo Birenberg & Zach Robinson: Cobra Kai: Season 2 (Music from the Original Series)](https://open.spotify.com/album/2eYneWlXOCsnhYiiC8v34V)
+- [Ninja Tracks: A Million Stars Falling](https://open.spotify.com/album/2FYtYc3B7iHEuRdzULPbB7)
+
+## Podcasts
+
+- [Joe Rogan Experience 958: Jordan Peterson](https://open.spotify.com/episode/5194p3rIfeyMGbo8YKGMJK) <Flag label="2:57:34" />
+- [The Joe Rogan Experience 1530: Duncan Trussel](https://open.spotify.com/episode/4N8VtcWq3A2FSCiFrexzHl) <Flag label="5:19:48" />
+- [The Joe Rogan Experience 1531: Miley Cyrus](https://open.spotify.com/episode/0ZEDvQuPtAEBnXE37slSoX) <Flag label="2:06:31" />
+- [The Joe Rogan Experience 1534: Ron White](https://open.spotify.com/episode/26IY1n5lqfNZwkStD44EqP) <Flag label="2:53:42" />
+- [The Joe Rogan Experience 1315: Bob Lazar & Jeremy Corbell](https://open.spotify.com/episode/7Gg4Qi578G5SXoEtaLVVpx) <Flag label="2:14:44" />
+- [The Joe Rogan Experience 1510: George Knapp & Jeremy Corbell](https://open.spotify.com/episode/3RIsqi1Axn6zPGd0IpCRgf) <Flag label="2:56:00" />
+- [The Joe Rogan Experience 1475: Bridget Phetasy](https://open.spotify.com/episode/0ToPccuUB4fBZ2cAbn74O7) <Flag label="3:17:20" />
+- [The Joe Rogan Experience 1535: Tim Kennedy](https://open.spotify.com/episode/6SeHbFUG4TYkVqjoNozas8) <Flag label="3:00:33" />
+- [The Joe Rogan Experience 1536: Edward Snowden](https://open.spotify.com/episode/5sNggu9wR9lF84tf7VnxDL) <Flag label="2:28:40" />
+- [The Joe Rogan Experience 1537: Lex Fridman](https://open.spotify.com/episode/0JpkOdEp5Yv9M4xXHOLyWi) <Flag label="3:01:22" />
+- [The Joe Rogan Experience 1509: Abigail Shrier](https://open.spotify.com/episode/4SIh4Pt39AtGQYzMJMNkv1) – The Streisand effect: If Spotify employees want to go on strike if this episode doesn’t get censored, it must be interesting.
+- [The Joe Rogan Experience 1538: Douglas Murray](https://open.spotify.com/episode/3z58RgmzyxqqNjrUdA0pA9) <Flag label="2:15:45" />
+- [The Joe Rogan Experience 1540: Frank von Hippel](https://open.spotify.com/episode/4P8NFI28O93M0FJktVjo2V?si=FhO_vf5IQz2tjpWQJbrOVw) <Flag label="2:36:48" />
+- [The Joe Rogan Experience 1541: Bridget Phetasy](https://open.spotify.com/episode/6VLtXhudPVJBVixeobkfeg) <Flag label="3:17:17" />
+- [The Joe Rogan Experience 1006: Jordan Peterson & Bret Weinstein](https://open.spotify.com/episode/3LwOYeS2uNT1GP7rI2Kj98) <Flag label="2:44:56" />
+- [DUST: Horizonts](https://open.spotify.com/episode/4FjENxfTvBzcYgLAwR5Idy) – The first season has 8 episodes of interesting Sci-Fi short stories.
+- [DUST: FLIGHT 008](https://open.spotify.com/episode/30CyoqWatYZJ3FFIkEg6qV) – The second season has 9 Sci-Fi short stories that start all with the same beginning: Flight 008 from Tokyo to San Fransisco gets swallowed by a temporal anomaly and spit out 20 years later. The short stories follow different passengers of the flight.
+- [DUST Special Episode: Through the Eye of the Needle](https://open.spotify.com/episode/5M6Mh1IOYxrvBhE8XQoEh3) <Flag label="16:22" />
+- [DUST Special Episode: Hard Choices](https://open.spotify.com/episode/1gmfjSf25Vs4cgxd2KK2YT) <Flag label="43:23" /> – My favorite DUST episode since the beginning. This was a good story!
+- [DUST Special Episode: Insurance](https://open.spotify.com/episode/1FMT4rpqKuc0pokydEKIGF) <Flag label="21:39" /> – A really funny episode
+- [Coleman Hughes: The Limits of Identity with Ayishat Akanbi (Ep.14)](https://youtu.be/ZEC1g4NRha0) <Flag label="1:19:30" />
+- [TRIGGERnometry: Activism Has No Place in Journalism – Claire Lehmann](https://open.spotify.com/episode/69QCQNmdCrsFdaSKERFkkf) <Flag label="55:18" />
+- [TRIGGERnometry: Listen to Will Trump Win Again? – Matthew Goodwin](https://open.spotify.com/episode/70fmo8x6HrRPfACfr1BSsx) <Flag label="1:03:18" />
+
+## Books
+
+- [Lives of the Stoics: The Art of Living from Zeno to Marcus Aurelius ](https://www.goodreads.com/book/show/50484473-lives-of-the-stoics) (<AffiliateLink asin="052554187X">Amazon</AffiliateLink>)
+- [How to Take Smart Notes](https://www.goodreads.com/book/show/34576082-how-to-take-smart-notes) (<AffiliateLink asin="1542866502">Amazon</AffiliateLink>)
+- [21 Lessons for the 21st Century](https://www.goodreads.com/book/show/36689737-21-lessons-for-the-21st-century) (<AffiliateLink asin="1787330877">Amazon</AffiliateLink>)
+- [On Love and Barley: Haiku of Basho](https://www.goodreads.com/book/show/517190.On_Love_and_Barley) (<AffiliateLink asin="0140444599">Amazon</AffiliateLink>)
+- [The Daily Stoic](https://www.goodreads.com/book/show/29093292-the-daily-stoic) (<AffiliateLink asin="0735211736">Amazon</AffiliateLink>)
+
+<Row variant="variable" minWidth="110px" marginBottom>
+  <AmazonBook asin="052554187X" size="large" />
+  <AmazonBook asin="1542866502" size="large" />
+  <AmazonBook asin="1787330877" size="large" />
+  <AmazonBook asin="0140444599" size="large" />
+  <AmazonBook asin="0735211736" size="large" />
+</Row>
+
+## Articles
+
+- [Black Lives Matter and the Mechanics of Conformity](https://quillette.com/2020/09/17/black-lives-matter-and-the-mechanics-of-conformity/) – This article is fantastic! It took me 2 hours to digest all the content (not including the half dozen linked studies). A must-read for every person.
+- [The Crimes of the Red Emperor](https://quillette.com/2020/08/31/the-crimes-of-the-red-emperor/)
+- [Academics Are Really, Really Worried About Their Freedom](https://www.theatlantic.com/ideas/archive/2020/09/academics-are-really-really-worried-about-their-freedom/615724/)
+- [Moderation Is the Highest Form of Greatness. Here’s Why.](https://ryanholiday.net/moderation/)
+- [‘Vertical Forest’ in Chinese Residential Complex Becomes Mosquito-Infested Jungle](https://designyoutrust.com/2020/09/vertical-forest-in-chinese-residential-complex-becomes-mosquito-infested-jungle/)
+- [Motorcyclist Who Identifies As Bicyclist Sets Cycling World Record](https://babylonbee.com/news/motorcycle-that-identifies-as-bicycle-sets-world-cycling-record) – I love satire
+- [Think retirement is smooth sailing? A look at its potential effects on the brain](https://ideas.ted.com/think-retirement-is-smooth-sailing-a-look-at-its-potential-effects-on-the-brain/)
+- [Historical Revisionism and Critiques of Video Games](https://areomagazine.com/2020/09/18/historical-revisionism-and-critiques-of-video-games/)
+- [Lessons of the Pinker Affair: The Problem with the Academy is False Beliefs, Not Intolerance](https://quillette.com/2020/09/16/lessons-of-the-pinker-affair-the-problem-with-the-academy-is-false-beliefs-not-intolerance/)
+- [9 Common Traits In The Lives Of Stoic Leaders](https://dailystoic.com/stoic-leader-traits/)
+- [How to get promoted](https://defmacro.substack.com/p/how-to-get-promoted)
+
+## Inspiration
+
+- [So-Men SoSoSo](http://so-mensososo.com/) – A nice website for a Somen shop.
+- [SENN – Less is beauty](https://sen-n.com/)
+- [Pierrick Calvez](https://www.pierrickcalvez.com/)
+
+## Stuff & Things
+
+- [Obsidian](https://obsidian.md/) `0.9.1` – A new graph view which is fantastic. It allows seeing notes, tags, files, connections, and more.
+- [NeuraCache](https://neuracache.com/) – A cool software to learn Flashcards imported from a lot of systems with the Spaced Repetition method.
+- [Airr – Highlight podcasts](https://apps.apple.com/app/airr-highlight-podcasts/id1355926315) – An app to highlight, add notes, or quote a Podcast.
+- [OwlTail](https://www.owltail.com/) – A cool Podcast Player that allows following specific people and find interviews with them or finding related people.
+- [RemNote](https://www.remnote.io/) – Another nice note-taking app, including spaced-repetition learning.
+- [Ancient Earth](https://dinosaurpictures.org/ancient-earth) – Enter a city name and view its position on the globe over the last few hundred million years.
+
+## People
+
+- [Ayishat Akanbi](https://ayishatakanbi.com/) – Nigerian-British fashion stylist, author, cultural commentator, and photographer. Her [Tweets](https://twitter.com/ayishat_akanbi) are like poetry, but each a truth bomb.
+- Sönke Ahrens – Author of the book [How to Take Smart Notes](https://takesmartnotes.com/). He is Professor and works at the University of Hamburg
+- [Konstantin Kisin](http://konstantinkisin.com/) – Russian-British comedian. He is constantly pushing back against “woke” culture and co-presenter of the show TRIGGERnometry, a [YouTube Channel](https://www.youtube.com/channel/UC7oPkqeHTwuOZ5CZ-R9f-6w) and [Podcast](https://open.spotify.com/show/1JH26td5UtmKQWHLv0NCZp).
+
+## Quotes
+
+<Blockquote author="George V. Higgins" source="The Friends of Eddie Coyle">
+
+This life’s hard, but it’s harder if you’re stupid.
+
+</Blockquote>
+
+---
+
+<Blockquote author="John Goodman" source="The War on Poverty at 50, 01.08.2014">
+
+We have spent $15 trillion <q>fighting</q> poverty since 1965, and we are currently spending $1 trillion a year—an amount equal to about $22,000 per poor person or $88,000 for a family of four. Yet our poverty rate today (nearly 16 percent) is higher than it was in 1965 (14 percent)! If there has been a war on poverty, poverty won. These programs are destroying the culture of the recipient communities. They are replacing a culture of self-reliance and self-help with a culture of dependency. To put it bluntly, we are paying young women to have children out of wedlock. We are paying them to be unemployed. And we are paying them to remain poor. What is more, the welfare state appeals especially to those in near-poverty, promising a wide range of non-cash benefits it’s in exchange for only one thing: a low income.
+
+</Blockquote>
+
+---
+
+<Blockquote author="Ayishat Akanbi" source="Twitter" sourceUrl="https://twitter.com/Ayishat_Akanbi/status/1308231696853209090">
+
+If you’re not actively against murder, starvation, and rape it doesn’t mean you support them. So the idea that “not being racist”, instead of anti-racist is akin to racism—is a self-indulgent attack on reason.
+
+</Blockquote>
+
+---
+
+<Blockquote author="Ayishat Akanbi" source="Twitter" sourceUrl="https://twitter.com/Ayishat_Akanbi/status/1308244890313252865">
+
+You can’t think clearly if you are imprisoned by the fear of who might agree with you.
+
+</Blockquote>
+
+---
+
+<Blockquote author="Ayishat Akanbi" source="Twitter" sourceUrl="https://twitter.com/Ayishat_Akanbi/status/1308246774952452097">
+
+I’ve never needed to agree with all of someone’s positions to like them. At this point, I can respect anyone who is at least thinking instead of regurgitating.
+
+</Blockquote>
+
+---
+
+<Blockquote author="Raymond S. Nickerson" source="ConfirmationBias: A Ubiquitous Phenomenon in Many Guises (1998), 175-220">
+
+If one were to attempt to identify a single problematic aspect of human reasoning that deserves attention above all others, the confirmation bias would have to be among the candidates for consideration.
+
+</Blockquote>
+
+---
+
+<Blockquote author="Ernest Becker">
+
+What man really fears is not so much extinction, but extinction _with insignificance_.
+
+</Blockquote>
+
+---
+
+<Blockquote author="Steve Jobs">
+
+Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn’t really do it, they just saw something.
+
+</Blockquote>
+
+---
+
+<Blockquote author="Terry Doyle" source="Helping Students Learn in a Learner-Centered Environment">
+
+The one who does the work does the learning.
+
+</Blockquote>
+
+---
+
+<Blockquote author="Daniel Kahneman" source="Thinking, Fast and Slow">
+
+People tend to assess the relative importance of issues by ease with which they are retrieved from memory, is largely determined by the extent of coverage in the media.
+
+</Blockquote>
+
+---
+
+<Blockquote author="Hans Rosling" source="Factfulness">
+
+Almost every activist I have ever met, whether deliberately or, more likely, unknowingly, exaggerates the problem to which they have dedicated themselves.
+
+</Blockquote>
+
+---
+
+<Blockquote author="Thomas Sowell">
+
+Activism is a way for useless people to feel important, even if the consequences of their activism are counterproductive for those they claim to be helping and damaging to the fabric of society as a whole.
+
+</Blockquote>
