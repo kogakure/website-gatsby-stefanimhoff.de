@@ -11,7 +11,7 @@ export const useHomepageJournalPostsQuery = () => {
           frontmatter: { published: { eq: true } }
         }
         sort: { fields: [frontmatter___date], order: DESC }
-        limit: 10
+        limit: 14
       ) {
         edges {
           node {
