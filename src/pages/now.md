@@ -10,10 +10,10 @@
 - Learning **Japanese** and **Spanish** every day on [Duolingo](https://www.duolingo.com/profile/kogakure).
 - Doing <TextLink to="/calisthenics/">Calisthenics</TextLink> 3-5 times a week.
 - Working with the [Zettelkasten](https://zettelkasten.de/) note-taking method.
-  - **453** notes
-  - **86** bibliography entries
+  - **503** notes
+  - **99** bibliography entries
 - Reading [Lives of the Stoics](https://www.goodreads.com/book/show/50484473-lives-of-the-stoics) by _Ryan Holiday_ and [21 Lessons for the 21st Century](https://www.goodreads.com/book/show/36689737-21-lessons-for-the-21st-century) by _Yuval Noah Harari_.
 
 ---
 
-This is a [Now Page](https://nownownow.com/). Last updated on **September 29rd, 2020**.
+This is a [Now Page](https://nownownow.com/). Last updated on **October 4th, 2020**.
