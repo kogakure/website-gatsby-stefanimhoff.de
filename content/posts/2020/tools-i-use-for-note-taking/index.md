@@ -83,7 +83,7 @@ I use [Alfred] for more than snippets, but this would be another blog post. In m
 
 ### iA Writer
 
-I decided that everything I write will be a note from now on. Even my outline notes or articles are written as notes. This makes a lot of sense, as the main benefits of the Zettelkasten method are the connection of different notes into a new work (article, book, blog post). I like writing long text with iA Writer, because of its minimalistic interface, focus mode, and nice features to write better texts. I found an easy way of editing any Markdown note on-demand from DEVONthink or Obsidian in [iA Writer] and save the changes back. Both tools allow setting shortcuts to open a file with its default application which is for me iA Writer for Markdown files.
+I like writing long text with iA Writer, because of its minimalistic interface, focus mode, and nice features to write better texts. I found an easy way of editing any Markdown note on-demand from DEVONthink or Obsidian in [iA Writer] and save the changes back. Both tools allow setting shortcuts to open a file with its default application which is for me iA Writer for Markdown files.
 
 ### GitHub
 
@@ -97,7 +97,7 @@ I updated the citation template mentioned in the article to my wishes (mostly to
 
 ## Note Creating Workflow
 
-If I sit at one of my Mac computers, I press a shortcut in Obsidian to automatically create a new Zettelkasten note, automatically prefixed with a timestamp ID. I enter a title for the note and a template feature of Obsidian automatically fills in the basic structure of a basic note. I use Alfred to create other types of notes. My note template is as simple as it gets:
+If I sit at one of my Mac computers, I press a shortcut in Obsidian to automatically create a new Zettelkasten note, automatically prefixed with a timestamp ID. I enter a title for the note and a template feature of Obsidian automatically fills in the basic structure of a note. I use Alfred to create other types of notes. My note template is as simple as it gets:
 
 #### 202008311912 Zettelkasten Principles.md
 

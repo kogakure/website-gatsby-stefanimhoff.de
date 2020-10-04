@@ -168,7 +168,7 @@ Darkness cannot drive out darkness; only light can do that. Hate cannot drive ou
 - [DUST Special Episode: Insurance](https://open.spotify.com/episode/1FMT4rpqKuc0pokydEKIGF) <Flag label="21:39" /> – A really funny episode
 - [Coleman Hughes: The Limits of Identity with Ayishat Akanbi (Ep.14)](https://youtu.be/ZEC1g4NRha0) <Flag label="1:19:30" />
 - [TRIGGERnometry: Activism Has No Place in Journalism – Claire Lehmann](https://open.spotify.com/episode/69QCQNmdCrsFdaSKERFkkf) <Flag label="55:18" />
-- [TRIGGERnometry: Listen to Will Trump Win Again? – Matthew Goodwin](https://open.spotify.com/episode/70fmo8x6HrRPfACfr1BSsx) <Flag label="1:03:18" />
+- [TRIGGERnometry: Will Trump Win Again? – Matthew Goodwin](https://open.spotify.com/episode/70fmo8x6HrRPfACfr1BSsx) <Flag label="1:03:18" />
 
 ## Books
 
@@ -218,7 +218,7 @@ Darkness cannot drive out darkness; only light can do that. Hate cannot drive ou
 ## People
 
 - [Ayishat Akanbi](https://ayishatakanbi.com/) – Nigerian-British fashion stylist, author, cultural commentator, and photographer. Her [Tweets](https://twitter.com/ayishat_akanbi) are like poetry, but each a truth bomb.
-- Sönke Ahrens – Author of the book [How to Take Smart Notes](https://takesmartnotes.com/). He is Professor and works at the University of Hamburg
+- **Sönke Ahrens** – Author of the book [How to Take Smart Notes](https://takesmartnotes.com/). He is Professor and works at the University of Hamburg
 - [Konstantin Kisin](http://konstantinkisin.com/) – Russian-British comedian. He is constantly pushing back against “woke” culture and co-presenter of the show TRIGGERnometry, a [YouTube Channel](https://www.youtube.com/channel/UC7oPkqeHTwuOZ5CZ-R9f-6w) and [Podcast](https://open.spotify.com/show/1JH26td5UtmKQWHLv0NCZp).
 
 ## Quotes
