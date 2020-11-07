@@ -190,7 +190,12 @@ const Row = styled.section<{ debug?: boolean; marginBottom?: boolean }>`
 `;
 
 const Grid = styled.div<RowProps>`
-  display: grid;
+  ${({ variant }) =>
+    variant === 'bigLeft' || variant === 'bigRight'
+      ? null
+      : css`
+          display: grid;
+        `};
   ${({ horizontal }) => horizontal && horizontalVariants[horizontal]};
   ${({ vertical }) => vertical && verticalVariants[vertical]};
   ${({ variant }) => variant && variants[variant].grid};

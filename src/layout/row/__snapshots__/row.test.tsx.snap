@@ -361,7 +361,6 @@ exports[`Row with big item left renders correctly 1`] = `
 }
 
 .c1 {
-  display: grid;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -425,7 +424,6 @@ exports[`Row with big item right renders correctly 1`] = `
 }
 
 .c1 {
-  display: grid;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
