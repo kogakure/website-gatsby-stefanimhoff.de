@@ -1,62 +1,68 @@
 import React from 'react';
-import styled from 'styled-components';
 import { Normalize } from 'styled-normalize';
-
-import { configure, addDecorator } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
-import { withOptions } from '@storybook/addon-options';
-
 import { EmojifyProvider, LocalizedDateProvider } from '../src/contexts';
-import { EmojifyToggle, GlobalStyles, ThemeToggle } from '../src/layout';
+import { GlobalStyles } from '../src/layout';
 
 import '../src/services/theme';
 
-const Grid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  height: 100vh;
-`;
-
-const Main = styled.main`
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-`;
-
-const Decorator = (storyFn) => (
+const AppProvider = (storyFn) => (
   <EmojifyProvider>
     <LocalizedDateProvider>
       <Normalize />
       <GlobalStyles />
-      <Grid>
-        <Main>{storyFn()}</Main>
-      </Grid>
+      {storyFn()}
     </LocalizedDateProvider>
   </EmojifyProvider>
 );
 
-addDecorator(Decorator);
+export const decorators = [AppProvider];
 
-global.___loader = {
-  enqueue: () => {},
-  hovering: () => {},
+export const parameters = {
+  layout: 'centered',
+  actions: { argTypesRegex: '^on[A-Z].*' },
+  backgrounds: {
+    default: 'light',
+    values: [
+      {
+        name: 'light',
+        value: 'hsl(40,7%,90%)',
+      },
+      {
+        name: 'dark',
+        value: 'hsl(40,7%,10%)',
+      },
+      {
+        name: 'light green',
+        value: 'hsl(65, 5%, 50%)',
+      },
+      {
+        name: 'dark green',
+        value: 'hsl(65, 5%, 20%)',
+      },
+      {
+        name: 'light brown',
+        value: 'hsl(38, 10%, 55%)',
+      },
+      {
+        name: 'dark brown',
+        value: 'hsl(38, 10%, 20%)',
+      },
+      {
+        name: 'light blue',
+        value: 'hsl(220, 6%, 50%)',
+      },
+      {
+        name: 'dark blue',
+        value: 'hsl(220, 6%, 20%)',
+      },
+      {
+        name: 'white',
+        value: '#ffffff',
+      },
+      {
+        name: 'black',
+        value: '#000000',
+      },
+    ],
+  },
 };
-
-global.__BASE_PATH__ = '';
-global.__PATH_PREFIX__ = '';
-window.___navigate = (pathname) => {
-  action('NavigateTo:')(pathname);
-};
-
-addDecorator(
-  withOptions({
-    name: 'stefanimhoff.de',
-    url: 'https://www.stefanimhoff.de/',
-    hierarchySeparator: /\/|\./,
-    hierarchyRootSeparator: /\|/,
-  })
-);
-
-configure(require.context('../src/', true, /\.stories\.tsx$/), module);
