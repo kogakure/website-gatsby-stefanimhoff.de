@@ -2,6 +2,18 @@
 
 exports[`TextLink with href renders correctly 1`] = `
 .c0 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: 0;
+}
+
+.c1 {
   color: var(--colorForeground);
   font-weight: 600;
   -webkit-text-decoration-color: var(--colorForegroundSoft);
@@ -11,23 +23,36 @@ exports[`TextLink with href renders correctly 1`] = `
   text-underline-offset: 0.1em;
 }
 
-.c0:hover,
-.c0:focus {
+.c1:hover,
+.c1:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
 
-<a
+<p
   class="c0"
-  href="https://www.stefanimhoff.de"
-  rel="nofollow noopener noreferrer external"
 >
-  External Link
-</a>
+  <a
+    class="c1"
+    rel="nofollow noopener noreferrer external"
+  />
+</p>
 `;
 
 exports[`TextLink with href with "block" renders correctly 1`] = `
 .c0 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: 0;
+}
+
+.c1 {
   color: var(--colorForeground);
   font-weight: 600;
   -webkit-text-decoration-color: var(--colorForegroundSoft);
@@ -35,26 +60,38 @@ exports[`TextLink with href with "block" renders correctly 1`] = `
   -webkit-text-decoration-thickness: 0.1em;
   text-decoration-thickness: 0.1em;
   text-underline-offset: 0.1em;
-  display: block;
 }
 
-.c0:hover,
-.c0:focus {
+.c1:hover,
+.c1:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
 
-<a
+<p
   class="c0"
-  href="https://www.stefanimhoff.de"
-  rel="nofollow noopener noreferrer external"
 >
-  External Link
-</a>
+  <a
+    class="c1"
+    rel="nofollow noopener noreferrer external"
+  />
+</p>
 `;
 
 exports[`TextLink with to property renders correctly 1`] = `
 .c0 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: 0;
+}
+
+.c1 {
   color: var(--colorForeground);
   font-weight: 600;
   -webkit-text-decoration-color: var(--colorForegroundSoft);
@@ -64,23 +101,36 @@ exports[`TextLink with to property renders correctly 1`] = `
   text-underline-offset: 0.1em;
 }
 
-.c0:hover,
-.c0:focus {
+.c1:hover,
+.c1:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
 
-<a
-  block="0"
+<p
   class="c0"
-  href="/"
 >
-  Router Link
-</a>
+  <a
+    class="c1"
+    rel="nofollow noopener noreferrer external"
+  />
+</p>
 `;
 
 exports[`TextLink with to property with "block" renders correctly 1`] = `
 .c0 {
+  font-size: clamp(1.00rem,1.1vw,1.25rem);
+  font-weight: 400;
+  -webkit-letter-spacing: normal;
+  -moz-letter-spacing: normal;
+  -ms-letter-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.6;
+  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
+  margin-top: 0;
+}
+
+.c1 {
   color: var(--colorForeground);
   font-weight: 600;
   -webkit-text-decoration-color: var(--colorForegroundSoft);
@@ -88,20 +138,20 @@ exports[`TextLink with to property with "block" renders correctly 1`] = `
   -webkit-text-decoration-thickness: 0.1em;
   text-decoration-thickness: 0.1em;
   text-underline-offset: 0.1em;
-  display: block;
 }
 
-.c0:hover,
-.c0:focus {
+.c1:hover,
+.c1:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
 
-<a
-  block="1"
+<p
   class="c0"
-  href="/"
 >
-  Router Link
-</a>
+  <a
+    class="c1"
+    rel="nofollow noopener noreferrer external"
+  />
+</p>
 `;

@@ -1,8 +1,9 @@
 import React from 'react';
 
-import { Layout, LayoutProps } from '../layout';
+import { Layout } from '../layout';
+import type { LayoutProps } from '../layout';
 
-const DefaultTemplate: React.FC<LayoutProps> = ({ children }) => (
+const DefaultTemplate = ({ children }: LayoutProps) => (
   <Layout size="narrow">{children}</Layout>
 );
 

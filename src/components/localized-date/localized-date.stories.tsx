@@ -1,12 +1,21 @@
-import React from 'react';
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react/types-6-0';
 
 import { LocalizedDate } from '.';
+import type { LocalizedDateProps } from '.';
 
 const date = '2020-01-17T18:00:00';
 
 export default {
-  component: LocalizedDate,
   title: 'Helpers/Localized Date',
-};
+  component: LocalizedDate,
+} as Meta;
 
-export const Default = () => <LocalizedDate date={date} />;
+const Template: Story<LocalizedDateProps> = (args) => (
+  <LocalizedDate {...args} />
+);
+
+export const Default = Template.bind({});
+Default.args = {
+  date,
+};

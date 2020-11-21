@@ -3,9 +3,13 @@ import styled, { css } from 'styled-components';
 
 import { transitionDuration } from '../../layout/tokens';
 
-import { AnimationDirection } from '.';
+import type { AnimationDirection } from '.';
 
-const Icon = styled.span<{ animation: AnimationDirection }>`
+type IconTransientProps = {
+  $animation?: AnimationDirection;
+};
+
+const Icon = styled.span<IconTransientProps>`
   display: inline-flex;
   fill: var(--colorForeground);
   margin-left: 0.2em;
@@ -18,13 +22,13 @@ const Icon = styled.span<{ animation: AnimationDirection }>`
   a:hover &,
   a:active &,
   a:focus & {
-    ${({ animation }) =>
-      animation === 'right' &&
+    ${({ $animation }) =>
+      $animation === 'right' &&
       css`
         transform: translate3D(0.25rem, 0, 0);
       `}
-    ${({ animation }) =>
-      animation === 'down' &&
+    ${({ $animation }) =>
+      $animation === 'down' &&
       css`
         transform: translate3D(0, 0.25rem, 0);
       `}

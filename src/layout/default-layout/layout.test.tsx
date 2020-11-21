@@ -32,31 +32,31 @@ useStaticQuery.mockImplementation(() => ({
 
 describe('Layout', () => {
   test('renders correctly', () => {
-    const { container } = render(<Layout />);
+    const { container } = render(<Layout>Layout</Layout>);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('with variant "green" renders correctly', () => {
-    const { container } = render(<Layout variant="green" />);
+    const { container } = render(<Layout variant="green">Layout</Layout>);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('with variant "blue" renders correctly', () => {
-    const { container } = render(<Layout variant="blue" />);
+    const { container } = render(<Layout variant="blue">Layout</Layout>);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('with variant "brown" renders correctly', () => {
-    const { container } = render(<Layout variant="brown" />);
+    const { container } = render(<Layout variant="brown">Layout</Layout>);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('is accessible', async () => {
-    const { container } = render(<Layout />);
+    const { container } = render(<Layout>Layout</Layout>);
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();

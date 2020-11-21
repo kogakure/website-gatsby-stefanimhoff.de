@@ -9,7 +9,7 @@ import { SmallPrint, TextBlock } from '..';
 
 import { Styled } from './xing-illustrations.styles';
 
-export const XingIllustrations: React.FC = () => {
+export const XingIllustrations = () => {
   const {
     xingIllustrations: {
       childImageSharp: { fluid },

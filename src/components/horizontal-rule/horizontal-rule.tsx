@@ -6,7 +6,6 @@ export type HorizontalRuleProps = {
   noMargin?: boolean;
 };
 
-export const HorizontalRule: React.FC<HorizontalRuleProps> = ({
-  noMargin,
-  ...props
-}) => <Styled.HorizontalRule noMargin={noMargin} {...props} />;
+export const HorizontalRule = ({ noMargin, ...props }: HorizontalRuleProps) => (
+  <Styled.HorizontalRule $noMargin={noMargin} {...props} />
+);

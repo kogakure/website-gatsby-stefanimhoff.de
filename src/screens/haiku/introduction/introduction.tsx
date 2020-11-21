@@ -6,7 +6,7 @@ import { RubyAnnotation } from '../../../components/ruby-annotation';
 
 import { Styled } from './introduction.styles';
 
-export const Introduction: React.FC = () => (
+export const Introduction = () => (
   <Styled.Introduction
     data-sal="slide-up"
     data-sal-duration="800"

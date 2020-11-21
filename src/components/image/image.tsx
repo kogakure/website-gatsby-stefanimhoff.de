@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { GatsbyImageProps } from 'gatsby-image';
+import type { GatsbyImageProps } from 'gatsby-image';
 
 import { Styled } from './image.styles';
 
-export const Image: React.FC<GatsbyImageProps> = ({ ...props }) => (
+export const Image = ({ ...props }: GatsbyImageProps) => (
   <Styled.Container>
     <Styled.Image {...props} />
   </Styled.Container>

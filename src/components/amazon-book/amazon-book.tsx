@@ -1,6 +1,7 @@
 import * as React from 'react';
 
-import { Book, BookProps } from '../book';
+import { Book } from '../book';
+import type { BookProps } from '../book';
 
 const amazonBaseUrl = 'http://www.amazon.de/gp/product';
 const affiliateTag = 'stefanimhoffde-21';
@@ -19,14 +20,14 @@ export type AmazonBook = {
 
 export type AmazonBookProps = Omit<BookProps, 'src' | 'href'> & AmazonBook;
 
-export const AmazonBook: React.FC<AmazonBookProps> = ({
+export const AmazonBook = ({
   alt = '',
   asin,
   height,
   size = 'default',
   width,
   ...props
-}) => {
+}: AmazonBookProps) => {
   const affiliateUrl = `${amazonBaseUrl}/${asin}?ie=UTF8&tag=${affiliateTag}&linkCode=as2&camp=1638&creative=6742&creativeASIN=${asin}`;
   const amazonImageUrl = `https://images-na.ssl-images-amazon.com/images/P/${asin}.01.${coverSizes[size]}.jpg`;
 

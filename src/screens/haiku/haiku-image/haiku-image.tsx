@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 import { Styled } from './haiku-image.styles';
 
-export const HaikuImage: React.FC = () => {
+export const HaikuImage = () => {
   const {
     forestImage: {
       childImageSharp: { fluid },

@@ -5,7 +5,7 @@ import { Headline, Paragraph } from '../../../components/typography';
 import { MoreLink } from '../../../components/more-link';
 import { SmallPrint, TextBlock } from '..';
 
-export const Writing: React.FC = () => (
+export const Writing = () => (
   <Row variant="rightDown">
     <TextBlock data-sal="slide-up" data-sal-duration="800">
       <SmallPrint>Writing</SmallPrint>

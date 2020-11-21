@@ -8,6 +8,10 @@ export type LocalizedDateState = {
   setLocalizedDateLanguage: (localizedDate: LocalizedDateLanguage) => void;
 };
 
+export type LocalizedDateProviderProps = {
+  children: React.ReactNode;
+};
+
 const initialState: LocalizedDateState = {
   localizedDateLanguage: 'en',
   setLocalizedDateLanguage: () => {},
@@ -17,7 +21,9 @@ const useLocalizedDateState = createPersistedState('localizedDate');
 
 export const LocalizedDateContext = React.createContext(initialState);
 
-export const LocalizedDateProvider: React.FC = ({ children }) => {
+export const LocalizedDateProvider = ({
+  children,
+}: LocalizedDateProviderProps) => {
   const [
     localizedDateLanguage,
     setLocalizedDateLanguage,

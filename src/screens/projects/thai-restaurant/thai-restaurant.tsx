@@ -8,7 +8,7 @@ import { ImageBlock, SmallPrint, TextBlock } from '..';
 
 import { Styled } from './thai-restaurant.styles';
 
-export const ThaiRestaurant: React.FC = () => {
+export const ThaiRestaurant = () => {
   const {
     thaiRestaurant: {
       childImageSharp: { fluid },

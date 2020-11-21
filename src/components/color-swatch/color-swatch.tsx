@@ -10,12 +10,12 @@ export type ColorSwatchProps = {
   name?: string;
 };
 
-export const ColorSwatch: React.FC<ColorSwatchProps> = ({
+export const ColorSwatch = ({
   color,
   description,
   name,
   ...props
-}) => {
+}: ColorSwatchProps) => {
   const showToggle = name || description;
   const [toggle, setToggle] = React.useState(!showToggle);
   const colorObj = Color(color);

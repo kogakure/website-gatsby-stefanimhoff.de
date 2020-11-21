@@ -2,37 +2,18 @@ import React from 'react';
 
 import { render } from '../../services/test-utils';
 
-import {
-  Default as Title,
-  NoMargin as TitleNoMargin,
-} from './stories/title.stories';
-import {
-  Default as Headline,
-  NoMargin as HeadlineNoMargin,
-} from './stories/headline.stories';
-import {
-  Default as Subheadline,
-  NoMargin as SubheadlineNoMargin,
-} from './stories/subheadline.stories';
-import {
-  Default as SubSubheadline,
-  NoMargin as SubSubheadlineNoMargin,
-} from './stories/sub-subheadline.stories';
-import {
-  Default as Paragraph,
-  NoMargin as ParagraphNoMargin,
-} from './stories/paragraph.stories';
+import { Headline, Paragraph, SubSubheadline, Subheadline, Title } from '.';
 
 describe('Typography', () => {
   describe('Title', () => {
     test('renders correctly', () => {
-      const { container } = render(<Title />);
+      const { container } = render(<Title>Title</Title>);
 
       expect(container.firstChild).toMatchSnapshot();
     });
 
     test('with "noMargin" renders correctly', () => {
-      const { container } = render(<TitleNoMargin />);
+      const { container } = render(<Title noMargin>Title</Title>);
 
       expect(container.firstChild).toMatchSnapshot();
     });
@@ -40,13 +21,13 @@ describe('Typography', () => {
 
   describe('Headline', () => {
     test('renders correctly', () => {
-      const { container } = render(<Headline />);
+      const { container } = render(<Headline>Headline</Headline>);
 
       expect(container.firstChild).toMatchSnapshot();
     });
 
     test('with "noMargin" renders correctly', () => {
-      const { container } = render(<HeadlineNoMargin />);
+      const { container } = render(<Headline noMargin>Headline</Headline>);
 
       expect(container.firstChild).toMatchSnapshot();
     });
@@ -54,13 +35,15 @@ describe('Typography', () => {
 
   describe('Subheadline', () => {
     test('renders correctly', () => {
-      const { container } = render(<Subheadline />);
+      const { container } = render(<Subheadline>Subheadline</Subheadline>);
 
       expect(container.firstChild).toMatchSnapshot();
     });
 
     test('with "noMargin" renders correctly', () => {
-      const { container } = render(<SubheadlineNoMargin />);
+      const { container } = render(
+        <Subheadline noMargin>Subheadline</Subheadline>
+      );
 
       expect(container.firstChild).toMatchSnapshot();
     });
@@ -68,13 +51,17 @@ describe('Typography', () => {
 
   describe('SubSubheadline', () => {
     test('renders correctly', () => {
-      const { container } = render(<SubSubheadline />);
+      const { container } = render(
+        <SubSubheadline>SubSubheadline</SubSubheadline>
+      );
 
       expect(container.firstChild).toMatchSnapshot();
     });
 
     test('with "noMargin" renders correctly', () => {
-      const { container } = render(<SubSubheadlineNoMargin />);
+      const { container } = render(
+        <SubSubheadline noMargin>SubSubheadline</SubSubheadline>
+      );
 
       expect(container.firstChild).toMatchSnapshot();
     });
@@ -82,13 +69,13 @@ describe('Typography', () => {
 
   describe('Paragraph', () => {
     test('renders correctly', () => {
-      const { container } = render(<Paragraph />);
+      const { container } = render(<Paragraph>Paragraph</Paragraph>);
 
       expect(container.firstChild).toMatchSnapshot();
     });
 
     test('with "noMargin" renders correctly', () => {
-      const { container } = render(<ParagraphNoMargin />);
+      const { container } = render(<Paragraph noMargin>Paragraph</Paragraph>);
 
       expect(container.firstChild).toMatchSnapshot();
     });

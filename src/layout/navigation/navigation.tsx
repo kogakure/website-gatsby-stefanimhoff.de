@@ -8,10 +8,7 @@ export type NavigationProps = {
   navigation: NavigationItem[];
 };
 
-export const Navigation: React.FC<NavigationProps> = ({
-  navigation,
-  ...props
-}) => (
+export const Navigation = ({ navigation, ...props }: NavigationProps) => (
   <nav className="nav" role="navigation" {...props}>
     <Styled.List>
       {navigation.map((item) => (

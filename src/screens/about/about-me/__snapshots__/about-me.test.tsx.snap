@@ -140,7 +140,6 @@ exports[`About AboutMe renders correctly 1`] = `
       , a Front-End Web Developer, and Designer from Hamburg, Germany. I love design and art, reading books, watching movies and TV shows, creating
        
       <a
-        block="0"
         class="c3"
         href="/sketchnotes/"
       >
@@ -148,7 +147,6 @@ exports[`About AboutMe renders correctly 1`] = `
       </a>
       , taking photos, and writing 
       <a
-        block="0"
         class="c3"
         href="/haiku/"
       >
@@ -176,7 +174,6 @@ exports[`About AboutMe renders correctly 1`] = `
       </a>
       , and do 
       <a
-        block="0"
         class="c3"
         href="/calisthenics/"
       >
@@ -205,7 +202,6 @@ exports[`About AboutMe renders correctly 1`] = `
     >
       I see myself as a 
       <a
-        block="0"
         class="c3"
         href="/minimalism/"
       >
@@ -213,7 +209,6 @@ exports[`About AboutMe renders correctly 1`] = `
       </a>
       , a Stoic, an Introvert, and Japanophile. Writing is a passion for me. Besides writing 
       <a
-        block="0"
         class="c3"
         href="/journal/"
       >
@@ -248,7 +243,6 @@ exports[`About AboutMe renders correctly 1`] = `
     >
       See what I’m doing right 
       <a
-        block="0"
         class="c3"
         href="/now/"
       >

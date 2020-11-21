@@ -390,7 +390,9 @@ exports[`Layout renders correctly 1`] = `
       >
         <div
           class="c14"
-        />
+        >
+          Layout
+        </div>
       </div>
     </main>
     <footer
@@ -854,7 +856,9 @@ exports[`Layout with variant "blue" renders correctly 1`] = `
       >
         <div
           class="c14"
-        />
+        >
+          Layout
+        </div>
       </div>
     </main>
     <footer
@@ -1318,7 +1322,9 @@ exports[`Layout with variant "brown" renders correctly 1`] = `
       >
         <div
           class="c14"
-        />
+        >
+          Layout
+        </div>
       </div>
     </main>
     <footer
@@ -1782,7 +1788,9 @@ exports[`Layout with variant "green" renders correctly 1`] = `
       >
         <div
           class="c14"
-        />
+        >
+          Layout
+        </div>
       </div>
     </main>
     <footer

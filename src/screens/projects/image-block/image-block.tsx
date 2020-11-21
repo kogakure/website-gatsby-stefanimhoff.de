@@ -2,6 +2,10 @@ import * as React from 'react';
 
 import { Styled } from './image-block.styles';
 
-export const ImageBlock: React.FC = ({ children, ...props }) => (
+type ImageBlockProps = {
+  children: React.ReactNode;
+};
+
+export const ImageBlock = ({ children, ...props }: ImageBlockProps) => (
   <Styled.ImageBlock {...props}>{children}</Styled.ImageBlock>
 );

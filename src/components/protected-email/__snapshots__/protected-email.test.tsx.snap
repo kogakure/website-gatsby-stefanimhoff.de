@@ -59,7 +59,7 @@ exports[`ProtectedEmail with custom title renders correctly 1`] = `
     href="#"
     rel="nofollow noopener noreferrer external"
   >
-    Email me today!
+    title
   </a>
 </span>
 `;

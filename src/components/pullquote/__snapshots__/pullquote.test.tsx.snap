@@ -1,180 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pullquote renders correctly 1`] = `
-.c0 {
-  padding: clamp( 1.2rem,2.57vw,1.44rem);
-  text-align: center;
-}
-
-.c0[lang|='ja'] {
-  font-style: normal;
-}
-
-.c0 p {
-  font-size: clamp(1.25rem,1.8vw,2.00rem);
-  font-weight: 900;
-  line-height: 1.0;
-  margin: 0;
-}
-
-.c0 p:first-child::before {
-  content: open-quote;
-  font-style: normal;
-}
-
-.c0 p:nth-of-type(1):first-letter {
-  margin-left: -0.4em;
-}
-
-.c0[lang|='de'] p:nth-of-type(1):first-letter {
-  margin-left: -0.6em;
-}
-
-.c0[lang|='ja'] p:nth-of-type(1):first-letter {
-  margin-left: -1em;
-}
-
-.c0 p:nth-last-of-type(1)::after {
-  content: close-quote;
-  font-style: normal;
-}
-
-.c1 {
-  font-size: clamp(0.65rem,0.8vw,0.75rem);
-  font-weight: normal;
-  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
-}
-
-<blockquote
-  class="c0"
-  lang="en"
->
-  <p>
-    No time for pessimism.
-  </p>
-  <footer
-    class="c1"
-  />
-</blockquote>
-`;
-
-exports[`Pullquote with German language renders correctly 1`] = `
-.c0 {
-  padding: clamp( 1.2rem,2.57vw,1.44rem);
-  text-align: center;
-}
-
-.c0[lang|='ja'] {
-  font-style: normal;
-}
-
-.c0 p {
-  font-size: clamp(1.25rem,1.8vw,2.00rem);
-  font-weight: 900;
-  line-height: 1.0;
-  margin: 0;
-}
-
-.c0 p:first-child::before {
-  content: open-quote;
-  font-style: normal;
-}
-
-.c0 p:nth-of-type(1):first-letter {
-  margin-left: -0.4em;
-}
-
-.c0[lang|='de'] p:nth-of-type(1):first-letter {
-  margin-left: -0.6em;
-}
-
-.c0[lang|='ja'] p:nth-of-type(1):first-letter {
-  margin-left: -1em;
-}
-
-.c0 p:nth-last-of-type(1)::after {
-  content: close-quote;
-  font-style: normal;
-}
-
-.c1 {
-  font-size: clamp(0.65rem,0.8vw,0.75rem);
-  font-weight: normal;
-  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
-}
-
-<blockquote
-  class="c0"
-  lang="de"
->
-  <p>
-    Keine Zeit für Pessimismus.
-  </p>
-  <footer
-    class="c1"
-  />
-</blockquote>
-`;
-
-exports[`Pullquote with Japanese language renders correctly 1`] = `
-.c0 {
-  padding: clamp( 1.2rem,2.57vw,1.44rem);
-  text-align: center;
-}
-
-.c0[lang|='ja'] {
-  font-style: normal;
-}
-
-.c0 p {
-  font-size: clamp(1.25rem,1.8vw,2.00rem);
-  font-weight: 900;
-  line-height: 1.0;
-  margin: 0;
-}
-
-.c0 p:first-child::before {
-  content: open-quote;
-  font-style: normal;
-}
-
-.c0 p:nth-of-type(1):first-letter {
-  margin-left: -0.4em;
-}
-
-.c0[lang|='de'] p:nth-of-type(1):first-letter {
-  margin-left: -0.6em;
-}
-
-.c0[lang|='ja'] p:nth-of-type(1):first-letter {
-  margin-left: -1em;
-}
-
-.c0 p:nth-last-of-type(1)::after {
-  content: close-quote;
-  font-style: normal;
-}
-
-.c1 {
-  font-size: clamp(0.65rem,0.8vw,0.75rem);
-  font-weight: normal;
-  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
-}
-
-<blockquote
-  class="c0"
-  lang="ja"
->
-  <p>
-    悲観の時い
-  </p>
-  <footer
-    class="c1"
-  />
-</blockquote>
-`;
-
-exports[`Pullquote with author and source renders correctly 1`] = `
+exports[`Pullquote renders in author 1`] = `
 .c0 {
   padding: clamp( 1.2rem,2.57vw,1.44rem);
   text-align: center;
@@ -228,7 +54,7 @@ exports[`Pullquote with author and source renders correctly 1`] = `
   lang="en"
 >
   <p>
-    How we spend our days is, of course, how we spend our lives.
+    Pullquote
   </p>
   <footer
     class="c1"
@@ -236,87 +62,87 @@ exports[`Pullquote with author and source renders correctly 1`] = `
     <b
       class="c2"
     >
-      Annie Dillard
+      author
+    </b>
+  </footer>
+</blockquote>
+`;
+
+exports[`Pullquote renders in author, source 1`] = `
+.c0 {
+  padding: clamp( 1.2rem,2.57vw,1.44rem);
+  text-align: center;
+}
+
+.c0[lang|='ja'] {
+  font-style: normal;
+}
+
+.c0 p {
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
+  font-weight: 900;
+  line-height: 1.0;
+  margin: 0;
+}
+
+.c0 p:first-child::before {
+  content: open-quote;
+  font-style: normal;
+}
+
+.c0 p:nth-of-type(1):first-letter {
+  margin-left: -0.4em;
+}
+
+.c0[lang|='de'] p:nth-of-type(1):first-letter {
+  margin-left: -0.6em;
+}
+
+.c0[lang|='ja'] p:nth-of-type(1):first-letter {
+  margin-left: -1em;
+}
+
+.c0 p:nth-last-of-type(1)::after {
+  content: close-quote;
+  font-style: normal;
+}
+
+.c1 {
+  font-size: clamp(0.65rem,0.8vw,0.75rem);
+  font-weight: normal;
+  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
+}
+
+.c2 {
+  font-style: normal;
+}
+
+<blockquote
+  class="c0"
+  lang="en"
+>
+  <p>
+    Pullquote
+  </p>
+  <footer
+    class="c1"
+  >
+    <b
+      class="c2"
+    >
+      author
     </b>
     , 
     <cite
       class=""
     >
-      The Writing Life
+      source
     </cite>
   </footer>
 </blockquote>
 `;
 
-exports[`Pullquote with author renders correctly 1`] = `
-.c0 {
-  padding: clamp( 1.2rem,2.57vw,1.44rem);
-  text-align: center;
-}
-
-.c0[lang|='ja'] {
-  font-style: normal;
-}
-
-.c0 p {
-  font-size: clamp(1.25rem,1.8vw,2.00rem);
-  font-weight: 900;
-  line-height: 1.0;
-  margin: 0;
-}
-
-.c0 p:first-child::before {
-  content: open-quote;
-  font-style: normal;
-}
-
-.c0 p:nth-of-type(1):first-letter {
-  margin-left: -0.4em;
-}
-
-.c0[lang|='de'] p:nth-of-type(1):first-letter {
-  margin-left: -0.6em;
-}
-
-.c0[lang|='ja'] p:nth-of-type(1):first-letter {
-  margin-left: -1em;
-}
-
-.c0 p:nth-last-of-type(1)::after {
-  content: close-quote;
-  font-style: normal;
-}
-
-.c1 {
-  font-size: clamp(0.65rem,0.8vw,0.75rem);
-  font-weight: normal;
-  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
-}
-
-.c2 {
-  font-style: normal;
-}
-
-<blockquote
-  class="c0"
-  lang="en"
->
-  <p>
-    How we spend our days is, of course, how we spend our lives.
-  </p>
-  <footer
-    class="c1"
-  >
-    <b
-      class="c2"
-    >
-      Annie Dillard
-    </b>
-  </footer>
-</blockquote>
-`;
-
-exports[`Pullquote with author, source and URL renders correctly 1`] = `
+exports[`Pullquote renders in author, source, sourceUrl 1`] = `
 .c3 {
   color: var(--colorForeground);
   font-weight: 600;
@@ -386,7 +212,7 @@ exports[`Pullquote with author, source and URL renders correctly 1`] = `
   lang="en"
 >
   <p>
-    How we spend our days is, of course, how we spend our lives.
+    Pullquote
   </p>
   <footer
     class="c1"
@@ -394,7 +220,7 @@ exports[`Pullquote with author, source and URL renders correctly 1`] = `
     <b
       class="c2"
     >
-      Annie Dillard
+      author
     </b>
     , 
     <cite
@@ -402,17 +228,255 @@ exports[`Pullquote with author, source and URL renders correctly 1`] = `
     >
       <a
         class="c3"
-        href="https://www.goodreads.com/book/show/12530.The_Writing_Life"
+        href="sourceUrl"
         rel="nofollow noopener noreferrer external"
       >
-        The Writing Life
+        source
       </a>
     </cite>
   </footer>
 </blockquote>
 `;
 
-exports[`Pullquote with source and URL renders correctly 1`] = `
+exports[`Pullquote renders in default 1`] = `
+.c0 {
+  padding: clamp( 1.2rem,2.57vw,1.44rem);
+  text-align: center;
+}
+
+.c0[lang|='ja'] {
+  font-style: normal;
+}
+
+.c0 p {
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
+  font-weight: 900;
+  line-height: 1.0;
+  margin: 0;
+}
+
+.c0 p:first-child::before {
+  content: open-quote;
+  font-style: normal;
+}
+
+.c0 p:nth-of-type(1):first-letter {
+  margin-left: -0.4em;
+}
+
+.c0[lang|='de'] p:nth-of-type(1):first-letter {
+  margin-left: -0.6em;
+}
+
+.c0[lang|='ja'] p:nth-of-type(1):first-letter {
+  margin-left: -1em;
+}
+
+.c0 p:nth-last-of-type(1)::after {
+  content: close-quote;
+  font-style: normal;
+}
+
+.c1 {
+  font-size: clamp(0.65rem,0.8vw,0.75rem);
+  font-weight: normal;
+  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
+}
+
+<blockquote
+  class="c0"
+  lang="en"
+>
+  <p>
+    Pullquote
+  </p>
+  <footer
+    class="c1"
+  />
+</blockquote>
+`;
+
+exports[`Pullquote renders in german 1`] = `
+.c0 {
+  padding: clamp( 1.2rem,2.57vw,1.44rem);
+  text-align: center;
+}
+
+.c0[lang|='ja'] {
+  font-style: normal;
+}
+
+.c0 p {
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
+  font-weight: 900;
+  line-height: 1.0;
+  margin: 0;
+}
+
+.c0 p:first-child::before {
+  content: open-quote;
+  font-style: normal;
+}
+
+.c0 p:nth-of-type(1):first-letter {
+  margin-left: -0.4em;
+}
+
+.c0[lang|='de'] p:nth-of-type(1):first-letter {
+  margin-left: -0.6em;
+}
+
+.c0[lang|='ja'] p:nth-of-type(1):first-letter {
+  margin-left: -1em;
+}
+
+.c0 p:nth-last-of-type(1)::after {
+  content: close-quote;
+  font-style: normal;
+}
+
+.c1 {
+  font-size: clamp(0.65rem,0.8vw,0.75rem);
+  font-weight: normal;
+  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
+}
+
+<blockquote
+  class="c0"
+  lang="de"
+>
+  <p>
+    Pullquote
+  </p>
+  <footer
+    class="c1"
+  />
+</blockquote>
+`;
+
+exports[`Pullquote renders in japanese 1`] = `
+.c0 {
+  padding: clamp( 1.2rem,2.57vw,1.44rem);
+  text-align: center;
+}
+
+.c0[lang|='ja'] {
+  font-style: normal;
+}
+
+.c0 p {
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
+  font-weight: 900;
+  line-height: 1.0;
+  margin: 0;
+}
+
+.c0 p:first-child::before {
+  content: open-quote;
+  font-style: normal;
+}
+
+.c0 p:nth-of-type(1):first-letter {
+  margin-left: -0.4em;
+}
+
+.c0[lang|='de'] p:nth-of-type(1):first-letter {
+  margin-left: -0.6em;
+}
+
+.c0[lang|='ja'] p:nth-of-type(1):first-letter {
+  margin-left: -1em;
+}
+
+.c0 p:nth-last-of-type(1)::after {
+  content: close-quote;
+  font-style: normal;
+}
+
+.c1 {
+  font-size: clamp(0.65rem,0.8vw,0.75rem);
+  font-weight: normal;
+  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
+}
+
+<blockquote
+  class="c0"
+  lang="ja"
+>
+  <p>
+    Pullquote
+  </p>
+  <footer
+    class="c1"
+  />
+</blockquote>
+`;
+
+exports[`Pullquote renders in source 1`] = `
+.c0 {
+  padding: clamp( 1.2rem,2.57vw,1.44rem);
+  text-align: center;
+}
+
+.c0[lang|='ja'] {
+  font-style: normal;
+}
+
+.c0 p {
+  font-size: clamp(1.25rem,1.8vw,2.00rem);
+  font-weight: 900;
+  line-height: 1.0;
+  margin: 0;
+}
+
+.c0 p:first-child::before {
+  content: open-quote;
+  font-style: normal;
+}
+
+.c0 p:nth-of-type(1):first-letter {
+  margin-left: -0.4em;
+}
+
+.c0[lang|='de'] p:nth-of-type(1):first-letter {
+  margin-left: -0.6em;
+}
+
+.c0[lang|='ja'] p:nth-of-type(1):first-letter {
+  margin-left: -1em;
+}
+
+.c0 p:nth-last-of-type(1)::after {
+  content: close-quote;
+  font-style: normal;
+}
+
+.c1 {
+  font-size: clamp(0.65rem,0.8vw,0.75rem);
+  font-weight: normal;
+  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
+}
+
+<blockquote
+  class="c0"
+  lang="en"
+>
+  <p>
+    Pullquote
+  </p>
+  <footer
+    class="c1"
+  >
+    <cite
+      class=""
+    >
+      source
+    </cite>
+  </footer>
+</blockquote>
+`;
+
+exports[`Pullquote renders in source, sourceUrl 1`] = `
 .c2 {
   color: var(--colorForeground);
   font-weight: 600;
@@ -478,7 +542,7 @@ exports[`Pullquote with source and URL renders correctly 1`] = `
   lang="en"
 >
   <p>
-    How we spend our days is, of course, how we spend our lives.
+    Pullquote
   </p>
   <footer
     class="c1"
@@ -488,75 +552,11 @@ exports[`Pullquote with source and URL renders correctly 1`] = `
     >
       <a
         class="c2"
-        href="https://www.goodreads.com/book/show/12530.The_Writing_Life"
+        href="sourceUrl"
         rel="nofollow noopener noreferrer external"
       >
-        The Writing Life
+        source
       </a>
-    </cite>
-  </footer>
-</blockquote>
-`;
-
-exports[`Pullquote with source renders correctly 1`] = `
-.c0 {
-  padding: clamp( 1.2rem,2.57vw,1.44rem);
-  text-align: center;
-}
-
-.c0[lang|='ja'] {
-  font-style: normal;
-}
-
-.c0 p {
-  font-size: clamp(1.25rem,1.8vw,2.00rem);
-  font-weight: 900;
-  line-height: 1.0;
-  margin: 0;
-}
-
-.c0 p:first-child::before {
-  content: open-quote;
-  font-style: normal;
-}
-
-.c0 p:nth-of-type(1):first-letter {
-  margin-left: -0.4em;
-}
-
-.c0[lang|='de'] p:nth-of-type(1):first-letter {
-  margin-left: -0.6em;
-}
-
-.c0[lang|='ja'] p:nth-of-type(1):first-letter {
-  margin-left: -1em;
-}
-
-.c0 p:nth-last-of-type(1)::after {
-  content: close-quote;
-  font-style: normal;
-}
-
-.c1 {
-  font-size: clamp(0.65rem,0.8vw,0.75rem);
-  font-weight: normal;
-  margin-top: clamp( 0.694rem,1.49vw,0.833rem);
-}
-
-<blockquote
-  class="c0"
-  lang="en"
->
-  <p>
-    How we spend our days is, of course, how we spend our lives.
-  </p>
-  <footer
-    class="c1"
-  >
-    <cite
-      class=""
-    >
-      The Writing Life
     </cite>
   </footer>
 </blockquote>

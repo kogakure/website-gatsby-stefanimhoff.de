@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { fontSize, fontWeight } from '../../../layout/tokens';
 
-import { HaikuCellProps } from './haiku-cell';
+import type { HaikuCellProps } from './haiku-cell';
 
 const Cell = styled.div<HaikuCellProps>`
   ${({ dark }) => dark && 'background: var(--colorBackgroundDark)'};

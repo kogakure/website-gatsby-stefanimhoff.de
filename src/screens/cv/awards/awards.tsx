@@ -10,7 +10,7 @@ export type AwardsProps = {
   data: CvAwards;
 };
 
-export const Awards: React.FC<AwardsProps> = ({ data, ...props }) => (
+export const Awards = ({ data, ...props }: AwardsProps) => (
   <Styled.Awards {...props}>
     <Headline>{data.headline}</Headline>
     <UnorderedList>

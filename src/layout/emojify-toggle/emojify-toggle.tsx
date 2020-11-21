@@ -4,7 +4,7 @@ import { EmojifyContext } from '../../contexts';
 
 import { Styled } from './emojify-toggle.styles';
 
-export const EmojifyToggle: React.FC = () => {
+export const EmojifyToggle = () => {
   const { emojified, setEmojified } = React.useContext(EmojifyContext);
   const buttonText = emojified ? 'Hide Emoji' : 'Show Emoji';
   const emoji = emojified ? '🙈' : '🐵';

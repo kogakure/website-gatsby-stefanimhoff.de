@@ -8,7 +8,7 @@ import { ImageBlock, SmallPrint, TextBlock } from '..';
 
 import { Styled } from './stefanimhoff-v2.styles';
 
-export const StefanImhoffV2: React.FC = () => {
+export const StefanImhoffV2 = () => {
   const {
     stefanImhoffV2: {
       childImageSharp: { fluid },

@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 import { Styled } from './cover-image.styles';
 
-export const CoverImage: React.FC = () => {
+export const CoverImage = () => {
   const {
     bonsaiImage: {
       childImageSharp: { fluid },

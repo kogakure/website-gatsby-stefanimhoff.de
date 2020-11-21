@@ -3,68 +3,35 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../services/test-utils';
 
-import {
-  Default,
-  GermanNested,
-  JapaneseNested,
-  Nested,
-} from './inline-quote.stories';
+import { InlineQuote } from '.';
+import type { InlineQuoteProps } from '.';
+
+type InlineQuoteTestProps = InlineQuoteProps & {
+  description: string;
+};
 
 describe('InlineQuote', () => {
-  test('renders correctly', () => {
-    const { container } = render(<Default />);
+  const combinations: InlineQuoteTestProps[] = [
+    { description: 'default', children: 'Quote' },
+    { description: 'lang en', children: 'Quote', lang: 'en' },
+    { description: 'lang de', children: 'Quote', lang: 'de' },
+    { description: 'lang ja', children: 'Quote', lang: 'ja' },
+  ];
 
-    expect(container.firstChild).toMatchSnapshot();
-  });
-
-  test('is accessible', async () => {
-    const { container } = render(<Default />);
-    const results = await axe(container);
-
-    expect(results).toHaveNoViolations();
-  });
-
-  describe('nested', () => {
-    test('renders correctly', () => {
-      const { container } = render(<Nested />);
+  combinations.forEach((combination) => {
+    test(`renders in ${combination.description}`, () => {
+      const { container } = render(<InlineQuote {...combination} />);
 
       expect(container.firstChild).toMatchSnapshot();
     });
+  });
 
-    test('is accessible', async () => {
-      const { container } = render(<Nested />);
+  combinations.forEach((combination) => {
+    test(`is accessible in ${combination.description}`, async () => {
+      const { container } = render(<InlineQuote {...combination} />);
       const results = await axe(container);
 
       expect(results).toHaveNoViolations();
-    });
-    describe('in German', () => {
-      test('renders correctly', () => {
-        const { container } = render(<GermanNested />);
-
-        expect(container.firstChild).toMatchSnapshot();
-      });
-
-      test('is accessible', async () => {
-        const { container } = render(<GermanNested />);
-        const results = await axe(container);
-
-        expect(results).toHaveNoViolations();
-      });
-    });
-
-    describe('in Japanese', () => {
-      test('renders correctly', () => {
-        const { container } = render(<JapaneseNested />);
-
-        expect(container.firstChild).toMatchSnapshot();
-      });
-
-      test('is accessible', async () => {
-        const { container } = render(<JapaneseNested />);
-        const results = await axe(container);
-
-        expect(results).toHaveNoViolations();
-      });
     });
   });
 });

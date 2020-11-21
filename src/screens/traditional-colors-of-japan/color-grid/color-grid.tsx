@@ -5,7 +5,7 @@ import { ColorSwatch } from '../../../components/color-swatch';
 
 import { Styled } from './color-grid.styles';
 
-export const ColorGrid: React.FC = () => {
+export const ColorGrid = () => {
   const {
     allJapaneseColorYaml: { nodes },
   } = useJapaneseColorQuery();

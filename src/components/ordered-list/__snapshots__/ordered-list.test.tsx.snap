@@ -22,20 +22,13 @@ li .c0 {
   class="c0"
 >
   <li>
-    Early Stoics
-    <ol
-      class="c0"
-    >
-      <li>
-        Zeno of Citium
-      </li>
-      <li>
-        Chrysippus
-      </li>
-      <li>
-        Chrysippus
-      </li>
-    </ol>
+    Item 1
+  </li>
+  <li>
+    Item 2
+  </li>
+  <li>
+    Item 3
   </li>
 </ol>
 `;

@@ -8,7 +8,7 @@ import {
   transitionDuration,
 } from '../../layout/tokens';
 
-import { TypographyProps } from './typography';
+import type { TypographyProps } from './typography';
 
 const autoLinkBaseStyles = css`
   & .autolink {

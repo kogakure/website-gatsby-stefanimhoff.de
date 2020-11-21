@@ -7,7 +7,7 @@ import { TextLink } from '../../../components/text-link';
 
 import { Styled } from './connect.styles';
 
-export const Connect: React.FC = () => {
+export const Connect = () => {
   const {
     allSocialMediaYaml: { nodes },
   } = useSocialMediaQuery();

@@ -1,14 +1,12 @@
 import * as React from 'react';
 
-import { IconLink, TextLinkWithIconProps } from '../icon-link';
+import { IconLink } from '../icon-link';
+import type { IconLinkProps } from '../icon-link';
 import { ArrowRight } from '../icons';
 
-export type MoreLinkProps = Omit<TextLinkWithIconProps, 'icon'>;
+export type MoreLinkProps = Omit<IconLinkProps, 'icon'>;
 
-export const MoreLink: React.FC<MoreLinkProps> = ({
-  children = 'More',
-  ...props
-}) => (
+export const MoreLink = ({ children = 'More', ...props }: MoreLinkProps) => (
   <IconLink animation="right" icon={<ArrowRight />} {...props}>
     {children}
   </IconLink>

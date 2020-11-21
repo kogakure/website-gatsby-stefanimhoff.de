@@ -1,148 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Attribution renders correctly 1`] = `
-.c3 {
-  color: var(--colorForeground);
-  font-weight: 600;
-  -webkit-text-decoration-color: var(--colorForegroundSoft);
-  text-decoration-color: var(--colorForegroundSoft);
-  -webkit-text-decoration-thickness: 0.1em;
-  text-decoration-thickness: 0.1em;
-  text-underline-offset: 0.1em;
-}
-
-.c3:hover,
-.c3:focus {
-  -webkit-text-decoration-color: var(--colorAccent);
-  text-decoration-color: var(--colorAccent);
-}
-
-.c0 {
-  list-style: none;
-  padding: 0;
-}
-
-.c1 {
-  margin-bottom: clamp( 0.402rem,0.86vw,0.482rem);
-}
-
-.c2 {
-  white-space: nowrap;
-}
-
-<ul
-  class="c0"
->
-  <li
-    class="c1"
-  >
-    <cite>
-      Sunflowers
-      . 
-    </cite>
-    <span
-      class="c2"
-    >
-      Photography by
-       
-      <a
-        class="c3"
-        href="https://www.stefanimhoff.de"
-        rel="nofollow noopener noreferrer external"
-      >
-        Stefan Imhoff
-      </a>
-    </span>
-  </li>
-</ul>
-`;
-
-exports[`Attribution with author and link renders correctly 1`] = `
-.c3 {
-  color: var(--colorForeground);
-  font-weight: 600;
-  -webkit-text-decoration-color: var(--colorForegroundSoft);
-  text-decoration-color: var(--colorForegroundSoft);
-  -webkit-text-decoration-thickness: 0.1em;
-  text-decoration-thickness: 0.1em;
-  text-underline-offset: 0.1em;
-}
-
-.c3:hover,
-.c3:focus {
-  -webkit-text-decoration-color: var(--colorAccent);
-  text-decoration-color: var(--colorAccent);
-}
-
-.c0 {
-  list-style: none;
-  padding: 0;
-}
-
-.c1 {
-  margin-bottom: clamp( 0.402rem,0.86vw,0.482rem);
-}
-
-.c2 {
-  white-space: nowrap;
-}
-
-<ul
-  class="c0"
->
-  <li
-    class="c1"
-  >
-    <span
-      class="c2"
-    >
-      Photography by
-       
-      <a
-        class="c3"
-        href="https://www.stefanimhoff.de"
-        rel="nofollow noopener noreferrer external"
-      >
-        Stefan Imhoff
-      </a>
-    </span>
-  </li>
-</ul>
-`;
-
-exports[`Attribution with author renders correctly 1`] = `
-.c0 {
-  list-style: none;
-  padding: 0;
-}
-
-.c1 {
-  margin-bottom: clamp( 0.402rem,0.86vw,0.482rem);
-}
-
-.c2 {
-  white-space: nowrap;
-}
-
-<ul
-  class="c0"
->
-  <li
-    class="c1"
-  >
-    <span
-      class="c2"
-    >
-      Photography by 
-      <b>
-        Stefan Imhoff
-      </b>
-    </span>
-  </li>
-</ul>
-`;
-
-exports[`Attribution with multiple attributions renders correctly 1`] = `
+exports[`Attribution renders in author 1`] = `
 .c3 {
   color: var(--colorForeground);
   font-weight: 600;
@@ -215,7 +73,149 @@ exports[`Attribution with multiple attributions renders correctly 1`] = `
 </ul>
 `;
 
-exports[`Attribution with title and author renders correctly 1`] = `
+exports[`Attribution renders in author and url 1`] = `
+.c3 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c3:hover,
+.c3:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c0 {
+  list-style: none;
+  padding: 0;
+}
+
+.c1 {
+  margin-bottom: clamp( 0.402rem,0.86vw,0.482rem);
+}
+
+.c2 {
+  white-space: nowrap;
+}
+
+<ul
+  class="c0"
+>
+  <li
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      Photography by
+       
+      <a
+        class="c3"
+        href="https://www.stefanimhoff.de"
+        rel="nofollow noopener noreferrer external"
+      >
+        Stefan Imhoff
+      </a>
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Attribution renders in default 1`] = `
+.c3 {
+  color: var(--colorForeground);
+  font-weight: 600;
+  -webkit-text-decoration-color: var(--colorForegroundSoft);
+  text-decoration-color: var(--colorForegroundSoft);
+  -webkit-text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
+}
+
+.c3:hover,
+.c3:focus {
+  -webkit-text-decoration-color: var(--colorAccent);
+  text-decoration-color: var(--colorAccent);
+}
+
+.c0 {
+  list-style: none;
+  padding: 0;
+}
+
+.c1 {
+  margin-bottom: clamp( 0.402rem,0.86vw,0.482rem);
+}
+
+.c2 {
+  white-space: nowrap;
+}
+
+<ul
+  class="c0"
+>
+  <li
+    class="c1"
+  >
+    <cite>
+      Sunflowers
+      . 
+    </cite>
+    <span
+      class="c2"
+    >
+      Photography by
+       
+      <a
+        class="c3"
+        href="https://www.stefanimhoff.de"
+        rel="nofollow noopener noreferrer external"
+      >
+        Stefan Imhoff
+      </a>
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Attribution renders in multiple authors 1`] = `
+.c0 {
+  list-style: none;
+  padding: 0;
+}
+
+.c1 {
+  margin-bottom: clamp( 0.402rem,0.86vw,0.482rem);
+}
+
+.c2 {
+  white-space: nowrap;
+}
+
+<ul
+  class="c0"
+>
+  <li
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      Photography by 
+      <b>
+        Stefan Imhoff
+      </b>
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`Attribution renders in title and author 1`] = `
 .c0 {
   list-style: none;
   padding: 0;

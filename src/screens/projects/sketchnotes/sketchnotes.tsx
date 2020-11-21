@@ -8,7 +8,7 @@ import { SmallPrint, ImageBlock, TextBlock } from '..';
 
 import { Styled } from './sketchnotes.styles';
 
-export const Sketchnotes: React.FC = () => {
+export const Sketchnotes = () => {
   const {
     sketchnotesImage: {
       childImageSharp: { fluid },

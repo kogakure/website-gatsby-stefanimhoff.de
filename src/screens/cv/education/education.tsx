@@ -14,7 +14,7 @@ export type EducationProps = {
   data: CvEducation;
 };
 
-export const Education: React.FC<EducationProps> = ({ data, ...props }) => (
+export const Education = ({ data, ...props }: EducationProps) => (
   <Styled.Education {...props}>
     <Headline>{data.headline}</Headline>
     {data.items.map(({ degree, duration, location, school, url }) => (

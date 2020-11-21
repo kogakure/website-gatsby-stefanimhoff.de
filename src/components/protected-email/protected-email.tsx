@@ -9,11 +9,11 @@ export type ProtectedEmailProps = {
   noKeyDownload?: boolean;
 };
 
-export const ProtectedEmail: React.FC<ProtectedEmailProps> = ({
-  noKeyDownload,
+export const ProtectedEmail = ({
+  noKeyDownload = false,
   title = 'Email',
   ...props
-}) => {
+}: ProtectedEmailProps) => {
   const [emailVisible, setEmailVisible] = React.useState(false);
   const downloadText = 'Download public key (ProtonMail/GPG)';
 

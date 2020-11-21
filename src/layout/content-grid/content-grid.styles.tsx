@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 import { mediaQuery } from '../tokens';
 
-import { ContentGridProps } from './content-grid';
+import type { ContentGridProps } from './content-grid';
 
 export const sizes = {
   fullsize: css`

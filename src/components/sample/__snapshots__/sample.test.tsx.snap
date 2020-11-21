@@ -13,6 +13,6 @@ exports[`Sample renders correctly 1`] = `
 <samp
   class="c0"
 >
-  Error -1
+  Sample
 </samp>
 `;

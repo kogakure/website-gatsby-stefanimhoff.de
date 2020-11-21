@@ -8,7 +8,7 @@ import { ImageBlock, SmallPrint, TextBlock } from '..';
 
 import { Styled } from './osteopathie-hamburg.styles';
 
-export const OsteopathieHamburg: React.FC = () => {
+export const OsteopathieHamburg = () => {
   const {
     osteopathieHamburg: {
       childImageSharp: { fluid },

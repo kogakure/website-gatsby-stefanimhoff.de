@@ -3,7 +3,7 @@ import { Link as GatsbyLink } from 'gatsby';
 
 import { ArrowLeftS, ArrowRightS } from '../../components/icons';
 
-import { PaginationProps } from '.';
+import type { PaginationProps } from '.';
 
 export const variants = {
   left: css`

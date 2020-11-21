@@ -6,7 +6,7 @@ import { TextLink } from '../../../components/text-link';
 
 import { Styled } from './about-me.styles';
 
-export const AboutMe: React.FC = () => (
+export const AboutMe = () => (
   <Styled.AboutMe>
     <div data-sal="slide-up" data-sal-duration="800" data-sal-delay="300">
       <Subheadline as="h2">

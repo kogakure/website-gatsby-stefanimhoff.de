@@ -28,15 +28,7 @@ exports[`Verse renders correctly 1`] = `
   <pre
     class="c1"
   >
-    <p>
-      God guard me from those thoughts men think
-      <br />
-      In the mind alone;
-      <br />
-      He that sings a lasting song
-      <br />
-      Thinks in a marrow bone.
-    </p>
+    Verse
   </pre>
 </blockquote>
 `;
@@ -69,15 +61,7 @@ exports[`Verse with "center" renders correctly 1`] = `
   <pre
     class="c1"
   >
-    <p>
-      God guard me from those thoughts men think
-      <br />
-      In the mind alone;
-      <br />
-      He that sings a lasting song
-      <br />
-      Thinks in a marrow bone.
-    </p>
+    Verse
   </pre>
 </blockquote>
 `;
@@ -111,15 +95,7 @@ exports[`Verse with "left" renders correctly 1`] = `
   <pre
     class="c1"
   >
-    <p>
-      God guard me from those thoughts men think
-      <br />
-      In the mind alone;
-      <br />
-      He that sings a lasting song
-      <br />
-      Thinks in a marrow bone.
-    </p>
+    Verse
   </pre>
 </blockquote>
 `;

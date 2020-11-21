@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { Styled } from './haiku.styles';
 
-export const Haiku: React.FC = () => (
+export const Haiku = () => (
   <Styled.Haiku variant="left" data-sal="slide-up" data-sal-duration="800">
     You searched for something.
     <br />

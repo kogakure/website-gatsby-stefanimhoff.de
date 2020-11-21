@@ -28,48 +28,7 @@ exports[`Table renders correctly 1`] = `
       <th>
         Table Header
       </th>
-      <th>
-        Table Header
-      </th>
-      <th>
-        Table Header
-      </th>
     </tr>
   </thead>
-  <tbody>
-    <tr>
-      <td>
-        Table Cell
-      </td>
-      <td>
-        Table Cell
-      </td>
-      <td>
-        Table Cell
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Table Cell
-      </td>
-      <td>
-        Table Cell
-      </td>
-      <td>
-        Table Cell
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Table Cell
-      </td>
-      <td>
-        Table Cell
-      </td>
-      <td>
-        Table Cell
-      </td>
-    </tr>
-  </tbody>
 </table>
 `;

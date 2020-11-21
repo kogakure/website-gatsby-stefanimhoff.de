@@ -1,10 +1,17 @@
-import React from 'react';
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react/types-6-0';
 
 import { Banner } from '.';
+import type { BannerProps } from '.';
 
 export default {
+  title: 'Misc/Banner',
   component: Banner,
-  title: 'Banner',
-};
+} as Meta;
 
-export const Default = () => <Banner>Banner</Banner>;
+const Template: Story<BannerProps> = (args) => <Banner {...args} />;
+
+export const Default = Template.bind({});
+Default.args = {
+  children: 'Banner',
+};

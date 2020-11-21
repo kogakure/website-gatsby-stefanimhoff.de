@@ -1,6 +1,89 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Book renders correctly 1`] = `
+exports[`Book renders in default 1`] = `
+.c0 {
+  box-shadow: 0 0.1em 0.5em rgba(0,0,0,0.5);
+  display: grid;
+  position: relative;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  vertical-align: bottom;
+}
+
+.c0:hover,
+.c0:focus {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+.c0::before {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background: linear-gradient( to left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 90% );
+  box-shadow: 0.1em 0 rgba(0,0,0,0.1),2px 0 0px rgba(255,255,255,0.1);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 0.5em;
+  z-index: 2;
+}
+
+.c0::after {
+  border-radius: 4em / 2em;
+  bottom: 1em;
+  box-shadow: 0 0 2em rgba(0,0,0,0.8);
+  content: '';
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 50%;
+  top: 1em;
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  z-index: -1;
+}
+
+.c0:hover::after,
+.c0:focus::after {
+  opacity: 1;
+}
+
+.c1 {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  display: block;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+}
+
+<div
+  class="c0"
+>
+  <img
+    alt=""
+    class="c1"
+    src="book.jpg"
+  />
+</div>
+`;
+
+exports[`Book renders in height, width 1`] = `
 .c0 {
   box-shadow: 0 0.1em 0.5em rgba(0,0,0,0.5);
   display: grid;
@@ -79,13 +162,13 @@ exports[`Book renders correctly 1`] = `
     alt=""
     class="c1"
     height="393"
-    src="[object Object]"
+    src="book.jpg"
     width="300"
   />
 </div>
 `;
 
-exports[`Book with "href" renders correctly 1`] = `
+exports[`Book renders in href 1`] = `
 .c0 {
   box-shadow: 0 0.1em 0.5em rgba(0,0,0,0.5);
   display: grid;
@@ -159,15 +242,13 @@ exports[`Book with "href" renders correctly 1`] = `
 
 <a
   class="c0"
-  href="https://book.kogakure.de/"
+  href="/"
   rel="nofollow noopener noreferrer external"
 >
   <img
-    alt="kogakure"
+    alt="href"
     class="c1"
-    height="393"
-    src="[object Object]"
-    width="300"
+    src="book.jpg"
   />
 </a>
 `;

@@ -3,27 +3,28 @@ import * as React from 'react';
 import { Styled } from './text-link.styles';
 
 export type TextLinkProps = {
-  block?: boolean | 0 | 1;
+  children?: React.ReactNode;
+  block?: boolean;
   href?: string;
   to?: string;
   target?: string;
 };
 
-export const TextLink: React.FC<TextLinkProps> = ({
-  block,
+export const TextLink = ({
+  block = false,
   children,
   href,
   to,
   ...props
-}) =>
+}: TextLinkProps) =>
   to ? (
     // https://github.com/styled-components/styled-components/issues/1198
-    <Styled.TextLinkRouter block={block ? 1 : 0} to={to} {...props}>
+    <Styled.TextLinkRouter $block={block} to={to} {...props}>
       {children}
     </Styled.TextLinkRouter>
   ) : (
     <Styled.TextLinkHref
-      block={block}
+      $block={block}
       href={href}
       rel="nofollow noopener noreferrer external"
       {...props}

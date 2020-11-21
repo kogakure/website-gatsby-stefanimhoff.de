@@ -3,17 +3,33 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../services/test-utils';
 
-import { Default } from './table.stories';
+import { Table } from '.';
 
 describe('Table', () => {
   test('renders correctly', () => {
-    const { container } = render(<Default />);
+    const { container } = render(
+      <Table>
+        <thead>
+          <tr>
+            <th>Table Header</th>
+          </tr>
+        </thead>
+      </Table>
+    );
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('is accessible', async () => {
-    const { container } = render(<Default />);
+    const { container } = render(
+      <Table>
+        <thead>
+          <tr>
+            <th>Table Header</th>
+          </tr>
+        </thead>
+      </Table>
+    );
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();

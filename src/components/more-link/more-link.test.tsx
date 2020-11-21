@@ -3,23 +3,23 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../services/test-utils';
 
-import { Default, CustomText } from './more-link.stories';
+import { MoreLink } from '.';
 
 describe('MoreLink', () => {
   test('renders correctly', () => {
-    const { container } = render(<Default />);
+    const { container } = render(<MoreLink to="/" />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('with custom text renders correctly', () => {
-    const { container } = render(<CustomText />);
+    const { container } = render(<MoreLink to="/">Custom Text</MoreLink>);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('is accessible', async () => {
-    const { container } = render(<Default />);
+    const { container } = render(<MoreLink to="/" />);
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();

@@ -1,34 +1,28 @@
-import React from 'react';
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react/types-6-0';
 
 import { UnorderedList } from '.';
+import type { UnorderedListProps } from '.';
 
 export default {
-  component: UnorderedList,
   title: 'Lists/Unordered List',
+  component: UnorderedList,
+} as Meta;
+
+const Template: Story<UnorderedListProps> = (args) => (
+  <UnorderedList {...args} />
+);
+
+export const Default = Template.bind({});
+Default.args = {
+  children: (
+    <li>
+      Vegetables
+      <UnorderedList>
+        <li>Tomatoe</li>
+        <li>Onion</li>
+        <li>Potatoe</li>
+      </UnorderedList>
+    </li>
+  ),
 };
-
-export const Default = () => (
-  <UnorderedList>
-    <li>
-      Vegetables
-      <UnorderedList>
-        <li>Tomatoe</li>
-        <li>Onion</li>
-        <li>Potatoe</li>
-      </UnorderedList>
-    </li>
-  </UnorderedList>
-);
-
-export const NoMargin = () => (
-  <UnorderedList noMargin>
-    <li>
-      Vegetables
-      <UnorderedList>
-        <li>Tomatoe</li>
-        <li>Onion</li>
-        <li>Potatoe</li>
-      </UnorderedList>
-    </li>
-  </UnorderedList>
-);

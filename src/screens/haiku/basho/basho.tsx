@@ -6,7 +6,7 @@ import { RubyAnnotation } from '../../../components/ruby-annotation';
 
 import { Styled } from './basho.styles';
 
-export const Basho: React.FC = () => (
+export const Basho = () => (
   <Styled.Basho data-sal="slide-up" data-sal-duration="800">
     <Headline>
       Matsuo Bashō

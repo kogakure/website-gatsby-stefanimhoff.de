@@ -8,7 +8,7 @@ import { SmallPrint, TextBlock } from '..';
 
 import { Styled } from './koi-illustration.styles';
 
-export const KoiIllustration: React.FC = () => {
+export const KoiIllustration = () => {
   const {
     koiIllustration: {
       childImageSharp: { fluid },

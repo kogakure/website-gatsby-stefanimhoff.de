@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`InlineQuote nested in German renders correctly 1`] = `
+exports[`InlineQuote renders in default 1`] = `
 .c0 {
   font-style: italic;
 }
@@ -19,29 +19,15 @@ exports[`InlineQuote nested in German renders correctly 1`] = `
   margin-left: 0.1em;
 }
 
-<p>
-  Luke führte weiter aus,
-   
-  <q
-    class="c0"
-    lang="de"
-  >
-    Und sie nannte ihn einen
-     
-    <q
-      class="c0"
-      lang="en"
-    >
-      total blöd-aussehenen Idioten!
-    </q>
-     Ich denke ich habe eine Chance!
-  </q>
-   
-  Dieser arme Idiot …
-</p>
+<q
+  class="c0"
+  lang="en"
+>
+  Quote
+</q>
 `;
 
-exports[`InlineQuote nested in Japanese renders correctly 1`] = `
+exports[`InlineQuote renders in lang de 1`] = `
 .c0 {
   font-style: italic;
 }
@@ -60,26 +46,15 @@ exports[`InlineQuote nested in Japanese renders correctly 1`] = `
   margin-left: 0.1em;
 }
 
-<p>
-  彼女は
-  <q
-    class="c0"
-    lang="ja"
-  >
-    日本語に猫は
-    <q
-      class="c0"
-      lang="en"
-    >
-      にゃん
-    </q>
-    と鳴く
-  </q>
-  と言った。
-</p>
+<q
+  class="c0"
+  lang="de"
+>
+  Quote
+</q>
 `;
 
-exports[`InlineQuote nested renders correctly 1`] = `
+exports[`InlineQuote renders in lang en 1`] = `
 .c0 {
   font-style: italic;
 }
@@ -98,29 +73,15 @@ exports[`InlineQuote nested renders correctly 1`] = `
   margin-left: 0.1em;
 }
 
-<p>
-  Luke continued,
-   
-  <q
-    class="c0"
-    lang="en"
-  >
-    And then she called him a
-     
-    <q
-      class="c0"
-      lang="en"
-    >
-      scruffy-looking nerf-herder!
-    </q>
-     I think I’ve got a chance!
-  </q>
-   
-  The poor naive fool …
-</p>
+<q
+  class="c0"
+  lang="en"
+>
+  Quote
+</q>
 `;
 
-exports[`InlineQuote renders correctly 1`] = `
+exports[`InlineQuote renders in lang ja 1`] = `
 .c0 {
   font-style: italic;
 }
@@ -139,16 +100,10 @@ exports[`InlineQuote renders correctly 1`] = `
   margin-left: 0.1em;
 }
 
-<p>
-  Peter said
-   
-  <q
-    class="c0"
-    lang="en"
-  >
-    She has to hand this over immediatly
-  </q>
-   
-  and was quite angry.
-</p>
+<q
+  class="c0"
+  lang="ja"
+>
+  Quote
+</q>
 `;

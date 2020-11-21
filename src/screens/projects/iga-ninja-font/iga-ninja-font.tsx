@@ -8,7 +8,7 @@ import { ImageBlock, SmallPrint, TextBlock } from '..';
 
 import { Styled } from './iga-ninja-font.styles';
 
-export const IgaNinjaFont: React.FC = () => {
+export const IgaNinjaFont = () => {
   const {
     igaNinjaFont: {
       childImageSharp: { fluid },

@@ -1,26 +1,44 @@
-import React from 'react';
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react/types-6-0';
+
+import { Paragraph } from '../typography';
 
 import { TextLink } from '.';
+import type { TextLinkProps } from '.';
 
 export default {
-  component: TextLink,
   title: 'Text Styles/Text Link',
+  component: TextLink,
+} as Meta;
+
+const Template: Story<TextLinkProps> = (args) => (
+  <Paragraph>
+    <TextLink {...args} />
+  </Paragraph>
+);
+
+export const HTMLLink = Template.bind({});
+HTMLLink.args = {
+  children: 'External Link',
+  href: 'https://www.stefanimhoff.de',
 };
 
-export const HTMLLink = () => (
-  <TextLink href="https://www.stefanimhoff.de">External Link</TextLink>
-);
+export const HTMLLinkBlock = Template.bind({});
+HTMLLinkBlock.args = {
+  children: 'External Link',
+  href: 'https://www.stefanimhoff.de',
+  block: true,
+};
 
-export const HTMLLinkBlock = () => (
-  <TextLink block href="https://www.stefanimhoff.de">
-    External Link
-  </TextLink>
-);
+export const RouterLink = Template.bind({});
+RouterLink.args = {
+  children: 'Router Link',
+  to: '/',
+};
 
-export const RouterLink = () => <TextLink to="/">Router Link</TextLink>;
-
-export const RouterLinkBlock = () => (
-  <TextLink block to="/">
-    Router Link
-  </TextLink>
-);
+export const RouterLinkBlock = Template.bind({});
+RouterLinkBlock.args = {
+  children: 'Router Link',
+  to: '/',
+  block: true,
+};

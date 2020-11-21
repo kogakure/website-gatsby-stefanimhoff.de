@@ -6,7 +6,7 @@ export type HomeLinkProps = {
   to?: string;
 };
 
-export const HomeLink: React.FC<HomeLinkProps> = ({ to = '/', ...props }) => (
+export const HomeLink = ({ to = '/', ...props }: HomeLinkProps) => (
   <Styled.ArrowLink to={to} activeStyle={{ visibility: 'hidden' }} {...props}>
     <Styled.Button
       aria-label={to === '/' ? 'Back to Homepage' : 'Back'}

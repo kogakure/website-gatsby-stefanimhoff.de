@@ -8,7 +8,7 @@ import { TextLink } from '../../../components/text-link';
 
 import { Styled } from './all-posts.styles';
 
-export const AllPosts: React.FC = () => {
+export const AllPosts = () => {
   const {
     allJournalPosts: { edges },
   } = useAllJournalPostsQuery();

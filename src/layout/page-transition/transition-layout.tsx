@@ -1,10 +1,14 @@
 import React from 'react';
 
-import { Transition, TransitionProps } from '.';
+import { Transition } from '.';
+import type { TransitionProps } from '.';
 
-const TransitionLayout: React.FC<TransitionProps> = ({
-  location,
-  children,
-}) => <Transition location={location}>{children}</Transition>;
+export type TransitionLayoutProps = TransitionProps & {
+  children: React.ReactNode;
+};
+
+const TransitionLayout = ({ location, children }: TransitionLayoutProps) => (
+  <Transition location={location}>{children}</Transition>
+);
 
 export default TransitionLayout;

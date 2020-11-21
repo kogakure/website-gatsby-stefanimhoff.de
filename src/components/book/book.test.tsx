@@ -3,31 +3,32 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../services/test-utils';
 
-import { Default, LinkedBook } from './book.stories';
+import { Book } from '.';
+import type { BookProps } from '.';
+
+type BookTestProps = BookProps & {
+  description: string;
+};
 
 describe('Book', () => {
-  test('renders correctly', () => {
-    const { container } = render(<Default />);
+  // prettier-ignore
+  const combinations: BookTestProps[] = [
+    { description: 'default', src: 'book.jpg' },
+    { description: 'height, width', src: 'book.jpg', height: '393', width: '300' },
+    { description: 'href', src: 'book.jpg', href: "/", alt: "href" },
+  ];
 
-    expect(container.firstChild).toMatchSnapshot();
-  });
-
-  test('is accessible', async () => {
-    const { container } = render(<Default />);
-    const results = await axe(container);
-
-    expect(results).toHaveNoViolations();
-  });
-
-  describe('with "href"', () => {
-    test('renders correctly', () => {
-      const { container } = render(<LinkedBook />);
+  combinations.forEach((combination) => {
+    test(`renders in ${combination.description}`, () => {
+      const { container } = render(<Book {...combination} />);
 
       expect(container.firstChild).toMatchSnapshot();
     });
+  });
 
-    test('is accessible', async () => {
-      const { container } = render(<LinkedBook />);
+  combinations.forEach((combination) => {
+    test(`is accessible in ${combination.description}`, async () => {
+      const { container } = render(<Book {...combination} />);
       const results = await axe(container);
 
       expect(results).toHaveNoViolations();

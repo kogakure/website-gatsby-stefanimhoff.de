@@ -13,6 +13,6 @@ exports[`Variable renders correctly 1`] = `
 <var
   class="c0"
 >
-  myVariable
+  Variable
 </var>
 `;

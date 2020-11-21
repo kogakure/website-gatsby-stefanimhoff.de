@@ -1,14 +1,19 @@
-import React from 'react';
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react/types-6-0';
 
 import { OrderedList } from '.';
+import type { OrderedListProps } from '.';
 
 export default {
-  component: OrderedList,
   title: 'Lists/Ordered List',
-};
+  component: OrderedList,
+} as Meta;
 
-export const Default = () => (
-  <OrderedList>
+const Template: Story<OrderedListProps> = (args) => <OrderedList {...args} />;
+
+export const Default = Template.bind({});
+Default.args = {
+  children: (
     <li>
       Early Stoics
       <OrderedList>
@@ -17,5 +22,5 @@ export const Default = () => (
         <li>Chrysippus</li>
       </OrderedList>
     </li>
-  </OrderedList>
-);
+  ),
+};

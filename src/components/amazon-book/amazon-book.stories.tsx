@@ -1,22 +1,38 @@
-import React from 'react';
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react/types-6-0';
 
 import { AmazonBook } from '.';
+import type { AmazonBookProps } from '.';
 
 export default {
-  component: AmazonBook,
   title: 'Misc/AmazonBook',
-};
+  component: AmazonBook,
+} as Meta;
 
 const props = {
+  alt: 'Meditations by Marcus Aurelius',
   asin: '0812968255',
 };
 
-export const Default = () => (
-  <AmazonBook {...props} alt="Meditations by Marcus Aurelius" />
-);
+const Template: Story<AmazonBookProps> = (args) => <AmazonBook {...args} />;
 
-export const Small = () => <AmazonBook {...props} size="small" />;
+export const Default = Template.bind({});
+Default.args = props;
 
-export const Medium = () => <AmazonBook {...props} size="medium" />;
+export const Small = Template.bind({});
+Small.args = {
+  ...props,
+  size: 'small',
+};
 
-export const Large = () => <AmazonBook {...props} size="large" />;
+export const Medium = Template.bind({});
+Medium.args = {
+  ...props,
+  size: 'medium',
+};
+
+export const Large = Template.bind({});
+Large.args = {
+  ...props,
+  size: 'large',
+};

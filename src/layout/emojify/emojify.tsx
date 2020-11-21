@@ -8,7 +8,7 @@ export type EmojifyProps = {
   emoji: string;
 };
 
-export const Emojify: React.FC<EmojifyProps> = ({ emoji, ...props }) => {
+export const Emojify = ({ emoji, ...props }: EmojifyProps) => {
   const { emojified } = React.useContext(EmojifyContext);
 
   return emojified ? (

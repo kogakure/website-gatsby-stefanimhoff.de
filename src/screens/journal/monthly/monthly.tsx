@@ -8,7 +8,7 @@ import { TextLink } from '../../../components/text-link';
 
 import { Styled } from './monthly.styles';
 
-export const Monthly: React.FC = () => {
+export const Monthly = () => {
   const {
     allMonthlyJournalPosts: { edges },
   } = useMonthlyJournalPostsQuery();

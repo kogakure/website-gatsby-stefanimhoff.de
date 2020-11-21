@@ -4,17 +4,17 @@ import user from '@testing-library/user-event';
 
 import { render } from '../../services/test-utils';
 
-import { Default } from './emojify-toggle.stories';
+import { EmojifyToggle } from '.';
 
 describe('EmojifyToggle', () => {
   test('renders correctly', () => {
-    const { container } = render(<Default />);
+    const { container } = render(<EmojifyToggle />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('changes the button text on click', async () => {
-    const { getByText, findByText } = render(<Default />);
+    const { getByText, findByText } = render(<EmojifyToggle />);
     user.click(await findByText(/🐵/i));
     expect(getByText('🙈')).toBeInTheDocument();
 
@@ -23,7 +23,7 @@ describe('EmojifyToggle', () => {
   });
 
   test('is accessible', async () => {
-    const { container } = render(<Default />);
+    const { container } = render(<EmojifyToggle />);
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();

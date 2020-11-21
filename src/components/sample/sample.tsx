@@ -2,6 +2,10 @@ import * as React from 'react';
 
 import { Styled } from './sample.styles';
 
-export const Sample: React.FC = ({ children, ...props }) => (
+export type SampleProps = {
+  children: React.ReactNode;
+};
+
+export const Sample = ({ children, ...props }: SampleProps) => (
   <Styled.Sample {...props}>{children}</Styled.Sample>
 );

@@ -9,10 +9,7 @@ export type LocalizedDateProps = {
   date: string;
 };
 
-export const LocalizedDate: React.FC<LocalizedDateProps> = ({
-  date,
-  ...props
-}) => {
+export const LocalizedDate = ({ date, ...props }: LocalizedDateProps) => {
   const en = moment(date).format('MMMM Do, YYYY');
   const de = moment(date).format('DD.MM.YYYY');
   const [day, month, year] = de.split('.');

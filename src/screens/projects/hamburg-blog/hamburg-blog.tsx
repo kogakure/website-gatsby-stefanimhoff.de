@@ -9,7 +9,7 @@ import { ImageBlock, SmallPrint, TextBlock } from '..';
 
 import { Styled } from './hamburg-blog.styles';
 
-export const HamburgBlog: React.FC = () => {
+export const HamburgBlog = () => {
   const {
     hamburgBlog: {
       childImageSharp: { fluid },

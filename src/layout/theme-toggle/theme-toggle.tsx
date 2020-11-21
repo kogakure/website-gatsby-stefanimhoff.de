@@ -13,7 +13,7 @@ export interface ThemedWindow extends Window {
 
 declare const window: ThemedWindow;
 
-export const ThemeToggle: React.FC = ({ ...props }) => {
+export const ThemeToggle = ({ ...props }) => {
   const [theme, setTheme] = useState('');
   const oppositeTheme = theme === 'light' ? 'dark' : 'light';
   const setPreferredTheme = () => {

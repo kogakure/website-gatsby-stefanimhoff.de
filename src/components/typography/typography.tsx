@@ -1,35 +1,44 @@
 import * as React from 'react';
 
-import { StyledComponentProps } from '../../typings/styled-components';
-
 import { Styled } from './typography.styles';
 
 export type TypographyProps = {
+  children: React.ReactNode;
   noMargin?: boolean;
 };
-export type StyledTypographyProps = TypographyProps & StyledComponentProps;
+export type StyledTypographyProps = TypographyProps;
 
-export const Title: React.FC<StyledTypographyProps> = ({
+export const Title = ({
   children,
   ...props
-}) => <Styled.Title {...props}>{children}</Styled.Title>;
+}: TypographyProps & React.ComponentProps<typeof Styled.Title>) => (
+  <Styled.Title {...props}>{children}</Styled.Title>
+);
 
-export const Headline: React.FC<StyledTypographyProps> = ({
+export const Headline = ({
   children,
   ...props
-}) => <Styled.Headline {...props}>{children}</Styled.Headline>;
+}: TypographyProps & React.ComponentProps<typeof Styled.Headline>) => (
+  <Styled.Headline {...props}>{children}</Styled.Headline>
+);
 
-export const Subheadline: React.FC<StyledTypographyProps> = ({
+export const Subheadline = ({
   children,
   ...props
-}) => <Styled.Subheadline {...props}>{children}</Styled.Subheadline>;
+}: TypographyProps & React.ComponentProps<typeof Styled.Subheadline>) => (
+  <Styled.Subheadline {...props}>{children}</Styled.Subheadline>
+);
 
-export const SubSubheadline: React.FC<StyledTypographyProps> = ({
+export const SubSubheadline = ({
   children,
   ...props
-}) => <Styled.SubSubheadline {...props}>{children}</Styled.SubSubheadline>;
+}: TypographyProps & React.ComponentProps<typeof Styled.SubSubheadline>) => (
+  <Styled.SubSubheadline {...props}>{children}</Styled.SubSubheadline>
+);
 
-export const Paragraph: React.FC<StyledTypographyProps> = ({
+export const Paragraph = ({
   children,
   ...props
-}) => <Styled.Paragraph {...props}>{children}</Styled.Paragraph>;
+}: TypographyProps & React.ComponentProps<typeof Styled.Paragraph>) => (
+  <Styled.Paragraph {...props}>{children}</Styled.Paragraph>
+);

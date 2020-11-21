@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { Pagination, LinkWithPaginationProps } from '.';
+import { Pagination } from '.';
+import type { LinkWithPaginationProps } from '.';
 
 export default {
   title: 'Layout/Pagination',

@@ -4,24 +4,24 @@ import user from '@testing-library/user-event';
 
 import { render, fireEvent } from '../../services/test-utils';
 
-import { Default, CustomTitle, NoKeyDownload } from './protected-email.stories';
+import { ProtectedEmail } from '.';
 
 describe('ProtectedEmail', () => {
   test('renders correctly', () => {
-    const { container } = render(<Default />);
+    const { container } = render(<ProtectedEmail />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('is accessible', async () => {
-    const { container } = render(<Default />);
+    const { container } = render(<ProtectedEmail />);
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();
   });
 
   test('shows the email on click', async () => {
-    const { container, findByText, getByRole } = render(<Default />);
+    const { container, findByText, getByRole } = render(<ProtectedEmail />);
 
     user.click(await findByText(/email/i));
 
@@ -30,7 +30,7 @@ describe('ProtectedEmail', () => {
   });
 
   test('show the email on Enter keyUp', async () => {
-    const { container, findByText, getByRole } = render(<Default />);
+    const { container, findByText, getByRole } = render(<ProtectedEmail />);
 
     fireEvent.keyUp(await findByText(/email/i), {
       key: 'Enter',
@@ -43,13 +43,15 @@ describe('ProtectedEmail', () => {
 
   describe('without GPG key download option', () => {
     test('renders correctly', () => {
-      const { container } = render(<NoKeyDownload />);
+      const { container } = render(<ProtectedEmail noKeyDownload />);
 
       expect(container.firstChild).toMatchSnapshot();
     });
 
     test('shows the email on click', async () => {
-      const { container, findByText, queryByRole } = render(<NoKeyDownload />);
+      const { container, findByText, queryByRole } = render(
+        <ProtectedEmail noKeyDownload />
+      );
 
       user.click(await findByText(/email/i));
 
@@ -60,7 +62,9 @@ describe('ProtectedEmail', () => {
     });
 
     test('show the email on Enter keyUp', async () => {
-      const { container, findByText, queryByRole } = render(<NoKeyDownload />);
+      const { container, findByText, queryByRole } = render(
+        <ProtectedEmail noKeyDownload />
+      );
 
       fireEvent.keyUp(await findByText(/email/i), {
         key: 'Enter',
@@ -74,7 +78,7 @@ describe('ProtectedEmail', () => {
     });
 
     test('is accessible', async () => {
-      const { container } = render(<NoKeyDownload />);
+      const { container } = render(<ProtectedEmail noKeyDownload />);
       const results = await axe(container);
 
       expect(results).toHaveNoViolations();
@@ -83,13 +87,13 @@ describe('ProtectedEmail', () => {
 
   describe('with custom title', () => {
     test('renders correctly', () => {
-      const { container } = render(<CustomTitle />);
+      const { container } = render(<ProtectedEmail title="title" />);
 
       expect(container.firstChild).toMatchSnapshot();
     });
 
     test('is accessible', async () => {
-      const { container } = render(<CustomTitle />);
+      const { container } = render(<ProtectedEmail title="title" />);
       const results = await axe(container);
 
       expect(results).toHaveNoViolations();

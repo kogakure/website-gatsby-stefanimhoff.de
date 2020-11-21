@@ -1,53 +1,63 @@
-import React from 'react';
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react/types-6-0';
 
 import { Pullquote } from '.';
+import type { PullquoteProps } from '.';
 
 export default {
-  component: Pullquote,
   title: 'Quotations/Pullquote',
+  component: Pullquote,
+} as Meta;
+
+const Template: Story<PullquoteProps> = (args) => <Pullquote {...args} />;
+
+export const Default = Template.bind({});
+Default.args = {
+  children: 'No time for pessimism.',
 };
 
-export const Default = () => <Pullquote>No time for pessimism.</Pullquote>;
+export const German = Template.bind({});
+German.args = {
+  children: 'Keine Zeit für Pessimismus.',
+  lang: 'de',
+};
 
-export const German = () => (
-  <Pullquote lang="de">Keine Zeit für Pessimismus.</Pullquote>
-);
+export const Japanese = Template.bind({});
+Japanese.args = {
+  children: '悲観の時い',
+  lang: 'ja',
+};
 
-export const Japanese = () => <Pullquote lang="ja">悲観の時い</Pullquote>;
+export const Author = Template.bind({});
+Author.args = {
+  children: 'How we spend our days is, of course, how we spend our lives.',
+  author: 'Annie Dillard',
+};
 
-export const Author = () => (
-  <Pullquote author="Annie Dillard">
-    How we spend our days is, of course, how we spend our lives.
-  </Pullquote>
-);
+export const Source = Template.bind({});
+Source.args = {
+  children: 'How we spend our days is, of course, how we spend our lives.',
+  source: 'The Writing Life',
+};
 
-export const Source = () => (
-  <Pullquote source="The Writing Life">
-    How we spend our days is, of course, how we spend our lives.
-  </Pullquote>
-);
+export const SourceUrl = Template.bind({});
+SourceUrl.args = {
+  children: 'How we spend our days is, of course, how we spend our lives.',
+  source: 'The Writing Life',
+  sourceUrl: 'https://www.goodreads.com/book/show/12530.The_Writing_Life',
+};
 
-export const SourceUrl = () => (
-  <Pullquote
-    source="The Writing Life"
-    sourceUrl="https://www.goodreads.com/book/show/12530.The_Writing_Life"
-  >
-    How we spend our days is, of course, how we spend our lives.
-  </Pullquote>
-);
+export const AuthorSource = Template.bind({});
+AuthorSource.args = {
+  author: 'Annie Dillard',
+  children: 'How we spend our days is, of course, how we spend our lives.',
+  source: 'The Writing Life',
+};
 
-export const AuthorSource = () => (
-  <Pullquote author="Annie Dillard" source="The Writing Life">
-    How we spend our days is, of course, how we spend our lives.
-  </Pullquote>
-);
-
-export const AuthorSourceUrl = () => (
-  <Pullquote
-    author="Annie Dillard"
-    source="The Writing Life"
-    sourceUrl="https://www.goodreads.com/book/show/12530.The_Writing_Life"
-  >
-    How we spend our days is, of course, how we spend our lives.
-  </Pullquote>
-);
+export const AuthorSourceUrl = Template.bind({});
+AuthorSourceUrl.args = {
+  author: 'Annie Dillard',
+  children: 'How we spend our days is, of course, how we spend our lives.',
+  source: 'The Writing Life',
+  sourceUrl: 'https://www.goodreads.com/book/show/12530.The_Writing_Life',
+};

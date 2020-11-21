@@ -5,7 +5,7 @@ import { DownloadLink } from '../../../components/download-link';
 
 import { Styled } from './introduction.styles';
 
-export const Introduction: React.FC = () => (
+export const Introduction = () => (
   <Styled.Introduction data-sal="slide-up" data-sal-duration="800">
     <Paragraph>
       A few years ago I found by accident the book{' '}

@@ -6,7 +6,7 @@ import { MoreLink } from '../../../components/more-link';
 
 import { Styled } from './about-me.styles';
 
-export const AboutMe: React.FC = () => (
+export const AboutMe = () => (
   <Styled.AboutMe
     data-sal="slide-up"
     data-sal-duration="800"

@@ -3,17 +3,17 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../services/test-utils';
 
-import { Default, Linked } from './flag.stories';
+import { Flag } from '.';
 
 describe('Flag', () => {
   test('renders correctly', () => {
-    const { container } = render(<Default />);
+    const { container } = render(<Flag label="label" />);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('is accessible', async () => {
-    const { container } = render(<Default />);
+    const { container } = render(<Flag label="label" />);
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();
@@ -21,13 +21,13 @@ describe('Flag', () => {
 
   describe('with href', () => {
     test('renders correctly', () => {
-      const { container } = render(<Linked />);
+      const { container } = render(<Flag label="label" href="/" />);
 
       expect(container.firstChild).toMatchSnapshot();
     });
 
     test('is accessible', async () => {
-      const { container } = render(<Linked />);
+      const { container } = render(<Flag label="label" href="/" />);
       const results = await axe(container);
 
       expect(results).toHaveNoViolations();

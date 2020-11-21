@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { Styled } from './legal-information.styles';
 
-export const LegalInformation: React.FC = ({ ...props }) => (
+export const LegalInformation = ({ ...props }) => (
   <Styled.LegalInformation {...props}>
     <div>
       <Styled.Copyright>© </Styled.Copyright>

@@ -10,14 +10,14 @@ export type BookProps = {
   width?: string;
 };
 
-export const Book: React.FC<BookProps> = ({
+export const Book = ({
   alt = '',
   height,
   href,
   src,
   width,
   ...props
-}) => (
+}: BookProps) => (
   <>
     {href ? (
       <Styled.LinkedBook

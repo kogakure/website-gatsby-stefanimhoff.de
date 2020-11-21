@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 import { mediaQuery } from '../tokens';
 
-import { ColumnProps } from '.';
+import type { ColumnProps } from '.';
 
 export const sizes = {
   fullsize: css`

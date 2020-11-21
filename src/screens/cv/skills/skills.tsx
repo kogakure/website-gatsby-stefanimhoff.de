@@ -9,7 +9,7 @@ export type SkillsProps = {
   data: CvSkills;
 };
 
-export const Skills: React.FC<SkillsProps> = ({ data, ...props }) => (
+export const Skills = ({ data, ...props }: SkillsProps) => (
   <Styled.Skills {...props}>
     <Headline>{data.headline}</Headline>
     {data.items.map(({ headline, tags }) => (

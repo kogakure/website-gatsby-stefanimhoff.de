@@ -91,7 +91,6 @@ exports[`Journal Introduction renders correctly 1`] = `
      selected
      
     <a
-      block="0"
       class="c3"
       href="/attention/"
     >

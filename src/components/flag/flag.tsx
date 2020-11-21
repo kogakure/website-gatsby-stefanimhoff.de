@@ -8,7 +8,7 @@ export type FlagProps = {
   title?: string;
 };
 
-export const Flag: React.FC<FlagProps> = ({ href, label, title, ...props }) => (
+export const Flag = ({ href, label, title, ...props }: FlagProps) => (
   <>
     {href ? (
       <Styled.LinkedFlag

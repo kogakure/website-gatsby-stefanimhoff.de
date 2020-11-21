@@ -5,7 +5,7 @@ import { TextLink } from '../../../components/text-link';
 
 import { Styled } from './introduction.styles';
 
-export const Introduction: React.FC = () => (
+export const Introduction = () => (
   <Styled.Introduction
     data-sal="slide-up"
     data-sal-duration="800"

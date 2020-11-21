@@ -1,19 +1,32 @@
-import React from 'react';
+import * as React from 'react';
+import { Story, Meta } from '@storybook/react/types-6-0';
+
+import { Paragraph } from '../typography';
 
 import { Spoiler } from '.';
+import type { SpoilerProps } from '.';
 
 export default {
-  component: Spoiler,
   title: 'Misc/Spoiler',
+  component: Spoiler,
+} as Meta;
+
+const Template: Story<SpoilerProps> = (args) => <Spoiler {...args} />;
+
+export const Default = Template.bind({});
+Default.args = {
+  children: 'Hidden text',
 };
 
-export const Default = () => <Spoiler>Hidden text</Spoiler>;
-
-export const Block = () => (
-  <Spoiler block>
-    <p>
-      This is some <strong>text</strong>, which is <em>hidden</em>.
-    </p>
-    <p> And some more text</p>
-  </Spoiler>
-);
+export const Block = Template.bind({});
+Block.args = {
+  block: true,
+  children: (
+    <>
+      <Paragraph>
+        This is some <strong>text</strong>, which is <em>hidden</em>.
+      </Paragraph>
+      <Paragraph>And some more text</Paragraph>
+    </>
+  ),
+};

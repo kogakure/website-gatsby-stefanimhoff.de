@@ -4,7 +4,7 @@ import { EmojifyToggle } from '.';
 
 export default {
   component: EmojifyToggle,
-  title: 'Toggles/Emojify Toggle',
+  title: 'Layout/Emojify Toggle',
 };
 
 export const Default = () => <EmojifyToggle />;

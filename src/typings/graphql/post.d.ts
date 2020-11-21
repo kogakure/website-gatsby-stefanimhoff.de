@@ -1,4 +1,4 @@
-import { GatsbyImageProps } from 'gatsby-image';
+import type { GatsbyImageProps } from 'gatsby-image';
 
 import { AttributionData } from '../../components/attribution';
 

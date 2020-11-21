@@ -8,7 +8,7 @@ import {
 
 import { Styled } from './title.styles';
 
-export const Title: React.FC = () => (
+export const Title = () => (
   <Styled.Title>
     <TitleComponent noMargin>Stefan Imhoff</TitleComponent>
     <Paragraph noMargin>

@@ -4,7 +4,7 @@ import { AmazonBook } from '../../../components/amazon-book';
 
 import { Styled } from './books.styles';
 
-export const Books: React.FC = () => (
+export const Books = () => (
   <Styled.Books data-sal="slide-up" data-sal-duration="800">
     <AmazonBook
       asin="0140441859"

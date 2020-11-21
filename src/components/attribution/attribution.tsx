@@ -14,7 +14,7 @@ export type AttributionProps = {
   data: AttributionData[];
 };
 
-export const Attribution: React.FC<AttributionProps> = ({ data, ...props }) => (
+export const Attribution = ({ data, ...props }: AttributionProps) => (
   <>
     <Styled.Attribution {...props}>
       {data.map((attribution) => (

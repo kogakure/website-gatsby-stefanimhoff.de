@@ -15,6 +15,17 @@ const AppProvider = (storyFn) => (
   </EmojifyProvider>
 );
 
+global.___loader = {
+  enqueue: () => {},
+  hovering: () => {},
+};
+
+global.__BASE_PATH__ = '';
+global.__PATH_PREFIX__ = '';
+window.___navigate = (pathname) => {
+  action('NavigateTo:')(pathname);
+};
+
 export const decorators = [AppProvider];
 
 export const parameters = {

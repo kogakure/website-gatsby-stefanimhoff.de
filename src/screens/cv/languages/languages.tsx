@@ -10,7 +10,7 @@ export type LanguagesProps = {
   data: CvLanguages;
 };
 
-export const Languages: React.FC<LanguagesProps> = ({ data, ...props }) => (
+export const Languages = ({ data, ...props }: LanguagesProps) => (
   <Styled.Languages {...props}>
     <Headline>{data.headline}</Headline>
     <UnorderedList>

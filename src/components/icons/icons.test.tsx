@@ -2,15 +2,17 @@ import React from 'react';
 
 import { render } from '../../services/test-utils';
 
-import { Icon as ArrowLeft } from './arrow-left.stories';
-import { Icon as ArrowLeftS } from './arrow-left-s.stories';
-import { Icon as ArrowRight } from './arrow-right.stories';
-import { Icon as ArrowRightS } from './arrow-right-s.stories';
-import { Icon as ArrowUp } from './arrow-up.stories';
-import { Icon as Circle } from './circle.stories';
-import { Icon as Download } from './download.stories';
-import { Icon as Information } from './information.stories';
-import { Icon as Lock } from './lock.stories';
+import {
+  ArrowLeft,
+  ArrowLeftS,
+  ArrowRight,
+  ArrowRightS,
+  ArrowUp,
+  Circle,
+  Download,
+  Information,
+  Lock,
+} from '.';
 
 describe('Icon', () => {
   test('ArrowUp renders correctly', () => {

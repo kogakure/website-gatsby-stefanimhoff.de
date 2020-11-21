@@ -9,7 +9,7 @@ import { ImageBlock, SmallPrint, TextBlock } from '..';
 
 import { Styled } from './book-kogakure.styles';
 
-export const BookKogakure: React.FC = () => {
+export const BookKogakure = () => {
   const {
     bookKogakure: {
       childImageSharp: { fluid },

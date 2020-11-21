@@ -9,7 +9,7 @@ import {
   space,
 } from '../../layout/tokens';
 
-import { UnorderedListProps } from './unordered-list';
+import type { UnorderedListProps } from './unordered-list';
 
 const UnorderedListContainer = styled.ul<UnorderedListProps>`
   font-size: ${fontSize[3]};

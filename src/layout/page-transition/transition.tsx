@@ -28,13 +28,11 @@ const transitionStyles: Partial<TransitionStylesProps> = {
 };
 
 export type TransitionProps = {
+  children: React.ReactNode;
   location?: WindowLocation;
 };
 
-export const Transition: React.FC<TransitionProps> = ({
-  children,
-  location,
-}) => (
+export const Transition = ({ children, location }: TransitionProps) => (
   <TransitionGroup>
     <ReactTransition
       key={location && location.pathname}

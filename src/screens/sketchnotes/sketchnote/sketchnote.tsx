@@ -2,6 +2,10 @@ import * as React from 'react';
 
 import { Styled } from './sketchnote.styles';
 
-export const Sketchnote: React.FC = ({ children }) => (
+type SketchnoteProps = {
+  children: React.ReactNode;
+};
+
+export const Sketchnote = ({ children }: SketchnoteProps) => (
   <Styled.Sketchnote>{children}</Styled.Sketchnote>
 );

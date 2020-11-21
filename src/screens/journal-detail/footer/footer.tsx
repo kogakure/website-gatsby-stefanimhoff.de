@@ -8,7 +8,7 @@ export type FooterProps = {
   attribution: AttributionData[];
 };
 
-export const Footer: React.FC<FooterProps> = ({ attribution, ...props }) => (
+export const Footer = ({ attribution, ...props }: FooterProps) => (
   <Styled.Footer {...props}>
     <Styled.Divider />
     <Attribution data={attribution} />

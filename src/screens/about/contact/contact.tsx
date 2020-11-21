@@ -6,7 +6,7 @@ import { ProtectedEmail } from '../../../components/protected-email';
 
 import { Styled } from './contact.styles';
 
-export const Contact: React.FC = () => (
+export const Contact = () => (
   <Styled.Contact id="contact" data-sal="slide-up" data-sal-duration="800">
     <Subheadline as="h2">
       Contact

@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 import { space } from '../../layout/tokens';
 
-import { VerseProps } from './verse';
+import type { VerseProps } from './verse';
 
 export const variants = {
   center: {

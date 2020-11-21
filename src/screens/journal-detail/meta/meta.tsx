@@ -10,7 +10,7 @@ export type MetaProps = {
   readingTime: string;
 };
 
-export const Meta: React.FC<MetaProps> = ({ date, readingTime }) => (
+export const Meta = ({ date, readingTime }: MetaProps) => (
   <Styled.Meta>
     <Styled.Author>
       <em>By</em> <TextLink to="/about/">Stefan Imhoff</TextLink>

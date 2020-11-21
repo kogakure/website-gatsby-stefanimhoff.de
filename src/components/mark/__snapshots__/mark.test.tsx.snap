@@ -16,6 +16,6 @@ exports[`Mark renders correctly 1`] = `
 <mark
   class="c0"
 >
-  This is marked text.
+  Mark
 </mark>
 `;

@@ -152,7 +152,6 @@ exports[`Haiku MyHaiku renders correctly 1`] = `
       class="c4"
     >
       <a
-        block="0"
         class="c5 c6"
         href="/haiku/1/"
       >
@@ -163,7 +162,6 @@ exports[`Haiku MyHaiku renders correctly 1`] = `
       class="c4"
     >
       <a
-        block="0"
         class="c5 c6"
         href="/haiku/2/"
       >

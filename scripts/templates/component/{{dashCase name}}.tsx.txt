@@ -4,6 +4,6 @@ import { Styled } from './{{dashCase name}}.styles';
 
 export type {{pascalCase name}}Props = {}
 
-export const {{pascalCase name}}: React.FC<{{pascalCase name}}Props> = ({ ...props }) => (
+export const {{pascalCase name}} = ({ ...props }: {{pascalCase name}}Props) => (
   <Styled.{{pascalCase name}} {...props}>{{pascalCase name}}</Styled.{{pascalCase name}}>
 );

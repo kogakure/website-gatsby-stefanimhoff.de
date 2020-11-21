@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 
 import { mediaQuery, space } from '../tokens';
 
-import { RowProps } from '.';
+import type { RowProps } from '.';
 
 const defaultRow = css`
   grid-column: 1 / -1;

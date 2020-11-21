@@ -1,10 +1,20 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import { ThemeToggle } from '.';
 
+const Box = styled.div`
+  background-color: #fff;
+  border: 2px solid #000;
+`;
+
 export default {
   component: ThemeToggle,
-  title: 'Toggles/Theme Toggle',
+  title: 'Theme Toggle',
 };
 
-export const Default = () => <ThemeToggle />;
+export const Default = () => (
+  <Box>
+    <ThemeToggle />
+  </Box>
+);

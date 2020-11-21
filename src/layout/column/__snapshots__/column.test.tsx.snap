@@ -2,249 +2,70 @@
 
 exports[`Column renders correctly 1`] = `
 .c0 {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  width: 100%;
-}
-
-.c1 {
-  display: grid;
-  grid-template-columns: repeat(18,1fr);
-}
-
-.c2 {
   grid-column: 1 / -1;
   width: 100%;
 }
 
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-<main
+<div
   class="c0"
 >
-  <div
-    class="c1"
-  >
-    <div
-      class="c2"
-    >
-      <div
-        class="c3"
-      >
-        Default
-      </div>
-    </div>
-  </div>
-</main>
+  Column
+</div>
 `;
 
 exports[`Column with "fullsize" renders correctly 1`] = `
 .c0 {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  width: 100%;
-}
-
-.c1 {
-  display: grid;
-  grid-template-columns: repeat(18,1fr);
-}
-
-.c2 {
-  background-color: var(--colorForegroundFeather);
-  border-color: red;
-  border-style: solid;
-  border-width: 1px;
-  width: 100%;
   grid-column: 1 / -1;
   width: 100%;
 }
 
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-<main
+<div
   class="c0"
 >
-  <div
-    class="c1"
-  >
-    <div
-      class="c2"
-    >
-      <div
-        class="c3"
-      >
-        fullsize
-      </div>
-    </div>
-  </div>
-</main>
+  Column
+</div>
 `;
 
 exports[`Column with "narrow" renders correctly 1`] = `
 .c0 {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  width: 100%;
-}
-
-.c1 {
-  display: grid;
-  grid-template-columns: repeat(18,1fr);
-}
-
-.c2 {
-  background-color: var(--colorForegroundFeather);
-  border-color: red;
-  border-style: solid;
-  border-width: 1px;
-  width: 100%;
   grid-column: 2 / -2;
   width: 100%;
 }
 
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 @media (min-width:768px) {
-  .c2 {
+  .c0 {
     grid-column: 6 / -6;
   }
 }
 
 @media (min-width:1200px) {
-  .c2 {
+  .c0 {
     grid-column: 7 / -7;
   }
 }
 
-<main
+<div
   class="c0"
 >
-  <div
-    class="c1"
-  >
-    <div
-      class="c2"
-    >
-      <div
-        class="c3"
-      >
-        narrow
-      </div>
-    </div>
-  </div>
-</main>
+  Column
+</div>
 `;
 
 exports[`Column with "regular" renders correctly 1`] = `
 .c0 {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  width: 100%;
-}
-
-.c1 {
-  display: grid;
-  grid-template-columns: repeat(18,1fr);
-}
-
-.c2 {
-  background-color: var(--colorForegroundFeather);
-  border-color: red;
-  border-style: solid;
-  border-width: 1px;
-  width: 100%;
   grid-column: 2 / -2;
   width: 100%;
 }
 
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 @media (min-width:768px) {
-  .c2 {
+  .c0 {
     grid-column: 3 / -3;
   }
 }
 
-<main
+<div
   class="c0"
 >
-  <div
-    class="c1"
-  >
-    <div
-      class="c2"
-    >
-      <div
-        class="c3"
-      >
-        regular
-      </div>
-    </div>
-  </div>
-</main>
+  Column
+</div>
 `;

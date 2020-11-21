@@ -8,7 +8,7 @@ import { SmallPrint, TextBlock } from '..';
 import bambooIllustration from './bamboo-illustration.svg';
 import { Styled } from './bamboo-illustration.styles';
 
-export const BambooIllustration: React.FC = () => (
+export const BambooIllustration = () => (
   <>
     <Row
       variant="fullsize"

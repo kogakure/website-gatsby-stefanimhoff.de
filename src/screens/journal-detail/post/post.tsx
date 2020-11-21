@@ -7,7 +7,7 @@ export type PostProps = {
   body: string;
 };
 
-export const Post: React.FC<PostProps> = ({ body, ...props }) => (
+export const Post = ({ body, ...props }: PostProps) => (
   <Styled.Post {...props}>
     <MDXRenderer>{body}</MDXRenderer>
   </Styled.Post>

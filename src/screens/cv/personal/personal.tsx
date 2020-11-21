@@ -16,7 +16,7 @@ type PersonalProps = {
   data: CvPersonal;
 };
 
-export const Personal: React.FC<PersonalProps> = ({ data, ...props }) => (
+export const Personal = ({ data, ...props }: PersonalProps) => (
   <Styled.Personal {...props}>
     <Subheadline>Personal Information</Subheadline>
     <SubSubheadline noMargin>{data.name}</SubSubheadline>

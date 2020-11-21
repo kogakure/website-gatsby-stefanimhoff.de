@@ -4,23 +4,23 @@ import user from '@testing-library/user-event';
 
 import { render, fireEvent } from '../../services/test-utils';
 
-import { Default, Block } from './spoiler.stories';
+import { Spoiler } from '.';
 
 describe('Spoiler', () => {
   test('renders correctly', () => {
-    const { container } = render(<Default />);
+    const { container } = render(<Spoiler>Spoiler</Spoiler>);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('with layout "block" renders correctly', () => {
-    const { container } = render(<Block />);
+    const { container } = render(<Spoiler block>Spoiler</Spoiler>);
 
     expect(container.firstChild).toMatchSnapshot();
   });
 
   test('shows the text on click', async () => {
-    const { container, findByLabelText } = render(<Default />);
+    const { container, findByLabelText } = render(<Spoiler>Spoiler</Spoiler>);
     const spoiler = container.getElementsByTagName('span')[1];
 
     expect(spoiler).toHaveAttribute('aria-hidden', 'true');
@@ -31,7 +31,7 @@ describe('Spoiler', () => {
   });
 
   test('show the text on Enter keyUp', async () => {
-    const { container, findByLabelText } = render(<Default />);
+    const { container, findByLabelText } = render(<Spoiler>Spoiler</Spoiler>);
     const spoiler = container.getElementsByTagName('span')[1];
 
     expect(spoiler).toHaveAttribute('aria-hidden', 'true');
@@ -45,7 +45,7 @@ describe('Spoiler', () => {
   });
 
   test('is accessible', async () => {
-    const { container } = render(<Default />);
+    const { container } = render(<Spoiler>Spoiler</Spoiler>);
     const results = await axe(container);
 
     expect(results).toHaveNoViolations();

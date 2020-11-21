@@ -3,130 +3,37 @@ import { axe } from 'jest-axe';
 
 import { render } from '../../services/test-utils';
 
-import {
-  Author,
-  AuthorSource,
-  AuthorSourceUrl,
-  Default,
-  German,
-  Japanese,
-  Source,
-  SourceUrl,
-} from './pullquote.stories';
+import { Pullquote } from '.';
+import type { PullquoteProps } from '.';
+
+type PullquoteTestProps = PullquoteProps & {
+  description: string;
+};
 
 describe('Pullquote', () => {
-  test('renders correctly', () => {
-    const { container } = render(<Default />);
+  // prettier-ignore
+  const combinations: PullquoteTestProps[] = [
+    { description: 'default', children: 'Pullquote' },
+    { description: 'german', children: 'Pullquote', lang: 'de' },
+    { description: 'japanese', children: 'Pullquote', lang: 'ja' },
+    { description: 'author', children: 'Pullquote', author: 'author' },
+    { description: 'source', children: 'Pullquote', source: 'source' },
+    { description: 'source, sourceUrl', children: 'Pullquote', source: 'source', sourceUrl: 'sourceUrl' },
+    { description: 'author, source, sourceUrl', children: 'Pullquote', author: 'author', source: 'source', sourceUrl: 'sourceUrl' },
+    { description: 'author, source', children: 'Pullquote', author: 'author', source: 'source' },
+  ];
 
-    expect(container.firstChild).toMatchSnapshot();
-  });
-
-  test('is accessible', async () => {
-    const { container } = render(<Default />);
-    const results = await axe(container);
-
-    expect(results).toHaveNoViolations();
-  });
-
-  describe('with German language', () => {
-    test('renders correctly', () => {
-      const { container } = render(<German />);
-
-      expect(container.firstChild).toMatchSnapshot();
-    });
-
-    test('is accessible', async () => {
-      const { container } = render(<German />);
-      const results = await axe(container);
-
-      expect(results).toHaveNoViolations();
-    });
-  });
-
-  describe('with Japanese language', () => {
-    test('renders correctly', () => {
-      const { container } = render(<Japanese />);
+  combinations.forEach((combination) => {
+    test(`renders in ${combination.description}`, () => {
+      const { container } = render(<Pullquote {...combination} />);
 
       expect(container.firstChild).toMatchSnapshot();
     });
-
-    test('is accessible', async () => {
-      const { container } = render(<Japanese />);
-      const results = await axe(container);
-
-      expect(results).toHaveNoViolations();
-    });
   });
 
-  describe('with author', () => {
-    test('renders correctly', () => {
-      const { container } = render(<Author />);
-
-      expect(container.firstChild).toMatchSnapshot();
-    });
-
-    test('is accessible', async () => {
-      const { container } = render(<Author />);
-      const results = await axe(container);
-
-      expect(results).toHaveNoViolations();
-    });
-  });
-
-  describe('with source', () => {
-    test('renders correctly', () => {
-      const { container } = render(<Source />);
-
-      expect(container.firstChild).toMatchSnapshot();
-    });
-
-    test('is accessible', async () => {
-      const { container } = render(<Source />);
-      const results = await axe(container);
-
-      expect(results).toHaveNoViolations();
-    });
-  });
-
-  describe('with source and URL', () => {
-    test('renders correctly', () => {
-      const { container } = render(<SourceUrl />);
-
-      expect(container.firstChild).toMatchSnapshot();
-    });
-
-    test('is accessible', async () => {
-      const { container } = render(<SourceUrl />);
-      const results = await axe(container);
-
-      expect(results).toHaveNoViolations();
-    });
-  });
-
-  describe('with author, source and URL', () => {
-    test('renders correctly', () => {
-      const { container } = render(<AuthorSourceUrl />);
-
-      expect(container.firstChild).toMatchSnapshot();
-    });
-
-    test('is accessible', async () => {
-      const { container } = render(<AuthorSourceUrl />);
-      const results = await axe(container);
-
-      expect(results).toHaveNoViolations();
-    });
-  });
-
-  describe('with author and source', () => {
-    test('renders correctly', () => {
-      const { container } = render(<AuthorSource />);
-
-      expect(container.firstChild).toMatchSnapshot();
-    });
-
-    test('is accessible', async () => {
-      const { container } = render(<AuthorSource />);
+  combinations.forEach((combination) => {
+    test(`is accessible in ${combination.description}`, async () => {
+      const { container } = render(<Pullquote {...combination} />);
       const results = await axe(container);
 
       expect(results).toHaveNoViolations();

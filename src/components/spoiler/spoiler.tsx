@@ -3,14 +3,11 @@ import * as React from 'react';
 import { Styled } from './spoiler.styles';
 
 export type SpoilerProps = {
+  children: React.ReactNode;
   block?: boolean;
 };
 
-export const Spoiler: React.FC<SpoilerProps> = ({
-  children,
-  block,
-  ...props
-}) => {
+export const Spoiler = ({ children, block, ...props }: SpoilerProps) => {
   const [spoiler, setSpoiler] = React.useState(true);
 
   return (

@@ -12,6 +12,7 @@ export type VerticalVariant = keyof typeof verticalVariants;
 export type HorizontalVariant = keyof typeof horizontalVariants;
 export type RowVariant = keyof typeof variants;
 export type RowProps = {
+  children?: React.ReactNode;
   debug?: boolean;
   horizontal?: HorizontalVariant;
   marginBottom?: boolean;
@@ -22,7 +23,7 @@ export type RowProps = {
   vertical?: VerticalVariant;
 };
 
-export const Row: React.FC<RowProps> = ({
+export const Row = ({
   children,
   debug,
   horizontal = 'center',
@@ -33,7 +34,7 @@ export const Row: React.FC<RowProps> = ({
   variant = 'center',
   vertical = 'start',
   ...props
-}) => (
+}: RowProps) => (
   <Styled.Row debug={debug} marginBottom={marginBottom} {...props}>
     <Styled.Grid
       horizontal={horizontal}

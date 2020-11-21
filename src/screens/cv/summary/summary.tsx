@@ -9,7 +9,7 @@ type SummaryProps = {
   data: CvSummary;
 };
 
-export const Summary: React.FC<SummaryProps> = ({ data, ...props }) => (
+export const Summary = ({ data, ...props }: SummaryProps) => (
   <Styled.Summary {...props}>
     <Subheadline>{data.headline}</Subheadline>
     <Paragraph noMargin>{data.text}</Paragraph>

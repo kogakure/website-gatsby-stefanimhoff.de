@@ -7,7 +7,7 @@ import { TextLink } from '../../../components/text-link';
 
 import { Styled } from './what-i-do.styles';
 
-export const WhatIDo: React.FC = ({ ...props }) => (
+export const WhatIDo = ({ ...props }) => (
   <Styled.WhatIDo data-sal="slide-up" data-sal-duration="800" {...props}>
     <Headline>
       What I Do

@@ -9,7 +9,7 @@ import { SmallPrint, ImageBlock, TextBlock } from '..';
 
 import { Styled } from './martial-arts-website.styles';
 
-export const MartialArtsWebsite: React.FC = () => {
+export const MartialArtsWebsite = () => {
   const {
     martialArtsWebsite: {
       childImageSharp: { fluid },

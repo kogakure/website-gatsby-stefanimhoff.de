@@ -2,11 +2,13 @@ import styled from 'styled-components';
 
 import { fontSize, mediaQuery, space } from '../../layout/tokens';
 
-import { OrderedListProps } from './ordered-list';
+type OrderedListTransientProps = {
+  $noMargin?: boolean;
+};
 
-const OrderedListContainer = styled.ol<OrderedListProps>`
+const OrderedListContainer = styled.ol<OrderedListTransientProps>`
   font-size: ${fontSize[3]};
-  margin-bottom: ${({ noMargin }) => (noMargin ? '0' : space[12])};
+  margin-bottom: ${({ $noMargin }) => ($noMargin ? '0' : space[12])};
   padding-left: 1em;
 
   @media (${mediaQuery.tablet}) {

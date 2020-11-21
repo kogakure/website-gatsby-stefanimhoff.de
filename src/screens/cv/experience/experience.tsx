@@ -15,7 +15,7 @@ export type ExperienceProps = {
   data: CvExperience;
 };
 
-export const Experience: React.FC<ExperienceProps> = ({ data, ...props }) => (
+export const Experience = ({ data, ...props }: ExperienceProps) => (
   <Styled.Experience {...props}>
     <Headline>{data.headline}</Headline>
     {data.items.map(({ company, duration, location, tasks, title, url }) => (

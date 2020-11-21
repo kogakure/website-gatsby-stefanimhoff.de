@@ -2,12 +2,6 @@
 
 exports[`Row centered renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -32,45 +26,17 @@ exports[`Row centered renders correctly 1`] = `
   grid-column: 1 / -1;
 }
 
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 <section
   class="c0"
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      center
-    </div>
-  </div>
+  />
 </section>
 `;
 
 exports[`Row fullsize renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -95,45 +61,17 @@ exports[`Row fullsize renders correctly 1`] = `
   grid-column: 1 / -1;
 }
 
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 <section
   class="c0"
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      fullsize
-    </div>
-  </div>
+  />
 </section>
 `;
 
 exports[`Row only one item left renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -154,22 +92,6 @@ exports[`Row only one item left renders correctly 1`] = `
   grid-template-columns: 1fr;
   justify-items: center;
   grid-column: 1 / -1;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
 @media (min-width:768px) {
@@ -195,24 +117,12 @@ exports[`Row only one item left renders correctly 1`] = `
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      leftOnly
-    </div>
-  </div>
+  />
 </section>
 `;
 
 exports[`Row only one item right renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -233,22 +143,6 @@ exports[`Row only one item right renders correctly 1`] = `
   grid-template-columns: 1fr;
   justify-items: center;
   grid-column: 1 / -1;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
 @media (min-width:768px) {
@@ -274,24 +168,12 @@ exports[`Row only one item right renders correctly 1`] = `
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      rightOnly
-    </div>
-  </div>
+  />
 </section>
 `;
 
 exports[`Row renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -316,45 +198,17 @@ exports[`Row renders correctly 1`] = `
   grid-column: 1 / -1;
 }
 
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 <section
   class="c0"
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      Default
-    </div>
-  </div>
+  />
 </section>
 `;
 
 exports[`Row with big item left renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -371,22 +225,6 @@ exports[`Row with big item left renders correctly 1`] = `
   -ms-flex-align: start;
   align-items: start;
   grid-column: 1 / -1;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
 @media (min-width:768px) {
@@ -400,24 +238,12 @@ exports[`Row with big item left renders correctly 1`] = `
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      bigLeft
-    </div>
-  </div>
+  />
 </section>
 `;
 
 exports[`Row with big item right renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -436,22 +262,6 @@ exports[`Row with big item right renders correctly 1`] = `
   grid-column: 1 / -1;
 }
 
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 @media (min-width:768px) {
   .c1 {
     grid-column: 6 / -1;
@@ -463,24 +273,12 @@ exports[`Row with big item right renders correctly 1`] = `
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      bigRight
-    </div>
-  </div>
+  />
 </section>
 `;
 
 exports[`Row with one item down left renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -501,22 +299,6 @@ exports[`Row with one item down left renders correctly 1`] = `
   grid-template-columns: 1fr;
   justify-items: center;
   grid-column: 1 / -1;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
 @media (min-width:768px) {
@@ -542,29 +324,12 @@ exports[`Row with one item down left renders correctly 1`] = `
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      leftDown
-    </div>
-    <div
-      class="c2"
-    >
-      leftDown
-    </div>
-  </div>
+  />
 </section>
 `;
 
 exports[`Row with one item down right renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -585,22 +350,6 @@ exports[`Row with one item down right renders correctly 1`] = `
   grid-template-columns: 1fr;
   justify-items: center;
   grid-column: 1 / -1;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
 @media (min-width:768px) {
@@ -626,29 +375,12 @@ exports[`Row with one item down right renders correctly 1`] = `
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      rightDown
-    </div>
-    <div
-      class="c2"
-    >
-      rightDown
-    </div>
-  </div>
+  />
 </section>
 `;
 
 exports[`Row with two equal sized items aligned to center renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -671,39 +403,6 @@ exports[`Row with two equal sized items aligned to center renders correctly 1`] 
   grid-column: 1 / -1;
 }
 
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 @media (min-width:768px) {
   .c1 {
     grid-template-columns: repeat(2,1fr);
@@ -721,29 +420,12 @@ exports[`Row with two equal sized items aligned to center renders correctly 1`] 
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      center
-    </div>
-    <div
-      class="c3"
-    >
-      center
-    </div>
-  </div>
+  />
 </section>
 `;
 
 exports[`Row with two equal sized items aligned to end renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -766,39 +448,6 @@ exports[`Row with two equal sized items aligned to end renders correctly 1`] = `
   grid-column: 1 / -1;
 }
 
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 @media (min-width:768px) {
   .c1 {
     grid-template-columns: repeat(2,1fr);
@@ -816,29 +465,12 @@ exports[`Row with two equal sized items aligned to end renders correctly 1`] = `
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      end
-    </div>
-    <div
-      class="c3"
-    >
-      end
-    </div>
-  </div>
+  />
 </section>
 `;
 
 exports[`Row with two equal sized items aligned to start renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -861,39 +493,6 @@ exports[`Row with two equal sized items aligned to start renders correctly 1`] =
   grid-column: 1 / -1;
 }
 
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 @media (min-width:768px) {
   .c1 {
     grid-template-columns: repeat(2,1fr);
@@ -911,29 +510,12 @@ exports[`Row with two equal sized items aligned to start renders correctly 1`] =
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      start
-    </div>
-    <div
-      class="c3"
-    >
-      start
-    </div>
-  </div>
+  />
 </section>
 `;
 
 exports[`Row with two equal sized items renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -956,39 +538,6 @@ exports[`Row with two equal sized items renders correctly 1`] = `
   grid-column: 1 / -1;
 }
 
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 @media (min-width:768px) {
   .c1 {
     grid-template-columns: repeat(2,1fr);
@@ -1006,29 +555,12 @@ exports[`Row with two equal sized items renders correctly 1`] = `
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      start
-    </div>
-    <div
-      class="c3"
-    >
-      start
-    </div>
-  </div>
+  />
 </section>
 `;
 
 exports[`Row with variable amount of items aligned to center renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -1050,72 +582,17 @@ exports[`Row with variable amount of items aligned to center renders correctly 1
   grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
 }
 
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 <section
   class="c0"
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      variable (Center)
-    </div>
-    <div
-      class="c3"
-    >
-      variable (Center)
-    </div>
-    <div
-      class="c2"
-    >
-      variable (Center)
-    </div>
-  </div>
+  />
 </section>
 `;
 
 exports[`Row with variable amount of items aligned to end renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -1137,72 +614,17 @@ exports[`Row with variable amount of items aligned to end renders correctly 1`] 
   grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
 }
 
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 <section
   class="c0"
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      variable (End)
-    </div>
-    <div
-      class="c2"
-    >
-      variable (End)
-    </div>
-    <div
-      class="c3"
-    >
-      variable (End)
-    </div>
-  </div>
+  />
 </section>
 `;
 
 exports[`Row with variable amount of items aligned to start renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -1224,72 +646,17 @@ exports[`Row with variable amount of items aligned to start renders correctly 1`
   grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
 }
 
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 <section
   class="c0"
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      variable (Start)
-    </div>
-    <div
-      class="c3"
-    >
-      variable (Start)
-    </div>
-    <div
-      class="c3"
-    >
-      variable (Start)
-    </div>
-  </div>
+  />
 </section>
 `;
 
 exports[`Row with variable amount of items renders correctly 1`] = `
 .c0 {
-  background-color: var(--colorForegroundFeather);
-  border-color: green;
-  border-style: dotted;
-  border-width: 1px;
-  width: 100%;
-  margin-bottom: clamp(2.488rem,5.32vw,2.986rem);
   display: grid;
   grid-column: 1 / -1;
   grid-template-columns: repeat(18,1fr);
@@ -1311,60 +678,11 @@ exports[`Row with variable amount of items renders correctly 1`] = `
   grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
 }
 
-.c2 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.c3 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background: rgba(25,25,25,0.3);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 <section
   class="c0"
 >
   <div
     class="c1"
-  >
-    <div
-      class="c2"
-    >
-      variable (Start)
-    </div>
-    <div
-      class="c3"
-    >
-      variable (Start)
-    </div>
-    <div
-      class="c3"
-    >
-      variable (Start)
-    </div>
-  </div>
+  />
 </section>
 `;

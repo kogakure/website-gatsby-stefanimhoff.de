@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 import { Styled } from './photo.styles';
 
-export const Photo: React.FC = () => {
+export const Photo = () => {
   const {
     portraitImage: {
       childImageSharp: { fluid },

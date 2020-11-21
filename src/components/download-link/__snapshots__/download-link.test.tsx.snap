@@ -44,7 +44,6 @@ a:focus .c1 {
 }
 
 <a
-  block="0"
   class="c0"
   href="/"
 >
@@ -113,11 +112,10 @@ a:focus .c1 {
 }
 
 <a
-  block="0"
   class="c0"
   href="/"
 >
-  Download Now!
+  Download
   <span
     class="c1"
   >

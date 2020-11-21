@@ -36,7 +36,6 @@ exports[`IconLink renders correctly 1`] = `
 }
 
 <a
-  block="0"
   class="c0"
   href="/"
 >

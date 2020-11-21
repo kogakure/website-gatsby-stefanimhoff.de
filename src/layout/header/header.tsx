@@ -9,7 +9,7 @@ export type HeaderProps = {
   navigation: NavigationItem[];
 };
 
-export const Header: React.FC<HeaderProps> = ({ homeTo, navigation }) => (
+export const Header = ({ homeTo, navigation }: HeaderProps) => (
   <Styled.Header role="banner">
     <Styled.GridHomeLink to={homeTo} />
     <Styled.GridNavigation navigation={navigation} />

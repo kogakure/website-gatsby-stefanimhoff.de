@@ -8,7 +8,7 @@ import { SmallPrint, TextBlock } from '..';
 
 import { Styled } from './japanese-color.styles';
 
-export const JapaneseColor: React.FC = () => (
+export const JapaneseColor = () => (
   <Row marginBottom variant="equal" vertical="center">
     <TextBlock data-sal="slide-up" data-sal-duration="800">
       <SmallPrint>Design / Web Development</SmallPrint>

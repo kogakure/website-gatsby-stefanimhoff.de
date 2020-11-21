@@ -12,19 +12,20 @@ export type LayoutVariant = 'default' | 'green' | 'blue' | 'brown';
 export type LayoutSize = 'fullsize' | 'regular' | 'narrow';
 
 export type LayoutProps = {
+  children?: React.ReactNode;
   debug?: boolean;
+  homeTo?: string;
   size?: LayoutSize;
   variant?: LayoutVariant;
-  homeTo?: string;
 };
 
-export const Layout: React.FC<LayoutProps> = ({
+export const Layout = ({
   children,
   debug = false,
   homeTo,
   size = 'fullsize',
   variant = 'default',
-}) => {
+}: LayoutProps) => {
   const {
     allNavigationYaml: { nodes },
   } = useLayoutQuery();

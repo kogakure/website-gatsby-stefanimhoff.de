@@ -13,6 +13,6 @@ exports[`InlineCode renders correctly 1`] = `
 <code
   class="c0"
 >
-  const myVar = "Hello World";
+  InlineCode
 </code>
 `;

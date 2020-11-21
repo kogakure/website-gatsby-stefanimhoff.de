@@ -6,7 +6,7 @@ export type NetflixFlagProps = {
   id: string;
 };
 
-export const NetflixFlag: React.FC<NetflixFlagProps> = ({ id, ...props }) => (
+export const NetflixFlag = ({ id, ...props }: NetflixFlagProps) => (
   <Styled.NetflixFlag
     aria-label="Netflix"
     href={`https://www.netflix.com/title/${id}`}

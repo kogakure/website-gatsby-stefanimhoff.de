@@ -201,7 +201,6 @@ a:focus .c7 {
         I also write a monthly article with recommendations of the past month.
       </p>
       <a
-        block="0"
         class="c6"
         href="/journal/"
       >
@@ -253,7 +252,6 @@ a:focus .c7 {
         . I think Haiku is a fun, creative way to use limitation and brevity while saying something meaningful.
       </p>
       <a
-        block="0"
         class="c6"
         href="/haiku/"
       >

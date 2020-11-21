@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { space } from '../../layout/tokens';
 
-import { SpoilerProps } from '.';
+import type { SpoilerProps } from '.';
 
 const Spoiler = styled.span<SpoilerProps & { spoiler: boolean }>`
   background: ${({ spoiler }) =>

@@ -6,10 +6,7 @@ export type PrimeVideoFlagProps = {
   id: string;
 };
 
-export const PrimeVideoFlag: React.FC<PrimeVideoFlagProps> = ({
-  id,
-  ...props
-}) => (
+export const PrimeVideoFlag = ({ id, ...props }: PrimeVideoFlagProps) => (
   <Styled.PrimeVideoFlag
     aria-label="Prime Video"
     href={`https://www.amazon.de/gp/video/detail/${id}`}

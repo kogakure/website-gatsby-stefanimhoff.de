@@ -7,7 +7,11 @@ import { EmojifyProvider } from '../../contexts';
 
 import { Default } from './emojify.stories';
 
-const App: React.FC = ({ children }) => (
+type AppProps = {
+  children: React.ReactNode;
+};
+
+const App = ({ children }: AppProps) => (
   <EmojifyProvider>{children}</EmojifyProvider>
 );
 

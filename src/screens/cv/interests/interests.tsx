@@ -9,7 +9,7 @@ export type InterestsProps = {
   data: CvInterests;
 };
 
-export const Interests: React.FC<InterestsProps> = ({ data, ...props }) => (
+export const Interests = ({ data, ...props }: InterestsProps) => (
   <Styled.Interests {...props}>
     <Headline>{data.headline}</Headline>
     <Styled.List>

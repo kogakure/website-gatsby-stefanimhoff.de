@@ -7,11 +7,11 @@ export type RubyAnnotationProps = {
   text: string;
 };
 
-export const RubyAnnotation: React.FC<RubyAnnotationProps> = ({
+export const RubyAnnotation = ({
   base,
   text,
   ...props
-}) => (
+}: RubyAnnotationProps) => (
   <Styled.Ruby {...props}>
     {base}
     <rp>（</rp>

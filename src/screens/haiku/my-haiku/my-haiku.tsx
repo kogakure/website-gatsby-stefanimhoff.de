@@ -6,7 +6,7 @@ import { Paragraph, Headline } from '../../../components/typography';
 
 import { Styled } from './my-haiku.styles';
 
-export const MyHaiku: React.FC = () => {
+export const MyHaiku = () => {
   const {
     allHaikuYaml: { nodes },
   } = useHaikuQuery();

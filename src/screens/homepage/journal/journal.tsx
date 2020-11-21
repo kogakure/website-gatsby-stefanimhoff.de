@@ -14,7 +14,7 @@ import { TextLink } from '../../../components/text-link';
 
 import { Styled } from './journal.styles';
 
-export const Journal: React.FC = ({ ...props }) => {
+export const Journal = ({ ...props }) => {
   const {
     homepageJournalPosts: { edges },
   } = useHomepageJournalPostsQuery();

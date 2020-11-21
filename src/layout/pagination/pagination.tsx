@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { GatsbyLinkProps } from 'gatsby';
+import type { GatsbyLinkProps } from 'gatsby';
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
 
 import { Styled, variants } from './pagination.styles';
@@ -15,12 +15,12 @@ export type LinkWithPaginationProps = PaginationProps &
   Pick<GatsbyLinkProps<any>, 'to'>;
 /* eslint-enable */
 
-export const Pagination: React.FC<LinkWithPaginationProps> = ({
+export const Pagination = ({
   text = '',
   to,
   variant,
   ...props
-}) => {
+}: LinkWithPaginationProps) => {
   const [hideOnScroll, setHideOnScroll] = React.useState(true);
 
   useScrollPosition(({ prevPos, currPos }) => {
