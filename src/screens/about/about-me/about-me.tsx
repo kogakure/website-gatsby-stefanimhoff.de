@@ -27,10 +27,9 @@ export const AboutMe = () => (
         <TextLink href="https://hamburg.stefanimhoff.de/" target="_blank">
           walking and cycling
         </TextLink>
-        , and do <TextLink to="/calisthenics/">Calisthenics</TextLink> and
-        running to stay fit. My ideal weather is thunderstorms and rain, but I
-        like also warm sunny weather. My favorite places are the sea and
-        forests.
+        , and do <TextLink to="/calisthenics/">Calisthenics</TextLink> to stay
+        fit. My ideal weather is thunderstorms and rain, but I like also warm
+        sunny weather. My favorite places are the sea and forests.
       </Paragraph>
       <Paragraph>
         When I’m inside I like reading in my roughly 1,000 books. I love reading
