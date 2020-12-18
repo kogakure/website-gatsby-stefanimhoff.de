@@ -29,85 +29,85 @@ The untested truths spun by different interests continue to churn and accumulate
 ### Science & Knowledge
 
 - [Tales from the Trip: Season 1](https://www.youtube.com/playlist?list=PLChmxKYOuWILcPzhzea-dVvXN-ii0hh95) – Beautiful animated short films where people describe their drug trips with psychedelics.
-- [The science of psilocybin and its use to relieve suffering](https://youtu.be/81-v8ePXPd4) <Flag label="15:58" />
-- [Does the Brave Browser Really Beat Fingerprinting? Let's Test!](https://youtu.be/dsu9b5FqK_0) <Flag label="19:42" />
-- [There’s No Such Thing As Orange](https://youtu.be/WX0xWJpr0FY) <Flag label="16:44" />
-- [Learn Why The Way You’re Breathing Is Destroying Your Quality of Life](https://youtu.be/13Ae4kuULUg) <Flag label="57:50" /> – _James Nestor_ on the health benefits of closing your mouth.
+- [The science of psilocybin and its use to relieve suffering](https://youtu.be/81-v8ePXPd4)
+- [Does the Brave Browser Really Beat Fingerprinting? Let's Test!](https://youtu.be/dsu9b5FqK_0)
+- [There’s No Such Thing As Orange](https://youtu.be/WX0xWJpr0FY)
+- [Learn Why The Way You’re Breathing Is Destroying Your Quality of Life](https://youtu.be/13Ae4kuULUg) – _James Nestor_ on the health benefits of closing your mouth.
 
 ### Productivity
 
-- [How I Remember Everything I Read](https://youtu.be/AjoxkxM_I5g) <Flag label="15:52" />
-- [How I Take Notes on Books](https://youtu.be/Fhp_8UAQkKc) <Flag label="13:25" />
-- [My Comprehensive Obsidian Workflow For Zettelkasten and Evergreen Notes](https://youtu.be/Ewhfok91AdE) <Flag label="1:04:00" /> – An one-hour long walkthrough on how _Bryan Jenks_ works with his Zettelkasten and Obsidian.
-- [Obsidian Block References (0.9.5)](https://youtu.be/oqx2O0aXZjQ) <Flag label="12:11" />
-- [Comprehensive Overview | Obsidian Block References & Transclusion](https://youtu.be/PuOecKqUsRA) <Flag label="33:39" />
-- [Why Obsidian Will Overtake Roam](https://youtu.be/_x54XJrECvk) <Flag label="19:41" />
+- [How I Remember Everything I Read](https://youtu.be/AjoxkxM_I5g)
+- [How I Take Notes on Books](https://youtu.be/Fhp_8UAQkKc)
+- [My Comprehensive Obsidian Workflow For Zettelkasten and Evergreen Notes](https://youtu.be/Ewhfok91AdE) – An one-hour long walkthrough on how _Bryan Jenks_ works with his Zettelkasten and Obsidian.
+- [Obsidian Block References (0.9.5)](https://youtu.be/oqx2O0aXZjQ)
+- [Comprehensive Overview | Obsidian Block References & Transclusion](https://youtu.be/PuOecKqUsRA)
+- [Why Obsidian Will Overtake Roam](https://youtu.be/_x54XJrECvk)
 
 ### History & Culture
 
-- [I wore the same shirt every day for 3 years.](https://youtu.be/NlcBA8s22BA) <Flag label="10:46" />
-- [Wie Pepsi tödliche Proteste verursacht hat](https://youtu.be/ZwOwv3-cKmY) <Flag label="6:53" /> 🇩🇪
-- [Batavia’s mysteries unfold with discovery of mass grave](https://youtu.be/xdNPHMlsh2k) <Flag label="2:05" />
-- [Who is Seneca? The Incredible Life of Rome’s Greatest Stoic Thinker](https://youtu.be/J3wZoqElCgs) <Flag label="8:44" />
-- [Sohei: Buddhist Warrior Monks of Medieval Japan](https://youtu.be/KHedbN-rL2Q) <Flag label="21:15" />
-- [What a USD 20,000/Month Japanese Apartment is Like](https://youtu.be/tORfGTrr1ww) <Flag label="17:37" />
-- [Inside a USD 13,000/Month Japanese Apartment](https://youtu.be/gtSc1m_ja38) <Flag label="16:29" />
-- [How to Live Adventurously Every Day](https://youtu.be/gIqpY_9Rj9s) <Flag label="25:43" />
-- [Eleusis, the great mysteries](https://youtu.be/iaprpVwW-QU) <Flag label="15:14" /> – A tour along the route from Athens to the temple of [Eleusis](http://eleusis2021.eu/) which housed the secret religion without a name for nearly 2000 years. My next vacation visit after Corona is over.
-- [Origin of the Germanic Tribes](https://youtu.be/_KFzDlhT6bs) <Flag label="21:22" />
-- [Arminius: Hero of Germania, Traitor to Rome](https://youtu.be/logbxY7_FCw) <Flag label="25:53" />
-- [Barbarians – Is This Netflix Show Historically Accurate?](https://youtu.be/YMC-gzAC1FI) <Flag label="20:56" />
-- [Charles Bridge (Karlův most) – Construction](https://youtu.be/8QliKejzLQs) <Flag label="0:59" /> – An animation visualizing the construction of the historic bridge over _Vltava_ river in Prague, Czech Republic.
+- [I wore the same shirt every day for 3 years.](https://youtu.be/NlcBA8s22BA)
+- [Wie Pepsi tödliche Proteste verursacht hat](https://youtu.be/ZwOwv3-cKmY) 🇩🇪
+- [Batavia’s mysteries unfold with discovery of mass grave](https://youtu.be/xdNPHMlsh2k)
+- [Who is Seneca? The Incredible Life of Rome’s Greatest Stoic Thinker](https://youtu.be/J3wZoqElCgs)
+- [Sohei: Buddhist Warrior Monks of Medieval Japan](https://youtu.be/KHedbN-rL2Q)
+- [What a USD 20,000/Month Japanese Apartment is Like](https://youtu.be/tORfGTrr1ww)
+- [Inside a USD 13,000/Month Japanese Apartment](https://youtu.be/gtSc1m_ja38)
+- [How to Live Adventurously Every Day](https://youtu.be/gIqpY_9Rj9s)
+- [Eleusis, the great mysteries](https://youtu.be/iaprpVwW-QU) – A tour along the route from Athens to the temple of [Eleusis](http://eleusis2021.eu/) which housed the secret religion without a name for nearly 2000 years. My next vacation visit after Corona is over.
+- [Origin of the Germanic Tribes](https://youtu.be/_KFzDlhT6bs)
+- [Arminius: Hero of Germania, Traitor to Rome](https://youtu.be/logbxY7_FCw)
+- [Barbarians – Is This Netflix Show Historically Accurate?](https://youtu.be/YMC-gzAC1FI)
+- [Charles Bridge (Karlův most) – Construction](https://youtu.be/8QliKejzLQs) – An animation visualizing the construction of the historic bridge over _Vltava_ river in Prague, Czech Republic.
 
 ### Cinema & Film
 
-- [The Expanse – Season 5 Official Trailer](https://youtu.be/caLji74IIp4) <Flag label="2:54" /> – I can’t wait for December, finally one of the best books of the series gets on the screen.
-- [Cobra Kai – Season 3 Teaser Trailer](https://youtu.be/JQC85GrqMnw) <Flag label="3:11" /> – January 2021 👊
-- [25 Things You Missed in Cobra Kai](https://youtu.be/WtjskFP7Ce0) <Flag label="15:45" /> – A few nice hidden facts in the TV Show.
-- [This Movie Offends You? Good.](https://youtu.be/vSGZrpN7ahQ) <Flag label="17:05" />
-- [Production Hell – The Abyss](https://youtu.be/0RyLikHFh78) <Flag label="10:37" />
-- [The Drinker Recommends… Cobra Kai](https://youtu.be/XEDwYbnqSiA) <Flag label="13:38" />
+- [The Expanse – Season 5 Official Trailer](https://youtu.be/caLji74IIp4) – I can’t wait for December, finally one of the best books of the series gets on the screen.
+- [Cobra Kai – Season 3 Teaser Trailer](https://youtu.be/JQC85GrqMnw) – January 2021 👊
+- [25 Things You Missed in Cobra Kai](https://youtu.be/WtjskFP7Ce0) – A few nice hidden facts in the TV Show.
+- [This Movie Offends You? Good.](https://youtu.be/vSGZrpN7ahQ)
+- [Production Hell – The Abyss](https://youtu.be/0RyLikHFh78)
+- [The Drinker Recommends… Cobra Kai](https://youtu.be/XEDwYbnqSiA)
 
 ### Politics
 
-- [Diversity, Inclusion, Equity](https://youtu.be/3jLNgLABuTw) <Flag label="57:17" /> – _James Lindsay_ in a one-hour long talk about the Woke ideology, its origins, targets, and goals. 👍
-- [Are You Outsourcing Your Truth?](https://youtu.be/RISAjTGhRO0) <Flag label="1:14" />
-- [Buddy Brown explains “PRIVILEGE” better than anybody!](https://youtu.be/_OOXuYhwktY) <Flag label="2:49" />
-- [Buddy Brown’s plan for LOOTERS (Y’all will love this)](https://youtu.be/ZpN2xrHrskE) <Flag label="3:53" />
-- [Buddy Brown SOLVES America’s PARENTING Problem](https://youtu.be/hWqWmptFc-w) <Flag label="3:09" />
-- [How to not get SHOT by the POLICE | Buddy Brown](https://youtu.be/iNQuDsHkBdQ) <Flag label="4:37" />
-- [If CALIFORNIA wants to leave… LET EM! | Buddy Brown](https://youtu.be/BPpD9cstTzc) <Flag label="3:46" />
-- [Ain't Gonna be a CIVIL WAR… Here's why | Buddy Brown](https://youtu.be/Jx8RAS74FFU) <Flag label="4:19" />
-- [m o d e r n i t y 3](https://youtu.be/LF6yyuJGspM) <Flag label="12:05" /> – _Paul Joseph Watson's_ social commentary to insanity in 2020.
-- [Submission](https://youtu.be/XI1IpFKFSmk) <Flag label="8:12" /> – And another social commentary by _Paul Joseph Watson_ about the Islamic terrorist killings in France.
-- [President Trump Condemning White Supremacy Compilation](https://youtu.be/RGrHF-su9v8) <Flag label="3:52" /> – Because it gets ridiculous after a while hearing the same repeated lie over and over again, _The Daily Wire_ made a compilation.
-- [The Origin Story Of 'The Proud Boys' … (May Contain Humor)](https://youtu.be/vsNlteJQunc) <Flag label="11:24" />
-- [The Media's “Very Fine People” Myth](https://youtu.be/VOkrxuZRUnk) <Flag label="2:10" /> – As even people in my social networks _still_ share these fake news, I share the truth here.
-- [The Secret Origins of Black Lives Matter](https://youtu.be/Sq1m_PJtu5o) <Flag label="17:11" /> – The **organization** _Black Lives Matters_ has their ideology from _The Weather Underground_, a radical-left Marxist terror organization that bombed and killed all over the USA in the 60s and 70s.
-- [Trump vs Biden: Which Candidate is RACIST?](https://youtu.be/DZfzJATDmXs) <Flag label="15:52" />
-- [Trump vs Biden: Handicap Face-Off](https://youtu.be/OIfRUIm3Kuc) <Flag label="23:19" />
-- [Trump vs Biden: Gay Face-Off](https://youtu.be/7y3Bffyio-A) <Flag label="15:15" />
+- [Diversity, Inclusion, Equity](https://youtu.be/3jLNgLABuTw) – _James Lindsay_ in a one-hour long talk about the Woke ideology, its origins, targets, and goals. 👍
+- [Are You Outsourcing Your Truth?](https://youtu.be/RISAjTGhRO0)
+- [Buddy Brown explains “PRIVILEGE” better than anybody!](https://youtu.be/_OOXuYhwktY)
+- [Buddy Brown’s plan for LOOTERS (Y’all will love this)](https://youtu.be/ZpN2xrHrskE)
+- [Buddy Brown SOLVES America’s PARENTING Problem](https://youtu.be/hWqWmptFc-w)
+- [How to not get SHOT by the POLICE | Buddy Brown](https://youtu.be/iNQuDsHkBdQ)
+- [If CALIFORNIA wants to leave… LET EM! | Buddy Brown](https://youtu.be/BPpD9cstTzc)
+- [Ain't Gonna be a CIVIL WAR… Here's why | Buddy Brown](https://youtu.be/Jx8RAS74FFU)
+- [m o d e r n i t y 3](https://youtu.be/LF6yyuJGspM) – _Paul Joseph Watson's_ social commentary to insanity in 2020.
+- [Submission](https://youtu.be/XI1IpFKFSmk) – And another social commentary by _Paul Joseph Watson_ about the Islamic terrorist killings in France.
+- [President Trump Condemning White Supremacy Compilation](https://youtu.be/RGrHF-su9v8) – Because it gets ridiculous after a while hearing the same repeated lie over and over again, _The Daily Wire_ made a compilation.
+- [The Origin Story Of 'The Proud Boys' … (May Contain Humor)](https://youtu.be/vsNlteJQunc)
+- [The Media's “Very Fine People” Myth](https://youtu.be/VOkrxuZRUnk) – As even people in my social networks _still_ share these fake news, I share the truth here.
+- [The Secret Origins of Black Lives Matter](https://youtu.be/Sq1m_PJtu5o) – The **organization** _Black Lives Matters_ has their ideology from _The Weather Underground_, a radical-left Marxist terror organization that bombed and killed all over the USA in the 60s and 70s.
+- [Trump vs Biden: Which Candidate is RACIST?](https://youtu.be/DZfzJATDmXs)
+- [Trump vs Biden: Handicap Face-Off](https://youtu.be/OIfRUIm3Kuc)
+- [Trump vs Biden: Gay Face-Off](https://youtu.be/7y3Bffyio-A)
 
 ### Humor
 
-- [Donald Trump vs. Joe Biden: FULL debate on the Joe Rogan Experience](https://youtu.be/hMzTmyijZ2M) <Flag label="11:52" /> – A really funny parody. Even the voices are fantastic! 😂
-- [Why Everybody Loves Leaf Blowers](https://youtu.be/0RGY6OW6-3I) <Flag label="4:49" /> – I _love_ them so much, I even dedicated a <TextLink to="/haiku/13/">Haiku</TextLink> to them!
-- [The NEW CDC Infection Fatality Rates!](https://youtu.be/e4hrHAefWaY) <Flag label="4:22" />
-- [Spotify Employees Censoring Joe Rogan](https://youtu.be/SB50heKBxgw) <Flag label="4:32" /> – Funny satire that was even retweeted by _Joe Rogan_ himself.
-- [If the Pandemic Thinking Was Applied To Everything](https://youtu.be/dEkxWTsBINI) <Flag label="3:32" />
-- [How the Left and Right Fight](https://youtu.be/TN7s0-FuIEM) <Flag label="5:10" />
-- [Why Twitter Censored the NY Post Article on Biden](https://youtu.be/jrjI2X9TIZA) <Flag label="5:54" />
-- [The Fact Checkers](https://youtu.be/AmKPbYbAnKE) <Flag label="5:15" />
-- [The Very Presidential Debate](https://youtu.be/VnlYaH8y_HU) <Flag label="0:48" />
-- [Amy Coney Barrett Goes To The Senate](https://youtu.be/I80Wbow3pcA) <Flag label="0:45" />
-- [Twitter CENSORS "Fake News"](https://youtu.be/BP6w3QrlpMY) <Flag label="1:28" />
-- [Reasons to Vote for Joe Biden!](https://youtu.be/FE5Gmp5LQTE) <Flag label="2:43" />
-- [New Website Curates News You Agree With](https://youtu.be/rFRewkdDT2g) <Flag label="1:35" />
-- [Meet The People Who Decide Who You Can Punch](https://youtu.be/LXcHL2K-RSg) <Flag label="2:34" />
-- [FOX & CNN to Normal Humans](https://youtu.be/3iCGBPUdSNM) <Flag label="2:21" />
-- [Dumpster Fire 35 Clip – Naked Ballot Audition](https://youtu.be/uW5opNsGdD4) <Flag label="1:46" /> – Funny parody of the “naked ballot” ads by comedian _Bridget Phetasy_ 😂
-- [Lisa Eckhart – Die Vernichtung des WDR](https://youtu.be/fSCYKDm0NcQ) <Flag label="5:31" /> 🇩🇪
-- [Uncle Roger React to Uncle Roger MEMES](https://youtu.be/n56IWjFk-2M) <Flag label="10:32" />
+- [Donald Trump vs. Joe Biden: FULL debate on the Joe Rogan Experience](https://youtu.be/hMzTmyijZ2M) – A really funny parody. Even the voices are fantastic! 😂
+- [Why Everybody Loves Leaf Blowers](https://youtu.be/0RGY6OW6-3I) – I _love_ them so much, I even dedicated a <TextLink to="/haiku/13/">Haiku</TextLink> to them!
+- [The NEW CDC Infection Fatality Rates!](https://youtu.be/e4hrHAefWaY)
+- [Spotify Employees Censoring Joe Rogan](https://youtu.be/SB50heKBxgw) – Funny satire that was even retweeted by _Joe Rogan_ himself.
+- [If the Pandemic Thinking Was Applied To Everything](https://youtu.be/dEkxWTsBINI)
+- [How the Left and Right Fight](https://youtu.be/TN7s0-FuIEM)
+- [Why Twitter Censored the NY Post Article on Biden](https://youtu.be/jrjI2X9TIZA)
+- [The Fact Checkers](https://youtu.be/AmKPbYbAnKE)
+- [The Very Presidential Debate](https://youtu.be/VnlYaH8y_HU)
+- [Amy Coney Barrett Goes To The Senate](https://youtu.be/I80Wbow3pcA)
+- [Twitter CENSORS "Fake News"](https://youtu.be/BP6w3QrlpMY)
+- [Reasons to Vote for Joe Biden!](https://youtu.be/FE5Gmp5LQTE)
+- [New Website Curates News You Agree With](https://youtu.be/rFRewkdDT2g)
+- [Meet The People Who Decide Who You Can Punch](https://youtu.be/LXcHL2K-RSg)
+- [FOX & CNN to Normal Humans](https://youtu.be/3iCGBPUdSNM)
+- [Dumpster Fire 35 Clip – Naked Ballot Audition](https://youtu.be/uW5opNsGdD4) – Funny parody of the “naked ballot” ads by comedian _Bridget Phetasy_ 😂
+- [Lisa Eckhart – Die Vernichtung des WDR](https://youtu.be/fSCYKDm0NcQ) 🇩🇪
+- [Uncle Roger React to Uncle Roger MEMES](https://youtu.be/n56IWjFk-2M)
 
 ## TV Shows
 
@@ -137,61 +137,61 @@ The untested truths spun by different interests continue to churn and accumulate
 
 ### The Joe Rogan Experience
 
-- [1543 – Brian Muraresku & Graham Hancock](https://podcasts.apple.com/de/podcast/the-joe-rogan-experience/id360084272?i=1000493115041) <Flag label="2:44:00" /> – A interesting episode about psychedelic origins of the world’s great spiritual practices.
-- [1545 – W. Keith Campbell](https://podcasts.apple.com/de/podcast/the-joe-rogan-experience/id360084272?i=1000493807464) <Flag label="2:56:00" /> – Narcissism and its influence on society at large.
-- [1551 – Paul Saladino](https://podcasts.apple.com/podcast/1551-paul-saladino/id360084272?i=1000495724800) <Flag label="3:02:00" /> – Dr. _Paul Saladino_, as a physician and board-certified nutrition specialist talks about the benefits of the carnivore diet.
-- [1555 – Alex Jones & Tim Dillon](https://podcasts.apple.com/podcast/1555-alex-jones-tim-dillon/id360084272?i=1000496290800) <Flag label="3:21:00" /> – The podcast that melted the internet. Ironically, this time Joe fact-checked _Alex Jones_ conspiracy claims and 70 % proved to be true 😆
-- [1556 – Glen Greenwald](https://podcasts.apple.com/podcast/1556-glenn-greenwald/id360084272?i=1000496385207) <Flag label="3:16:00" /> – Former attorney and award-winning Journalist, who broke the _Edward Snowden_ story.
-- [1557 – Gad Saad](https://podcasts.apple.com/podcast/1557-gad-saad/id360084272?i=1000496506334) <Flag label="3:11:00" /> – The professor of Marketing at Concordia University talks about his new book [The Parasitic Mind: How Infectious Ideas are Killing Common Sense](https://www.goodreads.com/book/show/49680197-the-parasitic-mind).
-- [1558 – Tristan Harris](https://podcasts.apple.com/podcast/1558-tristan-harris/id360084272?i=1000496627636) <Flag label="2:32:00" /> – _Tristan Harris_, the man behind the Netflix documentary [The Social Dilemma](https://www.themoviedb.org/movie/656690-the-social-dilemma) <NetflixFlag id="81254224" /> talks about the social problems created by social media and the attention industry.
+- [1543 – Brian Muraresku & Graham Hancock](https://podcasts.apple.com/de/podcast/the-joe-rogan-experience/id360084272?i=1000493115041) – A interesting episode about psychedelic origins of the world’s great spiritual practices.
+- [1545 – W. Keith Campbell](https://podcasts.apple.com/de/podcast/the-joe-rogan-experience/id360084272?i=1000493807464) – Narcissism and its influence on society at large.
+- [1551 – Paul Saladino](https://podcasts.apple.com/podcast/1551-paul-saladino/id360084272?i=1000495724800) – Dr. _Paul Saladino_, as a physician and board-certified nutrition specialist talks about the benefits of the carnivore diet.
+- [1555 – Alex Jones & Tim Dillon](https://podcasts.apple.com/podcast/1555-alex-jones-tim-dillon/id360084272?i=1000496290800) – The podcast that melted the internet. Ironically, this time Joe fact-checked _Alex Jones_ conspiracy claims and 70 % proved to be true 😆
+- [1556 – Glen Greenwald](https://podcasts.apple.com/podcast/1556-glenn-greenwald/id360084272?i=1000496385207) – Former attorney and award-winning Journalist, who broke the _Edward Snowden_ story.
+- [1557 – Gad Saad](https://podcasts.apple.com/podcast/1557-gad-saad/id360084272?i=1000496506334) – The professor of Marketing at Concordia University talks about his new book [The Parasitic Mind: How Infectious Ideas are Killing Common Sense](https://www.goodreads.com/book/show/49680197-the-parasitic-mind).
+- [1558 – Tristan Harris](https://podcasts.apple.com/podcast/1558-tristan-harris/id360084272?i=1000496627636) – _Tristan Harris_, the man behind the Netflix documentary [The Social Dilemma](https://www.themoviedb.org/movie/656690-the-social-dilemma) <NetflixFlag id="81254224" /> talks about the social problems created by social media and the attention industry.
 
 ### The Portal
 
-- [41 – Douglas Murray – Heroism 2020: Defence of Our Own Civilization](https://podcasts.apple.com/podcast/the-portal/id1469999563?i=1000495880717) <Flag label="4:52:00" /> – This was **the best podcast** episode I’ve heard in 2020. After a 20 minute essay by _Eric Weinstein_ follows a long talk with _Douglas Murray_. Two intellectuals reflect in nearly 5 hours on the state of the world. 🤩
+- [41 – Douglas Murray – Heroism 2020: Defence of Our Own Civilization](https://podcasts.apple.com/podcast/the-portal/id1469999563?i=1000495880717) – This was **the best podcast** episode I’ve heard in 2020. After a 20 minute essay by _Eric Weinstein_ follows a long talk with _Douglas Murray_. Two intellectuals reflect in nearly 5 hours on the state of the world. 🤩
 
 ### New Discourses
 
 _New Discourses_ is a new political podcast by _James Lindsay_ I discovered this month.
 
-- [Biden Is Not The Room](https://podcasts.apple.com/podcast/new-discourses/id1499880546?i=1000495583484) <Flag label="55:00" /> – A one-hour long, extremely interesting monologue by James Lindsay, the scientist behind the [Grievance studies affair](https://en.wikipedia.org/wiki/Grievance_studies_affair), on why he will vote for Donald Trump, even though he is not happy he has to. 🤩
+- [Biden Is Not The Room](https://podcasts.apple.com/podcast/new-discourses/id1499880546?i=1000495583484) – A one-hour long, extremely interesting monologue by James Lindsay, the scientist behind the [Grievance studies affair](https://en.wikipedia.org/wiki/Grievance_studies_affair), on why he will vote for Donald Trump, even though he is not happy he has to. 🤩
 
 ### Bret Weinstein | DarkHorse Podcast
 
-- [51 – Facebook, Twitter, & Evolving Door Politics (Bret Weinstein & Heather Heying DarkHorse Livestream)](https://podcasts.apple.com/podcast/bret-weinstein-darkhorse-podcast/id1471581521?i=1000496016130) <Flag label="1:38:00" />
+- [51 – Facebook, Twitter, & Evolving Door Politics (Bret Weinstein & Heather Heying DarkHorse Livestream)](https://podcasts.apple.com/podcast/bret-weinstein-darkhorse-podcast/id1471581521?i=1000496016130)
 
 ### Science Salon
 
-- [136. Gad Saad – The Parasitic Mind: How Infectious Ideas Are Killing Common Sense](https://www.skeptic.com/science-salon/gad-saad-parasitic-mind-how-infectious-ideas-are-killing-common-sense/) <Flag label="1:37:00" /> – Dr. Gad Saad exposes bad ideas – idea pathogens – that are killing common sense and rational debate.
+- [136. Gad Saad – The Parasitic Mind: How Infectious Ideas Are Killing Common Sense](https://www.skeptic.com/science-salon/gad-saad-parasitic-mind-how-infectious-ideas-are-killing-common-sense/) – Dr. Gad Saad exposes bad ideas – idea pathogens – that are killing common sense and rational debate.
 
 ### TRIGGERnometry
 
-- [“Sex is NOT a Spectrum” – Colin Wright](https://audioboom.com/posts/7700095-sex-is-not-a-spectrum-colin-wright) – Evolutionary biologist and Managing Editor of Quillette talking about biology <Flag label="52:00" />
-- [Can We Solve the Migrant Crisis? with Helen Dale](https://audioboom.com/posts/7697418-can-we-solve-the-migrant-crisis-with-helen-dale) <Flag label="1:14:00" /> – A very interesting talk with Helen Dale about Australia's immigration politics.
-- [Darren Grimes Speaks Out on Police Investigation](https://audioboom.com/posts/7703731-darren-grimes-speaks-out-on-police-investigation) <Flag label="1:19:00" />
-- [Simon Evans on Woke Bias at the BBC](https://audioboom.com/posts/7703013-simon-evans-on-woke-bias-at-the-bbc) <Flag label="1:04:00" />
+- [“Sex is NOT a Spectrum” – Colin Wright](https://audioboom.com/posts/7700095-sex-is-not-a-spectrum-colin-wright) – Evolutionary biologist and Managing Editor of Quillette talking about biology
+- [Can We Solve the Migrant Crisis? with Helen Dale](https://audioboom.com/posts/7697418-can-we-solve-the-migrant-crisis-with-helen-dale) – A very interesting talk with Helen Dale about Australia's immigration politics.
+- [Darren Grimes Speaks Out on Police Investigation](https://audioboom.com/posts/7703731-darren-grimes-speaks-out-on-police-investigation)
+- [Simon Evans on Woke Bias at the BBC](https://audioboom.com/posts/7703013-simon-evans-on-woke-bias-at-the-bbc)
 
 ### The Art of Manliness
 
-- ‎[650 – Why People Are Building Bunkers for the Apocalypse](https://omny.fm/shows/the-art-of-manliness/650-why-people-are-building-apocalypse-bunkers) <Flag label="54:00" />
-- [651 – How to Turn Fear Into Fuel](https://omny.fm/shows/the-art-of-manliness/651-how-to-turn-fear-into-fuel) <Flag label="46:00" />
-- [652 – Chefs’ Secrets for Organizing Your Life](https://omny.fm/shows/the-art-of-manliness/652-chefs-secrets-for-organizing-your-life) <Flag label="50:00" /> – How to apply the concept of chefs, Mise en Place, to your productivity.
+- ‎[650 – Why People Are Building Bunkers for the Apocalypse](https://omny.fm/shows/the-art-of-manliness/650-why-people-are-building-apocalypse-bunkers)
+- [651 – How to Turn Fear Into Fuel](https://omny.fm/shows/the-art-of-manliness/651-how-to-turn-fear-into-fuel)
+- [652 – Chefs’ Secrets for Organizing Your Life](https://omny.fm/shows/the-art-of-manliness/652-chefs-secrets-for-organizing-your-life) – How to apply the concept of chefs, Mise en Place, to your productivity.
 
 ### On Being with Krista Tippett
 
-- [Arlie Hochschild – The Deep Stories of Our Time](https://onbeing.org/programs/arlie-hochschild-the-deep-stories-of-our-time/) <Flag label="51:00" /> – Interesting conversation with the author of [Strangers in Their Own Land: Anger and Mourning on the American Right](https://www.goodreads.com/book/show/28695425-strangers-in-their-own-land).
+- [Arlie Hochschild – The Deep Stories of Our Time](https://onbeing.org/programs/arlie-hochschild-the-deep-stories-of-our-time/) – Interesting conversation with the author of [Strangers in Their Own Land: Anger and Mourning on the American Right](https://www.goodreads.com/book/show/28695425-strangers-in-their-own-land).
 
 ### Quillette Podcast
 
-- [Stuart Buck on How COVID-19 Has Exposed the Shortfalls of Scientific Peer Review](https://player.whooshkaa.com/episode?id=742743) <Flag label="23:00" />
+- [Stuart Buck on How COVID-19 Has Exposed the Shortfalls of Scientific Peer Review](https://player.whooshkaa.com/episode?id=742743)
 
 ### Conversations With Coleman
 
-- [Bonus Episode – The Problem of Race: Glenn Loury and Coleman Hughes](https://podcasts.apple.com/podcast/conversations-with-coleman/id1489326460?i=1000493279211) <Flag label="1:25:00" />
-- [Ep. 16 – Trump, COVID-19, and Cold War II with Niall Ferguson](https://anchor.fm/convocoleman/episodes/Trump--COVID-19--and-Cold-War-II-with-Niall-Ferguson-Ep--16-eklivo) <Flag label="1:06:00" />
+- [Bonus Episode – The Problem of Race: Glenn Loury and Coleman Hughes](https://podcasts.apple.com/podcast/conversations-with-coleman/id1489326460?i=1000493279211)
+- [Ep. 16 – Trump, COVID-19, and Cold War II with Niall Ferguson](https://anchor.fm/convocoleman/episodes/Trump--COVID-19--and-Cold-War-II-with-Niall-Ferguson-Ep--16-eklivo)
 
 ### Indubio
 
-- [Flg. 067 – Billiges Geld, Zombiewirtschaft](https://www.spreaker.com/user/indubio/indubio-067) 🇩🇪 <Flag label="38:00" />
+- [Flg. 067 – Billiges Geld, Zombiewirtschaft](https://www.spreaker.com/user/indubio/indubio-067) 🇩🇪
 
 ## Books
 

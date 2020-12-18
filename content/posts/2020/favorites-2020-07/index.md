@@ -26,77 +26,77 @@ The word _racism_ is like ketchup. It can be put on practically anything – and
 
 ## Videos
 
-- [Joe Rogan Experience #1309 – Naval Ravikant](https://youtu.be/3qHkcs3kG44) <Flag label="2:11:56" /> – Interesting interview with _Naval Ravikant_, entrepreneur and angel investor, recommended to me by a friend.
-- [Joe Rogan Experience #1228 – Bari Weiss](https://youtu.be/T77uFdw9HJA) <Flag label="2:52:18" /> and [Joe Rogan Experience #1415 – Bari Weiss](https://www.youtube.com/watch?v=nL-YwrjKqZU) <Flag label="2:33:43" /> – Because of _Bari Weiss_ [resignation](https://www.bariweiss.com/resignation-letter) from her opinion column for **The New York Times** I watched both interviews with her.
-- [Joe Rogan Experience #1512 – Ben Shapiro](https://youtu.be/hl0iNRXcUbE) <Flag label="1:43:30" />
-- [Fake Woke Activism No One Asked For! | Andrew Schulz](https://youtu.be/P1KZF7Ff3YM) <Flag label="5:10" /> – I discovered _Andrew Schulz_, probably late as he has already 1,3 Mio. subscribers. A funny short commentary on political and social issues.
-- [Everything Is Cancelled! | Andrew Schulz](https://youtu.be/L0yxT-Im6Ik) <Flag label="4:56" />
-- [Shaun King Is Canceling Jesus Christ! | Andrew Schulz](https://youtu.be/K0FXBmCs9t8) <Flag label="5:21" />
-- [The Foundations of Happiness](https://youtu.be/p4X7uXfZ2cY) <Flag label="56:44" /> – The second part of _Will Schoder’s_ new documentary about Happiness.
-- [Why Motivation is a Myth](https://youtu.be/kzAuvOr-YsM) <Flag label="12:32" /> – In his book club he analyzed _Jeff Haden’s_ book about Motivation.
-- [The Most Successful Person in the World](https://youtu.be/dLFqoofiiBg) <Flag label="7:21" /> – TEDx talk by _Jeff Haden_ about Motivation.
-- [What made the Ancient Egyptians Fat and Sick?](https://youtu.be/YGq_EbYEaSY) <Flag label="28:57" />
-- [Why Dubai's Man-Made Islands Are Still Empty](https://youtu.be/riETCR7FnZE) <Flag label="11:17" />
-- [Everything is a Remix: Reality](https://youtu.be/Q2qeXu1UcxU) <Flag label="7:24" />
-- [3 Rules for Better Sleep](https://youtu.be/QFCMs7prEB8) <Flag label="11:11" />
-- [5 things he learned from his twenties](https://youtu.be/ZPy8sgXuK98) <Flag label="10:29" />
-- [This is how you get true job security.](https://youtu.be/W9XW93mdP_Y) <Flag label="10:31" />
-- [Dr. Jordan Peterson Explains 12 Rules for Life in 12 Minutes](https://youtu.be/ApC0faRYabI) <Flag label="14:20" />
-- [K-Pop: Globaler Hype und dunkle Abgründe](https://youtu.be/Rv_pe39MSuo) <Flag label="10:51" /> 🇩🇪
-- [Wie wir uns mit Zahlen manipulieren lassen](https://youtu.be/M0VpTjZL57U) <Flag label="16:13" /> 🇩🇪
-- [Mars In 4K](https://youtu.be/ZEyAs3NWH4A) <Flag label="10:08" />
-- [Why (Almost) Nobody Lives in China's USD 161 Billion City](https://youtu.be/mpYYOlooZQ4) <Flag label="5:57" />
-- [The Seven People Who Can Turn Off the Internet](https://youtu.be/6KDBpn8fW78) <Flag label="6:15" />
-- [How To Command Respect From Everyone Around You](https://youtu.be/g4w3IyvKvas) <Flag label="11:43" />
-- [COVID-19 & Mask Myths Debunked!](https://youtu.be/npXP5wqNzaI) <Flag label="13:43" />
-- [Dying from “overwork” – Japan’s toxic office culture](https://youtu.be/HH1_px17utk) <Flag label="3:27" />
-- [TikTok – a Trojan Horse into China’s Dystopia](https://youtu.be/5UooWpC4yJs) <Flag label="13:16" />
-- [The Dangers of Tribalism](https://youtu.be/7y-b7f6CK2M) <Flag label="11:39" />
-- [Deus Ex – Story Explanation and Analysis](https://youtu.be/5Uj0-Ryh7TY) <Flag label="18:39" /> – _Max Derrat_ explains why Deus Ex might be the most important game ever created.
-- [Finding Truth In Artificiality – Werner Herzog's Family Romance, LLC](https://youtu.be/ogFN6ncIaD8) <Flag label="9:59" />
-- [The Island of Dr. Moreau – The Most Disastrous Movie Ever Made](https://youtu.be/X9Cg-upCQD8) <Flag label="12:46" /> – A funny insight into the production of this movie that destroyed carriers and drove people insane.
-- [Watchmen (2009) - Was It Really That Bad?](https://youtu.be/lyocCkQ_99A) <Flag label="17:36" />
-- [The Secret Genius of Dwight K. Schrute (The Office)](https://youtu.be/rHScVnh55XQ) <Flag label="16:12" />
-- [What is 2:1 Aspect Ratio – Why David Fincher, Ari Aster, and More Directors are Switching to 18:9](https://youtu.be/aFrFbw3w_cw) <Flag label="5:29" />
-- [Ghost of Tsushima – State of Play](https://youtu.be/Ur0pQblaZcE) <Flag label="18:40" />
-- [The Beauty Of Full Metal Jacket](https://youtu.be/4f_s5xmGb08) <Flag label="3:18" />
-- [Stoic Strategies For A Life Without Anger](https://youtu.be/x1NrSgpFixI) <Flag label="12:18" />
-- [What is Populism? (Political Philosophy)](https://youtu.be/ZSOAdbB3tmI) <Flag label="12:57" />
-- [Sun Tzu – The Art of War](https://youtu.be/aF2pCff3ocg) <Flag label="11:35" />
-- [Imjin War – Rise of admiral Yi Sun-sin – Hansando 1592](https://youtu.be/6UtEW4diRbM) <Flag label="20:50" />
-- [Real Ghost of Tsushima – Mongol Invasion of Japan](https://youtu.be/11Y_Q1w-d_E) <Flag label="14:52" /> – Matching with the release of the new PlayStation 4 game _Ghosts of Tsushima_ this documentary explains the events of the Mongol Invasion of Japan.
-- [Earliest European Mention of Japan – Marco Polo Describes Mongol Invasion of ‘Chipangu’ (1281)](https://youtu.be/xP3Mla0ECiE) <Flag label="9:39" />
-- [Jordan Peterson Predicts The Riots](https://youtu.be/djSuS1psglQ) <Flag label="6:55" />
-- [Thomas Sowell: Show Me the Evidence](https://youtu.be/nxygmc_SMAU) <Flag label="19:31" /> – Super interesting introduction to _Thomas Sowell_, a black conservative intellectual and economist.
-- [A Message for Black Lives Matter](https://youtu.be/X6NRgAdc6h4) <Flag label="10:06" /> – A good summary of the political organization BLM with excerpts of a recent interview with _Thomas Sowell_.
-- [Thomas Sowell on the Myths of Economic Inequality](https://youtu.be/mS5WYp5xmvI) – A very interesting recent interview with _Thomas Sowell_ <Flag label="53:33" />
-- [We Are Watching Woke Politics Destroy Our Institutions](https://youtu.be/hzWiHUE6YLE) <Flag label="1:03:34" /> – Interview with _Michael Knowles_ on The Rubin Report.
-- [Anti-Racism Witch Trials & The Left Destroys America!](https://youtu.be/ziGZVUw2_sg) <Flag label="1:19:42" /> – Interview with _Ben Shapiro_ on The Rubin Report.
-- [Big Tech’s Election Meddling & The Woke Mob Comes For Liberals](https://youtu.be/tPJLhYvBqgU) <Flag label="1:17:20" /> – Interview with Senator _Ted Cruz_ on The Rubin Report.
-- [The Chinese Dictatorship Plan to continue Controlling the country](https://youtu.be/uUsNYnXx_sI) <Flag label="15:58" />
-- [Bhutan, the country of the Thunder Dragon](https://youtu.be/JekxrU-Cqj0) <Flag label="15:58" />
-- [Tibet: Why does China want to Keep It so Badly?](https://youtu.be/8qO_PJAzIIo) <Flag label="16:48" />
-- [North Korea: Is Kim Yo-Jong taking Control?](https://youtu.be/fK67t43D9vE) <Flag label="16:03" />
-- [The Problem with Fake News… and Wirecard](https://youtu.be/G4-fIsVnzZE) <Flag label="17:18" />
-- [China’s ambassador denies abuse of Uighurs in Xinjiang during Andrew Marr interview](https://youtu.be/DwBaL-5o1oc) <Flag label="1:04" /> – Shocking drone images from China, where hundreds of Uighurs are getting loaded into trains to send them to “re-education camps”.
-- [Canadian professor signs open letter criticizing cancel culture](https://youtu.be/-erKC_TT9dQ) <Flag label="8:41" /> – _Steven Pinker_ on why he signed the letter in Harper’s Magazine that criticized cancel culture.
-- [Are the Police Targeting Unarmed Blacks?](https://youtu.be/GYUQ8_Sf6Kc) <Flag label="3:36" /> – _Will Witt_ asking some black kids: <q>What do you think how many unarmed blacks were killed last year?</q> <q>Dunno, I would say over 1000, 1400. Too many to count.</q> 😆
-- [Should We Defund the Police?](https://youtu.be/004bUPrlKT8) <Flag label="3:36" /> – _Will Witt_ and a former black cop ask people about defunding the police.
-- [The Book Club: 1984 by George Orwell with Dave Rubin](https://youtu.be/SbTQJGxk95o) <Flag label="31:26" />
-- [16 Fragen an Black Lives Matter](https://youtu.be/ITQohGeEqJM) <Flag label="20:37" /> 🇩🇪
-- [The Problem with Cancel Culture | Ayishat Akanbi](https://youtu.be/N3ZjTg1OpIE) <Flag label="5:09" />
-- [John Cleese vs Extremism](https://youtu.be/HLNhPMQnWu4) <Flag label="2:12" /> – _John Cleese_ about extremism, as relevant today as at its creation.
-- [How Social Distancing Rules Are Created](https://youtu.be/4H-6HTKNgV0) <Flag label="4:24" />
-- [People That Wear a Mask in Their Car](https://youtu.be/6gnwgZli1_Y) <Flag label="3:45" />
-- [A Message to All Online Haters](https://youtu.be/lJ-RVH-V6pc) <Flag label="4:34" />
-- [How Presidential Candidates Are Chosen](https://youtu.be/mqhdHoXLCLw) <Flag label="3:58" />
-- [What Gyms Are Like When They Re-Open](https://youtu.be/Z6A_0KxovN0) <Flag label="3:56" />
-- [How to Be a Woke White Person](https://youtu.be/gHSVjmO4iJY) <Flag label="6:09" />
-- [Uncle Roger Disgusted by this Egg Fried Rice Video (BBC Food)](https://youtu.be/53me-ICi_f8&feature=emb_title) <Flag label="7:55" />
-- [Thomas Bergersen – L’Appel Du Vide (from Humanity Chapter I)](https://youtu.be/WBM106iQiM0) <Flag label="5:31" /> – New music video for _Thomas Bergersen’s_ new album.
+- [Joe Rogan Experience #1309 – Naval Ravikant](https://youtu.be/3qHkcs3kG44) – Interesting interview with _Naval Ravikant_, entrepreneur and angel investor, recommended to me by a friend.
+- [Joe Rogan Experience #1228 – Bari Weiss](https://youtu.be/T77uFdw9HJA) and [Joe Rogan Experience #1415 – Bari Weiss](https://www.youtube.com/watch?v=nL-YwrjKqZU) – Because of _Bari Weiss_ [resignation](https://www.bariweiss.com/resignation-letter) from her opinion column for **The New York Times** I watched both interviews with her.
+- [Joe Rogan Experience #1512 – Ben Shapiro](https://youtu.be/hl0iNRXcUbE)
+- [Fake Woke Activism No One Asked For! | Andrew Schulz](https://youtu.be/P1KZF7Ff3YM) – I discovered _Andrew Schulz_, probably late as he has already 1,3 Mio. subscribers. A funny short commentary on political and social issues.
+- [Everything Is Cancelled! | Andrew Schulz](https://youtu.be/L0yxT-Im6Ik)
+- [Shaun King Is Canceling Jesus Christ! | Andrew Schulz](https://youtu.be/K0FXBmCs9t8)
+- [The Foundations of Happiness](https://youtu.be/p4X7uXfZ2cY) – The second part of _Will Schoder’s_ new documentary about Happiness.
+- [Why Motivation is a Myth](https://youtu.be/kzAuvOr-YsM) – In his book club he analyzed _Jeff Haden’s_ book about Motivation.
+- [The Most Successful Person in the World](https://youtu.be/dLFqoofiiBg) – TEDx talk by _Jeff Haden_ about Motivation.
+- [What made the Ancient Egyptians Fat and Sick?](https://youtu.be/YGq_EbYEaSY)
+- [Why Dubai's Man-Made Islands Are Still Empty](https://youtu.be/riETCR7FnZE)
+- [Everything is a Remix: Reality](https://youtu.be/Q2qeXu1UcxU)
+- [3 Rules for Better Sleep](https://youtu.be/QFCMs7prEB8)
+- [5 things he learned from his twenties](https://youtu.be/ZPy8sgXuK98)
+- [This is how you get true job security.](https://youtu.be/W9XW93mdP_Y)
+- [Dr. Jordan Peterson Explains 12 Rules for Life in 12 Minutes](https://youtu.be/ApC0faRYabI)
+- [K-Pop: Globaler Hype und dunkle Abgründe](https://youtu.be/Rv_pe39MSuo) 🇩🇪
+- [Wie wir uns mit Zahlen manipulieren lassen](https://youtu.be/M0VpTjZL57U) 🇩🇪
+- [Mars In 4K](https://youtu.be/ZEyAs3NWH4A)
+- [Why (Almost) Nobody Lives in China's USD 161 Billion City](https://youtu.be/mpYYOlooZQ4)
+- [The Seven People Who Can Turn Off the Internet](https://youtu.be/6KDBpn8fW78)
+- [How To Command Respect From Everyone Around You](https://youtu.be/g4w3IyvKvas)
+- [COVID-19 & Mask Myths Debunked!](https://youtu.be/npXP5wqNzaI)
+- [Dying from “overwork” – Japan’s toxic office culture](https://youtu.be/HH1_px17utk)
+- [TikTok – a Trojan Horse into China’s Dystopia](https://youtu.be/5UooWpC4yJs)
+- [The Dangers of Tribalism](https://youtu.be/7y-b7f6CK2M)
+- [Deus Ex – Story Explanation and Analysis](https://youtu.be/5Uj0-Ryh7TY) – _Max Derrat_ explains why Deus Ex might be the most important game ever created.
+- [Finding Truth In Artificiality – Werner Herzog's Family Romance, LLC](https://youtu.be/ogFN6ncIaD8)
+- [The Island of Dr. Moreau – The Most Disastrous Movie Ever Made](https://youtu.be/X9Cg-upCQD8) – A funny insight into the production of this movie that destroyed carriers and drove people insane.
+- [Watchmen (2009) - Was It Really That Bad?](https://youtu.be/lyocCkQ_99A)
+- [The Secret Genius of Dwight K. Schrute (The Office)](https://youtu.be/rHScVnh55XQ)
+- [What is 2:1 Aspect Ratio – Why David Fincher, Ari Aster, and More Directors are Switching to 18:9](https://youtu.be/aFrFbw3w_cw)
+- [Ghost of Tsushima – State of Play](https://youtu.be/Ur0pQblaZcE)
+- [The Beauty Of Full Metal Jacket](https://youtu.be/4f_s5xmGb08)
+- [Stoic Strategies For A Life Without Anger](https://youtu.be/x1NrSgpFixI)
+- [What is Populism? (Political Philosophy)](https://youtu.be/ZSOAdbB3tmI)
+- [Sun Tzu – The Art of War](https://youtu.be/aF2pCff3ocg)
+- [Imjin War – Rise of admiral Yi Sun-sin – Hansando 1592](https://youtu.be/6UtEW4diRbM)
+- [Real Ghost of Tsushima – Mongol Invasion of Japan](https://youtu.be/11Y_Q1w-d_E) – Matching with the release of the new PlayStation 4 game _Ghosts of Tsushima_ this documentary explains the events of the Mongol Invasion of Japan.
+- [Earliest European Mention of Japan – Marco Polo Describes Mongol Invasion of ‘Chipangu’ (1281)](https://youtu.be/xP3Mla0ECiE)
+- [Jordan Peterson Predicts The Riots](https://youtu.be/djSuS1psglQ)
+- [Thomas Sowell: Show Me the Evidence](https://youtu.be/nxygmc_SMAU) – Super interesting introduction to _Thomas Sowell_, a black conservative intellectual and economist.
+- [A Message for Black Lives Matter](https://youtu.be/X6NRgAdc6h4) – A good summary of the political organization BLM with excerpts of a recent interview with _Thomas Sowell_.
+- [Thomas Sowell on the Myths of Economic Inequality](https://youtu.be/mS5WYp5xmvI) – A very interesting recent interview with _Thomas Sowell_
+- [We Are Watching Woke Politics Destroy Our Institutions](https://youtu.be/hzWiHUE6YLE) – Interview with _Michael Knowles_ on The Rubin Report.
+- [Anti-Racism Witch Trials & The Left Destroys America!](https://youtu.be/ziGZVUw2_sg) – Interview with _Ben Shapiro_ on The Rubin Report.
+- [Big Tech’s Election Meddling & The Woke Mob Comes For Liberals](https://youtu.be/tPJLhYvBqgU) – Interview with Senator _Ted Cruz_ on The Rubin Report.
+- [The Chinese Dictatorship Plan to continue Controlling the country](https://youtu.be/uUsNYnXx_sI)
+- [Bhutan, the country of the Thunder Dragon](https://youtu.be/JekxrU-Cqj0)
+- [Tibet: Why does China want to Keep It so Badly?](https://youtu.be/8qO_PJAzIIo)
+- [North Korea: Is Kim Yo-Jong taking Control?](https://youtu.be/fK67t43D9vE)
+- [The Problem with Fake News… and Wirecard](https://youtu.be/G4-fIsVnzZE)
+- [China’s ambassador denies abuse of Uighurs in Xinjiang during Andrew Marr interview](https://youtu.be/DwBaL-5o1oc) – Shocking drone images from China, where hundreds of Uighurs are getting loaded into trains to send them to “re-education camps”.
+- [Canadian professor signs open letter criticizing cancel culture](https://youtu.be/-erKC_TT9dQ) – _Steven Pinker_ on why he signed the letter in Harper’s Magazine that criticized cancel culture.
+- [Are the Police Targeting Unarmed Blacks?](https://youtu.be/GYUQ8_Sf6Kc) – _Will Witt_ asking some black kids: <q>What do you think how many unarmed blacks were killed last year?</q> <q>Dunno, I would say over 1000, 1400. Too many to count.</q> 😆
+- [Should We Defund the Police?](https://youtu.be/004bUPrlKT8) – _Will Witt_ and a former black cop ask people about defunding the police.
+- [The Book Club: 1984 by George Orwell with Dave Rubin](https://youtu.be/SbTQJGxk95o)
+- [16 Fragen an Black Lives Matter](https://youtu.be/ITQohGeEqJM) 🇩🇪
+- [The Problem with Cancel Culture | Ayishat Akanbi](https://youtu.be/N3ZjTg1OpIE)
+- [John Cleese vs Extremism](https://youtu.be/HLNhPMQnWu4) – _John Cleese_ about extremism, as relevant today as at its creation.
+- [How Social Distancing Rules Are Created](https://youtu.be/4H-6HTKNgV0)
+- [People That Wear a Mask in Their Car](https://youtu.be/6gnwgZli1_Y)
+- [A Message to All Online Haters](https://youtu.be/lJ-RVH-V6pc)
+- [How Presidential Candidates Are Chosen](https://youtu.be/mqhdHoXLCLw)
+- [What Gyms Are Like When They Re-Open](https://youtu.be/Z6A_0KxovN0)
+- [How to Be a Woke White Person](https://youtu.be/gHSVjmO4iJY)
+- [Uncle Roger Disgusted by this Egg Fried Rice Video (BBC Food)](https://youtu.be/53me-ICi_f8&feature=emb_title)
+- [Thomas Bergersen – L’Appel Du Vide (from Humanity Chapter I)](https://youtu.be/WBM106iQiM0) – New music video for _Thomas Bergersen’s_ new album.
 - [Gabriel’s Oboe Live – Tina Guo, Cello (In Memory of Ennio Morricone)](https://youtu.be/i_UEMakZLEU)
-- [Super Mario Bros for 3 Cellos… and egg shaker](https://youtu.be/7zc8HNf6ETQ) <Flag label="2:57" />
-- [Interstellar - Theme by Hans Zimmer (Cello Cover)](https://youtu.be/UfBaSoNMsso) <Flag label="3:55" /> – I discovered another fantastic Cellist who plays film music.
+- [Super Mario Bros for 3 Cellos… and egg shaker](https://youtu.be/7zc8HNf6ETQ)
+- [Interstellar - Theme by Hans Zimmer (Cello Cover)](https://youtu.be/UfBaSoNMsso) – I discovered another fantastic Cellist who plays film music.
 
 ## TV Shows
 
@@ -170,7 +170,7 @@ The word _racism_ is like ketchup. It can be put on practically anything – and
 - [Ghost of Tsushima](https://www.playstation.com/games/ghost-of-tsushima-ps4/) – The new PlayStation exclusive game is Sony’s fasted-selling game of all times. And rightly so. It is incredibly good! The story is exciting and feels like being in a movie or more accurately in all Samurai movies ever produced at once. It has epic battles, deadly duels, and quiet moments while reflecting with Haiku, praying at a Shinto or Buddhist temple or shrine or while taking a bath in one of the many Onsen. Stunningly beautiful landscapes with falling cherry-blossom or maple tree leaves, endless grasslands, long sandy coastlines, dusty swamplands, or green bamboo forests. Directly next to battlefields with burned corpses, or landscapes and villages burned by the Mongol hordes. You can play with Japanese audio track for the right feeling and even enable Kurosawa mode (black and white with 60s audio) or play with the funny (but useless) photo mode to create videos or photos. The soundtrack was written by _Shigeru Umebayashi_.
 - [Code Time](https://www.software.com/code-time) is an open-source plugin for automatic programming metrics and time-tracking in your editor.
 - [Music Time](https://www.software.com/music-time) for Spotify is a code editor plugin that discovers your most productive music to listen to while you code.
-- [mmhmm](https://www.mmhmm.app/) looks like a funny idea to enhance video conferences. The CEO of mmhmm gives a short [beta preview](https://youtu.be/c8KhKBLoSMk) <Flag label="5:13" />.
+- [mmhmm](https://www.mmhmm.app/) looks like a funny idea to enhance video conferences. The CEO of mmhmm gives a short [beta preview](https://youtu.be/c8KhKBLoSMk).
 - [Testing Playground](https://testing-playground.com/) is a tool to test React Testing Library queries.
 - [iA Writer Style Check](https://ia.net/writer/blog/introducing-style-check) – My favorite text editor has now style check, a personal assistant that marks redundant words, clichés, and filler words as you type.
 - [Tabler Icons](https://tablericons.com/) – Over 500 free, customizable SVG icons.

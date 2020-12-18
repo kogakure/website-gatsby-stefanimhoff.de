@@ -25,34 +25,34 @@ No battle plan ever survives contact with the enemy.
 
 ## Videos
 
-- [America‘s foreign Entanglement](https://youtu.be/uhXFgKEkwbU) <Flag label="23:40" /> – A video essay about military conflicts and alliances of the United States.
-- [Your Name – What Makes Us Happy?](https://youtu.be/LCie1U4dKO8) <Flag label="9:51" /> – Video essay exploring the meaning of love, destiny and soulmates in Kimi No Na Wa (‘Your Name’)
-- [Most Popular TV Series 1986-2019](https://youtu.be/7DemM7UGmIg) <Flag label="8:04" /> – Timeline history of the most viewed TV series from 1986 to 2019.
-- [Joe Rogan Experience #1391- Tulsi Gabbard & Jocko Willink](https://youtu.be/PdYud9re7-Q) <Flag label="2:37:10" /> – Interesting podcast with the 2020 Presidential Candidate of the Democratic Party _Tulsi Gabbard_ and _Jocko Willink_, decorated retired Navy SEAL officer and author.
-- [Watch This Video Before You Die](https://youtu.be/sOMLVlqzw_4) <Flag label="9:57" /> – How to use a _bucket list_ (things you want to do before you die) to live a more fulfilled life.
-- [Why Beautiful Things Make Us Happy](https://youtu.be/-O5kNPlUV7w) <Flag label="7:36" /> / [Warum Schönheit uns glücklich macht!](https://www.youtube.com/watch?v=EpkzT-AeVZU) <Flag label="7:46" />
-- [Why your life is so boring](https://youtu.be/-dYgnvrvQ3M) <Flag label="8:18" /> – How to live a good life, day by day, one positive habit a time.
-- [The Tale of Ragnar Lothbrok, Icelandic Saga, 13th Century](https://youtu.be/lZ3CX-FzzIY) <Flag label="27:04" /> – Reading of the saga of Ragnar Lothbrok, written in the 13th century in Iceland.
-- [How To NEVER Let Bad Habits Ruin Your Life Again | Nir Eyal](https://youtu.be/mDzG0E_P2uw) <Flag label="10:37" />
-- [5 Easy Ways to Build Superhuman Self-Discipline – Atomic Habits by James Clear](https://youtu.be/R2Z19ObO2hU) <Flag label="10:53" />
-- [If Hogwarts Were an Inner-City School - Key & Peele](https://youtu.be/j-2ZxldMO-M) <Flag label="2:52" /> – Short, funny film about the 171st best Wizard school.
-- [The Faker You Are, the More Successful You Can Be | InvisionApp Design Lead | Pablo Stanley](https://youtu.be/bEg5ySTUGxE) <Flag label="26:29" /> – The _funniest_ conference talk I’ve seen in 2019, a **must see** for every designer.
-- [The Antidote to Dissatisfaction](https://youtu.be/WPPPFqsECz0) <Flag label="10:00" /> – Video essay into the science of gratitude.
-- [What is the Harm Principle? (Free Speech)](https://youtu.be/GgljoDujt38) <Flag label="14:52" /> – First part of the series on _John Stuart Mill’s_ philosophical ideas on free speech.
-- [The Magic Mushroom Christmas Theory](https://youtu.be/Xz_JZJkqsEc) <Flag label="5:17" /> – A theory on the origins of the Christmas traditions 🍄
-- [Märchen in Asozial feat. Kelly | Julien Bam](https://youtu.be/v1mDeIkWR7c) <Flag label="11:23" /> – The second-most-watched YouTube video in Germany. A funny take on fairy tales (in German).
-- [How to Slow Aging (and even reverse it)](https://youtu.be/QRt7LjqJ45k) <Flag label="21:09" /> – The science of speeding up, slowing, and even reversing aging.
+- [America‘s foreign Entanglement](https://youtu.be/uhXFgKEkwbU) – A video essay about military conflicts and alliances of the United States.
+- [Your Name – What Makes Us Happy?](https://youtu.be/LCie1U4dKO8) – Video essay exploring the meaning of love, destiny and soulmates in Kimi No Na Wa (‘Your Name’)
+- [Most Popular TV Series 1986-2019](https://youtu.be/7DemM7UGmIg) – Timeline history of the most viewed TV series from 1986 to 2019.
+- [Joe Rogan Experience #1391- Tulsi Gabbard & Jocko Willink](https://youtu.be/PdYud9re7-Q) – Interesting podcast with the 2020 Presidential Candidate of the Democratic Party _Tulsi Gabbard_ and _Jocko Willink_, decorated retired Navy SEAL officer and author.
+- [Watch This Video Before You Die](https://youtu.be/sOMLVlqzw_4) – How to use a _bucket list_ (things you want to do before you die) to live a more fulfilled life.
+- [Why Beautiful Things Make Us Happy](https://youtu.be/-O5kNPlUV7w) / [Warum Schönheit uns glücklich macht!](https://www.youtube.com/watch?v=EpkzT-AeVZU)
+- [Why your life is so boring](https://youtu.be/-dYgnvrvQ3M) – How to live a good life, day by day, one positive habit a time.
+- [The Tale of Ragnar Lothbrok, Icelandic Saga, 13th Century](https://youtu.be/lZ3CX-FzzIY) – Reading of the saga of Ragnar Lothbrok, written in the 13th century in Iceland.
+- [How To NEVER Let Bad Habits Ruin Your Life Again | Nir Eyal](https://youtu.be/mDzG0E_P2uw)
+- [5 Easy Ways to Build Superhuman Self-Discipline – Atomic Habits by James Clear](https://youtu.be/R2Z19ObO2hU)
+- [If Hogwarts Were an Inner-City School - Key & Peele](https://youtu.be/j-2ZxldMO-M) – Short, funny film about the 171st best Wizard school.
+- [The Faker You Are, the More Successful You Can Be | InvisionApp Design Lead | Pablo Stanley](https://youtu.be/bEg5ySTUGxE) – The _funniest_ conference talk I’ve seen in 2019, a **must see** for every designer.
+- [The Antidote to Dissatisfaction](https://youtu.be/WPPPFqsECz0) – Video essay into the science of gratitude.
+- [What is the Harm Principle? (Free Speech)](https://youtu.be/GgljoDujt38) – First part of the series on _John Stuart Mill’s_ philosophical ideas on free speech.
+- [The Magic Mushroom Christmas Theory](https://youtu.be/Xz_JZJkqsEc) – A theory on the origins of the Christmas traditions 🍄
+- [Märchen in Asozial feat. Kelly | Julien Bam](https://youtu.be/v1mDeIkWR7c) – The second-most-watched YouTube video in Germany. A funny take on fairy tales (in German).
+- [How to Slow Aging (and even reverse it)](https://youtu.be/QRt7LjqJ45k) – The science of speeding up, slowing, and even reversing aging.
 - [2017 Personality and Its Transformations (University of Toronto)](https://www.youtube.com/playlist?list=PL22J3VaeABQApSdW8X71Ihe34eKN6XhCi) – I started the lecture on personality by Jordan B Peterson.
-- [Ivar and Björn Avenge Ragnar's Death, 12th Century Extracts from Saxo Grammaticus and Krákumál](https://youtu.be/GQvvgqOG_pw) <Flag label="6:54" /> – Two more readings from old 12th-century scripts about Ragnar Lothbrok.
-- [My Minimalist Home](https://youtu.be/Ysge8Pl78zs) <Flag label="7:09" /> – Matt D’Avella takes us on a tour through his new home.
-- [Hiking 60 Miles Alone in Hornstrandir Iceland](https://youtu.be/6A5HY7hDeQA) <Flag label="13:24" />
-- [Death Stranding – What It All Meant | Complete Review](https://youtu.be/pHQcK2TrH7s) <Flag label="1:00:06" /> – My favorite channel _Like Stories of Old_ created a **one hour** long video essay on _Hideo Kojima’s_ _Death Stranding_ and the philosophy behind the game.
-- [Free Speech vs Abstinence-Only Education](https://youtu.be/EucwpBLKmz4) <Flag label="11:30" /> – Second part of the series on _John Stuart Mill’s_ philosophical on free speech.
-- [The Beauty Of Mr. Robot](https://youtu.be/5VEroFjcq1M) <Flag label="4:04" /> – With one of my favorite TV shows ending, this video captures the visual mood of _Mr Robot_.
-- [1177 BC: The Year Civilization Collapsed (Eric Cline, Ph.D.)](https://youtu.be/bRcu-ysocX4) <Flag label="1:10:17" /> – A talk by _Eric Cline_, Ph.D., about the collapse of all Mediterranean cultures at around 1177 BC.
-- [Why Most Resolutions Fail & How To Succeed](https://youtu.be/Pm9CQn07OjU) <Flag label="10:19" /> – Common pitfalls of New Year's resolutions and how I plan to avoid them.
-- [Casey Neistat: How 800 Days of Vlogging Made and Destroyed Him](https://youtu.be/QjZwrs5TNIE) <Flag label="23:39" />
-- [Parasite’s Perfect Montage](https://youtu.be/ma1rD2OP85c) <Flag label="8:07" /> – Analysis of a perfectly timed movie sequence in the movie _Parasite_. I really need to watch this movie!
+- [Ivar and Björn Avenge Ragnar's Death, 12th Century Extracts from Saxo Grammaticus and Krákumál](https://youtu.be/GQvvgqOG_pw) – Two more readings from old 12th-century scripts about Ragnar Lothbrok.
+- [My Minimalist Home](https://youtu.be/Ysge8Pl78zs) – Matt D’Avella takes us on a tour through his new home.
+- [Hiking 60 Miles Alone in Hornstrandir Iceland](https://youtu.be/6A5HY7hDeQA)
+- [Death Stranding – What It All Meant | Complete Review](https://youtu.be/pHQcK2TrH7s) – My favorite channel _Like Stories of Old_ created a **one hour** long video essay on _Hideo Kojima’s_ _Death Stranding_ and the philosophy behind the game.
+- [Free Speech vs Abstinence-Only Education](https://youtu.be/EucwpBLKmz4) – Second part of the series on _John Stuart Mill’s_ philosophical on free speech.
+- [The Beauty Of Mr. Robot](https://youtu.be/5VEroFjcq1M) – With one of my favorite TV shows ending, this video captures the visual mood of _Mr Robot_.
+- [1177 BC: The Year Civilization Collapsed (Eric Cline, Ph.D.)](https://youtu.be/bRcu-ysocX4) – A talk by _Eric Cline_, Ph.D., about the collapse of all Mediterranean cultures at around 1177 BC.
+- [Why Most Resolutions Fail & How To Succeed](https://youtu.be/Pm9CQn07OjU) – Common pitfalls of New Year's resolutions and how I plan to avoid them.
+- [Casey Neistat: How 800 Days of Vlogging Made and Destroyed Him](https://youtu.be/QjZwrs5TNIE)
+- [Parasite’s Perfect Montage](https://youtu.be/ma1rD2OP85c) – Analysis of a perfectly timed movie sequence in the movie _Parasite_. I really need to watch this movie!
 
 ## TV Shows
 

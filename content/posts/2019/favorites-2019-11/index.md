@@ -25,30 +25,30 @@ If you’ve seen the present, you’ve seen all things, from time immemorial int
 
 ## Videos
 
-- [Beowulf – Adapting the Oldest Story in English Literature](https://youtu.be/wFZD9YyAGZ0) <Flag label="22:29" /> – A video essay by _Like Stories of Old_ about the oldest work of literature in the English language.
-- [My Minimalist Workspace](https://youtu.be/nB3TJbfPDjk) <Flag label="10:30" /> – Tour through the new studio of _Matt D’Avella_.
-- [Plato Describes Atlantis, 360 BC, ‘Critias’](https://youtu.be/wkIfNcBmeJ0) <Flag label="23:40" /> – I discovered the YouTube channel _Voices of the Past_, created by two brothers, one with a master in History, the other a professional translator. They translate and read old texts.
-- [10 Rules for A Perfect Ninja, The Bansenshūkai 萬川集海, 1676](https://youtu.be/0-8P382wPIw) <Flag label="4:13" /> – Another fantastic historic reading by _Voices of the Past_, this time from the Ninja manual _Bansenshūkai_.
-- [Urban architecture inspired by mountains, clouds, and volcanoes](https://www.ted.com/talks/ma_yansong_urban_architecture_inspired_by_mountains_clouds_and_volcanoes) <Flag label="12:51" /> – Fantastic TED talk by _Ma Yansong_ a Chinese architect who creates stunning asymmetric buildings.
-- [Tarantino Dialogue — How Kill Bill Keeps Us Hooked](https://youtu.be/_RNpyhJK65c) <Flag label="12:18" /> – A video essay about how _Quentin Tarantino_ uses dialog in his movies to keep the audience engaged over a long time.
-- [I tracked every minute of my life for 3 months.](https://youtu.be/LUjTvPy_UAg) <Flag label="10:45" /> – Another nice movie of _Matt D’Avella_ about productivity and time management.
-- [GitHub Arctic Code Vault](https://youtu.be/fzI9FNjXQ0o) <Flag label="2:27" /> – A video about the new archive project of GitHub. They plan to archive all public Git repositories on **02.02.2020** in the [GitHub Arctic Code Vault](https://archiveprogram.github.com/). The data is encoded on silver halide film, that lasts over 1000 years and buried deep in an old mine at the arctic circle. This ensures the work of thousands of developers will be safely stored for the future and also allow future generations to have an insight into our time.
-- [The SpongeBob Movie: Sponge on the Run](https://youtu.be/HfiH_526qhY) <Flag label="1:51" /> – Trailer for the new SpongeBob movie. Looks really good!
-- [The Power of Sketchnotes](https://youtu.be/IvTHDbUbdHY) <Flag label="1:32" /> – Short introduction video about Sketchnotes by _Scriberia_.
-- [Fight Club – How (Not) To Become A Space Monkey](https://youtu.be/ymgoem4v4u4) <Flag label="15:11" /> – A nice video essay by _Like Stories of Old_ about the philosophy in _Fight Club_.
+- [Beowulf – Adapting the Oldest Story in English Literature](https://youtu.be/wFZD9YyAGZ0) – A video essay by _Like Stories of Old_ about the oldest work of literature in the English language.
+- [My Minimalist Workspace](https://youtu.be/nB3TJbfPDjk) – Tour through the new studio of _Matt D’Avella_.
+- [Plato Describes Atlantis, 360 BC, ‘Critias’](https://youtu.be/wkIfNcBmeJ0) – I discovered the YouTube channel _Voices of the Past_, created by two brothers, one with a master in History, the other a professional translator. They translate and read old texts.
+- [10 Rules for A Perfect Ninja, The Bansenshūkai 萬川集海, 1676](https://youtu.be/0-8P382wPIw) – Another fantastic historic reading by _Voices of the Past_, this time from the Ninja manual _Bansenshūkai_.
+- [Urban architecture inspired by mountains, clouds, and volcanoes](https://www.ted.com/talks/ma_yansong_urban_architecture_inspired_by_mountains_clouds_and_volcanoes) – Fantastic TED talk by _Ma Yansong_ a Chinese architect who creates stunning asymmetric buildings.
+- [Tarantino Dialogue — How Kill Bill Keeps Us Hooked](https://youtu.be/_RNpyhJK65c) – A video essay about how _Quentin Tarantino_ uses dialog in his movies to keep the audience engaged over a long time.
+- [I tracked every minute of my life for 3 months.](https://youtu.be/LUjTvPy_UAg) – Another nice movie of _Matt D’Avella_ about productivity and time management.
+- [GitHub Arctic Code Vault](https://youtu.be/fzI9FNjXQ0o) – A video about the new archive project of GitHub. They plan to archive all public Git repositories on **02.02.2020** in the [GitHub Arctic Code Vault](https://archiveprogram.github.com/). The data is encoded on silver halide film, that lasts over 1000 years and buried deep in an old mine at the arctic circle. This ensures the work of thousands of developers will be safely stored for the future and also allow future generations to have an insight into our time.
+- [The SpongeBob Movie: Sponge on the Run](https://youtu.be/HfiH_526qhY) – Trailer for the new SpongeBob movie. Looks really good!
+- [The Power of Sketchnotes](https://youtu.be/IvTHDbUbdHY) – Short introduction video about Sketchnotes by _Scriberia_.
+- [Fight Club – How (Not) To Become A Space Monkey](https://youtu.be/ymgoem4v4u4) – A nice video essay by _Like Stories of Old_ about the philosophy in _Fight Club_.
 - [2017 Maps of Meaning: The Architecture of Belief (University of Toronto)](https://www.youtube.com/playlist?list=PL22J3VaeABQAT-0aSPq-OKOpQlHyR4k5h) – I finished the last part of the lecture by _Jordan B Peterson_.
-- [Vim universe. fzf - command-line fuzzy finder](https://youtu.be/qgG5Jhi_Els) <Flag label="13:40" /> – A screencast about the powerful command-line tool FZF.
-- [The Kid](https://youtu.be/-XaVelaRiiw) <Flag label="5:42" /> – A well-made, short Sci-Fi film presented by DUST.
-- [LIFE BEYOND: Chapter 1. Alien life, deep time, and our place in cosmic history](https://youtu.be/SUelbSa-OkA) <Flag label="30:25" /> – A 30-minute long visual pleasure into the question <q>Are we alone?</q>. With fantastic music, 3D animations in 4K, and quotes from scientists.
-- [Fan Favorite Sci-Fi Short Films | Sunday Night DUST](https://youtu.be/aPXMOn2MmSc) (Episode 15, Year 2) <Flag label="1:35:52" /> – I just found out DUST presents every Sunday one hour of fantastic Sci-Fi short films.
-- [The Ants](https://youtu.be/Et6itTuJSYY) <Flag label="2:41" /> – A short philosophical story about the meaning of everything.
-- [The Case For Free Speech (Introduction)](https://youtu.be/S4fS1hpn7jU) <Flag label="6:04" /> – Introduction video to a new series on _Free Speech and John Stuart Mill_. The topics covered in this future series will be very controversial but also highly interesting.
-- [‘Indian’ or ‘Native American’? [Reservations, Part 0]](https://youtu.be/kh88fVP2FWQ) <Flag label="6:46" /> – Funny video explaining the _controversial_ word _Indian_.
-- [Why Hayao Miyazaki’s Animation Feels Alive](https://youtu.be/jM6PPxN1xas) <Flag label="12:17" /> – An essay on how the films of Studio Ghibli use sound design and background artwork to create atmosphere. I’ll have to rewatch all of these films now after seeing this.
-- [The Happiness Fallacy](https://youtu.be/P1bBIxLNEX4) <Flag label="9:19" /> – Video essay about the hedonic treadmill, stoic philosophy and Allan Watt’s philosophy.
-- [Why is There NO Record of Ancient Humans? - Randall Carlson](https://youtu.be/F-d4zfovcog) <Flag label="12:49" /> – A remix video of a talk by _Randall Carlson_ about cataclysmic events in human history, that were strong enough to wipe out most of their achievements. This interesting theory makes a lot of sense and explains why we have all these old myths about flood, Atlantis, or wisdom “from the gods” in cultures around the globe.
-- [10 Essential Drawing Materials for SERIOUS Beginners](https://youtu.be/Pjru1PJ82io) <Flag label="26:18" /> – A half-hour lesson into useful drawing materials to get, when starting to draw.
-- [Portrait of Lotte, 0 to 20 years](https://youtu.be/yfqpqiTMUEg) <Flag label="5:06" /> – An updated version of the time-lapse video by _Frans Hofmeester_ showing his daughter _Lotte_ growing up from 0 to 20 years.
+- [Vim universe. fzf - command-line fuzzy finder](https://youtu.be/qgG5Jhi_Els) – A screencast about the powerful command-line tool FZF.
+- [The Kid](https://youtu.be/-XaVelaRiiw) – A well-made, short Sci-Fi film presented by DUST.
+- [LIFE BEYOND: Chapter 1. Alien life, deep time, and our place in cosmic history](https://youtu.be/SUelbSa-OkA) – A 30-minute long visual pleasure into the question <q>Are we alone?</q>. With fantastic music, 3D animations in 4K, and quotes from scientists.
+- [Fan Favorite Sci-Fi Short Films | Sunday Night DUST](https://youtu.be/aPXMOn2MmSc) (Episode 15, Year 2) – I just found out DUST presents every Sunday one hour of fantastic Sci-Fi short films.
+- [The Ants](https://youtu.be/Et6itTuJSYY) – A short philosophical story about the meaning of everything.
+- [The Case For Free Speech (Introduction)](https://youtu.be/S4fS1hpn7jU) – Introduction video to a new series on _Free Speech and John Stuart Mill_. The topics covered in this future series will be very controversial but also highly interesting.
+- [‘Indian’ or ‘Native American’? [Reservations, Part 0]](https://youtu.be/kh88fVP2FWQ) – Funny video explaining the _controversial_ word _Indian_.
+- [Why Hayao Miyazaki’s Animation Feels Alive](https://youtu.be/jM6PPxN1xas) – An essay on how the films of Studio Ghibli use sound design and background artwork to create atmosphere. I’ll have to rewatch all of these films now after seeing this.
+- [The Happiness Fallacy](https://youtu.be/P1bBIxLNEX4) – Video essay about the hedonic treadmill, stoic philosophy and Allan Watt’s philosophy.
+- [Why is There NO Record of Ancient Humans? - Randall Carlson](https://youtu.be/F-d4zfovcog) – A remix video of a talk by _Randall Carlson_ about cataclysmic events in human history, that were strong enough to wipe out most of their achievements. This interesting theory makes a lot of sense and explains why we have all these old myths about flood, Atlantis, or wisdom “from the gods” in cultures around the globe.
+- [10 Essential Drawing Materials for SERIOUS Beginners](https://youtu.be/Pjru1PJ82io) – A half-hour lesson into useful drawing materials to get, when starting to draw.
+- [Portrait of Lotte, 0 to 20 years](https://youtu.be/yfqpqiTMUEg) – An updated version of the time-lapse video by _Frans Hofmeester_ showing his daughter _Lotte_ growing up from 0 to 20 years.
 
 ## TV Shows
 

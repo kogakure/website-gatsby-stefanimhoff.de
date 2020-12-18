@@ -27,76 +27,76 @@ The problem with Human beings is somebody always shags a monkey.
 
 ### Science & Knowledge
 
-- [12 Rules for Life Tour – Brisbane, Australia.](https://youtu.be/R-z92l0kPls) <Flag label="2:07:15" /> – Socialisation of the Value Hierarchy. The first of 6 lectures from _Jordan B Petersons_ 12 **Rules of Life Tour**. 2 hours of _Jordan Peterson_ talking about psychology, philosophy, ethics, and more topics.
-- [12 Rules for Life Tour – Melbourne, Australia.](https://youtu.be/dPv1RYsi7sA) <Flag label="1:58:55" /> – The Deeper the Abyss, the Brighter the Light.
-- [The Hidden Truth About Politics](https://youtu.be/lxi-0E5zmdI) <Flag label="10:02" /> – _Jordan Peterson_ explains in this shortened and narrated film the connection between political affiliation and the Big 5 personality test.
-- [Hexagons are the Bestagons](https://youtu.be/thOifuHs6eY) <Flag label="9:26" /> – Why the Hexagon is the most awesome geometric shape.
-- [Why billions of people won't eat pork (or why we don't know)](https://youtu.be/Sew4rctKghY) <Flag label="13:10" /> – The search for why many religions forbid eating pork.
-- [Japan’s 72 Micro-Seasons of Impermanence](https://youtu.be/aScTn2A8hv8) <Flag label="4:20" /> – Mini documentary about Japan’s seasons.
-- [Does Instagram Lower your Testosterone?](https://youtu.be/xpVnXJl3GK8) <Flag label="15:33" />
-- [2+2=5 Critical Theory: This is What CRT Scholars Actually Believe](https://youtu.be/Kl3p3M67MkQ) <Flag label="1:09:17" />
-- [Woke Outrage: Great Marketing for Terrible Movies](https://youtu.be/PfDZ6x9KxYE) <Flag label="11:29" />
-- [How to Solve the Social Dilemma](https://youtu.be/wyxnaaPqbRk) <Flag label="16:18" /> – Addressing the flaws in the documentary _The Social Dilemma_.
+- [12 Rules for Life Tour – Brisbane, Australia.](https://youtu.be/R-z92l0kPls) – Socialisation of the Value Hierarchy. The first of 6 lectures from _Jordan B Petersons_ 12 **Rules of Life Tour**. 2 hours of _Jordan Peterson_ talking about psychology, philosophy, ethics, and more topics.
+- [12 Rules for Life Tour – Melbourne, Australia.](https://youtu.be/dPv1RYsi7sA) – The Deeper the Abyss, the Brighter the Light.
+- [The Hidden Truth About Politics](https://youtu.be/lxi-0E5zmdI) – _Jordan Peterson_ explains in this shortened and narrated film the connection between political affiliation and the Big 5 personality test.
+- [Hexagons are the Bestagons](https://youtu.be/thOifuHs6eY) – Why the Hexagon is the most awesome geometric shape.
+- [Why billions of people won't eat pork (or why we don't know)](https://youtu.be/Sew4rctKghY) – The search for why many religions forbid eating pork.
+- [Japan’s 72 Micro-Seasons of Impermanence](https://youtu.be/aScTn2A8hv8) – Mini documentary about Japan’s seasons.
+- [Does Instagram Lower your Testosterone?](https://youtu.be/xpVnXJl3GK8)
+- [2+2=5 Critical Theory: This is What CRT Scholars Actually Believe](https://youtu.be/Kl3p3M67MkQ)
+- [Woke Outrage: Great Marketing for Terrible Movies](https://youtu.be/PfDZ6x9KxYE)
+- [How to Solve the Social Dilemma](https://youtu.be/wyxnaaPqbRk) – Addressing the flaws in the documentary _The Social Dilemma_.
 
 ### Productivity
 
-- [Obsidian: Third-Party Plugins!](https://youtu.be/2Hrja0SRgO0) <Flag label="8:46" /> – A first look into the new plugin system and available plugins in Obsidian.
-- [10 small changes that will improve your life.](https://youtu.be/wIIGCTIpRMk) <Flag label="11:43" />
+- [Obsidian: Third-Party Plugins!](https://youtu.be/2Hrja0SRgO0) – A first look into the new plugin system and available plugins in Obsidian.
+- [10 small changes that will improve your life.](https://youtu.be/wIIGCTIpRMk)
 
 ### History & Culture
 
-- [History Summarized: Wales](https://youtu.be/dpnYoWH4nBg) <Flag label="10:47" /> – The oft-forgotten history of Britain’s secret third country Wales.
-- [If I could only cook one dish for the rest of my life…](https://youtu.be/SqLsdGqzTJ8) <Flag label="12:31" /> – How to cook Asian noodle soups. 😋
-- [Learn the Secrets of Restaurant Style Ramen in 1 Hour](https://youtu.be/OUqADDqLUso) <Flag label="1:00:51" /> – Real-time cooking of a bowl of ramen.
-- [Who Was Marcus Aurelius? The Life Of The Stoic Emperor](https://youtu.be/vHonWT6849A) <Flag label="12:52" />
-- [The Mesmerizing Art of Origami](https://youtu.be/8_-IguIG9BI) <Flag label="3:28" /> – Mini documentary about Origami artist _Robert Lang_.
-- [Relaxing Through the Craft of Woodworking](https://youtu.be/66YbFDE3izc) <Flag label="2:43" /> – Mini documentary about the spoon carver _Barnaby Carder_.
-- [Visually Satisfying Arrangements](https://youtu.be/WdKebqB60ko) <Flag label="3:53" /> – Mini documentary about the artist _Adam Hillman_ and his object arrangements.
-- [Kadjar City – A Minecraft Timelapse](https://youtu.be/8T0Xwm0j7OM) <Flag label="9:03" /> – An impressive time-lapse of the construction of Kadjar City in Minecraft.
-- [These 3 Books Changed My Life Completely](https://youtu.be/R_ylVuB7BE8) <Flag label="11:07" /> – _Ryan Holiday_ talks about his 3 favorite books.
-- [Emperor Han Wudi – Ancient China's Greatest Conqueror](https://youtu.be/fEY1ljrE88M) <Flag label="22:11" />
-- [Graham Hancock Explains the Mysteries of Atlantis and Göbekli Tepe](https://youtu.be/LVfttDdtN2A) <Flag label="12:12" />
-- [Why the Thirty Years’ War Was So Devastating](https://youtu.be/QKUBpUSn-Kw) <Flag label="17:54" />
-- [Surviving Alone in Alaska](https://youtu.be/Iq0rZn8HFmQ) <Flag label="52:03" /> – Documentary by _Vice_ about _Heimo Korth_, the last man living in an Alaskan wilderness of 19 million acres. It was mentioned by _Joe Rogan_ on his podcast. Fantastic!
-- [Barbarians – Is the Germanic Language Accurate?](https://youtu.be/EjfeGqfZFi8) <Flag label="16:57" />
-- [The Mouth of Sauron](https://youtu.be/GLRAPXPewgg) <Flag label="9:40" />
-- [The Complete Travels of Treebeard](https://youtu.be/8O5IGMwbXYA) <Flag label="18:04" />
+- [History Summarized: Wales](https://youtu.be/dpnYoWH4nBg) – The oft-forgotten history of Britain’s secret third country Wales.
+- [If I could only cook one dish for the rest of my life…](https://youtu.be/SqLsdGqzTJ8) – How to cook Asian noodle soups. 😋
+- [Learn the Secrets of Restaurant Style Ramen in 1 Hour](https://youtu.be/OUqADDqLUso) – Real-time cooking of a bowl of ramen.
+- [Who Was Marcus Aurelius? The Life Of The Stoic Emperor](https://youtu.be/vHonWT6849A)
+- [The Mesmerizing Art of Origami](https://youtu.be/8_-IguIG9BI) – Mini documentary about Origami artist _Robert Lang_.
+- [Relaxing Through the Craft of Woodworking](https://youtu.be/66YbFDE3izc) – Mini documentary about the spoon carver _Barnaby Carder_.
+- [Visually Satisfying Arrangements](https://youtu.be/WdKebqB60ko) – Mini documentary about the artist _Adam Hillman_ and his object arrangements.
+- [Kadjar City – A Minecraft Timelapse](https://youtu.be/8T0Xwm0j7OM) – An impressive time-lapse of the construction of Kadjar City in Minecraft.
+- [These 3 Books Changed My Life Completely](https://youtu.be/R_ylVuB7BE8) – _Ryan Holiday_ talks about his 3 favorite books.
+- [Emperor Han Wudi – Ancient China's Greatest Conqueror](https://youtu.be/fEY1ljrE88M)
+- [Graham Hancock Explains the Mysteries of Atlantis and Göbekli Tepe](https://youtu.be/LVfttDdtN2A)
+- [Why the Thirty Years’ War Was So Devastating](https://youtu.be/QKUBpUSn-Kw)
+- [Surviving Alone in Alaska](https://youtu.be/Iq0rZn8HFmQ) – Documentary by _Vice_ about _Heimo Korth_, the last man living in an Alaskan wilderness of 19 million acres. It was mentioned by _Joe Rogan_ on his podcast. Fantastic!
+- [Barbarians – Is the Germanic Language Accurate?](https://youtu.be/EjfeGqfZFi8)
+- [The Mouth of Sauron](https://youtu.be/GLRAPXPewgg)
+- [The Complete Travels of Treebeard](https://youtu.be/8O5IGMwbXYA)
 
 ### Cinema & Film
 
-- [2020 (A 1917 Parody)](https://youtu.be/skgcruZichc) <Flag label="18:13" /> – A creative homage to the movie 1917 placed in 2020.
-- [The Drinker Recommends… Fight Club](https://youtu.be/-IyJGImfcvs) <Flag label="12:50" />
-- [Looks Like Wonder Woman 1984 Is Going To Flop](https://youtu.be/jZWM7l_nZCA) <Flag label="6:18" />
+- [2020 (A 1917 Parody)](https://youtu.be/skgcruZichc) – A creative homage to the movie 1917 placed in 2020.
+- [The Drinker Recommends… Fight Club](https://youtu.be/-IyJGImfcvs)
+- [Looks Like Wonder Woman 1984 Is Going To Flop](https://youtu.be/jZWM7l_nZCA)
 
 ### Philosophy
 
-- [American Psychosis – Chris Hedges on the US empire of narcissism and psychopathy](https://youtu.be/Vpkz6GMsJ1g) <Flag label="14:43" />
-- [Bruce Lee: How to live successfully in a world with no rules](https://youtu.be/mpjjWq81VSw) <Flag label="5:50" /> – _Shannon Lee_ talks about her father's way of living in a world with no rules.
+- [American Psychosis – Chris Hedges on the US empire of narcissism and psychopathy](https://youtu.be/Vpkz6GMsJ1g)
+- [Bruce Lee: How to live successfully in a world with no rules](https://youtu.be/mpjjWq81VSw) – _Shannon Lee_ talks about her father's way of living in a world with no rules.
 
 ### Politics
 
-- [Glenn Greenwald: Nothing Trump Did Compares to the 'Moral Evil' of Bush's and Obama's Wars](https://youtu.be/3KMyoKa946s) <Flag label="1:15:43" /> – A fantastic talk with the Pulitzer Prize-winning journalist _Glen Greenwald_ about politics and media.
-- [Trump vs Biden: Pandemic Punch-Out (Who Handled Covid Best?)](https://youtu.be/tdqvJITqkuc) <Flag label="31:39" /> – A accurate timeline analyzing the political decisions by Trump and Biden in regards to the pandemic.
-- [Trump vs Biden: Who Disrespects the Military Most?](https://youtu.be/rI2RtQ1IohM) <Flag label="12:02" /> – Who of the two candidates disrespects the military more?
-- [Trump vs Biden: Who's the Celebrity Choice for President?!](https://youtu.be/0MHdrZcd7F0) <Flag label="19:39" /> – Who of the two candidates has more support from celebrities.
-- [The Subversion of America & The US Election](https://youtu.be/F0Vx6gS2vAE) <Flag label="17:53" /> – A story by Canadian documentary director _Lauren Southern_ how she was multiple times intentionally rejected entering the US, because of her critical films.
-- [Apple: In the spotlight for monopolistic practices?](https://youtu.be/6A90eDwGidE) <Flag label="15:04" />
-- [Tim Pool | The Ben Shapiro Show Sunday Special Ep. 107](https://youtu.be/TOwvr-YpU1g) <Flag label="1:04:22" />
-- [President Trump vs. Mainstream Media](https://youtu.be/q1NcphoZF0o) <Flag label="17:12" /> – _Larry Elder_ summarizes the media bias. Who does not see it is ignorant or stupid.
-- [Election Fraud Update with Matt Braynard](https://youtu.be/61jlSohExxk) <Flag label="24:36" />
-- [They think you’re stupid.](https://youtu.be/oQxaGm7eK4U) <Flag label="12:24" /> – _Paul Joseph Watson_ comments on the bullshit of _The Great Reset_, hypocrisy, and other globalist, technocratic madness of 2020.
-- [Meet the New Boss](https://youtu.be/o8-OtyUb9ok) <Flag label="11:00" /> – The Neo-liberal war machine is back.
+- [Glenn Greenwald: Nothing Trump Did Compares to the 'Moral Evil' of Bush's and Obama's Wars](https://youtu.be/3KMyoKa946s) – A fantastic talk with the Pulitzer Prize-winning journalist _Glen Greenwald_ about politics and media.
+- [Trump vs Biden: Pandemic Punch-Out (Who Handled Covid Best?)](https://youtu.be/tdqvJITqkuc) – A accurate timeline analyzing the political decisions by Trump and Biden in regards to the pandemic.
+- [Trump vs Biden: Who Disrespects the Military Most?](https://youtu.be/rI2RtQ1IohM) – Who of the two candidates disrespects the military more?
+- [Trump vs Biden: Who's the Celebrity Choice for President?!](https://youtu.be/0MHdrZcd7F0) – Who of the two candidates has more support from celebrities.
+- [The Subversion of America & The US Election](https://youtu.be/F0Vx6gS2vAE) – A story by Canadian documentary director _Lauren Southern_ how she was multiple times intentionally rejected entering the US, because of her critical films.
+- [Apple: In the spotlight for monopolistic practices?](https://youtu.be/6A90eDwGidE)
+- [Tim Pool | The Ben Shapiro Show Sunday Special Ep. 107](https://youtu.be/TOwvr-YpU1g)
+- [President Trump vs. Mainstream Media](https://youtu.be/q1NcphoZF0o) – _Larry Elder_ summarizes the media bias. Who does not see it is ignorant or stupid.
+- [Election Fraud Update with Matt Braynard](https://youtu.be/61jlSohExxk)
+- [They think you’re stupid.](https://youtu.be/oQxaGm7eK4U) – _Paul Joseph Watson_ comments on the bullshit of _The Great Reset_, hypocrisy, and other globalist, technocratic madness of 2020.
+- [Meet the New Boss](https://youtu.be/o8-OtyUb9ok) – The Neo-liberal war machine is back.
 
 ### Humor
 
-- [What Spiritual People Are Like This Election](https://youtu.be/SN0TQ1QIX10) <Flag label="6:22" /> – Funny take on 2020 from the perspective of a spiritual US American.
-- [Biden Won! Here’s What You Need To Know](https://youtu.be/lBZ-KiYoU68) <Flag label="5:27" /> – JP Spears explains what can happen till January when the next president takes office. Prepare for _Nancy Pelocy_ as your next president. 😅
-- [The Vote Counting Effort In Nevada](https://youtu.be/iCMoKTd2xAI) <Flag label="1:26" /> – _Dim Dillon_ is spot on with his humor on election counting in Nevada.
-- [How a Civil War Could Start!](https://youtu.be/6luFJvZt-og) <Flag label="9:41" />
-- [Election goes to supreme court…](https://youtu.be/VA4x1-nWN5E) <Flag label="1:26" /> – Democrats can only pray the election doesn’t end in front of the supreme court.
-- [If 2020 was a boyfriend](https://youtu.be/9DngcnVDH6Q) <Flag label="4:16" />
-- [ⓘ Official sources say this cartoon is false](https://youtu.be/tez4CF4yUy4) <Flag label="0:45" />
-- [How To Be More Obedient](https://youtu.be/RG2j8P_4EKE) <Flag label="5:20" />
+- [What Spiritual People Are Like This Election](https://youtu.be/SN0TQ1QIX10) – Funny take on 2020 from the perspective of a spiritual US American.
+- [Biden Won! Here’s What You Need To Know](https://youtu.be/lBZ-KiYoU68) – JP Spears explains what can happen till January when the next president takes office. Prepare for _Nancy Pelocy_ as your next president. 😅
+- [The Vote Counting Effort In Nevada](https://youtu.be/iCMoKTd2xAI) – _Dim Dillon_ is spot on with his humor on election counting in Nevada.
+- [How a Civil War Could Start!](https://youtu.be/6luFJvZt-og)
+- [Election goes to supreme court…](https://youtu.be/VA4x1-nWN5E) – Democrats can only pray the election doesn’t end in front of the supreme court.
+- [If 2020 was a boyfriend](https://youtu.be/9DngcnVDH6Q)
+- [ⓘ Official sources say this cartoon is false](https://youtu.be/tez4CF4yUy4)
+- [How To Be More Obedient](https://youtu.be/RG2j8P_4EKE)
 
 ## TV Shows
 
@@ -114,38 +114,38 @@ The problem with Human beings is somebody always shags a monkey.
 
 ### The Joe Rogan Experience
 
-- [1559 – Steven Rinella](https://podcasts.apple.com/podcast/the-joe-rogan-experience/id360084272?i=1000497364773) <Flag label="3:13:00" /> – Talk with _Steven Rinella_, the host of the Netflix show MeatEater. One interesting topic was how Joe’s podcast happened and how it grew and why podcasts are so successful compared to other media formats.
-- [1560 – Mike Baker](https://podcasts.apple.com/podcast/the-joe-rogan-experience/id360084272?i=1000497587137) <Flag label="3:16:00" /> – Mike Baker is a former CIA covert operations officer, host of the Science Channel series Black Files Declassified, and current president and co-founder of Diligence LLC, a global intelligence and security firm.
-- [1561 – Kermit Pattison](https://podcasts.apple.com/podcast/the-joe-rogan-experience/id360084272?i=1000498004748) <Flag label="2:16:00" /> – _Kermit Pattison_ talks about his new book about the Oldest Skeleton and the Origins of Humankind.
-- [1564 – Adam Alter](https://podcasts.apple.com/podcast/the-joe-rogan-experience/id360084272?i=1000498498905) <Flag label="2:11:00" /> – Interview with the author of [Drunk Tank Pink](https://www.goodreads.com/book/show/15811497-drunk-tank-pink) and [Irresistible](https://www.goodreads.com/book/show/30962055-irresistible).
-- [1568 – Tom Green](https://podcasts.apple.com/podcast/the-joe-rogan-experience/id360084272?i=1000499603912) <Flag label="4:49:00" /> – Comedian, actor, filmmaker, and talk show host _Tom Green_ talks about living in a trailer and traveling the USA.
+- [1559 – Steven Rinella](https://podcasts.apple.com/podcast/the-joe-rogan-experience/id360084272?i=1000497364773) – Talk with _Steven Rinella_, the host of the Netflix show MeatEater. One interesting topic was how Joe’s podcast happened and how it grew and why podcasts are so successful compared to other media formats.
+- [1560 – Mike Baker](https://podcasts.apple.com/podcast/the-joe-rogan-experience/id360084272?i=1000497587137) – Mike Baker is a former CIA covert operations officer, host of the Science Channel series Black Files Declassified, and current president and co-founder of Diligence LLC, a global intelligence and security firm.
+- [1561 – Kermit Pattison](https://podcasts.apple.com/podcast/the-joe-rogan-experience/id360084272?i=1000498004748) – _Kermit Pattison_ talks about his new book about the Oldest Skeleton and the Origins of Humankind.
+- [1564 – Adam Alter](https://podcasts.apple.com/podcast/the-joe-rogan-experience/id360084272?i=1000498498905) – Interview with the author of [Drunk Tank Pink](https://www.goodreads.com/book/show/15811497-drunk-tank-pink) and [Irresistible](https://www.goodreads.com/book/show/30962055-irresistible).
+- [1568 – Tom Green](https://podcasts.apple.com/podcast/the-joe-rogan-experience/id360084272?i=1000499603912) – Comedian, actor, filmmaker, and talk show host _Tom Green_ talks about living in a trailer and traveling the USA.
 
 ### The Art of Manliness
 
-- [656: The Hidden Pleasures of Learning for Its Own Sake](https://podcasts.apple.com/podcast/the-art-of-manliness/id332516054?i=1000496379314) <Flag label="42:00" /> – Inspiring discussion with _Zena Hitz_, the author of [Lost in Thought: The Hidden Pleasures of an Intellectual Life](https://www.goodreads.com/book/show/48692505-lost-in-thought) on learning for its own sake.
-- [658: In Praise of Maintenance in a World Obsessed With Innovation](https://podcasts.apple.com/podcast/658-in-praise-maintenance-in-world-obsessed-innovation/id332516054?i=1000497213528) <Flag label="38:00" /> – _Lee Vinsel_ is a professor of science, technology and society and co-founder of [The Maintainers](https://themaintainers.org/), a global research network interested in the concepts of maintenance, infrastructure, repair, and human labor to sustain our world.
+- [656: The Hidden Pleasures of Learning for Its Own Sake](https://podcasts.apple.com/podcast/the-art-of-manliness/id332516054?i=1000496379314) – Inspiring discussion with _Zena Hitz_, the author of [Lost in Thought: The Hidden Pleasures of an Intellectual Life](https://www.goodreads.com/book/show/48692505-lost-in-thought) on learning for its own sake.
+- [658: In Praise of Maintenance in a World Obsessed With Innovation](https://podcasts.apple.com/podcast/658-in-praise-maintenance-in-world-obsessed-innovation/id332516054?i=1000497213528) – _Lee Vinsel_ is a professor of science, technology and society and co-founder of [The Maintainers](https://themaintainers.org/), a global research network interested in the concepts of maintenance, infrastructure, repair, and human labor to sustain our world.
 
 ### Lex Fridman Podcast
 
-- [122 – David Fravor: UFOs, Aliens, Fighter Jets, and Aerospace Engineering](https://podcasts.apple.com/podcast/lex-fridman-podcast/id1434243584?i=1000490482060) <Flag label="3:56:00" /> – _David Fravor_ is a navy pilot of 18 years and a primary witness in one of the most credible UFO sightings in history, video of which has been released by the Pentagon and reported on by the NY Times.
+- [122 – David Fravor: UFOs, Aliens, Fighter Jets, and Aerospace Engineering](https://podcasts.apple.com/podcast/lex-fridman-podcast/id1434243584?i=1000490482060) – _David Fravor_ is a navy pilot of 18 years and a primary witness in one of the most credible UFO sightings in history, video of which has been released by the Pentagon and reported on by the NY Times.
 
 ### The Saad Truth with Dr. Saad
 
-- [Political Hate Shatters an Individual’s Theory of Mind](https://podcasts.apple.com/podcast/the-saad-truth-with-dr-saad/id1516343565?i=1000497517956) <Flag label="10:00" /> – _Gad Saad_ explains the term [Theory of Mind](https://en.wikipedia.org/wiki/Theory_of_mind) from psychology at the example of the US election.
-- [My Chat with Noor Bin Ladin – On Islam, Her Background, and Donald Trump](https://podcasts.apple.com/podcast/my-chat-noor-bin-ladin-on-islam-her-background-donald/id1516343565?i=1000496712005) <Flag label="53:00" /> – _Gad Saad_ talks _Osama Bin Laden's_ niece.
-- [My Chat with SEAL Team Six Robert O’Neill, the Man Who Took Out Bin Laden](https://podcasts.apple.com/podcast/my-chat-seal-team-six-robert-oneill-man-who-took-out/id1516343565?i=1000498064323) <Flag label="43:00" />
+- [Political Hate Shatters an Individual’s Theory of Mind](https://podcasts.apple.com/podcast/the-saad-truth-with-dr-saad/id1516343565?i=1000497517956) – _Gad Saad_ explains the term [Theory of Mind](https://en.wikipedia.org/wiki/Theory_of_mind) from psychology at the example of the US election.
+- [My Chat with Noor Bin Ladin – On Islam, Her Background, and Donald Trump](https://podcasts.apple.com/podcast/my-chat-noor-bin-ladin-on-islam-her-background-donald/id1516343565?i=1000496712005) – _Gad Saad_ talks _Osama Bin Laden's_ niece.
+- [My Chat with SEAL Team Six Robert O’Neill, the Man Who Took Out Bin Laden](https://podcasts.apple.com/podcast/my-chat-seal-team-six-robert-oneill-man-who-took-out/id1516343565?i=1000498064323)
 
 ### Quillette Podcast
 
-- [Jamil Jivani on the Inconvenient Truth About Donald Trump’s Non-White Supporters](https://podcasts.apple.com/de/podcast/jamil-jivani-on-inconvenient-truth-about-donald-trumps/id1441708286?i=1000497505617) <Flag label="35:00" /> – With Trump losing his second term, this podcast discussed his surprisingly strong showing among Black, Hispanic, Muslim, and Asian voters, that stand in contrast to the idea Trumps appeal is rooted in racism.
+- [Jamil Jivani on the Inconvenient Truth About Donald Trump’s Non-White Supporters](https://podcasts.apple.com/de/podcast/jamil-jivani-on-inconvenient-truth-about-donald-trumps/id1441708286?i=1000497505617) – With Trump losing his second term, this podcast discussed his surprisingly strong showing among Black, Hispanic, Muslim, and Asian voters, that stand in contrast to the idea Trumps appeal is rooted in racism.
 
 ### Watching America
 
-- [The Value of Tolerance and Freedom in Western Civilization](https://podcasts.apple.com/podcast/watching-america/id1453722153?i=1000497494336) <Flag label="54:00" /> – _Ayaan Hirsi Ali_ is an activist for women’s rights and the author of the book Infidel: My Life, and many others. In this episode of Watching America, Dr. _Alan Campbell_ speaks with Ali about America, religion, cancel culture, the failures of American universities, and more.
+- [The Value of Tolerance and Freedom in Western Civilization](https://podcasts.apple.com/podcast/watching-america/id1453722153?i=1000497494336) – _Ayaan Hirsi Ali_ is an activist for women’s rights and the author of the book Infidel: My Life, and many others. In this episode of Watching America, Dr. _Alan Campbell_ speaks with Ali about America, religion, cancel culture, the failures of American universities, and more.
 
 ### Indubio
 
-- [078 – Staatsziel Vollversorgung](https://podcasts.apple.com/podcast/indubio/id1504760857?i=1000499777064) <Flag label="47:00" /> 🇩🇪
+- [078 – Staatsziel Vollversorgung](https://podcasts.apple.com/podcast/indubio/id1504760857?i=1000499777064) 🇩🇪
 
 ## Books
 

@@ -27,18 +27,18 @@ If wisdom were offered me on the one condition that I should keep it shut away a
 
 ## Videos
 
-- [Timelapse of the Future](https://youtu.be/uD4izuDMUQA) <Flag label="29:20" /> – A half-hour-long movie of the future of our universe to its end. Stunning visuals and fantastic music.
-- [Hikari](https://youtu.be/__xVbrDvunY) <Flag label="1:53" /> – Fantastic visual epitaph for Japanese poet _Hikaru-San_, who took her own life after struggling with depression. The poem used in the video is [Epitaph for “Poets’ Tomb”](https://www.poetryinternational.org/pi/poem/23081/auto/0/0/Shuntaro-Tanikawa/EPITAPH-FOR-POETS-TOMB/) by _Shuntarō Tanikawa_.
-- [Bookstores: How to Read More Books in the Golden Age of Content](https://youtu.be/lIW5jBrrsS0) <Flag label="37:50" /> – Documentary about books, libraries and reading.
-- [What’s the Best Position to Sleep in? Do we even need a Pillow?](https://youtu.be/O8UoAASCUsQ&) <Flag label="16:29" /> – Interesting video summary on the science of sleeping.
-- [The Expanse Season 4 Comic-Con Trailer](https://youtu.be/WCHCquhQFfY) <Flag label="5:55" /> – The trailer for the upcoming season is fantastic. As a reader of all Expanse books, I can’t wait for the next season.
-- [Jordan Peterson – Political Correctness and Postmodernism](https://youtu.be/f5rUPatnXSE) <Flag label="27:51" /> – _Jordan B Peterson_ holds a lecture about the importance of free speech.
-- [Why Cosmic Horror is Hard To Make](https://youtu.be/8OTO7Rqln9Q) <Flag label="7:59" /> – Video about why _Cosmic Horror_ (or Lovecraftian Horror) is so hard to adapt onto the screen.
-- [After Life – An Answer to Nihilism](https://youtu.be/SIPRRWT_SbQ) <Flag label="20:36" /> – Video essay on the Netflix TV show _After Life_.
-- [This Is Water – David Foster Wallace](https://youtu.be/8CrOL-ydFMI) <Flag label="22:43" /> – I rewatched the fantastic commencement speech from 2005. There is also a short film by _The Glossary_ based on this speech which (unfortunately) needed to be removed. But you can still find it …
-- [DoubleSpeak, How to Lie without Lying](https://youtu.be/qP07oyFTRXc) <Flag label="16:14" /> – Nice video essay on Double Speak, the usage of euphemism and other techniques to change something without lying.
-- [The Meaning and Reality of Individual Sovereignty](https://youtu.be/JpA5iDpnrbw) <Flag label="1:25:58" /> – Inspiring lecture by _Jordan B Peterson_ about individual sovereignty.
-- _Nick Di Paolo_ – His new standup special [A Breath of Fresh Air](https://youtu.be/6aIdNexGjw0) <Flag label="1:03:47" /> is available on YouTube for free. He also appeared on [Joe Rogan’s Podcast](https://www.youtube.com/watch?v=q_CeQlkMC_g) and was interviewed by [Dave Rubin](https://www.youtube.com/watch?v=DUU70CdSIFk) <Flag label="58:34" />.
+- [Timelapse of the Future](https://youtu.be/uD4izuDMUQA) – A half-hour-long movie of the future of our universe to its end. Stunning visuals and fantastic music.
+- [Hikari](https://youtu.be/__xVbrDvunY) – Fantastic visual epitaph for Japanese poet _Hikaru-San_, who took her own life after struggling with depression. The poem used in the video is [Epitaph for “Poets’ Tomb”](https://www.poetryinternational.org/pi/poem/23081/auto/0/0/Shuntaro-Tanikawa/EPITAPH-FOR-POETS-TOMB/) by _Shuntarō Tanikawa_.
+- [Bookstores: How to Read More Books in the Golden Age of Content](https://youtu.be/lIW5jBrrsS0) – Documentary about books, libraries and reading.
+- [What’s the Best Position to Sleep in? Do we even need a Pillow?](https://youtu.be/O8UoAASCUsQ&) – Interesting video summary on the science of sleeping.
+- [The Expanse Season 4 Comic-Con Trailer](https://youtu.be/WCHCquhQFfY) – The trailer for the upcoming season is fantastic. As a reader of all Expanse books, I can’t wait for the next season.
+- [Jordan Peterson – Political Correctness and Postmodernism](https://youtu.be/f5rUPatnXSE) – _Jordan B Peterson_ holds a lecture about the importance of free speech.
+- [Why Cosmic Horror is Hard To Make](https://youtu.be/8OTO7Rqln9Q) – Video about why _Cosmic Horror_ (or Lovecraftian Horror) is so hard to adapt onto the screen.
+- [After Life – An Answer to Nihilism](https://youtu.be/SIPRRWT_SbQ) – Video essay on the Netflix TV show _After Life_.
+- [This Is Water – David Foster Wallace](https://youtu.be/8CrOL-ydFMI) – I rewatched the fantastic commencement speech from 2005. There is also a short film by _The Glossary_ based on this speech which (unfortunately) needed to be removed. But you can still find it …
+- [DoubleSpeak, How to Lie without Lying](https://youtu.be/qP07oyFTRXc) – Nice video essay on Double Speak, the usage of euphemism and other techniques to change something without lying.
+- [The Meaning and Reality of Individual Sovereignty](https://youtu.be/JpA5iDpnrbw) – Inspiring lecture by _Jordan B Peterson_ about individual sovereignty.
+- _Nick Di Paolo_ – His new standup special [A Breath of Fresh Air](https://youtu.be/6aIdNexGjw0) is available on YouTube for free. He also appeared on [Joe Rogan’s Podcast](https://www.youtube.com/watch?v=q_CeQlkMC_g) and was interviewed by [Dave Rubin](https://www.youtube.com/watch?v=DUU70CdSIFk).
 - [2017 Maps of Meaning: The Architecture of Belief](https://www.youtube.com/playlist?list=PL22J3VaeABQAT-0aSPq-OKOpQlHyR4k5h) – I started watching the ~30-hour long lecture by _Jordan B Peterson_ at the University of Toronto about how we construct meaning.
 
 ## TV Shows

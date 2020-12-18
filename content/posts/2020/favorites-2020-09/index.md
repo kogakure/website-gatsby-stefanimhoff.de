@@ -28,96 +28,96 @@ Darkness cannot drive out darkness; only light can do that. Hate cannot drive ou
 
 ### Science & Knowledge
 
-- [The Biggest Lie About Renewable Energy](https://youtu.be/bC-BYhuFUtY) <Flag label="13:14" />
-- [How to Illegally Cross the Mexico-US Border](https://youtu.be/DTIDCA7mjZs) <Flag label="14:50" />
-- [The Coddling of the American Mind – Jonathan Haidt](https://youtu.be/Wuf0-x9Pbu4) <Flag label="12:14" />
-- [The Strange Reason Why the US Owes London £12,598,845](https://youtu.be/3D4Bz7r7cCM) <Flag label="6:02" />
-- [The Bystander Effect vs. The Good Samaritan Effect](https://youtu.be/h9GMo0QE7Us) <Flag label="8:47" />
-- [The Fabric of the Cosmos: The Illusion of Time Documentary](https://youtu.be/Zuedaptw73w) <Flag label="50:37" />
-- [Confirmation Bias and Meditative Consciousness](https://youtu.be/6MhhR1FT63c) <Flag label="21:07" />
-- [Why the US Military Has a 26-Page Brownie Recipe](https://youtu.be/qCaIY-bBINQ) <Flag label="6:17" />
+- [The Biggest Lie About Renewable Energy](https://youtu.be/bC-BYhuFUtY)
+- [How to Illegally Cross the Mexico-US Border](https://youtu.be/DTIDCA7mjZs)
+- [The Coddling of the American Mind – Jonathan Haidt](https://youtu.be/Wuf0-x9Pbu4)
+- [The Strange Reason Why the US Owes London £12,598,845](https://youtu.be/3D4Bz7r7cCM)
+- [The Bystander Effect vs. The Good Samaritan Effect](https://youtu.be/h9GMo0QE7Us)
+- [The Fabric of the Cosmos: The Illusion of Time Documentary](https://youtu.be/Zuedaptw73w)
+- [Confirmation Bias and Meditative Consciousness](https://youtu.be/6MhhR1FT63c)
+- [Why the US Military Has a 26-Page Brownie Recipe](https://youtu.be/qCaIY-bBINQ)
 
 ### Productivity
 
-- [The One Hour Night Routine](https://youtu.be/CQqdmDjgx9k) <Flag label="8:45" />
-- [Organize Your Knowledge with Zettelkasten](https://youtu.be/XUltI4v_UU4) <Flag label="8:06" />
-- [Obsidian – The Power of Backlinks and the Knowledge Graph](https://youtu.be/n7xrHPpTWJ0) <Flag label="12:20" />
-- [How I Take Literature Notes in Obsidian](https://youtu.be/4Jg69Ygf1XI) <Flag label="10:35" /> – Part 1: Creating literature notes from a source (book, article, movie)
-- [How I Write Permanent Notes in Obsidian](https://youtu.be/FivmWbDrO-M) <Flag label="11:03" /> – Part 2: Moving the ideas from the literature notes into the permanent notes.
-- [Obsidian: How to Organize Your Notes](https://youtu.be/oE8HyLuHjsQ) <Flag label="11:52" />
-- [Obsidian: Keep Notes for the Long Term](https://youtu.be/yQCV0Pluhqs) <Flag label="10:48" />
-- Spaced Repetition with Obsidian and NeuraCache <Flag label="13:40" />
-- [Getting Started with Networked Thought in Obsidian](https://youtu.be/LkiqNPySFW8) <Flag label="27:24" />
-- [Using Obsidian to Take Notes on Books](https://youtu.be/VFRp6QS8z8w) <Flag label="19:59" />
-- [Getting Started with a Zettelkasten System](https://youtu.be/b21JhcfuGac) <Flag label="12:01" />
-- [How to Take Smart Notes](https://youtu.be/uCrWIanRYnM) <Flag label="8:18" />
-- [What Makes A Good Zettelkasten Note](https://youtu.be/Q4JqjbQZ6_Q) <Flag label="19:40" />
-- [My Two Uses for DEVONthink and Obsidian](https://youtu.be/xlDfpcipCm4) <Flag label="6:06" />
-- [DEVONthink Read it Later](https://youtu.be/aezxmGjAYvU) <Flag label="13:19" />
+- [The One Hour Night Routine](https://youtu.be/CQqdmDjgx9k)
+- [Organize Your Knowledge with Zettelkasten](https://youtu.be/XUltI4v_UU4)
+- [Obsidian – The Power of Backlinks and the Knowledge Graph](https://youtu.be/n7xrHPpTWJ0)
+- [How I Take Literature Notes in Obsidian](https://youtu.be/4Jg69Ygf1XI) – Part 1: Creating literature notes from a source (book, article, movie)
+- [How I Write Permanent Notes in Obsidian](https://youtu.be/FivmWbDrO-M) – Part 2: Moving the ideas from the literature notes into the permanent notes.
+- [Obsidian: How to Organize Your Notes](https://youtu.be/oE8HyLuHjsQ)
+- [Obsidian: Keep Notes for the Long Term](https://youtu.be/yQCV0Pluhqs)
+- Spaced Repetition with Obsidian and NeuraCache
+- [Getting Started with Networked Thought in Obsidian](https://youtu.be/LkiqNPySFW8)
+- [Using Obsidian to Take Notes on Books](https://youtu.be/VFRp6QS8z8w)
+- [Getting Started with a Zettelkasten System](https://youtu.be/b21JhcfuGac)
+- [How to Take Smart Notes](https://youtu.be/uCrWIanRYnM)
+- [What Makes A Good Zettelkasten Note](https://youtu.be/Q4JqjbQZ6_Q)
+- [My Two Uses for DEVONthink and Obsidian](https://youtu.be/xlDfpcipCm4)
+- [DEVONthink Read it Later](https://youtu.be/aezxmGjAYvU)
 - [RemNote Tutorials](https://www.youtube.com/playlist?list=PLBwTyifkXByjkj_H8OFTCPAtoc58Txzt0) – Official tutorial playlist for the note-taking app RemNote.
-- [The 5 Magical Apps That Changed My Life](https://youtu.be/lhpY1frNqdA) <Flag label="11:15" />
-- [How to Get Started with the Obsidian App for Note-Taking for Complete Beginners](https://youtu.be/QgbLb6QCK88) <Flag label="12:36" />
-- [The 8 Settings to Activate in the Obsidian App for Beginners](https://youtu.be/_2z-7D4bQEA) <Flag label="7:17" />
-- [How to Use the NEW Graph View in the Obsidian Note-Taking App](https://youtu.be/058Tvff2Fso) <Flag label="13:56" />
-- [Why you procrastinate (and how to overcome it)](https://youtu.be/TGfN9297Yq8) <Flag label="11:33" />
-- [Smart Note-Taking Habit | Luhmann’s Zettelkasten](https://youtu.be/LM4t0jeFZcs) <Flag label="5:07" />
-- [Interview and Q&A with Sönke Ahrens on How to Take Smart Notes](https://youtu.be/kXnR7qX3BDc) <Flag label="56:04" />
+- [The 5 Magical Apps That Changed My Life](https://youtu.be/lhpY1frNqdA)
+- [How to Get Started with the Obsidian App for Note-Taking for Complete Beginners](https://youtu.be/QgbLb6QCK88)
+- [The 8 Settings to Activate in the Obsidian App for Beginners](https://youtu.be/_2z-7D4bQEA)
+- [How to Use the NEW Graph View in the Obsidian Note-Taking App](https://youtu.be/058Tvff2Fso)
+- [Why you procrastinate (and how to overcome it)](https://youtu.be/TGfN9297Yq8)
+- [Smart Note-Taking Habit | Luhmann’s Zettelkasten](https://youtu.be/LM4t0jeFZcs)
+- [Interview and Q&A with Sönke Ahrens on How to Take Smart Notes](https://youtu.be/kXnR7qX3BDc)
 
 ### History & Culture
 
-- [Pyongyang: a rare look at daily life in North Korea’s secretive capital](https://youtu.be/Al47zkqfUw8) <Flag label="4:55" /> – A rainy day in North Korean’s capital city Pyongyang. Interesting as equally depressing.
-- [The Joe Rogan Experience (Full Documentary)](https://youtu.be/NDZ8Eu335Sg) <Flag label="22:00" />
-- [3 Rules That Will Immediately Change Your Life – Joe Rogan](https://youtu.be/pzoOg_uWMWo) <Flag label="8:01" />
-- [Clocks around the world: how other languages tell time](https://youtu.be/eelVqfm8vVc) <Flag label="8:28" />
-- [Marcus Aurelius – Philosopher Emperor: End of the Roman Golden Age](https://youtu.be/cLtDWIsOs1E) <Flag label="22:39" />
-- [The 3 Biggest Myths About Minimalism](https://youtu.be/euXHO76FfU8) <Flag label="10:22" /> – Matt D’Avella summarizes common misconceptions about Minimalism.
+- [Pyongyang: a rare look at daily life in North Korea’s secretive capital](https://youtu.be/Al47zkqfUw8) – A rainy day in North Korean’s capital city Pyongyang. Interesting as equally depressing.
+- [The Joe Rogan Experience (Full Documentary)](https://youtu.be/NDZ8Eu335Sg)
+- [3 Rules That Will Immediately Change Your Life – Joe Rogan](https://youtu.be/pzoOg_uWMWo)
+- [Clocks around the world: how other languages tell time](https://youtu.be/eelVqfm8vVc)
+- [Marcus Aurelius – Philosopher Emperor: End of the Roman Golden Age](https://youtu.be/cLtDWIsOs1E)
+- [The 3 Biggest Myths About Minimalism](https://youtu.be/euXHO76FfU8) – Matt D’Avella summarizes common misconceptions about Minimalism.
 
 ### Cinema & Film
 
-- [DUNE Trailer (2020)](https://youtu.be/IPcrB4OC1TE) <Flag label="3:19" />
-- [Redefining the Anti-War Film](https://youtu.be/yf0G2MPBEYM) <Flag label="58:29" /> – _Tom van der Linden_ created a one-hour long film about anti-war films.
-- [The Drinker Recommends… Dredd](https://youtu.be/GXEFg2zs6g4) <Flag label="7:58" />
-- [Mulan – The Movie Nobody Wants](https://youtu.be/kIH-eFqBLP4) <Flag label="9:47" />
-- [Sci-Fi Short Film: ”Doppelbänger“ | DUST](https://youtu.be/W26Gw9qCicg) <Flag label="14:22" /> – It isn’t easy being single in a future society on the verge of the technological singularity.
-- [Film Theory: Where is Rick Grimes? The Walking Dead’s Final Mysteries SOLVED!](https://youtu.be/qoQcWvuBv84) <Flag label="14:27" />
-- [How James Gandolfini Navigates Emotion](https://youtu.be/rLSm2RSpVKI) <Flag label="10:41" />
+- [DUNE Trailer (2020)](https://youtu.be/IPcrB4OC1TE)
+- [Redefining the Anti-War Film](https://youtu.be/yf0G2MPBEYM) – _Tom van der Linden_ created a one-hour long film about anti-war films.
+- [The Drinker Recommends… Dredd](https://youtu.be/GXEFg2zs6g4)
+- [Mulan – The Movie Nobody Wants](https://youtu.be/kIH-eFqBLP4)
+- [Sci-Fi Short Film: ”Doppelbänger“ | DUST](https://youtu.be/W26Gw9qCicg) – It isn’t easy being single in a future society on the verge of the technological singularity.
+- [Film Theory: Where is Rick Grimes? The Walking Dead’s Final Mysteries SOLVED!](https://youtu.be/qoQcWvuBv84)
+- [How James Gandolfini Navigates Emotion](https://youtu.be/rLSm2RSpVKI)
 
 ### Philosophy
 
-- [A Test to Work Out if You’re a Good Person](https://youtu.be/9jI9mavbbDw) <Flag label="4:51" />
-- [The Japanese folktale of the selfish scholar – Iseult Gillespie](https://youtu.be/VixAX2IzaE4) <Flag label="4:59" />
-- [What Marcus Aurelius Can Teach Us About Leadership](https://youtu.be/ZuwJ9qWLWEQ) <Flag label="12:12" />
+- [A Test to Work Out if You’re a Good Person](https://youtu.be/9jI9mavbbDw)
+- [The Japanese folktale of the selfish scholar – Iseult Gillespie](https://youtu.be/VixAX2IzaE4)
+- [What Marcus Aurelius Can Teach Us About Leadership](https://youtu.be/ZuwJ9qWLWEQ)
 
 ### Politics & Political Theory
 
-- [Let’s Talk About Racism In America Featuring Morgan Freeman, Denzel Washington & More](https://youtu.be/5ZrgrbUNxzk) <Flag label="12:58" />
-- [Herschel Walker’s Son Christian has had enough of The BLM Movement & Riots](https://youtu.be/QO21EgwA7V0) <Flag label="3:38" /> – Funny, short and precise, and summarized to the point.
-- [Ritual Public Shaming](https://youtu.be/olXipfCKUoo) <Flag label="15:33" /> – The similarity to Mao’s Red Guards is frightening.
-- [Unrest? Uprisings? Let’s Cut The BS and Tell The Truth.](https://youtu.be/FxmXjvMNlm4) <Flag label="10:34" />
-- [Another Trump Scandal That Wasn’t](https://youtu.be/Vd9N1We1E2Y) <Flag label="8:56" />
-- [Candace Owens | The Ben Shapiro Show Sunday Special Ep. 97](https://youtu.be/WsQ7tOuDDKE) <Flag label="1:06:58" />
-- [Transgenderism. A Logical Look. Part 1](https://youtu.be/xbwhcZXgE_s) <Flag label="12:52" /> and [A Logical Look At Transgenderism. Part 2](https://youtu.be/D_DMpCvNe8E) <Flag label="10:13" /> – That’s _real_ logic.
-- [Why the White Working Class Supports Trump.](https://youtu.be/XgwoDF9z5hg) <Flag label="5:23" />
-- [The N-Word. Let’s Talk About It. Is That Allowed?](https://youtu.be/StUz3fHSf9I) <Flag label="9:05" />
-- [#HeToo… What Feminists Don’t Want You To Know](https://youtu.be/cDjZUmWI-A0) <Flag label="5:42" />
-- [Why I Changed my Opinion on China](https://youtu.be/ed4ryYokLzU) – The story of an American who lived for a few years in China, got married and a kid and how radical the country changed to the worse in the last years. As a teacher and travel blogger, who reported positive things from all over China he had to escape military police and flee the country with his wife and kid: [How I Escaped From China – The Untold Story](https://youtu.be/z7CPqROtanA) <Flag label="18:17" /> and [How I Got my Family Out of China](https://youtu.be/JZpV-KFH2pQ) <Flag label="12:39" />.
-- [The Moment Larry Elder changed Dave Rubins Mind Forever (Systemic Racism)](https://youtu.be/phPXTWJhnYM) <Flag label="8:16" /> – It’s interesting seeing ideology crushed by facts.
-- [Exposing What You Aren’t Being Told About Slavery & Racism – Candace Owens](https://youtu.be/UmURyFLUVx0) <Flag label="1:41:48" />
-- [Konstantin Kisin – Political Correctness | Inspired Edinburgh](https://youtu.be/r3CAcWmYZLo) <Flag label="1:26:12" />
+- [Let’s Talk About Racism In America Featuring Morgan Freeman, Denzel Washington & More](https://youtu.be/5ZrgrbUNxzk)
+- [Herschel Walker’s Son Christian has had enough of The BLM Movement & Riots](https://youtu.be/QO21EgwA7V0) – Funny, short and precise, and summarized to the point.
+- [Ritual Public Shaming](https://youtu.be/olXipfCKUoo) – The similarity to Mao’s Red Guards is frightening.
+- [Unrest? Uprisings? Let’s Cut The BS and Tell The Truth.](https://youtu.be/FxmXjvMNlm4)
+- [Another Trump Scandal That Wasn’t](https://youtu.be/Vd9N1We1E2Y)
+- [Candace Owens | The Ben Shapiro Show Sunday Special Ep. 97](https://youtu.be/WsQ7tOuDDKE)
+- [Transgenderism. A Logical Look. Part 1](https://youtu.be/xbwhcZXgE_s) and [A Logical Look At Transgenderism. Part 2](https://youtu.be/D_DMpCvNe8E) – That’s _real_ logic.
+- [Why the White Working Class Supports Trump.](https://youtu.be/XgwoDF9z5hg)
+- [The N-Word. Let’s Talk About It. Is That Allowed?](https://youtu.be/StUz3fHSf9I)
+- [#HeToo… What Feminists Don’t Want You To Know](https://youtu.be/cDjZUmWI-A0)
+- [Why I Changed my Opinion on China](https://youtu.be/ed4ryYokLzU) – The story of an American who lived for a few years in China, got married and a kid and how radical the country changed to the worse in the last years. As a teacher and travel blogger, who reported positive things from all over China he had to escape military police and flee the country with his wife and kid: [How I Escaped From China – The Untold Story](https://youtu.be/z7CPqROtanA) and [How I Got my Family Out of China](https://youtu.be/JZpV-KFH2pQ).
+- [The Moment Larry Elder changed Dave Rubins Mind Forever (Systemic Racism)](https://youtu.be/phPXTWJhnYM) – It’s interesting seeing ideology crushed by facts.
+- [Exposing What You Aren’t Being Told About Slavery & Racism – Candace Owens](https://youtu.be/UmURyFLUVx0)
+- [Konstantin Kisin – Political Correctness | Inspired Edinburgh](https://youtu.be/r3CAcWmYZLo)
 
 ### Humor
 
-- [How to Sell Protest Footage to FOX AND CNN](https://youtu.be/xiYZ__Ww02c) <Flag label="1:56" />
-- [Joe Rogan interviews Tim Pool & Jack Dorsey](https://youtu.be/NEArAlNMuE4) <Flag label="2:43" /> – A funny cartoon by FreedomToons.
-- [What It’s Like Getting Censored on YouTube](https://youtu.be/RGxbaxviRVw) <Flag label="6:09" /> – One of JP Spears comedy videos was recently unjustifiable censored by YouTube. This video mocks how this process works.
-- [Emotional Distancing Guidelines](https://youtu.be/ohRQ1ZbqcwE) <Flag label="5:30" />
-- [The First Morbidly Plus Sized Fashion Photographer](https://youtu.be/dAbHbCVwyqg) <Flag label="2:06" />
-- [A Brief History of Socialism](https://youtu.be/zZz2HF5KtrY) <Flag label="3:06" />
-- [How News Anchors Are Trained](https://youtu.be/xxGeu9edNLY) <Flag label="2:21" />
-- [Every Political Ad Ever](https://youtu.be/KmmFQeaY3YM) <Flag label="1:26" />
-- [The Pandemic Hotline](https://youtu.be/uese-6Xln7o) <Flag label="6:16" />
-- [Uncle Roger Review Gordon Ramsay Fried Rice](https://youtu.be/FrUfwpaNNIM) <Flag label="11:41" />
-- [The NEW Political Correctness Rules](https://youtu.be/bXrnqcNgL00) <Flag label="5:13" />
+- [How to Sell Protest Footage to FOX AND CNN](https://youtu.be/xiYZ__Ww02c)
+- [Joe Rogan interviews Tim Pool & Jack Dorsey](https://youtu.be/NEArAlNMuE4) – A funny cartoon by FreedomToons.
+- [What It’s Like Getting Censored on YouTube](https://youtu.be/RGxbaxviRVw) – One of JP Spears comedy videos was recently unjustifiable censored by YouTube. This video mocks how this process works.
+- [Emotional Distancing Guidelines](https://youtu.be/ohRQ1ZbqcwE)
+- [The First Morbidly Plus Sized Fashion Photographer](https://youtu.be/dAbHbCVwyqg)
+- [A Brief History of Socialism](https://youtu.be/zZz2HF5KtrY)
+- [How News Anchors Are Trained](https://youtu.be/xxGeu9edNLY)
+- [Every Political Ad Ever](https://youtu.be/KmmFQeaY3YM)
+- [The Pandemic Hotline](https://youtu.be/uese-6Xln7o)
+- [Uncle Roger Review Gordon Ramsay Fried Rice](https://youtu.be/FrUfwpaNNIM)
+- [The NEW Political Correctness Rules](https://youtu.be/bXrnqcNgL00)
 
 ## TV Shows
 
@@ -146,29 +146,29 @@ Darkness cannot drive out darkness; only light can do that. Hate cannot drive ou
 
 ## Podcasts
 
-- [Joe Rogan Experience 958: Jordan Peterson](https://open.spotify.com/episode/5194p3rIfeyMGbo8YKGMJK) <Flag label="2:57:34" />
-- [The Joe Rogan Experience 1530: Duncan Trussel](https://open.spotify.com/episode/4N8VtcWq3A2FSCiFrexzHl) <Flag label="5:19:48" />
-- [The Joe Rogan Experience 1531: Miley Cyrus](https://open.spotify.com/episode/0ZEDvQuPtAEBnXE37slSoX) <Flag label="2:06:31" />
-- [The Joe Rogan Experience 1534: Ron White](https://open.spotify.com/episode/26IY1n5lqfNZwkStD44EqP) <Flag label="2:53:42" />
-- [The Joe Rogan Experience 1315: Bob Lazar & Jeremy Corbell](https://open.spotify.com/episode/7Gg4Qi578G5SXoEtaLVVpx) <Flag label="2:14:44" />
-- [The Joe Rogan Experience 1510: George Knapp & Jeremy Corbell](https://open.spotify.com/episode/3RIsqi1Axn6zPGd0IpCRgf) <Flag label="2:56:00" />
-- [The Joe Rogan Experience 1475: Bridget Phetasy](https://open.spotify.com/episode/0ToPccuUB4fBZ2cAbn74O7) <Flag label="3:17:20" />
-- [The Joe Rogan Experience 1535: Tim Kennedy](https://open.spotify.com/episode/6SeHbFUG4TYkVqjoNozas8) <Flag label="3:00:33" />
-- [The Joe Rogan Experience 1536: Edward Snowden](https://open.spotify.com/episode/5sNggu9wR9lF84tf7VnxDL) <Flag label="2:28:40" />
-- [The Joe Rogan Experience 1537: Lex Fridman](https://open.spotify.com/episode/0JpkOdEp5Yv9M4xXHOLyWi) <Flag label="3:01:22" />
+- [Joe Rogan Experience 958: Jordan Peterson](https://open.spotify.com/episode/5194p3rIfeyMGbo8YKGMJK)
+- [The Joe Rogan Experience 1530: Duncan Trussel](https://open.spotify.com/episode/4N8VtcWq3A2FSCiFrexzHl)
+- [The Joe Rogan Experience 1531: Miley Cyrus](https://open.spotify.com/episode/0ZEDvQuPtAEBnXE37slSoX)
+- [The Joe Rogan Experience 1534: Ron White](https://open.spotify.com/episode/26IY1n5lqfNZwkStD44EqP)
+- [The Joe Rogan Experience 1315: Bob Lazar & Jeremy Corbell](https://open.spotify.com/episode/7Gg4Qi578G5SXoEtaLVVpx)
+- [The Joe Rogan Experience 1510: George Knapp & Jeremy Corbell](https://open.spotify.com/episode/3RIsqi1Axn6zPGd0IpCRgf)
+- [The Joe Rogan Experience 1475: Bridget Phetasy](https://open.spotify.com/episode/0ToPccuUB4fBZ2cAbn74O7)
+- [The Joe Rogan Experience 1535: Tim Kennedy](https://open.spotify.com/episode/6SeHbFUG4TYkVqjoNozas8)
+- [The Joe Rogan Experience 1536: Edward Snowden](https://open.spotify.com/episode/5sNggu9wR9lF84tf7VnxDL)
+- [The Joe Rogan Experience 1537: Lex Fridman](https://open.spotify.com/episode/0JpkOdEp5Yv9M4xXHOLyWi)
 - [The Joe Rogan Experience 1509: Abigail Shrier](https://open.spotify.com/episode/4SIh4Pt39AtGQYzMJMNkv1) – The Streisand effect: If Spotify employees want to go on strike if this episode doesn’t get censored, it must be interesting.
-- [The Joe Rogan Experience 1538: Douglas Murray](https://open.spotify.com/episode/3z58RgmzyxqqNjrUdA0pA9) <Flag label="2:15:45" />
-- [The Joe Rogan Experience 1540: Frank von Hippel](https://open.spotify.com/episode/4P8NFI28O93M0FJktVjo2V?si=FhO_vf5IQz2tjpWQJbrOVw) <Flag label="2:36:48" />
-- [The Joe Rogan Experience 1541: Bridget Phetasy](https://open.spotify.com/episode/6VLtXhudPVJBVixeobkfeg) <Flag label="3:17:17" />
-- [The Joe Rogan Experience 1006: Jordan Peterson & Bret Weinstein](https://open.spotify.com/episode/3LwOYeS2uNT1GP7rI2Kj98) <Flag label="2:44:56" />
+- [The Joe Rogan Experience 1538: Douglas Murray](https://open.spotify.com/episode/3z58RgmzyxqqNjrUdA0pA9)
+- [The Joe Rogan Experience 1540: Frank von Hippel](https://open.spotify.com/episode/4P8NFI28O93M0FJktVjo2V?si=FhO_vf5IQz2tjpWQJbrOVw)
+- [The Joe Rogan Experience 1541: Bridget Phetasy](https://open.spotify.com/episode/6VLtXhudPVJBVixeobkfeg)
+- [The Joe Rogan Experience 1006: Jordan Peterson & Bret Weinstein](https://open.spotify.com/episode/3LwOYeS2uNT1GP7rI2Kj98)
 - [DUST: Horizonts](https://open.spotify.com/episode/4FjENxfTvBzcYgLAwR5Idy) – The first season has 8 episodes of interesting Sci-Fi short stories.
 - [DUST: FLIGHT 008](https://open.spotify.com/episode/30CyoqWatYZJ3FFIkEg6qV) – The second season has 9 Sci-Fi short stories that start all with the same beginning: Flight 008 from Tokyo to San Fransisco gets swallowed by a temporal anomaly and spit out 20 years later. The short stories follow different passengers of the flight.
-- [DUST Special Episode: Through the Eye of the Needle](https://open.spotify.com/episode/5M6Mh1IOYxrvBhE8XQoEh3) <Flag label="16:22" />
-- [DUST Special Episode: Hard Choices](https://open.spotify.com/episode/1gmfjSf25Vs4cgxd2KK2YT) <Flag label="43:23" /> – My favorite DUST episode since the beginning. This was a good story!
-- [DUST Special Episode: Insurance](https://open.spotify.com/episode/1FMT4rpqKuc0pokydEKIGF) <Flag label="21:39" /> – A really funny episode
-- [Coleman Hughes: The Limits of Identity with Ayishat Akanbi (Ep.14)](https://youtu.be/ZEC1g4NRha0) <Flag label="1:19:30" />
-- [TRIGGERnometry: Activism Has No Place in Journalism – Claire Lehmann](https://open.spotify.com/episode/69QCQNmdCrsFdaSKERFkkf) <Flag label="55:18" />
-- [TRIGGERnometry: Will Trump Win Again? – Matthew Goodwin](https://open.spotify.com/episode/70fmo8x6HrRPfACfr1BSsx) <Flag label="1:03:18" />
+- [DUST Special Episode: Through the Eye of the Needle](https://open.spotify.com/episode/5M6Mh1IOYxrvBhE8XQoEh3)
+- [DUST Special Episode: Hard Choices](https://open.spotify.com/episode/1gmfjSf25Vs4cgxd2KK2YT) – My favorite DUST episode since the beginning. This was a good story!
+- [DUST Special Episode: Insurance](https://open.spotify.com/episode/1FMT4rpqKuc0pokydEKIGF) – A really funny episode
+- [Coleman Hughes: The Limits of Identity with Ayishat Akanbi (Ep.14)](https://youtu.be/ZEC1g4NRha0)
+- [TRIGGERnometry: Activism Has No Place in Journalism – Claire Lehmann](https://open.spotify.com/episode/69QCQNmdCrsFdaSKERFkkf)
+- [TRIGGERnometry: Will Trump Win Again? – Matthew Goodwin](https://open.spotify.com/episode/70fmo8x6HrRPfACfr1BSsx)
 
 ## Books
 

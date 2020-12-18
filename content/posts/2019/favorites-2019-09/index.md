@@ -25,25 +25,25 @@ Objective judgment, now, at this very moment. Unselfish action, now, at this ver
 
 ## Videos
 
-- [Everyday Virtue | Paterson & David Foster Wallace](https://youtu.be/RnGvWTRQ9j4) <Flag label="8:12" /> – Analysis of _Jim Jarmusch’s_ 2016 film [Paterson](https://www.themoviedb.org/movie/370755-paterson) through the lens of _David Foster Wallace’s_ philosophy.
+- [Everyday Virtue | Paterson & David Foster Wallace](https://youtu.be/RnGvWTRQ9j4) – Analysis of _Jim Jarmusch’s_ 2016 film [Paterson](https://www.themoviedb.org/movie/370755-paterson) through the lens of _David Foster Wallace’s_ philosophy.
 - [Houseplant 101: Back to Basics](https://www.youtube.com/playlist?list=PLpBzvPnmlkNS1TF3--OaY4eDoPapMRIBZ) – After I read an interview with [Summer Rayne Oakes](http://www.summerrayne.net/), a Brooklyn-based model and environmentalist who has more than 500 plants in her apartment, I found her [YouTube channel](https://www.youtube.com/channel/UCQlO-ab3L9WIUDCN899q56w) with this interesting series to learn the basics about houseplants.
-- [Kingdom of Heaven | A Kingdom of Conscience, or Nothing - Kant's Moral Philosophy](https://youtu.be/RRoJey3NBvE) <Flag label="11:38" /> – Kants’ Moral philosophy explained with [Kingdom of Heaven](https://www.themoviedb.org/movie/1495-kingdom-of-heaven).
-- [Stoicism in The Shawshank Redemption – Meditations I.](https://youtu.be/Sbgpjcf-i8I) <Flag label="10:30" /> – The Stoic philosophy of [The Shawshank Redemption](https://www.themoviedb.org/movie/278-the-shawshank-redemption), presented in a few brief meditations based on the writings by _Marcus Aurelius_, _Seneca_, _Epictetus_ and _Chrysippus_.
-- [Stoicism in Gladiator – Meditations II.](https://youtu.be/tXi5J6NH_mw) <Flag label="11:48" /> – Video essay on the Stoic philosophy of [Gladiator](https://www.themoviedb.org/movie/98-gladiator), presented in a few brief meditations based on the writings by _Marcus Aurelius_, _Seneca_, and _Epictetus_.
-- [Calm Down the Amazon is not on Fire!](https://youtu.be/6MOYzWZR_yw) <Flag label="11:09" /> – A calm and source-supported video about the exaggerated news by alarmists about Amazon fires in the news.
-- [7 Stoic Lessons That Will Immediately Change Your Life - Ryan Holiday](https://youtu.be/GB0V3WXWvK8) <Flag label="12:17" /> – _Ryan Holiday_ on Stoicism.
+- [Kingdom of Heaven | A Kingdom of Conscience, or Nothing - Kant's Moral Philosophy](https://youtu.be/RRoJey3NBvE) – Kants’ Moral philosophy explained with [Kingdom of Heaven](https://www.themoviedb.org/movie/1495-kingdom-of-heaven).
+- [Stoicism in The Shawshank Redemption – Meditations I.](https://youtu.be/Sbgpjcf-i8I) – The Stoic philosophy of [The Shawshank Redemption](https://www.themoviedb.org/movie/278-the-shawshank-redemption), presented in a few brief meditations based on the writings by _Marcus Aurelius_, _Seneca_, _Epictetus_ and _Chrysippus_.
+- [Stoicism in Gladiator – Meditations II.](https://youtu.be/tXi5J6NH_mw) – Video essay on the Stoic philosophy of [Gladiator](https://www.themoviedb.org/movie/98-gladiator), presented in a few brief meditations based on the writings by _Marcus Aurelius_, _Seneca_, and _Epictetus_.
+- [Calm Down the Amazon is not on Fire!](https://youtu.be/6MOYzWZR_yw) – A calm and source-supported video about the exaggerated news by alarmists about Amazon fires in the news.
+- [7 Stoic Lessons That Will Immediately Change Your Life - Ryan Holiday](https://youtu.be/GB0V3WXWvK8) – _Ryan Holiday_ on Stoicism.
 - [The Daily Stoic](https://www.youtube.com/channel/UCkUaT0T03TJvafYkfATM2Ag) – I found through the previous video the YouTube Channel of _Ryan Holiday_ which has a huge amount of short videos about Stoicism.
-- [Why Sergio Leone Played Music On Set](https://youtu.be/JiQLHL10BYo) <Flag label="9:18" /> – Video essay about how Sergio Leones played music score live on set in his movies to tell a story lead by the music.
-- [Identity politics and the Marxist lie of “white privilege”](https://youtu.be/PfH8IG7Awk0) <Flag label="2:31:42" /> – An interesting talk about human nature, morality, Marxism, Post-Modernism and identity politics. I’m fascinated with how _Jordan B Peterson_ presents one coherent thought for 2 ½ hours.
-- [Wes Anderson Explains How to Write & Direct Movies](https://youtu.be/Sdt0oam6O1o) <Flag label="12:49" /> – The secrets of Wes Anderson filmmaking style.
-- [I counted every calorie for 30 days](https://youtu.be/F2btwUXNXh0) <Flag label="12:44" /> – Another habit month challenge by _Matt D’Avella_.
-- [React Hooks: useReducer](https://youtu.be/cKzrgB6MqqM) <Flag label="19:37" /> – Introduction into `useReducer` hook by _Leigh Halliday_.
-- [React Hooks: useContext](https://youtu.be/u06qAON66iw) <Flag label="14:24" /> – Introduction into `useContext` hook by _Leigh Halliday_.
-- [React & Infinite Scroll - IntersectionObserver](https://youtu.be/GVDiw3lAyp0) <Flag label="15:35" /> – The third video by _Leigh Halliday_, building on top of the other two creating an infinite scrolling.
-- [Composing Behavior in React or Why React Hooks are Awesome](https://youtu.be/nUzLlHFVXx0) <Flag label="31:55" /> – _Michael Jackson_ shows why how to do composition with React hooks.
-- [Silence the Doubters](https://youtu.be/JgaokQPGMLs) <Flag label="3:09" /> – Motivational video using quotes from the interview [Why You’ll Never Be Able to Silence Your Haters](https://www.youtube.com/watch?v=Mj8kr-wZqlM) <Flag label="41:40" /> with _Patrick Bet David_.
-- [Deichkind - Dinge (Official Video)](https://youtu.be/XLhQvgdXbgo) <Flag label="3:42" /> – The music video to the new consumption critical song by the Hamburg Hip-Hop band _Deichkind_.
-- [Mind the gap, user centered design in large organizations with Luke Wroblewski](https://youtu.be/mAiNdU1go1A) <Flag label="1:26:02" />
+- [Why Sergio Leone Played Music On Set](https://youtu.be/JiQLHL10BYo) – Video essay about how Sergio Leones played music score live on set in his movies to tell a story lead by the music.
+- [Identity politics and the Marxist lie of “white privilege”](https://youtu.be/PfH8IG7Awk0) – An interesting talk about human nature, morality, Marxism, Post-Modernism and identity politics. I’m fascinated with how _Jordan B Peterson_ presents one coherent thought for 2 ½ hours.
+- [Wes Anderson Explains How to Write & Direct Movies](https://youtu.be/Sdt0oam6O1o) – The secrets of Wes Anderson filmmaking style.
+- [I counted every calorie for 30 days](https://youtu.be/F2btwUXNXh0) – Another habit month challenge by _Matt D’Avella_.
+- [React Hooks: useReducer](https://youtu.be/cKzrgB6MqqM) – Introduction into `useReducer` hook by _Leigh Halliday_.
+- [React Hooks: useContext](https://youtu.be/u06qAON66iw) – Introduction into `useContext` hook by _Leigh Halliday_.
+- [React & Infinite Scroll - IntersectionObserver](https://youtu.be/GVDiw3lAyp0) – The third video by _Leigh Halliday_, building on top of the other two creating an infinite scrolling.
+- [Composing Behavior in React or Why React Hooks are Awesome](https://youtu.be/nUzLlHFVXx0) – _Michael Jackson_ shows why how to do composition with React hooks.
+- [Silence the Doubters](https://youtu.be/JgaokQPGMLs) – Motivational video using quotes from the interview [Why You’ll Never Be Able to Silence Your Haters](https://www.youtube.com/watch?v=Mj8kr-wZqlM) with _Patrick Bet David_.
+- [Deichkind - Dinge (Official Video)](https://youtu.be/XLhQvgdXbgo) – The music video to the new consumption critical song by the Hamburg Hip-Hop band _Deichkind_.
+- [Mind the gap, user centered design in large organizations with Luke Wroblewski](https://youtu.be/mAiNdU1go1A)
 
 ## TV Shows
 

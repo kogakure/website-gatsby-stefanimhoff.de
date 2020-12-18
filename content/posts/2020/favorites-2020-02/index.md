@@ -25,43 +25,43 @@ Fools learn from experience. I prefer to learn from the experience of others.
 
 ## Videos
 
-- [The most important skill for improving your life](https://youtu.be/SIsCy663mz4) <Flag label="15:23" /> – How to learn to concentrate.
-- [Should social media platforms censor hate speech?](https://youtu.be/VY_X_rHqY80) <Flag label="6:46" />
-- [How Parasite (And Every Bong Joon-ho Film) Critiques Class](https://youtu.be/BhEgGxaeCqM) <Flag label="16:34" />
-- [The Skill You’re Slowly Losing](https://youtu.be/31Rp5LemYeA) <Flag label="10:00" /> – How to learn critical thinking and solving problems on your own.
-- [Jonathan Pie’s HARD BREXIT](https://youtu.be/Lvm3xeO1lA0) <Flag label="14:32" /> – _Jonathan Pies_ reports on the Brexit protests and gets entangled in a big Twitter-storm.
-- [PIE NET ZERO](https://youtu.be/o-YuoWaCfhI) <Flag label="13:10" /> – _Jonathan Pie_ goes to the seaside to investigate climate change.
-- [The CIA’s 638 Attempts to Assassinate Castro](https://youtu.be/Ly7L9PdWpB8) <Flag label="5:53" />
-- [This Productivity System Will Save Your Life](https://youtu.be/8n2vL2I__WY) <Flag label="8:41" /> – The answer is checklists. If they are good enough for doctors, pilots, or NASA engineers, they are good enough for you.
-- [Joe Rogan Experience #1423 - Andrew Doyle](https://youtu.be/NIxhH85cQMY) <Flag label="2:33:01" /> – Interview with the hilarious comedian behind the social justice Twitter handle [@TitaniaMcGrath](https://twitter.com/TitaniaMcGrath).
-- [Design Systems with Brad Frost - The State of the Web](https://youtu.be/2M6dJ2Uynhg) <Flag label="28:37" />
-- [Timeline of the Next 80 Years](https://youtu.be/-eVdksZHqpo) <Flag label="5:21" /> – Two alternative future scenarios.
-- [2017 Personality 09: Freud and the Dynamic Unconscious](https://youtu.be/YFWLwYyrMRE) <Flag label="48:21" /> – Lecture by _Jordan B Peterson_ about _Sigmund Freud_.
-- [Meat: Grows the Brain or Rusts the Body?](https://youtu.be/1MH2ZKt35K4) <Flag label="15:02" />
-- [Joe Rogan Experience #1109 - Matthew Walker](https://youtu.be/pwaWilO_Pig) <Flag label="1:55:32" /> – Interview with _Matthew Walker_, the author of the book **Why We Sleep**.
-- [A Viral Video Takes a Dark Turn](https://youtu.be/AwfYTkVgkiQ) <Flag label="28:43" /> – Modern-day witch hunt and the bad consequences.
-- [How China Built a Hospital in 10 Days](https://youtu.be/3Sh7hghljuQ) <Flag label="12:24" />
-- [A Guide to Digital Minimalism](https://youtu.be/OFnX4beKdfQ) <Flag label="16:51" />
-- [Why it Used to be Legal to Mail Babies](https://youtu.be/h1-gM3RetTs) <Flag label="5:37" />
-- [Japanese Historian Describes First Contact With Europeans, Teppo-ki, 16th cent.](https://youtu.be/xZnaCel6LdU) <Flag label="12:16" />
-- [How to Make a Kurzgesagt Video in 1200 Hours](https://youtu.be/uFk0mgljtns) <Flag label="6:47" />
-- [Asteroids Size Comparison](https://youtu.be/bSkPNMjRRio) <Flag label="2:40" /> – Nice video for all _The Expanse_ fans.
-- [The Real Implications Of Ex Machina’s Turing Test](https://youtu.be/nmjgM8fPSLU) <Flag label="13:25" />
-- [The Best Way to Reset: The Bill Gates Method](https://youtu.be/ZcGVQPYKSiU) <Flag label="14:42" />
-- [Casually Explained: Stand-up Comedy](https://youtu.be/vOM-ekg708I) <Flag label="4:55" />
-- [Free Speech vs Theocracy](https://youtu.be/uRziup0ksDU) <Flag label="12:32" />
-- [BOOKFACE | Corpus Libris](https://vimeo.com/391933063) <Flag label="1:19" />
-- [Ryan Holiday — Turning the Tables | The Tim Ferriss Show](https://youtu.be/p3Yjx4PKIkk) <Flag label="1:51:24" />
-- [3 Ways to Write Better](https://youtu.be/m5rv_bY3DMM) <Flag label="2:52" />
-- [A Quirky Mindfulness Practice (That Will Change Your Life)](https://youtu.be/6IpWqLqEvXM) <Flag label="7:41" /> – A mindfulness practice from Japanese train drivers can help you to focus.
-- [fourweeksgood](https://www.youtube.com/channel/UCo-elCRTweAKBjqzoKLfP6A/) – A series of 12 short travel videos by _Seraina Silja_ and _Simon Ammann_ who worked and lived for one month in each city. For example: [Berlin](https://youtu.be/8cHQi3Db0Yw) <Flag label="2:30" />, [Tokyo](https://www.youtube.com/watch?v=cNMgsqpZZUg) <Flag label="2:30" />, [Amsterdam](https://www.youtube.com/watch?v=F_yJswewWzg) <Flag label="2:07" />, [Vienna](https://www.youtube.com/watch?v=bgw4zciF4p8) <Flag label="2:23" /> or [Melbourne](https://www.youtube.com/watch?v=cubZOq2BV14) <Flag label="2:30" />.
-- [Alan Watts ~ The Story of the Chinese Farmer](https://youtu.be/byQrdnq7_H0) <Flag label="2:11" />
-- [A Response to Matt D'Avella's Productivity System Video](https://youtu.be/01DBbTQwYIE) <Flag label="12:59" />
-- [Vue.js: The Documentary](https://youtu.be/OrxmtDw4pVI) – A short documentary about the origins of the popular JavaScript framework [Vue.js](https://vuejs.org/) and its creator _Evan You_. <Flag label="34:45" />
-- [Why You Should Re-Read, Not Just Read Books | Ryan Holiday | Daily Stoic](https://youtu.be/WaWdjuz-nNU) <Flag label="7:48" />
-- [Bloom](https://vimeo.com/29865151) – Nadine, depressed and alone, has been living her life in the dark. A gift from a friendly neighbor gives Nadine something to live for. With a new life, Nadine has a chance to pay it forward. <Flag label="3:47" />
-- [Dirty Machines - “The End of History”](https://vimeo.com/393064046) – A piece of speculative content for an intellectual property about time travel. <Flag label="13:34" />
-- [Satisfaction: Mug](https://youtu.be/acPhktaGn5o) – British director Nick Bennett 's latest film is a portrait of Wales-based studio potters James and Tilla Waters, at work in their Carmarthenshire studio. <Flag label="5:01" />
+- [The most important skill for improving your life](https://youtu.be/SIsCy663mz4) – How to learn to concentrate.
+- [Should social media platforms censor hate speech?](https://youtu.be/VY_X_rHqY80)
+- [How Parasite (And Every Bong Joon-ho Film) Critiques Class](https://youtu.be/BhEgGxaeCqM)
+- [The Skill You’re Slowly Losing](https://youtu.be/31Rp5LemYeA) – How to learn critical thinking and solving problems on your own.
+- [Jonathan Pie’s HARD BREXIT](https://youtu.be/Lvm3xeO1lA0) – _Jonathan Pies_ reports on the Brexit protests and gets entangled in a big Twitter-storm.
+- [PIE NET ZERO](https://youtu.be/o-YuoWaCfhI) – _Jonathan Pie_ goes to the seaside to investigate climate change.
+- [The CIA’s 638 Attempts to Assassinate Castro](https://youtu.be/Ly7L9PdWpB8)
+- [This Productivity System Will Save Your Life](https://youtu.be/8n2vL2I__WY) – The answer is checklists. If they are good enough for doctors, pilots, or NASA engineers, they are good enough for you.
+- [Joe Rogan Experience #1423 - Andrew Doyle](https://youtu.be/NIxhH85cQMY) – Interview with the hilarious comedian behind the social justice Twitter handle [@TitaniaMcGrath](https://twitter.com/TitaniaMcGrath).
+- [Design Systems with Brad Frost - The State of the Web](https://youtu.be/2M6dJ2Uynhg)
+- [Timeline of the Next 80 Years](https://youtu.be/-eVdksZHqpo) – Two alternative future scenarios.
+- [2017 Personality 09: Freud and the Dynamic Unconscious](https://youtu.be/YFWLwYyrMRE) – Lecture by _Jordan B Peterson_ about _Sigmund Freud_.
+- [Meat: Grows the Brain or Rusts the Body?](https://youtu.be/1MH2ZKt35K4)
+- [Joe Rogan Experience #1109 - Matthew Walker](https://youtu.be/pwaWilO_Pig) – Interview with _Matthew Walker_, the author of the book **Why We Sleep**.
+- [A Viral Video Takes a Dark Turn](https://youtu.be/AwfYTkVgkiQ) – Modern-day witch hunt and the bad consequences.
+- [How China Built a Hospital in 10 Days](https://youtu.be/3Sh7hghljuQ)
+- [A Guide to Digital Minimalism](https://youtu.be/OFnX4beKdfQ)
+- [Why it Used to be Legal to Mail Babies](https://youtu.be/h1-gM3RetTs)
+- [Japanese Historian Describes First Contact With Europeans, Teppo-ki, 16th cent.](https://youtu.be/xZnaCel6LdU)
+- [How to Make a Kurzgesagt Video in 1200 Hours](https://youtu.be/uFk0mgljtns)
+- [Asteroids Size Comparison](https://youtu.be/bSkPNMjRRio) – Nice video for all _The Expanse_ fans.
+- [The Real Implications Of Ex Machina’s Turing Test](https://youtu.be/nmjgM8fPSLU)
+- [The Best Way to Reset: The Bill Gates Method](https://youtu.be/ZcGVQPYKSiU)
+- [Casually Explained: Stand-up Comedy](https://youtu.be/vOM-ekg708I)
+- [Free Speech vs Theocracy](https://youtu.be/uRziup0ksDU)
+- [BOOKFACE | Corpus Libris](https://vimeo.com/391933063)
+- [Ryan Holiday — Turning the Tables | The Tim Ferriss Show](https://youtu.be/p3Yjx4PKIkk)
+- [3 Ways to Write Better](https://youtu.be/m5rv_bY3DMM)
+- [A Quirky Mindfulness Practice (That Will Change Your Life)](https://youtu.be/6IpWqLqEvXM) – A mindfulness practice from Japanese train drivers can help you to focus.
+- [fourweeksgood](https://www.youtube.com/channel/UCo-elCRTweAKBjqzoKLfP6A/) – A series of 12 short travel videos by _Seraina Silja_ and _Simon Ammann_ who worked and lived for one month in each city. For example: [Berlin](https://youtu.be/8cHQi3Db0Yw), [Tokyo](https://www.youtube.com/watch?v=cNMgsqpZZUg), [Amsterdam](https://www.youtube.com/watch?v=F_yJswewWzg), [Vienna](https://www.youtube.com/watch?v=bgw4zciF4p8) or [Melbourne](https://www.youtube.com/watch?v=cubZOq2BV14).
+- [Alan Watts ~ The Story of the Chinese Farmer](https://youtu.be/byQrdnq7_H0)
+- [A Response to Matt D'Avella's Productivity System Video](https://youtu.be/01DBbTQwYIE)
+- [Vue.js: The Documentary](https://youtu.be/OrxmtDw4pVI) – A short documentary about the origins of the popular JavaScript framework [Vue.js](https://vuejs.org/) and its creator _Evan You_.
+- [Why You Should Re-Read, Not Just Read Books | Ryan Holiday | Daily Stoic](https://youtu.be/WaWdjuz-nNU)
+- [Bloom](https://vimeo.com/29865151) – Nadine, depressed and alone, has been living her life in the dark. A gift from a friendly neighbor gives Nadine something to live for. With a new life, Nadine has a chance to pay it forward.
+- [Dirty Machines - “The End of History”](https://vimeo.com/393064046) – A piece of speculative content for an intellectual property about time travel.
+- [Satisfaction: Mug](https://youtu.be/acPhktaGn5o) – British director Nick Bennett 's latest film is a portrait of Wales-based studio potters James and Tilla Waters, at work in their Carmarthenshire studio.
 
 ## TV Shows
 
