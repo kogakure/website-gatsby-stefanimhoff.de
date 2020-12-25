@@ -17,7 +17,7 @@ exports[`DownloadLink renders correctly 1`] = `
   text-decoration-color: var(--colorAccent);
 }
 
-.c1 {
+.c2 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -36,8 +36,8 @@ exports[`DownloadLink renders correctly 1`] = `
 }
 
 a:hover .c1,
-a:active .c1,
-a:focus .c1 {
+a:active .c2,
+a:focus .c2 {
   -webkit-transform: translate3D(0,0.25rem,0);
   -ms-transform: translate3D(0,0.25rem,0);
   transform: translate3D(0,0.25rem,0);
@@ -49,7 +49,7 @@ a:focus .c1 {
 >
   Download
   <span
-    class="c1"
+    class="c1 c2"
   >
     <svg
       height="1em"
@@ -85,7 +85,7 @@ exports[`DownloadLink with custom text renders correctly 1`] = `
   text-decoration-color: var(--colorAccent);
 }
 
-.c1 {
+.c2 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -104,8 +104,8 @@ exports[`DownloadLink with custom text renders correctly 1`] = `
 }
 
 a:hover .c1,
-a:active .c1,
-a:focus .c1 {
+a:active .c2,
+a:focus .c2 {
   -webkit-transform: translate3D(0,0.25rem,0);
   -ms-transform: translate3D(0,0.25rem,0);
   transform: translate3D(0,0.25rem,0);
@@ -117,7 +117,7 @@ a:focus .c1 {
 >
   Download
   <span
-    class="c1"
+    class="c1 c2"
   >
     <svg
       height="1em"

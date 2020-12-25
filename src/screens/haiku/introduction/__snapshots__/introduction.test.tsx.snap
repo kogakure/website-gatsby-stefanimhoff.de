@@ -13,7 +13,7 @@ exports[`Haiku Introduction renders correctly 1`] = `
   margin-top: 0;
 }
 
-.c3 {
+.c4 {
   font-size: clamp(1.00rem,1.1vw,1.25rem);
   margin-bottom: 0;
   padding-left: 1em;
@@ -34,7 +34,7 @@ li .c3 {
 }
 
 @media (min-width:768px) {
-  .c3 {
+  .c4 {
     padding-left: 0;
   }
 }
@@ -92,7 +92,7 @@ li .c3 {
     ) is a short form of Japanese poetry in three phrases, typically characterized by three qualities:
   </p>
   <ol
-    class="c3"
+    class="c3 c4"
   >
     <li>
       The essence of haiku is 

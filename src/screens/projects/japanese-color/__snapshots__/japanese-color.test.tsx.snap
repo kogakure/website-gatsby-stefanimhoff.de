@@ -17,7 +17,7 @@ exports[`Projects JapaneseColor renders correctly 1`] = `
   text-decoration-color: var(--colorAccent);
 }
 
-.c9 {
+.c10 {
   border-color: var(--colorForegroundSoft);
   border-radius: 5px;
   border-style: solid;
@@ -42,14 +42,14 @@ exports[`Projects JapaneseColor renders correctly 1`] = `
   width: 100%;
 }
 
-.c9:hover,
-.c9:focus {
+.c10:hover,
+.c10:focus {
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
 }
 
-.c10 {
+.c11 {
   background: lightgrey;
   border-bottom-color: var(--colorForegroundSoft);
   border-bottom-style: solid;
@@ -59,7 +59,7 @@ exports[`Projects JapaneseColor renders correctly 1`] = `
   min-height: 6rem;
 }
 
-.c11 {
+.c12 {
   background: var(--colorBackgroundFullContrast);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -70,16 +70,16 @@ exports[`Projects JapaneseColor renders correctly 1`] = `
   position: relative;
 }
 
-.c12 {
+.c13 {
   font-size: 0.8rem;
 }
 
-.c13 {
+.c14 {
   padding-bottom: 0.1rem;
   padding-top: 0.1rem;
 }
 
-.c7 {
+.c8 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -98,8 +98,8 @@ exports[`Projects JapaneseColor renders correctly 1`] = `
 }
 
 a:hover .c7,
-a:active .c7,
-a:focus .c7 {
+a:active .c8,
+a:focus .c8 {
   -webkit-transform: translate3D(0.25rem,0,0);
   -ms-transform: translate3D(0.25rem,0,0);
   transform: translate3D(0.25rem,0,0);
@@ -184,7 +184,7 @@ a:focus .c7 {
   width: 100%;
 }
 
-.c8 {
+.c9 {
   display: grid;
   grid-gap: clamp( 0.579rem,1.24vw,0.694rem);
   grid-template-columns: repeat(auto-fill,minmax(12rem,1fr));
@@ -229,7 +229,7 @@ a:focus .c7 {
 }
 
 @media (min-width:768px) {
-  .c8 {
+  .c9 {
     padding-left: 0;
     padding-right: 0;
   }
@@ -286,7 +286,7 @@ a:focus .c7 {
       >
         See Traditional Colors of Japan
         <span
-          class="c7"
+          class="c7 c8"
         >
           <svg
             height="1em"
@@ -305,25 +305,25 @@ a:focus .c7 {
       </a>
     </div>
     <div
-      class="c8"
+      class="c9"
       data-sal="slide-up"
       data-sal-duration="800"
     >
       <div
-        class="c9"
+        class="c10"
       >
         <div
-          class="c10"
+          class="c11"
           style="background-color: rgb(215, 84, 85);"
         />
         <div
-          class="c11"
+          class="c12"
         >
           <div
-            class="c12"
+            class="c13"
           >
             <div
-              class="c13"
+              class="c14"
             >
               <strong>
                 R
@@ -345,7 +345,7 @@ a:focus .c7 {
                
             </div>
             <div
-              class="c13"
+              class="c14"
             >
               <strong>
                 H
@@ -367,7 +367,7 @@ a:focus .c7 {
                
             </div>
             <div
-              class="c13"
+              class="c14"
             >
               <strong>
                 #D75455
@@ -377,20 +377,20 @@ a:focus .c7 {
         </div>
       </div>
       <div
-        class="c9"
+        class="c10"
       >
         <div
-          class="c10"
+          class="c11"
           style="background-color: rgb(150, 99, 46);"
         />
         <div
-          class="c11"
+          class="c12"
         >
           <div
-            class="c12"
+            class="c13"
           >
             <div
-              class="c13"
+              class="c14"
             >
               <strong>
                 R
@@ -412,7 +412,7 @@ a:focus .c7 {
                
             </div>
             <div
-              class="c13"
+              class="c14"
             >
               <strong>
                 H
@@ -434,7 +434,7 @@ a:focus .c7 {
                
             </div>
             <div
-              class="c13"
+              class="c14"
             >
               <strong>
                 #96632E
@@ -444,20 +444,20 @@ a:focus .c7 {
         </div>
       </div>
       <div
-        class="c9"
+        class="c10"
       >
         <div
-          class="c10"
+          class="c11"
           style="background-color: rgb(58, 143, 183);"
         />
         <div
-          class="c11"
+          class="c12"
         >
           <div
-            class="c12"
+            class="c13"
           >
             <div
-              class="c13"
+              class="c14"
             >
               <strong>
                 R
@@ -479,7 +479,7 @@ a:focus .c7 {
                
             </div>
             <div
-              class="c13"
+              class="c14"
             >
               <strong>
                 H
@@ -501,7 +501,7 @@ a:focus .c7 {
                
             </div>
             <div
-              class="c13"
+              class="c14"
             >
               <strong>
                 #3A8FB7
@@ -511,20 +511,20 @@ a:focus .c7 {
         </div>
       </div>
       <div
-        class="c9"
+        class="c10"
       >
         <div
-          class="c10"
+          class="c11"
           style="background-color: rgb(0, 98, 132);"
         />
         <div
-          class="c11"
+          class="c12"
         >
           <div
-            class="c12"
+            class="c13"
           >
             <div
-              class="c13"
+              class="c14"
             >
               <strong>
                 R
@@ -546,7 +546,7 @@ a:focus .c7 {
                
             </div>
             <div
-              class="c13"
+              class="c14"
             >
               <strong>
                 H
@@ -568,7 +568,7 @@ a:focus .c7 {
                
             </div>
             <div
-              class="c13"
+              class="c14"
             >
               <strong>
                 #006284

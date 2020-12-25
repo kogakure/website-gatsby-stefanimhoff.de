@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`OrderedList renders correctly 1`] = `
-.c0 {
+.c1 {
   font-size: clamp(1.00rem,1.1vw,1.25rem);
   margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   padding-left: 1em;
@@ -13,13 +13,13 @@ li .c0 {
 }
 
 @media (min-width:768px) {
-  .c0 {
+  .c1 {
     padding-left: 0;
   }
 }
 
 <ol
-  class="c0"
+  class="c0 c1"
 >
   <li>
     Item 1

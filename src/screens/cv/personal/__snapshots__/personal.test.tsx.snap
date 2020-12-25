@@ -87,7 +87,7 @@ exports[`CV Personal renders correctly 1`] = `
   text-decoration-color: var(--colorAccent);
 }
 
-.c5 {
+.c6 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -106,8 +106,8 @@ exports[`CV Personal renders correctly 1`] = `
 }
 
 a:hover .c5,
-a:active .c5,
-a:focus .c5 {
+a:active .c6,
+a:focus .c6 {
   -webkit-transform: translate3D(0,0.25rem,0);
   -ms-transform: translate3D(0,0.25rem,0);
   transform: translate3D(0,0.25rem,0);
@@ -194,7 +194,7 @@ a:focus .c5 {
   >
     CV
     <span
-      class="c5"
+      class="c5 c6"
     >
       <svg
         height="1em"
@@ -220,7 +220,7 @@ a:focus .c5 {
   >
     VCard
     <span
-      class="c5"
+      class="c5 c6"
     >
       <svg
         height="1em"

@@ -8,7 +8,7 @@ exports[`Pagination "Both" renders correctly 1`] = `
   left: 1rem;
 }
 
-.c1 {
+.c2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -35,11 +35,11 @@ exports[`Pagination "Both" renders correctly 1`] = `
 }
 
 a:hover .c1,
-a:focus .c1 {
+a:focus .c2 {
   background-color: var(--colorForegroundSoft);
 }
 
-.c2 {
+.c3 {
   fill: var(--colorForeground);
 }
 
@@ -51,11 +51,11 @@ a:focus .c1 {
   variant="left"
 >
   <div
-    class="c1"
+    class="c1 c2"
   >
     <svg
       aria-hidden="true"
-      class="c2"
+      class="c3"
       height="1em"
       viewBox="0 0 24 24"
       width="1em"
@@ -80,7 +80,7 @@ exports[`Pagination "Left" renders correctly 1`] = `
   left: 1rem;
 }
 
-.c1 {
+.c2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -107,11 +107,11 @@ exports[`Pagination "Left" renders correctly 1`] = `
 }
 
 a:hover .c1,
-a:focus .c1 {
+a:focus .c2 {
   background-color: var(--colorForegroundSoft);
 }
 
-.c2 {
+.c3 {
   fill: var(--colorForeground);
 }
 
@@ -123,11 +123,11 @@ a:focus .c1 {
   variant="left"
 >
   <div
-    class="c1"
+    class="c1 c2"
   >
     <svg
       aria-hidden="true"
-      class="c2"
+      class="c3"
       height="1em"
       viewBox="0 0 24 24"
       width="1em"
@@ -152,7 +152,7 @@ exports[`Pagination "Right" renders correctly 1`] = `
   right: 1rem;
 }
 
-.c1 {
+.c2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -179,11 +179,11 @@ exports[`Pagination "Right" renders correctly 1`] = `
 }
 
 a:hover .c1,
-a:focus .c1 {
+a:focus .c2 {
   background-color: var(--colorForegroundSoft);
 }
 
-.c2 {
+.c3 {
   fill: var(--colorForeground);
 }
 
@@ -195,11 +195,11 @@ a:focus .c1 {
   variant="right"
 >
   <div
-    class="c1"
+    class="c1 c2"
   >
     <svg
       aria-hidden="true"
-      class="c2"
+      class="c3"
       height="1em"
       viewBox="0 0 24 24"
       width="1em"
@@ -224,7 +224,7 @@ exports[`Pagination renders correctly 1`] = `
   right: 1rem;
 }
 
-.c1 {
+.c2 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -251,11 +251,11 @@ exports[`Pagination renders correctly 1`] = `
 }
 
 a:hover .c1,
-a:focus .c1 {
+a:focus .c2 {
   background-color: var(--colorForegroundSoft);
 }
 
-.c2 {
+.c3 {
   fill: var(--colorForeground);
 }
 
@@ -267,11 +267,11 @@ a:focus .c1 {
   variant="right"
 >
   <div
-    class="c1"
+    class="c1 c2"
   >
     <svg
       aria-hidden="true"
-      class="c2"
+      class="c3"
       height="1em"
       viewBox="0 0 24 24"
       width="1em"

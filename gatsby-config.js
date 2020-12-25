@@ -76,7 +76,6 @@ module.exports = {
           default: require.resolve('./src/templates/default.tsx'),
         },
         gatsbyRemarkPlugins: [
-          'gatsby-remark-copy-linked-files',
           'gatsby-remark-numbered-footnotes',
           'gatsby-remark-responsive-iframe',
           'gatsby-remark-smartypants',
@@ -111,6 +110,22 @@ module.exports = {
           },
           {
             resolve: 'gatsby-remark-relative-images',
+            options: {
+              include: ['cover', 'og'],
+            },
+          },
+          {
+            resolve: 'gatsby-remark-copy-linked-files',
+            options: {
+              ignoreFileExtensions: [
+                'png',
+                'jpg',
+                'jpeg',
+                'bmp',
+                'tiff',
+                'svg',
+              ],
+            },
           },
           {
             resolve: 'gatsby-remark-images',

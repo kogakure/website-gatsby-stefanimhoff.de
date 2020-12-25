@@ -1,11 +1,10 @@
 import * as React from 'react';
-import * as CSS from 'csstype';
 import Color from 'color';
 
 import { Styled } from './color-swatch.styles';
 
 export type ColorSwatchProps = {
-  color: CSS.ColorProperty;
+  color: string;
   description?: string;
   name?: string;
 };

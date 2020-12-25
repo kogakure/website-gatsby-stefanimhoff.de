@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+import type { GatsbyImageProps } from 'gatsby-image';
 
 import { mediaQuery } from '../../../layout/tokens';
 import { Image as SketchnotesImage } from '../../../components/image';
 
-const Image = styled(SketchnotesImage)`
+const Image = styled(SketchnotesImage)<GatsbyImageProps>`
   border-left-width: 0;
   border-right-width: 0;
 

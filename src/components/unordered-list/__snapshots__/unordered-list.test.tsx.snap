@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`UnorderedList renders correctly 1`] = `
-.c0 {
+.c1 {
   font-size: clamp(1.00rem,1.1vw,1.25rem);
   list-style-type: circle;
   margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
@@ -13,18 +13,18 @@ li .c0 {
   padding-left: 2rem;
 }
 
-.c0.contains-task-list {
+.c1.contains-task-list {
   list-style-type: none;
 }
 
 @media (min-width:768px) {
-  .c0 {
+  .c1 {
     padding-left: 0;
   }
 }
 
 @supports (-webkit-appearance:none) or (-moz-appearance:none) or (appearance:none) {
-  .c0 input[type='checkbox'] {
+  .c1 input[type='checkbox'] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -44,7 +44,7 @@ li .c0 {
     width: 1em;
   }
 
-  .c0 input[type='checkbox']:after {
+  .c1 input[type='checkbox']:after {
     border-bottom-width: 0.15em;
     border-color: var(--colorForeground);
     border-left-color: transparent;
@@ -66,18 +66,18 @@ li .c0 {
     width: 0.3em;
   }
 
-  .c0 input[type='checkbox']:checked {
+  .c1 input[type='checkbox']:checked {
     --rotate: 43deg;
     --opacity: 1;
   }
 
-  .c0 input[type='checkbox']:disabled {
+  .c1 input[type='checkbox']:disabled {
     cursor: not-allowed;
   }
 }
 
 <ul
-  class="c0"
+  class="c0 c1"
 >
   <li>
     Item 1

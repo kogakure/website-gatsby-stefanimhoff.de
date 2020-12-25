@@ -29,7 +29,7 @@ There are a lot of Preprocessors, Libraries, Frameworks, which extend CSS. And a
 
 There is a new kid on the block: [PostCSS](https://github.com/postcss/postcss). I don’t care, if it’s Preprocessor, a Postprocessor or just a Processor. You write something, it will process your stuff and it will put out CSS.
 
-![Philosopher’s stone, logo of PostCSS](postcss-logo.svg "Philosopher’s stone, logo of PostCSS")
+![Philosopher’s stone, logo of PostCSS](./postcss-logo.svg "Philosopher’s stone, logo of PostCSS")
 
 Why should you use a new tool, if Sass and it’s competitors do their job? Because it’s **fast** ([3-30 times faster](https://github.com/postcss/benchmark)), **modular** and **extendible**. I bet you only need a small fraction of your Preprocessors functionality.
 

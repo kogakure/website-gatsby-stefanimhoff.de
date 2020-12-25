@@ -14,7 +14,7 @@ categories:
 
 Last week I found an inspirational film on YouTube, focusing on motivation. It’s a good example of creating something good out of the work of others. The film uses clips and quotes from a broad variety of people and uses music from movies.
 
-![Why Do We Fall? – Motivational Video](/assets/images/articles/2015/motivational-video/motivational-video.jpg)
+![Why Do We Fall? – Motivational Video](./motivational-video.jpg)
 
 The film _[Why Do We Fall? – Motivational Video](https://youtu.be/mgmVOuLgFB0)_ by _Mateusz M_ is quite successful and was watched until now over **30 million** times.
 

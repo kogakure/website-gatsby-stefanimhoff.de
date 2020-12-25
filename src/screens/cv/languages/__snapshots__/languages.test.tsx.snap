@@ -30,7 +30,7 @@ exports[`CV Languages renders correctly 1`] = `
   opacity: 0.5;
 }
 
-.c1 {
+.c2 {
   font-size: clamp(1.00rem,1.1vw,1.25rem);
   list-style-type: circle;
   margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
@@ -42,7 +42,7 @@ li .c1 {
   padding-left: 2rem;
 }
 
-.c1.contains-task-list {
+.c2.contains-task-list {
   list-style-type: none;
 }
 
@@ -58,13 +58,13 @@ li .c1 {
 }
 
 @media (min-width:768px) {
-  .c1 {
+  .c2 {
     padding-left: 0;
   }
 }
 
 @supports (-webkit-appearance:none) or (-moz-appearance:none) or (appearance:none) {
-  .c1 input[type='checkbox'] {
+  .c2 input[type='checkbox'] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -84,7 +84,7 @@ li .c1 {
     width: 1em;
   }
 
-  .c1 input[type='checkbox']:after {
+  .c2 input[type='checkbox']:after {
     border-bottom-width: 0.15em;
     border-color: var(--colorForeground);
     border-left-color: transparent;
@@ -106,12 +106,12 @@ li .c1 {
     width: 0.3em;
   }
 
-  .c1 input[type='checkbox']:checked {
+  .c2 input[type='checkbox']:checked {
     --rotate: 43deg;
     --opacity: 1;
   }
 
-  .c1 input[type='checkbox']:disabled {
+  .c2 input[type='checkbox']:disabled {
     cursor: not-allowed;
   }
 }
@@ -125,7 +125,7 @@ li .c1 {
     Languages
   </h2>
   <ul
-    class="c1"
+    class="c1 c2"
   >
     <li>
       <strong>

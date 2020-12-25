@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import type { GatsbyImageProps } from 'gatsby-image';
 
 import { mediaQuery } from '../../../layout/tokens';
 import { Image } from '../../../components/image';
@@ -12,7 +13,7 @@ const ImageContainer = styled.div`
   }
 `;
 
-const CoverImage = styled(Image)`
+const CoverImage = styled(Image)<GatsbyImageProps>`
   border-left-width: 0;
 `;
 

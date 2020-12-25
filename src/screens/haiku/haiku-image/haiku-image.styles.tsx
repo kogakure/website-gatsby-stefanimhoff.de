@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import type { GatsbyImageProps } from 'gatsby-image';
 
 import { mediaQuery } from '../../../layout/tokens';
 import { Image } from '../../../components/image';
@@ -12,7 +13,7 @@ const HaikuImageContainer = styled.div`
   }
 `;
 
-const HaikuImage = styled(Image)`
+const HaikuImage = styled(Image)<GatsbyImageProps>`
   border-left-width: 0;
 `;
 

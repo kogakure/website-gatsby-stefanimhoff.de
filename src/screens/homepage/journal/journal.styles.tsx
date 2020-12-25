@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 import Img from 'gatsby-image';
+import type { GatsbyImageProps } from 'gatsby-image';
 
 import { LocalizedDate } from '../../../components/localized-date';
 import { fontSize, mediaQuery, shadow, space } from '../../../layout/tokens';
@@ -102,7 +103,7 @@ const Date = styled(LocalizedDate)`
   font-variant: small-caps;
 `;
 
-const Image = styled(Img)`
+const Image = styled(Img)<GatsbyImageProps>`
   height: 10rem;
   object-fit: cover;
 `;

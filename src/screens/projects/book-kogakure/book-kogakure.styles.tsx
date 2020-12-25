@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+import type { GatsbyImageProps } from 'gatsby-image';
 
 import { mediaQuery } from '../../../layout/tokens';
 import { Image as BookCover } from '../../../components/image';
 
-const Image = styled(BookCover)`
+const Image = styled(BookCover)<GatsbyImageProps>`
   border-left-width: 0;
   border-right-width: 0;
   grid-row: 1;

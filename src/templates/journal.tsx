@@ -52,7 +52,8 @@ const JournalTemplate = ({ data, pageContext }: JournalTemplateProps) => {
         <ContentGrid rowGap size="fullsize">
           <Title>{title}</Title>
           <Meta date={date} readingTime={text} />
-          {cover && cover.childImageSharp && cover.childImageSharp.fluid && (
+          {cover && cover.childImageSharp && (
+            // @ts-ignore
             <CoverImage fluid={cover.childImageSharp.fluid} />
           )}
           <Post body={body} />

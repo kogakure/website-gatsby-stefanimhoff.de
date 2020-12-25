@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import type { GatsbyImageProps } from 'gatsby-image';
 
 import { mediaQuery } from '../../../layout/tokens';
 import { Image } from '../../../components/image';
@@ -13,8 +14,10 @@ const CoverImageContainer = styled.div`
   }
 `;
 
-const CoverImage = styled(Image)`
-  border-left-width: 0;
+const CoverImage = styled(Image)<GatsbyImageProps>`
+  && {
+    border-left-width: 0;
+  }
   height: 55vw;
 
   @media (${mediaQuery.tablet}) {

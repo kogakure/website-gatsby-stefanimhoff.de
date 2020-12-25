@@ -41,7 +41,7 @@ exports[`Traditional Colors of Japan Introduction renders correctly 1`] = `
   text-decoration-color: var(--colorAccent);
 }
 
-.c4 {
+.c5 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -60,8 +60,8 @@ exports[`Traditional Colors of Japan Introduction renders correctly 1`] = `
 }
 
 a:hover .c4,
-a:active .c4,
-a:focus .c4 {
+a:active .c5,
+a:focus .c5 {
   -webkit-transform: translate3D(0,0.25rem,0);
   -ms-transform: translate3D(0,0.25rem,0);
   transform: translate3D(0,0.25rem,0);
@@ -135,7 +135,7 @@ a:focus .c4 {
     >
       Download Color Palette
       <span
-        class="c4"
+        class="c4 c5"
       >
         <svg
           height="1em"
