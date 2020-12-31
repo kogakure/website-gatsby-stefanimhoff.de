@@ -157,6 +157,18 @@ DEVONthink supports also [MultiMarkdown] which is much more powerful than regula
 
 Since it’s the last update DEVONthink supports also MathJAX and Prism code highlighting. It’s also possible to add a custom Markdown template. I use the CSS of the beautiful [iA Writer template GitHub Plus](https://github.com/icearith/iA-Writer-Templates-Github-Plus/).
 
+<Banner>
+
+### CSS Markdown Template
+
+Because of frequent request I add a link to my _adjusted_ iA Writer CSS template to style Markdown posts. In DEVONthink _Media_ settings there is an entry for a custom _Style Sheet_. You point this to the CSS file on your harddrive. It’s possible you need to restart DEVONthink after that.
+
+<p>
+  <DownloadLink href="/downloads/MarkdownDefault.css" />
+</p>
+
+</Banner>
+
 ### OCR Text Recognition
 
 DEVONthink comes with built-in support for text recognition in a huge variety of languages. This allows, for example, to convert every image to be searchable, the same as one of the features of Evernote. The text can be either stored in a file comment or annotation or converted into a searchable PDF or other compatible formats. It allows automatic correction of distortion and rotation and the addition of a custom dictionary.
@@ -200,6 +212,8 @@ A quick shortcut allows changing the metadata of a note without opening the insp
 I’m happy I was pointed to the Zettelkasten method by my colleague. It’s a really good and future-proof way of writing notes. Even after a few weeks and ~150 newly created notes, I can already see the first connections between the notes. I also started creating some connection notes and I’m having ideas for outline notes.
 
 [DEVONthink](https://devontechnologies.com/apps/devonthink) is after a week of testing various tools the right tool for me. It allows me to use the Zettelkasten method with a bunch of really useful workflows and features next to having an incredibly powerful document management system.
+
+**Update 03.09.2020:** I started using [Obsidian](https://obsidian.md/) as the primary tool for my Zettelkasten, due to its much more powerful tools, but still sync the vault via DEVONthink and add new notes frequently to my vault with the DEVONthink sorter. To read about my updated workflow please go to <TextLink to="/tools-i-use-for-note-taking/">Tools I Use For Note-Taking</TextLink>.
 
 [ryan holiday]: https://medium.com/@RyanHoliday/this-unique-notecard-system-will-help-you-remember-organize-and-utilize-everything-you-read-9f3ddabaa3c
 [robert greene]: https://medium.com/@paulorrj/the-robert-greene-method-of-writing-books-e175ade04897
