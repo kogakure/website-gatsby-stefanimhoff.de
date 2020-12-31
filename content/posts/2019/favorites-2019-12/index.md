@@ -4,11 +4,6 @@ title: December 2019 Favorites
 date: 2019-12-31T18:00:00+02:00
 author: Stefan Imhoff
 description: A list of all the things I enjoyed in December 2019.
-cover: ./cover.jpg
-attribution:
-  - author: Trevor Cole
-    title: Waterfall of the Gods. Goðafoss Waterfall, Iceland
-    url: https://unsplash.com/photos/salaAJW7Xdg
 categories:
   - monthly
 ---

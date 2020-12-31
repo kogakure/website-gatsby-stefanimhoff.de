@@ -11,7 +11,7 @@ export const useHomepageJournalPostsQuery = () => {
           frontmatter: { published: { eq: true } }
         }
         sort: { fields: [frontmatter___date], order: DESC }
-        limit: 14
+        limit: 6
       ) {
         edges {
           node {
@@ -22,14 +22,6 @@ export const useHomepageJournalPostsQuery = () => {
             frontmatter {
               date
               title
-              cover {
-                publicURL
-                childImageSharp {
-                  fluid(maxWidth: 1000) {
-                    ...GatsbyImageSharpFluid
-                  }
-                }
-              }
             }
           }
         }

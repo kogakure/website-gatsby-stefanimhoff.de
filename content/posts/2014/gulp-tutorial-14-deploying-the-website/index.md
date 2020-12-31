@@ -4,11 +4,6 @@ title: Introduction to Gulp.js 14
 author: Stefan Imhoff
 date: 2014-10-31T08:00:00+02:00
 description: "The ultimative tutorial and guide for Gulp.js: How to deploy your website with rsync to your server."
-cover: ./gulp-tutorial-14.jpg
-attribution:
-  - author: Jayanta Debnath
-    title: BIG GULP
-    url: https://www.flickr.com/photos/jkdsphotography/13786076413
 categories:
   - code
 series:

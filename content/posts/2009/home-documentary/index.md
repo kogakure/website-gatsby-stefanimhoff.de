@@ -4,7 +4,6 @@ title: HOME
 author: Stefan Imhoff
 date: 2009-06-15T17:23:00+02:00
 description: "Recommended Film: View the nature documentation HOME by Yann Arthus-Bertrand for FREE. Beautiful aerial photographs of the world. The creation of the earth, life, destruction by man and hope and ways out."
-cover: ./home.jpg
 categories:
   - film
 ---
@@ -12,6 +11,8 @@ categories:
 ## Stunning Documentary About Our Earth
 
 On June 5, 2009, Yann Arthus-Bertrand’s documentary film [HOME](https://youtu.be/jqxENMKaeCU) started simultaneously and free of charge in all countries and all manner of media: on the Internet, on television and cinemas, where the film was even made available to the cinemas for free. In addition, the film is already available on DVD, and part of the sale price will be donated to the organization _Good Planet_.
+
+![HOME](./home.jpg)
 
 With a budget of approximately USD 10-15 million, sponsored by [EuropaCorp](http://www.europacorp.com/) and PPR, the director wanted to create a moving film about our planet, in which he consistently succeeded.
 

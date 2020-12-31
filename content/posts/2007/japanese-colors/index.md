@@ -4,7 +4,6 @@ title: Colors of Japan
 author: Stefan Imhoff
 date: 2007-12-08T21:05:00+02:00
 description: Traditional, Japanese colors as a color palette for Photoshop and Illustrator to download (FREE).
-og: ./japanese-colors.jpg
 categories:
   - design
   - download

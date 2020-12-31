@@ -4,12 +4,6 @@ title: December 2020 Favorites
 date: 2020-12-31T18:00:00+02:00
 author: Stefan Imhoff
 description: A list of all the things I enjoyed in December 2020.
-cover: ./cover.jpg
-og: ./og.jpg
-attribution:
-  - author: Valeriy Ryasnyanskiy
-    title: Khao Yoi, Khao Yoi District, Phetchhaburi, Thailand
-    url: https://unsplash.com/photos/tf9ZfxOLL5c
 categories:
   - monthly
 ---

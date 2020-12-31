@@ -4,10 +4,6 @@ title: Introduction to Gulp.js 09
 author: Stefan Imhoff
 date: 2014-10-26T08:10:00+02:00
 description: "The ultimative tutorial and guide for Gulp.js: How to check the syntax of SCSS and JavaScript files."
-cover: ./gulp-tutorial-9.jpg
-attribution:
-  - author: Shelly Munkberg
-    url: https://www.flickr.com/photos/zingersb/501372181
 categories:
   - code
 series:

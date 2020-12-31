@@ -15,7 +15,6 @@ module.exports = {
     '<rootDir>/src/layout/theme-toggle/',
     '<rootDir>/src/layout/up-link/',
     '<rootDir>/src/pages',
-    '<rootDir>/src/screens/journal-detail/cover-image',
     '<rootDir>/src/screens/journal-detail/post',
     '<rootDir>/src/screens/showcase/body',
     '<rootDir>/src/screens/sketchnotes/body',

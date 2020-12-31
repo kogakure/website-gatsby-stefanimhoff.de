@@ -4,11 +4,6 @@ title: Introduction to Gulp.js 07
 author: Stefan Imhoff
 date: 2014-10-24T07:30:00+02:00
 description: "The ultimative tutorial and guide for Gulp.js: How to replace small images with base64 encoded images."
-cover: ./gulp-tutorial-7.jpg
-attribution:
-  - author: billjon
-    title: Big Gulp
-    url: https://www.flickr.com/photos/bi11jon/445799182
 categories:
   - code
 series:

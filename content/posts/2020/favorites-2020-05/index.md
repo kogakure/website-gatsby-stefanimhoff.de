@@ -4,12 +4,6 @@ title: May 2020 Favorites
 date: 2020-05-31T18:00:00+02:00
 author: Stefan Imhoff
 description: A list of all the things I enjoyed in May 2020.
-cover: ./cover.jpg
-og: ./og.jpg
-attribution:
-  - author: Miltiadis Fragkidis
-    title: Bamboo Island, Ao Nang, Mueang Krabi District, Krabi, Thailand
-    url: https://unsplash.com/photos/xhFu0li2RrA
 categories:
   - monthly
 ---

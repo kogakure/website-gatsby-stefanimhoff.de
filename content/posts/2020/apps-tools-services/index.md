@@ -4,12 +4,6 @@ title: Apps, Tools & Services
 date: 2020-04-18T10:00:00+02:00
 author: Stefan Imhoff
 description: All the apps, tools and services I use on my iPhone, iPad, Apple Watch, Apple TV, and Mac.
-cover: ./cover.jpg
-og: ./og.jpg
-attribution:
-  - author: Jessy Smith
-    title: Desk
-    url: https://unsplash.com/photos/zFOm6KzA-7g
 categories:
   - productivity
   - software

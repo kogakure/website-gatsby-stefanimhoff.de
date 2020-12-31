@@ -4,11 +4,6 @@ title: Introduction to Gulp.js 10
 author: Stefan Imhoff
 date: 2014-10-27T07:40:00+02:00
 description: "The ultimative tutorial and guide for Gulp.js: How to generate image sprite maps with Spritesmith."
-cover: ./gulp-tutorial-10.jpg
-attribution:
-  - author: Fabienne Wassermann
-    title: Double Gulp
-    url: https://www.flickr.com/photos/fabi_k/5119690026
 categories:
   - code
 series:

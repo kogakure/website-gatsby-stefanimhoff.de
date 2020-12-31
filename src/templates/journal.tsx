@@ -3,13 +3,7 @@ import { graphql } from 'gatsby';
 
 import { PostPageContextData, PostQueryData } from '../typings/graphql';
 import { Layout, ContentGrid, SEO, Pagination } from '../layout';
-import {
-  CoverImage,
-  Footer,
-  Meta,
-  Post,
-  Title,
-} from '../screens/journal-detail';
+import { Footer, Meta, Post, Title } from '../screens/journal-detail';
 
 export type JournalTemplateProps = {
   readonly data: PostQueryData;
@@ -19,7 +13,7 @@ export type JournalTemplateProps = {
 const JournalTemplate = ({ data, pageContext }: JournalTemplateProps) => {
   const {
     body,
-    frontmatter: { title, date, description, cover, og, attribution },
+    frontmatter: { title, date, description, attribution },
     fields: {
       readingTime: { text },
       language,
@@ -29,20 +23,11 @@ const JournalTemplate = ({ data, pageContext }: JournalTemplateProps) => {
   } = data.mdx;
   const { previous, next } = pageContext;
 
-  let imageURL;
-
-  if (og) {
-    imageURL = og.publicURL;
-  } else if (cover) {
-    imageURL = cover.publicURL;
-  }
-
   return (
     <Layout homeTo="/journal/">
       <SEO
         article
         description={description}
-        image={imageURL}
         language={language}
         pathname={slug}
         robots={robots}
@@ -52,10 +37,6 @@ const JournalTemplate = ({ data, pageContext }: JournalTemplateProps) => {
         <ContentGrid rowGap size="fullsize">
           <Title>{title}</Title>
           <Meta date={date} readingTime={text} />
-          {cover && cover.childImageSharp && (
-            // @ts-ignore
-            <CoverImage fluid={cover.childImageSharp.fluid} />
-          )}
           <Post body={body} />
           {attribution && <Footer attribution={attribution} />}
           {previous === false ? null : (
@@ -97,22 +78,6 @@ export const pageQuery = graphql`
         title
         date
         description
-        cover {
-          publicURL
-          childImageSharp {
-            fluid(maxWidth: 1200) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        og {
-          publicURL
-          childImageSharp {
-            fixed(width: 1200) {
-              ...GatsbyImageSharpFixed
-            }
-          }
-        }
         attribution {
           title
           author

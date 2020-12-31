@@ -4,11 +4,6 @@ title: February 2020 Favorites
 date: 2020-02-29T18:00:00+02:00
 author: Stefan Imhoff
 description: A list of all the things I enjoyed in February 2020.
-cover: ./cover.jpg
-attribution:
-  - author: Eberhard Grossgasteiger
-    title: Zillertal Alps, Italy
-    url: https://unsplash.com/photos/cs0sK0gzqCU
 categories:
   - monthly
 ---

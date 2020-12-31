@@ -4,7 +4,6 @@ title: John Seymours Books on Self-Sufficiency
 author: Stefan Imhoff
 date: 2014-08-03T16:00:00+02:00
 description: On John Seymour’s fantastic, beautifully illustrated books on self-sufficiency, agriculture and crafts. The optimal equipment for an upcoming zombie apocalypse.
-cover: ./john-seymour-illustration.jpg
 categories:
   - book
 ---

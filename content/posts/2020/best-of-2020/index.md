@@ -4,12 +4,6 @@ title: Best of 2020
 date: 2020-12-22T18:00:00+02:00
 author: Stefan Imhoff
 description: A distilled collection of my favorite topics, articles, videos, podcasts, people, or other things in 2020.
-cover: ./cover.jpg
-og: ./og.jpg
-attribution:
-  - author: Benjamin Rascoe
-    title: Black Sand Beach, Vik, Iceland
-    url: https://unsplash.com/photos/OUxzSHMJGg0
 categories:
   - tip
 ---

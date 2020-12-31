@@ -4,7 +4,6 @@ title: Calisthenics
 author: Stefan Imhoff
 date: 2015-05-19T21:45:00+00:00
 description: Learning Body Weight Training is possible for everybody. It’s free, you can do it anywhere, you need no gym or expensive equipment to train and you can improve constantly.
-cover: ./calisthenics-human-flag.jpg
 categories:
   - health
   - self-improvement
@@ -15,6 +14,8 @@ categories:
 I’m doing bodyweight training for almost a year now and like it. It’s free, you can do it anywhere, all you need is something to push from and to pull to, and it’s fun.
 
 Two years ago I stumbled upon a new training concept founded by some guys in Munich: [Freeletics]. They only trained with body weight and had a quite impressive physique.
+
+![Human Flag](calisthenics-human-flag.jpg "Human Flag")
 
 [freeletics]: https://www.freeletics.com/
 

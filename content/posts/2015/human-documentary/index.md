@@ -4,7 +4,6 @@ title: Human
 author: Stefan Imhoff
 date: 2015-09-29T19:07:20+02:00
 description: Human, the new movie of Yann Arthus-Bertrand is a moving film made out of real-life stories from more than 2000 women and men in 60 countries mixed with stunning aerial photography and ground photography.
-cover: ./human.jpg
 categories:
   - film
 ---
@@ -12,6 +11,8 @@ categories:
 ## A Film by Yann Arthus-Bertrand
 
 Yann Arthus-Bertrand, the filmmaker of [Home](https://youtu.be/jqxENMKaeCU), artist, photographer, and specialist for aerial photography worked 3 years on his new movie: [Human](http://www.human-themovie.org/).
+
+![Human](./human.jpg)
 
 He collected real-life stories from more than **2000 women and men** in **60 countries**. Stories about topics, which matter to us all: poverty, war, homophobia, the future of the planet, love, and happiness. It’s a beautiful mix of moving stories, impressive aerial images, and ground photography.
 

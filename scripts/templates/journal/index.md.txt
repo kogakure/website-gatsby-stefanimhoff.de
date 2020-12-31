@@ -4,8 +4,6 @@ title: {{titleCase title}}
 date: {{date}}
 author: Stefan Imhoff
 description: 
-cover: ./cover.jpg
-og: ./og.jpg
 attribution:
   - author: Author
     title: Title

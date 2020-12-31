@@ -4,11 +4,6 @@ title: Introduction to Gulp.js 03
 author: Stefan Imhoff
 date: 2014-10-20T10:00:00+02:00
 description: "The ultimative tutorial and guide for Gulp.js: How to write tasks for cleaning files and folders, generating the build and the website with Jekyll."
-cover: ./gulp-tutorial-3.jpg
-attribution:
-  - author: Rudy Eng
-    title: A Very Big Cup of Water
-    url: https://www.flickr.com/photos/mac-ash/3628500632
 categories:
   - code
 series:

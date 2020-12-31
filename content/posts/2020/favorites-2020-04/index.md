@@ -4,12 +4,6 @@ title: April 2020 Favorites
 date: 2020-04-30T21:00:00+02:00
 author: Stefan Imhoff
 description: A list of all the things I enjoyed in April 2020.
-cover: ./cover.jpg
-og: ./og.jpg
-attribution:
-  - author: Fernando Paredes Murillo
-    title: Erg Chebbi, Merzouga, Morocco
-    url: https://unsplash.com/photos/yWbxfKurMH0
 categories:
   - monthly
 ---

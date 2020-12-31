@@ -4,11 +4,6 @@ title: November 2020 Favorites
 date: 2020-11-30T18:00:00+02:00
 author: Stefan Imhoff
 description: A list of all the things I enjoyed in November 2020.
-cover: ./cover.jpg
-og: ./og.jpg
-attribution:
-  - author: Alexandre Dinaut
-    url: https://unsplash.com/photos/zqxnyb7M5kI
 categories:
   - monthly
 ---

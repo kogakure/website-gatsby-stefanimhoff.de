@@ -4,7 +4,6 @@ title: Typography of My Website
 author: Stefan Imhoff
 date: 2014-06-19T10:30:00+02:00
 description: "About the typography of my new website: scale, font, vertical rhythm, font size, font size and sentence width."
-cover: ./elements-of-typographic-style.jpg
 categories:
   - design
   - code

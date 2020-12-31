@@ -4,11 +4,6 @@ title: "New Website 2020: Design"
 date: 2020-07-21T08:00:00+02:00
 author: Stefan Imhoff
 description: This is the second of three parts in a series of articles about the process of creating my new website. This one shows the design process for my website.
-cover: ./cover.jpg
-attribution:
-  - author: Leio McLaren
-    title: Meiji Jingu, Shibuya-ku, Japan
-    url: https://unsplash.com/photos/e1AtwT_cGPU
 categories:
   - design
 ---

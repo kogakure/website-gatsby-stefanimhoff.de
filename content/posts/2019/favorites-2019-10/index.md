@@ -4,11 +4,6 @@ title: October 2019 Favorites
 date: 2019-10-31T18:00:00+02:00
 author: Stefan Imhoff
 description: A list of all the things I enjoyed in October 2019.
-cover: ./cover.jpg
-attribution:
-  - author: Aaron Burden
-    title: Colorful trees near a lake. Grayling, Michigan, United States
-    url: https://unsplash.com/photos/00QWN1J0g48
 categories:
   - monthly
 ---

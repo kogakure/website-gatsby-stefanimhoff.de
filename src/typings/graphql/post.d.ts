@@ -11,14 +11,6 @@ export type PostQueryData = {
       dateEn: string;
       dateDe: string;
       language?: string;
-      cover?: {
-        publicURL: string;
-        childImageSharp: GatsbyImageProps;
-      };
-      og?: {
-        publicURL: string;
-        childImageSharp: GatsbyImageProps;
-      };
       attribution: AttributionData[] | null;
     };
     fields: {

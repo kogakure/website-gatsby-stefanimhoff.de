@@ -4,11 +4,6 @@ title: September 2019 Favorites
 date: 2019-09-30T18:00:00+02:00
 author: Stefan Imhoff
 description: A list of all the things I enjoyed in September 2019.
-cover: ./cover.jpg
-attribution:
-  - author: Stefan Imhoff
-    title: Boat on the jetty. Bokel-Mühle am See
-    url: http://www.stefanimhoff.de/
 categories:
   - monthly
 ---

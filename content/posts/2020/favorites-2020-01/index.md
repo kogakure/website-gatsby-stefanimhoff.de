@@ -4,11 +4,6 @@ title: January 2020 Favorites
 date: 2020-01-31T18:00:00+02:00
 author: Stefan Imhoff
 description: A list of all the things I enjoyed in January 2020.
-cover: ./cover.jpg
-attribution:
-  - author: Serey Morm
-    title: Fjaðrárgljúfur Canyon, Fjaðrárgljúfur, Iceland
-    url: https://unsplash.com/photos/Z9G2Cm3n080
 categories:
   - monthly
 ---

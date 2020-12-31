@@ -33,7 +33,9 @@ export const Journal = ({ ...props }) => {
               films, and books in this Journal and publish a monthly article
               with recommendations.
             </Paragraph>
-            <MoreLink to="/journal/">Read all articles</MoreLink>
+            <Paragraph>
+              <MoreLink to="/journal/">See all articles</MoreLink>
+            </Paragraph>
           </Styled.Text>
           <Styled.Subscribe>
             <SubSubheadline as="h3">Subscribe</SubSubheadline>
@@ -53,27 +55,22 @@ export const Journal = ({ ...props }) => {
           const {
             excerpt,
             fields: { slug },
-            frontmatter: { title, date, cover },
+            frontmatter: { title, date },
           } = node;
 
           return (
             <Styled.Post
-              bottomSpace={getRandomNumber(7)}
-              key={slug}
-              topSpace={getRandomNumber(10)}
-              data-sal="slide-up"
+              bottomSpace={getRandomNumber(3)}
               data-sal-duration="800"
+              data-sal="slide-up"
+              key={slug}
+              topSpace={getRandomNumber(5)}
             >
               <Styled.LinkedPost to={slug} aria-label={title}>
-                {cover &&
-                  cover.childImageSharp &&
-                  cover.childImageSharp.fluid && (
-                    <Styled.Image fluid={cover.childImageSharp.fluid} />
-                  )}
                 <header>
                   <Styled.Date date={date} />
                   <SubSubheadline as="h3">{title}</SubSubheadline>
-                  {!cover && <>{excerpt}</>}
+                  <>{excerpt}</>
                 </header>
               </Styled.LinkedPost>
             </Styled.Post>

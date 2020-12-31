@@ -24,17 +24,6 @@ useStaticQuery.mockImplementation(() => ({
           frontmatter: {
             title: 'Post 1',
             date: '2020-05-31T16:00:00.000Z',
-            cover: {
-              childImageSharp: {
-                fluid: {
-                  aspectRatio: 0.66,
-                  base64: 'data:image/jpeg;base64,XYZ',
-                  sizes: '(max-width: 1400px) 100vw, 1400px',
-                  src: '/static/cover.jpg',
-                  srcSet: '/static/cover.jpg 200w, /static/cover.jpg 400w',
-                },
-              },
-            },
           },
         },
       },

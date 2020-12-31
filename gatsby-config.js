@@ -108,12 +108,7 @@ module.exports = {
               logLevel: 'error',
             },
           },
-          {
-            resolve: 'gatsby-remark-relative-images',
-            options: {
-              include: ['cover', 'og'],
-            },
-          },
+          'gatsby-remark-relative-images',
           {
             resolve: 'gatsby-remark-copy-linked-files',
             options: {

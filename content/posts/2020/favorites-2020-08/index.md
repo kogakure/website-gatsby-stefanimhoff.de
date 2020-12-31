@@ -4,12 +4,6 @@ title: August 2020 Favorites
 date: 2020-08-31T18:00:00+02:00
 author: Stefan Imhoff
 description: A list of all the things I enjoyed in August 2020.
-cover: ./cover.jpg
-og: ./og.jpg
-attribution:
-  - author: Jannis Edelmann
-    title: Red Poppies
-    url: https://unsplash.com/photos/3EFSwMQgj_Y
 categories:
   - monthly
 ---

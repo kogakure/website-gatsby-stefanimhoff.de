@@ -4,7 +4,6 @@ title: Underwear
 author: Stefan Imhoff
 date: 2016-02-12T07:00:11+02:00
 description: "Netflix released a new Japanese TV Show: Underwear (Atelier). I highly recommend this brilliant work about a young girl starting in an exclusive custom tailoring lingerie store in Toyko."
-cover: ./netflix-underwear.jpg
 categories:
   - film
 ---
@@ -12,6 +11,8 @@ categories:
 ## A Fantastic, New Japanese Netflix TV Show
 
 From time to time – but not very often – a TV Show gets released, which surprises me. This happened last time in 2007 with _Pushing Daisies_, where I loved everything: the story, the actors, the sets, every dialog. And now it happened again. I have a new favorite TV Show: [Underwear](http://www.imdb.com/title/tt4790548/) (_Underwear_).
+
+![Underwear](./netflix-underwear.jpg)
 
 **Underwear** (<span lang="ja">アンダーウェア</span>) or Atelier, is a mini-television series produced by **Netflix** and **Fuji TV**. You can add it to your watchlist on Netflix [here](https://www.netflix.com/title/80067618) or [watch a Trailer on YouTube](https://youtu.be/CSnj2J6aVmI).
 

@@ -4,12 +4,6 @@ title: June 2020 Favorites
 date: 2020-06-30T18:00:00+02:00
 author: Stefan Imhoff
 description: A list of all the things I enjoyed in June 2020.
-cover: ./cover.jpg
-og: ./og.jpg
-attribution:
-  - author: Roan Lavery
-    title: Djúpalónssandur Beach, Iceland
-    url: https://unsplash.com/photos/p9tE8gHjd6s
 categories:
   - monthly
 ---

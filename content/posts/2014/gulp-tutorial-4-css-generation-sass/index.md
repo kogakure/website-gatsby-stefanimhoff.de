@@ -4,11 +4,6 @@ title: Introduction to Gulp.js 04
 author: Stefan Imhoff
 date: 2014-10-21T10:30:00+02:00
 description: "The ultimative tutorial and guide for Gulp.js: How to create CSS and Source Maps with Sass and Compass."
-cover: ./gulp-tutorial-4.jpg
-attribution:
-  - author: Gage Skidmore
-    title: Sarah Palin
-    url: https://www.flickr.com/photos/gageskidmore/8571336210
 categories:
   - code
 series:

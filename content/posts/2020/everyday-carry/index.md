@@ -4,7 +4,6 @@ title: Everyday Carry
 date: 2020-03-14T15:30:00+02:00
 author: Stefan Imhoff
 description: In this article I show my Everyday Carries and explain why I carry them.
-og: ./og.jpg
 attribution:
   - author: Stefan Imhoff
     title: My Everyday Carries

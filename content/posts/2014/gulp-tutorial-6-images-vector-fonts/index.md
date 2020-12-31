@@ -5,11 +5,6 @@ slug: gulp-tutorial-6-images-vector-fonts
 author: Stefan Imhoff
 date: 2014-10-23T08:00:00+02:00
 description: "The ultimative tutorial and guide for Gulp.js: How to move images and generate vector fonts from SVG."
-cover: ./gulp-tutorial-6.jpg
-attribution:
-  - author: 世書 名付
-    title: Mini Gulp
-    url: https://www.flickr.com/photos/nseika/9477122568
 categories:
   - code
 series:

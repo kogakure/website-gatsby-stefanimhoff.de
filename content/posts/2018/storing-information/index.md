@@ -4,10 +4,6 @@ title: How to Store Information
 date: 2018-10-03T18:00:00+02:00
 author: Stefan Imhoff
 description: How I save and process information, so I can find it again quickly and store it so I can’t loose it again.
-cover: ./book-store.jpg
-attribution:
-  - author: Brandon Lopez
-    url: https://unsplash.com/photos/3E_8XgqRSps
 categories:
   - self-improvement
 ---

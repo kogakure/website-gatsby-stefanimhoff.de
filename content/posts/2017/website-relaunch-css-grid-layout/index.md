@@ -4,13 +4,14 @@ title: Website Relaunch with CSS Grid Layout
 date: 2017-08-14T12:00:00+02:00
 author: Stefan Imhoff
 description: I redesigned my martial arts website with CSS Grid Layout and added a Service Worker.
-cover: ./kogakure-2017.jpg
 categories:
   - code
   - design
 ---
 
 4 months of work, 49 hours of coding, plus more hours for designing a new homepage, creating a new OTF font, and polishing up some of my old 3D models. But now my martial arts website [kogakure.de](https://www.kogakure.de/) is online.
+
+![Website Relaunch](./kogakure-2017.jpg)
 
 The old website still used Jekyll, and it took a long time to generate and deploy my website. For the same reasons I migrated this website to [Hugo] – which are speed and getting rid of Ruby – I decided to do the same for [kogakure.de].
 

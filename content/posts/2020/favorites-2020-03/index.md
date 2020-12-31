@@ -4,11 +4,6 @@ title: March 2020 Favorites
 date: 2020-03-31T19:00:00+02:00
 author: Stefan Imhoff
 description: A list of all the things I enjoyed in March 2020.
-cover: ./cover.jpg
-attribution:
-  - author: Sergey Shmidt
-    title: Diamond Valley Lake, United States
-    url: https://unsplash.com/photos/koy6FlCCy5s
 categories:
   - monthly
 ---

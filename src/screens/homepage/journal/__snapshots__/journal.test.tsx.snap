@@ -141,7 +141,7 @@ a:focus .c7 {
   margin-top: 0;
 }
 
-.c16 {
+.c15 {
   cursor: pointer;
 }
 
@@ -238,15 +238,10 @@ a:focus .c7 {
   text-decoration: none;
 }
 
-.c17 {
+.c16 {
   display: block;
   font-size: clamp(0.65rem,0.8vw,0.75rem);
   font-variant: small-caps;
-}
-
-.c15 {
-  height: 10rem;
-  object-fit: cover;
 }
 
 @media screen and (prefers-reduced-motion:no-preference) {
@@ -325,29 +320,33 @@ a:focus .c7 {
         >
           I am writing about code, design, productivity, self-improvement, films, and books in this Journal and publish a monthly article with recommendations.
         </p>
-        <a
-          class="c5"
-          href="/journal/"
+        <p
+          class="c4"
         >
-          Read all articles
-          <span
-            class="c6 c7"
+          <a
+            class="c5"
+            href="/journal/"
           >
-            <svg
-              height="1em"
-              viewBox="0 0 24 24"
-              width="1em"
+            See all articles
+            <span
+              class="c6 c7"
             >
-              <path
-                d="M0 0h24v24H0z"
-                fill="none"
-              />
-              <path
-                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-              />
-            </svg>
-          </span>
-        </a>
+              <svg
+                height="1em"
+                viewBox="0 0 24 24"
+                width="1em"
+              >
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+                <path
+                  d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                />
+              </svg>
+            </span>
+          </a>
+        </p>
       </div>
       <div
         class="c8"
@@ -396,42 +395,10 @@ a:focus .c7 {
         class="c14"
         href="/post-1"
       >
-        <div
-          class="c15 gatsby-image-wrapper"
-          style="position: relative; overflow: hidden;"
-        >
-          <div
-            aria-hidden="true"
-            style="width: 100%; padding-bottom: 151.5151515151515%;"
-          />
-          <img
-            alt=""
-            aria-hidden="true"
-            src="data:image/jpeg;base64,XYZ"
-            style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 1; transition-delay: 500ms;"
-          />
-          <picture>
-            <source
-              sizes="(max-width: 1400px) 100vw, 1400px"
-              srcset="/static/cover.jpg 200w, /static/cover.jpg 400w"
-            />
-            <img
-              alt=""
-              loading="lazy"
-              sizes="(max-width: 1400px) 100vw, 1400px"
-              src="/static/cover.jpg"
-              srcset="/static/cover.jpg 200w, /static/cover.jpg 400w"
-              style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; object-position: center; opacity: 0; transition: opacity 500ms;"
-            />
-          </picture>
-          <noscript>
-            &lt;picture&gt;&lt;source srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" sizes="(max-width: 1400px) 100vw, 1400px" /&gt;&lt;img loading="lazy" sizes="(max-width: 1400px) 100vw, 1400px" srcset="/static/cover.jpg 200w, /static/cover.jpg 400w" src="/static/cover.jpg" alt="" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/&gt;&lt;/picture&gt;
-          </noscript>
-        </div>
         <header>
           <time
             aria-label="Toggle date format"
-            class="c16 c17"
+            class="c15 c16"
             datetime="2020-05-31T16:00:00.000Z"
             role="button"
             tabindex="0"
@@ -443,6 +410,7 @@ a:focus .c7 {
           >
             Post 1
           </h3>
+          This is an excerpt
         </header>
       </a>
     </article>

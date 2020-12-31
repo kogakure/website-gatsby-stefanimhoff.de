@@ -4,11 +4,6 @@ title: Introduction to Gulp.js 12
 author: Stefan Imhoff
 date: 2014-10-29T08:00:00+02:00
 description: "The ultimative tutorial and guide for Gulp.js: How to optimize CSS, JavaScript, images and HTML to speed up your website."
-cover: ./gulp-tutorial-12.jpg
-attribution:
-  - author: Reed
-    title: Picnic
-    url: https://www.flickr.com/photos/ishatter/3614672744
 categories:
   - code
 series:

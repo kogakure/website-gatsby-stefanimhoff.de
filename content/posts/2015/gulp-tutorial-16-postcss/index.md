@@ -4,11 +4,6 @@ title: Introduction to Gulp.js 16
 author: Stefan Imhoff
 date: 2015-10-16T07:50:29+00:00
 description: "The ultimative tutorial and guide for Gulp.js: How to use PostCSS with Gulp to process CSS and how to lint your CSS files with Stylelint."
-cover: ./gulp-tutorial-16.jpg
-attribution:
-  - author: Al del barrio
-    title: Gulp
-    url: https://www.flickr.com/photos/chaos/385142766/
 categories:
   - code
 series:
@@ -28,8 +23,6 @@ There are a lot of Preprocessors, Libraries, Frameworks, which extend CSS. And a
 ## What is PostCSS and why should I use it?
 
 There is a new kid on the block: [PostCSS](https://github.com/postcss/postcss). I don’t care, if it’s Preprocessor, a Postprocessor or just a Processor. You write something, it will process your stuff and it will put out CSS.
-
-![Philosopher’s stone, logo of PostCSS](./postcss-logo.svg "Philosopher’s stone, logo of PostCSS")
 
 Why should you use a new tool, if Sass and it’s competitors do their job? Because it’s **fast** ([3-30 times faster](https://github.com/postcss/benchmark)), **modular** and **extendible**. I bet you only need a small fraction of your Preprocessors functionality.
 

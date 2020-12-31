@@ -4,10 +4,6 @@ title: Introduction to Gulp.js 11
 author: Stefan Imhoff
 date: 2014-10-28T07:30:00+02:00
 description: "The ultimative tutorial and guide for Gulp.js: How to write the production task for Jekyll and BrowserSync."
-cover: ./gulp-tutorial-11.jpg
-attribution:
-  - author: Hannah
-    url: https://www.flickr.com/photos/girlaphid/4570474834
 categories:
   - code
 series:
