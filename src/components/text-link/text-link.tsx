@@ -18,7 +18,6 @@ export const TextLink = ({
   ...props
 }: TextLinkProps) =>
   to ? (
-    // https://github.com/styled-components/styled-components/issues/1198
     <Styled.TextLinkRouter $block={block} to={to} {...props}>
       {children}
     </Styled.TextLinkRouter>
