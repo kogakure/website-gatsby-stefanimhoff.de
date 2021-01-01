@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fa475948-4bb1-4611-94fd-d874ad79cf88/deploy-status)](https://app.netlify.com/sites/stefanimhoff-de/deploys)
 [![Live](https://img.shields.io/badge/live-stefanimhoff.de-green.svg)](https://www.stefanimhoff.de/)
-![Maintenance](https://img.shields.io/maintenance/yes/2020.svg)
+![Maintenance](https://img.shields.io/maintenance/yes/2021.svg)
 
 # stefanimhoff.de
 
