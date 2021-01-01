@@ -1,6 +1,6 @@
 ---
 published: true
-title: Introduction to Gulp.js 10
+title: "Introduction to Gulp.js 10: Generating CSS Image Sprites"
 author: Stefan Imhoff
 date: 2014-10-27T07:40:00+02:00
 description: "The ultimative tutorial and guide for Gulp.js: How to generate image sprite maps with Spritesmith."
@@ -9,8 +9,6 @@ categories:
 series:
   - gulp
 ---
-
-## Generating CSS Image Sprites
 
 This is the 10th part of my series _Introduction to Gulp.js_. Today I will use Gulp.js to create CSS image sprites.
 

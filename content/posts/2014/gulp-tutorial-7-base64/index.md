@@ -1,6 +1,6 @@
 ---
 published: true
-title: Introduction to Gulp.js 07
+title: "Introduction to Gulp.js 07: Base64 Encoded Images"
 author: Stefan Imhoff
 date: 2014-10-24T07:30:00+02:00
 description: "The ultimative tutorial and guide for Gulp.js: How to replace small images with base64 encoded images."
@@ -10,11 +10,7 @@ series:
   - gulp
 ---
 
-## Base64 Encoded Images
-
 This is the 7th part of my series _Introduction to Gulp.js_. Today I will use Gulp.js to replace a lot of my URLs to small images with Base64 encoded images.
-
-## Base64 encoded images
 
 The last task executed by my `build` task is one, which replaces the URLs of small images in my CSS files with Base64 encoded images. This way the images get embedded into the CSS file and don’t need an additional server request. If the images are not too large this will speed up the loading of my website a lot.
 

@@ -1,6 +1,6 @@
 ---
 published: true
-title: Introduction to Gulp.js 11
+title: "Introduction to Gulp.js 11: Production Build, Server and Jekyll"
 author: Stefan Imhoff
 date: 2014-10-28T07:30:00+02:00
 description: "The ultimative tutorial and guide for Gulp.js: How to write the production task for Jekyll and BrowserSync."
@@ -9,8 +9,6 @@ categories:
 series:
   - gulp
 ---
-
-## Production Build, Server and Jekyll
 
 This is the 11th part of my series _Introduction to Gulp.js_. Today I will start writing the production build task, set up a server to view the production code, and build the production site with Jekyll.
 

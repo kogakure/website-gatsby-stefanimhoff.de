@@ -1,6 +1,6 @@
 ---
 published: true
-title: Introduction to Gulp.js 09
+title: "Introduction to Gulp.js 09: Syntax-Check of SCSS and JavaScript"
 author: Stefan Imhoff
 date: 2014-10-26T08:10:00+02:00
 description: "The ultimative tutorial and guide for Gulp.js: How to check the syntax of SCSS and JavaScript files."
@@ -9,8 +9,6 @@ categories:
 series:
   - gulp
 ---
-
-## Syntax-Check of SCSS and JavaScript
 
 This is the 9th part of my series _Introduction to Gulp.js_. Today I will use Gulp.js to automatically check my SCSS and JavaScript files for syntax errors and warnings.
 
