@@ -103,7 +103,7 @@ Darkness cannot drive out darkness; only light can do that. Hate cannot drive ou
 
 - [How to Sell Protest Footage to FOX AND CNN](https://youtu.be/xiYZ__Ww02c)
 - [Joe Rogan interviews Tim Pool & Jack Dorsey](https://youtu.be/NEArAlNMuE4) – A funny cartoon by FreedomToons.
-- [What It’s Like Getting Censored on YouTube](https://youtu.be/RGxbaxviRVw) – One of JP Spears comedy videos was recently unjustifiable censored by YouTube. This video mocks how this process works.
+- [What It’s Like Getting Censored on YouTube](https://youtu.be/RGxbaxviRVw) – One of JP Sears comedy videos was recently unjustifiable censored by YouTube. This video mocks how this process works.
 - [Emotional Distancing Guidelines](https://youtu.be/ohRQ1ZbqcwE)
 - [The First Morbidly Plus Sized Fashion Photographer](https://youtu.be/dAbHbCVwyqg)
 - [A Brief History of Socialism](https://youtu.be/zZz2HF5KtrY)

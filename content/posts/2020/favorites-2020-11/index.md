@@ -85,7 +85,7 @@ The problem with Human beings is somebody always shags a monkey.
 ### Humor
 
 - [What Spiritual People Are Like This Election](https://youtu.be/SN0TQ1QIX10) – Funny take on 2020 from the perspective of a spiritual US American.
-- [Biden Won! Here’s What You Need To Know](https://youtu.be/lBZ-KiYoU68) – JP Spears explains what can happen till January when the next president takes office. Prepare for _Nancy Pelocy_ as your next president. 😅
+- [Biden Won! Here’s What You Need To Know](https://youtu.be/lBZ-KiYoU68) – JP Sears explains what can happen till January when the next president takes office. Prepare for _Nancy Pelocy_ as your next president. 😅
 - [The Vote Counting Effort In Nevada](https://youtu.be/iCMoKTd2xAI) – _Dim Dillon_ is spot on with his humor on election counting in Nevada.
 - [How a Civil War Could Start!](https://youtu.be/6luFJvZt-og)
 - [Election goes to supreme court…](https://youtu.be/VA4x1-nWN5E) – Democrats can only pray the election doesn’t end in front of the supreme court.
