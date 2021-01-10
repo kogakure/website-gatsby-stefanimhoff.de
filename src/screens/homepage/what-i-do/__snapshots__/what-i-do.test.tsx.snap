@@ -122,7 +122,6 @@ a:focus .c8 {
   column-count: 1;
   -webkit-column-gap: 2.775vw;
   column-gap: 2.775vw;
-  margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
 }
 
 @media screen and (prefers-reduced-motion:no-preference) {
@@ -208,40 +207,40 @@ a:focus .c8 {
       >
         Hackweeks
       </a>
-      , I was part of a small team creating a completely new job platform for freelancers. I am also a three-time winner of the
+      I was part of a small team creating a completely new job platform for freelancers. I am also a three-time winner of the
        
       <em>
         Prototyping Days
       </em>
       , a yearly two-day company-wide prototyping event.
     </p>
-  </div>
-  <p
-    class="c5"
-  >
-    <a
-      class="c6"
-      href="/projects/"
+    <p
+      class="c5"
     >
-      See what I do
-      <span
-        class="c7 c8"
+      <a
+        class="c6"
+        href="/projects/"
       >
-        <svg
-          height="1em"
-          viewBox="0 0 24 24"
-          width="1em"
+        See what I do
+        <span
+          class="c7 c8"
         >
-          <path
-            d="M0 0h24v24H0z"
-            fill="none"
-          />
-          <path
-            d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-          />
-        </svg>
-      </span>
-    </a>
-  </p>
+          <svg
+            height="1em"
+            viewBox="0 0 24 24"
+            width="1em"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+            />
+          </svg>
+        </span>
+      </a>
+    </p>
+  </div>
 </div>
 `;
