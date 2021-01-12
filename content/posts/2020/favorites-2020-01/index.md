@@ -8,8 +8,6 @@ categories:
   - monthly
 ---
 
-## Things I Enjoyed in January 2020
-
 <Blockquote author="Benjamin Franklin">
 
 Search others for their virtues, thyself for thy vices.

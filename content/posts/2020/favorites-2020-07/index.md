@@ -8,8 +8,6 @@ categories:
   - monthly
 ---
 
-## Things I enjoyed in July 2020
-
 <Blockquote author="Thomas Sowell">
 
 The word _racism_ is like ketchup. It can be put on practically anything – and demanding evidence makes you a _racist_.

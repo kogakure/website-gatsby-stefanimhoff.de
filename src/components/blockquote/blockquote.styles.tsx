@@ -7,7 +7,7 @@ const Blockquote = styled.blockquote`
   margin-bottom: ${space[12]};
   margin-left: 0;
   margin-right: 0;
-  margin-top: ${space[12]};
+  margin-top: 0;
 
   &[lang|='ja'] {
     font-style: normal;

@@ -8,8 +8,6 @@ categories:
   - monthly
 ---
 
-## Things I enjoyed in November 2020
-
 <Blockquote author="Douglas Murray" source="The Portal: 41: Douglas Murray – Heroism 2020: Defense of Our Own Civilization, 50:00" sourceUrl="https://podcasts.apple.com/de/podcast/the-portal/id1469999563?i=1000495880717">
 
 The problem with Human beings is somebody always shags a monkey.

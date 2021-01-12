@@ -8,8 +8,6 @@ categories:
   - monthly
 ---
 
-## Things I enjoyed in August 2020
-
 <Blockquote author="Alexander Solzhenitsyn" source="Gulag Archipelago">
 
 The line separating good and evil passes not through states, nor between classes, nor between political parties either – but right through every human heart – and through all human hearts. This line shifts. Inside us, it oscillates with the years. And even within hearts overwhelmed by evil, one small bridgehead of good is retained.

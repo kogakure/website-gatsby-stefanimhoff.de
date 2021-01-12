@@ -33,7 +33,7 @@ exports[`Projects HamburgBlog renders correctly 1`] = `
   text-decoration-color: var(--colorAccent);
 }
 
-.c9 {
+.c8 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -52,8 +52,8 @@ exports[`Projects HamburgBlog renders correctly 1`] = `
 }
 
 a:hover .c8,
-a:active .c9,
-a:focus .c9 {
+a:active .c8,
+a:focus .c8 {
   -webkit-transform: translate3D(0.25rem,0,0);
   -ms-transform: translate3D(0.25rem,0,0);
   transform: translate3D(0.25rem,0,0);
@@ -123,7 +123,7 @@ a:focus .c9 {
   grid-column: 1 / -1;
 }
 
-.c11 {
+.c10 {
   height: 100%;
   position: relative;
   -webkit-transition-duration: 500ms;
@@ -136,14 +136,14 @@ a:focus .c9 {
   width: 100%;
 }
 
-.c11:hover,
-.c11:focus {
+.c10:hover,
+.c10:focus {
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
 }
 
-.c11::after {
+.c10::after {
   box-shadow: 0 0 50px rgba(0,0,0,0.2);
   content: '';
   height: 100%;
@@ -161,18 +161,18 @@ a:focus .c9 {
   z-index: -1;
 }
 
-.c11:hover::after,
-.c11:focus::after {
+.c10:hover::after,
+.c10:focus::after {
   opacity: 1;
 }
 
-.c12 {
+.c11 {
   border-color: var(--colorForegroundSoft);
   border-style: solid;
   border-width: 1px;
 }
 
-.c10 {
+.c9 {
   width: 100%;
 }
 
@@ -190,7 +190,7 @@ a:focus .c9 {
   width: 100%;
 }
 
-.c13 {
+.c12 {
   border-left-width: 0;
   border-right-width: 0;
   grid-row: 1;
@@ -232,7 +232,7 @@ a:focus .c9 {
 }
 
 @media (min-width:768px) {
-  .c13 {
+  .c12 {
     border-left-width: 1px;
     border-right-width: 1px;
     grid-column: 2;
@@ -285,7 +285,7 @@ a:focus .c9 {
       >
         More
         <span
-          class="c8 c9"
+          class="c8"
         >
           <svg
             height="1em"
@@ -304,15 +304,15 @@ a:focus .c9 {
       </a>
     </div>
     <div
-      class="c10"
+      class="c9"
       data-sal="slide-up"
       data-sal-duration="800"
     >
       <div
-        class="c11"
+        class="c10"
       >
         <div
-          class="c12 c13 gatsby-image-wrapper"
+          class="c11 c12 gatsby-image-wrapper"
           style="position: relative; overflow: hidden;"
         >
           <div

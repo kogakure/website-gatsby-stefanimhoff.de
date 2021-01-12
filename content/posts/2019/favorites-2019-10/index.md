@@ -8,8 +8,6 @@ categories:
   - monthly
 ---
 
-## Things I Enjoyed in October 2019
-
 <Blockquote author="Jules Supervielle" source="Dieu Pense à l'Homme (God Thinks of Man)">
 
 I, infinite silence, will grant you words.

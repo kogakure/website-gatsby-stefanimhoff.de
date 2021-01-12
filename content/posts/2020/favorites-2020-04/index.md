@@ -8,8 +8,6 @@ categories:
   - monthly
 ---
 
-## Things I Enjoyed in April 2020
-
 <Blockquote author="Virgil" source="The Aeneid, Book X, Verse 467">
 
 Stat sua cuique dies (To each his day is given)

@@ -8,8 +8,6 @@ categories:
   - monthly
 ---
 
-## Things I enjoyed in June 2020
-
 <Blockquote author="Jon Acuff">
 
 The scars you share become lighthouses for other people who are headed to the same rocks you hit.

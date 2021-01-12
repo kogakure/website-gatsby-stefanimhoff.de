@@ -8,8 +8,6 @@ categories:
   - monthly
 ---
 
-## Things I Enjoyed in March 2020
-
 <Blockquote author="L. R. Knost">
 
 Do not be dismayed by the brokenness of the world. All things break, and all things can be mended. Not with time, as they say, but with intention. So go. Love intentionally, extravagantly, unconditionally. The broken world waits in darkness for the light that is you.

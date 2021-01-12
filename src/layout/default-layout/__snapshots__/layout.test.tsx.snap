@@ -453,10 +453,10 @@ exports[`Layout renders correctly 1`] = `
             class="c26"
           >
             <time
-              datetime="2020"
+              datetime="2021"
             >
               2006–
-              2020
+              2021
             </time>
           </span>
         </div>
@@ -919,10 +919,10 @@ exports[`Layout with variant "blue" renders correctly 1`] = `
             class="c26"
           >
             <time
-              datetime="2020"
+              datetime="2021"
             >
               2006–
-              2020
+              2021
             </time>
           </span>
         </div>
@@ -1385,10 +1385,10 @@ exports[`Layout with variant "brown" renders correctly 1`] = `
             class="c26"
           >
             <time
-              datetime="2020"
+              datetime="2021"
             >
               2006–
-              2020
+              2021
             </time>
           </span>
         </div>
@@ -1851,10 +1851,10 @@ exports[`Layout with variant "green" renders correctly 1`] = `
             class="c26"
           >
             <time
-              datetime="2020"
+              datetime="2021"
             >
               2006–
-              2020
+              2021
             </time>
           </span>
         </div>

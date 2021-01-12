@@ -8,8 +8,6 @@ categories:
   - monthly
 ---
 
-## Things I Enjoyed in August 2019
-
 I’m trying out a new format: A _monthly_ blog post, including all links, articles, videos, books, products, or other things I liked in the month.
 
 <Blockquote author="Seneca" source="Letters from a Stoic, Letter VI">

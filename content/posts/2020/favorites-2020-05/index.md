@@ -8,8 +8,6 @@ categories:
   - monthly
 ---
 
-## Things I Enjoyed in May 2020
-
 <Blockquote author="Aristoteles">
 
 We are what we repeatedly do, therefore, excellence is not an act but a habit

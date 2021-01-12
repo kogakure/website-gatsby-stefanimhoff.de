@@ -8,8 +8,6 @@ categories:
   - monthly
 ---
 
-## Things I enjoyed in October 2020
-
 <Blockquote source="Metal Gear Solid 2: Sons of Liberty, 2001">
 
 The untested truths spun by different interests continue to churn and accumulate … No one is invalidated, but nobody is right. Not even natural selection can take place here. The world is being engulfed in ‘truth.’ And this is the way the world ends. Not with a bang, but a whimper.

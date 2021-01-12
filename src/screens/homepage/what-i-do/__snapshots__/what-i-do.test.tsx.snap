@@ -33,7 +33,7 @@ exports[`Homepage WhatIDo renders correctly 1`] = `
   text-decoration-color: var(--colorAccent);
 }
 
-.c8 {
+.c7 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -52,8 +52,8 @@ exports[`Homepage WhatIDo renders correctly 1`] = `
 }
 
 a:hover .c7,
-a:active .c8,
-a:focus .c8 {
+a:active .c7,
+a:focus .c7 {
   -webkit-transform: translate3D(0.25rem,0,0);
   -ms-transform: translate3D(0.25rem,0,0);
   transform: translate3D(0.25rem,0,0);
@@ -223,7 +223,7 @@ a:focus .c8 {
       >
         See what I do
         <span
-          class="c7 c8"
+          class="c7"
         >
           <svg
             height="1em"

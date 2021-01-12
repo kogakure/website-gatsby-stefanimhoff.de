@@ -8,8 +8,6 @@ categories:
   - monthly
 ---
 
-## Things I Enjoyed in September 2019
-
 <Blockquote author="Marcus Aurelius" source="The Meditations, 9.6">
 
 Objective judgment, now, at this very moment. Unselfish action, now, at this very moment. Willing acceptance — now, at this very moment — of all external events.

@@ -8,8 +8,6 @@ categories:
   - monthly
 ---
 
-## Things I Enjoyed in December 2019
-
 <Blockquote author="Helmuth Karl Bernhard Graf von Moltke" source="Donnybrook: The Battle of Bull Run, 1861 (2005) by David Detzer, p. 233">
 
 No battle plan ever survives contact with the enemy.

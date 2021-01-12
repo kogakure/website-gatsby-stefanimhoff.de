@@ -6,7 +6,7 @@ exports[`Blockquote renders in author 1`] = `
   margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: clamp(2.074rem,4.44vw,2.488rem);
+  margin-top: 0;
 }
 
 .c0[lang|='ja'] {
@@ -71,7 +71,7 @@ exports[`Blockquote renders in author, source 1`] = `
   margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: clamp(2.074rem,4.44vw,2.488rem);
+  margin-top: 0;
 }
 
 .c0[lang|='ja'] {
@@ -158,7 +158,7 @@ exports[`Blockquote renders in author, source, sourceUrl 1`] = `
   margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: clamp(2.074rem,4.44vw,2.488rem);
+  margin-top: 0;
 }
 
 .c0[lang|='ja'] {
@@ -235,7 +235,7 @@ exports[`Blockquote renders in author, sourceUrl 1`] = `
   margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: clamp(2.074rem,4.44vw,2.488rem);
+  margin-top: 0;
 }
 
 .c0[lang|='ja'] {
@@ -300,7 +300,7 @@ exports[`Blockquote renders in default 1`] = `
   margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: clamp(2.074rem,4.44vw,2.488rem);
+  margin-top: 0;
 }
 
 .c0[lang|='ja'] {
@@ -354,7 +354,7 @@ exports[`Blockquote renders in german 1`] = `
   margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: clamp(2.074rem,4.44vw,2.488rem);
+  margin-top: 0;
 }
 
 .c0[lang|='ja'] {
@@ -408,7 +408,7 @@ exports[`Blockquote renders in japanese 1`] = `
   margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: clamp(2.074rem,4.44vw,2.488rem);
+  margin-top: 0;
 }
 
 .c0[lang|='ja'] {
@@ -462,7 +462,7 @@ exports[`Blockquote renders in source 1`] = `
   margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: clamp(2.074rem,4.44vw,2.488rem);
+  margin-top: 0;
 }
 
 .c0[lang|='ja'] {
@@ -539,7 +539,7 @@ exports[`Blockquote renders in source, sourceUrl 1`] = `
   margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: clamp(2.074rem,4.44vw,2.488rem);
+  margin-top: 0;
 }
 
 .c0[lang|='ja'] {
@@ -606,7 +606,7 @@ exports[`Blockquote renders in sourceUrl 1`] = `
   margin-bottom: clamp(2.074rem,4.44vw,2.488rem);
   margin-left: 0;
   margin-right: 0;
-  margin-top: clamp(2.074rem,4.44vw,2.488rem);
+  margin-top: 0;
 }
 
 .c0[lang|='ja'] {

@@ -8,8 +8,6 @@ categories:
   - monthly
 ---
 
-## Things I Enjoyed in February 2020
-
 <Blockquote author="Otto von Bismarck">
 
 Fools learn from experience. I prefer to learn from the experience of others.

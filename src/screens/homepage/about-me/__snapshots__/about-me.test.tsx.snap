@@ -17,7 +17,7 @@ exports[`Homepage AboutMe renders correctly 1`] = `
   text-decoration-color: var(--colorAccent);
 }
 
-.c6 {
+.c5 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -36,8 +36,8 @@ exports[`Homepage AboutMe renders correctly 1`] = `
 }
 
 a:hover .c5,
-a:active .c6,
-a:focus .c6 {
+a:active .c5,
+a:focus .c5 {
   -webkit-transform: translate3D(0.25rem,0,0);
   -ms-transform: translate3D(0.25rem,0,0);
   transform: translate3D(0.25rem,0,0);
@@ -156,7 +156,7 @@ a:focus .c6 {
     >
       Read more about me
       <span
-        class="c5 c6"
+        class="c5"
       >
         <svg
           height="1em"

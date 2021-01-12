@@ -8,8 +8,6 @@ categories:
   - monthly
 ---
 
-## Things I enjoyed in September 2020
-
 <Blockquote author="Dr. Martin Luther King, Jr.">
 
 Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.

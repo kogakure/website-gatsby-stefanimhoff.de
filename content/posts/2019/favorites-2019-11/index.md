@@ -8,8 +8,6 @@ categories:
   - monthly
 ---
 
-## Things I Enjoyed in November 2019
-
 <Blockquote author="Marcus Aurelius" source="Meditations, 6.37">
 
 If you’ve seen the present, you’ve seen all things, from time immemorial into all of eternity. For everything that happens is related and the same.
