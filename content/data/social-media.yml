@@ -4,6 +4,8 @@
   url: 'https://gab.com/kogakure'
 - text: 'Parler'
   url: 'https://parler.com/kogakure'
+- text: 'Minds'
+  url: 'https://www.minds.com/kogakure/'
 - text: 'Mastodon'
   url: 'https://mastodon.social/@kogakure'
 - text: 'GitHub'
