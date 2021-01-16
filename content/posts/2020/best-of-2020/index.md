@@ -195,7 +195,7 @@ I started writing my notes in [DEVONthink](https://devontechnologies.com/apps/de
 
 Obsidian is incredible powerful with it’s features as backlinks, auto-complete, note [graph](https://youtu.be/058Tvff2Fso), [block references](https://youtu.be/oqx2O0aXZjQ), and a huge amount of [plugins](https://youtu.be/2Hrja0SRgO0).
 
-I started following the YouTube channels [Linking Your Thinking](https://www.youtube.com/channel/UC85D7ERwhke7wVqskV_DZUA) that has well made [6-part introduction](https://youtu.be/QgbLb6QCK88) for Obsidian beginners. [Effective Remote Work](https://www.youtube.com/channel/UCkzyo69rqBoBJUyQ9jo53Bw) has a lot of tutorials. [Curtis McHale](https://www.youtube.com/user/SFNdesignWP) shows in long tutorials how he creates notes from literature.
+I started following the YouTube channels [Linking Your Thinking](https://www.youtube.com/channel/UC85D7ERwhke7wVqskV_DZUA) that has well made [6-part introduction](https://youtu.be/QgbLb6QCK88) for Obsidian beginners. [Effective Remote Work](https://www.youtube.com/channel/UCkzyo69rqBoBJUyQ9jo53Bw) has a lot of tutorials.
 
 ## Konmari Folding Method
 
