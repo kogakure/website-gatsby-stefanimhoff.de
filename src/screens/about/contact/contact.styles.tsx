@@ -7,11 +7,11 @@ const Contact = styled.section`
   grid-row: 5;
 
   @media (${mediaQuery.tablet}) {
-    grid-column: 3 / 8;
+    grid-column: 3 / 11;
   }
 
   @media (${mediaQuery.desktop}) {
-    grid-column: 5 / 8;
+    grid-column: 5 / 9;
   }
 `;
 

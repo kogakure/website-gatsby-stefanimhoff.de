@@ -3,6 +3,7 @@ import * as React from 'react';
 import { Emojify } from '../../../layout';
 import { Paragraph, Subheadline } from '../../../components/typography';
 import { ProtectedEmail } from '../../../components/protected-email';
+import { TextLink } from '../../../components/text-link';
 
 import { Styled } from './contact.styles';
 
@@ -16,8 +17,20 @@ export const Contact = () => (
       You’ve got mail!
       <Emojify emoji="📬" />
     </Paragraph>
-    <Paragraph noMargin>
+    <Paragraph>
       <ProtectedEmail title="Say hello." />
+    </Paragraph>
+    <Paragraph noMargin>
+      You can send me a text message on{' '}
+      <TextLink href="https://matrix.to/#/@kogakure:matrix.org">
+        Matrix
+      </TextLink>{' '}
+      or anonymous on{' '}
+      <TextLink href="https://getsession.org/">Session</TextLink> (
+      <TextLink href="/downloads/session-id.txt" target="_blank">
+        Public Key
+      </TextLink>
+      ).
     </Paragraph>
   </Styled.Contact>
 );
