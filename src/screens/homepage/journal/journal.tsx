@@ -45,7 +45,7 @@ export const Journal = ({ ...props }) => {
                 RSS feed
               </TextLink>
               , and follow me on{' '}
-              <TextLink href="https://twitter.com/kogakure">Twitter</TextLink>.
+              <TextLink href="https://www.minds.com/kogakure/">Minds</TextLink>.
             </Paragraph>
           </Styled.Subscribe>
         </Styled.Introduction>
