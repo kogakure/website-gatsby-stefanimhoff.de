@@ -166,7 +166,7 @@ exports[`About Contact renders correctly 1`] = `
       rel="nofollow noopener noreferrer external"
       target="_blank"
     >
-      Public Key
+      ID
     </a>
     ).
   </p>

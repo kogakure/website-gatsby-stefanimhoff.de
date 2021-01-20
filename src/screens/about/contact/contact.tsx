@@ -28,7 +28,7 @@ export const Contact = () => (
       or anonymous on{' '}
       <TextLink href="https://getsession.org/">Session</TextLink> (
       <TextLink href="/downloads/session-id.txt" target="_blank">
-        Public Key
+        ID
       </TextLink>
       ).
     </Paragraph>
