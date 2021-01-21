@@ -7,10 +7,7 @@ Living in **Hamburg**, Germany and working as a **Senior Software Engineer** on 
 **Waking up** each morning at **7:00** and **going to bed** at **22:30**. **Meditating** 15-20 minutes every morning.
 Learning **Japanese** and **Spanish** every day on [Duolingo](https://www.duolingo.com/profile/kogakure). Doing <TextLink to="/calisthenics/">Calisthenics</TextLink> 3 times a week.
 
-Working with the [Zettelkasten](https://zettelkasten.de/) note-taking method:
-
-- **847** notes
-- **148** bibliography entries
+---
 
 I’m reading currently these **books**:
 
@@ -22,4 +19,11 @@ I’m reading currently these **books**:
 
 ---
 
-This is a [Now Page](https://nownownow.com/). Last updated on **January 16st, 2021**.
+I’m working with the [Zettelkasten](https://zettelkasten.de/) note-taking method. These are some statistics:
+
+- **847** notes
+- **148** bibliography entries
+
+---
+
+This is a [Now Page](https://nownownow.com/). Last updated on **January 21st, 2021**.
