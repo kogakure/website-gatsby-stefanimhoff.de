@@ -112,14 +112,7 @@ module.exports = {
           {
             resolve: 'gatsby-remark-copy-linked-files',
             options: {
-              ignoreFileExtensions: [
-                'png',
-                'jpg',
-                'jpeg',
-                'bmp',
-                'tiff',
-                'svg',
-              ],
+              ignoreFileExtensions: ['png', 'jpg', 'jpeg', 'bmp', 'tiff'],
             },
           },
           {
