@@ -32,7 +32,7 @@ export const WhatIDo = ({ ...props }) => (
       </Paragraph>
       <Paragraph>
         I love innovating: During multiple{' '}
-        <TextLink href="https://medium.com/xing-hackweek">Hackweeks</TextLink>I
+        <TextLink href="https://medium.com/xing-hackweek">Hackweeks</TextLink> I
         was part of a small team creating a completely new job platform for
         freelancers. I am also a three-time winner of the{' '}
         <em>Prototyping Days</em>, a yearly two-day company-wide
