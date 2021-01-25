@@ -335,9 +335,9 @@ I use [Shazam](https://www.shazam.com/) only for one case: To recognize songs an
 
 [1Password](https://1password.com/) is my Password manager and I use it already for many years. I store passwords, logins, personal information, and software licenses in it.
 
-### NordVPN 📱 🖥
+### ExpressVPN 📱 🖥
 
-[NordVPN](https://nordvpn.com/) is my current VPN provider. It’s ok and insanely cheap when bought for three years. But I’m thinking about switching to [ProtonVPN](https://protonvpn.com/) because I already use ProtonMail.
+[ExpressVPN](https://www.expressrefer.com/refer-friend?locale=de&referrer_id=65477408&utm_campaign=referrals&utm_medium=copy_link&utm_source=referral_dashboard) is my current VPN provider. I switched to it from NordVPN after my 3-year contract was over.
 
 ### Cryptomator 📱 🖥
 
@@ -345,7 +345,7 @@ I use [Shazam](https://www.shazam.com/) only for one case: To recognize songs an
 
 ### AdGuard Pro 📱
 
-[AddGuard](https://adguard.com/) is a good way of blocking advertising on iOS devices. I use it to block advertising system-wide on my iPhone and iPad.
+[AdGuard](https://adguard.com/) is a good way of blocking advertising on iOS devices. I use it to block advertising system-wide on my iPhone and iPad.
 
 ## Learning
 
