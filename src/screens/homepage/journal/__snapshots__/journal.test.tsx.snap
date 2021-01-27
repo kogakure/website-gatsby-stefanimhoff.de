@@ -368,14 +368,27 @@ a:focus .c6 {
           >
             RSS feed
           </a>
-          , and follow me on
+           
+          and follow my link recommendations on
            
           <a
             class="c10"
             href="https://www.minds.com/kogakure/"
             rel="nofollow noopener noreferrer external"
+            target="_blank"
           >
             Minds
+          </a>
+           
+          and
+           
+          <a
+            class="c10"
+            href="https://t.me/stefanimhoff"
+            rel="nofollow noopener noreferrer external"
+            target="_blank"
+          >
+            Telegram
           </a>
           .
         </p>

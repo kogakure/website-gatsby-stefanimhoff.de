@@ -43,9 +43,16 @@ export const Journal = ({ ...props }) => {
               Stay up to date. Subscribe to my{' '}
               <TextLink href="https://www.stefanimhoff.de/index.xml">
                 RSS feed
+              </TextLink>{' '}
+              and follow my link recommendations on{' '}
+              <TextLink href="https://www.minds.com/kogakure/" target="_blank">
+                Minds
+              </TextLink>{' '}
+              and{' '}
+              <TextLink href="https://t.me/stefanimhoff" target="_blank">
+                Telegram
               </TextLink>
-              , and follow me on{' '}
-              <TextLink href="https://www.minds.com/kogakure/">Minds</TextLink>.
+              .
             </Paragraph>
           </Styled.Subscribe>
         </Styled.Introduction>

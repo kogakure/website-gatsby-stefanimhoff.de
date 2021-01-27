@@ -144,8 +144,19 @@ exports[`About Contact renders correctly 1`] = `
      
     <a
       class="c4"
+      href="https://t.me/kogakure"
+      rel="nofollow noopener noreferrer external"
+      target="_blank"
+    >
+      Telegram
+    </a>
+    ,
+     
+    <a
+      class="c4"
       href="https://matrix.to/#/@kogakure:matrix.org"
       rel="nofollow noopener noreferrer external"
+      target="_blank"
     >
       Matrix
     </a>
@@ -156,10 +167,11 @@ exports[`About Contact renders correctly 1`] = `
       class="c4"
       href="https://getsession.org/"
       rel="nofollow noopener noreferrer external"
+      target="_blank"
     >
       Session
     </a>
-     (
+     (
     <a
       class="c4"
       href="/downloads/session-id.txt"
