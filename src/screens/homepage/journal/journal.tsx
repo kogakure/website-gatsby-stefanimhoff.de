@@ -47,10 +47,6 @@ export const Journal = ({ ...props }) => {
               and follow my link recommendations on{' '}
               <TextLink href="https://www.minds.com/kogakure/" target="_blank">
                 Minds
-              </TextLink>{' '}
-              and{' '}
-              <TextLink href="https://t.me/stefanimhoff" target="_blank">
-                Telegram
               </TextLink>
               .
             </Paragraph>

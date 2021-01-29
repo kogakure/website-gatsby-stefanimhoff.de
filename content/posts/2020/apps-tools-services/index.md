@@ -39,6 +39,10 @@ DEVONthink has data science algorithms that analyze your content and suggest a l
 
 I store everything in DEVONthink. Notes, PDF documents (scanned with OCR), images, videos, quotes, and use over 17000 different tags in 5 databases.
 
+### Obsidian 🖥
+
+I use [Obsidian](https://obsidian.md/) to write notes and to connect ideas. It’s the best tool I know for note-taking. In less than 6 month I created over 800 notes in Obsidian. It’s Markdown based and the files are plain text file on your hard drive.
+
 ### Scanner Pro 📱
 
 I use [Scanner Pro](https://apps.apple.com/app/scanner-pro-pdf-scanner-app/id333710667) on my iPhone and iPad. Nearly every document I get in a paper format I scan with this app. The documents get converted with [OCR](https://en.wikipedia.org/wiki/Optical_character_recognition) to PDF with searchable text and can be automatically saved to cloud storage like Dropbox or iCloud. From there I move the documents directly into DEVONthink.
@@ -133,11 +137,7 @@ It has support for RAW, PSD, 360° photo editing, HDR, batch automation, smart o
 
 I don’t use [Blender](https://www.blender.org/) very often, because it’s just an incredibly complex open-source 3D creation software. I used to work a lot with 3D in my first job (3ds max, Maya, and Cinema 4D) but when I moved to the web I stopped working with 3D software regularly. But I still love it and I’m currently doing online training to learn Blender properly.
 
-### Pinterest 📱 🌐
-
-[Pinterest](https://www.pinterest.com/) is my preferred tool for inspiration, usually on the iPad. I have nearly [250 public boards](https://www.pinterest.com/kogakure/boards/) for everything that inspires me. The browsing experience is fantastic and the collection and curation of content are as easy as it gets. Pinterest has powerful tools to recognize parts of an image and search for photos showing that thing. This way it’s possible to identify nearly everything (brand, landmark, person).
-
-### Bēhance📱 🌐
+### Bēhance 📱 🌐
 
 [Bēhance](https://www.behance.net/) is the second platform I regularly browse for inspiration. The portfolios of artists and designers are of very high quality and it’s possible to remember interesting pieces on boards. You can also follow your favorite artists.
 
@@ -205,6 +205,10 @@ I use the [Wikipedia](https://www.wikipedia.org/) website and [iOS app](https://
 
 I use [Tweetbot for iOS](https://tapbots.com/tweetbot/) and [Tweetbot for Mac](https://www.tapbots.com/tweetbot/mac/) as my primary Twitter client. The Twitter feed is otherwise just too messy, unordered, and full of advertising. I don’t like Twitter in particular, but unfortunately, a lot of industry news is just published there. I mute everybody annoying instantly in Tweetbot, sometimes for a week, a month, or forever.
 
+### Minds 📱 🌐
+
+After Twitter started censoring and de-platforming people I started using [Minds](https://www.minds.com/) again. I used it in 2018 but stopped using it. But in the meantime it got so much nice new features, it can easily replace Facebook and Twitter. It’s for free speech and the people on Minds really dislike if somebody reports what somebody elses posted, just because they think it’s offensive. Only criminal things (doxing, calls to violence, etc.) will be removed. If you don’t like somebody, just block them. I post recommendations on [my profile](https://www.minds.com/kogakure/).
+
 ### Mastodon 📱 🌐
 
 I wish more people would use [Mastodon](https://joinmastodon.org/) because it’s much nicer, friendlier, and _decentralised_. Nobody owns it, nobody can control it or cash it and nobody can silence people. There are hundreds of instances talking to each other.
@@ -233,27 +237,31 @@ I use [Slack](https://slack.com/) mostly at work. I also have my account but use
 
 I use Apple Mail on Desktop to connect to my work email on an Exchange server and my ProtonMail server via the [ProtonMail Bridge](https://protonmail.com/bridge/).
 
+### Signal 📱 🖥
+
+[Signal](https://www.signal.org/) is a messenger I use just with co-workers and friends. It the messenger with the most security and privacy. Additionally, it’s open source, and no malicious code can be sneaked into it by some government or privat entity. After deleting WhatsApp it’s my favorite messenger to communicate across different platforms.
+
 ### Telegram 📱 🖥
 
-[Telegram](https://telegram.org/) I use just with my co-workers and friends. It the messenger with the nicest features. You can edit a send text and fix errors, create public or private chat rooms and encrypt your communication (unfortunately not the default setting, so people don’t do it often).
-
-### Keybase 📱 🖥
-
-[Keybase](https://keybase.io/) is a nice and free end-to-end encrypted messenger, file-sharing, group chat, and profile tool. Everything is end-to-end encrypted by default. You can share files between users or groups, or the [public](https://keybase.pub/kogakure/), or even host a [website](https://kogakure.keybase.pub/).
+[Telegram](https://telegram.org/) is a messenger I use just with co-workers and friends. A nice thing is your profile can have a link you share with unknown people to contact you. It the messenger with the nicest features. You can edit a send text and fix errors, create public or private chat rooms and encrypt your communication (unfortunately not the default setting, so people don’t do it often).
 
 You can use encrypted Git repositories and link and validate your [profile](https://keybase.io/kogakure) with a bunch of external services. You can send messages that auto-delete and even send messages to users not yet on Keybase.
 
-### Riot 📱 🖥
+### Element 📱 🖥 🌐
 
-[Riot](https://about.riot.im/) is the official messenger of [Matrix](https://matrix.org/). It’s an open network for secure, decentralized communication.
+[Element](https://element.io/) is the official messenger of [Matrix](https://matrix.org/). It’s an open network for secure, decentralized communication.
 
 It has grown over the last years and I hope it will win the messenger wars one day. With corporations trying to control the ecosystem or governments to weaken encryption, free internet and free communication must move to a decentralized messenger. The messenger is as powerful and feature-rich as Slack, but completely free.
 
-A lot of big companies (as a recent example Mozilla) move their communication to a self-hosted instance of Matrix. And every instance can communicate with all other instances.
+A lot of big companies (as a recent example Mozilla) move their communication to a self-hosted instance of Matrix. The French governement, German military, and a lot of Germanies universities use it. Every instance can communicate with all other instances.
 
 Matrix even allows bridges, to communicate with a user of Slack, Apple Messenger, Facebook Messenger, Telegram, or similar. The bridges are still early development but the future for Matrix looks good.
 
 You can contact me on [@kogakure:matrix.org](https://matrix.to/#/@kogakure:matrix.org).
+
+### Session 📱 🖥
+
+[Session](https://getsession.org/) is a new messenger with an interesting security model. It collects no meta data. Not even your phone number or email. You are completely anonymous. The first time you use it you get a session key. You can save a backup for this session to restore it on another device. To contact another person all you need is have the public session key. The chat is routed through a onion routing network which makes it nearly impossible to leave any footprint. It’s open source and censorship resitant. My public key is `05f4473f1b7b4ea42c3471453c42665142aa295d3c3d9d31b8e8d05780237ff540`.
 
 ### Jitsi Meet 📱 🌐
 
@@ -261,21 +269,25 @@ Another nice open-source tool for video chat is [Jitsi](https://meet.jit.si/). I
 
 ## Browser
 
+### Brave Browser 📱 🖥
+
+My primary browser is [Brave](https://brave.com/). It has the same engine as Chrome, but ad-blocking and tracker-blocking are included by default. It blocks fingerprinting, a way to track you across the internet. Brave is eager to implement new features, for example crypto wallets or the [IPFS](https://ipfs.io/) peer-to-peer protocol. Plus: It supports all Chrome extensions.
+
 ### Firefox (Developer Edition) 📱 🖥
 
-My default browser is [Firefox Developer Edition](https://www.mozilla.org/firefox/developer/). I simply love the features of Firefox. The developer experience is fantastic and I like in particular the bookmarking system (this sucks with other browsers). Firefox supports tags and has a nice bookmark bar to quickly filter and search bookmarks.
+My secondary browser is [Firefox Developer Edition](https://www.mozilla.org/firefox/developer/). I simply love the features of Firefox. The developer experience is fantastic and I like in particular the bookmarking system (this sucks with other browsers). Firefox supports tags and has a nice bookmark bar to quickly filter and search bookmarks.
 
 Also, Mozilla has privacy as a much higher priority than Google. Google works actively on ways to prevent ad-blocking while Mozilla blocks trackers by default and also allows and provides all kinds of additional privacy tools (like container tabs). I also use [Firefox Mobile](https://www.mozilla.org/de/firefox/mobile/) as my browser on mobile.
 
-### Brave Browser 📱 🖥
-
-My secondary browser is [Brave](https://brave.com/). It has the same engine as Chrome, but ad-blocking is included by default. Plus: It supports all Chrome extensions.
-
 ## Media
 
-### Spotify 📱 🖥
+### Apple Music 📱 🖥
 
-I use [Spotify](https://www.spotify.com/) (Premium) as my only music streaming service. I stream Spotify music to my five Sonos boxes around my home and use it to wake me up, do workouts or relax on the sofa.
+I use [Apple Music](https://www.apple.com/apple-music/) as my only music streaming service. I stream music to my five Sonos boxes around my home and use it to wake me up, do workouts or relax on the sofa. I used Spotify before, but they started de-platforming podcasts, they don’t agree with and I don’t support this behavior.
+
+### Apple Podcast 📱 🖥
+
+To listen to podcasts I use [Apple Podcasts](https://apps.apple.com/app/apple-podcasts/id525463029). I like how it’s integrated with all my devices.
 
 ### Sonos 📱 🖥
 
@@ -313,10 +325,6 @@ The second streaming service I use is [Amazon Prime Video](https://www.primevide
 
 I also use [Google Photos](https://photos.google.com/) to backup all my photos from the mobile devices and have them also in the browser. Also as the space is free I save everything image into Google Photos, not just photos.
 
-### Apple Podcasts 📱 🖥
-
-[Apple Podcasts](https://apps.apple.com/app/apple-podcasts/id525463029) is my default app for Podcasts. There are better apps available, but this app syncs across all of my devices. I don’t listen very often to Podcasts, mostly just during doing chores.
-
 ### QuickTime Player 🖥
 
 [QuickTime](https://support.apple.com/downloads/quicktime) is a nice player and it’s the default on a Mac. Not much more to say. I also quickly record screencasts with it. It’s quicker and easier than recording with apps like _ScreenFlow_.
@@ -351,7 +359,7 @@ I use [Shazam](https://www.shazam.com/) only for one case: To recognize songs an
 
 ### Duolingo 📱 🌐
 
-I love [Duolingo](https://adguard.com/)! I learn on Duolingo without missing one day for more than 2 years now. It’s an intuitive and fun way of learning. And it’s free! I started switching to **Plus** recently which removes advertising, adds offline support and streak repair. I learn [Japanese](https://www.duolingo.com/enroll/ja/en/Learn-Japanese) and [Spanish](https://www.duolingo.com/enroll/es/en/Learn-Spanish) every day. They also have really good [Podcasts](https://podcast.duolingo.com/) for Spanish and French, [Stories](https://stories.duolingo.com/), Progress Quiz, Leagues, and much more.
+I love [Duolingo](https://www.duolingo.com/)! I learn on Duolingo without missing one day for more than 2 years now. It’s an intuitive and fun way of learning. And it’s free! I started switching to **Plus** recently which removes advertising, adds offline support and streak repair. I learn [Japanese](https://www.duolingo.com/enroll/ja/en/Learn-Japanese) and [Spanish](https://www.duolingo.com/enroll/es/en/Learn-Spanish) every day. They also have really good [Podcasts](https://podcast.duolingo.com/) for Spanish and French, [Stories](https://stories.duolingo.com/), Progress Quiz, Leagues, and much more.
 
 ### TinyCards 📱 🌐
 
@@ -453,7 +461,7 @@ I use the [Netatmo](https://www.netatmo.com/) weather app to monitor the tempera
 
 ## Tools
 
-### Hue📱 🖥
+### Hue 📱 🖥
 
 I use the [Philips Hue](https://apps.apple.com/app/philips-hue/id1055281310) app to control the light in my home. Nearly all of my light bulbs are now from Hue and I automate a lot of my light cycles. I turn on light automatically on when the dusk starts and wake me up with lights during wintertime. I also dim down my lights every day at the same time and shut them off at the same time. As I always follow the same routine this works quite nicely. I also use multiple different switches and Siri to control the light around my home manually. I even use an [Alfred workflow](https://github.com/benknight/hue-alfred-workflow) to control my light directly from the computer.
 
