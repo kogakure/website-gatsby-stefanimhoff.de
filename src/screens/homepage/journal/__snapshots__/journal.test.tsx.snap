@@ -17,7 +17,7 @@ exports[`Homepage Journal renders correctly 1`] = `
   text-decoration-color: var(--colorAccent);
 }
 
-.c10 {
+.c11 {
   color: var(--colorForeground);
   font-weight: 600;
   -webkit-text-decoration-color: var(--colorForegroundSoft);
@@ -27,13 +27,13 @@ exports[`Homepage Journal renders correctly 1`] = `
   text-underline-offset: 0.1em;
 }
 
-.c10:hover,
-.c10:focus {
+.c11:hover,
+.c11:focus {
   -webkit-text-decoration-color: var(--colorAccent);
   text-decoration-color: var(--colorAccent);
 }
 
-.c6 {
+.c7 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -52,8 +52,8 @@ exports[`Homepage Journal renders correctly 1`] = `
 }
 
 a:hover .c6,
-a:active .c6,
-a:focus .c6 {
+a:active .c7,
+a:focus .c7 {
   -webkit-transform: translate3D(0.25rem,0,0);
   -ms-transform: translate3D(0.25rem,0,0);
   transform: translate3D(0.25rem,0,0);
@@ -88,7 +88,7 @@ a:focus .c6 {
   opacity: 0.5;
 }
 
-.c8 {
+.c9 {
   font-size: clamp(1.00rem,1.1vw,1.25rem);
   font-weight: 900;
   -webkit-letter-spacing: normal;
@@ -100,7 +100,7 @@ a:focus .c6 {
   margin-top: 0;
 }
 
-.c8 .autolink {
+.c9 .autolink {
   background: transparent;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -112,8 +112,8 @@ a:focus .c6 {
   vertical-align: middle;
 }
 
-.c8:hover .autolink,
-.c8:focus .autolink {
+.c9:hover .autolink,
+.c9:focus .autolink {
   opacity: 0.5;
 }
 
@@ -129,7 +129,7 @@ a:focus .c6 {
   margin-top: 0;
 }
 
-.c9 {
+.c10 {
   font-size: clamp(1.00rem,1.1vw,1.25rem);
   font-weight: 400;
   -webkit-letter-spacing: normal;
@@ -141,7 +141,7 @@ a:focus .c6 {
   margin-top: 0;
 }
 
-.c14 {
+.c15 {
   cursor: pointer;
 }
 
@@ -159,18 +159,18 @@ a:focus .c6 {
   margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
 }
 
-.c7 {
+.c8 {
   grid-column: 1 / -1;
   margin-bottom: clamp(1.44rem,3.70vw,1.728rem);
 }
 
-.c11 {
+.c12 {
   display: grid;
   gap: clamp( 1.0rem,2.14vw,1.2rem);
   grid-template-columns: repeat(auto-fill,minmax(15rem,1fr));
 }
 
-.c12 {
+.c13 {
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
@@ -198,14 +198,14 @@ a:focus .c6 {
   transition-timing-function: ease-in-out;
 }
 
-.c12:hover,
-.c12:focus {
+.c13:hover,
+.c13:focus {
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
 }
 
-.c12::after {
+.c13::after {
   box-shadow: 0 0 50px rgba(0,0,0,0.2);
   content: '';
   height: 100%;
@@ -223,12 +223,12 @@ a:focus .c6 {
   z-index: -1;
 }
 
-.c12:hover::after,
-.c12:focus::after {
+.c13:hover::after,
+.c13:focus::after {
   opacity: 1;
 }
 
-.c13 {
+.c14 {
   color: var(--colorForeground);
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
@@ -238,7 +238,7 @@ a:focus .c6 {
   text-decoration: none;
 }
 
-.c15 {
+.c16 {
   display: block;
   font-size: clamp(0.65rem,0.8vw,0.75rem);
   font-variant: small-caps;
@@ -256,7 +256,7 @@ a:focus .c6 {
 }
 
 @media screen and (prefers-reduced-motion:no-preference) {
-  .c8 .autolink {
+  .c9 .autolink {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     -webkit-transition-property: opacity;
@@ -279,13 +279,13 @@ a:focus .c6 {
 }
 
 @media (min-width:768px) {
-  .c7 {
+  .c8 {
     grid-column: 8 / -1;
   }
 }
 
 @media (min-width:768px) {
-  .c12 {
+  .c13 {
     -webkit-align-self: start;
     -ms-flex-item-align: start;
     align-self: start;
@@ -329,7 +329,7 @@ a:focus .c6 {
           >
             See all articles
             <span
-              class="c6"
+              class="c6 c7"
             >
               <svg
                 height="1em"
@@ -349,20 +349,20 @@ a:focus .c6 {
         </p>
       </div>
       <div
-        class="c7"
+        class="c8"
       >
         <h3
-          class="c8"
+          class="c9"
         >
           Subscribe
         </h3>
         <p
-          class="c9"
+          class="c10"
         >
           Stay up to date. Subscribe to my
            
           <a
-            class="c10"
+            class="c11"
             href="https://www.stefanimhoff.de/index.xml"
             rel="nofollow noopener noreferrer external"
           >
@@ -372,7 +372,7 @@ a:focus .c6 {
           and follow my link recommendations on
            
           <a
-            class="c10"
+            class="c11"
             href="https://www.minds.com/kogakure/"
             rel="nofollow noopener noreferrer external"
             target="_blank"
@@ -385,22 +385,22 @@ a:focus .c6 {
     </header>
   </div>
   <div
-    class="c11"
+    class="c12"
   >
     <article
-      class="c12"
+      class="c13"
       data-sal="slide-up"
       data-sal-duration="800"
     >
       <a
         aria-label="Post 1"
-        class="c13"
+        class="c14"
         href="/post-1"
       >
         <header>
           <time
             aria-label="Toggle date format"
-            class="c14 c15"
+            class="c15 c16"
             datetime="2020-05-31T16:00:00.000Z"
             role="button"
             tabindex="0"
@@ -408,7 +408,7 @@ a:focus .c6 {
             May 31st, 2020
           </time>
           <h3
-            class="c8"
+            class="c9"
           >
             Post 1
           </h3>
