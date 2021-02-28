@@ -11,19 +11,17 @@ Learning **Japanese** and **Spanish** every day on [Duolingo](https://www.duolin
 
 I’m reading currently these **books**:
 
-- [The Three-Body Problem](https://www.goodreads.com/book/show/20518872-the-three-body-problem)
-- [Intellectuals and Race](https://www.goodreads.com/book/show/16280863-intellectuals-and-race)
-- [Cynical Theories](https://www.goodreads.com/book/show/53052177-cynical-theories)
-- [Lives of the Stoics](https://www.goodreads.com/book/show/50484473-lives-of-the-stoics)
-- [The Narrow Road to the Deep North and Other Travel Sketches](https://www.goodreads.com/book/show/20168578-the-narrow-road-to-the-deep-north-and-other-travel-sketches)
+- [The Dark Forest](https://www.goodreads.com/book/show/23168817-the-dark-forest)
+- [The Denial of Death](https://www.goodreads.com/book/show/2761.The_Denial_of_Death)
+- [The Hero with a Thousand Faces](https://www.goodreads.com/book/show/2617434-the-hero-with-a-thousand-faces)
 
 ---
 
 I’m working with the [Zettelkasten](https://zettelkasten.de/) note-taking method. These are some statistics:
 
-- **847** notes
-- **148** bibliography entries
+- **933** notes
+- **156** bibliography entries
 
 ---
 
-This is a [Now Page](https://nownownow.com/). Last updated on **January 21st, 2021**.
+This is a [Now Page](https://nownownow.com/). Last updated on **January 28st, 2021**.
