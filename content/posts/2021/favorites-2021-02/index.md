@@ -115,7 +115,7 @@ Now, being fat is beautiful? Name a thing that you can’t do? Jumping Jacks, ru
 ## TV Shows
 
 - [The A-Team](https://www.themoviedb.org/tv/1516-the-a-team) <Flag label="3" /> <Flag label="4" /> <PrimeVideoFlag id="B01MU551FX" />
-- [Miami Vice](https://www.themoviedb.org/tv/1908-miami-vice) <Flag label="1" />
+- [Miami Vice](https://www.themoviedb.org/tv/1908-miami-vice) <Flag label="1" /> <PrimeVideoFlag id="B01GR4WE7Y" />
 - [Age of Samurai: Battle for Japan](https://www.themoviedb.org/tv/93736-age-of-samurai-battle-for-japan) <Flag label="1" /> <NetflixFlag id="80237990" /> – That’s a damn good documentary about [Sengoku Jidai](https://en.wikipedia.org/wiki/Sengoku_period). Famous historians, good camera work, actors, and artwork.
 
 ## Movies
