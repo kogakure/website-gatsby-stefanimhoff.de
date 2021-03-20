@@ -6,6 +6,7 @@ const Button = styled.button`
   cursor: pointer;
   font-size: 0;
   height: 25px;
+  outline: 0;
   width: 25px;
 `;
 
