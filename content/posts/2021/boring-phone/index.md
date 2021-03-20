@@ -21,7 +21,7 @@ My main issue with this trick is that the devices have a lot of helpful apps and
 
 I’ve seen people moving the apps to another screen or a folder labeled “Addict” (Joe Rogan), or switch the display to grey instead of colors and tried out all these tricks.
 
-It helped a lot when Apple introduced the app screen for iPhone. This allowed me to remove addicting apps from the home screens, but unfortunately, they introduced at the same time these _clever_ folders that automatically cluster apps by topic together and show the three most-used apps per topic bigger. This is not helpful to reduce addiction, because the most used apps are likely always in the _click me easy_ section.
+It helped a lot when Apple introduced the app drawer for iPhone. This allowed me to remove addicting apps from the home screen. But unfortunately, they introduced at the same time these _clever_ folders that automatically cluster apps by topic together and show the three most-used apps per topic bigger. This is not helpful to reduce addiction, because the most used apps are likely always directly clickable.
 
 ## Bye, Native Apps, Hello Browser
 
