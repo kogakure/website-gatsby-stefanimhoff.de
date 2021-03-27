@@ -6,6 +6,7 @@ author: Stefan Imhoff
 description: A list of all the things I enjoyed in December 2019.
 categories:
   - monthly
+  - links
 ---
 
 <Blockquote author="Helmuth Karl Bernhard Graf von Moltke" source="Donnybrook: The Battle of Bull Run, 1861 (2005) by David Detzer, p. 233">

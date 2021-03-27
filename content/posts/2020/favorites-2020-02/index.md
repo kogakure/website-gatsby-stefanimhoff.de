@@ -6,6 +6,7 @@ author: Stefan Imhoff
 description: A list of all the things I enjoyed in February 2020.
 categories:
   - monthly
+  - links
 ---
 
 <Blockquote author="Otto von Bismarck">

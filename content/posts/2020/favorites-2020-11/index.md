@@ -6,6 +6,7 @@ author: Stefan Imhoff
 description: A list of all the things I enjoyed in November 2020.
 categories:
   - monthly
+  - links
 ---
 
 <Blockquote author="Douglas Murray" source="The Portal: 41: Douglas Murray – Heroism 2020: Defense of Our Own Civilization, 50:00" sourceUrl="https://podcasts.apple.com/de/podcast/the-portal/id1469999563?i=1000495880717">

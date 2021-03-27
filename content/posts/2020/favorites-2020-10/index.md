@@ -6,6 +6,7 @@ author: Stefan Imhoff
 description: A list of all the things I enjoyed in October 2020.
 categories:
   - monthly
+  - links
 ---
 
 <Blockquote source="Metal Gear Solid 2: Sons of Liberty, 2001">

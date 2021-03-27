@@ -6,6 +6,7 @@ author: Stefan Imhoff
 description: A list of all the things I enjoyed in January 2021.
 categories:
   - monthly
+  - links
 ---
 
 <Blockquote author="Thomas Sowell">

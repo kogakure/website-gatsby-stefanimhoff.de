@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { mediaQuery } from '../../../layout/tokens';
 
-const Monthly = styled.div`
+const Links = styled.div`
   grid-column: 2 / -2;
   grid-row: 4;
 
@@ -14,5 +14,5 @@ const Monthly = styled.div`
 `;
 
 export const Styled = {
-  Monthly,
+  Links,
 };

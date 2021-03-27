@@ -6,6 +6,7 @@ author: Stefan Imhoff
 description: A list of all the things I enjoyed in August 2019.
 categories:
   - monthly
+  - links
 ---
 
 I’m trying out a new format: A _monthly_ blog post, including all links, articles, videos, books, products, or other things I liked in the month.

@@ -6,6 +6,7 @@ author: Stefan Imhoff
 description: A list of all the things I enjoyed in November 2019.
 categories:
   - monthly
+  - links
 ---
 
 <Blockquote author="Marcus Aurelius" source="Meditations, 6.37">

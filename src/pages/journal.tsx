@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Layout, ContentGrid, SEO } from '../layout';
-import { AllPosts, Introduction, Monthly, Title } from '../screens/journal';
+import { AllPosts, Introduction, Links, Title } from '../screens/journal';
 
 const JournalPage = () => (
   <Layout>
@@ -9,7 +9,7 @@ const JournalPage = () => (
     <ContentGrid rowGap size="fullsize">
       <Title />
       <Introduction />
-      <Monthly />
+      <Links />
       <AllPosts />
     </ContentGrid>
   </Layout>

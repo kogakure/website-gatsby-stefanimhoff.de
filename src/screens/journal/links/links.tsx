@@ -1,22 +1,22 @@
 import * as React from 'react';
 
-import { useMonthlyJournalPostsQuery } from '../../../hooks';
+import { useLinkPostsQuery } from '../../../hooks';
 import { Emojify } from '../../../layout';
 import { Headline } from '../../../components/typography';
 import { UnorderedList } from '../../../components/unordered-list';
 import { TextLink } from '../../../components/text-link';
 
-import { Styled } from './monthly.styles';
+import { Styled } from './links.styles';
 
-export const Monthly = () => {
+export const Links = () => {
   const {
-    allMonthlyJournalPosts: { edges },
-  } = useMonthlyJournalPostsQuery();
+    allLinkPosts: { edges },
+  } = useLinkPostsQuery();
 
   return (
-    <Styled.Monthly>
+    <Styled.Links>
       <Headline data-sal="slide-up" data-sal-duration="800">
-        Monthly Favorites
+        Links
         <Emojify emoji="❤️" />
       </Headline>
       <UnorderedList noMargin>
@@ -30,6 +30,6 @@ export const Monthly = () => {
           </li>
         ))}
       </UnorderedList>
-    </Styled.Monthly>
+    </Styled.Links>
   );
 };

@@ -6,6 +6,7 @@ author: Stefan Imhoff
 description: A list of all the things I enjoyed in October 2019.
 categories:
   - monthly
+  - links
 ---
 
 <Blockquote author="Jules Supervielle" source="Dieu Pense à l'Homme (God Thinks of Man)">

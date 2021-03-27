@@ -6,6 +6,7 @@ author: Stefan Imhoff
 description: A list of all the things I enjoyed in March 2020.
 categories:
   - monthly
+  - links
 ---
 
 <Blockquote author="L. R. Knost">

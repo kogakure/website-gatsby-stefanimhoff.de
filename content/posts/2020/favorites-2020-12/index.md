@@ -6,6 +6,7 @@ author: Stefan Imhoff
 description: A list of all the things I enjoyed in December 2020.
 categories:
   - monthly
+  - links
 ---
 
 <Blockquote author="Mark Twain">

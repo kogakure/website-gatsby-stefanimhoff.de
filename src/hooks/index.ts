@@ -4,6 +4,6 @@ export * from './use-haiku-query';
 export * from './use-homepage-journal-posts-query';
 export * from './use-japanese-color-query';
 export * from './use-layout-query';
-export * from './use-monthly-journal-posts-query';
+export * from './use-link-posts-query';
 export * from './use-site-metadata-query';
 export * from './use-social-media-query';

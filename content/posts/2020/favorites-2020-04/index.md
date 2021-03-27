@@ -6,6 +6,7 @@ author: Stefan Imhoff
 description: A list of all the things I enjoyed in April 2020.
 categories:
   - monthly
+  - links
 ---
 
 <Blockquote author="Virgil" source="The Aeneid, Book X, Verse 467">

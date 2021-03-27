@@ -6,6 +6,7 @@ author: Stefan Imhoff
 description: A list of all the things I enjoyed in September 2019.
 categories:
   - monthly
+  - links
 ---
 
 <Blockquote author="Marcus Aurelius" source="The Meditations, 9.6">

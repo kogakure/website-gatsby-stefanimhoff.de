@@ -6,6 +6,7 @@ author: Stefan Imhoff
 description: A list of all the things I enjoyed in January 2020.
 categories:
   - monthly
+  - links
 ---
 
 <Blockquote author="Benjamin Franklin">

@@ -1,5 +1,5 @@
 import { JournalPost } from '.';
 
-export type MonthlyJournalPostsQueryData = {
-  allMonthlyJournalPosts: JournalPost;
+export type LinkPostsQueryData = {
+  allLinkPosts: JournalPost;
 };

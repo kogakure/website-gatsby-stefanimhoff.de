@@ -4,12 +4,12 @@ import * as Gatsby from 'gatsby';
 
 import { render } from '../../../services/test-utils';
 
-import { Monthly } from '.';
+import { Links } from '.';
 
 const useStaticQuery = jest.spyOn(Gatsby, 'useStaticQuery');
 
 useStaticQuery.mockImplementation(() => ({
-  allMonthlyJournalPosts: {
+  allLinkPosts: {
     edges: [
       {
         node: {
@@ -26,15 +26,15 @@ useStaticQuery.mockImplementation(() => ({
 }));
 
 describe('Journal', () => {
-  describe('Monthly', () => {
+  describe('Links', () => {
     test('renders correctly', () => {
-      const { container } = render(<Monthly />);
+      const { container } = render(<Links />);
 
       expect(container.firstChild).toMatchSnapshot();
     });
 
     test('is accessible', async () => {
-      const { container } = render(<Monthly />);
+      const { container } = render(<Links />);
       const results = await axe(container);
 
       expect(results).toHaveNoViolations();

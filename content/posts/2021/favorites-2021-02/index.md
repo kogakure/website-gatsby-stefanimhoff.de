@@ -6,6 +6,7 @@ author: Stefan Imhoff
 description: A list of all the things I enjoyed in February 2021.
 categories:
   - monthly
+  - links
 ---
 
 <Blockquote author="Tom MacDonald" source="People So Stupid, 0:18" sourceUrl="https://youtu.be/I6FmwBPDT-w?t=18">

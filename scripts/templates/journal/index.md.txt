@@ -15,6 +15,7 @@ categories:
   - download
   - film
   - health
+  - links
   - minimalism
   - monthly
   - personal
