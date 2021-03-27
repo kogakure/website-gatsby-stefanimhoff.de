@@ -3,29 +3,11 @@ published: true
 title: {{titleCase title}}
 date: {{date}}
 author: Stefan Imhoff
-description: 
-attribution:
-  - author: Author
-    title: Title
-    url: # 
+description: {{description}}
 categories:
-  - book
-  - code
-  - design
-  - download
-  - film
-  - health
-  - links
-  - minimalism
-  - monthly
-  - personal
-  - productivity
-  - publication
-  - quote
-  - self-improvement
-  - software
-  - tip
-  - typography
+{{#each tags}}
+  - {{.}}
+{{/each}}
 ---
 
 Hello World!

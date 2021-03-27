@@ -1,0 +1,11 @@
+---
+published: true
+title: Links W{{week}} {{year}}
+date: {{date}}
+author: Stefan Imhoff
+description: The best links of week {{week}} {{year}}
+categories:
+  - links
+---
+
+- Link
