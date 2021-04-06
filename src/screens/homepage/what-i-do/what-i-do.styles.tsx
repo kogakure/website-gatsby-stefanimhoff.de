@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { mediaQuery, space } from '../../../layout/tokens';
+import { mediaQuery } from '../../../layout/tokens';
 
 const WhatIDo = styled.div`
   grid-column: 2 / -2;
