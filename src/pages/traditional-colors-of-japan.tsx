@@ -10,7 +10,7 @@ import {
 
 const TraditionalColorsOfJapanPage = () => (
   <Layout homeTo="/projects/" size="regular">
-    <SEO title="The Traditional lColors of Japan" />
+    <SEO title="The Traditional Colors of Japan" />
     <ContentGrid rowGap size="regular">
       <Title />
       <Introduction />
